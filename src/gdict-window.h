@@ -51,6 +51,8 @@ struct _GdictWindow
   GtkWidget *header_bar;
   GtkWidget *main_box;
   GtkWidget *entry;
+  GtkWidget *spinner;
+  GtkWidget *stack;
   
   /* sidebar widgets */
   GtkWidget *speller;

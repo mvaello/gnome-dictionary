@@ -235,6 +235,10 @@ gdict_window_lookup_start_cb (GdictContext *context,
   window->current_definition = 0;
 
   gdk_window_set_cursor (gtk_widget_get_window (GTK_WIDGET (window)), window->busy_cursor);
+
+  gtk_spinner_start (GTK_SPINNER (window->spinner));
+  gtk_widget_show (window->spinner);
+  gtk_stack_set_visible_child_name (GTK_STACK (window->stack), "spinner");
 }
 
 static void
@@ -275,6 +279,10 @@ gdict_window_lookup_end_cb (GdictContext *context,
 
   gdk_window_set_cursor (gtk_widget_get_window (GTK_WIDGET (window)), NULL);
 
+  gtk_stack_set_visible_child_name (GTK_STACK (window->stack), "main");
+  gtk_spinner_stop (GTK_SPINNER (window->spinner));
+  gtk_widget_hide (window->spinner);
+
   if (count == 0)
     {
       g_free (window->word);
@@ -290,6 +298,10 @@ gdict_window_error_cb (GdictContext *context,
 		       GdictWindow  *window)
 {
   gdk_window_set_cursor (gtk_widget_get_window (GTK_WIDGET (window)), NULL);
+
+  gtk_stack_set_visible_child_name (GTK_STACK (window->stack), "main");
+  gtk_spinner_stop (GTK_SPINNER (window->spinner));
+  gtk_widget_hide (window->spinner);
   
   /* launch the speller only on NO_MATCH */
   if (error->code == GDICT_CONTEXT_ERROR_NO_MATCH)
@@ -1683,6 +1695,8 @@ gdict_window_class_init (GdictWindowClass *klass)
   gtk_widget_class_bind_template_child (widget_class, GdictWindow, header_bar);
   gtk_widget_class_bind_template_child (widget_class, GdictWindow, entry);
   gtk_widget_class_bind_template_child (widget_class, GdictWindow, main_box);
+  gtk_widget_class_bind_template_child (widget_class, GdictWindow, spinner);
+  gtk_widget_class_bind_template_child (widget_class, GdictWindow, stack);
 
   gdict_window_properties[PROP_ACTION] =
     g_param_spec_enum ("action",
