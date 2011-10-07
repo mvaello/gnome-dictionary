@@ -1,12 +1,13 @@
 # List of source files containing translatable strings.
 # Please keep this file sorted alphabetically.
 data/default.desktop.in
-data/spanish.desktop.in
-data/thai.desktop.in
+data/french.desktop.in
 data/gnome-dictionary.desktop.in.in
-data/org.gnome.dictionary.gschema.xml.in.in
 [type: gettext/glade]data/gnome-dictionary-preferences.ui
 [type: gettext/glade]data/gnome-dictionary-source.ui
+data/org.gnome.dictionary.gschema.xml.in.in
+data/spanish.desktop.in
+data/thai.desktop.in
 libgdict/gdict-client-context.c
 libgdict/gdict-context.c
 libgdict/gdict-database-chooser.c
