@@ -6,33 +6,32 @@
 # Tomas Kuliavas <tokul@users.sourceforge.net>, 2003.
 # Žygimantas Beručka <zygis@gnome.org>, 2003-2006, 2009, 2010.
 # Gintautas Miliauskas <gintas@akl.lt>, 2006, 2007, 2008.
+# Algimantas Margevičius <gymka@mail.ru>, 2011.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: lt\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-10-06 14:35-0400\n"
-"PO-Revision-Date: 2011-09-03 23:26+0300\n"
-"Last-Translator: Aurimas Černius <aurisc4@gmail.com>\n"
-"Language-Team: Lithuanian <gnome-lt@lists.akl.lt>\n"
-"Language: lt\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
+"dictionary&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2011-10-07 11:41+0000\n"
+"PO-Revision-Date: 2011-10-08 19:52+0300\n"
+"Last-Translator: Algimantas Margevičius <gymka@mail.ru>\n"
+"Language-Team: Lietuvių <>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n"
-"%100<10 || n%100>=20) ? 1 : 2);\n"
+"Content-Transfer-Encoding: 8bits\n"
+"Language: lt\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%"
+"100<10 || n%100>=20) ? 1 : 2)\n"
 "X-Generator: Virtaal 0.5.2\n"
 
 #: ../data/default.desktop.in.h:1
 msgid "Default Dictionary Server"
 msgstr "Numatytasis žodyno serveris"
 
-#: ../data/spanish.desktop.in.h:1
-msgid "Spanish Dictionaries"
-msgstr "Ispaniški žodynai"
-
-#: ../data/thai.desktop.in.h:1
-msgid "Longdo Thai-English Dictionaries"
-msgstr "Longdo tailandiečių-anglų kalbų žodynai"
+#: ../data/french.desktop.in.h:1
+msgid "French Dictionaries from Wikipedia"
+msgstr "Prancūzų žodynai iš Wikipedia"
 
 #: ../data/gnome-dictionary.desktop.in.in.h:1
 msgid "Check word definitions and spellings in an online dictionary"
@@ -42,50 +41,6 @@ msgstr "Pasitikrinkite žodžių apibrėžimus ir rašybą internetiniame žodyn
 #: ../src/gdict-app.c:233 ../src/gdict-window.c:601 ../src/gdict-window.c:1894
 msgid "Dictionary"
 msgstr "Žodynas"
-
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:1
-msgid "The default database to use"
-msgstr "Numatytoji duomenų bazė"
-
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:2
-msgid "The default search strategy to use"
-msgstr "Numatytoji paieškos strategija"
-
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:3
-msgid "The font to be used when printing"
-msgstr "Šriftas, naudojamas spausdinant"
-
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:4
-msgid "The font to be used when printing a definition."
-msgstr "Šriftas, naudojamas spausdinant apibrėžimą."
-
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:5
-msgid ""
-"The name of the default individual database or meta-database to use on a "
-"dictionary source. An exclamation mark (\"!\") means that all the databases "
-"present in a dictionary source should be searched"
-msgstr ""
-"Numatytosios žodyno šaltinyje naudojamos individualios duomenų bazės ar "
-"metaduomenų bazės pavadinimas. Šauktukas („!“) reiškia, kad turėtų būti "
-"ieškoma visose žodyno šaltinyje esančiose duomenų bazėse"
-
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:6
-msgid ""
-"The name of the default search strategy to use on a dictionary source, if "
-"available. The default strategy is 'exact', that is match exact words."
-msgstr ""
-"Numatytosios paieškos strategijos (jei tokia prieinama) naudojamos žodyno "
-"šaltinyje pavadinimas. Numatytoji strategija yra „exact“, t.y. atitikti "
-"tikslius žodžius."
-
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:7
-msgid "The name of the dictionary source used"
-msgstr "Naudojamo žodyno šaltinio vardas"
-
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:8
-msgid ""
-"The name of the dictionary source used to retrieve the definitions of words."
-msgstr "Žodyno šaltinio, naudojamo gauti žodžių apibrėžimus, vardas."
 
 #: ../data/gnome-dictionary-preferences.ui.h:1
 msgid "Print"
@@ -131,6 +86,58 @@ msgstr "_Prievadas:"
 #: ../data/gnome-dictionary-source.ui.h:8
 msgid "_Transport:"
 msgstr "_Transportas:"
+
+#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:1
+msgid "The default database to use"
+msgstr "Numatytoji duomenų bazė"
+
+#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:2
+msgid "The default search strategy to use"
+msgstr "Numatytoji paieškos strategija"
+
+#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:3
+msgid "The font to be used when printing"
+msgstr "Šriftas, naudojamas spausdinant"
+
+#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:4
+msgid "The font to be used when printing a definition."
+msgstr "Šriftas, naudojamas spausdinant apibrėžimą."
+
+#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:5
+msgid ""
+"The name of the default individual database or meta-database to use on a "
+"dictionary source. An exclamation mark (\"!\") means that all the databases "
+"present in a dictionary source should be searched"
+msgstr ""
+"Numatytosios žodyno šaltinyje naudojamos individualios duomenų bazės ar "
+"metaduomenų bazės pavadinimas. Šauktukas („!“) reiškia, kad turėtų būti "
+"ieškoma visose žodyno šaltinyje esančiose duomenų bazėse"
+
+#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:6
+msgid ""
+"The name of the default search strategy to use on a dictionary source, if "
+"available. The default strategy is 'exact', that is match exact words."
+msgstr ""
+"Numatytosios paieškos strategijos (jei tokia prieinama) naudojamos žodyno "
+"šaltinyje pavadinimas. Numatytoji strategija yra „exact“, t.y. atitikti "
+"tikslius žodžius."
+
+#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:7
+msgid "The name of the dictionary source used"
+msgstr "Naudojamo žodyno šaltinio vardas"
+
+#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:8
+msgid ""
+"The name of the dictionary source used to retrieve the definitions of words."
+msgstr "Žodyno šaltinio, naudojamo gauti žodžių apibrėžimus, vardas."
+
+#: ../data/spanish.desktop.in.h:1
+msgid "Spanish Dictionaries"
+msgstr "Ispaniški žodynai"
+
+#: ../data/thai.desktop.in.h:1
+msgid "Longdo Thai-English Dictionaries"
+msgstr "Longdo tailandiečių-anglų kalbų žodynai"
 
 #: ../libgdict/gdict-client-context.c:283
 msgid "Client Name"
