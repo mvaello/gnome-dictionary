@@ -15,15 +15,16 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-utils.master\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-10-06 14:35-0400\n"
-"PO-Revision-Date: 2011-09-14 17:43+0200\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
+"dictionary&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2011-10-07 11:41+0000\n"
+"PO-Revision-Date: 2011-10-09 11:45+0200\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
 "Language-Team: Español <gnome-es-list@gnome.org>\n"
-"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: \n"
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
@@ -31,13 +32,9 @@ msgstr ""
 msgid "Default Dictionary Server"
 msgstr "Servidor de diccionario predeterminado"
 
-#: ../data/spanish.desktop.in.h:1
-msgid "Spanish Dictionaries"
-msgstr "Diccionario de español"
-
-#: ../data/thai.desktop.in.h:1
-msgid "Longdo Thai-English Dictionaries"
-msgstr "Diccionario Longdo Tailandés-Inglés"
+#: ../data/french.desktop.in.h:1
+msgid "French Dictionaries from Wikipedia"
+msgstr "Diccionarios de francés de la Wikipedia"
 
 #: ../data/gnome-dictionary.desktop.in.in.h:1
 msgid "Check word definitions and spellings in an online dictionary"
@@ -48,6 +45,51 @@ msgstr ""
 #: ../src/gdict-app.c:233 ../src/gdict-window.c:601 ../src/gdict-window.c:1894
 msgid "Dictionary"
 msgstr "Diccionario"
+
+#: ../data/gnome-dictionary-preferences.ui.h:1
+msgid "Print"
+msgstr "Imprimir"
+
+#: ../data/gnome-dictionary-preferences.ui.h:2
+#: ../data/gnome-dictionary-source.ui.h:3
+msgid "Source"
+msgstr "Fuente"
+
+#: ../data/gnome-dictionary-preferences.ui.h:3
+msgid "_Print font:"
+msgstr "Tipografía de _impresión:"
+
+#: ../data/gnome-dictionary-preferences.ui.h:4
+msgid "_Select a dictionary source for looking up words:"
+msgstr "_Seleccione una fuente de diccionarios para buscar palabras:"
+
+#: ../data/gnome-dictionary-source.ui.h:1
+msgid "Dictionaries"
+msgstr "Diccionarios"
+
+#: ../data/gnome-dictionary-source.ui.h:2
+msgid "H_ostname:"
+msgstr "_Servidor:"
+
+#: ../data/gnome-dictionary-source.ui.h:4
+msgid "Source Name"
+msgstr "Nombre de la fuente"
+
+#: ../data/gnome-dictionary-source.ui.h:5
+msgid "Strategies"
+msgstr "Estrategias"
+
+#: ../data/gnome-dictionary-source.ui.h:6
+msgid "_Description:"
+msgstr "_Descripción:"
+
+#: ../data/gnome-dictionary-source.ui.h:7
+msgid "_Port:"
+msgstr "_Puerto:"
+
+#: ../data/gnome-dictionary-source.ui.h:8
+msgid "_Transport:"
+msgstr "_Transporte:"
 
 #: ../data/org.gnome.dictionary.gschema.xml.in.in.h:1
 msgid "The default database to use"
@@ -95,50 +137,13 @@ msgstr ""
 "El nombre de la fuente de diccionarios usada para obtener las definiciones "
 "de las palabras."
 
-#: ../data/gnome-dictionary-preferences.ui.h:1
-msgid "Print"
-msgstr "Imprimir"
+#: ../data/spanish.desktop.in.h:1
+msgid "Spanish Dictionaries"
+msgstr "Diccionario de español"
 
-#: ../data/gnome-dictionary-preferences.ui.h:2
-#: ../data/gnome-dictionary-source.ui.h:3
-msgid "Source"
-msgstr "Fuente"
-
-#: ../data/gnome-dictionary-preferences.ui.h:3
-msgid "_Print font:"
-msgstr "Tipografía de _impresión:"
-
-#: ../data/gnome-dictionary-preferences.ui.h:4
-msgid "_Select a dictionary source for looking up words:"
-msgstr "_Seleccione una fuente de diccionarios para buscar palabras:"
-
-#: ../data/gnome-dictionary-source.ui.h:1
-msgid "Dictionaries"
-msgstr "Diccionarios"
-
-#: ../data/gnome-dictionary-source.ui.h:2
-msgid "H_ostname:"
-msgstr "_Servidor:"
-
-#: ../data/gnome-dictionary-source.ui.h:4
-msgid "Source Name"
-msgstr "Nombre de la fuente"
-
-#: ../data/gnome-dictionary-source.ui.h:5
-msgid "Strategies"
-msgstr "Estrategias"
-
-#: ../data/gnome-dictionary-source.ui.h:6
-msgid "_Description:"
-msgstr "_Descripción:"
-
-#: ../data/gnome-dictionary-source.ui.h:7
-msgid "_Port:"
-msgstr "_Puerto:"
-
-#: ../data/gnome-dictionary-source.ui.h:8
-msgid "_Transport:"
-msgstr "_Transporte:"
+#: ../data/thai.desktop.in.h:1
+msgid "Longdo Thai-English Dictionaries"
+msgstr "Diccionario Longdo Tailandés-Inglés"
 
 #: ../libgdict/gdict-client-context.c:283
 msgid "Client Name"
@@ -220,17 +225,17 @@ msgstr "No se encontraron definiciones para «%s»"
 #: ../libgdict/gdict-client-context.c:1240
 #, c-format
 msgid "Invalid database '%s'"
-msgstr "Base de datos inválida «%s»"
+msgstr "Base de datos no válida «%s»"
 
 #: ../libgdict/gdict-client-context.c:1255
 #, c-format
 msgid "Invalid strategy '%s'"
-msgstr "Estrategia inválida «%s»"
+msgstr "Estrategia no válida «%s»"
 
 #: ../libgdict/gdict-client-context.c:1270
 #, c-format
 msgid "Bad command '%s'"
-msgstr "Comando inválido «%s»"
+msgstr "Comando no válido «%s»"
 
 #: ../libgdict/gdict-client-context.c:1285
 #, c-format
@@ -401,7 +406,7 @@ msgstr "El objeto GdictContext vinculado con esta fuente"
 #: ../libgdict/gdict-source.c:413
 #, c-format
 msgid "Invalid transport type '%d'"
-msgstr "Tipo de transporte inválido «%d»"
+msgstr "Tipo de transporte no válido «%d»"
 
 #: ../libgdict/gdict-source.c:441
 #, c-format
@@ -434,7 +439,7 @@ msgstr "La fuente de diccionario no tiene nombre"
 #: ../libgdict/gdict-source.c:750
 #, c-format
 msgid "Dictionary source '%s' has invalid transport '%s'"
-msgstr "La fuente de diccionario «%s» tiene un transporte inválido «%s»"
+msgstr "La fuente de diccionario «%s» tiene un transporte no válido «%s»"
 
 #: ../libgdict/gdict-source-chooser.c:295
 msgid "Reload the list of available sources"
