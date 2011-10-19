@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-utils 2.91.x\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-10-06 14:35-0400\n"
-"PO-Revision-Date: 2011-08-10 15:24+0200\n"
+"POT-Creation-Date: 2011-10-19 22:38+0200\n"
+"PO-Revision-Date: 2011-10-19 22:38+0200\n"
 "Last-Translator: Kjartan Maraas <kmaraas@gnome.org>\n"
 "Language-Team: Norwegian Bokmål <i18n-nb@lister.ping.uio.no>\n"
 "Language: \n"
@@ -23,13 +23,9 @@ msgstr ""
 msgid "Default Dictionary Server"
 msgstr "Forvalgt ordboktjener"
 
-#: ../data/spanish.desktop.in.h:1
-msgid "Spanish Dictionaries"
-msgstr "Spanske ordbøker"
-
-#: ../data/thai.desktop.in.h:1
-msgid "Longdo Thai-English Dictionaries"
-msgstr "Longdo Thai-Engelsk-ordbøker"
+#: ../data/french.desktop.in.h:1
+msgid "French Dictionaries from Wikipedia"
+msgstr "Franske ordbøker fra Wikipedia"
 
 #: ../data/gnome-dictionary.desktop.in.in.h:1
 msgid "Check word definitions and spellings in an online dictionary"
@@ -39,49 +35,6 @@ msgstr "Sjekk orddefinisjoner og staving i en ordbok på nettet"
 #: ../src/gdict-app.c:233 ../src/gdict-window.c:601 ../src/gdict-window.c:1894
 msgid "Dictionary"
 msgstr "Ordbok"
-
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:1
-msgid "The default database to use"
-msgstr "Forvalgt database som skal brukes"
-
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:2
-msgid "The default search strategy to use"
-msgstr "Forvalgt søkestrategi som skal brukes"
-
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:3
-msgid "The font to be used when printing"
-msgstr "Skrift som skal brukes ved utskrift"
-
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:4
-msgid "The font to be used when printing a definition."
-msgstr "Skrift til bruk for utskrift av en definisjon."
-
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:5
-msgid ""
-"The name of the default individual database or meta-database to use on a "
-"dictionary source. An exclamation mark (\"!\") means that all the databases "
-"present in a dictionary source should be searched"
-msgstr ""
-"Navn på individuell database eller meta-database som skal brukes i "
-"ordboktjeneren. Et utropstegn (!) betyr at programmet skal søke i alle "
-"databaser på en gitt tjener"
-
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:6
-msgid ""
-"The name of the default search strategy to use on a dictionary source, if "
-"available. The default strategy is 'exact', that is match exact words."
-msgstr ""
-"Navnet på forvalgt søkestrategi som benyttes på en ordbokkilde, hvis "
-"tilgjengelig. Forvalgt strategi er \"exact\", det vil si identiske ord."
-
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:7
-msgid "The name of the dictionary source used"
-msgstr "Navn på brukt ordbokkilde"
-
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:8
-msgid ""
-"The name of the dictionary source used to retrieve the definitions of words."
-msgstr "Navn på ordbokkilden for henting av orddefinisjoner"
 
 #: ../data/gnome-dictionary-preferences.ui.h:1
 msgid "Print"
@@ -127,6 +80,57 @@ msgstr "_Port:"
 #: ../data/gnome-dictionary-source.ui.h:8
 msgid "_Transport:"
 msgstr "_Transport:"
+
+#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:1
+msgid "The default database to use"
+msgstr "Forvalgt database som skal brukes"
+
+#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:2
+msgid "The default search strategy to use"
+msgstr "Forvalgt søkestrategi som skal brukes"
+
+#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:3
+msgid "The font to be used when printing"
+msgstr "Skrift som skal brukes ved utskrift"
+
+#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:4
+msgid "The font to be used when printing a definition."
+msgstr "Skrift til bruk for utskrift av en definisjon."
+
+#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:5
+msgid ""
+"The name of the default individual database or meta-database to use on a "
+"dictionary source. An exclamation mark (\"!\") means that all the databases "
+"present in a dictionary source should be searched"
+msgstr ""
+"Navn på individuell database eller meta-database som skal brukes i "
+"ordboktjeneren. Et utropstegn (!) betyr at programmet skal søke i alle "
+"databaser på en gitt tjener"
+
+#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:6
+msgid ""
+"The name of the default search strategy to use on a dictionary source, if "
+"available. The default strategy is 'exact', that is match exact words."
+msgstr ""
+"Navnet på forvalgt søkestrategi som benyttes på en ordbokkilde, hvis "
+"tilgjengelig. Forvalgt strategi er \"exact\", det vil si identiske ord."
+
+#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:7
+msgid "The name of the dictionary source used"
+msgstr "Navn på brukt ordbokkilde"
+
+#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:8
+msgid ""
+"The name of the dictionary source used to retrieve the definitions of words."
+msgstr "Navn på ordbokkilden for henting av orddefinisjoner"
+
+#: ../data/spanish.desktop.in.h:1
+msgid "Spanish Dictionaries"
+msgstr "Spanske ordbøker"
+
+#: ../data/thai.desktop.in.h:1
+msgid "Longdo Thai-English Dictionaries"
+msgstr "Longdo Thai-Engelsk-ordbøker"
 
 #: ../libgdict/gdict-client-context.c:283
 msgid "Client Name"
