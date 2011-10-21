@@ -9,17 +9,16 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-utils master\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-10-06 14:35-0400\n"
-"PO-Revision-Date: 2011-09-07 20:27+0100\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-dictionary&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2011-10-07 11:41+0000\n"
+"PO-Revision-Date: 2011-10-21 20:49+0100\n"
 "Last-Translator: Matej Urbančič <mateju@svn.gnome.org>\n"
 "Language-Team: Slovenian GNOME Translation Team <gnome-si@googlegroups.com>\n"
-"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || n"
-"%100==4 ? 3 : 0);\n"
+"Language: \n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || n%100==4 ? 3 : 0);\n"
 "X-Poedit-Language: Slovenian\n"
 "X-Poedit-Country: SLOVENIA\n"
 "X-Poedit-SourceCharset: utf-8\n"
@@ -28,66 +27,21 @@ msgstr ""
 msgid "Default Dictionary Server"
 msgstr "Privzeti strežnik slovarja"
 
-#: ../data/spanish.desktop.in.h:1
-msgid "Spanish Dictionaries"
-msgstr "Španski slovarji"
-
-#: ../data/thai.desktop.in.h:1
-msgid "Longdo Thai-English Dictionaries"
-msgstr "Longdo tajsko- angleški slovarji"
+#: ../data/french.desktop.in.h:1
+msgid "French Dictionaries from Wikipedia"
+msgstr "Francoski slovarji z Wikipedije"
 
 #: ../data/gnome-dictionary.desktop.in.in.h:1
 msgid "Check word definitions and spellings in an online dictionary"
 msgstr "Preverite razlago in črkovanje besede v mrežnem slovarju."
 
-#: ../data/gnome-dictionary.desktop.in.in.h:2 ../src/gdict-about.c:62
-#: ../src/gdict-app.c:233 ../src/gdict-window.c:601 ../src/gdict-window.c:1894
+#: ../data/gnome-dictionary.desktop.in.in.h:2
+#: ../src/gdict-about.c:62
+#: ../src/gdict-app.c:233
+#: ../src/gdict-window.c:601
+#: ../src/gdict-window.c:1894
 msgid "Dictionary"
 msgstr "Slovar"
-
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:1
-msgid "The default database to use"
-msgstr "Privzeta zbirka podatkov, ki naj se uporabi"
-
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:2
-msgid "The default search strategy to use"
-msgstr "Privzeta strategija iskanja, ki naj se uporabi"
-
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:3
-msgid "The font to be used when printing"
-msgstr "Pisava uporabljena za tiskanje"
-
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:4
-msgid "The font to be used when printing a definition."
-msgstr "Pisava uporabljena za tiskanje definicij."
-
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:5
-msgid ""
-"The name of the default individual database or meta-database to use on a "
-"dictionary source. An exclamation mark (\"!\") means that all the databases "
-"present in a dictionary source should be searched"
-msgstr ""
-"Ime privzete posamezne zbirke podatkov ali meta zbirke podatkov, ki naj se "
-"uporabi v slovarskem viru. Klicaj (\"!\") določa, da naj bodo preiskane vse "
-"podatkovne zbirke navzoče v slovarskem viru."
-
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:6
-msgid ""
-"The name of the default search strategy to use on a dictionary source, if "
-"available. The default strategy is 'exact', that is match exact words."
-msgstr ""
-"Ime privzete strategije iskanja, ki naj se uporabi v slovarskem viru, če je "
-"na voljo. Privzeta strategija je 'exact', kar pomeni natančno skladanje "
-"besed."
-
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:7
-msgid "The name of the dictionary source used"
-msgstr "Ime uporabljenega vira slovarja"
-
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:8
-msgid ""
-"The name of the dictionary source used to retrieve the definitions of words."
-msgstr "Ime vira slovarja, ki naj se uporabi za pridobivanje razlage besed."
 
 #: ../data/gnome-dictionary-preferences.ui.h:1
 msgid "Print"
@@ -134,6 +88,46 @@ msgstr "_Vrata:"
 msgid "_Transport:"
 msgstr "_Transportiraj:"
 
+#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:1
+msgid "The default database to use"
+msgstr "Privzeta zbirka podatkov, ki naj se uporabi"
+
+#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:2
+msgid "The default search strategy to use"
+msgstr "Privzeta strategija iskanja, ki naj se uporabi"
+
+#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:3
+msgid "The font to be used when printing"
+msgstr "Pisava uporabljena za tiskanje"
+
+#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:4
+msgid "The font to be used when printing a definition."
+msgstr "Pisava uporabljena za tiskanje definicij."
+
+#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:5
+msgid "The name of the default individual database or meta-database to use on a dictionary source. An exclamation mark (\"!\") means that all the databases present in a dictionary source should be searched"
+msgstr "Ime privzete posamezne zbirke podatkov ali meta zbirke podatkov, ki naj se uporabi v slovarskem viru. Klicaj (\"!\") določa, da naj bodo preiskane vse podatkovne zbirke navzoče v slovarskem viru."
+
+#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:6
+msgid "The name of the default search strategy to use on a dictionary source, if available. The default strategy is 'exact', that is match exact words."
+msgstr "Ime privzete strategije iskanja, ki naj se uporabi v slovarskem viru, če je na voljo. Privzeta strategija je 'exact', kar pomeni natančno skladanje besed."
+
+#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:7
+msgid "The name of the dictionary source used"
+msgstr "Ime uporabljenega vira slovarja"
+
+#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:8
+msgid "The name of the dictionary source used to retrieve the definitions of words."
+msgstr "Ime vira slovarja, ki naj se uporabi za pridobivanje razlage besed."
+
+#: ../data/spanish.desktop.in.h:1
+msgid "Spanish Dictionaries"
+msgstr "Španski slovarji"
+
+#: ../data/thai.desktop.in.h:1
+msgid "Longdo Thai-English Dictionaries"
+msgstr "Longdo tajsko- angleški slovarji"
+
 #: ../libgdict/gdict-client-context.c:283
 msgid "Client Name"
 msgstr "Ime odjemalca"
@@ -174,8 +168,7 @@ msgstr "Ni povezave s strežnikom slovarja na '%s:%d'"
 #: ../libgdict/gdict-client-context.c:1060
 #, c-format
 msgid "Lookup failed for hostname '%s': no suitable resources found"
-msgstr ""
-"Iskanje za ime gostitelja '%s' ni uspelo: noben ustrezen vir ni bil najden"
+msgstr "Iskanje za ime gostitelja '%s' ni uspelo: noben ustrezen vir ni bil najden"
 
 #: ../libgdict/gdict-client-context.c:1091
 #, c-format
@@ -189,12 +182,8 @@ msgstr "Iskanje za gostitelja '%s' ni uspelo: gostitelj ni bil najden"
 
 #: ../libgdict/gdict-client-context.c:1177
 #, c-format
-msgid ""
-"Unable to connect to the dictionary server at '%s:%d'. The server replied "
-"with code %d (server down)"
-msgstr ""
-"Ni se mogoče povezati na strežnik slovarja na '%s:%d'. Strežnik je odgovoril "
-"s kodo %d (strežnik ne deluje)"
+msgid "Unable to connect to the dictionary server at '%s:%d'. The server replied with code %d (server down)"
+msgstr "Ni se mogoče povezati na strežnik slovarja na '%s:%d'. Strežnik je odgovoril s kodo %d (strežnik ne deluje)"
 
 #: ../libgdict/gdict-client-context.c:1196
 #, c-format
@@ -296,12 +285,14 @@ msgstr "Ponovno naloži seznam zbirk podatkov, ki so na voljo"
 msgid "Clear the list of available databases"
 msgstr "Počisti seznam zbirk podatkov, ki so na voljo"
 
-#: ../libgdict/gdict-database-chooser.c:837 ../libgdict/gdict-speller.c:778
+#: ../libgdict/gdict-database-chooser.c:837
+#: ../libgdict/gdict-speller.c:778
 #: ../libgdict/gdict-strategy-chooser.c:785
 msgid "Error while matching"
 msgstr "Napaka med iskanjem"
 
-#: ../libgdict/gdict-defbox.c:1127 ../libgdict/gdict-defbox.c:1221
+#: ../libgdict/gdict-defbox.c:1127
+#: ../libgdict/gdict-defbox.c:1221
 #: ../libgdict/gdict-defbox.c:1255
 msgid "Not found"
 msgstr "Ni zadetkov"
@@ -322,11 +313,13 @@ msgstr "_Naslednji"
 msgid "Error while looking up definition"
 msgstr "Napaka med iskanjem razlage"
 
-#: ../libgdict/gdict-defbox.c:2554 ../libgdict/gdict-speller.c:736
+#: ../libgdict/gdict-defbox.c:2554
+#: ../libgdict/gdict-speller.c:736
 msgid "Another search is in progress"
 msgstr "V teku je že drugo iskanje"
 
-#: ../libgdict/gdict-defbox.c:2555 ../libgdict/gdict-speller.c:737
+#: ../libgdict/gdict-defbox.c:2555
+#: ../libgdict/gdict-speller.c:737
 msgid "Please wait until the current search ends."
 msgstr "Počakajte, da se trenutno iskanje zaključi."
 
@@ -358,7 +351,8 @@ msgstr "Opis"
 msgid "The description of this dictionary source"
 msgstr "Opis tega vira slovarja"
 
-#: ../libgdict/gdict-source.c:274 ../libgdict/gdict-speller.c:383
+#: ../libgdict/gdict-source.c:274
+#: ../libgdict/gdict-speller.c:383
 msgid "Database"
 msgstr "Podatkovna zbirka"
 
@@ -366,7 +360,8 @@ msgstr "Podatkovna zbirka"
 msgid "The default database of this dictionary source"
 msgstr "Privzeta podatkovna zbirka tega vira slovarja"
 
-#: ../libgdict/gdict-source.c:288 ../libgdict/gdict-speller.c:390
+#: ../libgdict/gdict-source.c:288
+#: ../libgdict/gdict-speller.c:390
 msgid "Strategy"
 msgstr "Strategija"
 
@@ -382,7 +377,8 @@ msgstr "Prenos"
 msgid "The transport mechanism used by this dictionary source"
 msgstr "Mehanizem transporta, ki ga uporablja ta slovarski vir"
 
-#: ../libgdict/gdict-source.c:317 ../libgdict/gdict-speller.c:376
+#: ../libgdict/gdict-source.c:317
+#: ../libgdict/gdict-speller.c:376
 msgid "Context"
 msgstr "Vsebina"
 
@@ -400,16 +396,17 @@ msgstr "Neveljavna vrsta transporta '%d'"
 msgid "No '%s' group found inside the dictionary source definition"
 msgstr "Skupine '%s' ni bilo najdene znotraj razlage vira slovarja"
 
-#: ../libgdict/gdict-source.c:457 ../libgdict/gdict-source.c:481
-#: ../libgdict/gdict-source.c:505 ../libgdict/gdict-source.c:530
+#: ../libgdict/gdict-source.c:457
+#: ../libgdict/gdict-source.c:481
+#: ../libgdict/gdict-source.c:505
+#: ../libgdict/gdict-source.c:530
 #, c-format
 msgid "Unable to get the '%s' key inside the dictionary source definition: %s"
 msgstr "Ni mogoče najti ključa '%s' znotraj razlage vira slovarja: %s"
 
 #: ../libgdict/gdict-source.c:555
 #, c-format
-msgid ""
-"Unable to get the '%s' key inside the dictionary source definition file: %s"
+msgid "Unable to get the '%s' key inside the dictionary source definition file: %s"
 msgstr "Ni mogoče najti ključa '%s' znotraj datoteke razlage vira slovarja: %s"
 
 #: ../libgdict/gdict-source.c:741
@@ -470,7 +467,8 @@ msgstr "Počisti seznam strategij"
 msgid "GDict debugging flags to set"
 msgstr "GDict zastavice razhroščevanja, ki naj bodo nastavljene"
 
-#: ../libgdict/gdict-utils.c:97 ../libgdict/gdict-utils.c:99
+#: ../libgdict/gdict-utils.c:97
+#: ../libgdict/gdict-utils.c:99
 msgid "FLAGS"
 msgstr "ZASTAVICE"
 
@@ -497,11 +495,13 @@ msgstr ""
 msgid "Look up words in dictionaries"
 msgstr "Poišči besede v slovarjih"
 
-#: ../src/gdict-app.c:62 ../src/gdict-app.c:91
+#: ../src/gdict-app.c:62
+#: ../src/gdict-app.c:91
 msgid "Words to look up"
 msgstr "Besede, ki jih želite poiskati"
 
-#: ../src/gdict-app.c:62 ../src/gdict-app.c:68
+#: ../src/gdict-app.c:62
+#: ../src/gdict-app.c:68
 msgid "WORD"
 msgstr "BESEDA"
 
@@ -513,7 +513,9 @@ msgstr "Besede, ki naj se skladajo"
 msgid "Dictionary source to use"
 msgstr "Slovarski vir, ki naj se uporabi"
 
-#: ../src/gdict-app.c:74 ../src/gdict-app.c:80 ../src/gdict-app.c:86
+#: ../src/gdict-app.c:74
+#: ../src/gdict-app.c:80
+#: ../src/gdict-app.c:86
 msgid "NAME"
 msgstr "IME"
 
@@ -534,7 +536,8 @@ msgstr "BESEDE"
 msgid " - Look up words in dictionaries"
 msgstr " - Poišči besede v slovarjih"
 
-#: ../src/gdict-pref-dialog.c:241 ../src/gdict-pref-dialog.c:430
+#: ../src/gdict-pref-dialog.c:241
+#: ../src/gdict-pref-dialog.c:430
 msgid "Edit Dictionary Source"
 msgstr "Uredi slovarski vir"
 
@@ -556,7 +559,8 @@ msgstr "To bo trajno odstranilo slovarski vir iz seznama."
 msgid "Unable to remove source '%s'"
 msgstr "Ni mogoče odstraniti vira '%s'"
 
-#: ../src/gdict-pref-dialog.c:496 ../src/gdict-source-dialog.c:479
+#: ../src/gdict-pref-dialog.c:496
+#: ../src/gdict-source-dialog.c:479
 #: ../src/gdict-window.c:1245
 #, c-format
 msgid "There was an error while displaying help"
@@ -578,16 +582,19 @@ msgstr "Urejanje trenutno izbraneva slovarskega vira"
 msgid "Set the font used for printing the definitions"
 msgstr "Nastavite pisavo, ki naj bo uporabljena za tiskanje razlag"
 
-#: ../src/gdict-print.c:241 ../src/gdict-print.c:305
+#: ../src/gdict-print.c:241
+#: ../src/gdict-print.c:305
 #, c-format
 msgid "Unable to display the preview: %s"
 msgstr "Ni mogoče prikazati predogleda: %s"
 
-#: ../src/gdict-source-dialog.c:341 ../src/gdict-source-dialog.c:434
+#: ../src/gdict-source-dialog.c:341
+#: ../src/gdict-source-dialog.c:434
 msgid "Unable to create a source file"
 msgstr "Ni mogoče ustvariti datoteke vira"
 
-#: ../src/gdict-source-dialog.c:359 ../src/gdict-source-dialog.c:452
+#: ../src/gdict-source-dialog.c:359
+#: ../src/gdict-source-dialog.c:452
 msgid "Unable to save source file"
 msgstr "Ni mogoče shraniti datoteke vira"
 
@@ -596,7 +603,8 @@ msgstr "Ni mogoče shraniti datoteke vira"
 msgid "Searching for '%s'..."
 msgstr "Iskanje '%s' ..."
 
-#: ../src/gdict-window.c:343 ../src/gdict-window.c:400
+#: ../src/gdict-window.c:343
+#: ../src/gdict-window.c:400
 msgid "No definitions found"
 msgstr "Ni najdenih razlag"
 
@@ -845,3 +853,4 @@ msgstr "Razpoložljive strategije"
 #: ../src/gdict-window.c:1822
 msgid "Dictionary sources"
 msgstr "Viri slovarja"
+
