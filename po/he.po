@@ -17,8 +17,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-utils.HEAD.he\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-10-06 14:35-0400\n"
-"PO-Revision-Date: 2011-08-06 14:55+0200\n"
+"POT-Creation-Date: 2011-10-22 11:25+0200\n"
+"PO-Revision-Date: 2011-10-22 11:26+0200\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <he@li.org>\n"
 "Language: he\n"
@@ -33,66 +33,21 @@ msgstr ""
 msgid "Default Dictionary Server"
 msgstr "שרת מילון בררת המחדל"
 
-#: ../data/spanish.desktop.in.h:1
-msgid "Spanish Dictionaries"
-msgstr "מילונים ספרדיים"
-
-#: ../data/thai.desktop.in.h:1
-msgid "Longdo Thai-English Dictionaries"
-msgstr "מילוני Longdo תאילנדית-אנגלית"
+#: ../data/french.desktop.in.h:1
+msgid "French Dictionaries from Wikipedia"
+msgstr "המילונים הצרפתיים מוויקיפדיה"
 
 #: ../data/gnome-dictionary.desktop.in.in.h:1
 msgid "Check word definitions and spellings in an online dictionary"
 msgstr "חיפוש הגדרה ואיות של מילים במילון מקוון"
 
-#: ../data/gnome-dictionary.desktop.in.in.h:2 ../src/gdict-about.c:62
-#: ../src/gdict-app.c:233 ../src/gdict-window.c:601 ../src/gdict-window.c:1894
+#: ../data/gnome-dictionary.desktop.in.in.h:2
+#: ../src/gdict-about.c:62
+#: ../src/gdict-app.c:233
+#: ../src/gdict-window.c:601
+#: ../src/gdict-window.c:1894
 msgid "Dictionary"
 msgstr "מילון"
-
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:1
-msgid "The default database to use"
-msgstr "The default database to use"
-
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:2
-msgid "The default search strategy to use"
-msgstr "The default search strategy to use"
-
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:3
-msgid "The font to be used when printing"
-msgstr "The font to be used when printing"
-
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:4
-msgid "The font to be used when printing a definition."
-msgstr "The font to be used when printing a definition."
-
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:5
-msgid ""
-"The name of the default individual database or meta-database to use on a "
-"dictionary source. An exclamation mark (\"!\") means that all the databases "
-"present in a dictionary source should be searched"
-msgstr ""
-"The name of the default individual database or meta-database to use on a "
-"dictionary source. An exclamation mark (\"!\") means that all the databases "
-"present in a dictionary source should be searched"
-
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:6
-msgid ""
-"The name of the default search strategy to use on a dictionary source, if "
-"available. The default strategy is 'exact', that is match exact words."
-msgstr ""
-"The name of the default search strategy to use on a dictionary source, if "
-"available. The default strategy is 'exact', that is match exact words."
-
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:7
-msgid "The name of the dictionary source used"
-msgstr "The name of the dictionary source used"
-
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:8
-msgid ""
-"The name of the dictionary source used to retrieve the definitions of words."
-msgstr ""
-"The name of the dictionary source used to retrieve the definitions of words."
 
 #: ../data/gnome-dictionary-preferences.ui.h:1
 msgid "Print"
@@ -138,6 +93,46 @@ msgstr "_פתחה:"
 #: ../data/gnome-dictionary-source.ui.h:8
 msgid "_Transport:"
 msgstr "_תעבורה:"
+
+#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:1
+msgid "The default database to use"
+msgstr "The default database to use"
+
+#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:2
+msgid "The default search strategy to use"
+msgstr "The default search strategy to use"
+
+#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:3
+msgid "The font to be used when printing"
+msgstr "The font to be used when printing"
+
+#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:4
+msgid "The font to be used when printing a definition."
+msgstr "The font to be used when printing a definition."
+
+#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:5
+msgid "The name of the default individual database or meta-database to use on a dictionary source. An exclamation mark (\"!\") means that all the databases present in a dictionary source should be searched"
+msgstr "The name of the default individual database or meta-database to use on a dictionary source. An exclamation mark (\"!\") means that all the databases present in a dictionary source should be searched"
+
+#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:6
+msgid "The name of the default search strategy to use on a dictionary source, if available. The default strategy is 'exact', that is match exact words."
+msgstr "The name of the default search strategy to use on a dictionary source, if available. The default strategy is 'exact', that is match exact words."
+
+#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:7
+msgid "The name of the dictionary source used"
+msgstr "The name of the dictionary source used"
+
+#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:8
+msgid "The name of the dictionary source used to retrieve the definitions of words."
+msgstr "The name of the dictionary source used to retrieve the definitions of words."
+
+#: ../data/spanish.desktop.in.h:1
+msgid "Spanish Dictionaries"
+msgstr "מילונים ספרדיים"
+
+#: ../data/thai.desktop.in.h:1
+msgid "Longdo Thai-English Dictionaries"
+msgstr "מילוני Longdo תאילנדית-אנגלית"
 
 #: ../libgdict/gdict-client-context.c:283
 msgid "Client Name"
@@ -193,12 +188,8 @@ msgstr "החיפוש נכשל עבור המארח '%s': המארח לא נמצא
 
 #: ../libgdict/gdict-client-context.c:1177
 #, c-format
-msgid ""
-"Unable to connect to the dictionary server at '%s:%d'. The server replied "
-"with code %d (server down)"
-msgstr ""
-"לא ניתן להתחבר לשרת המילון בכתובת '‎%s:%d'. השרת החזיר את הקוד %d (השרת אינו "
-"פעיל)"
+msgid "Unable to connect to the dictionary server at '%s:%d'. The server replied with code %d (server down)"
+msgstr "לא ניתן להתחבר לשרת המילון בכתובת '‎%s:%d'. השרת החזיר את הקוד %d (השרת אינו פעיל)"
 
 #: ../libgdict/gdict-client-context.c:1196
 #, c-format
@@ -300,12 +291,14 @@ msgstr "רענון רשימת מסדי הנתונים הזמינים"
 msgid "Clear the list of available databases"
 msgstr "ניקוי רשימת מסדי הנתונים הזמינים"
 
-#: ../libgdict/gdict-database-chooser.c:837 ../libgdict/gdict-speller.c:778
+#: ../libgdict/gdict-database-chooser.c:837
+#: ../libgdict/gdict-speller.c:778
 #: ../libgdict/gdict-strategy-chooser.c:785
 msgid "Error while matching"
 msgstr "שגיאה בזמן ההתאמה."
 
-#: ../libgdict/gdict-defbox.c:1127 ../libgdict/gdict-defbox.c:1221
+#: ../libgdict/gdict-defbox.c:1127
+#: ../libgdict/gdict-defbox.c:1221
 #: ../libgdict/gdict-defbox.c:1255
 msgid "Not found"
 msgstr "לא נמצא"
@@ -326,11 +319,13 @@ msgstr "ה_בא"
 msgid "Error while looking up definition"
 msgstr "שגיאה בזמן חיפוש הגדרה"
 
-#: ../libgdict/gdict-defbox.c:2554 ../libgdict/gdict-speller.c:736
+#: ../libgdict/gdict-defbox.c:2554
+#: ../libgdict/gdict-speller.c:736
 msgid "Another search is in progress"
 msgstr "קיים חיפוש פעיל אחר"
 
-#: ../libgdict/gdict-defbox.c:2555 ../libgdict/gdict-speller.c:737
+#: ../libgdict/gdict-defbox.c:2555
+#: ../libgdict/gdict-speller.c:737
 msgid "Please wait until the current search ends."
 msgstr "נא להמתין עד לסיום החיפוש הנוכחי."
 
@@ -362,7 +357,8 @@ msgstr "תיאור"
 msgid "The description of this dictionary source"
 msgstr "התיאור של מקור המילון"
 
-#: ../libgdict/gdict-source.c:274 ../libgdict/gdict-speller.c:383
+#: ../libgdict/gdict-source.c:274
+#: ../libgdict/gdict-speller.c:383
 msgid "Database"
 msgstr "מסד נתונים"
 
@@ -370,7 +366,8 @@ msgstr "מסד נתונים"
 msgid "The default database of this dictionary source"
 msgstr "מסד נתונים כבררת המחדל של מקור מילון זה"
 
-#: ../libgdict/gdict-source.c:288 ../libgdict/gdict-speller.c:390
+#: ../libgdict/gdict-source.c:288
+#: ../libgdict/gdict-speller.c:390
 msgid "Strategy"
 msgstr "אסטרטגיה"
 
@@ -386,7 +383,8 @@ msgstr "תעבורה"
 msgid "The transport mechanism used by this dictionary source"
 msgstr "מנגנון התעבורה שנמצא בשימוש על ידי מקור מילון זה"
 
-#: ../libgdict/gdict-source.c:317 ../libgdict/gdict-speller.c:376
+#: ../libgdict/gdict-source.c:317
+#: ../libgdict/gdict-speller.c:376
 msgid "Context"
 msgstr "תוכן"
 
@@ -404,16 +402,17 @@ msgstr "סוג התעבורה '%d' שגוי"
 msgid "No '%s' group found inside the dictionary source definition"
 msgstr "לא נמצאה קבוצה '%s' בהגדרות מקור המילון"
 
-#: ../libgdict/gdict-source.c:457 ../libgdict/gdict-source.c:481
-#: ../libgdict/gdict-source.c:505 ../libgdict/gdict-source.c:530
+#: ../libgdict/gdict-source.c:457
+#: ../libgdict/gdict-source.c:481
+#: ../libgdict/gdict-source.c:505
+#: ../libgdict/gdict-source.c:530
 #, c-format
 msgid "Unable to get the '%s' key inside the dictionary source definition: %s"
 msgstr "אירע כשל בקבלת המפתח '%s' בהגדרות מקור המילון: %s"
 
 #: ../libgdict/gdict-source.c:555
 #, c-format
-msgid ""
-"Unable to get the '%s' key inside the dictionary source definition file: %s"
+msgid "Unable to get the '%s' key inside the dictionary source definition file: %s"
 msgstr "אירע כשל בקבלת המפתח '%s' בקובץ הגדרות מקור המילון: %s"
 
 #: ../libgdict/gdict-source.c:741
@@ -474,7 +473,8 @@ msgstr "ניקוי רשימת האסטרטגיות הזמינות"
 msgid "GDict debugging flags to set"
 msgstr "ביטול הגדרת דגלוני ניפוי השגיאות של GDict"
 
-#: ../libgdict/gdict-utils.c:97 ../libgdict/gdict-utils.c:99
+#: ../libgdict/gdict-utils.c:97
+#: ../libgdict/gdict-utils.c:99
 msgid "FLAGS"
 msgstr "דגלונים"
 
@@ -506,11 +506,13 @@ msgstr ""
 msgid "Look up words in dictionaries"
 msgstr "חיפוש מילים במילונים"
 
-#: ../src/gdict-app.c:62 ../src/gdict-app.c:91
+#: ../src/gdict-app.c:62
+#: ../src/gdict-app.c:91
 msgid "Words to look up"
 msgstr "Words to look up"
 
-#: ../src/gdict-app.c:62 ../src/gdict-app.c:68
+#: ../src/gdict-app.c:62
+#: ../src/gdict-app.c:68
 msgid "WORD"
 msgstr "מילה"
 
@@ -522,7 +524,9 @@ msgstr "Words to match"
 msgid "Dictionary source to use"
 msgstr "Dictionary source to use"
 
-#: ../src/gdict-app.c:74 ../src/gdict-app.c:80 ../src/gdict-app.c:86
+#: ../src/gdict-app.c:74
+#: ../src/gdict-app.c:80
+#: ../src/gdict-app.c:86
 msgid "NAME"
 msgstr "שם"
 
@@ -543,7 +547,8 @@ msgstr "מילים"
 msgid " - Look up words in dictionaries"
 msgstr " - Look up words in dictionaries"
 
-#: ../src/gdict-pref-dialog.c:241 ../src/gdict-pref-dialog.c:430
+#: ../src/gdict-pref-dialog.c:241
+#: ../src/gdict-pref-dialog.c:430
 msgid "Edit Dictionary Source"
 msgstr "עריכת מקור המילון"
 
@@ -554,7 +559,7 @@ msgstr "הוספת מקור מילון"
 #: ../src/gdict-pref-dialog.c:350
 #, c-format
 msgid "Remove \"%s\"?"
-msgstr "האם להסיר את \"%s\"?"
+msgstr "האם להסיר את ”%s“?"
 
 #: ../src/gdict-pref-dialog.c:352
 msgid "This will permanently remove the dictionary source from the list."
@@ -565,7 +570,8 @@ msgstr "מקור המילון יוסר מהרשימה לצמיתות."
 msgid "Unable to remove source '%s'"
 msgstr "לא ניתן להסיר את המקור '%s'"
 
-#: ../src/gdict-pref-dialog.c:496 ../src/gdict-source-dialog.c:479
+#: ../src/gdict-pref-dialog.c:496
+#: ../src/gdict-source-dialog.c:479
 #: ../src/gdict-window.c:1245
 #, c-format
 msgid "There was an error while displaying help"
@@ -587,16 +593,19 @@ msgstr "עריכת מקור המילון הנוכחי שנבחר"
 msgid "Set the font used for printing the definitions"
 msgstr "הגדרת הגופן שישמש להדפסת ההגדרות"
 
-#: ../src/gdict-print.c:241 ../src/gdict-print.c:305
+#: ../src/gdict-print.c:241
+#: ../src/gdict-print.c:305
 #, c-format
 msgid "Unable to display the preview: %s"
 msgstr "לא ניתן להציג את התצוגה המקדימה: %s"
 
-#: ../src/gdict-source-dialog.c:341 ../src/gdict-source-dialog.c:434
+#: ../src/gdict-source-dialog.c:341
+#: ../src/gdict-source-dialog.c:434
 msgid "Unable to create a source file"
 msgstr "לא ניתן ליצור קובץ מקור"
 
-#: ../src/gdict-source-dialog.c:359 ../src/gdict-source-dialog.c:452
+#: ../src/gdict-source-dialog.c:359
+#: ../src/gdict-source-dialog.c:452
 msgid "Unable to save source file"
 msgstr "לא ניתן לשמור את קובץ המקור"
 
@@ -605,7 +614,8 @@ msgstr "לא ניתן לשמור את קובץ המקור"
 msgid "Searching for '%s'..."
 msgstr "בחיפוש אחר '%s'..."
 
-#: ../src/gdict-window.c:343 ../src/gdict-window.c:400
+#: ../src/gdict-window.c:343
+#: ../src/gdict-window.c:400
 msgid "No definitions found"
 msgstr "לא נמצאו הגדרות"
 
@@ -811,7 +821,7 @@ msgstr "מסד הנתונים '%s' נבחר"
 #: ../src/gdict-window.c:1475
 #, c-format
 msgid "Word `%s' selected"
-msgstr "המילה `%s' בנחרה"
+msgstr "המילה '%s' נבחרה"
 
 #. speller
 #: ../src/gdict-window.c:1500
@@ -852,3 +862,4 @@ msgstr "אסטרטגיות זמינות"
 #: ../src/gdict-window.c:1822
 msgid "Dictionary sources"
 msgstr "מקורות מילון"
+
