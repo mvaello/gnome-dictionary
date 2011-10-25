@@ -1,7 +1,6 @@
 # List of source files containing translatable strings.
 # Please keep this file sorted alphabetically.
 data/default.desktop.in
-data/french.desktop.in
 data/gnome-dictionary.desktop.in.in
 [type: gettext/glade]data/gnome-dictionary-preferences.ui
 [type: gettext/glade]data/gnome-dictionary-source.ui
