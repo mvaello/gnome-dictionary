@@ -1,17 +1,15 @@
 dnl -*- mode: m4 -*-
 AC_PREREQ(2.63)
-AC_INIT([gnome-dictionary],[3.3.0],[],[gnome-dictionary])
+AC_INIT([gnome-dictionary],[3.3.2],[],[gnome-dictionary])
 
 AC_CONFIG_HEADERS(config.h)
 AC_CONFIG_MACRO_DIR([m4])
 
-m4_ifdef([AM_SILENT_RULES],[AM_SILENT_RULES([yes])])
-
 AC_CANONICAL_TARGET
 
 # require automake 1.10
-AM_INIT_AUTOMAKE([1.10 dist-bzip2 no-dist-gzip foreign])
-AM_MAINTAINER_MODE
+AM_INIT_AUTOMAKE([1.11 dist-xz no-dist-gzip foreign])
+AM_SILENT_RULES([yes])
 
 GETTEXT_PACKAGE=AC_PACKAGE_NAME
 AC_SUBST(GETTEXT_PACKAGE)
@@ -31,13 +29,6 @@ AC_HEADER_STDC
 AC_PATH_PROG(GLIB_GENMARSHAL, [glib-genmarshal])
 AC_PATH_PROG(GLIB_MKENUMS, [glib-mkenums])
 
-AM_DISABLE_STATIC
-# enable libtool
-AC_PROG_LIBTOOL
-
-## don't rerun to this point if we abort
-AC_CACHE_SAVE
-
 # Before making a release, the LT_VERSION string should be modified.
 # The string is of the form C:R:A.
 # - If interfaces have been changed or added, but binary compatibility has
@@ -48,6 +39,9 @@ AC_CACHE_SAVE
 
 LT_PREREQ([2.2.6])
 LT_INIT([disable-static win32-dll])
+
+## don't rerun to this point if we abort
+AC_CACHE_SAVE
 
 LIBGDICT_LT_VERSION=6:7:0
 AC_SUBST(LIBGDICT_LT_VERSION)
@@ -152,7 +146,7 @@ AS_IF([test "x$have_ipv6" = "xyes"],
 
 GLIB_GSETTINGS
 
-GTK_DOC_CHECK([1.10])
+GTK_DOC_CHECK([1.15], [--flavour no-tmpl])
 
 GNOME_DOC_INIT
 
@@ -187,10 +181,8 @@ echo "
         GNOME Dictionary $VERSION
         =========================
 
-        prefix:    ${prefix}
-        compiler:  ${CC}
+        prefix: ${prefix}
+        compiler: ${CC}
 
         IPv6 support: ${msg_ipv6}
-
-        Now type 'make' to build $PACKAGE
 "
