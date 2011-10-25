@@ -1,6 +1,9 @@
 dnl -*- mode: m4 -*-
 AC_PREREQ(2.63)
-AC_INIT([gnome-dictionary],[3.3.2],[],[gnome-dictionary])
+AC_INIT([gnome-dictionary], [3.3.3],
+	[http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-dictionary],
+	[gnome-dictionary],
+	[http://live.gnome.org/GnomeUtils])
 
 AC_CONFIG_HEADERS(config.h)
 AC_CONFIG_MACRO_DIR([m4])
