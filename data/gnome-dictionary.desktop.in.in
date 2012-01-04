@@ -11,6 +11,5 @@ Categories=GNOME;GTK;Office;Dictionary;
 NotShowIn=KDE;
 X-GNOME-DocPath=gnome-dictionary/gnome-dictionary.xml
 X-GNOME-Bugzilla-Bugzilla=GNOME
-X-GNOME-Bugzilla-Product=gnome-utils
-X-GNOME-Bugzilla-Component=gdict
+X-GNOME-Bugzilla-Product=gnome-dictionary
 X-GNOME-Bugzilla-Version=@VERSION@
