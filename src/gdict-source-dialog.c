@@ -285,6 +285,7 @@ build_new_source (GdictSourceDialog *dialog)
   gsize length;
   GError *error;
   gchar *filename;
+  gchar *config_dir;
   GdictDatabaseChooser *db_chooser;
   GdictStrategyChooser *strat_chooser;
   
@@ -345,12 +346,10 @@ build_new_source (GdictSourceDialog *dialog)
       return;
     }
       
-  name = g_strdup_printf ("%s.desktop", gdict_source_get_name (source));
-  filename = g_build_filename (g_get_home_dir (),
-  			       ".gnome2",
-      			       "gnome-dictionary",
-      			       name,
-      			       NULL);
+  config_dir = gdict_get_config_dir();
+  name = g_strconcat (gdict_source_get_name (source), ".desktop", NULL);
+  filename = g_build_filename (config_dir, name, NULL);
+  g_free (config_dir);
   g_free (name);
       
   g_file_set_contents (filename, data, length, &error);
@@ -377,6 +376,7 @@ save_source (GdictSourceDialog *dialog)
   gsize length;
   GError *error;
   gchar *filename;
+  gchar *config_dir;
   
   source = gdict_source_loader_get_source (dialog->loader,
 		  			   dialog->source_name);
@@ -438,12 +438,10 @@ save_source (GdictSourceDialog *dialog)
       return;
     }
       
-  name = g_strdup_printf ("%s.desktop", gdict_source_get_name (source));
-  filename = g_build_filename (g_get_home_dir (),
-      			       ".gnome2",
-			       "gnome-dictionary",
-			       name,
-			       NULL);
+  config_dir = gdict_get_config_dir();
+  name = g_strconcat (gdict_source_get_name (source), ".desktop", NULL);
+  filename = g_build_filename (config_dir, name, NULL);
+  g_free (config_dir);
   g_free (name);
       
   g_file_set_contents (filename, data, length, &error);

@@ -44,12 +44,97 @@ gdict_get_data_dir (void)
 {
   gchar *retval;
 
+  retval = g_build_filename (g_get_user_data_dir (),
+                             g_get_prgname (),
+                             NULL);
+  return retval;
+}
+
+/* legacy data dir. pre 3.3.4 */
+gchar *
+gdict_get_old_data_dir (void)
+{
+  gchar *retval;
+
   retval = g_build_filename (g_get_home_dir (),
 		  	     ".gnome2",
 			     "gnome-dictionary",
 			     NULL);
   
   return retval;
+}
+
+gchar *
+gdict_get_config_dir (void)
+{
+  gchar *retval;
+
+  retval = g_build_filename (g_get_user_config_dir (),
+                             g_get_prgname (),
+                             NULL);
+  return retval;
+}
+
+gboolean
+gdict_migrate_configs (void)
+{
+  gchar *old_data_dir_name; // this one was used for configs only
+  gchar *config_dir_name;
+  gboolean res = TRUE;
+
+  old_data_dir_name = gdict_get_old_data_dir ();
+  config_dir_name = gdict_get_config_dir ();
+
+  /* move configs from pre-XDG directory to right place */
+  if (g_file_test (old_data_dir_name, G_FILE_TEST_IS_DIR))
+    {
+      g_message ("Migrating old configs to XDG directory layout...");
+
+      if (g_rename (old_data_dir_name, config_dir_name) == -1)
+        {
+          g_critical ("Unable to rename file '%s' to '%s': %s",
+                      old_data_dir_name,
+                      config_dir_name,
+                      g_strerror (errno));
+
+          res = FALSE;
+        }
+    }
+
+  g_free (config_dir_name);
+  g_free (old_data_dir_name);
+
+  return res;
+}
+
+gboolean
+gdict_create_config_dir (void)
+{
+  gchar *config_dir_name;
+  gboolean res = TRUE;
+
+  config_dir_name = gdict_get_config_dir ();
+
+  gdict_migrate_configs ();
+
+  if (!g_file_test (config_dir_name, G_FILE_TEST_IS_DIR))
+    {
+      if (!g_file_test (config_dir_name, G_FILE_TEST_IS_DIR)) {
+        g_message ("Creating XDG config direcotry: %s", config_dir_name);
+
+        if (g_mkdir (config_dir_name, 0700) == -1)
+          {
+            g_critical ("Unable to create directory '%s': %s",
+                        config_dir_name,
+                        g_strerror (errno));
+
+            res = FALSE;
+          }
+      }
+    }
+
+  g_free (config_dir_name);
+  return res;
 }
 
 /* create the data directory inside $HOME, if it doesn't exist yet */
@@ -59,6 +144,7 @@ gdict_create_data_dir (void)
   gchar *data_dir_name;
   
   data_dir_name = gdict_get_data_dir ();
+
   if (g_mkdir (data_dir_name, 0700) == -1)
     {
       /* this is weird, but sometimes there's a "gnome-dictionary" file
@@ -77,9 +163,8 @@ gdict_create_data_dir (void)
                           g_strerror (errno));
 
 	      g_free (backup);
-	      g_free (data_dir_name);
 
-	      return FALSE;
+              goto error;
             }
 
 	  g_free (backup);
@@ -90,9 +175,7 @@ gdict_create_data_dir (void)
                           data_dir_name,
                           g_strerror (errno));
 
-              g_free (data_dir_name);
-
-	      return FALSE;
+              goto error;
             }
 
 	  goto success;
@@ -103,10 +186,7 @@ gdict_create_data_dir (void)
           g_critical ("Unable to create the data directory '%s': %s",
                       data_dir_name,
                       g_strerror (errno));
-
-	  g_free (data_dir_name);
-
-	  return FALSE;
+          goto error;
 	}
     }
 
@@ -114,6 +194,11 @@ success:
   g_free (data_dir_name);
 
   return TRUE;
+
+error:
+  g_free (data_dir_name);
+
+  return FALSE;
 }
 
 /* shows an error dialog making it transient for @parent */

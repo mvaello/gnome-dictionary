@@ -224,6 +224,11 @@ gdict_main (int    *argc,
 {
   gchar *loader_path;
 
+  g_set_prgname ("gnome-dictionary");
+
+  if (!gdict_create_config_dir ())
+    exit (1);
+
   if (!gdict_create_data_dir ())
     exit (1);
 
@@ -238,7 +243,7 @@ gdict_main (int    *argc,
 
   /* add user's path for fetching dictionary sources */  
   singleton->loader = gdict_source_loader_new ();
-  loader_path = gdict_get_data_dir (); 
+  loader_path = gdict_get_config_dir ();
   gdict_source_loader_add_search_path (singleton->loader, loader_path);
   g_free (loader_path);
 
