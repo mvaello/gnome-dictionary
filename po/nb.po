@@ -1,47 +1,42 @@
 # Norwegian bokmål translation of gnome-dictionary.
 # Copyright (C) 1999-2005 Free Software Foundation, Inc.
 #
-# Kjartan Maraas <kmaraas@gnome.org>, 1999-2011.
+# Kjartan Maraas <kmaraas@gnome.org>, 1999-2012.
 # Terance Edward Sola <terance@lyse.net>, 2005.
 # Torstein Adolf Winterseth <kvikende@fsfe.org>, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-utils 3.3.x\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-10-19 22:38+0200\n"
-"PO-Revision-Date: 2011-10-19 22:38+0200\n"
+"POT-Creation-Date: 2012-01-25 13:06+0100\n"
+"PO-Revision-Date: 2012-01-25 13:07+0100\n"
 "Last-Translator: Kjartan Maraas <kmaraas@gnome.org>\n"
-"Language-Team: Norwegian Bokmål <i18n-nb@lister.ping.uio.no>\n"
+"Language-Team: Norwegian bokmål <i18n-nb@lister.ping.uio.no>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 1.1\n"
 
 #: ../data/default.desktop.in.h:1
 msgid "Default Dictionary Server"
 msgstr "Forvalgt ordboktjener"
 
-#: ../data/french.desktop.in.h:1
-msgid "French Dictionaries from Wikipedia"
-msgstr "Franske ordbøker fra Wikipedia"
-
-#: ../data/gnome-dictionary.desktop.in.in.h:1
-msgid "Check word definitions and spellings in an online dictionary"
-msgstr "Sjekk orddefinisjoner og staving i en ordbok på nettet"
-
-#: ../data/gnome-dictionary.desktop.in.in.h:2 ../src/gdict-about.c:62
+#: ../data/gnome-dictionary.desktop.in.in.h:1 ../src/gdict-about.c:62
 #: ../src/gdict-app.c:233 ../src/gdict-window.c:601 ../src/gdict-window.c:1894
 msgid "Dictionary"
 msgstr "Ordbok"
 
+#: ../data/gnome-dictionary.desktop.in.in.h:2
+msgid "Check word definitions and spellings in an online dictionary"
+msgstr "Sjekk orddefinisjoner og staving i en ordbok på nettet"
+
 #: ../data/gnome-dictionary-preferences.ui.h:1
-msgid "Print"
-msgstr "Skriv ut"
+msgid "_Select a dictionary source for looking up words:"
+msgstr "_Velg en ordbokkilde for oppslag av ord:"
 
 #: ../data/gnome-dictionary-preferences.ui.h:2
-#: ../data/gnome-dictionary-source.ui.h:3
+#: ../data/gnome-dictionary-source.ui.h:6
 msgid "Source"
 msgstr "Kilde"
 
@@ -50,54 +45,42 @@ msgid "_Print font:"
 msgstr "S_krift for utskrift:"
 
 #: ../data/gnome-dictionary-preferences.ui.h:4
-msgid "_Select a dictionary source for looking up words:"
-msgstr "_Velg en ordbokkilde for oppslag av ord:"
+msgid "Print"
+msgstr "Skriv ut"
 
 #: ../data/gnome-dictionary-source.ui.h:1
-msgid "Dictionaries"
-msgstr "Ordbøker"
+msgid "_Description:"
+msgstr "_Beskrivelse:"
 
 #: ../data/gnome-dictionary-source.ui.h:2
+msgid "_Transport:"
+msgstr "_Transport:"
+
+#: ../data/gnome-dictionary-source.ui.h:3
 msgid "H_ostname:"
 msgstr "V_ertsnavn:"
 
 #: ../data/gnome-dictionary-source.ui.h:4
-msgid "Source Name"
-msgstr "Navn på kilde"
-
-#: ../data/gnome-dictionary-source.ui.h:5
-msgid "Strategies"
-msgstr "Strategier"
-
-#: ../data/gnome-dictionary-source.ui.h:6
-msgid "_Description:"
-msgstr "_Beskrivelse:"
-
-#: ../data/gnome-dictionary-source.ui.h:7
 msgid "_Port:"
 msgstr "_Port:"
 
+#: ../data/gnome-dictionary-source.ui.h:5
+msgid "Source Name"
+msgstr "Navn på kilde"
+
+#: ../data/gnome-dictionary-source.ui.h:7
+msgid "Dictionaries"
+msgstr "Ordbøker"
+
 #: ../data/gnome-dictionary-source.ui.h:8
-msgid "_Transport:"
-msgstr "_Transport:"
+msgid "Strategies"
+msgstr "Strategier"
 
 #: ../data/org.gnome.dictionary.gschema.xml.in.in.h:1
 msgid "The default database to use"
 msgstr "Forvalgt database som skal brukes"
 
 #: ../data/org.gnome.dictionary.gschema.xml.in.in.h:2
-msgid "The default search strategy to use"
-msgstr "Forvalgt søkestrategi som skal brukes"
-
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:3
-msgid "The font to be used when printing"
-msgstr "Skrift som skal brukes ved utskrift"
-
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:4
-msgid "The font to be used when printing a definition."
-msgstr "Skrift til bruk for utskrift av en definisjon."
-
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:5
 msgid ""
 "The name of the default individual database or meta-database to use on a "
 "dictionary source. An exclamation mark (\"!\") means that all the databases "
@@ -107,13 +90,25 @@ msgstr ""
 "ordboktjeneren. Et utropstegn (!) betyr at programmet skal søke i alle "
 "databaser på en gitt tjener"
 
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:6
+#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:3
+msgid "The default search strategy to use"
+msgstr "Forvalgt søkestrategi som skal brukes"
+
+#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:4
 msgid ""
 "The name of the default search strategy to use on a dictionary source, if "
 "available. The default strategy is 'exact', that is match exact words."
 msgstr ""
 "Navnet på forvalgt søkestrategi som benyttes på en ordbokkilde, hvis "
 "tilgjengelig. Forvalgt strategi er \"exact\", det vil si identiske ord."
+
+#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:5
+msgid "The font to be used when printing"
+msgstr "Skrift som skal brukes ved utskrift"
+
+#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:6
+msgid "The font to be used when printing a definition."
+msgstr "Skrift til bruk for utskrift av en definisjon."
 
 #: ../data/org.gnome.dictionary.gschema.xml.in.in.h:7
 msgid "The name of the dictionary source used"
