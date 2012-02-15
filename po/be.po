@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-utils.master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-10-20 22:53+0300\n"
-"PO-Revision-Date: 2011-10-20 22:55+0300\n"
+"POT-Creation-Date: 2012-02-15 22:09+0300\n"
+"PO-Revision-Date: 2012-02-15 22:09+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian <i18n-bel-gnome@googlegroups.com>\n"
 "Language: be\n"
@@ -21,25 +21,21 @@ msgstr ""
 msgid "Default Dictionary Server"
 msgstr "Прадвызначаны сервер слоўнікаў"
 
-#: ../data/french.desktop.in.h:1
-msgid "French Dictionaries from Wikipedia"
-msgstr "Французскія слоўнікі з Вікіпедыі"
-
-#: ../data/gnome-dictionary.desktop.in.in.h:1
-msgid "Check word definitions and spellings in an online dictionary"
-msgstr "Пошук азначэнняў слоў і іх правапісу ў сеціўным слоўніку"
-
-#: ../data/gnome-dictionary.desktop.in.in.h:2 ../src/gdict-about.c:62
+#: ../data/gnome-dictionary.desktop.in.in.h:1 ../src/gdict-about.c:62
 #: ../src/gdict-app.c:233 ../src/gdict-window.c:601 ../src/gdict-window.c:1894
 msgid "Dictionary"
 msgstr "Слоўнік"
 
+#: ../data/gnome-dictionary.desktop.in.in.h:2
+msgid "Check word definitions and spellings in an online dictionary"
+msgstr "Пошук азначэнняў слоў і іх правапісу ў сеціўным слоўніку"
+
 #: ../data/gnome-dictionary-preferences.ui.h:1
-msgid "Print"
-msgstr "Друк"
+msgid "_Select a dictionary source for looking up words:"
+msgstr "_Выберыце крыніцу слоўнікаў для пошуку слоў:"
 
 #: ../data/gnome-dictionary-preferences.ui.h:2
-#: ../data/gnome-dictionary-source.ui.h:3
+#: ../data/gnome-dictionary-source.ui.h:6
 msgid "Source"
 msgstr "Крыніца"
 
@@ -48,65 +44,69 @@ msgid "_Print font:"
 msgstr "_Шрыфт для друку:"
 
 #: ../data/gnome-dictionary-preferences.ui.h:4
-msgid "_Select a dictionary source for looking up words:"
-msgstr "_Выберыце крыніцу слоўнікаў для пошуку слоў:"
+msgid "Print"
+msgstr "Друк"
 
 #: ../data/gnome-dictionary-source.ui.h:1
-msgid "Dictionaries"
-msgstr "Слоўнікі"
+msgid "_Description:"
+msgstr "_Апісанне:"
 
 #: ../data/gnome-dictionary-source.ui.h:2
+msgid "_Transport:"
+msgstr "_Транспарт:"
+
+#: ../data/gnome-dictionary-source.ui.h:3
 msgid "H_ostname:"
 msgstr "_Назва машыны:"
 
 #: ../data/gnome-dictionary-source.ui.h:4
-msgid "Source Name"
-msgstr "Назва крыніцы"
-
-#: ../data/gnome-dictionary-source.ui.h:5
-msgid "Strategies"
-msgstr "Стратэгіі"
-
-#: ../data/gnome-dictionary-source.ui.h:6
-msgid "_Description:"
-msgstr "_Апісанне:"
-
-#: ../data/gnome-dictionary-source.ui.h:7
 msgid "_Port:"
 msgstr "П_орт:"
 
+#: ../data/gnome-dictionary-source.ui.h:5
+msgid "Source Name"
+msgstr "Назва крыніцы"
+
+#: ../data/gnome-dictionary-source.ui.h:7
+msgid "Dictionaries"
+msgstr "Слоўнікі"
+
 #: ../data/gnome-dictionary-source.ui.h:8
-msgid "_Transport:"
-msgstr "_Транспарт:"
+msgid "Strategies"
+msgstr "Стратэгіі"
 
 #: ../data/org.gnome.dictionary.gschema.xml.in.in.h:1
 msgid "The default database to use"
 msgstr "Прадвызначаная база даных"
 
 #: ../data/org.gnome.dictionary.gschema.xml.in.in.h:2
-msgid "The default search strategy to use"
-msgstr "Прадвызначаная стратэгія пошуку"
-
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:3
-msgid "The font to be used when printing"
-msgstr "Шрыфт для друку"
-
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:4
-msgid "The font to be used when printing a definition."
-msgstr "Шрыфт для друку азначэнняў."
-
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:5
 msgid ""
 "The name of the default individual database or meta-database to use on a "
 "dictionary source. An exclamation mark (\"!\") means that all the databases "
 "present in a dictionary source should be searched"
 msgstr ""
+"Назва прадвызначанай асабістай базы даных ці метабазы для крыніцы слоўнікаў. "
+"Клічнік (\"!\") азначае, што трэба шукаць ва ўсіх базах даных крыніцы"
 
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:6
+#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:3
+msgid "The default search strategy to use"
+msgstr "Прадвызначаная стратэгія пошуку"
+
+#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:4
 msgid ""
 "The name of the default search strategy to use on a dictionary source, if "
 "available. The default strategy is 'exact', that is match exact words."
 msgstr ""
+"Назва прадвызначанай стратэгіі пошуку для крыніцы слоўнікаў. Прадвызначаная "
+"стратэгія - \"exact\", што азначае пошук поўных слоў-адпаведнікаў."
+
+#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:5
+msgid "The font to be used when printing"
+msgstr "Шрыфт для друку"
+
+#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:6
+msgid "The font to be used when printing a definition."
+msgstr "Шрыфт для друку азначэнняў."
 
 #: ../data/org.gnome.dictionary.gschema.xml.in.in.h:7
 msgid "The name of the dictionary source used"
