@@ -4,61 +4,87 @@
 # Maxim Dziumanenko <dziumanenko@gmail.com>, 2002-2010
 # wanderlust <wanderlust@ukr.net>, 2009.
 # int_ua <xintx.ua@gmail.com>, 2010.
-# Korostil Daniel <ted.korostiled@gmail.com>, 2011.
+# Korostil Daniel <ted.korostiled@gmail.com>, 2011, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-utils\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-10-06 14:35-0400\n"
-"PO-Revision-Date: 2011-03-18 19:34+0300\n"
+"POT-Creation-Date: 2012-03-04 21:19+0200\n"
+"PO-Revision-Date: 2012-03-04 21:22+0300\n"
 "Last-Translator: Korostil Daniel <ted.korostiled@gmail.com>\n"
 "Language-Team: translation@linux.org.ua\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Virtaal 0.6.1\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Virtaal 0.7.1\n"
+"X-Project-Style: gnome\n"
 
 #: ../data/default.desktop.in.h:1
 msgid "Default Dictionary Server"
 msgstr "Типовий словниковий сервер"
 
-#: ../data/spanish.desktop.in.h:1
-msgid "Spanish Dictionaries"
-msgstr "Іспанські словники"
+#: ../data/gnome-dictionary.desktop.in.in.h:1 ../src/gdict-about.c:62
+#: ../src/gdict-app.c:238 ../src/gdict-window.c:601 ../src/gdict-window.c:1894
+msgid "Dictionary"
+msgstr "Словник"
 
-#: ../data/thai.desktop.in.h:1
-msgid "Longdo Thai-English Dictionaries"
-msgstr "Тайсько-англійські словники Longdo"
-
-#: ../data/gnome-dictionary.desktop.in.in.h:1
+#: ../data/gnome-dictionary.desktop.in.in.h:2
 msgid "Check word definitions and spellings in an online dictionary"
 msgstr "Пошук слів та їх написання у інтерактивному словнику"
 
-#: ../data/gnome-dictionary.desktop.in.in.h:2 ../src/gdict-about.c:62
-#: ../src/gdict-app.c:233 ../src/gdict-window.c:601 ../src/gdict-window.c:1894
-msgid "Dictionary"
-msgstr "Словник"
+#: ../data/gnome-dictionary-preferences.ui.h:1
+msgid "_Select a dictionary source for looking up words:"
+msgstr "_Виберіть джерело словника для пошуку слів:"
+
+#: ../data/gnome-dictionary-preferences.ui.h:2
+#: ../data/gnome-dictionary-source.ui.h:6
+msgid "Source"
+msgstr "Джерело"
+
+#: ../data/gnome-dictionary-preferences.ui.h:3
+msgid "_Print font:"
+msgstr "Шрифт д_руку:"
+
+#: ../data/gnome-dictionary-preferences.ui.h:4
+msgid "Print"
+msgstr "Надрукувати"
+
+#: ../data/gnome-dictionary-source.ui.h:1
+msgid "_Description:"
+msgstr "_Опис:"
+
+#: ../data/gnome-dictionary-source.ui.h:2
+msgid "_Transport:"
+msgstr "_Транспорт:"
+
+#: ../data/gnome-dictionary-source.ui.h:3
+msgid "H_ostname:"
+msgstr "Назва в_узла:"
+
+#: ../data/gnome-dictionary-source.ui.h:4
+msgid "_Port:"
+msgstr "_Порт:"
+
+#: ../data/gnome-dictionary-source.ui.h:5
+msgid "Source Name"
+msgstr "Назва джерела"
+
+#: ../data/gnome-dictionary-source.ui.h:7
+msgid "Dictionaries"
+msgstr "Словники"
+
+#: ../data/gnome-dictionary-source.ui.h:8
+msgid "Strategies"
+msgstr "Стратегії"
 
 #: ../data/org.gnome.dictionary.gschema.xml.in.in.h:1
 msgid "The default database to use"
 msgstr "Типова база даних"
 
 #: ../data/org.gnome.dictionary.gschema.xml.in.in.h:2
-msgid "The default search strategy to use"
-msgstr "Типова стратегія пошуку"
-
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:3
-msgid "The font to be used when printing"
-msgstr "Шрифт, що використовується при друкуванні"
-
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:4
-msgid "The font to be used when printing a definition."
-msgstr "Шрифт, що використовується при друкуванні."
-
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:5
 msgid ""
 "The name of the default individual database or meta-database to use on a "
 "dictionary source. An exclamation mark (\"!\") means that all the databases "
@@ -68,13 +94,25 @@ msgstr ""
 "сервері. Знак оклику (\"!\") вказує, що пошук має відбуватись в усіх базах "
 "даних сервера"
 
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:6
+#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:3
+msgid "The default search strategy to use"
+msgstr "Типова стратегія пошуку"
+
+#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:4
 msgid ""
 "The name of the default search strategy to use on a dictionary source, if "
 "available. The default strategy is 'exact', that is match exact words."
 msgstr ""
 "Назва типової стратегії пошуку для сервера словника, якщо доступно. Типова "
 "стратегія 'exact', тобто точна відповідність словам."
+
+#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:5
+msgid "The font to be used when printing"
+msgstr "Шрифт, що використовується при друкуванні"
+
+#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:6
+msgid "The font to be used when printing a definition."
+msgstr "Шрифт, що використовується при друкуванні."
 
 #: ../data/org.gnome.dictionary.gschema.xml.in.in.h:7
 msgid "The name of the dictionary source used"
@@ -86,50 +124,13 @@ msgid ""
 msgstr ""
 "Назва словникового сервера, що використовується для отримання визначень слів."
 
-#: ../data/gnome-dictionary-preferences.ui.h:1
-msgid "Print"
-msgstr "Надрукувати"
+#: ../data/spanish.desktop.in.h:1
+msgid "Spanish Dictionaries"
+msgstr "Іспанські словники"
 
-#: ../data/gnome-dictionary-preferences.ui.h:2
-#: ../data/gnome-dictionary-source.ui.h:3
-msgid "Source"
-msgstr "Джерело"
-
-#: ../data/gnome-dictionary-preferences.ui.h:3
-msgid "_Print font:"
-msgstr "Шрифт д_руку:"
-
-#: ../data/gnome-dictionary-preferences.ui.h:4
-msgid "_Select a dictionary source for looking up words:"
-msgstr "_Виберіть джерело словника для пошуку слів:"
-
-#: ../data/gnome-dictionary-source.ui.h:1
-msgid "Dictionaries"
-msgstr "Словники"
-
-#: ../data/gnome-dictionary-source.ui.h:2
-msgid "H_ostname:"
-msgstr "Назва в_узла:"
-
-#: ../data/gnome-dictionary-source.ui.h:4
-msgid "Source Name"
-msgstr "Назва джерела"
-
-#: ../data/gnome-dictionary-source.ui.h:5
-msgid "Strategies"
-msgstr "Стратегії"
-
-#: ../data/gnome-dictionary-source.ui.h:6
-msgid "_Description:"
-msgstr "_Опис:"
-
-#: ../data/gnome-dictionary-source.ui.h:7
-msgid "_Port:"
-msgstr "_Порт:"
-
-#: ../data/gnome-dictionary-source.ui.h:8
-msgid "_Transport:"
-msgstr "_Транспорт:"
+#: ../data/thai.desktop.in.h:1
+msgid "Longdo Thai-English Dictionaries"
+msgstr "Тайсько-англійські словники Longdo"
 
 #: ../libgdict/gdict-client-context.c:283
 msgid "Client Name"
@@ -343,9 +344,8 @@ msgid "Name"
 msgstr "Назва"
 
 #: ../libgdict/gdict-source.c:247
-#, fuzzy
 msgid "The display name of this dictionary source"
-msgstr "Показана назва цього джерела словників"
+msgstr "Екрана назва цього джерела словників"
 
 #: ../libgdict/gdict-source.c:260
 msgid "Description"
@@ -360,18 +360,16 @@ msgid "Database"
 msgstr "База даних"
 
 #: ../libgdict/gdict-source.c:275
-#, fuzzy
 msgid "The default database of this dictionary source"
-msgstr "Типова База даних, що використовується сервером"
+msgstr "Типова база даних цього джерела словників"
 
 #: ../libgdict/gdict-source.c:288 ../libgdict/gdict-speller.c:390
 msgid "Strategy"
 msgstr "Стратегія"
 
 #: ../libgdict/gdict-source.c:289
-#, fuzzy
 msgid "The default strategy of this dictionary source"
-msgstr "Типова стратегія, що використовується сервером"
+msgstr "Типова стратегія цього джерела словників"
 
 #: ../libgdict/gdict-source.c:302
 msgid "Transport"
@@ -555,7 +553,7 @@ msgstr "Це призведе до остаточного вилучення д�
 msgid "Unable to remove source '%s'"
 msgstr "Не вдалось вилучити джерело «%s»"
 
-#: ../src/gdict-pref-dialog.c:496 ../src/gdict-source-dialog.c:479
+#: ../src/gdict-pref-dialog.c:496 ../src/gdict-source-dialog.c:477
 #: ../src/gdict-window.c:1245
 #, c-format
 msgid "There was an error while displaying help"
@@ -582,11 +580,11 @@ msgstr "Встановити шрифт для друку значення"
 msgid "Unable to display the preview: %s"
 msgstr "Не вдалось показати попередній перегляд: %s"
 
-#: ../src/gdict-source-dialog.c:341 ../src/gdict-source-dialog.c:434
+#: ../src/gdict-source-dialog.c:342 ../src/gdict-source-dialog.c:434
 msgid "Unable to create a source file"
 msgstr "Не вдалось створити файл джерела"
 
-#: ../src/gdict-source-dialog.c:359 ../src/gdict-source-dialog.c:452
+#: ../src/gdict-source-dialog.c:358 ../src/gdict-source-dialog.c:450
 msgid "Unable to save source file"
 msgstr "Не вдалось створити файл джерела"
 
