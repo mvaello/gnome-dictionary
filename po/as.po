@@ -4,33 +4,26 @@
 #
 # Amitakhya Phukan <aphukan@redhat.com>, 2008.
 # Amitakhya Phukan <amitakhya@svn.gnome.org>, 2008, 2009.
-# Nilamdyuti Goswami <ngoswami@redhat.com>, 2011.
+# Nilamdyuti Goswami <ngoswami@redhat.com>, 2011, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: as\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-10-06 14:34-0400\n"
-"PO-Revision-Date: 2011-03-15 15:19+0000\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug."
+"cgi?product=gnome-dictionary&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2011-10-25 14:13+0000\n"
+"PO-Revision-Date: 2012-03-08 21:41+0530\n"
 "Last-Translator: Nilamdyuti Goswami <ngoswami@redhat.com>\n"
-"Language-Team: Assamese <kde-i18n-doc@kde.org>\n"
-"Language: as\n"
+"Language-Team: as_IN <kde-i18n-doc@kde.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: as\n"
 "Plural-Forms: nplurals=2; plural=(n!=1)\n"
 "X-Generator: Lokalize 1.0\n"
 
 #: ../data/default.desktop.in.h:1
 msgid "Default Dictionary Server"
 msgstr "অবিকল্পিত অভিধানৰ সেৱক"
-
-#: ../data/spanish.desktop.in.h:1
-msgid "Spanish Dictionaries"
-msgstr "স্প্যানিশ অভিধান"
-
-#: ../data/thai.desktop.in.h:1
-msgid "Longdo Thai-English Dictionaries"
-msgstr "থাই শব্দকোষ"
 
 #: ../data/gnome-dictionary.desktop.in.in.h:1
 msgid "Check word definitions and spellings in an online dictionary"
@@ -40,46 +33,6 @@ msgstr "অনশাৰী অভিধানে শব্দেৰ সংজ্
 #: ../src/gdict-app.c:233 ../src/gdict-window.c:601 ../src/gdict-window.c:1894
 msgid "Dictionary"
 msgstr "অভিধান"
-
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:1
-msgid "The default database to use"
-msgstr "ব্যৱহাৰৰ বাবে চিহ্নিত অবিকল্পিত ডাটাবেস"
-
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:2
-msgid "The default search strategy to use"
-msgstr "অনুসন্ধান কৰ্মে ব্যৱহৃত অবিকল্পিত নীতি"
-
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:3
-msgid "The font to be used when printing"
-msgstr "প্ৰিন্ট কৰাৰ সময় ব্যৱহৃত ফন্ট"
-
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:4
-msgid "The font to be used when printing a definition."
-msgstr "সংজ্ঞা প্ৰিন্ট কৰাৰ সময় ব্যৱহৃত ফন্ট ।"
-
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:5
-msgid ""
-"The name of the default individual database or meta-database to use on a "
-"dictionary source. An exclamation mark (\"!\") means that all the databases "
-"present in a dictionary source should be searched"
-msgstr ""
-"অভিধান সেৱকে ব্যৱহত স্বতন্ত্ৰ ডাটাবেস বা মিটা-ডাটাবেসেৰ নাম । বিস্ময়সূচক চিহ্নৰ (\"!"
-"\")  সাহায্যে নিৰ্দিষ্ট সেৱকে উপস্থিত সকল ডাটাবেস অনুসন্ধানৰ নিৰ্দেশ দেওয়া হয় ।"
-
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:6
-msgid ""
-"The name of the default search strategy to use on a dictionary source, if "
-"available. The default strategy is 'exact', that is match exact words."
-msgstr "মুঠ অবিকল্পিত চলি আছে a উৎস অবিকল্পিত হলো হলো."
-
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:7
-msgid "The name of the dictionary source used"
-msgstr "ব্যৱহৃথ অভিধান উৎসেৰ নাম"
-
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:8
-msgid ""
-"The name of the dictionary source used to retrieve the definitions of words."
-msgstr "শব্দেৰ সংজ্ঞা উদ্ধাৰ কৰিবলৈ ব্যৱহৃত অভিধান উৎসেৰ নাম ।"
 
 #: ../data/gnome-dictionary-preferences.ui.h:1
 msgid "Print"
@@ -125,6 +78,53 @@ msgstr "পোৰ্ট: (_P)"
 #: ../data/gnome-dictionary-source.ui.h:8
 msgid "_Transport:"
 msgstr "পৰিবহণ:(_T)"
+
+#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:1
+msgid "The default database to use"
+msgstr "ব্যৱহাৰৰ বাবে চিহ্নিত অবিকল্পিত ডাটাবেস"
+
+#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:2
+msgid "The default search strategy to use"
+msgstr "অনুসন্ধান কৰ্মে ব্যৱহৃত অবিকল্পিত নীতি"
+
+#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:3
+msgid "The font to be used when printing"
+msgstr "প্ৰিন্ট কৰাৰ সময় ব্যৱহৃত ফন্ট"
+
+#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:4
+msgid "The font to be used when printing a definition."
+msgstr "সংজ্ঞা প্ৰিন্ট কৰাৰ সময় ব্যৱহৃত ফন্ট ।"
+
+#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:5
+msgid ""
+"The name of the default individual database or meta-database to use on a "
+"dictionary source. An exclamation mark (\"!\") means that all the databases "
+"present in a dictionary source should be searched"
+msgstr ""
+"অভিধান সেৱকে ব্যৱহত স্বতন্ত্ৰ ডাটাবেস বা মিটা-ডাটাবেসেৰ নাম । বিস্ময়সূচক চিহ্নৰ (\"!"
+"\")  সাহায্যে নিৰ্দিষ্ট সেৱকে উপস্থিত সকল ডাটাবেস অনুসন্ধানৰ নিৰ্দেশ দেওয়া হয় ।"
+
+#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:6
+msgid ""
+"The name of the default search strategy to use on a dictionary source, if "
+"available. The default strategy is 'exact', that is match exact words."
+msgstr "মুঠ অবিকল্পিত চলি আছে a উৎস অবিকল্পিত হলো হলো."
+
+#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:7
+msgid "The name of the dictionary source used"
+msgstr "ব্যৱহৃথ অভিধান উৎসেৰ নাম"
+
+#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:8
+msgid "The name of the dictionary source used to retrieve the definitions of words."
+msgstr "শব্দেৰ সংজ্ঞা উদ্ধাৰ কৰিবলৈ ব্যৱহৃত অভিধান উৎসেৰ নাম ।"
+
+#: ../data/spanish.desktop.in.h:1
+msgid "Spanish Dictionaries"
+msgstr "স্প্যানিশ অভিধান"
+
+#: ../data/thai.desktop.in.h:1
+msgid "Longdo Thai-English Dictionaries"
+msgstr "থাই শব্দকোষ"
 
 #: ../libgdict/gdict-client-context.c:283
 msgid "Client Name"
@@ -338,9 +338,8 @@ msgid "Name"
 msgstr "নাম"
 
 #: ../libgdict/gdict-source.c:247
-#, fuzzy
 msgid "The display name of this dictionary source"
-msgstr "অভিধানৰ উৎসেৰ বাবে প্ৰদৰ্শিত নাম"
+msgstr "অভিধানৰ উৎসৰ বাবে প্ৰদৰ্শিত নাম"
 
 #: ../libgdict/gdict-source.c:260
 msgid "Description"
@@ -355,18 +354,16 @@ msgid "Database"
 msgstr "ডাটাবেস"
 
 #: ../libgdict/gdict-source.c:275
-#, fuzzy
 msgid "The default database of this dictionary source"
-msgstr "অভিধানৰ উৎসেৰ দ্বাৰা ব্যৱহৃত অবিকল্পিত ডাটাবেস"
+msgstr "অভিধানৰ উৎসৰ দ্বাৰা ব্যৱহৃত অবিকল্পিত ডাটাবেইচ"
 
 #: ../libgdict/gdict-source.c:288 ../libgdict/gdict-speller.c:390
 msgid "Strategy"
 msgstr "নীতি"
 
 #: ../libgdict/gdict-source.c:289
-#, fuzzy
 msgid "The default strategy of this dictionary source"
-msgstr "অভিধানৰ উৎসেৰ দ্বাৰা ব্যৱহৃত অবিকল্পিত নীতি"
+msgstr "অভিধানৰ উৎসৰ দ্বাৰা ব্যৱহৃত অবিকল্পিত নীতি"
 
 #: ../libgdict/gdict-source.c:302
 msgid "Transport"
@@ -402,8 +399,7 @@ msgstr "অভিধান উৎসেৰ সংজ্ঞাত  '%s' চাব
 
 #: ../libgdict/gdict-source.c:555
 #, c-format
-msgid ""
-"Unable to get the '%s' key inside the dictionary source definition file: %s"
+msgid "Unable to get the '%s' key inside the dictionary source definition file: %s"
 msgstr "অভিধান উৎসেৰ সংজ্ঞাৰ নথিপত্ৰত  '%s' চাবি প্ৰাপ্ত কৰিবলৈ ব্যৰ্থ: %s"
 
 #: ../libgdict/gdict-source.c:741
@@ -834,3 +830,4 @@ msgstr "Available strategies"
 #: ../src/gdict-window.c:1822
 msgid "Dictionary sources"
 msgstr "অভিধান"
+
