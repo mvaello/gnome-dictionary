@@ -1,4 +1,4 @@
-# Bulgarian translation of gnome-utils po-file.
+# Bulgarian translation of gnome-dictionary po-file.
 # Copyright (C) 2002, 2004, 2005, 2006, 2007, 2008 Free Software Foundation, Inc.
 # Copyright (C) 2009, 2010, 2011 Free Software Foundation, Inc.
 # Borislav Aleksandrov <B.Aleksandrov@cnsys.bg>, 2002.
@@ -11,10 +11,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-utils master\n"
+"Project-Id-Version: gnome-dictionary master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-10-06 14:35-0400\n"
-"PO-Revision-Date: 2011-08-11 22:44+0300\n"
+"POT-Creation-Date: 2012-03-13 19:47+0200\n"
+"PO-Revision-Date: 2012-03-13 19:48+0200\n"
 "Last-Translator: Krasimir Chonov <mk2616@abv.bg>\n"
 "Language-Team: Bulgarian <dict@fsa-bg.org>\n"
 "Language: bg\n"
@@ -27,40 +27,65 @@ msgstr ""
 msgid "Default Dictionary Server"
 msgstr "Стандартен речников сървър"
 
-#: ../data/spanish.desktop.in.h:1
-msgid "Spanish Dictionaries"
-msgstr "Испански речници"
+#: ../data/gnome-dictionary.desktop.in.in.h:1 ../src/gdict-about.c:62
+#: ../src/gdict-app.c:238 ../src/gdict-window.c:601 ../src/gdict-window.c:1894
+msgid "Dictionary"
+msgstr "Речник"
 
-#: ../data/thai.desktop.in.h:1
-msgid "Longdo Thai-English Dictionaries"
-msgstr "Тайско-английски речници на Longdo"
-
-#: ../data/gnome-dictionary.desktop.in.in.h:1
+#: ../data/gnome-dictionary.desktop.in.in.h:2
 msgid "Check word definitions and spellings in an online dictionary"
 msgstr "Търсене на определения и правописа на думи в речник в Интернет"
 
-#: ../data/gnome-dictionary.desktop.in.in.h:2 ../src/gdict-about.c:62
-#: ../src/gdict-app.c:233 ../src/gdict-window.c:601 ../src/gdict-window.c:1894
-msgid "Dictionary"
-msgstr "Речник"
+#: ../data/gnome-dictionary-preferences.ui.h:1
+msgid "_Select a dictionary source for looking up words:"
+msgstr "_Избор на източник на речници за търсене на думи:"
+
+#: ../data/gnome-dictionary-preferences.ui.h:2
+#: ../data/gnome-dictionary-source.ui.h:6
+msgid "Source"
+msgstr "Източник"
+
+#: ../data/gnome-dictionary-preferences.ui.h:3
+msgid "_Print font:"
+msgstr "_Шрифт за разпечатването:"
+
+#: ../data/gnome-dictionary-preferences.ui.h:4
+msgid "Print"
+msgstr "Печат"
+
+#: ../data/gnome-dictionary-source.ui.h:1
+msgid "_Description:"
+msgstr "_Описание:"
+
+#: ../data/gnome-dictionary-source.ui.h:2
+msgid "_Transport:"
+msgstr "_Транспорт:"
+
+#: ../data/gnome-dictionary-source.ui.h:3
+msgid "H_ostname:"
+msgstr "_Име на хост:"
+
+#: ../data/gnome-dictionary-source.ui.h:4
+msgid "_Port:"
+msgstr "_Порт:"
+
+#: ../data/gnome-dictionary-source.ui.h:5
+msgid "Source Name"
+msgstr "Име на източник"
+
+#: ../data/gnome-dictionary-source.ui.h:7
+msgid "Dictionaries"
+msgstr "Речници"
+
+#: ../data/gnome-dictionary-source.ui.h:8
+msgid "Strategies"
+msgstr "Стратегии"
 
 #: ../data/org.gnome.dictionary.gschema.xml.in.in.h:1
 msgid "The default database to use"
 msgstr "Стандартната база от данни, която да се използва"
 
 #: ../data/org.gnome.dictionary.gschema.xml.in.in.h:2
-msgid "The default search strategy to use"
-msgstr "Стандартната стратегия за търсене, която да се използва"
-
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:3
-msgid "The font to be used when printing"
-msgstr "Шрифтът, който да се използва при печатане"
-
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:4
-msgid "The font to be used when printing a definition."
-msgstr "Шрифтът, който да се използва при печатане на определение"
-
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:5
 msgid ""
 "The name of the default individual database or meta-database to use on a "
 "dictionary source. An exclamation mark (\"!\") means that all the databases "
@@ -70,13 +95,25 @@ msgstr ""
 "използва за източник на речници. „!“ определя, че всички бази от данни в "
 "източника на речници, трябва да бъдат прегледани."
 
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:6
+#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:3
+msgid "The default search strategy to use"
+msgstr "Стандартната стратегия за търсене, която да се използва"
+
+#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:4
 msgid ""
 "The name of the default search strategy to use on a dictionary source, if "
 "available. The default strategy is 'exact', that is match exact words."
 msgstr ""
 "Името на стандартната стратегия за търсене в източника на речници. "
 "Стандартно е „exact“ — точно и пълно съвпадение на думите."
+
+#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:5
+msgid "The font to be used when printing"
+msgstr "Шрифтът, който да се използва при печатане"
+
+#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:6
+msgid "The font to be used when printing a definition."
+msgstr "Шрифтът, който да се използва при печатане на определение"
 
 #: ../data/org.gnome.dictionary.gschema.xml.in.in.h:7
 msgid "The name of the dictionary source used"
@@ -89,50 +126,13 @@ msgstr ""
 "Името на източника на речници, който да се използва за получаване на "
 "определенията на думи"
 
-#: ../data/gnome-dictionary-preferences.ui.h:1
-msgid "Print"
-msgstr "Печат"
+#: ../data/spanish.desktop.in.h:1
+msgid "Spanish Dictionaries"
+msgstr "Испански речници"
 
-#: ../data/gnome-dictionary-preferences.ui.h:2
-#: ../data/gnome-dictionary-source.ui.h:3
-msgid "Source"
-msgstr "Източник"
-
-#: ../data/gnome-dictionary-preferences.ui.h:3
-msgid "_Print font:"
-msgstr "_Шрифт за разпечатването:"
-
-#: ../data/gnome-dictionary-preferences.ui.h:4
-msgid "_Select a dictionary source for looking up words:"
-msgstr "_Избор на източник на речници за търсене на думи:"
-
-#: ../data/gnome-dictionary-source.ui.h:1
-msgid "Dictionaries"
-msgstr "Речници"
-
-#: ../data/gnome-dictionary-source.ui.h:2
-msgid "H_ostname:"
-msgstr "_Име на хост:"
-
-#: ../data/gnome-dictionary-source.ui.h:4
-msgid "Source Name"
-msgstr "Име на източник"
-
-#: ../data/gnome-dictionary-source.ui.h:5
-msgid "Strategies"
-msgstr "Стратегии"
-
-#: ../data/gnome-dictionary-source.ui.h:6
-msgid "_Description:"
-msgstr "_Описание:"
-
-#: ../data/gnome-dictionary-source.ui.h:7
-msgid "_Port:"
-msgstr "_Порт:"
-
-#: ../data/gnome-dictionary-source.ui.h:8
-msgid "_Transport:"
-msgstr "_Транспорт:"
+#: ../data/thai.desktop.in.h:1
+msgid "Longdo Thai-English Dictionaries"
+msgstr "Тайско-английски речници на Longdo"
 
 #: ../libgdict/gdict-client-context.c:283
 msgid "Client Name"
@@ -566,7 +566,7 @@ msgstr "Това ще премахне източника на речници з
 msgid "Unable to remove source '%s'"
 msgstr "Неуспех при премахване на източника „%s“."
 
-#: ../src/gdict-pref-dialog.c:496 ../src/gdict-source-dialog.c:479
+#: ../src/gdict-pref-dialog.c:496 ../src/gdict-source-dialog.c:477
 #: ../src/gdict-window.c:1245
 #, c-format
 msgid "There was an error while displaying help"
@@ -593,11 +593,11 @@ msgstr "Настройване на шрифта за печат на опред
 msgid "Unable to display the preview: %s"
 msgstr "Прегледът не може да се покаже: %s"
 
-#: ../src/gdict-source-dialog.c:341 ../src/gdict-source-dialog.c:434
+#: ../src/gdict-source-dialog.c:342 ../src/gdict-source-dialog.c:434
 msgid "Unable to create a source file"
 msgstr "Неуспех при създаване на файл за източника"
 
-#: ../src/gdict-source-dialog.c:359 ../src/gdict-source-dialog.c:452
+#: ../src/gdict-source-dialog.c:358 ../src/gdict-source-dialog.c:450
 msgid "Unable to save source file"
 msgstr "Неуспех при запазване на файла за източника"
 
