@@ -1,23 +1,25 @@
 # translation of te.po to Telugu
 # Telugu translation of gnome-utils.
-# Copyright (C) 2007 Swecha Telugu Localisation Team <localisation@swecha.org>
+# Copyright (C) 2007, 2012 Swecha Telugu Localisation Team <localization@swecha.org>
 # This file is distributed under the same license as the gnome-utils package.
 #
 #
 # Pramod <pramodfsf@gmail.com>, 2007.
-# Krishna Babu K <kkrothap@redhat.com>, 2007, 2009, 2010.
+# Krishna Babu K <kkrothap@redhat.com>, 2007, 2009, 2010, 2012.
+# Sasi Bhushan Boddepalli <sasi@swecha.net>, 2012
 msgid ""
 msgstr ""
 "Project-Id-Version: te\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-10-06 14:35-0400\n"
-"PO-Revision-Date: 2010-07-19 16:39+0530\n"
-"Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
-"Language-Team: Telugu <en@li.org>\n"
-"Language: te\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
+"dictionary&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2011-10-25 14:13+0000\n"
+"PO-Revision-Date: 2012-03-14 08:19+0530\n"
+"Last-Translator: Sasi Bhushan Boddepalli <sasi@swecha.net>\n"
+"Language-Team: Telugu <indlinux-telugu@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: te\n"
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
 "\n"
 "\n"
@@ -29,14 +31,6 @@ msgstr ""
 msgid "Default Dictionary Server"
 msgstr "సేవిక అప్రమేయ నిఘంటువు"
 
-#: ../data/spanish.desktop.in.h:1
-msgid "Spanish Dictionaries"
-msgstr "స్పానిష్ నిఘంటువులు"
-
-#: ../data/thai.desktop.in.h:1
-msgid "Longdo Thai-English Dictionaries"
-msgstr "లోంగ్డో థాయ్-ఇంగ్లీష్ నిఘంటువులు"
-
 #: ../data/gnome-dictionary.desktop.in.in.h:1
 msgid "Check word definitions and spellings in an online dictionary"
 msgstr "లైను వెలుపల నిఘంటువులో పదము నిర్వచనములను మరియు వర్ణక్రమములను తనిఖీచేయుము"
@@ -45,48 +39,6 @@ msgstr "లైను వెలుపల నిఘంటువులో పదమ
 #: ../src/gdict-app.c:233 ../src/gdict-window.c:601 ../src/gdict-window.c:1894
 msgid "Dictionary"
 msgstr "నిఘంటువు"
-
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:1
-msgid "The default database to use"
-msgstr "అప్రమేయ దత్తాంశ స్థానం వాడుటకొరకు"
-
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:2
-msgid "The default search strategy to use"
-msgstr "అప్రమేయ ప్యూహరచన వెతుకుటను వాడుము"
-
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:3
-msgid "The font to be used when printing"
-msgstr "ముద్రించునపుడు ఈ శైలిని వాడుదురు"
-
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:4
-msgid "The font to be used when printing a definition."
-msgstr "నిర్వచనమును ముద్రించునపుడు ఈ శైలిని వాడుదురు."
-
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:5
-msgid ""
-"The name of the default individual database or meta-database to use on a "
-"dictionary source. An exclamation mark (\"!\") means that all the databases "
-"present in a dictionary source should be searched"
-msgstr ""
-"నిఘంటువు వనరు లో వాడుటకు అప్రమేయ స్వతంత్ర దత్తాంశస్థానం లేదా మెటా-దత్తాంశస్థానం యొక్క నామము."
-"ఆశ్చర్యార్ధంకం (\"!\") అర్ధం నిఘంటువు వనరు లో ఇవ్వబడినటువంటి అన్ని దత్తాంశస్థానములు శోధించబడాలి."
-
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:6
-msgid ""
-"The name of the default search strategy to use on a dictionary source, if "
-"available. The default strategy is 'exact', that is match exact words."
-msgstr ""
-"నిఘంటువు వనరులో ఉపయోగించుటకు అప్రమేయ శోధనా ఎత్తుగడ నామము, అందుబాటులో ఉంటే. అప్రమేయ ఎత్తుగడ "
-"'ఖచ్చితం', అంటే ఖచ్చితమైన పదాలను సరిపోల్చాలి."
-
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:7
-msgid "The name of the dictionary source used"
-msgstr "నిఘంటువు వనరు యొక్క నామము వాడబడినది "
-
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:8
-msgid ""
-"The name of the dictionary source used to retrieve the definitions of words."
-msgstr "పదముల యొక్క నిర్వచనములు వెలికితీయుటకు నిఘంటువు వనరు యొక్క నామము వాడబడినది."
 
 #: ../data/gnome-dictionary-preferences.ui.h:1
 msgid "Print"
@@ -132,6 +84,56 @@ msgstr "పోర్టు(_P):"
 #: ../data/gnome-dictionary-source.ui.h:8
 msgid "_Transport:"
 msgstr "ఒక స్థలము నుండి మరియెక స్థలమునకు తీసుకొనిపోవు(_T):"
+
+#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:1
+msgid "The default database to use"
+msgstr "అప్రమేయ దత్తాంశ స్థానం వాడుటకొరకు"
+
+#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:2
+msgid "The default search strategy to use"
+msgstr "అప్రమేయ ప్యూహరచన వెతుకుటను వాడుము"
+
+#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:3
+msgid "The font to be used when printing"
+msgstr "ముద్రించునపుడు ఈ శైలిని వాడుదురు"
+
+#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:4
+msgid "The font to be used when printing a definition."
+msgstr "నిర్వచనమును ముద్రించునపుడు ఈ శైలిని వాడుదురు."
+
+#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:5
+msgid ""
+"The name of the default individual database or meta-database to use on a "
+"dictionary source. An exclamation mark (\"!\") means that all the databases "
+"present in a dictionary source should be searched"
+msgstr ""
+"నిఘంటువు వనరు లో వాడుటకు అప్రమేయ స్వతంత్ర దత్తాంశస్థానం లేదా మెటా-దత్తాంశస్థానం యొక్క నామము."
+"ఆశ్చర్యార్ధంకం (\"!\") అర్ధం నిఘంటువు వనరు లో ఇవ్వబడినటువంటి అన్ని దత్తాంశస్థానములు శోధించబడాలి."
+
+#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:6
+msgid ""
+"The name of the default search strategy to use on a dictionary source, if "
+"available. The default strategy is 'exact', that is match exact words."
+msgstr ""
+"నిఘంటువు వనరులో ఉపయోగించుటకు అప్రమేయ శోధనా ఎత్తుగడ నామము, అందుబాటులో ఉంటే. అప్రమేయ ఎత్తుగడ "
+"'ఖచ్చితం', అంటే ఖచ్చితమైన పదాలను సరిపోల్చాలి."
+
+#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:7
+msgid "The name of the dictionary source used"
+msgstr "నిఘంటువు వనరు యొక్క నామము వాడబడినది "
+
+#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:8
+msgid ""
+"The name of the dictionary source used to retrieve the definitions of words."
+msgstr "పదముల యొక్క నిర్వచనములు వెలికితీయుటకు నిఘంటువు వనరు యొక్క నామము వాడబడినది."
+
+#: ../data/spanish.desktop.in.h:1
+msgid "Spanish Dictionaries"
+msgstr "స్పానిష్ నిఘంటువులు"
+
+#: ../data/thai.desktop.in.h:1
+msgid "Longdo Thai-English Dictionaries"
+msgstr "లోంగ్డో థాయ్-ఇంగ్లీష్ నిఘంటువులు"
 
 #: ../libgdict/gdict-client-context.c:283
 msgid "Client Name"
@@ -345,9 +347,8 @@ msgid "Name"
 msgstr "నామము"
 
 #: ../libgdict/gdict-source.c:247
-#, fuzzy
 msgid "The display name of this dictionary source"
-msgstr "ఈ నిఘంటువు వనరు యొక్క ప్రదర్శన నామము"
+msgstr "ఈ నిఘంటువు వనరు యొక్క ప్రదర్శన నామము "
 
 #: ../libgdict/gdict-source.c:260
 msgid "Description"
@@ -362,18 +363,16 @@ msgid "Database"
 msgstr "దత్తాంశ స్థానము"
 
 #: ../libgdict/gdict-source.c:275
-#, fuzzy
 msgid "The default database of this dictionary source"
-msgstr "ఈ నిఘంటువు వనరు యొక్క అప్రమేయ దత్తాంశ స్థానము"
+msgstr "ఈ నిఘంటువు వనరు యొక్క అప్రమేయ దత్తాంశ స్థానము "
 
 #: ../libgdict/gdict-source.c:288 ../libgdict/gdict-speller.c:390
 msgid "Strategy"
 msgstr "ఎత్తుగడ"
 
 #: ../libgdict/gdict-source.c:289
-#, fuzzy
 msgid "The default strategy of this dictionary source"
-msgstr "ఈ నిఘంటువు వనరు యొక్క అప్రమేయ ఎత్తుగడ"
+msgstr "ఈ నిఘంటువు వనరు యొక్క అప్రమేయ ఎత్తుగడ "
 
 #: ../libgdict/gdict-source.c:302
 msgid "Transport"
@@ -503,7 +502,7 @@ msgstr "పదాలు చూచుటకై"
 
 #: ../src/gdict-app.c:62 ../src/gdict-app.c:68
 msgid "WORD"
-msgstr ""
+msgstr "పదము "
 
 #: ../src/gdict-app.c:68
 msgid "Words to match"
@@ -515,7 +514,7 @@ msgstr "నిఘంటువు వనరు వాడుటకు"
 
 #: ../src/gdict-app.c:74 ../src/gdict-app.c:80 ../src/gdict-app.c:86
 msgid "NAME"
-msgstr ""
+msgstr "నామము "
 
 #: ../src/gdict-app.c:80
 msgid "Database to use"
@@ -527,7 +526,7 @@ msgstr "ఎత్తుగడ వాడుటకు"
 
 #: ../src/gdict-app.c:91
 msgid "WORDS"
-msgstr ""
+msgstr "పదాలు "
 
 #. create the new option context
 #: ../src/gdict-app.c:143
@@ -571,9 +570,8 @@ msgid "Remove the currently selected dictionary source"
 msgstr "ప్రస్తుతము ఎంచుకొనబడిన నిఘంటువు వనరును తొలగించు"
 
 #: ../src/gdict-pref-dialog.c:655
-#, fuzzy
 msgid "Edit the currently selected dictionary source"
-msgstr "ప్రస్తుతము ఎంచుకొనబడిన నిఘంటువు వనరును తొలగించు"
+msgstr "ప్రస్తుతము ఎంచుకొనబడిన నిఘంటువు వనరును మార్చుము "
 
 #: ../src/gdict-pref-dialog.c:663
 msgid "Set the font used for printing the definitions"
