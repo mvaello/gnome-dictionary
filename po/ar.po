@@ -6,13 +6,14 @@
 # Djihed Afifi <djihed@gmail.com>, 2006.
 # Khaled Hosny <khaledhosny@eglug.org>, 2006, 2007, 2008, 2010, 2011.
 # Anas Afif Emad <anas.e87@gmail.com, 2008.
+# Abderrahim Kitouni <a.kitouni@gmail.com>, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-utils.gnome-2-16.ar\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-10-06 14:34-0400\n"
-"PO-Revision-Date: 2011-03-07 08:15+0300\n"
-"Last-Translator: Khaled Hosny <khaledhosny@eglug.org>\n"
+"POT-Creation-Date: 2012-03-18 16:00+0100\n"
+"PO-Revision-Date: 2012-03-18 16:02+0100\n"
+"Last-Translator: Abderrahim Kitouni <a.kitouni@gmail.com>\n"
 "Language-Team: Arabic <doc@arabeyes.org>\n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"
@@ -20,46 +21,72 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
-"X-Generator: Virtaal 0.6.1\n"
+"X-Generator: Virtaal 0.7.1\n"
+"X-Project-Style: gnome\n"
 
 #: ../data/default.desktop.in.h:1
 msgid "Default Dictionary Server"
 msgstr "خادوم القاموس الافتراضي"
 
-#: ../data/spanish.desktop.in.h:1
-msgid "Spanish Dictionaries"
-msgstr "قواميس أسبانية"
+#: ../data/gnome-dictionary.desktop.in.in.h:1 ../src/gdict-about.c:62
+#: ../src/gdict-app.c:238 ../src/gdict-window.c:601 ../src/gdict-window.c:1894
+msgid "Dictionary"
+msgstr "القاموس"
 
-#: ../data/thai.desktop.in.h:1
-msgid "Longdo Thai-English Dictionaries"
-msgstr "قواميس لونجدو تايلاندي-إنجليزي"
-
-#: ../data/gnome-dictionary.desktop.in.in.h:1
+#: ../data/gnome-dictionary.desktop.in.in.h:2
 msgid "Check word definitions and spellings in an online dictionary"
 msgstr "ابحث عن تعريف وإملاء الكلمات في قاموس علخط"
 
-#: ../data/gnome-dictionary.desktop.in.in.h:2 ../src/gdict-about.c:62
-#: ../src/gdict-app.c:233 ../src/gdict-window.c:601 ../src/gdict-window.c:1894
-msgid "Dictionary"
-msgstr "القاموس"
+#: ../data/gnome-dictionary-preferences.ui.h:1
+msgid "_Select a dictionary source for looking up words:"
+msgstr "ا_ختر مصدر قاموس للبحث عن الكلمات:"
+
+#: ../data/gnome-dictionary-preferences.ui.h:2
+#: ../data/gnome-dictionary-source.ui.h:6
+msgid "Source"
+msgstr "المصدر"
+
+#: ../data/gnome-dictionary-preferences.ui.h:3
+msgid "_Print font:"
+msgstr "_خط الطبع:"
+
+#: ../data/gnome-dictionary-preferences.ui.h:4
+msgid "Print"
+msgstr "اطبع"
+
+#: ../data/gnome-dictionary-source.ui.h:1
+msgid "_Description:"
+msgstr "ال_وصف:"
+
+#: ../data/gnome-dictionary-source.ui.h:2
+msgid "_Transport:"
+msgstr "الن_قل:"
+
+#: ../data/gnome-dictionary-source.ui.h:3
+msgid "H_ostname:"
+msgstr "ا_سم المستضيف:"
+
+#: ../data/gnome-dictionary-source.ui.h:4
+msgid "_Port:"
+msgstr "ال_منفذ:"
+
+#: ../data/gnome-dictionary-source.ui.h:5
+msgid "Source Name"
+msgstr "اسم المصدر"
+
+#: ../data/gnome-dictionary-source.ui.h:7
+msgid "Dictionaries"
+msgstr "القواميس"
+
+#: ../data/gnome-dictionary-source.ui.h:8
+msgid "Strategies"
+msgstr "الاستراتيجيات"
 
 #: ../data/org.gnome.dictionary.gschema.xml.in.in.h:1
 msgid "The default database to use"
 msgstr "قاعدة البيانات التي ستستخدم افتراضيا"
 
 #: ../data/org.gnome.dictionary.gschema.xml.in.in.h:2
-msgid "The default search strategy to use"
-msgstr "استراتيجية البحث الافتراضية المستخدمة"
-
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:3
-msgid "The font to be used when printing"
-msgstr "الخط المستعمل أثناء الطباعة"
-
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:4
-msgid "The font to be used when printing a definition."
-msgstr "الخط المستعمل أثناء طباعة التعريفات."
-
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:5
 msgid ""
 "The name of the default individual database or meta-database to use on a "
 "dictionary source. An exclamation mark (\"!\") means that all the databases "
@@ -69,13 +96,25 @@ msgstr ""
 "علامة التعجب (\"!\") تعني أن يبحث قاموس-جنوم جميع قواعد البيانات الموجودة في "
 "مصدر القاموس."
 
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:6
+#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:3
+msgid "The default search strategy to use"
+msgstr "استراتيجية البحث الافتراضية المستخدمة"
+
+#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:4
 msgid ""
 "The name of the default search strategy to use on a dictionary source, if "
 "available. The default strategy is 'exact', that is match exact words."
 msgstr ""
 "اسم استراتيجية البحث الافتراضية للإستعمال على مصدر قاموس، إذا كان متوفّرا. "
 "الالاستراتيجية الافتراضية هي 'exact' ، أي مطابقة كلية للكلمات."
+
+#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:5
+msgid "The font to be used when printing"
+msgstr "الخط المستعمل أثناء الطباعة"
+
+#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:6
+msgid "The font to be used when printing a definition."
+msgstr "الخط المستعمل أثناء طباعة التعريفات."
 
 #: ../data/org.gnome.dictionary.gschema.xml.in.in.h:7
 msgid "The name of the dictionary source used"
@@ -86,50 +125,13 @@ msgid ""
 "The name of the dictionary source used to retrieve the definitions of words."
 msgstr "اسم مصدر القاموس المستعمل للحصول على تعاريف الكلمات."
 
-#: ../data/gnome-dictionary-preferences.ui.h:1
-msgid "Print"
-msgstr "اطبع"
+#: ../data/spanish.desktop.in.h:1
+msgid "Spanish Dictionaries"
+msgstr "قواميس أسبانية"
 
-#: ../data/gnome-dictionary-preferences.ui.h:2
-#: ../data/gnome-dictionary-source.ui.h:3
-msgid "Source"
-msgstr "المصدر"
-
-#: ../data/gnome-dictionary-preferences.ui.h:3
-msgid "_Print font:"
-msgstr "_خط الطبع:"
-
-#: ../data/gnome-dictionary-preferences.ui.h:4
-msgid "_Select a dictionary source for looking up words:"
-msgstr "ا_ختر مصدر قاموس للبحث عن الكلمات:"
-
-#: ../data/gnome-dictionary-source.ui.h:1
-msgid "Dictionaries"
-msgstr "القواميس"
-
-#: ../data/gnome-dictionary-source.ui.h:2
-msgid "H_ostname:"
-msgstr "ا_سم المستضيف:"
-
-#: ../data/gnome-dictionary-source.ui.h:4
-msgid "Source Name"
-msgstr "اسم المصدر"
-
-#: ../data/gnome-dictionary-source.ui.h:5
-msgid "Strategies"
-msgstr "الاستراتيجيات"
-
-#: ../data/gnome-dictionary-source.ui.h:6
-msgid "_Description:"
-msgstr "ال_وصف:"
-
-#: ../data/gnome-dictionary-source.ui.h:7
-msgid "_Port:"
-msgstr "ال_منفذ:"
-
-#: ../data/gnome-dictionary-source.ui.h:8
-msgid "_Transport:"
-msgstr "الن_قل:"
+#: ../data/thai.desktop.in.h:1
+msgid "Longdo Thai-English Dictionaries"
+msgstr "قواميس لونجدو تايلاندي-إنجليزي"
 
 #: ../libgdict/gdict-client-context.c:283
 msgid "Client Name"
@@ -343,9 +345,8 @@ msgid "Name"
 msgstr "الاسم"
 
 #: ../libgdict/gdict-source.c:247
-#, fuzzy
 msgid "The display name of this dictionary source"
-msgstr "اسم معراض مصدر القاموس"
+msgstr "الاسم المعروض لمصدر القاموس هذا"
 
 #: ../libgdict/gdict-source.c:260
 msgid "Description"
@@ -360,18 +361,16 @@ msgid "Database"
 msgstr "قاعدة بيانات"
 
 #: ../libgdict/gdict-source.c:275
-#, fuzzy
 msgid "The default database of this dictionary source"
-msgstr "قاعدة البيانات الافتراضية لمصدر القاموس"
+msgstr "قاعدة البيانات الافتراضية لمصدر القاموس هذا"
 
 #: ../libgdict/gdict-source.c:288 ../libgdict/gdict-speller.c:390
 msgid "Strategy"
 msgstr "الاستراتيجية"
 
 #: ../libgdict/gdict-source.c:289
-#, fuzzy
 msgid "The default strategy of this dictionary source"
-msgstr "الاستراتيجية الافتراضية لمصدر القاموس"
+msgstr "الاستراتيجية الافتراضية لمصدر القاموس هذا"
 
 #: ../libgdict/gdict-source.c:302
 msgid "Transport"
@@ -557,7 +556,7 @@ msgstr "سيحذف هذا مصدر القاموس من القائمة نهائي
 msgid "Unable to remove source '%s'"
 msgstr "لا يمكن حذف المصدر  '%s'"
 
-#: ../src/gdict-pref-dialog.c:496 ../src/gdict-source-dialog.c:479
+#: ../src/gdict-pref-dialog.c:496 ../src/gdict-source-dialog.c:477
 #: ../src/gdict-window.c:1245
 #, c-format
 msgid "There was an error while displaying help"
@@ -584,11 +583,11 @@ msgstr "حدّد الخط المستعمل لطباعة التعاريف"
 msgid "Unable to display the preview: %s"
 msgstr "لا يمكن عرض المعاينة: %s"
 
-#: ../src/gdict-source-dialog.c:341 ../src/gdict-source-dialog.c:434
+#: ../src/gdict-source-dialog.c:342 ../src/gdict-source-dialog.c:434
 msgid "Unable to create a source file"
 msgstr "لا يمكن إنشاء ملف مصدر"
 
-#: ../src/gdict-source-dialog.c:359 ../src/gdict-source-dialog.c:452
+#: ../src/gdict-source-dialog.c:358 ../src/gdict-source-dialog.c:450
 msgid "Unable to save source file"
 msgstr "لا يمكن حفظ ملف المصدر"
 
