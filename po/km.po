@@ -1,0 +1,838 @@
+# translation of gnome-dictionary.master.po to Khmer
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Khoem Sokhem <khoemsokhem@khmeros.info>, 2012.
+# Seng Sutha <sutha@khmeros.info>, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-dictionary.master\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-dictionary&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2011-10-25 14:13+0000\n"
+"PO-Revision-Date: 2012-02-27 11:38+0700\n"
+"Last-Translator: Seng Sutha <sutha@khmeros.info>\n"
+"Language-Team: Khmer <support@khmeros.info>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: WordForge 0.8 RC1\n"
+"X-Language: km-KH\n"
+
+#: ../data/default.desktop.in.h:1
+msgid "Default Dictionary Server"
+msgstr "ម៉ាស៊ីន​បម្រើ​វចនានុក្រម​លំនាំដើម"
+
+#: ../data/gnome-dictionary.desktop.in.in.h:1
+msgid "Check word definitions and spellings in an online dictionary"
+msgstr ""
+"ពិនិត្យ​មើល​និយមន័យ និង​ការ​ប្រកប​របស់​ពាក្យ​នៅ​ក្នុង​វចនានុក្រម​លើ​បណ្ដាញ"
+
+#: ../data/gnome-dictionary.desktop.in.in.h:2 ../src/gdict-about.c:62
+#: ../src/gdict-app.c:233 ../src/gdict-window.c:601 ../src/gdict-window.c:1894
+msgid "Dictionary"
+msgstr "វចនានុក្រម"
+
+#: ../data/gnome-dictionary-preferences.ui.h:1
+msgid "Print"
+msgstr "បោះពុម្ព"
+
+#: ../data/gnome-dictionary-preferences.ui.h:2
+#: ../data/gnome-dictionary-source.ui.h:3
+msgid "Source"
+msgstr "ប្រភព"
+
+#: ../data/gnome-dictionary-preferences.ui.h:3
+msgid "_Print font:"
+msgstr "បោះពុម្ព​ពុម្ពអក្សរ ៖"
+
+#: ../data/gnome-dictionary-preferences.ui.h:4
+msgid "_Select a dictionary source for looking up words:"
+msgstr "ជ្រើស​ប្រភព​វចនានុក្រម​ដើម្បី​រកមើល​ពាក្យ ៖"
+
+#: ../data/gnome-dictionary-source.ui.h:1
+msgid "Dictionaries"
+msgstr "វចនានុក្រម"
+
+#: ../data/gnome-dictionary-source.ui.h:2
+msgid "H_ostname:"
+msgstr "ឈ្មោះ​ម៉ាស៊ីន ៖"
+
+#: ../data/gnome-dictionary-source.ui.h:4
+msgid "Source Name"
+msgstr "ឈ្មោះ​ប្រភព"
+
+#: ../data/gnome-dictionary-source.ui.h:5
+msgid "Strategies"
+msgstr "យុទ្ធសាស្ត្រ"
+
+#: ../data/gnome-dictionary-source.ui.h:6
+msgid "_Description:"
+msgstr "សេចក្ដី​ពិពណ៌នា ៖"
+
+#: ../data/gnome-dictionary-source.ui.h:7
+msgid "_Port:"
+msgstr "ច្រក ៖"
+
+#: ../data/gnome-dictionary-source.ui.h:8
+msgid "_Transport:"
+msgstr "ការ​ដឹក​ជញ្ជូន ៖"
+
+#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:1
+msgid "The default database to use"
+msgstr "មូលដ្ឋាន​ទិន្នន័យ​​លំនាំដើម​ត្រូវ​ប្រើ"
+
+#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:2
+msgid "The default search strategy to use"
+msgstr "យុទ្ធសាស្ត្រ​​​ស្វែងរក​លំនាំដើម​ត្រូវ​ប្រើ"
+
+#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:3
+msgid "The font to be used when printing"
+msgstr "ពុម្ព​អក្សរ​ត្រូវ​បាន​ប្រើ​ នៅ​ពេល​បោះពុម្ព"
+
+#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:4
+msgid "The font to be used when printing a definition."
+msgstr "ពុម្ពអក្សរ​ត្រូវ​បាន​ប្រើ នៅ​ពេល​បោះពុម្ព​និយមន័យ ។"
+
+#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:5
+msgid ""
+"The name of the default individual database or meta-database to use on a "
+"dictionary source. An exclamation mark (\"!\") means that all the databases "
+"present in a dictionary source should be searched"
+msgstr ""
+"ឈ្មោះ​របស់​មូលដ្ឋាន​ទិន្នន័យ​នីមួយៗ​​​លំនាំដើម "
+"ឬ​មូលដ្ឋាន​ទិន្នន័យ​មេតា​ត្រូវ​ប្រើ​លើ​ប្រភេទ​វចនានុក្រម ។ សញ្ញា (\"!\") មាន​ន"
+"័យ​ថា​មូលដ្ឋាន​ទិន្នន័យ​ទាំងអស់​​បង្ហាញ​នៅ​ក្នុង​ប្រភព​វចនានុក្រម​គួរតែ​ត្រូ"
+"វ​បាន​ស្វែងរក"
+
+#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:6
+msgid ""
+"The name of the default search strategy to use on a dictionary source, if "
+"available. The default strategy is 'exact', that is match exact words."
+msgstr ""
+"ឈ្មោះ​របស់​យុទ្ធសាស្ត្រ​ស្វែងរក​លំនាំដើម​ដែល​ត្រូវ​ប្រើ​នៅ​លើ​ប្រភព​វចនានុក្"
+"រម ប្រសិនបើ​មាន ។ យុទ្ធសាស្ត្រ​លំនាំដើម​គឺ 'exact', "
+"ដែល​ផ្គូផ្គង​ពាក្យ​ពិតប្រាកដ ។"
+
+#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:7
+msgid "The name of the dictionary source used"
+msgstr "ឈ្មោះ​របស់​ប្រភព​វចនានុក្រម​ដែល​បាន​ប្រើ"
+
+#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:8
+msgid "The name of the dictionary source used to retrieve the definitions of words."
+msgstr ""
+"ឈ្មោះ​របស់​ប្រភព​វចនានុក្រម​ដែល​បាន​ប្រើ​ដើម្បី​​ទៅ​យក​និយមន័យ​របស់​ពាក្យ ។"
+
+#: ../data/spanish.desktop.in.h:1
+msgid "Spanish Dictionaries"
+msgstr "វចនានុក្រម​អេស្ប៉ាញ"
+
+#: ../data/thai.desktop.in.h:1
+msgid "Longdo Thai-English Dictionaries"
+msgstr "វចនានុក្រម​អង់គ្លេស​-ថៃ Longdo"
+
+#: ../libgdict/gdict-client-context.c:283
+msgid "Client Name"
+msgstr "ឈ្មោះ​ម៉ាស៊ីនភ្ញៀវ"
+
+#: ../libgdict/gdict-client-context.c:284
+msgid "The name of the client of the context object"
+msgstr "ឈ្មោះ​របស់​ម៉ាស៊ីន​ភ្ញៀវ​នៃ​វត្ថុ​​បរិបទ"
+
+#: ../libgdict/gdict-client-context.c:297
+msgid "Hostname"
+msgstr "ឈ្មោះ​ម៉ាស៊ីន"
+
+#: ../libgdict/gdict-client-context.c:298
+msgid "The hostname of the dictionary server to connect to"
+msgstr "ឈ្មោះ​ម៉ាស៊ីន​​របស់​ម៉ាស៊ីន​បម្រើ​វចនានុក្រម​ត្រូវ​តភ្ជាប់​ទៅកាន់"
+
+#: ../libgdict/gdict-client-context.c:311
+msgid "Port"
+msgstr "ច្រក"
+
+#: ../libgdict/gdict-client-context.c:312
+msgid "The port of the dictionary server to connect to"
+msgstr "ច្រក​របស់​ម៉ាស៊ីន​បម្រើ​វចនានុក្រម​ត្រូវ​តភ្ជាប់​ទៅកាន់"
+
+#: ../libgdict/gdict-client-context.c:327
+msgid "Status"
+msgstr "ស្ថានភាព"
+
+#: ../libgdict/gdict-client-context.c:328
+msgid "The status code as returned by the dictionary server"
+msgstr "កូដ​ស្ថានភាព​បាន​ត្រឡប់​ដោយ​ម៉ាស៊ីន​បម្រើវចនានុក្រម"
+
+#: ../libgdict/gdict-client-context.c:777
+#, c-format
+msgid "No connection to the dictionary server at '%s:%d'"
+msgstr "គ្មាន​ការ​តភ្ជាប់​ទៅកាន់​ម៉ាស៊ីន​បម្រើ​វចនានុក្រម​នៅ '%s:%d' ឡើយ"
+
+#: ../libgdict/gdict-client-context.c:1060
+#, c-format
+msgid "Lookup failed for hostname '%s': no suitable resources found"
+msgstr ""
+"បាន​បរាជ័យ​ក្នុង​ការ​រក​មើល​ឈ្មោះ​ម៉ាស៊ីន '%s' ៖ "
+"រក​មិន​ឃើញ​ប្រភព​ដែល​ត្រឹមត្រូវ​ឡើយ"
+
+#: ../libgdict/gdict-client-context.c:1091
+#, c-format
+msgid "Lookup failed for host '%s': %s"
+msgstr "បាន​បរាជ័យ​ក្នុង​ការ​រកមើល​ម៉ាស៊ីន '%s' ៖ %s"
+
+#: ../libgdict/gdict-client-context.c:1125
+#, c-format
+msgid "Lookup failed for host '%s': host not found"
+msgstr "បាន​បរាជ័យ​ក្នុង​​ការ​រកមើល​ម៉ាស៊ីន '%s' ៖  រក​មិន​ឃើញ​ម៉ាស៊ីន​ឡើយ"
+
+#: ../libgdict/gdict-client-context.c:1177
+#, c-format
+#, fuzzy
+msgid ""
+"Unable to connect to the dictionary server at '%s:%d'. The server replied "
+"with code %d (server down)"
+msgstr ""
+"មិន​អាច​តភ្ជាប់​ទៅកាន់​ម៉ាស៊ីន​បម្រើ​វចនានុក្រម​នៅ '%s:%d' បាន​ទេ ។ "
+"ម៉ាស៊ីន​បម្រើ​បាន​ឆ្លើយតប​ដោយ​មាន​កូដ %d (ម៉ាស៊ីន​បម្រើ​ចុះ​ក្រោម)"
+
+#: ../libgdict/gdict-client-context.c:1196
+#, c-format
+msgid ""
+"Unable to parse the dictionary server reply\n"
+": '%s'"
+msgstr "មិន​អាច​ញែក​ការ​ឆ្លើយតប​ម៉ាស៊ីន​បម្រើ​វចនានុក្រម\n ៖ '%s'"
+
+#: ../libgdict/gdict-client-context.c:1225
+#, c-format
+msgid "No definitions found for '%s'"
+msgstr "រក​មិន​ឃើញ​និយមន័យ​សម្រាប់ '%s' ឡើយ"
+
+#: ../libgdict/gdict-client-context.c:1240
+#, c-format
+msgid "Invalid database '%s'"
+msgstr "មូលដ្ឋាន​ទិន្នន័យ​មិន​ត្រឹមត្រូវ '%s'"
+
+#: ../libgdict/gdict-client-context.c:1255
+#, c-format
+msgid "Invalid strategy '%s'"
+msgstr "យុទ្ធសាស្ត្រ​មិន​ត្រឹមត្រូវ '%s'"
+
+#: ../libgdict/gdict-client-context.c:1270
+#, c-format
+msgid "Bad command '%s'"
+msgstr "ពាក្យ​បញ្ជា​មិន​ត្រឹមត្រូវ '%s'"
+
+#: ../libgdict/gdict-client-context.c:1285
+#, c-format
+msgid "Bad parameters for command '%s'"
+msgstr "ប៉ារ៉ាម៉ែត្រ​មិន​ត្រឹមត្រូវ​សម្រាប់​ពាក្យ​បញ្ជា '%s'"
+
+#: ../libgdict/gdict-client-context.c:1300
+#, c-format
+msgid "No databases found on dictionary server at '%s'"
+msgstr "រក​មិន​ឃើញ​មូលដ្ឋាន​ទិន្នន័យ​នៅ​លើ​ម៉ាស៊ីន​បម្រើ​​វចនានុក្រម​នៅ '%s'"
+
+#: ../libgdict/gdict-client-context.c:1315
+#, c-format
+msgid "No strategies found on dictionary server at '%s'"
+msgstr "រក​មិន​ឃើញ​វិធីសាស្ត្រ​នៅ​លើ​ម៉ាស៊ីន​បម្រើ​វចនានុក្រម​នៅ '%s'"
+
+#: ../libgdict/gdict-client-context.c:1748
+#, c-format
+msgid "Connection failed to the dictionary server at %s:%d"
+msgstr "បាន​បរាជ័យ​ក្នុង​ការ​តភ្ជាប់​ទៅកាន់​ម៉ាស៊ីន​បម្រើ​វចនានុក្រម​នៅ %s:%d"
+
+#: ../libgdict/gdict-client-context.c:1787
+#, c-format
+msgid ""
+"Error while reading reply from server:\n"
+"%s"
+msgstr "កំហុស​ខណៈ​ពេល​អាន​ចម្លើយ​តប​ពី​ម៉ាស៊ីន​បម្រើ ៖\n%s"
+
+#: ../libgdict/gdict-client-context.c:1860
+#, c-format
+msgid "Connection timeout for the dictionary server at '%s:%d'"
+msgstr ""
+"អស់​ពេលវេលា​ក្នុង​ការ​តភ្ជាប់​សម្រាប់​ម៉ាស៊ីន​បម្រើ​វចនានុក្រម​នៅ '%s:%d'"
+
+#: ../libgdict/gdict-client-context.c:1894
+#, c-format
+msgid "No hostname defined for the dictionary server"
+msgstr "គ្មាន​ឈ្មោះ​ម៉ាស៊ីន​បាន​កំណត់​សម្រាប់​ម៉ាស៊ីន​បម្រើ​វចនានុក្រម​ឡើយ"
+
+#: ../libgdict/gdict-client-context.c:1930
+#: ../libgdict/gdict-client-context.c:1945
+#, c-format
+msgid "Unable to create socket"
+msgstr "មិន​អាច​បង្កើត​រន្ធ​បាន​ទេ"
+
+#: ../libgdict/gdict-client-context.c:1971
+#, c-format
+msgid "Unable to set the channel as non-blocking: %s"
+msgstr "មិន​អាច​កំណត់​ឆានែល​ថា​គ្មាន​ការ​ទប់​ស្កាត់​បាន​ទេ ៖ %s"
+
+#: ../libgdict/gdict-client-context.c:1986
+#, c-format
+msgid "Unable to connect to the dictionary server at '%s:%d'"
+msgstr "មិន​អាច​តភ្ជាប់​ទៅកាន់​ម៉ាស៊ីន​បម្រើ​វចនានុក្រម​នៅ '%s:%d' បាន​ទេ"
+
+#: ../libgdict/gdict-context.c:218
+msgid "Local Only"
+msgstr "តែ​មូលដ្ឋាន​ប៉ុណ្ណោះ"
+
+#: ../libgdict/gdict-context.c:219
+msgid "Whether the context uses only local dictionaries or not"
+msgstr "ថា​តើ​ប្រើ​បរិបទ​តែ​វចនានុក្រម​មូលដ្ឋាន​ប៉ុណ្ណោះ ឬ​​មិន​ប្រើ"
+
+#: ../libgdict/gdict-database-chooser.c:378
+msgid "Reload the list of available databases"
+msgstr "ផ្ទុក​បញ្ជី​របស់​មូលដ្ឋាន​ទិន្នន័យ​ដែល​មាន​ឡើង​វិញ"
+
+#: ../libgdict/gdict-database-chooser.c:390
+msgid "Clear the list of available databases"
+msgstr "សម្អាត​បញ្ជី​របស់​មូលដ្ឋាន​ទិន្នន័យ​ដែល​មាន"
+
+#: ../libgdict/gdict-database-chooser.c:837 ../libgdict/gdict-speller.c:778
+#: ../libgdict/gdict-strategy-chooser.c:785
+msgid "Error while matching"
+msgstr "កំហុស​ខណៈ​ពេល​ផ្គូផ្គង"
+
+#: ../libgdict/gdict-defbox.c:1127 ../libgdict/gdict-defbox.c:1221
+#: ../libgdict/gdict-defbox.c:1255
+msgid "Not found"
+msgstr "រក​មិន​ឃើញ"
+
+#: ../libgdict/gdict-defbox.c:1316
+msgid "F_ind:"
+msgstr "រក ៖"
+
+#: ../libgdict/gdict-defbox.c:1329
+msgid "_Previous"
+msgstr "មុន"
+
+#: ../libgdict/gdict-defbox.c:1337
+msgid "_Next"
+msgstr "បន្ទាប់"
+
+#: ../libgdict/gdict-defbox.c:2512
+msgid "Error while looking up definition"
+msgstr "កំហុស​ខណៈ​ពេល​​រក​មើល​​និយមន័យ"
+
+#: ../libgdict/gdict-defbox.c:2554 ../libgdict/gdict-speller.c:736
+msgid "Another search is in progress"
+msgstr "ការ​ស្វែងរក​ផ្សេងទៀត​គឺ​កំពុង​ដំណើរការ"
+
+#: ../libgdict/gdict-defbox.c:2555 ../libgdict/gdict-speller.c:737
+msgid "Please wait until the current search ends."
+msgstr "សូម​រង់ចាំ​រហូត​ដល់​បញ្ចប់​ការ​ស្វែងរក​បច្ចុប្បន្ន ។"
+
+#: ../libgdict/gdict-defbox.c:2594
+msgid "Error while retrieving the definition"
+msgstr "កំហុស​​ខណៈ​ពេល​ទៅ​យក​និយមន័យ"
+
+#: ../libgdict/gdict-source.c:232
+msgid "Filename"
+msgstr "ឈ្មោះ​ឯកសារ"
+
+#: ../libgdict/gdict-source.c:233
+msgid "The filename used by this dictionary source"
+msgstr "ឈ្មោះ​ឯកសារ​​បាន​ប្រើ​ដោយ​ប្រភព​វចនានុក្រម​នេះ"
+
+#: ../libgdict/gdict-source.c:246
+msgid "Name"
+msgstr "ឈ្មោះ"
+
+#: ../libgdict/gdict-source.c:247
+msgid "The display name of this dictionary source"
+msgstr "បង្ហាញ​ឈ្មោះ​របស់​ប្រភព​វចនានុក្រម​នេះ"
+
+#: ../libgdict/gdict-source.c:260
+msgid "Description"
+msgstr "សេចក្ដី​ពិពណ៌នា"
+
+#: ../libgdict/gdict-source.c:261
+msgid "The description of this dictionary source"
+msgstr "សេចក្ដី​ពិពណ៌នា​អំពី​ប្រភព​​វចនានុក្រម​នេះ"
+
+#: ../libgdict/gdict-source.c:274 ../libgdict/gdict-speller.c:383
+msgid "Database"
+msgstr "មូលដ្ឋាន​ទិន្នន័យ"
+
+#: ../libgdict/gdict-source.c:275
+msgid "The default database of this dictionary source"
+msgstr "មូលដ្ឋាន​ទិន្នន័យ​លំនាំដើម​របស់​ប្រភព​វចនានុក្រម"
+
+#: ../libgdict/gdict-source.c:288 ../libgdict/gdict-speller.c:390
+msgid "Strategy"
+msgstr "យុទ្ធសាស្ត្រ​"
+
+#: ../libgdict/gdict-source.c:289
+msgid "The default strategy of this dictionary source"
+msgstr "យុទ្ធសាស្ត្រ​លំនាំដើម​របស់​ប្រភព​វចនានុក្រម"
+
+#: ../libgdict/gdict-source.c:302
+msgid "Transport"
+msgstr "ការ​ដឹកជញ្ជូន"
+
+#: ../libgdict/gdict-source.c:303
+msgid "The transport mechanism used by this dictionary source"
+msgstr "យន្តការ​ដឹកជញ្ជូន​បាន​ប្រើ​ដោយ​ប្រភព​វចនានុក្រម​នេះ"
+
+#: ../libgdict/gdict-source.c:317 ../libgdict/gdict-speller.c:376
+msgid "Context"
+msgstr "បរិបទ"
+
+#: ../libgdict/gdict-source.c:318
+msgid "The GdictContext bound to this source"
+msgstr "ព្រំដែន​របស់ GdictContext ទៅកាន់​ប្រភព​នេះ"
+
+#: ../libgdict/gdict-source.c:413
+#, c-format
+msgid "Invalid transport type '%d'"
+msgstr "ប្រភេទ​ដឹក​ជញ្ជូន​មិន​ត្រឹមត្រូវ '%d'"
+
+#: ../libgdict/gdict-source.c:441
+#, c-format
+msgid "No '%s' group found inside the dictionary source definition"
+msgstr "រក​មិន​ឃើញ​ក្រុម '%s' នៅ​ក្នុង​និយមន័យ​ប្រភព​វចនានុក្រម​ឡើយ"
+
+#: ../libgdict/gdict-source.c:457 ../libgdict/gdict-source.c:481
+#: ../libgdict/gdict-source.c:505 ../libgdict/gdict-source.c:530
+#, c-format
+msgid "Unable to get the '%s' key inside the dictionary source definition: %s"
+msgstr "មិន​អាច​យក​សោ​របស់ '%s' នៅ​ក្នុង​និយមន័យ​ប្រភព​វចនានុក្រម​​បាន​ទេ ៖ %s"
+
+#: ../libgdict/gdict-source.c:555
+#, c-format
+msgid "Unable to get the '%s' key inside the dictionary source definition file: %s"
+msgstr ""
+"មិន​អាច​យក​សោ​របស់ '%s' ​នៅ​ក្នុង​ឯកសារ​និយមន័យ​ប្រភព​វចនានុក្រម​បាន​ទេ ៖ %s"
+
+#: ../libgdict/gdict-source.c:741
+#, c-format
+msgid "Dictionary source does not have name"
+msgstr "ប្រភព​វចនានុក្រម​មិន​មាន​ឈ្មោះ​ឡើយ"
+
+#: ../libgdict/gdict-source.c:750
+#, c-format
+msgid "Dictionary source '%s' has invalid transport '%s'"
+msgstr "ប្រភព​វចនានុក្រម '%s' មាន​ការ​ដឹកជញ្ជូន​មិន​ត្រឹមត្រូវ '%s'"
+
+#: ../libgdict/gdict-source-chooser.c:295
+msgid "Reload the list of available sources"
+msgstr "ផ្ទុក​បញ្ជី​របស់​ប្រភព​ដែល​មាន​ឡើង​វិញ"
+
+#: ../libgdict/gdict-source-loader.c:171
+msgid "Paths"
+msgstr "ផ្លូវ"
+
+#: ../libgdict/gdict-source-loader.c:172
+msgid "Search paths used by this object"
+msgstr "ស្វែងរក​ផ្លូវ​ដែល​បាន​ប្រើ​ដោយ​វត្ថុ​នេះ"
+
+#: ../libgdict/gdict-source-loader.c:184
+msgid "Sources"
+msgstr "ប្រភព"
+
+#: ../libgdict/gdict-source-loader.c:185
+msgid "Dictionary sources found"
+msgstr "រក​ឃើញ​ប្រភព​វចនានុក្រម"
+
+#: ../libgdict/gdict-speller.c:353
+msgid "Clear the list of similar words"
+msgstr "សម្អាត​បញ្ជី​របស់​​ពាក្យ​ស្រដៀង​គ្នា"
+
+#: ../libgdict/gdict-speller.c:377
+msgid "The GdictContext object used to get the word definition"
+msgstr "បាន​ប្រើ​វត្ថុ​របស់ GdictContext ដើម្បី​យក​និយមន័យ​របស់​ពាក្យ"
+
+#: ../libgdict/gdict-speller.c:384
+msgid "The database used to query the GdictContext"
+msgstr "បាន​ប្រើ​មូលដ្ឋាន​ទិន្នន័យ ដើម្បី​សួរ GdictContext"
+
+#: ../libgdict/gdict-speller.c:391
+msgid "The strategy used to query the GdictContext"
+msgstr "បាន​ប្រើ​យុទ្ធសាស្ត្រ ដើម្បី​សួរ GdictContext"
+
+#: ../libgdict/gdict-strategy-chooser.c:361
+msgid "Reload the list of available strategies"
+msgstr "ផ្ទុក​បញ្ជី​របស់​យុទ្ធសាស្ត្រ​ដែល​មាន​ឡើង​វិញ"
+
+#: ../libgdict/gdict-strategy-chooser.c:373
+msgid "Clear the list of available strategies"
+msgstr "សម្អាត​បញ្ជី​របស់​យុទ្ធសាស្ត្រ​ដែល​មាន"
+
+#: ../libgdict/gdict-utils.c:97
+msgid "GDict debugging flags to set"
+msgstr "ស្លាក​បំបាត់​កំហុស​របស់ GDict ត្រូវ​កំណត់"
+
+#: ../libgdict/gdict-utils.c:97 ../libgdict/gdict-utils.c:99
+msgid "FLAGS"
+msgstr "FLAGS"
+
+#: ../libgdict/gdict-utils.c:99
+msgid "GDict debugging flags to unset"
+msgstr "ស្លាក​បំបាត់​កំហុស​របស់ GDict ដែល​ត្រូវ​មិន​កំណត់"
+
+#: ../libgdict/gdict-utils.c:157
+msgid "GDict Options"
+msgstr "ជម្រើស GDict"
+
+#: ../libgdict/gdict-utils.c:158
+msgid "Show GDict Options"
+msgstr "បង្ហាញ​ជម្រើស GDict"
+
+#: ../src/gdict-about.c:55
+msgid "translator-credits"
+msgstr "ខឹម សុខែម, ម៉ន ម៉េត, សេង សុត្ថា, ចាន់ សម្បត្តិរតនៈ, សុខ សុភា"
+
+#: ../src/gdict-about.c:57
+msgid "Look up words in dictionaries"
+msgstr "រក​មើល​ពាក្យ​នៅ​ក្នុង​វចនានុក្រម"
+
+#: ../src/gdict-app.c:62 ../src/gdict-app.c:91
+msgid "Words to look up"
+msgstr "ពាក្យ​ត្រូវ​រក​មើល"
+
+#: ../src/gdict-app.c:62 ../src/gdict-app.c:68
+msgid "WORD"
+msgstr "ពាក្យ"
+
+#: ../src/gdict-app.c:68
+msgid "Words to match"
+msgstr "ពាក្យ​ត្រូវ​ផ្គូផ្គង"
+
+#: ../src/gdict-app.c:74
+msgid "Dictionary source to use"
+msgstr "ប្រភព​វចនានុក្រម​ត្រូវ​ប្រើ"
+
+#: ../src/gdict-app.c:74 ../src/gdict-app.c:80 ../src/gdict-app.c:86
+msgid "NAME"
+msgstr "ឈ្មោះ"
+
+#: ../src/gdict-app.c:80
+msgid "Database to use"
+msgstr "មូលដ្ឋាន​ទិន្នន័យ​ត្រូវ​ប្រើ"
+
+#: ../src/gdict-app.c:86
+msgid "Strategy to use"
+msgstr "យុទ្ធសាស្ត្រ​ត្រូវ​ប្រើ"
+
+#: ../src/gdict-app.c:91
+msgid "WORDS"
+msgstr "ពាក្យ"
+
+#. create the new option context
+#: ../src/gdict-app.c:143
+msgid " - Look up words in dictionaries"
+msgstr "រក​មើល​ពាក្យ​នៅ​ក្នុង​វចនានុក្រម"
+
+#: ../src/gdict-pref-dialog.c:241 ../src/gdict-pref-dialog.c:430
+msgid "Edit Dictionary Source"
+msgstr "កែសម្រួល​ប្រភព​វចនានុក្រម"
+
+#: ../src/gdict-pref-dialog.c:305
+msgid "Add Dictionary Source"
+msgstr "បន្ថែម​ប្រភព​វចនានុក្រម"
+
+#: ../src/gdict-pref-dialog.c:350
+#, c-format
+msgid "Remove \"%s\"?"
+msgstr "យក \"%s\" ចេញ​ឬ ?"
+
+#: ../src/gdict-pref-dialog.c:352
+msgid "This will permanently remove the dictionary source from the list."
+msgstr "វា​នឹង​យក​ប្រភព​វចនានុក្រម​ចេញ​ពី​បញ្ជី​ជា​អចិន្ត្រៃយ៍ ។"
+
+#: ../src/gdict-pref-dialog.c:382
+#, c-format
+msgid "Unable to remove source '%s'"
+msgstr "មិន​អាច​យក​ប្រភព​ចេញ​បាន​ទេ '%s'"
+
+#: ../src/gdict-pref-dialog.c:496 ../src/gdict-source-dialog.c:479
+#: ../src/gdict-window.c:1245
+#, c-format
+msgid "There was an error while displaying help"
+msgstr "មាន​កំហុស​ ខណៈ​ពេល​បង្ហាញ​ជំនួយ"
+
+#: ../src/gdict-pref-dialog.c:643
+msgid "Add a new dictionary source"
+msgstr "បន្ថែម​ប្រភព​វចនានុក្រម​ថ្មី"
+
+#: ../src/gdict-pref-dialog.c:649
+msgid "Remove the currently selected dictionary source"
+msgstr "យក​ប្រភព​វចនានុក្រម​ដែល​បាន​ជ្រើស​បច្ចុប្បន្ន​ចេញ"
+
+#: ../src/gdict-pref-dialog.c:655
+msgid "Edit the currently selected dictionary source"
+msgstr "កែសម្រួល​ប្រភព​វចនានុក្រម​ដែល​បាន​ជ្រើស​បច្ចុប្បន្ន"
+
+#: ../src/gdict-pref-dialog.c:663
+msgid "Set the font used for printing the definitions"
+msgstr "កំណត់​ពុម្ពអក្សរ​ដែល​បាន​ប្រើ​សម្រាប់​បោះពុម្ព​និយមន័យ"
+
+#: ../src/gdict-print.c:241 ../src/gdict-print.c:305
+#, c-format
+msgid "Unable to display the preview: %s"
+msgstr "មិន​អាច​បង្ហាញ​ការ​​មើល​ជា​មុន​បាន​ទេ ៖ %s"
+
+#: ../src/gdict-source-dialog.c:341 ../src/gdict-source-dialog.c:434
+msgid "Unable to create a source file"
+msgstr "មិន​អាច​បង្កើត​ឯកសារ​ប្រភព​បាន​ទេ"
+
+#: ../src/gdict-source-dialog.c:359 ../src/gdict-source-dialog.c:452
+msgid "Unable to save source file"
+msgstr "មិន​អាច​រក្សាទុក​ឯកសារ​ប្រភព​បាន​ទេ"
+
+#: ../src/gdict-window.c:311
+#, c-format
+msgid "Searching for '%s'..."
+msgstr "កំពុង​ស្វែងរក '%s'..."
+
+#: ../src/gdict-window.c:343 ../src/gdict-window.c:400
+msgid "No definitions found"
+msgstr "រក​មិន​ឃើញ​និយមន័យ"
+
+#: ../src/gdict-window.c:345
+#, c-format
+msgid "A definition found"
+msgid_plural "%d definitions found"
+msgstr[0] ""
+msgstr[1] "រក​ឃើញ​និយមន័យ %d"
+
+#: ../src/gdict-window.c:516
+#, c-format
+msgid "No dictionary source available with name '%s'"
+msgstr "គ្មាន​ប្រភព​វចនានុក្រម​ដែល​មាន​ឈ្មោះ '%s' ឡើយ"
+
+#: ../src/gdict-window.c:520
+msgid "Unable to find dictionary source"
+msgstr "មិន​អាច​រក​ប្រភព​វចនានុក្រម​បាន​ទេ"
+
+#: ../src/gdict-window.c:536
+#, c-format
+msgid "No context available for source '%s'"
+msgstr "គ្មាន​បរិបទ​សម្រាប់​ប្រភព '%s' ឡើយ"
+
+#: ../src/gdict-window.c:540
+msgid "Unable to create a context"
+msgstr "មិន​អាច​បង្កើត​បរិបទ​បាន​ទេ"
+
+#: ../src/gdict-window.c:599
+#, c-format
+msgid "%s - Dictionary"
+msgstr "%s វចនានុក្រម"
+
+#: ../src/gdict-window.c:962
+msgid "Save a Copy"
+msgstr "រក្សាទុក​ច្បាប់​ចម្លង"
+
+#: ../src/gdict-window.c:972
+msgid "Untitled document"
+msgstr "ឯកសារ​ដែល​គ្មាន​ចំណង​ជើង"
+
+#: ../src/gdict-window.c:993
+#, c-format
+msgid "Error while writing to '%s'"
+msgstr "កំហុស​ខណៈ​ពេល​សរសេរ​ទៅកាន់ '%s'"
+
+#: ../src/gdict-window.c:1098
+msgid "Dictionary Preferences"
+msgstr "ចំណូល​ចិត្ត​វចនានុក្រម"
+
+#: ../src/gdict-window.c:1280
+msgid "_File"
+msgstr "ឯកសារ"
+
+#: ../src/gdict-window.c:1281
+msgid "_Edit"
+msgstr "កែសម្រួល"
+
+#: ../src/gdict-window.c:1282
+msgid "_View"
+msgstr "មើល"
+
+#: ../src/gdict-window.c:1283
+msgid "_Go"
+msgstr "ទៅ"
+
+#: ../src/gdict-window.c:1284
+msgid "_Help"
+msgstr "ជំនួយ "
+
+#. File menu
+#: ../src/gdict-window.c:1287
+msgid "_New"
+msgstr "ថ្មី"
+
+#: ../src/gdict-window.c:1288
+msgid "New look up"
+msgstr "រក​មើល​ថ្មី"
+
+#: ../src/gdict-window.c:1289
+msgid "_Save a Copy..."
+msgstr "រក្សាទុក​ច្បាប់​ចម្លង..."
+
+#: ../src/gdict-window.c:1291
+msgid "P_review..."
+msgstr "មើល​ជា​មុន..."
+
+#: ../src/gdict-window.c:1292
+msgid "Preview this document"
+msgstr "មើល​ឯកសារ​នេះ​ជា​មុន"
+
+#: ../src/gdict-window.c:1293
+msgid "_Print..."
+msgstr "បោះពុម្ព..."
+
+#: ../src/gdict-window.c:1294
+msgid "Print this document"
+msgstr "បោះពុម្ព​ឯកសារ​នេះ"
+
+#: ../src/gdict-window.c:1301
+msgid "Select _All"
+msgstr "ជ្រើស​ទាំងអស់"
+
+#: ../src/gdict-window.c:1304
+msgid "Find a word or phrase in the document"
+msgstr "ស្វែងរក​ពាក្យ ឬ​ឃ្លាំ​នៅ​ក្នុង​ឯកសារ"
+
+#: ../src/gdict-window.c:1306
+msgid "Find Ne_xt"
+msgstr "ស្វែងរក​បន្ទាប់"
+
+#: ../src/gdict-window.c:1308
+msgid "Find Pre_vious"
+msgstr "រក​មុន"
+
+#: ../src/gdict-window.c:1310
+msgid "_Preferences"
+msgstr "ចំណូល​ចិត្ត"
+
+#. Go menu
+#: ../src/gdict-window.c:1314
+msgid "_Previous Definition"
+msgstr "និយមន័យ​មុន"
+
+#: ../src/gdict-window.c:1315
+msgid "Go to the previous definition"
+msgstr "ទៅកាន់​និយមន័យ​មុន"
+
+#: ../src/gdict-window.c:1316
+msgid "_Next Definition"
+msgstr "និយមន័យ​បន្ទាប់"
+
+#: ../src/gdict-window.c:1317
+msgid "Go to the next definition"
+msgstr "ទៅកាន់​និយមន័យ​បន្ទាប់"
+
+#: ../src/gdict-window.c:1318
+msgid "_First Definition"
+msgstr "និយមន័យ​ដំបូង"
+
+#: ../src/gdict-window.c:1319
+msgid "Go to the first definition"
+msgstr "ទៅកាន់​និយមន័យ​ដំបូង"
+
+#: ../src/gdict-window.c:1320
+msgid "_Last Definition"
+msgstr "និយមន័យ​ចុងក្រោយ"
+
+#: ../src/gdict-window.c:1321
+msgid "Go to the last definition"
+msgstr "ទៅកាន់​និយមន័យ​ចុងក្រោយ"
+
+#. View menu
+#: ../src/gdict-window.c:1324
+msgid "Similar _Words"
+msgstr "ពាក្យ​ស្រដៀងគ្នា"
+
+#: ../src/gdict-window.c:1326
+msgid "Dictionary Sources"
+msgstr "ប្រភព​វចនានុក្រម"
+
+#: ../src/gdict-window.c:1328
+msgid "Available _Databases"
+msgstr "មូលដ្ឋាន​ទិន្នន័យ​ដែល​មាន"
+
+#: ../src/gdict-window.c:1330
+msgid "Available St_rategies"
+msgstr "យុទ្ធសាស្ត្រ​ដែល​អាច​ធ្វើ​ទៅ​បាន"
+
+#. Help menu
+#: ../src/gdict-window.c:1334
+msgid "_Contents"
+msgstr "មាតិកា"
+
+#: ../src/gdict-window.c:1336
+msgid "_About"
+msgstr "អំពី"
+
+#. View menu
+#: ../src/gdict-window.c:1347
+msgid "_Sidebar"
+msgstr "របារ​ចំហៀង"
+
+#: ../src/gdict-window.c:1349
+msgid "S_tatusbar"
+msgstr "របារ​ស្ថានភាព"
+
+#: ../src/gdict-window.c:1414
+#, c-format
+msgid "Dictionary source `%s' selected"
+msgstr "ប្រភព​​វចនានុក្រម `%s' ដែល​បាន​ជ្រើស"
+
+#: ../src/gdict-window.c:1435
+#, c-format
+msgid "Strategy `%s' selected"
+msgstr "យុទ្ធសាស្ត្រ `%s' ដែល​បាន​ជ្រើស"
+
+#: ../src/gdict-window.c:1455
+#, c-format
+msgid "Database `%s' selected"
+msgstr "មូលដ្ឋាន​ទិន្នន័យ `%s' ដែល​បាន​ជ្រើស"
+
+#: ../src/gdict-window.c:1475
+#, c-format
+msgid "Word `%s' selected"
+msgstr "ពាក្យ `%s' ដែល​បាន​ជ្រើស"
+
+#. speller
+#: ../src/gdict-window.c:1500
+msgid "Double-click on the word to look up"
+msgstr "ចុច​ទ្វេ​ដង​នៅ​លើ​​ពាក្យ​ត្រូវ​​ស្វែងរក​"
+
+#. strat-chooser
+#: ../src/gdict-window.c:1506
+msgid "Double-click on the matching strategy to use"
+msgstr "ចុច​ទ្វេដង​នៅ​លើ​យុទ្ធសាស្ត្រ​ដែល​ផ្គូផ្គង​​ក្នុង​ការ​ប្រើ"
+
+#. source-chooser
+#: ../src/gdict-window.c:1511
+msgid "Double-click on the source to use"
+msgstr "ចុច​ទ្វេ​ដង​លើ​ប្រភព​ដែល​ត្រូវ​​ប្រើ"
+
+#. db-chooser
+#: ../src/gdict-window.c:1520
+msgid "Double-click on the database to use"
+msgstr "ចុច​ទ្វេដង​លើ​មូលដ្ឋាន​ទិន្នន័យ​ដែល​ត្រូវ​ប្រើ"
+
+#: ../src/gdict-window.c:1700
+msgid "Look _up:"
+msgstr "រក​មើល ៖"
+
+#: ../src/gdict-window.c:1775
+msgid "Similar words"
+msgstr "ពាក្យ​ស្រដៀងគ្នា"
+
+#: ../src/gdict-window.c:1788
+msgid "Available dictionaries"
+msgstr "វចនានុក្រម​ដែល​អាច​រក​បាន​"
+
+#: ../src/gdict-window.c:1806
+msgid "Available strategies"
+msgstr "យុទ្ធសាស្ត្រ​ដែល​អាច​ធ្វើ​បាន"
+
+#: ../src/gdict-window.c:1822
+msgid "Dictionary sources"
+msgstr "ប្រភព​វចនានុក្រម"
+
