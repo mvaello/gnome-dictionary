@@ -1,6 +1,6 @@
 # Vietnamese Translation for GNOME Utils.
 # Copyright © 2009 GNOME i18n Project for Vietnamese.
-# Nguyễn Thái Ngọc Duy <pclouds@gmail.com>, 2002,2007,2011.
+# Nguyễn Thái Ngọc Duy <pclouds@gmail.com>, 2002,2007,2011-2012.
 # Clytie Siddall <clytie@riverland.net.au>, 2005-2009.
 #
 msgid ""
@@ -341,9 +341,8 @@ msgid "Name"
 msgstr "Tên"
 
 #: ../libgdict/gdict-source.c:247
-#, fuzzy
 msgid "The display name of this dictionary source"
-msgstr "Tên hiển thị của nguồn từ điển này"
+msgstr "Hhiện tên nguồn từ điển này"
 
 #: ../libgdict/gdict-source.c:260
 msgid "Description"
@@ -358,7 +357,6 @@ msgid "Database"
 msgstr "Cơ sở dữ liệu"
 
 #: ../libgdict/gdict-source.c:275
-#, fuzzy
 msgid "The default database of this dictionary source"
 msgstr "Cơ sở dữ liệu mặc định của nguồn từ điển này"
 
@@ -367,7 +365,6 @@ msgid "Strategy"
 msgstr "Chiến lược"
 
 #: ../libgdict/gdict-source.c:289
-#, fuzzy
 msgid "The default strategy of this dictionary source"
 msgstr "Chiến lược mặc định của nguồn từ điển này"
 
