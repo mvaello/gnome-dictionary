@@ -6,29 +6,22 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-utils GNOME TRUNK\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-10-06 14:35-0400\n"
-"PO-Revision-Date: 2011-04-14 18:42+0700\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
+"dictionary&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2011-10-25 14:13+0000\n"
+"PO-Revision-Date: 2012-03-22 10:28+0700\n"
 "Last-Translator: Nguyễn Thái Ngọc Duy <pclouds@gmail.com>\n"
 "Language-Team: Vietnamese <vi-VN@googlegroups.com>\n"
-"Language: vi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: vi\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: LocFactoryEditor 1.8\n"
 
 #: ../data/default.desktop.in.h:1
 msgid "Default Dictionary Server"
 msgstr "Máy phục vụ từ điển mặc định"
-
-#: ../data/spanish.desktop.in.h:1
-msgid "Spanish Dictionaries"
-msgstr "Từ điển tiếng Tây-ban-nha"
-
-#: ../data/thai.desktop.in.h:1
-msgid "Longdo Thai-English Dictionaries"
-msgstr "Từ điển Longdo Thái-Anh"
 
 #: ../data/gnome-dictionary.desktop.in.in.h:1
 msgid "Check word definitions and spellings in an online dictionary"
@@ -38,50 +31,6 @@ msgstr "Tìm từ trong từ điển trực tuyến để kiểm tra chính tả
 #: ../src/gdict-app.c:233 ../src/gdict-window.c:601 ../src/gdict-window.c:1894
 msgid "Dictionary"
 msgstr "Từ điển"
-
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:1
-msgid "The default database to use"
-msgstr "Cơ sở dữ liệu mặc định cần dùng"
-
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:2
-msgid "The default search strategy to use"
-msgstr "Chiến lược tìm kiếm mặc định cần dùng"
-
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:3
-msgid "The font to be used when printing"
-msgstr "Phông chữ cần dùng khi in"
-
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:4
-msgid "The font to be used when printing a definition."
-msgstr "Phông chữ cần dùng khi in lời định nghĩa."
-
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:5
-msgid ""
-"The name of the default individual database or meta-database to use on a "
-"dictionary source. An exclamation mark (\"!\") means that all the databases "
-"present in a dictionary source should be searched"
-msgstr ""
-"Tên cơ sở dữ liệu riêng mặc định hay siêu cơ sở dữ liệu cần dùng với nguồn "
-"từ điển. Dấu « ! » có nghĩa là mọi cơ sở dữ liệu trên nguồn từ điển đó nên "
-"được tìm kiếm"
-
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:6
-msgid ""
-"The name of the default search strategy to use on a dictionary source, if "
-"available. The default strategy is 'exact', that is match exact words."
-msgstr ""
-"Tên của chiến lược tìm kiếm mặc định cần dùng với nguồn từ điển, nếu có. "
-"Chiến lược là « exact » (chính xác), tức là phải khớp chỉ từ một cách chính "
-"xác."
-
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:7
-msgid "The name of the dictionary source used"
-msgstr "Tên nguồn từ điển đã dùng"
-
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:8
-msgid ""
-"The name of the dictionary source used to retrieve the definitions of words."
-msgstr "Tên của nguồn từ điển được dùng để lấy lời định nghĩa của từ."
 
 #: ../data/gnome-dictionary-preferences.ui.h:1
 msgid "Print"
@@ -127,6 +76,58 @@ msgstr "_Cổng:"
 #: ../data/gnome-dictionary-source.ui.h:8
 msgid "_Transport:"
 msgstr "_Chuyên chở :"
+
+#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:1
+msgid "The default database to use"
+msgstr "Cơ sở dữ liệu mặc định cần dùng"
+
+#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:2
+msgid "The default search strategy to use"
+msgstr "Chiến lược tìm kiếm mặc định cần dùng"
+
+#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:3
+msgid "The font to be used when printing"
+msgstr "Phông chữ cần dùng khi in"
+
+#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:4
+msgid "The font to be used when printing a definition."
+msgstr "Phông chữ cần dùng khi in lời định nghĩa."
+
+#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:5
+msgid ""
+"The name of the default individual database or meta-database to use on a "
+"dictionary source. An exclamation mark (\"!\") means that all the databases "
+"present in a dictionary source should be searched"
+msgstr ""
+"Tên cơ sở dữ liệu riêng mặc định hay siêu cơ sở dữ liệu cần dùng với nguồn "
+"từ điển. Dấu « ! » có nghĩa là mọi cơ sở dữ liệu trên nguồn từ điển đó nên "
+"được tìm kiếm"
+
+#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:6
+msgid ""
+"The name of the default search strategy to use on a dictionary source, if "
+"available. The default strategy is 'exact', that is match exact words."
+msgstr ""
+"Tên của chiến lược tìm kiếm mặc định cần dùng với nguồn từ điển, nếu có. "
+"Chiến lược là « exact » (chính xác), tức là phải khớp chỉ từ một cách chính "
+"xác."
+
+#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:7
+msgid "The name of the dictionary source used"
+msgstr "Tên nguồn từ điển đã dùng"
+
+#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:8
+msgid ""
+"The name of the dictionary source used to retrieve the definitions of words."
+msgstr "Tên của nguồn từ điển được dùng để lấy lời định nghĩa của từ."
+
+#: ../data/spanish.desktop.in.h:1
+msgid "Spanish Dictionaries"
+msgstr "Từ điển tiếng Tây-ban-nha"
+
+#: ../data/thai.desktop.in.h:1
+msgid "Longdo Thai-English Dictionaries"
+msgstr "Từ điển Longdo Thái-Anh"
 
 #: ../libgdict/gdict-client-context.c:283
 msgid "Client Name"
