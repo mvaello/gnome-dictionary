@@ -1,3 +1,27 @@
+GNOME Dictionary 3.4.0                                                2012-03-26
+================================================================================
+
+  • First stable release of the 3.4 cycle
+
+  • Use XDG configuration directories to store the dictionary data
+  Instead of storing the dictionary data into the old $HOME/.gnome2 prefix,
+  the Dictionary now uses $XDG_CONFIG_HOME/gnome-dictionary; this allows
+  proper redirection of the configuration, as well as dropping the gnome2
+  prefix in the Brave New Gnome 3.x World™. The existing data is migrated
+  without user intervention. [Antono Vasiljev]
+
+  • Translation updates
+  Arabic, Bulgarian, Ukrainian, Galician, Belarusian, Norwegian bokmål,
+  Telugu, Estonian, Vietnamese, Assamese, Crimean Tatar (Crimean Turkish),
+  Khmer, Gujarati, Finnish.
+
+Many thanks to:
+
+  Krishnababu Krothapalli, Nguyễn Thái Ngọc Duy, Abderrahim Kitouni,
+  Alexander Shopov, Antono Vasiljev, Daniel Korostil, Fran Diéguez,
+  Ihar Hrachyshka, Kjartan Maraas, Mattias Põldaru, Nilamdyuti Goswami,
+  Reşat SABIQ, Seng Sutha, Sweta Kothari, Timo Jyrinki.
+
 GNOME Dictionary 3.3.2						      2011-10-25
 ================================================================================
 
