@@ -176,7 +176,7 @@ gdict_sidebar_select_button_press_cb (GtkWidget      *widget,
       gtk_widget_get_allocation (widget, &allocation);
       width = allocation.width;
       gtk_widget_set_size_request (sidebar->priv->menu, -1, -1);
-      gtk_widget_size_request (sidebar->priv->menu, &req);
+      gtk_widget_get_preferred_size (sidebar->priv->menu, NULL, &req);
       gtk_widget_set_size_request (sidebar->priv->menu,
 		      		   MAX (width, req.width), -1);
       gtk_widget_grab_focus (widget);
@@ -327,7 +327,7 @@ gdict_sidebar_init (GdictSidebar *sidebar)
   priv->pages_by_id = g_hash_table_new (g_str_hash, g_str_equal);
 
   /* top option menu */
-  hbox = gtk_hbox_new (FALSE, 0);
+  hbox = gtk_box_new (GTK_ORIENTATION_HORIZONTAL, 0);
   gtk_box_pack_start (GTK_BOX (sidebar), hbox, FALSE, FALSE, 0);
   gtk_widget_show (hbox);
   priv->hbox = hbox;
@@ -342,7 +342,7 @@ gdict_sidebar_init (GdictSidebar *sidebar)
 		    sidebar);
   priv->select_button = select_button;
 
-  select_hbox = gtk_hbox_new (FALSE, 0);
+  select_hbox = gtk_box_new (GTK_ORIENTATION_HORIZONTAL, 0);
   
   priv->label = gtk_label_new (NULL);
   gtk_misc_set_alignment (GTK_MISC (priv->label), 0.0, 0.5);

@@ -362,7 +362,7 @@ gdict_database_chooser_constructor (GType                  type,
   gtk_container_add (GTK_CONTAINER (sw), priv->treeview);
   gtk_widget_show (priv->treeview);
 
-  hbox = gtk_hbox_new (FALSE, 0);
+  hbox = gtk_box_new (GTK_ORIENTATION_HORIZONTAL, 0);
   priv->buttons_box = hbox;
 
   priv->refresh_button = gtk_button_new ();

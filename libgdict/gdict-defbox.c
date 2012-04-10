@@ -1292,10 +1292,10 @@ create_find_pane (GdictDefbox *defbox)
  
   priv = defbox->priv;
   
-  find_pane = gtk_hbox_new (FALSE, 0);
+  find_pane = gtk_box_new (GTK_ORIENTATION_HORIZONTAL, 0);
   gtk_container_set_border_width (GTK_CONTAINER (find_pane), 0);
   
-  hbox1 = gtk_hbox_new (FALSE, 6);
+  hbox1 = gtk_box_new (GTK_ORIENTATION_HORIZONTAL, 6);
   gtk_box_pack_start (GTK_BOX (find_pane), hbox1, TRUE, TRUE, 0);
   gtk_widget_show (hbox1);
 
@@ -1309,7 +1309,7 @@ create_find_pane (GdictDefbox *defbox)
   gtk_box_pack_start (GTK_BOX (hbox1), button, FALSE, FALSE, 0);
   gtk_widget_show (button);
 
-  hbox2 = gtk_hbox_new (FALSE, 12);
+  hbox2 = gtk_box_new (GTK_ORIENTATION_HORIZONTAL, 12);
   gtk_box_pack_start (GTK_BOX (hbox1), hbox2, TRUE, TRUE, 0);
   gtk_widget_show (hbox2);
  
@@ -1322,7 +1322,7 @@ create_find_pane (GdictDefbox *defbox)
   gtk_box_pack_start (GTK_BOX (hbox2), priv->find_entry, TRUE, TRUE, 0);
   gtk_label_set_mnemonic_widget (GTK_LABEL (label), priv->find_entry);
   
-  sep = gtk_vseparator_new ();
+  sep = gtk_separator_new (GTK_ORIENTATION_VERTICAL);
   gtk_box_pack_start (GTK_BOX (hbox1), sep, FALSE, FALSE, 0);
   gtk_widget_show (sep);
 
@@ -1583,8 +1583,6 @@ defbox_motion_notify_cb (GtkWidget      *text_view,
 
   set_cursor_if_appropriate (defbox, GTK_TEXT_VIEW (text_view), bx, by);
 
-  gdk_window_get_pointer (gtk_widget_get_window (text_view), NULL, NULL, NULL);
-
   return FALSE;
 }
 
@@ -1593,10 +1591,16 @@ defbox_visibility_notify_cb (GtkWidget          *text_view,
                              GdkEventVisibility *event,
                              GdictDefbox        *defbox)
 {
+  GdkDisplay *display;
+  GdkDeviceManager *device_manager;
+  GdkDevice *pointer;
   gint wx, wy;
   gint bx, by;
 
-  gdk_window_get_pointer (gtk_widget_get_window (text_view), &wx, &wy, NULL);
+  display = gdk_window_get_display (event->window);
+  device_manager = gdk_display_get_device_manager (display);
+  pointer = gdk_device_manager_get_client_pointer (device_manager);
+  gdk_window_get_device_position (gtk_widget_get_window (text_view), pointer, &wx, &wy, NULL);
 
   gtk_text_view_window_to_buffer_coords (GTK_TEXT_VIEW (text_view),
                                          GTK_TEXT_WINDOW_WIDGET,

@@ -185,7 +185,7 @@ gdict_window_dispose (GObject *gobject)
 
   if (window->busy_cursor)
     {
-      gdk_cursor_unref (window->busy_cursor);
+      g_object_unref (window->busy_cursor);
       window->busy_cursor = NULL;
     }
 
@@ -1649,7 +1649,7 @@ gdict_window_constructor (GType                  type,
 
   gtk_widget_push_composite_child ();
  
-  window->main_box = gtk_vbox_new (FALSE, 0);
+  window->main_box = gtk_box_new (GTK_ORIENTATION_VERTICAL, 0);
   gtk_container_add (GTK_CONTAINER (window), window->main_box);
   gtk_widget_show (window->main_box);
   
@@ -1688,12 +1688,12 @@ gdict_window_constructor (GType                  type,
       gdict_window_ensure_menu_state (window);
     }
   
-  vbox = gtk_vbox_new (FALSE, 6);
+  vbox = gtk_box_new (GTK_ORIENTATION_VERTICAL, 6);
   gtk_container_set_border_width (GTK_CONTAINER (vbox), 6);
   gtk_container_add (GTK_CONTAINER (window->main_box), vbox);
   gtk_widget_show (vbox);
   
-  hbox = gtk_hbox_new (FALSE, 12);
+  hbox = gtk_box_new (GTK_ORIENTATION_HORIZONTAL, 12);
   gtk_box_pack_start (GTK_BOX (vbox), hbox, FALSE, FALSE, 0);
   gtk_widget_show (hbox);
   
@@ -1731,8 +1731,8 @@ gdict_window_constructor (GType                  type,
   gtk_box_pack_start (GTK_BOX (vbox), handle, TRUE, TRUE, 0);
   gtk_widget_show (handle);
 
-  frame1 = gtk_vbox_new (FALSE, 0);
-  frame2 = gtk_vbox_new (FALSE, 0);
+  frame1 = gtk_box_new (GTK_ORIENTATION_VERTICAL, 0);
+  frame2 = gtk_box_new (GTK_ORIENTATION_VERTICAL, 0);
   
   window->defbox = gdict_defbox_new ();
   if (window->context)
