@@ -121,19 +121,9 @@ gdict_window_dispose (GObject *gobject)
 {
   GdictWindow *window = GDICT_WINDOW (gobject);
 
-  if (window->desktop_settings != NULL)
-    {
-      g_object_unref (window->desktop_settings);
-      window->desktop_settings = NULL;
-    }
+  g_clear_object (&window->desktop_settings);
+  g_clear_object (&window->settings);
 
-  if (window->settings != NULL)
-    {
-      g_object_unref (window->settings);
-
-      window->settings = NULL;
-    }
-  
   if (window->context)
     {
       if (window->lookup_start_id)
@@ -152,42 +142,13 @@ gdict_window_dispose (GObject *gobject)
       g_object_unref (window->context);
       window->context = NULL;
     }
-  
-  if (window->loader)
-    {
-      g_object_unref (window->loader);
-      window->loader = NULL;
-    }
-  
-  if (window->ui_manager)
-    {
-      g_object_unref (window->ui_manager);
-      window->ui_manager = NULL;
-    }
-  
-  if (window->action_group)
-    {
-      g_object_unref (window->action_group);
-      window->action_group = NULL;
-    }
 
-  if (window->completion)
-    {
-      g_object_unref (window->completion);
-      window->completion = NULL;
-    }
-
-  if (window->completion_model)
-    {
-      g_object_unref (window->completion_model);
-      window->completion_model = NULL;
-    }
-
-  if (window->busy_cursor)
-    {
-      g_object_unref (window->busy_cursor);
-      window->busy_cursor = NULL;
-    }
+  g_clear_object (&window->loader);
+  g_clear_object (&window->ui_manager);
+  g_clear_object (&window->action_group);
+  g_clear_object (&window->completion);
+  g_clear_object (&window->completion_model);
+  g_clear_object (&window->busy_cursor);
 
   G_OBJECT_CLASS (gdict_window_parent_class)->dispose (gobject);
 }
