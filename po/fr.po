@@ -20,28 +20,21 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-utils HEAD\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-10-06 14:35-0400\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
+"dictionary&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2011-10-25 14:13+0000\n"
 "PO-Revision-Date: 2011-09-04 21:12+0200\n"
 "Last-Translator: Bruno Brouard <annoa.b@gmail.com>\n"
 "Language-Team: GNOME French Team <gnomefr@traduc.org>\n"
-"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: \n"
 "Plural-Forms: nplurals=2; plural=n>1;\n"
 
 #: ../data/default.desktop.in.h:1
 msgid "Default Dictionary Server"
-msgstr "Serveur de dictionnaires par défaut"
-
-#: ../data/spanish.desktop.in.h:1
-msgid "Spanish Dictionaries"
-msgstr "Dictionnaires Espagnols"
-
-#: ../data/thai.desktop.in.h:1
-msgid "Longdo Thai-English Dictionaries"
-msgstr "Dictionnaires Longdo Thaï-Anglais"
+msgstr "Serveur de Dictionnaire par défaut"
 
 #: ../data/gnome-dictionary.desktop.in.in.h:1
 msgid "Check word definitions and spellings in an online dictionary"
@@ -53,6 +46,51 @@ msgstr ""
 #: ../src/gdict-app.c:233 ../src/gdict-window.c:601 ../src/gdict-window.c:1894
 msgid "Dictionary"
 msgstr "Dictionnaire"
+
+#: ../data/gnome-dictionary-preferences.ui.h:1
+msgid "Print"
+msgstr "Imprimer"
+
+#: ../data/gnome-dictionary-preferences.ui.h:2
+#: ../data/gnome-dictionary-source.ui.h:3
+msgid "Source"
+msgstr "Source"
+
+#: ../data/gnome-dictionary-preferences.ui.h:3
+msgid "_Print font:"
+msgstr "_Police d'impression :"
+
+#: ../data/gnome-dictionary-preferences.ui.h:4
+msgid "_Select a dictionary source for looking up words:"
+msgstr "_Sélectionnez une source de dictionnaires pour rechercher des mots :"
+
+#: ../data/gnome-dictionary-source.ui.h:1
+msgid "Dictionaries"
+msgstr "Dictionnaires"
+
+#: ../data/gnome-dictionary-source.ui.h:2
+msgid "H_ostname:"
+msgstr "Nom d'_hôte :"
+
+#: ../data/gnome-dictionary-source.ui.h:4
+msgid "Source Name"
+msgstr "Nom de la source"
+
+#: ../data/gnome-dictionary-source.ui.h:5
+msgid "Strategies"
+msgstr "Stratégies"
+
+#: ../data/gnome-dictionary-source.ui.h:6
+msgid "_Description:"
+msgstr "_Description :"
+
+#: ../data/gnome-dictionary-source.ui.h:7
+msgid "_Port:"
+msgstr "_Port :"
+
+#: ../data/gnome-dictionary-source.ui.h:8
+msgid "_Transport:"
+msgstr "_Transport :"
 
 #: ../data/org.gnome.dictionary.gschema.xml.in.in.h:1
 msgid "The default database to use"
@@ -101,50 +139,13 @@ msgstr ""
 "Le nom de la source de dictionnaires utilisée pour rechercher les "
 "définitions des mots."
 
-#: ../data/gnome-dictionary-preferences.ui.h:1
-msgid "Print"
-msgstr "Imprimer"
+#: ../data/spanish.desktop.in.h:1
+msgid "Spanish Dictionaries"
+msgstr "Dictionnaires Espagnols"
 
-#: ../data/gnome-dictionary-preferences.ui.h:2
-#: ../data/gnome-dictionary-source.ui.h:3
-msgid "Source"
-msgstr "Source"
-
-#: ../data/gnome-dictionary-preferences.ui.h:3
-msgid "_Print font:"
-msgstr "_Police d'impression :"
-
-#: ../data/gnome-dictionary-preferences.ui.h:4
-msgid "_Select a dictionary source for looking up words:"
-msgstr "_Sélectionnez une source de dictionnaires pour rechercher des mots :"
-
-#: ../data/gnome-dictionary-source.ui.h:1
-msgid "Dictionaries"
-msgstr "Dictionnaires"
-
-#: ../data/gnome-dictionary-source.ui.h:2
-msgid "H_ostname:"
-msgstr "Nom d'_hôte :"
-
-#: ../data/gnome-dictionary-source.ui.h:4
-msgid "Source Name"
-msgstr "Nom de la source"
-
-#: ../data/gnome-dictionary-source.ui.h:5
-msgid "Strategies"
-msgstr "Stratégies"
-
-#: ../data/gnome-dictionary-source.ui.h:6
-msgid "_Description:"
-msgstr "_Description :"
-
-#: ../data/gnome-dictionary-source.ui.h:7
-msgid "_Port:"
-msgstr "_Port :"
-
-#: ../data/gnome-dictionary-source.ui.h:8
-msgid "_Transport:"
-msgstr "_Transport :"
+#: ../data/thai.desktop.in.h:1
+msgid "Longdo Thai-English Dictionaries"
+msgstr "Dictionnaires Longdo Thaï-Anglais"
 
 #: ../libgdict/gdict-client-context.c:283
 msgid "Client Name"
@@ -206,8 +207,8 @@ msgid ""
 "Unable to connect to the dictionary server at '%s:%d'. The server replied "
 "with code %d (server down)"
 msgstr ""
-"Impossible de se connecter au serveur de dictionnaires « %s:%d'. Le serveur "
-"a retourné le code %d (serveur en panne)"
+"Impossible de se connecter au serveur de dictionnaires « %s:%d'. Le serveur a "
+"retourné le code %d (serveur en panne)"
 
 #: ../libgdict/gdict-client-context.c:1196
 #, c-format
@@ -435,12 +436,12 @@ msgstr ""
 #: ../libgdict/gdict-source.c:741
 #, c-format
 msgid "Dictionary source does not have name"
-msgstr "La source de dictionnaires n'a pas de nom"
+msgstr "La source de Dictionnaire n'a pas de nom"
 
 #: ../libgdict/gdict-source.c:750
 #, c-format
 msgid "Dictionary source '%s' has invalid transport '%s'"
-msgstr "La source de dictionnaires « %s » n'a pas de transport valide « %s »"
+msgstr "La source de Dictionnaire « %s » n'a pas de transport valide « %s »"
 
 #: ../libgdict/gdict-source-chooser.c:295
 msgid "Reload the list of available sources"
@@ -460,7 +461,7 @@ msgstr "Sources"
 
 #: ../libgdict/gdict-source-loader.c:185
 msgid "Dictionary sources found"
-msgstr "Sources de dictionnaires trouvées"
+msgstr "Sources de Dictionnaire trouvées"
 
 #: ../libgdict/gdict-speller.c:353
 msgid "Clear the list of similar words"
@@ -535,7 +536,7 @@ msgstr "Mots a rechercher"
 
 #: ../src/gdict-app.c:74
 msgid "Dictionary source to use"
-msgstr "Source de dictionnaires à utiliser"
+msgstr "Source de Dictionnaire à utiliser"
 
 #: ../src/gdict-app.c:74 ../src/gdict-app.c:80 ../src/gdict-app.c:86
 msgid "NAME"
@@ -560,11 +561,11 @@ msgstr " - Recherche des mots dans des dictionnaires"
 
 #: ../src/gdict-pref-dialog.c:241 ../src/gdict-pref-dialog.c:430
 msgid "Edit Dictionary Source"
-msgstr "Modifier la source de dictionnaires"
+msgstr "Modifier la source de Dictionnaire"
 
 #: ../src/gdict-pref-dialog.c:305
 msgid "Add Dictionary Source"
-msgstr "Ajouter une source de dictionnaires"
+msgstr "Ajouter une source de Dictionnaire"
 
 #: ../src/gdict-pref-dialog.c:350
 #, c-format
@@ -669,7 +670,7 @@ msgstr "Erreur lors de l'écriture de « %s »"
 
 #: ../src/gdict-window.c:1098
 msgid "Dictionary Preferences"
-msgstr "Préférences du dictionnaire"
+msgstr "Préférences de Dictionnaire"
 
 #: ../src/gdict-window.c:1280
 msgid "_File"
@@ -780,7 +781,7 @@ msgstr "Mots _similaires"
 
 #: ../src/gdict-window.c:1326
 msgid "Dictionary Sources"
-msgstr "Sources de dictionnaires"
+msgstr "Sources de Dictionnaire"
 
 #: ../src/gdict-window.c:1328
 msgid "Available _Databases"
@@ -811,7 +812,7 @@ msgstr "Barre d'é_tat"
 #: ../src/gdict-window.c:1414
 #, c-format
 msgid "Dictionary source `%s' selected"
-msgstr "Source de dictionnaire « %s » sélectionnée"
+msgstr "Source de Dictionnaire « %s » sélectionnée"
 
 #: ../src/gdict-window.c:1435
 #, c-format
@@ -866,4 +867,4 @@ msgstr "Stratégies disponibles"
 
 #: ../src/gdict-window.c:1822
 msgid "Dictionary sources"
-msgstr "Sources de dictionnaires"
+msgstr "Sources de Dictionnaire"
