@@ -1063,20 +1063,6 @@ gdict_window_cmd_edit_find_previous (GSimpleAction *action,
 }
 
 static void
-gdict_window_cmd_edit_preferences (GSimpleAction *action,
-                                   GVariant      *parameter,
-                                   gpointer       user_data)
-{
-  GdictWindow *window = user_data;
-
-  g_assert (GDICT_IS_WINDOW (window));
-  
-  gdict_show_pref_dialog (GTK_WIDGET (window),
-  			  _("Dictionary Preferences"),
-  			  window->loader);
-}
-
-static void
 gdict_window_cmd_change_view_sidebar (GSimpleAction *action,
                                       GVariant      *state,
                                       gpointer       user_data)
@@ -1251,40 +1237,6 @@ activate_toggle (GSimpleAction *action,
 }
 
 static void
-gdict_window_cmd_help_contents (GSimpleAction *action,
-                                GVariant      *parameter,
-                                gpointer       user_data)
-{
-  GdictWindow *window = user_data;
-  GError *err = NULL;
-  
-  g_return_if_fail (GDICT_IS_WINDOW (window));
- 
-  gtk_show_uri (gtk_widget_get_screen (GTK_WIDGET (window)),
-                "ghelp:gnome-dictionary",
-                gtk_get_current_event_time (), &err); 
-  if (err)
-    {
-      gdict_show_gerror_dialog (GTK_WINDOW (window),
-      		                _("There was an error while displaying help"),
-      			        err);
-      g_error_free (err);
-    }
-}
-
-static void
-gdict_window_cmd_help_about (GSimpleAction *action,
-                             GVariant      *parameter,
-                             gpointer       user_data)
-{
-  GdictWindow *window = user_data;
-
-  g_assert (GDICT_IS_WINDOW (window));
-  
-  gdict_show_about_dialog (GTK_WIDGET (window));
-}
-
-static void
 gdict_window_cmd_lookup (GSimpleAction *action,
                          GVariant      *parameter,
                          gpointer       user_data)
@@ -1323,7 +1275,6 @@ static const GActionEntry entries[] =
   { "find", gdict_window_cmd_edit_find, NULL, NULL, NULL },
   { "find-next", gdict_window_cmd_edit_find_next, NULL, NULL, NULL },
   { "find-previous", gdict_window_cmd_edit_find_previous, NULL, NULL, NULL },
-  { "preferences", gdict_window_cmd_edit_preferences, NULL, NULL, NULL },
 
   /* Go menu */
   { "previous-def", gdict_window_cmd_go_previous_def, NULL, NULL, NULL },
@@ -1340,10 +1291,6 @@ static const GActionEntry entries[] =
   { "view-source", gdict_window_cmd_view_sources, NULL, NULL, NULL },
   { "view-db", gdict_window_cmd_view_databases, NULL, NULL, NULL },
   { "view-strat", gdict_window_cmd_view_strategies, NULL, NULL, NULL },
-
-  /* Help menu */
-  { "help", gdict_window_cmd_help_contents, NULL, NULL, NULL },
-  { "about", gdict_window_cmd_help_about, NULL, NULL, NULL },
   
   /* Accelerators */
   { "lookup", gdict_window_cmd_lookup, NULL, NULL, NULL },

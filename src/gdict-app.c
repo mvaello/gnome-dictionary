@@ -94,6 +94,82 @@ static GOptionEntry gdict_app_goptions[] = {
 };
 
 static void
+gdict_app_cmd_preferences (GSimpleAction *action,
+                           GVariant      *parameter,
+                           gpointer       user_data)
+{
+  GtkApplication *app = user_data;
+  GdictWindow *window;
+
+  g_assert (GTK_IS_APPLICATION (app));
+
+  window = GDICT_WINDOW (gtk_application_get_windows (app)->data);
+  gdict_show_pref_dialog (GTK_WIDGET (window),
+                          _("Dictionary Preferences"),
+                          window->loader);
+}
+
+static void
+gdict_app_cmd_help (GSimpleAction *action,
+                    GVariant      *parameter,
+                    gpointer       user_data)
+{
+  GtkApplication *app = user_data;
+  GdictWindow *window;
+  GError *err = NULL;
+
+  g_return_if_fail (GTK_IS_APPLICATION (app));
+
+  window = GDICT_WINDOW (gtk_application_get_windows (app)->data);
+  gtk_show_uri (gtk_widget_get_screen (GTK_WIDGET (window)),
+                "ghelp:gnome-dictionary",
+                gtk_get_current_event_time (), &err);
+  if (err)
+    {
+      gdict_show_gerror_dialog (GTK_WINDOW (window),
+                                _("There was an error while displaying help"),
+                                err);
+      g_error_free (err);
+    }
+}
+
+static void
+gdict_app_cmd_about (GSimpleAction *action,
+                     GVariant      *parameter,
+                     gpointer       user_data)
+{
+  GtkApplication *app = user_data;
+  GdictWindow *window;
+
+  g_assert (GTK_IS_APPLICATION (app));
+
+  window = GDICT_WINDOW (gtk_application_get_windows (app)->data);
+  gdict_show_about_dialog (GTK_WIDGET (window));
+}
+
+static void
+gdict_app_cmd_quit (GSimpleAction *action,
+                    GVariant      *parameter,
+                    gpointer       user_data)
+{
+  GtkApplication *app = user_data;
+  GList *windows;
+
+  g_assert (GTK_IS_APPLICATION (app));
+
+  windows = gtk_application_get_windows (app);
+  g_list_foreach (windows, (GFunc)gtk_widget_destroy, NULL);
+}
+
+static const GActionEntry app_entries[] =
+{
+  { "preferences", gdict_app_cmd_preferences, NULL, NULL, NULL },
+  { "help", gdict_app_cmd_help, NULL, NULL, NULL },
+  { "about", gdict_app_cmd_about, NULL, NULL, NULL },
+  { "quit", gdict_app_cmd_quit, NULL, NULL, NULL }
+};
+
+static void
 gdict_app_finalize (GObject *object)
 {
   GdictApp *app = GDICT_APP (object);
@@ -225,6 +301,10 @@ gdict_startup (GApplication *application,
   GtkBuilder *builder = gtk_builder_new ();
   GError * error = NULL;
 
+  g_action_map_add_action_entries (G_ACTION_MAP (application),
+                                   app_entries, G_N_ELEMENTS (app_entries),
+                                   application);
+
   if (!gtk_builder_add_from_file (builder,
                                   PKGDATADIR "/gnome-dictionary-menus.ui",
                                   &error))
@@ -238,6 +318,9 @@ gdict_startup (GApplication *application,
   gtk_application_set_menubar (GTK_APPLICATION (application),
                                G_MENU_MODEL (gtk_builder_get_object (builder,
                                                                      "menubar")));
+  gtk_application_set_app_menu (GTK_APPLICATION (application),
+                                G_MENU_MODEL (gtk_builder_get_object (builder,
+                                                                      "app-menu")));
   gtk_application_add_accelerator (GTK_APPLICATION (application),
                                    "<Primary>l", "win.lookup", NULL);
   gtk_application_add_accelerator (GTK_APPLICATION (application),
