@@ -48,7 +48,7 @@ typedef struct _GdictWindowClass GdictWindowClass;
 
 struct _GdictWindow
 {
-  GtkWindow parent_instance;
+  GtkApplicationWindow parent_instance;
   
   GtkWidget *main_box;
   GtkWidget *menubar;
@@ -118,7 +118,7 @@ struct _GdictWindow
 
 struct _GdictWindowClass
 {
-  GtkWindowClass parent_class;
+  GtkApplicationWindowClass parent_class;
   
   void (*created) (GdictWindow *parent_window,
   		   GdictWindow *new_window);
