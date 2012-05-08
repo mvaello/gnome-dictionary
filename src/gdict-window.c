@@ -907,6 +907,8 @@ gdict_window_cmd_file_new (GtkAction   *action,
                                    NULL,
                                    NULL);
 
+  gtk_window_set_application (GTK_WINDOW (new_window),
+                              gtk_window_get_application (GTK_WINDOW (window)));
   gtk_widget_show (new_window);
   
   g_signal_emit (window, gdict_window_signals[CREATED], 0, new_window);
@@ -1513,6 +1515,8 @@ gdict_window_link_clicked (GdictDefbox *defbox,
                                  NULL,
                                  NULL,
                                  link_text);
+  gtk_window_set_application (GTK_WINDOW (new_window),
+                              gtk_window_get_application (GTK_WINDOW (window)));
   gtk_widget_show (new_window);
   
   g_signal_emit (window, gdict_window_signals[CREATED], 0, new_window);
