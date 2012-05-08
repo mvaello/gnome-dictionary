@@ -51,7 +51,6 @@ struct _GdictWindow
   GtkApplicationWindow parent_instance;
   
   GtkWidget *main_box;
-  GtkWidget *menubar;
   GtkWidget *entry;
   
   /* sidebar widgets */
@@ -69,9 +68,6 @@ struct _GdictWindow
   GtkWidget *status;
   GtkWidget *progress;
   
-  GtkUIManager *ui_manager;
-  GtkActionGroup *action_group;
- 
   GtkEntryCompletion *completion;
   GtkListStore *completion_model;
   

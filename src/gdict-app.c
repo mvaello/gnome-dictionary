@@ -218,6 +218,34 @@ gdict_command_line (GApplication *application,
   return 0;
 }
 
+static void
+gdict_startup (GApplication *application,
+               gpointer      user_data)
+{
+  GtkBuilder *builder = gtk_builder_new ();
+  GError * error = NULL;
+
+  if (!gtk_builder_add_from_file (builder,
+                                  PKGDATADIR "/gnome-dictionary-menus.ui",
+                                  &error))
+    {
+      g_warning ("Building menus failed: %s", error->message);
+      g_error_free (error);
+
+      return;
+    }
+
+  gtk_application_set_menubar (GTK_APPLICATION (application),
+                               G_MENU_MODEL (gtk_builder_get_object (builder,
+                                                                     "menubar")));
+  gtk_application_add_accelerator (GTK_APPLICATION (application),
+                                   "<Primary>l", "win.lookup", NULL);
+  gtk_application_add_accelerator (GTK_APPLICATION (application),
+                                   "Escape", "win.escape", NULL);
+
+  g_object_unref (builder);
+}
+
 void
 gdict_main (int    *argc,
             char ***argv)
@@ -249,6 +277,7 @@ gdict_main (int    *argc,
 
   singleton->app = gtk_application_new ("org.gnome.Dictionary", G_APPLICATION_HANDLES_COMMAND_LINE);
   g_signal_connect (singleton->app, "command-line", G_CALLBACK (gdict_command_line), singleton);
+  g_signal_connect (singleton->app, "startup", G_CALLBACK (gdict_startup), singleton);
 
   g_application_run (G_APPLICATION (singleton->app), *argc, *argv);
 }

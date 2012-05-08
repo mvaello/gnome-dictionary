@@ -32,14 +32,11 @@ builderdir = $(datadir)/gnome-dictionary
 builder_DATA = \
 	gnome-dictionary-preferences.ui	\
 	gnome-dictionary-source.ui	\
+	gnome-dictionary-menus.ui	\
 	$(NULL)
-
-uidir = $(datadir)/gnome-dictionary
-ui_DATA = gnome-dictionary-ui.xml
 
 EXTRA_DIST += \
 	$(builder_DATA) \
-	$(ui_DATA) \
 	$(NULL)
 
 gsettings_SCHEMAS = org.gnome.dictionary.gschema.xml
