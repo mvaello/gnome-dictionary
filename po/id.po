@@ -1,22 +1,22 @@
-# Indonesian translation of gnome-utils.
-# Copyright (C) 2003 THE gnome-utils'S COPYRIGHT HOLDER
+# Indonesian translation of gnome-dictionary
+# Copyright (C) 2003 THE gnome-dictionary'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the gnome-utils package.
 #
 # Mohammad DAMT <mdamt@bisnisweb.com>, 2003-2005.
-# Andika Triwidada <andika@gmail.com>, 2010-2011.
+# Andika Triwidada <andika@gmail.com>, 2010-2012.
 # Dirgita <dirgitadevina@yahoo.co.id>, 2011.
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-utils.master\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-10-06 14:35-0400\n"
-"PO-Revision-Date: 2011-08-18 12:00+0700\n"
+"Project-Id-Version: gnome-dictionary master\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-dictionary&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2012-05-10 17:07+0000\n"
+"PO-Revision-Date: 2012-05-15 22:19+0700\n"
 "Last-Translator: Andika Triwidada <andika@gmail.com>\n"
 "Language-Team: GNOME Indonesian Translation Team <gnome@i15n.org>\n"
-"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Poedit-Language: Indonesian\n"
 "X-Poedit-Country: Indonesia\n"
@@ -27,72 +27,142 @@ msgstr ""
 msgid "Default Dictionary Server"
 msgstr "Server Kamus Default"
 
-#: ../data/spanish.desktop.in.h:1
-msgid "Spanish Dictionaries"
-msgstr "Kamus Spanyol"
-
-#: ../data/thai.desktop.in.h:1
-msgid "Longdo Thai-English Dictionaries"
-msgstr "Kamus Thailan-Inggris Longdo"
-
 #: ../data/gnome-dictionary.desktop.in.in.h:1
-msgid "Check word definitions and spellings in an online dictionary"
-msgstr "Cari penjelasan dan pengejaan kata di dalam kamus online"
-
-#: ../data/gnome-dictionary.desktop.in.in.h:2 ../src/gdict-about.c:62
-#: ../src/gdict-app.c:233 ../src/gdict-window.c:601 ../src/gdict-window.c:1894
+#: ../src/gdict-about.c:62
+#: ../src/gdict-app.c:349
+#: ../src/gdict-window.c:545
+#: ../src/gdict-window.c:1807
 msgid "Dictionary"
 msgstr "Kamus"
 
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:1
-msgid "The default database to use"
-msgstr "Basis data default yang digunakan"
+#: ../data/gnome-dictionary.desktop.in.in.h:2
+msgid "Check word definitions and spellings in an online dictionary"
+msgstr "Cari penjelasan dan pengejaan kata di dalam kamus online"
 
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:2
-msgid "The default search strategy to use"
-msgstr "Strategi pencarian yang digunakan"
+#: ../data/gnome-dictionary-menus.ui.h:1
+#| msgid "_Preferences"
+msgid "Preferences"
+msgstr "_Preferensi"
 
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:3
-msgid "The font to be used when printing"
-msgstr "Jenis huruf yang digunakan ketika mencetak"
+#: ../data/gnome-dictionary-menus.ui.h:2
+#| msgid "_Help"
+msgid "Help"
+msgstr "Bantuan"
 
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:4
-msgid "The font to be used when printing a definition."
-msgstr "Jenis huruf yang dipergunakan ketika mencetak definisi."
+#: ../data/gnome-dictionary-menus.ui.h:3
+#| msgid "Dictionary"
+msgid "About Dictionary"
+msgstr "Tentang Kamus"
 
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:5
-msgid ""
-"The name of the default individual database or meta-database to use on a "
-"dictionary source. An exclamation mark (\"!\") means that all the databases "
-"present in a dictionary source should be searched"
-msgstr ""
-"Nama basis data tunggal atau meta-basis data yang digunakan pada sumber "
-"kamus. Tanda eksklamasi (\"!\") berarti seluruh basis data yang ada dalam "
-"sumber kamus harus dicari."
+#: ../data/gnome-dictionary-menus.ui.h:4
+msgid "Quit"
+msgstr "Keluar"
 
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:6
-msgid ""
-"The name of the default search strategy to use on a dictionary source, if "
-"available. The default strategy is 'exact', that is match exact words."
-msgstr ""
-"Nama dari strategi pencarian untuk dipergunakan pada sumber kamus, jika "
-"tersedia. Strategi defaultnya adalah 'pasti', yaitu pasti cocok katanya."
+#: ../data/gnome-dictionary-menus.ui.h:5
+msgid "_File"
+msgstr "_Berkas"
 
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:7
-msgid "The name of the dictionary source used"
-msgstr "Nama sumber kamus yang digunakan"
+#: ../data/gnome-dictionary-menus.ui.h:6
+msgid "_New"
+msgstr "_Baru"
 
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:8
-msgid ""
-"The name of the dictionary source used to retrieve the definitions of words."
-msgstr "Nama sumber kamus yang dipergunakan untuk menerima definisi kata."
+#: ../data/gnome-dictionary-menus.ui.h:7
+msgid "_Save a Copy..."
+msgstr "_Simpan Salinan..."
+
+#: ../data/gnome-dictionary-menus.ui.h:8
+#| msgid "P_review..."
+msgid "P_review"
+msgstr "P_ratilik"
+
+#: ../data/gnome-dictionary-menus.ui.h:9
+#| msgid "Print"
+msgid "_Print"
+msgstr "_Cetak"
+
+#: ../data/gnome-dictionary-menus.ui.h:10
+msgid "_Close"
+msgstr "_Tutup"
+
+#: ../data/gnome-dictionary-menus.ui.h:11
+msgid "_Edit"
+msgstr "_Sunting"
+
+#: ../data/gnome-dictionary-menus.ui.h:12
+msgid "_Copy"
+msgstr "_Salin"
+
+#: ../data/gnome-dictionary-menus.ui.h:13
+msgid "Select _All"
+msgstr "Pilih Semu_a"
+
+#: ../data/gnome-dictionary-menus.ui.h:14
+#| msgid "F_ind:"
+msgid "_Find"
+msgstr "_Temukan"
+
+#: ../data/gnome-dictionary-menus.ui.h:15
+msgid "Find Ne_xt"
+msgstr "Cari La_gi"
+
+#: ../data/gnome-dictionary-menus.ui.h:16
+msgid "Find Pre_vious"
+msgstr "Temukan Sebelum_nya"
+
+#: ../data/gnome-dictionary-menus.ui.h:17
+msgid "_View"
+msgstr "_Tampilan"
+
+#: ../data/gnome-dictionary-menus.ui.h:18
+msgid "_Sidebar"
+msgstr "Panel _samping"
+
+#: ../data/gnome-dictionary-menus.ui.h:19
+msgid "S_tatusbar"
+msgstr "Panel S_tatus"
+
+#: ../data/gnome-dictionary-menus.ui.h:20
+msgid "Similar _Words"
+msgstr "Kata _Serupa"
+
+#: ../data/gnome-dictionary-menus.ui.h:21
+msgid "Dictionary Sources"
+msgstr "Sumber Kamus"
+
+#: ../data/gnome-dictionary-menus.ui.h:22
+msgid "Available _Databases"
+msgstr "Basis _data Tersedia"
+
+#: ../data/gnome-dictionary-menus.ui.h:23
+msgid "Available St_rategies"
+msgstr "St_rategi yang Tersedia"
+
+#: ../data/gnome-dictionary-menus.ui.h:24
+msgid "_Go"
+msgstr "_Ayo"
+
+#: ../data/gnome-dictionary-menus.ui.h:25
+msgid "_Previous Definition"
+msgstr "_Penjelasan Sebelumnya"
+
+#: ../data/gnome-dictionary-menus.ui.h:26
+msgid "_Next Definition"
+msgstr "Penjelasa_n Selanjutnya"
+
+#: ../data/gnome-dictionary-menus.ui.h:27
+msgid "_First Definition"
+msgstr "_Penjelasan Pertama"
+
+#: ../data/gnome-dictionary-menus.ui.h:28
+msgid "_Last Definition"
+msgstr "Penje_lasan Terakhir"
 
 #: ../data/gnome-dictionary-preferences.ui.h:1
-msgid "Print"
-msgstr "Cetak"
+msgid "_Select a dictionary source for looking up words:"
+msgstr "Pilih _sumber kamus untuk mencari kata:"
 
 #: ../data/gnome-dictionary-preferences.ui.h:2
-#: ../data/gnome-dictionary-source.ui.h:3
+#: ../data/gnome-dictionary-source.ui.h:6
 msgid "Source"
 msgstr "Sumber"
 
@@ -101,36 +171,76 @@ msgid "_Print font:"
 msgstr "Huruf _Pencetakan:"
 
 #: ../data/gnome-dictionary-preferences.ui.h:4
-msgid "_Select a dictionary source for looking up words:"
-msgstr "Pilih _sumber kamus untuk mencari kata:"
+msgid "Print"
+msgstr "Cetak"
 
 #: ../data/gnome-dictionary-source.ui.h:1
-msgid "Dictionaries"
-msgstr "Kamus"
+msgid "_Description:"
+msgstr "_Deskripsi:"
 
 #: ../data/gnome-dictionary-source.ui.h:2
+msgid "_Transport:"
+msgstr "_Transport:"
+
+#: ../data/gnome-dictionary-source.ui.h:3
 msgid "H_ostname:"
 msgstr "Nama H_ost:"
 
 #: ../data/gnome-dictionary-source.ui.h:4
-msgid "Source Name"
-msgstr "Nama sumber"
-
-#: ../data/gnome-dictionary-source.ui.h:5
-msgid "Strategies"
-msgstr "Strategi"
-
-#: ../data/gnome-dictionary-source.ui.h:6
-msgid "_Description:"
-msgstr "_Deskripsi:"
-
-#: ../data/gnome-dictionary-source.ui.h:7
 msgid "_Port:"
 msgstr "_Port:"
 
+#: ../data/gnome-dictionary-source.ui.h:5
+msgid "Source Name"
+msgstr "Nama sumber"
+
+#: ../data/gnome-dictionary-source.ui.h:7
+msgid "Dictionaries"
+msgstr "Kamus"
+
 #: ../data/gnome-dictionary-source.ui.h:8
-msgid "_Transport:"
-msgstr "_Transport:"
+msgid "Strategies"
+msgstr "Strategi"
+
+#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:1
+msgid "The default database to use"
+msgstr "Basis data default yang digunakan"
+
+#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:2
+msgid "The name of the default individual database or meta-database to use on a dictionary source. An exclamation mark (\"!\") means that all the databases present in a dictionary source should be searched"
+msgstr "Nama basis data tunggal atau meta-basis data yang digunakan pada sumber kamus. Tanda eksklamasi (\"!\") berarti seluruh basis data yang ada dalam sumber kamus harus dicari."
+
+#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:3
+msgid "The default search strategy to use"
+msgstr "Strategi pencarian yang digunakan"
+
+#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:4
+msgid "The name of the default search strategy to use on a dictionary source, if available. The default strategy is 'exact', that is match exact words."
+msgstr "Nama dari strategi pencarian untuk dipergunakan pada sumber kamus, jika tersedia. Strategi defaultnya adalah 'pasti', yaitu pasti cocok katanya."
+
+#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:5
+msgid "The font to be used when printing"
+msgstr "Jenis huruf yang digunakan ketika mencetak"
+
+#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:6
+msgid "The font to be used when printing a definition."
+msgstr "Jenis huruf yang dipergunakan ketika mencetak definisi."
+
+#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:7
+msgid "The name of the dictionary source used"
+msgstr "Nama sumber kamus yang digunakan"
+
+#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:8
+msgid "The name of the dictionary source used to retrieve the definitions of words."
+msgstr "Nama sumber kamus yang dipergunakan untuk menerima definisi kata."
+
+#: ../data/spanish.desktop.in.h:1
+msgid "Spanish Dictionaries"
+msgstr "Kamus Spanyol"
+
+#: ../data/thai.desktop.in.h:1
+msgid "Longdo Thai-English Dictionaries"
+msgstr "Kamus Thailan-Inggris Longdo"
 
 #: ../libgdict/gdict-client-context.c:283
 msgid "Client Name"
@@ -172,8 +282,7 @@ msgstr "Tiada sambungan ke server kamus pada '%s:%d'"
 #: ../libgdict/gdict-client-context.c:1060
 #, c-format
 msgid "Lookup failed for hostname '%s': no suitable resources found"
-msgstr ""
-"Pencarian gagal untuk nama host '%s'. Tidak menemukan sumber yang benar"
+msgstr "Pencarian gagal untuk nama host '%s'. Tidak menemukan sumber yang benar"
 
 #: ../libgdict/gdict-client-context.c:1091
 #, c-format
@@ -187,12 +296,8 @@ msgstr "Pencarian gagal untuk host '%s': tidak ditemukan"
 
 #: ../libgdict/gdict-client-context.c:1177
 #, c-format
-msgid ""
-"Unable to connect to the dictionary server at '%s:%d'. The server replied "
-"with code %d (server down)"
-msgstr ""
-"Tidak bisa tersambung ke server kamus pada '%s:%d'. Server menjawab dengan "
-"kode %d (server mati)"
+msgid "Unable to connect to the dictionary server at '%s:%d'. The server replied with code %d (server down)"
+msgstr "Tidak bisa tersambung ke server kamus pada '%s:%d'. Server menjawab dengan kode %d (server mati)"
 
 #: ../libgdict/gdict-client-context.c:1196
 #, c-format
@@ -286,20 +391,22 @@ msgstr "Hanya Lokal"
 msgid "Whether the context uses only local dictionaries or not"
 msgstr "Apakah konteks menggunakan hanya kamus lokal saja atau tidak"
 
-#: ../libgdict/gdict-database-chooser.c:378
+#: ../libgdict/gdict-database-chooser.c:379
 msgid "Reload the list of available databases"
 msgstr "Baca ulang daftar basis data yang tersedia"
 
-#: ../libgdict/gdict-database-chooser.c:390
+#: ../libgdict/gdict-database-chooser.c:391
 msgid "Clear the list of available databases"
 msgstr "Bersihkan daftar dari basis data tersedia"
 
-#: ../libgdict/gdict-database-chooser.c:837 ../libgdict/gdict-speller.c:778
-#: ../libgdict/gdict-strategy-chooser.c:785
+#: ../libgdict/gdict-database-chooser.c:838
+#: ../libgdict/gdict-speller.c:778
+#: ../libgdict/gdict-strategy-chooser.c:786
 msgid "Error while matching"
 msgstr "Error saat mencocokkan"
 
-#: ../libgdict/gdict-defbox.c:1127 ../libgdict/gdict-defbox.c:1221
+#: ../libgdict/gdict-defbox.c:1127
+#: ../libgdict/gdict-defbox.c:1221
 #: ../libgdict/gdict-defbox.c:1255
 msgid "Not found"
 msgstr "Tidak ketemu"
@@ -316,19 +423,21 @@ msgstr "M_undur"
 msgid "_Next"
 msgstr "_Maju"
 
-#: ../libgdict/gdict-defbox.c:2512
+#: ../libgdict/gdict-defbox.c:2514
 msgid "Error while looking up definition"
 msgstr "Error saat mencari penjelasan"
 
-#: ../libgdict/gdict-defbox.c:2554 ../libgdict/gdict-speller.c:736
+#: ../libgdict/gdict-defbox.c:2556
+#: ../libgdict/gdict-speller.c:736
 msgid "Another search is in progress"
 msgstr "Pencarian yang lain lagi berjalan"
 
-#: ../libgdict/gdict-defbox.c:2555 ../libgdict/gdict-speller.c:737
+#: ../libgdict/gdict-defbox.c:2557
+#: ../libgdict/gdict-speller.c:737
 msgid "Please wait until the current search ends."
 msgstr "Coba tunggu sampai pencarian sekarang selesai."
 
-#: ../libgdict/gdict-defbox.c:2594
+#: ../libgdict/gdict-defbox.c:2596
 msgid "Error while retrieving the definition"
 msgstr "Salah selagi menerima penjelasan"
 
@@ -356,7 +465,8 @@ msgstr "Penjelasan"
 msgid "The description of this dictionary source"
 msgstr "Penjelasan sumber kamus ini"
 
-#: ../libgdict/gdict-source.c:274 ../libgdict/gdict-speller.c:383
+#: ../libgdict/gdict-source.c:274
+#: ../libgdict/gdict-speller.c:383
 msgid "Database"
 msgstr "Basis Data"
 
@@ -364,7 +474,8 @@ msgstr "Basis Data"
 msgid "The default database of this dictionary source"
 msgstr "Basis data bawaan dari sumber kamus ini"
 
-#: ../libgdict/gdict-source.c:288 ../libgdict/gdict-speller.c:390
+#: ../libgdict/gdict-source.c:288
+#: ../libgdict/gdict-speller.c:390
 msgid "Strategy"
 msgstr "Strategi"
 
@@ -380,7 +491,8 @@ msgstr "Transport"
 msgid "The transport mechanism used by this dictionary source"
 msgstr "Mekanisme transport yang digunakan oleh sumber kamus ini"
 
-#: ../libgdict/gdict-source.c:317 ../libgdict/gdict-speller.c:376
+#: ../libgdict/gdict-source.c:317
+#: ../libgdict/gdict-speller.c:376
 msgid "Context"
 msgstr "Isi"
 
@@ -398,16 +510,17 @@ msgstr "Jenis transport salah '%d'"
 msgid "No '%s' group found inside the dictionary source definition"
 msgstr "Tidak ada kelompok '%s' ditemukan dalam penjelasan sumber kamus"
 
-#: ../libgdict/gdict-source.c:457 ../libgdict/gdict-source.c:481
-#: ../libgdict/gdict-source.c:505 ../libgdict/gdict-source.c:530
+#: ../libgdict/gdict-source.c:457
+#: ../libgdict/gdict-source.c:481
+#: ../libgdict/gdict-source.c:505
+#: ../libgdict/gdict-source.c:530
 #, c-format
 msgid "Unable to get the '%s' key inside the dictionary source definition: %s"
 msgstr "Gagal mendapatkan kunci '%s' dalam penjelasan sumber kamus: %s"
 
 #: ../libgdict/gdict-source.c:555
 #, c-format
-msgid ""
-"Unable to get the '%s' key inside the dictionary source definition file: %s"
+msgid "Unable to get the '%s' key inside the dictionary source definition file: %s"
 msgstr "Gagal mendapatkan kunci '%s' dalam berkas penjelasan sumber kamus: %s"
 
 #: ../libgdict/gdict-source.c:741
@@ -456,11 +569,11 @@ msgstr "Basis data yang digunakan untuk mencari GdictContext"
 msgid "The strategy used to query the GdictContext"
 msgstr "Strategi digunakan untuk membaca GdictContext"
 
-#: ../libgdict/gdict-strategy-chooser.c:361
+#: ../libgdict/gdict-strategy-chooser.c:362
 msgid "Reload the list of available strategies"
 msgstr "Muat ulang daftar strategi yang tersedia"
 
-#: ../libgdict/gdict-strategy-chooser.c:373
+#: ../libgdict/gdict-strategy-chooser.c:374
 msgid "Clear the list of available strategies"
 msgstr "Bersihkan daftar strategi tersedia"
 
@@ -468,7 +581,8 @@ msgstr "Bersihkan daftar strategi tersedia"
 msgid "GDict debugging flags to set"
 msgstr "Flag debug GDict yang akan ditata"
 
-#: ../libgdict/gdict-utils.c:97 ../libgdict/gdict-utils.c:99
+#: ../libgdict/gdict-utils.c:97
+#: ../libgdict/gdict-utils.c:99
 msgid "FLAGS"
 msgstr "FLAGS"
 
@@ -487,19 +601,22 @@ msgstr "Tampilkan Opsi GDict"
 #: ../src/gdict-about.c:55
 msgid "translator-credits"
 msgstr ""
-"Ahmad Riza H Nst  <rizahnst@gnome.org>\n"
-"Mohammad DAMT <mdamt@bisnisweb.com>\n"
-"http://id.gnome.org/"
+"Ahmad Riza H Nst <rizahnst@gnome.org>\n"
+"Mohammad DAMT <mdamt@bisnisweb.com>, 2003-2005\n"
+"Andika Triwidada <andika@gmail.com>, 2010-2012\n"
+"Dirgita <dirgitadevina@yahoo.co.id>, 2011"
 
 #: ../src/gdict-about.c:57
 msgid "Look up words in dictionaries"
 msgstr "Cari kata dalam kamus"
 
-#: ../src/gdict-app.c:62 ../src/gdict-app.c:91
+#: ../src/gdict-app.c:62
+#: ../src/gdict-app.c:91
 msgid "Words to look up"
 msgstr "Kata untuk dicari"
 
-#: ../src/gdict-app.c:62 ../src/gdict-app.c:68
+#: ../src/gdict-app.c:62
+#: ../src/gdict-app.c:68
 msgid "WORD"
 msgstr "KATA"
 
@@ -511,7 +628,9 @@ msgstr "Kata untuk dicocokkan"
 msgid "Dictionary source to use"
 msgstr "Sumber kamus untuk digunakan"
 
-#: ../src/gdict-app.c:74 ../src/gdict-app.c:80 ../src/gdict-app.c:86
+#: ../src/gdict-app.c:74
+#: ../src/gdict-app.c:80
+#: ../src/gdict-app.c:86
 msgid "NAME"
 msgstr "NAMA"
 
@@ -527,12 +646,24 @@ msgstr "Strategi digunakan"
 msgid "WORDS"
 msgstr "KATA"
 
+#: ../src/gdict-app.c:108
+msgid "Dictionary Preferences"
+msgstr "Pengaturan Kamus"
+
+#: ../src/gdict-app.c:130
+#: ../src/gdict-pref-dialog.c:496
+#: ../src/gdict-source-dialog.c:477
+#, c-format
+msgid "There was an error while displaying help"
+msgstr "Ada error saat menampilkan bantuan"
+
 #. create the new option context
-#: ../src/gdict-app.c:143
+#: ../src/gdict-app.c:219
 msgid " - Look up words in dictionaries"
 msgstr " - Cari kata dalam kamus"
 
-#: ../src/gdict-pref-dialog.c:241 ../src/gdict-pref-dialog.c:430
+#: ../src/gdict-pref-dialog.c:241
+#: ../src/gdict-pref-dialog.c:430
 msgid "Edit Dictionary Source"
 msgstr "Sunting Sumber Kamus"
 
@@ -554,12 +685,6 @@ msgstr "Ini akan menghapus sumber kamus dari daftar untuk selamanya."
 msgid "Unable to remove source '%s'"
 msgstr "Tidak dapat membuang sumber '%s'"
 
-#: ../src/gdict-pref-dialog.c:496 ../src/gdict-source-dialog.c:479
-#: ../src/gdict-window.c:1245
-#, c-format
-msgid "There was an error while displaying help"
-msgstr "Ada error saat menampilkan bantuan"
-
 #: ../src/gdict-pref-dialog.c:643
 msgid "Add a new dictionary source"
 msgstr "Tambahkan sumber kamus baru"
@@ -576,267 +701,131 @@ msgstr "Sunting sumber kamus yang sedang terpilih"
 msgid "Set the font used for printing the definitions"
 msgstr "Tentukan jenis huruf untuk pencetakan penjelasan"
 
-#: ../src/gdict-print.c:241 ../src/gdict-print.c:305
+#: ../src/gdict-print.c:241
+#: ../src/gdict-print.c:305
 #, c-format
 msgid "Unable to display the preview: %s"
 msgstr "Tak bisa menampilkan pratilik: %s"
 
-#: ../src/gdict-source-dialog.c:341 ../src/gdict-source-dialog.c:434
+#: ../src/gdict-source-dialog.c:342
+#: ../src/gdict-source-dialog.c:434
 msgid "Unable to create a source file"
 msgstr "Tidak dapat membuat berkas sumber"
 
-#: ../src/gdict-source-dialog.c:359 ../src/gdict-source-dialog.c:452
+#: ../src/gdict-source-dialog.c:358
+#: ../src/gdict-source-dialog.c:450
 msgid "Unable to save source file"
 msgstr "Tidak dapat menyimpan berkas sumber"
 
-#: ../src/gdict-window.c:311
+#: ../src/gdict-window.c:255
 #, c-format
 msgid "Searching for '%s'..."
 msgstr "Mencari '%s'..."
 
-#: ../src/gdict-window.c:343 ../src/gdict-window.c:400
+#: ../src/gdict-window.c:287
+#: ../src/gdict-window.c:344
 msgid "No definitions found"
 msgstr "Tidak menemukan penjelasan"
 
-#: ../src/gdict-window.c:345
+#: ../src/gdict-window.c:289
 #, c-format
 msgid "A definition found"
 msgid_plural "%d definitions found"
 msgstr[0] "%d definisi ditemukan"
 
-#: ../src/gdict-window.c:516
+#: ../src/gdict-window.c:460
 #, c-format
 msgid "No dictionary source available with name '%s'"
 msgstr "Tidak ada sumber kamus dengan nama '%s'"
 
-#: ../src/gdict-window.c:520
+#: ../src/gdict-window.c:464
 msgid "Unable to find dictionary source"
 msgstr "Gagal menemukan sumber kamus"
 
-#: ../src/gdict-window.c:536
+#: ../src/gdict-window.c:480
 #, c-format
 msgid "No context available for source '%s'"
 msgstr "Tidak ada konteks tersedia untuk sumber '%s'"
 
-#: ../src/gdict-window.c:540
+#: ../src/gdict-window.c:484
 msgid "Unable to create a context"
 msgstr "Tidak dapat membuat konteks"
 
-#: ../src/gdict-window.c:599
+#: ../src/gdict-window.c:543
 #, c-format
 msgid "%s - Dictionary"
 msgstr "%s - Kamus"
 
-#: ../src/gdict-window.c:962
+#: ../src/gdict-window.c:912
 msgid "Save a Copy"
 msgstr "Simpan Salinan"
 
-#: ../src/gdict-window.c:972
+#: ../src/gdict-window.c:922
 msgid "Untitled document"
 msgstr "Dokumen belum berjudul"
 
-#: ../src/gdict-window.c:993
+#: ../src/gdict-window.c:943
 #, c-format
 msgid "Error while writing to '%s'"
 msgstr "Error saat menulis ke: '%s'"
 
-#: ../src/gdict-window.c:1098
-msgid "Dictionary Preferences"
-msgstr "Pengaturan Kamus"
-
-#: ../src/gdict-window.c:1280
-msgid "_File"
-msgstr "_Berkas"
-
-#: ../src/gdict-window.c:1281
-msgid "_Edit"
-msgstr "_Sunting"
-
-#: ../src/gdict-window.c:1282
-msgid "_View"
-msgstr "_Tampilan"
-
-#: ../src/gdict-window.c:1283
-msgid "_Go"
-msgstr "_Ayo"
-
-#: ../src/gdict-window.c:1284
-msgid "_Help"
-msgstr "Ba_ntuan"
-
-#. File menu
-#: ../src/gdict-window.c:1287
-msgid "_New"
-msgstr "_Baru"
-
-#: ../src/gdict-window.c:1288
-msgid "New look up"
-msgstr "Cari baru"
-
-#: ../src/gdict-window.c:1289
-msgid "_Save a Copy..."
-msgstr "_Simpan Salinan..."
-
-#: ../src/gdict-window.c:1291
-msgid "P_review..."
-msgstr "P_ratilik..."
-
-#: ../src/gdict-window.c:1292
-msgid "Preview this document"
-msgstr "Pratilik dokumen ini"
-
-#: ../src/gdict-window.c:1293
-msgid "_Print..."
-msgstr "_Cetak..."
-
-#: ../src/gdict-window.c:1294
-msgid "Print this document"
-msgstr "Cetak dokumen ini"
-
-#: ../src/gdict-window.c:1301
-msgid "Select _All"
-msgstr "Pilih Semu_a"
-
-#: ../src/gdict-window.c:1304
-msgid "Find a word or phrase in the document"
-msgstr "Cari kata ataupun frasa dalam dokumen"
-
-#: ../src/gdict-window.c:1306
-msgid "Find Ne_xt"
-msgstr "Cari La_gi"
-
-#: ../src/gdict-window.c:1308
-msgid "Find Pre_vious"
-msgstr "Temukan Sebelum_nya"
-
-#: ../src/gdict-window.c:1310
-msgid "_Preferences"
-msgstr "_Pengaturan"
-
-#. Go menu
-#: ../src/gdict-window.c:1314
-msgid "_Previous Definition"
-msgstr "_Penjelasan Sebelumnya"
-
-#: ../src/gdict-window.c:1315
-msgid "Go to the previous definition"
-msgstr "Pergi ke penjelasan sebelumnya"
-
-#: ../src/gdict-window.c:1316
-msgid "_Next Definition"
-msgstr "Penjelasa_n Selanjutnya"
-
-#: ../src/gdict-window.c:1317
-msgid "Go to the next definition"
-msgstr "Ayo ke penjelasan selanjutnya"
-
-#: ../src/gdict-window.c:1318
-msgid "_First Definition"
-msgstr "_Penjelasan Pertama"
-
-#: ../src/gdict-window.c:1319
-msgid "Go to the first definition"
-msgstr "Ayo ke penjelasan pertama"
-
-#: ../src/gdict-window.c:1320
-msgid "_Last Definition"
-msgstr "Penje_lasan Terakhir"
-
-#: ../src/gdict-window.c:1321
-msgid "Go to the last definition"
-msgstr "Ayo ke penjelasan terakhir"
-
-#. View menu
-#: ../src/gdict-window.c:1324
-msgid "Similar _Words"
-msgstr "Kata _Serupa"
-
-#: ../src/gdict-window.c:1326
-msgid "Dictionary Sources"
-msgstr "Sumber Kamus"
-
-#: ../src/gdict-window.c:1328
-msgid "Available _Databases"
-msgstr "Basis _data Tersedia"
-
-#: ../src/gdict-window.c:1330
-msgid "Available St_rategies"
-msgstr "St_rategi yang Tersedia"
-
-#. Help menu
-#: ../src/gdict-window.c:1334
-msgid "_Contents"
-msgstr "Daftar _Isi"
-
-#: ../src/gdict-window.c:1336
-msgid "_About"
-msgstr "_Keterangan Program"
-
-#. View menu
-#: ../src/gdict-window.c:1347
-msgid "_Sidebar"
-msgstr "Panel _samping"
-
-#: ../src/gdict-window.c:1349
-msgid "S_tatusbar"
-msgstr "Panel S_tatus"
-
-#: ../src/gdict-window.c:1414
+#: ../src/gdict-window.c:1361
 #, c-format
 msgid "Dictionary source `%s' selected"
 msgstr "Sumber kamus '%s' dipilih"
 
-#: ../src/gdict-window.c:1435
+#: ../src/gdict-window.c:1382
 #, c-format
 msgid "Strategy `%s' selected"
 msgstr "Strategi '%s' dipilih"
 
-#: ../src/gdict-window.c:1455
+#: ../src/gdict-window.c:1402
 #, c-format
 msgid "Database `%s' selected"
 msgstr "Basis Data `%s' terpilih"
 
-#: ../src/gdict-window.c:1475
+#: ../src/gdict-window.c:1422
 #, c-format
 msgid "Word `%s' selected"
 msgstr "Kata `%s' terpilih"
 
 #. speller
-#: ../src/gdict-window.c:1500
+#: ../src/gdict-window.c:1447
 msgid "Double-click on the word to look up"
 msgstr "Klik ganda pada kata untuk menemukan"
 
 #. strat-chooser
-#: ../src/gdict-window.c:1506
+#: ../src/gdict-window.c:1453
 msgid "Double-click on the matching strategy to use"
 msgstr "Klik ganda pada strategi yang cocok untuk dipakai"
 
 #. source-chooser
-#: ../src/gdict-window.c:1511
+#: ../src/gdict-window.c:1458
 msgid "Double-click on the source to use"
 msgstr "Klik ganda pada sumber yang akan dipakai"
 
 #. db-chooser
-#: ../src/gdict-window.c:1520
+#: ../src/gdict-window.c:1467
 msgid "Double-click on the database to use"
 msgstr "Klik ganda pada basis data untuk menggunakan"
 
-#: ../src/gdict-window.c:1700
+#: ../src/gdict-window.c:1617
 msgid "Look _up:"
 msgstr "_Cari:"
 
-#: ../src/gdict-window.c:1775
+#: ../src/gdict-window.c:1692
 msgid "Similar words"
 msgstr "Kata yang sama"
 
-#: ../src/gdict-window.c:1788
+#: ../src/gdict-window.c:1705
 msgid "Available dictionaries"
 msgstr "Kamus tersedia"
 
-#: ../src/gdict-window.c:1806
+#: ../src/gdict-window.c:1723
 msgid "Available strategies"
 msgstr "Strategi tersedia"
 
-#: ../src/gdict-window.c:1822
+#: ../src/gdict-window.c:1739
 msgid "Dictionary sources"
 msgstr "Sumber kamus"
+
