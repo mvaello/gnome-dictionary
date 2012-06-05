@@ -1,3 +1,25 @@
+GNOME Dictionary 3.5.2                                                2012-06-05
+================================================================================
+
+  • First unstable release for the 3.5 cycle
+
+  • Drop usage of deprecated methods [Ignacio Casal Quinteiro]
+
+  • Use the new GMenu API
+  This gives Dictionary an application menu. [Florian Müllner]
+
+  • Translation updates:
+  Russian, Indonesian, French, German, Spanish, Galician, Catalan, Belarusian,
+  Norwegian bokmål, Czech, Slovenian, Telugu, Hebrew, Simplified Chinese,
+  Serbian.
+
+Many thanks to:
+
+  Florian Müllner, Ignacio Casal Quinteiro, Andika Triwidada, Bruno Brouard,
+  Aleksej Kabanov, Christian Kirbach, Daniel Mustieles, Fran Diéguez, Gil
+  Forcada, Ihar Hrachyshka, Kjartan Maraas, Marek Černocký, Martin Srebotnjak,
+  Piotr Drąg, Sasi Bhushan, Yaron Shahrabani, tuhaihe, Мирослав Николић
+
 GNOME Dictionary 3.4.0                                                2012-03-26
 ================================================================================
 
