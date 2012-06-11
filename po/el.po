@@ -31,15 +31,16 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-utils.gnome-2-26\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-10-06 14:35-0400\n"
-"PO-Revision-Date: 2010-03-27 20:22+0200\n"
-"Last-Translator: Simos Xenitellis <simos.lists@googlemail.com>\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
+"dictionary&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2012-06-05 11:11+0000\n"
+"PO-Revision-Date: 2012-06-10 17:51+0200\n"
+"Last-Translator: Tom Tryfonidis <tomtryf@gmail.com>\n"
 "Language-Team: Greek <team@lists.gnome.gr>\n"
-"Language: el\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: el\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: KBabel 1.11.4\n"
 
@@ -47,40 +48,177 @@ msgstr ""
 msgid "Default Dictionary Server"
 msgstr "Προεπιλεγμένος εξυπηρετητής λεξικού"
 
-#: ../data/spanish.desktop.in.h:1
-msgid "Spanish Dictionaries"
-msgstr "Ισπανικά λεξικά"
+#: ../data/gnome-dictionary.desktop.in.in.h:1 ../src/gdict-about.c:62
+#: ../src/gdict-app.c:349 ../src/gdict-window.c:545 ../src/gdict-window.c:1807
+msgid "Dictionary"
+msgstr "Λεξικό"
 
-#: ../data/thai.desktop.in.h:1
-msgid "Longdo Thai-English Dictionaries"
-msgstr "Λεξικά Longdo Thai-English "
-
-#: ../data/gnome-dictionary.desktop.in.in.h:1
+#: ../data/gnome-dictionary.desktop.in.in.h:2
 msgid "Check word definitions and spellings in an online dictionary"
 msgstr "Έλεγχος ορισμών λέξεων και ορθογραφίας σε ένα λεξικό του Διαδικτύου"
 
-#: ../data/gnome-dictionary.desktop.in.in.h:2 ../src/gdict-about.c:62
-#: ../src/gdict-app.c:233 ../src/gdict-window.c:601 ../src/gdict-window.c:1894
-msgid "Dictionary"
-msgstr "Λεξικό"
+#: ../data/gnome-dictionary-menus.ui.h:1
+msgid "Preferences"
+msgstr "Προτιμήσεις"
+
+#: ../data/gnome-dictionary-menus.ui.h:2
+msgid "Help"
+msgstr "Βοήθεια"
+
+#: ../data/gnome-dictionary-menus.ui.h:3
+msgid "About Dictionary"
+msgstr "Περί Λεξικό"
+
+#: ../data/gnome-dictionary-menus.ui.h:4
+msgid "Quit"
+msgstr "Έξοδος"
+
+#: ../data/gnome-dictionary-menus.ui.h:5
+msgid "_File"
+msgstr "Α_ρχείο"
+
+#: ../data/gnome-dictionary-menus.ui.h:6
+msgid "_New"
+msgstr "_Νέο"
+
+#: ../data/gnome-dictionary-menus.ui.h:7
+msgid "_Save a Copy..."
+msgstr "Απο_θήκευση ενός αντιγράφου..."
+
+#: ../data/gnome-dictionary-menus.ui.h:8
+msgid "P_review"
+msgstr "Π_ροεπισκόπηση"
+
+#: ../data/gnome-dictionary-menus.ui.h:9
+msgid "_Print"
+msgstr "Ε_κτύπωση"
+
+#: ../data/gnome-dictionary-menus.ui.h:10
+msgid "_Close"
+msgstr "Κλεί_σιμο"
+
+#: ../data/gnome-dictionary-menus.ui.h:11
+msgid "_Edit"
+msgstr "_Επεξεργασία"
+
+#: ../data/gnome-dictionary-menus.ui.h:12
+msgid "_Copy"
+msgstr "Α_ντιγραφή"
+
+#: ../data/gnome-dictionary-menus.ui.h:13
+msgid "Select _All"
+msgstr "Επιλογή ό_λων"
+
+#: ../data/gnome-dictionary-menus.ui.h:14
+msgid "_Find"
+msgstr "Εύ_ρεση"
+
+#: ../data/gnome-dictionary-menus.ui.h:15
+msgid "Find Ne_xt"
+msgstr "Εύρεση επο_μένου"
+
+#: ../data/gnome-dictionary-menus.ui.h:16
+msgid "Find Pre_vious"
+msgstr "Εύρεση _προηγουμένου"
+
+#: ../data/gnome-dictionary-menus.ui.h:17
+msgid "_View"
+msgstr "Προ_βολή"
+
+#: ../data/gnome-dictionary-menus.ui.h:18
+msgid "_Sidebar"
+msgstr "Πλευρική _στήλη"
+
+#: ../data/gnome-dictionary-menus.ui.h:19
+msgid "S_tatusbar"
+msgstr "_Γραμμή κατάστασης"
+
+#: ../data/gnome-dictionary-menus.ui.h:20
+msgid "Similar _Words"
+msgstr "Παρόμοιες _λέξεις"
+
+#: ../data/gnome-dictionary-menus.ui.h:21
+msgid "Dictionary Sources"
+msgstr "Πηγές λεξικού"
+
+#: ../data/gnome-dictionary-menus.ui.h:22
+msgid "Available _Databases"
+msgstr "Διαθέσιμες _βάσεις δεδομένων"
+
+#: ../data/gnome-dictionary-menus.ui.h:23
+msgid "Available St_rategies"
+msgstr "Διαθέσιμες _στρατηγικές"
+
+#: ../data/gnome-dictionary-menus.ui.h:24
+msgid "_Go"
+msgstr "_Μετάβαση"
+
+#: ../data/gnome-dictionary-menus.ui.h:25
+msgid "_Previous Definition"
+msgstr "_Προηγούμενος ορισμός"
+
+#: ../data/gnome-dictionary-menus.ui.h:26
+msgid "_Next Definition"
+msgstr "Επόμε_νος ορισμός"
+
+#: ../data/gnome-dictionary-menus.ui.h:27
+msgid "_First Definition"
+msgstr "Π_ρώτος ορισμός"
+
+#: ../data/gnome-dictionary-menus.ui.h:28
+msgid "_Last Definition"
+msgstr "_Τελευταίος ορισμός"
+
+#: ../data/gnome-dictionary-preferences.ui.h:1
+msgid "_Select a dictionary source for looking up words:"
+msgstr "Επι_λέξτε μια πηγή λεξικού για την αναζήτηση λέξεων:"
+
+#: ../data/gnome-dictionary-preferences.ui.h:2
+#: ../data/gnome-dictionary-source.ui.h:6
+msgid "Source"
+msgstr "Πηγή"
+
+#: ../data/gnome-dictionary-preferences.ui.h:3
+msgid "_Print font:"
+msgstr "Γραμματοσειρά εκτύ_πωσης:"
+
+#: ../data/gnome-dictionary-preferences.ui.h:4
+msgid "Print"
+msgstr "Εκτύπωση"
+
+#: ../data/gnome-dictionary-source.ui.h:1
+msgid "_Description:"
+msgstr "_Περιγραφή:"
+
+#: ../data/gnome-dictionary-source.ui.h:2
+msgid "_Transport:"
+msgstr "Μετα_φορά:"
+
+#: ../data/gnome-dictionary-source.ui.h:3
+msgid "H_ostname:"
+msgstr "Όνομα _συστήματος"
+
+#: ../data/gnome-dictionary-source.ui.h:4
+msgid "_Port:"
+msgstr "_Θύρα:"
+
+#: ../data/gnome-dictionary-source.ui.h:5
+msgid "Source Name"
+msgstr "Όνομα πηγής"
+
+#: ../data/gnome-dictionary-source.ui.h:7
+msgid "Dictionaries"
+msgstr "Λεξικά"
+
+#: ../data/gnome-dictionary-source.ui.h:8
+msgid "Strategies"
+msgstr "Στρατηγικές"
 
 #: ../data/org.gnome.dictionary.gschema.xml.in.in.h:1
 msgid "The default database to use"
 msgstr "Η προεπιλεγμένη βάση δεδομένων που θα χρησιμοποιηθεί"
 
 #: ../data/org.gnome.dictionary.gschema.xml.in.in.h:2
-msgid "The default search strategy to use"
-msgstr "Η προεπιλεγμένη στρατηγική αναζήτησης που θα χρησιμοποιηθεί"
-
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:3
-msgid "The font to be used when printing"
-msgstr "Η γραμματοσειρά που θα χρησιμοποιείται στην εκτύπωση"
-
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:4
-msgid "The font to be used when printing a definition."
-msgstr "Η γραμματοσειρά που θα χρησιμοποιείται στην εκτύπωση ενός ορισμού."
-
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:5
 msgid ""
 "The name of the default individual database or meta-database to use on a "
 "dictionary source. An exclamation mark (\"!\") means that all the databases "
@@ -90,7 +228,11 @@ msgstr ""
 "εξυπηρετητή λεξικού. Ένα θαυμαστικό  (\"!\") καθορίζει ότι το λεξικό του "
 "gnome θα ψάχνει όλες τις βάσεις σε ένα δοσμένο εξυπηρετητή"
 
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:6
+#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:3
+msgid "The default search strategy to use"
+msgstr "Η προεπιλεγμένη στρατηγική αναζήτησης που θα χρησιμοποιηθεί"
+
+#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:4
 msgid ""
 "The name of the default search strategy to use on a dictionary source, if "
 "available. The default strategy is 'exact', that is match exact words."
@@ -98,6 +240,14 @@ msgstr ""
 "Το όνομα της προεπιλεγμένης στρατηγικής αναζήτησης που θα χρησιμοποιείται σε "
 "μια πηγή λεξικού,αν είναι διαθέσιμη. Η προεπιλεγμένη στρατηγική είναι "
 "'ακριβώς', που σημαίνει ότι θα ταιριάζει τις λέξεις με ακρίβεια."
+
+#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:5
+msgid "The font to be used when printing"
+msgstr "Η γραμματοσειρά που θα χρησιμοποιείται στην εκτύπωση"
+
+#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:6
+msgid "The font to be used when printing a definition."
+msgstr "Η γραμματοσειρά που θα χρησιμοποιείται στην εκτύπωση ενός ορισμού."
 
 #: ../data/org.gnome.dictionary.gschema.xml.in.in.h:7
 msgid "The name of the dictionary source used"
@@ -110,50 +260,13 @@ msgstr ""
 "Το όνομα της προεπιλεγμένης πηγής λεξικού για την ανάκτηση των ορισμών των "
 "λέξεων."
 
-#: ../data/gnome-dictionary-preferences.ui.h:1
-msgid "Print"
-msgstr "Εκτύπωση"
+#: ../data/spanish.desktop.in.h:1
+msgid "Spanish Dictionaries"
+msgstr "Ισπανικά λεξικά"
 
-#: ../data/gnome-dictionary-preferences.ui.h:2
-#: ../data/gnome-dictionary-source.ui.h:3
-msgid "Source"
-msgstr "Πηγή"
-
-#: ../data/gnome-dictionary-preferences.ui.h:3
-msgid "_Print font:"
-msgstr "Γραμματοσειρά εκτύ_πωσης:"
-
-#: ../data/gnome-dictionary-preferences.ui.h:4
-msgid "_Select a dictionary source for looking up words:"
-msgstr "Επι_λέξτε μια πηγή λεξικού για την αναζήτηση λέξεων:"
-
-#: ../data/gnome-dictionary-source.ui.h:1
-msgid "Dictionaries"
-msgstr "Λεξικά"
-
-#: ../data/gnome-dictionary-source.ui.h:2
-msgid "H_ostname:"
-msgstr "Όνομα _συστήματος"
-
-#: ../data/gnome-dictionary-source.ui.h:4
-msgid "Source Name"
-msgstr "Όνομα πηγής"
-
-#: ../data/gnome-dictionary-source.ui.h:5
-msgid "Strategies"
-msgstr "Στρατηγικές"
-
-#: ../data/gnome-dictionary-source.ui.h:6
-msgid "_Description:"
-msgstr "_Περιγραφή:"
-
-#: ../data/gnome-dictionary-source.ui.h:7
-msgid "_Port:"
-msgstr "_Θύρα:"
-
-#: ../data/gnome-dictionary-source.ui.h:8
-msgid "_Transport:"
-msgstr "Μετα_φορά:"
+#: ../data/thai.desktop.in.h:1
+msgid "Longdo Thai-English Dictionaries"
+msgstr "Λεξικά Longdo Thai-English "
 
 #: ../libgdict/gdict-client-context.c:283
 msgid "Client Name"
@@ -312,16 +425,16 @@ msgstr "Μόνο τοπικά"
 msgid "Whether the context uses only local dictionaries or not"
 msgstr "Αν θα χρησιμοποιούνται ή όχι μόνο τοπικά λεξικά"
 
-#: ../libgdict/gdict-database-chooser.c:378
+#: ../libgdict/gdict-database-chooser.c:379
 msgid "Reload the list of available databases"
 msgstr "Επαναφόρτωση της λίστας των διαθέσιμων βάσεων δεδομένων"
 
-#: ../libgdict/gdict-database-chooser.c:390
+#: ../libgdict/gdict-database-chooser.c:391
 msgid "Clear the list of available databases"
 msgstr "Καθαρισμός της λίστας των διαθέσιμων βάσεων δεδομένων"
 
-#: ../libgdict/gdict-database-chooser.c:837 ../libgdict/gdict-speller.c:778
-#: ../libgdict/gdict-strategy-chooser.c:785
+#: ../libgdict/gdict-database-chooser.c:838 ../libgdict/gdict-speller.c:778
+#: ../libgdict/gdict-strategy-chooser.c:786
 msgid "Error while matching"
 msgstr "Σφάλμα κατά το ταίριασμα"
 
@@ -342,19 +455,19 @@ msgstr "_Προηγούμενο"
 msgid "_Next"
 msgstr "_Επόμενο"
 
-#: ../libgdict/gdict-defbox.c:2512
+#: ../libgdict/gdict-defbox.c:2514
 msgid "Error while looking up definition"
 msgstr "Σφάλμα κατά την αναζήτηση ορισμού"
 
-#: ../libgdict/gdict-defbox.c:2554 ../libgdict/gdict-speller.c:736
+#: ../libgdict/gdict-defbox.c:2556 ../libgdict/gdict-speller.c:736
 msgid "Another search is in progress"
 msgstr "Μια άλλη αναζήτηση είναι σε εξέλιξη"
 
-#: ../libgdict/gdict-defbox.c:2555 ../libgdict/gdict-speller.c:737
+#: ../libgdict/gdict-defbox.c:2557 ../libgdict/gdict-speller.c:737
 msgid "Please wait until the current search ends."
 msgstr "Παρακαλώ περιμένετε μέχρι να τελειώσει η τρέχουσα αναζήτηση."
 
-#: ../libgdict/gdict-defbox.c:2594
+#: ../libgdict/gdict-defbox.c:2596
 msgid "Error while retrieving the definition"
 msgstr "Σφάλμα κατά τη λήψη του ορισμού"
 
@@ -371,9 +484,8 @@ msgid "Name"
 msgstr "Όνομα"
 
 #: ../libgdict/gdict-source.c:247
-#, fuzzy
 msgid "The display name of this dictionary source"
-msgstr "Το όνομα εμφάνισης αυτής της πηγής λεξικού."
+msgstr "Το όνομα εμφάνισης αυτής της πηγής λεξικού"
 
 #: ../libgdict/gdict-source.c:260
 msgid "Description"
@@ -388,18 +500,16 @@ msgid "Database"
 msgstr "Βάση δεδομένων"
 
 #: ../libgdict/gdict-source.c:275
-#, fuzzy
 msgid "The default database of this dictionary source"
-msgstr "Η προεπιλεγμένη βάσης δεδομένων αυτής της πηγής λεξικού"
+msgstr "Η προεπιλεγμένη βάση δεδομένων αυτής της πηγής λεξικού"
 
 #: ../libgdict/gdict-source.c:288 ../libgdict/gdict-speller.c:390
 msgid "Strategy"
 msgstr "Στρατηγική"
 
 #: ../libgdict/gdict-source.c:289
-#, fuzzy
 msgid "The default strategy of this dictionary source"
-msgstr "Η προεπιλεγμένη στρατηγική που χρησιμοποιείται από τη πηγή λεξικού."
+msgstr "Η προεπιλεγμένη στρατηγική αυτής της πηγής λεξικού"
 
 #: ../libgdict/gdict-source.c:302
 msgid "Transport"
@@ -487,11 +597,11 @@ msgstr "Η βάση δεδομένων που χρησιμοποιείται γ�
 msgid "The strategy used to query the GdictContext"
 msgstr "Η στρατηγική που χρησιμοποιείται για την αναζήτηση GdictContext"
 
-#: ../libgdict/gdict-strategy-chooser.c:361
+#: ../libgdict/gdict-strategy-chooser.c:362
 msgid "Reload the list of available strategies"
 msgstr "Επαναφόρτωση της λίστας των διαθέσιμων στρατηγικών"
 
-#: ../libgdict/gdict-strategy-chooser.c:373
+#: ../libgdict/gdict-strategy-chooser.c:374
 msgid "Clear the list of available strategies"
 msgstr "Καθαρισμός της λίστας των διαθέσιμων στρατηγικών"
 
@@ -533,7 +643,7 @@ msgstr "Λέξεις για αναζήτηση"
 
 #: ../src/gdict-app.c:62 ../src/gdict-app.c:68
 msgid "WORD"
-msgstr ""
+msgstr "ΛΕΞΗ"
 
 #: ../src/gdict-app.c:68
 msgid "Words to match"
@@ -545,7 +655,7 @@ msgstr "Η πηγή λεξικού που θα χρησιμοποιηθεί"
 
 #: ../src/gdict-app.c:74 ../src/gdict-app.c:80 ../src/gdict-app.c:86
 msgid "NAME"
-msgstr ""
+msgstr "ΟΝΟΜΑ"
 
 #: ../src/gdict-app.c:80
 msgid "Database to use"
@@ -557,10 +667,20 @@ msgstr "Στρατηγική για χρήση"
 
 #: ../src/gdict-app.c:91
 msgid "WORDS"
-msgstr ""
+msgstr "ΛΕΞΕΙΣ"
+
+#: ../src/gdict-app.c:108
+msgid "Dictionary Preferences"
+msgstr "Προτιμήσεις λεξικού"
+
+#: ../src/gdict-app.c:130 ../src/gdict-pref-dialog.c:496
+#: ../src/gdict-source-dialog.c:477
+#, c-format
+msgid "There was an error while displaying help"
+msgstr "Υπήρξε σφάλμα κατά την εμφάνιση της βοήθειας"
 
 #. create the new option context
-#: ../src/gdict-app.c:143
+#: ../src/gdict-app.c:219
 msgid " - Look up words in dictionaries"
 msgstr "- Αναζήτηση λέξης στα λεξικά"
 
@@ -586,12 +706,6 @@ msgstr "Αυτό θα διαγράψει οριστικά την πηγή λεξ
 msgid "Unable to remove source '%s'"
 msgstr "Αδύνατη η απομάκρυνση πηγής '%s'"
 
-#: ../src/gdict-pref-dialog.c:496 ../src/gdict-source-dialog.c:479
-#: ../src/gdict-window.c:1245
-#, c-format
-msgid "There was an error while displaying help"
-msgstr "Υπήρξε σφάλμα κατά την εμφάνιση της βοήθειας"
-
 # FIX? drop (see also "On Drop" above)
 #: ../src/gdict-pref-dialog.c:643
 msgid "Add a new dictionary source"
@@ -602,9 +716,8 @@ msgid "Remove the currently selected dictionary source"
 msgstr "Απομάκρυνση της επιλεγμένης πηγής λεξικού"
 
 #: ../src/gdict-pref-dialog.c:655
-#, fuzzy
 msgid "Edit the currently selected dictionary source"
-msgstr "Απομάκρυνση της επιλεγμένης πηγής λεξικού"
+msgstr "Επξεργασία της επιλεγμένης πηγής λεξικού"
 
 #: ../src/gdict-pref-dialog.c:663
 msgid "Set the font used for printing the definitions"
@@ -615,263 +728,155 @@ msgstr "Ορισμός της γραμματοσειράς εκτύπωσης τ
 msgid "Unable to display the preview: %s"
 msgstr "Αδύνατη η προβολή της προεπισκόπησης: %s"
 
-#: ../src/gdict-source-dialog.c:341 ../src/gdict-source-dialog.c:434
+#: ../src/gdict-source-dialog.c:342 ../src/gdict-source-dialog.c:434
 msgid "Unable to create a source file"
 msgstr "Αδύνατη η δημιουργία ενός αρχείου πηγής"
 
-#: ../src/gdict-source-dialog.c:359 ../src/gdict-source-dialog.c:452
+#: ../src/gdict-source-dialog.c:358 ../src/gdict-source-dialog.c:450
 msgid "Unable to save source file"
 msgstr "Αδυναμία αποθήκευσης αρχείου πηγής"
 
-#: ../src/gdict-window.c:311
+#: ../src/gdict-window.c:255
 #, c-format
 msgid "Searching for '%s'..."
 msgstr "Αναζήτηση για '%s'..."
 
-#: ../src/gdict-window.c:343 ../src/gdict-window.c:400
+#: ../src/gdict-window.c:287 ../src/gdict-window.c:344
 msgid "No definitions found"
 msgstr "Δε βρέθηκαν ορισμοί"
 
-#: ../src/gdict-window.c:345
+#: ../src/gdict-window.c:289
 #, c-format
 msgid "A definition found"
 msgid_plural "%d definitions found"
 msgstr[0] "Βρέθηκε ένας ορισμός"
 msgstr[1] "Βρέθηκαν %d ορισμοί"
 
-#: ../src/gdict-window.c:516
+#: ../src/gdict-window.c:460
 #, c-format
 msgid "No dictionary source available with name '%s'"
 msgstr "Δεν βρέθηκε διαθέσιμη πηγή λεξικού με το όνομα  '%s'"
 
-#: ../src/gdict-window.c:520
+#: ../src/gdict-window.c:464
 msgid "Unable to find dictionary source"
 msgstr "Αδυναμία εύρεσης πηγής λεξικού."
 
-#: ../src/gdict-window.c:536
+#: ../src/gdict-window.c:480
 #, c-format
 msgid "No context available for source '%s'"
 msgstr "Δεν υπάρχει διαθέσιμο περιεχόμενο για τη πηγή '%s'"
 
-#: ../src/gdict-window.c:540
+#: ../src/gdict-window.c:484
 msgid "Unable to create a context"
 msgstr "Αδύνατη η δημιουργία περιεχομένου"
 
-#: ../src/gdict-window.c:599
+#: ../src/gdict-window.c:543
 #, c-format
 msgid "%s - Dictionary"
 msgstr "%s - Λεξικό"
 
-#: ../src/gdict-window.c:962
+#: ../src/gdict-window.c:912
 msgid "Save a Copy"
 msgstr "Αποθήκευση ενός αντιγράφου"
 
-#: ../src/gdict-window.c:972
+#: ../src/gdict-window.c:922
 msgid "Untitled document"
 msgstr "Ανώνυμο έγγραφο"
 
-#: ../src/gdict-window.c:993
+#: ../src/gdict-window.c:943
 #, c-format
 msgid "Error while writing to '%s'"
 msgstr "Σφάλμα κατά την εγγραφή στο '%s'"
 
-#: ../src/gdict-window.c:1098
-msgid "Dictionary Preferences"
-msgstr "Προτιμήσεις λεξικού"
-
-#: ../src/gdict-window.c:1280
-msgid "_File"
-msgstr "Α_ρχείο"
-
-#: ../src/gdict-window.c:1281
-msgid "_Edit"
-msgstr "_Επεξεργασία"
-
-#: ../src/gdict-window.c:1282
-msgid "_View"
-msgstr "Προ_βολή"
-
-#: ../src/gdict-window.c:1283
-msgid "_Go"
-msgstr "_Μετάβαση"
-
-#: ../src/gdict-window.c:1284
-msgid "_Help"
-msgstr "_Βοήθεια"
-
-#. File menu
-#: ../src/gdict-window.c:1287
-msgid "_New"
-msgstr "_Νέο"
-
-#: ../src/gdict-window.c:1288
-msgid "New look up"
-msgstr "Νέα αναζήτηση"
-
-#: ../src/gdict-window.c:1289
-msgid "_Save a Copy..."
-msgstr "Απο_θήκευση ενός αντιγράφου..."
-
-#: ../src/gdict-window.c:1291
-msgid "P_review..."
-msgstr "Π_ροεπισκόπηση..."
-
-#: ../src/gdict-window.c:1292
-msgid "Preview this document"
-msgstr "Προεπισκόπηση του εγγράφου"
-
-#: ../src/gdict-window.c:1293
-msgid "_Print..."
-msgstr "Εκτύ_πωση..."
-
-#: ../src/gdict-window.c:1294
-msgid "Print this document"
-msgstr "Εκτύπωση του εγγράφου"
-
-#: ../src/gdict-window.c:1301
-msgid "Select _All"
-msgstr "Επιλογή ό_λων"
-
-#: ../src/gdict-window.c:1304
-msgid "Find a word or phrase in the document"
-msgstr "Εύρεση μια λέξης ή φράσης στο κείμενο"
-
-#: ../src/gdict-window.c:1306
-msgid "Find Ne_xt"
-msgstr "Εύρεση επο_μένου"
-
-#: ../src/gdict-window.c:1308
-msgid "Find Pre_vious"
-msgstr "Εύρεση _προηγουμένου"
-
-#: ../src/gdict-window.c:1310
-msgid "_Preferences"
-msgstr "_Προτιμήσεις"
-
-#. Go menu
-#: ../src/gdict-window.c:1314
-msgid "_Previous Definition"
-msgstr "_Προηγούμενος ορισμός"
-
-#: ../src/gdict-window.c:1315
-msgid "Go to the previous definition"
-msgstr "Μετάβαση στο προηγούμενο ορισμό"
-
-#: ../src/gdict-window.c:1316
-msgid "_Next Definition"
-msgstr "Επόμε_νος ορισμός"
-
-#: ../src/gdict-window.c:1317
-msgid "Go to the next definition"
-msgstr "Μετάβαση στον επόμενο ορισμό"
-
-#: ../src/gdict-window.c:1318
-msgid "_First Definition"
-msgstr "Π_ρώτος ορισμός"
-
-#: ../src/gdict-window.c:1319
-msgid "Go to the first definition"
-msgstr "Μετάβαση στο πρώτο ορισμό"
-
-#: ../src/gdict-window.c:1320
-msgid "_Last Definition"
-msgstr "_Τελευταίος ορισμός"
-
-#: ../src/gdict-window.c:1321
-msgid "Go to the last definition"
-msgstr "Μετάβαση στον τελευταίο ορισμό"
-
-#. View menu
-#: ../src/gdict-window.c:1324
-msgid "Similar _Words"
-msgstr "Παρόμοιες _λέξεις"
-
-#: ../src/gdict-window.c:1326
-msgid "Dictionary Sources"
-msgstr "Πηγές λεξικού"
-
-#: ../src/gdict-window.c:1328
-msgid "Available _Databases"
-msgstr "Διαθέσιμες _βάσεις δεδομένων"
-
-#: ../src/gdict-window.c:1330
-msgid "Available St_rategies"
-msgstr "Διαθέσιμες _στρατηγικές"
-
-#. Help menu
-#: ../src/gdict-window.c:1334
-msgid "_Contents"
-msgstr "_Περιεχόμενα"
-
-#: ../src/gdict-window.c:1336
-msgid "_About"
-msgstr "_Περί"
-
-#. View menu
-#: ../src/gdict-window.c:1347
-msgid "_Sidebar"
-msgstr "Πλευρική _στήλη"
-
-#: ../src/gdict-window.c:1349
-msgid "S_tatusbar"
-msgstr "_Γραμμή κατάστασης"
-
-#: ../src/gdict-window.c:1414
+#: ../src/gdict-window.c:1361
 #, c-format
 msgid "Dictionary source `%s' selected"
 msgstr "Επιλέχθηκε`%s' πηγή λεξικού"
 
-#: ../src/gdict-window.c:1435
+#: ../src/gdict-window.c:1382
 #, c-format
 msgid "Strategy `%s' selected"
 msgstr "Επιλέχθηκε η στρατηγική `%s' "
 
-#: ../src/gdict-window.c:1455
+#: ../src/gdict-window.c:1402
 #, c-format
 msgid "Database `%s' selected"
 msgstr "Επιλέχθηκε η βάση δεδομένων %s'"
 
-#: ../src/gdict-window.c:1475
+#: ../src/gdict-window.c:1422
 #, c-format
 msgid "Word `%s' selected"
 msgstr "Επιλέχθηκε η λέξη `%s'"
 
 #. speller
-#: ../src/gdict-window.c:1500
+#: ../src/gdict-window.c:1447
 msgid "Double-click on the word to look up"
 msgstr "Διπλό κλικ στη λέξη που θέλετε να αναζητήσετε"
 
 #. strat-chooser
-#: ../src/gdict-window.c:1506
+#: ../src/gdict-window.c:1453
 msgid "Double-click on the matching strategy to use"
 msgstr "Διπλό κλικ στη στρατηγική που θα χρησιμοποιηθεί"
 
 #. source-chooser
-#: ../src/gdict-window.c:1511
+#: ../src/gdict-window.c:1458
 msgid "Double-click on the source to use"
 msgstr "Διπλό κλικ στην πηγή που θα χρησιμοποιηθεί"
 
 #. db-chooser
-#: ../src/gdict-window.c:1520
+#: ../src/gdict-window.c:1467
 msgid "Double-click on the database to use"
 msgstr "Διπλό κλικ στη βάση δεδομένων που θα χρησιμοποιηθεί"
 
-#: ../src/gdict-window.c:1700
+#: ../src/gdict-window.c:1617
 msgid "Look _up:"
 msgstr "_Αναζήτηση:"
 
-#: ../src/gdict-window.c:1775
+#: ../src/gdict-window.c:1692
 msgid "Similar words"
 msgstr "Παρόμοιες λέξεις"
 
-#: ../src/gdict-window.c:1788
+#: ../src/gdict-window.c:1705
 msgid "Available dictionaries"
 msgstr "Διαθέσιμα λεξικά"
 
-#: ../src/gdict-window.c:1806
+#: ../src/gdict-window.c:1723
 msgid "Available strategies"
 msgstr "Διαθέσιμες στρατηγικές"
 
-#: ../src/gdict-window.c:1822
+#: ../src/gdict-window.c:1739
 msgid "Dictionary sources"
 msgstr "Πηγές λεξικού"
+
+#~ msgid "New look up"
+#~ msgstr "Νέα αναζήτηση"
+
+#~ msgid "Preview this document"
+#~ msgstr "Προεπισκόπηση του εγγράφου"
+
+#~ msgid "_Print..."
+#~ msgstr "Εκτύ_πωση..."
+
+#~ msgid "Print this document"
+#~ msgstr "Εκτύπωση του εγγράφου"
+
+#~ msgid "Find a word or phrase in the document"
+#~ msgstr "Εύρεση μια λέξης ή φράσης στο κείμενο"
+
+#~ msgid "Go to the previous definition"
+#~ msgstr "Μετάβαση στο προηγούμενο ορισμό"
+
+#~ msgid "Go to the next definition"
+#~ msgstr "Μετάβαση στον επόμενο ορισμό"
+
+#~ msgid "Go to the first definition"
+#~ msgstr "Μετάβαση στο πρώτο ορισμό"
+
+#~ msgid "Go to the last definition"
+#~ msgstr "Μετάβαση στον τελευταίο ορισμό"
+
+#~ msgid "_Contents"
+#~ msgstr "_Περιεχόμενα"
+
+#~ msgid "_About"
+#~ msgstr "_Περί"
