@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "dictionary&keywords=I18N+L10N&component=general\n"
 "POT-Creation-Date: 2012-05-10 17:07+0000\n"
-"PO-Revision-Date: 2012-07-01 10:52+0700\n"
+"PO-Revision-Date: 2012-07-01 10:56+0700\n"
 "Last-Translator: Nguyễn Thái Ngọc Duy <pclouds@gmail.com>\n"
 "Language-Team: Vietnamese <vi-VN@googlegroups.com>\n"
 "MIME-Version: 1.0\n"
@@ -33,26 +33,23 @@ msgid "Check word definitions and spellings in an online dictionary"
 msgstr "Tìm từ trong từ điển trực tuyến để kiểm tra chính tả và sự định nghĩa"
 
 #: ../data/gnome-dictionary-menus.ui.h:1
-#, fuzzy
 #| msgid "_Preferences"
 msgid "Preferences"
-msgstr "Tu_ỳ thích"
+msgstr "_Tuỳ thích"
 
 #: ../data/gnome-dictionary-menus.ui.h:2
-#, fuzzy
 #| msgid "_Help"
 msgid "Help"
-msgstr "Trợ g_iúp"
+msgstr "Trợ giúp"
 
 #: ../data/gnome-dictionary-menus.ui.h:3
-#, fuzzy
 #| msgid "Dictionary"
 msgid "About Dictionary"
-msgstr "Từ điển"
+msgstr "Giới thiệu Từ điển"
 
 #: ../data/gnome-dictionary-menus.ui.h:4
 msgid "Quit"
-msgstr ""
+msgstr "Thoát"
 
 #: ../data/gnome-dictionary-menus.ui.h:5
 msgid "_File"
@@ -64,23 +61,21 @@ msgstr "_Mới"
 
 #: ../data/gnome-dictionary-menus.ui.h:7
 msgid "_Save a Copy..."
-msgstr "_Lưu một bản sao..."
+msgstr "_Lưu bản sao..."
 
 #: ../data/gnome-dictionary-menus.ui.h:8
-#, fuzzy
 #| msgid "P_review..."
 msgid "P_review"
-msgstr "_Xem thử..."
+msgstr "_Xem thử"
 
 #: ../data/gnome-dictionary-menus.ui.h:9
-#, fuzzy
 #| msgid "Print"
 msgid "_Print"
-msgstr "In"
+msgstr "_In"
 
 #: ../data/gnome-dictionary-menus.ui.h:10
 msgid "_Close"
-msgstr ""
+msgstr "Đó_ng"
 
 #: ../data/gnome-dictionary-menus.ui.h:11
 msgid "_Edit"
@@ -88,17 +83,16 @@ msgstr "_Sửa"
 
 #: ../data/gnome-dictionary-menus.ui.h:12
 msgid "_Copy"
-msgstr ""
+msgstr "_Chép"
 
 #: ../data/gnome-dictionary-menus.ui.h:13
 msgid "Select _All"
 msgstr "Chọn tất _cả"
 
 #: ../data/gnome-dictionary-menus.ui.h:14
-#, fuzzy
 #| msgid "F_ind:"
 msgid "_Find"
-msgstr "_Tìm:"
+msgstr "_Tìm"
 
 #: ../data/gnome-dictionary-menus.ui.h:15
 msgid "Find Ne_xt"
@@ -130,7 +124,7 @@ msgstr "Nguồn từ điển"
 
 #: ../data/gnome-dictionary-menus.ui.h:22
 msgid "Available _Databases"
-msgstr "Cơ sở _dữ liệu sẵn sàng"
+msgstr "Cơ sở _dữ liệu hiện có"
 
 #: ../data/gnome-dictionary-menus.ui.h:23
 msgid "Available St_rategies"
@@ -138,27 +132,27 @@ msgstr "_Chiến lược hiện có"
 
 #: ../data/gnome-dictionary-menus.ui.h:24
 msgid "_Go"
-msgstr "_Đi"
+msgstr "Đ_i"
 
 #: ../data/gnome-dictionary-menus.ui.h:25
 msgid "_Previous Definition"
-msgstr "Lời định nghĩa t_rước"
+msgstr "Định nghĩa t_rước"
 
 #: ../data/gnome-dictionary-menus.ui.h:26
 msgid "_Next Definition"
-msgstr "Lời định nghĩa _kế"
+msgstr "Định nghĩa _kế"
 
 #: ../data/gnome-dictionary-menus.ui.h:27
 msgid "_First Definition"
-msgstr "Lời định nghĩa thứ _đầu"
+msgstr "Định nghĩa _đầu"
 
 #: ../data/gnome-dictionary-menus.ui.h:28
 msgid "_Last Definition"
-msgstr "Lời định nghĩa _cuối"
+msgstr "Định nghĩa _cuối"
 
 #: ../data/gnome-dictionary-preferences.ui.h:1
 msgid "_Select a dictionary source for looking up words:"
-msgstr "_Chọn nguồn từ điển để tra từ :"
+msgstr "_Chọn nguồn từ điển để tra từ:"
 
 #: ../data/gnome-dictionary-preferences.ui.h:2
 #: ../data/gnome-dictionary-source.ui.h:6
@@ -179,7 +173,7 @@ msgstr "_Mô tả:"
 
 #: ../data/gnome-dictionary-source.ui.h:2
 msgid "_Transport:"
-msgstr "_Chuyên chở :"
+msgstr "_Chuyên chở:"
 
 #: ../data/gnome-dictionary-source.ui.h:3
 msgid "H_ostname:"
@@ -247,7 +241,7 @@ msgstr "Tên của nguồn từ điển được dùng để lấy lời định
 
 #: ../data/spanish.desktop.in.h:1
 msgid "Spanish Dictionaries"
-msgstr "Từ điển tiếng Tây-ban-nha"
+msgstr "Từ điển tiếng Tây Ban Nha"
 
 #: ../data/thai.desktop.in.h:1
 msgid "Longdo Thai-English Dictionaries"
@@ -321,7 +315,7 @@ msgid ""
 ": '%s'"
 msgstr ""
 "Không thể phân tách trả lời của máy phục vụ từ điển\n"
-": %s"
+": '%s'"
 
 #: ../libgdict/gdict-client-context.c:1225
 #, c-format
@@ -369,7 +363,7 @@ msgid ""
 "Error while reading reply from server:\n"
 "%s"
 msgstr ""
-"Gặp lỗi khi đọc trả lời từ máy phục vụ :\n"
+"Gặp lỗi khi đọc trả lời từ máy phục vụ:\n"
 "%s"
 
 #: ../libgdict/gdict-client-context.c:1860
@@ -700,7 +694,7 @@ msgstr "Lập phông chữ dùng để in lời định nghĩa"
 #: ../src/gdict-print.c:241 ../src/gdict-print.c:305
 #, c-format
 msgid "Unable to display the preview: %s"
-msgstr "Không thể hiển thị ô xem thử : %s"
+msgstr "Không thể hiển thị ô xem thử: %s"
 
 #: ../src/gdict-source-dialog.c:342 ../src/gdict-source-dialog.c:434
 msgid "Unable to create a source file"
