@@ -1,40 +1,152 @@
 # Bulgarian translation of gnome-dictionary po-file.
 # Copyright (C) 2002, 2004, 2005, 2006, 2007, 2008 Free Software Foundation, Inc.
-# Copyright (C) 2009, 2010, 2011 Free Software Foundation, Inc.
+# Copyright (C) 2009, 2010, 2011, 2012 Free Software Foundation, Inc.
 # Borislav Aleksandrov <B.Aleksandrov@cnsys.bg>, 2002.
 # Vladimir Petkov <kaladan@gmail.com>, 2004, 2005.
 # Peter Slavov <pslavov@i-space.org>, 2004.
 # Yavor Doganov <yavor@doganov.org>, 2005.
 # Rostislav Raykov <zbrox@i-space.org>, 2006.
-# Alexander Shopov <ash@kambanaria.org>, 2006, 2007, 2008, 2009, 2011.
+# Alexander Shopov <ash@kambanaria.org>, 2006, 2007, 2008, 2009, 2011, 2012.
 # Krasimir Chonov <mk2616@abv.bg>, 2011.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-dictionary master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-03-13 19:47+0200\n"
-"PO-Revision-Date: 2012-03-13 19:48+0200\n"
+"POT-Creation-Date: 2012-07-04 22:59+0300\n"
+"PO-Revision-Date: 2012-07-04 22:58+0300\n"
 "Last-Translator: Krasimir Chonov <mk2616@abv.bg>\n"
 "Language-Team: Bulgarian <dict@fsa-bg.org>\n"
 "Language: bg\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../data/default.desktop.in.h:1
 msgid "Default Dictionary Server"
 msgstr "Стандартен речников сървър"
 
 #: ../data/gnome-dictionary.desktop.in.in.h:1 ../src/gdict-about.c:62
-#: ../src/gdict-app.c:238 ../src/gdict-window.c:601 ../src/gdict-window.c:1894
+#: ../src/gdict-app.c:349 ../src/gdict-window.c:545 ../src/gdict-window.c:1807
 msgid "Dictionary"
 msgstr "Речник"
 
 #: ../data/gnome-dictionary.desktop.in.in.h:2
 msgid "Check word definitions and spellings in an online dictionary"
 msgstr "Търсене на определения и правописа на думи в речник в Интернет"
+
+#: ../data/gnome-dictionary-menus.ui.h:1
+msgid "Preferences"
+msgstr "Настройки"
+
+#: ../data/gnome-dictionary-menus.ui.h:2
+msgid "Help"
+msgstr "Помощ"
+
+#: ../data/gnome-dictionary-menus.ui.h:3
+msgid "About Dictionary"
+msgstr "Относно"
+
+#: ../data/gnome-dictionary-menus.ui.h:4
+msgid "Quit"
+msgstr "Спиране на програмата"
+
+#: ../data/gnome-dictionary-menus.ui.h:5
+msgid "_File"
+msgstr "_Файл"
+
+#: ../data/gnome-dictionary-menus.ui.h:6
+msgid "_New"
+msgstr "_Нов"
+
+#: ../data/gnome-dictionary-menus.ui.h:7
+msgid "_Save a Copy..."
+msgstr "Запазване на _копие…"
+
+#: ../data/gnome-dictionary-menus.ui.h:8
+msgid "P_review"
+msgstr "П_реглед"
+
+#: ../data/gnome-dictionary-menus.ui.h:9
+msgid "_Print"
+msgstr "_Печат"
+
+#: ../data/gnome-dictionary-menus.ui.h:10
+msgid "_Close"
+msgstr "_Спиране на програмата"
+
+#: ../data/gnome-dictionary-menus.ui.h:11
+msgid "_Edit"
+msgstr "_Редактиране"
+
+#: ../data/gnome-dictionary-menus.ui.h:12
+msgid "_Copy"
+msgstr "_Копиране"
+
+#: ../data/gnome-dictionary-menus.ui.h:13
+msgid "Select _All"
+msgstr "_Избор на всичко"
+
+#: ../data/gnome-dictionary-menus.ui.h:14
+msgid "_Find"
+msgstr "_Търсене"
+
+#: ../data/gnome-dictionary-menus.ui.h:15
+msgid "Find Ne_xt"
+msgstr "_Следващо"
+
+#: ../data/gnome-dictionary-menus.ui.h:16
+msgid "Find Pre_vious"
+msgstr "_Предишно"
+
+#: ../data/gnome-dictionary-menus.ui.h:17
+msgid "_View"
+msgstr "_Изглед"
+
+#: ../data/gnome-dictionary-menus.ui.h:18
+msgid "_Sidebar"
+msgstr "_Странична лента"
+
+#: ../data/gnome-dictionary-menus.ui.h:19
+msgid "S_tatusbar"
+msgstr "_Лента за състоянието"
+
+#: ../data/gnome-dictionary-menus.ui.h:20
+msgid "Similar _Words"
+msgstr "_Подобни думи"
+
+#: ../data/gnome-dictionary-menus.ui.h:21
+msgid "Dictionary Sources"
+msgstr "Източници на речници"
+
+#: ../data/gnome-dictionary-menus.ui.h:22
+msgid "Available _Databases"
+msgstr "Налични _речници"
+
+#: ../data/gnome-dictionary-menus.ui.h:23
+msgid "Available St_rategies"
+msgstr "Налични _стратегии"
+
+#: ../data/gnome-dictionary-menus.ui.h:24
+msgid "_Go"
+msgstr "_Отиване"
+
+#: ../data/gnome-dictionary-menus.ui.h:25
+msgid "_Previous Definition"
+msgstr "_Предишно определение"
+
+#: ../data/gnome-dictionary-menus.ui.h:26
+msgid "_Next Definition"
+msgstr "_Следващо определение"
+
+#: ../data/gnome-dictionary-menus.ui.h:27
+msgid "_First Definition"
+msgstr "П_ърво определение"
+
+#: ../data/gnome-dictionary-menus.ui.h:28
+msgid "_Last Definition"
+msgstr "П_оследно определение"
 
 #: ../data/gnome-dictionary-preferences.ui.h:1
 msgid "_Select a dictionary source for looking up words:"
@@ -287,16 +399,16 @@ msgstr "Само локални"
 msgid "Whether the context uses only local dictionaries or not"
 msgstr "Дали контекстът ще ползва само локални речници или не"
 
-#: ../libgdict/gdict-database-chooser.c:378
+#: ../libgdict/gdict-database-chooser.c:379
 msgid "Reload the list of available databases"
 msgstr "Презареждане на списъка с наличните бази от данни"
 
-#: ../libgdict/gdict-database-chooser.c:390
+#: ../libgdict/gdict-database-chooser.c:391
 msgid "Clear the list of available databases"
 msgstr "Изчистване на списъка с наличните бази от данни"
 
-#: ../libgdict/gdict-database-chooser.c:837 ../libgdict/gdict-speller.c:778
-#: ../libgdict/gdict-strategy-chooser.c:785
+#: ../libgdict/gdict-database-chooser.c:838 ../libgdict/gdict-speller.c:778
+#: ../libgdict/gdict-strategy-chooser.c:786
 msgid "Error while matching"
 msgstr "Грешка при напасване"
 
@@ -317,19 +429,19 @@ msgstr "_Предишно"
 msgid "_Next"
 msgstr "_Следващо"
 
-#: ../libgdict/gdict-defbox.c:2512
+#: ../libgdict/gdict-defbox.c:2514
 msgid "Error while looking up definition"
 msgstr "Грешка при търсене на определение"
 
-#: ../libgdict/gdict-defbox.c:2554 ../libgdict/gdict-speller.c:736
+#: ../libgdict/gdict-defbox.c:2556 ../libgdict/gdict-speller.c:736
 msgid "Another search is in progress"
 msgstr "В момента тече друго търсене."
 
-#: ../libgdict/gdict-defbox.c:2555 ../libgdict/gdict-speller.c:737
+#: ../libgdict/gdict-defbox.c:2557 ../libgdict/gdict-speller.c:737
 msgid "Please wait until the current search ends."
 msgstr "Изчакайте докато завърши текущото търсене."
 
-#: ../libgdict/gdict-defbox.c:2594
+#: ../libgdict/gdict-defbox.c:2596
 msgid "Error while retrieving the definition"
 msgstr "Грешка при извличане на информацията"
 
@@ -462,11 +574,11 @@ msgstr "Базата от данни, която да се използва пр
 msgid "The strategy used to query the GdictContext"
 msgstr "Стратегията за запитване до GdictContext"
 
-#: ../libgdict/gdict-strategy-chooser.c:361
+#: ../libgdict/gdict-strategy-chooser.c:362
 msgid "Reload the list of available strategies"
 msgstr "Презареждане на списъка с наличните стратегии"
 
-#: ../libgdict/gdict-strategy-chooser.c:373
+#: ../libgdict/gdict-strategy-chooser.c:374
 msgid "Clear the list of available strategies"
 msgstr "Изчистване на списъка с наличните стратегии"
 
@@ -493,15 +605,17 @@ msgstr "Показване на настройките на GDict"
 #: ../src/gdict-about.c:55
 msgid "translator-credits"
 msgstr ""
-"Владимир „Kaladan“ Петков <vpetkov@gmail.com>\n"
+"Владимир „Kaladan“ Петков <kaladan@gmail.com>\n"
 "Борислав Александров\n"
 "Петър „Peshka“ Славов <pslavov@i-space.org>\n"
 "Явор Доганов <yavor@doganov.org>\n"
 "Александър Шопов <ash@kambanaria.org>\n"
 "\n"
 "Проектът за превод на GNOME има нужда от подкрепа.\n"
-"Научете повече за нас на http://gnome.cult.bg\n"
-"Докладвайте за грешки на http://gnome.cult.bg/bugs"
+"Научете повече за нас на <a href=\"http://gnome.cult.bg\">http://gnome.cult."
+"bg</a>\n"
+"Докладвайте за грешки на <a href=\"http://gnome.cult.bg/bugs\">http://gnome."
+"cult.bg/bugs</a>"
 
 #: ../src/gdict-about.c:57
 msgid "Look up words in dictionaries"
@@ -539,8 +653,18 @@ msgstr "Стратегия за ползване"
 msgid "WORDS"
 msgstr "ДУМИ"
 
+#: ../src/gdict-app.c:108
+msgid "Dictionary Preferences"
+msgstr "Настройки на речника"
+
+#: ../src/gdict-app.c:130 ../src/gdict-pref-dialog.c:496
+#: ../src/gdict-source-dialog.c:477
+#, c-format
+msgid "There was an error while displaying help"
+msgstr "Получи се грешка при показването на помощта."
+
 #. create the new option context
-#: ../src/gdict-app.c:143
+#: ../src/gdict-app.c:219
 msgid " - Look up words in dictionaries"
 msgstr " — търсене на думи в речници"
 
@@ -565,12 +689,6 @@ msgstr "Това ще премахне източника на речници з
 #, c-format
 msgid "Unable to remove source '%s'"
 msgstr "Неуспех при премахване на източника „%s“."
-
-#: ../src/gdict-pref-dialog.c:496 ../src/gdict-source-dialog.c:477
-#: ../src/gdict-window.c:1245
-#, c-format
-msgid "There was an error while displaying help"
-msgstr "Получи се грешка при показването на помощта."
 
 #: ../src/gdict-pref-dialog.c:643
 msgid "Add a new dictionary source"
@@ -601,255 +719,114 @@ msgstr "Неуспех при създаване на файл за източн
 msgid "Unable to save source file"
 msgstr "Неуспех при запазване на файла за източника"
 
-#: ../src/gdict-window.c:311
+#: ../src/gdict-window.c:255
 #, c-format
 msgid "Searching for '%s'..."
 msgstr "Търсене за %s…"
 
-#: ../src/gdict-window.c:343 ../src/gdict-window.c:400
+#: ../src/gdict-window.c:287 ../src/gdict-window.c:344
 msgid "No definitions found"
 msgstr "Не са намерени определения"
 
-#: ../src/gdict-window.c:345
+#: ../src/gdict-window.c:289
 #, c-format
 msgid "A definition found"
 msgid_plural "%d definitions found"
 msgstr[0] "Открито е определение"
 msgstr[1] "Открити са %d определения"
 
-#: ../src/gdict-window.c:516
+#: ../src/gdict-window.c:460
 #, c-format
 msgid "No dictionary source available with name '%s'"
 msgstr "Липсва източник на речници с име „%s“"
 
-#: ../src/gdict-window.c:520
+#: ../src/gdict-window.c:464
 msgid "Unable to find dictionary source"
 msgstr "Неуспех при откриване на източник на речници"
 
-#: ../src/gdict-window.c:536
+#: ../src/gdict-window.c:480
 #, c-format
 msgid "No context available for source '%s'"
 msgstr "Липсва контекст за източника „%s“"
 
-#: ../src/gdict-window.c:540
+#: ../src/gdict-window.c:484
 msgid "Unable to create a context"
 msgstr "Неуспех при създаването на контекст"
 
-#: ../src/gdict-window.c:599
+#: ../src/gdict-window.c:543
 #, c-format
 msgid "%s - Dictionary"
 msgstr "%s — речник"
 
-#: ../src/gdict-window.c:962
+#: ../src/gdict-window.c:912
 msgid "Save a Copy"
 msgstr "Запазване на копие"
 
-#: ../src/gdict-window.c:972
+#: ../src/gdict-window.c:922
 msgid "Untitled document"
 msgstr "Неозаглавен документ"
 
-#: ../src/gdict-window.c:993
+#: ../src/gdict-window.c:943
 #, c-format
 msgid "Error while writing to '%s'"
 msgstr "Грешка при запис към „%s“."
 
-#: ../src/gdict-window.c:1098
-msgid "Dictionary Preferences"
-msgstr "Настройки на речника"
-
-#: ../src/gdict-window.c:1280
-msgid "_File"
-msgstr "_Файл"
-
-#: ../src/gdict-window.c:1281
-msgid "_Edit"
-msgstr "_Редактиране"
-
-#: ../src/gdict-window.c:1282
-msgid "_View"
-msgstr "_Изглед"
-
-#: ../src/gdict-window.c:1283
-msgid "_Go"
-msgstr "_Отиване"
-
-#: ../src/gdict-window.c:1284
-msgid "_Help"
-msgstr "Помо_щ"
-
-#. File menu
-#: ../src/gdict-window.c:1287
-msgid "_New"
-msgstr "_Нов"
-
-#: ../src/gdict-window.c:1288
-msgid "New look up"
-msgstr "Ново търсене"
-
-#: ../src/gdict-window.c:1289
-msgid "_Save a Copy..."
-msgstr "Запазване на _копие…"
-
-#: ../src/gdict-window.c:1291
-msgid "P_review..."
-msgstr "П_реглед…"
-
-#: ../src/gdict-window.c:1292
-msgid "Preview this document"
-msgstr "Преглед на този документ"
-
-#: ../src/gdict-window.c:1293
-msgid "_Print..."
-msgstr "_Печат…"
-
-#: ../src/gdict-window.c:1294
-msgid "Print this document"
-msgstr "Разпечатване на този документ"
-
-#: ../src/gdict-window.c:1301
-msgid "Select _All"
-msgstr "_Избор на всичко"
-
-#: ../src/gdict-window.c:1304
-msgid "Find a word or phrase in the document"
-msgstr "Откриване на дума или фраза в документа"
-
-#: ../src/gdict-window.c:1306
-msgid "Find Ne_xt"
-msgstr "_Следващо"
-
-#: ../src/gdict-window.c:1308
-msgid "Find Pre_vious"
-msgstr "_Предишно"
-
-#: ../src/gdict-window.c:1310
-msgid "_Preferences"
-msgstr "_Настройки"
-
-#. Go menu
-#: ../src/gdict-window.c:1314
-msgid "_Previous Definition"
-msgstr "_Предишно определение"
-
-#: ../src/gdict-window.c:1315
-msgid "Go to the previous definition"
-msgstr "Предишно определение"
-
-#: ../src/gdict-window.c:1316
-msgid "_Next Definition"
-msgstr "_Следващо определение"
-
-#: ../src/gdict-window.c:1317
-msgid "Go to the next definition"
-msgstr "Следващо определение"
-
-#: ../src/gdict-window.c:1318
-msgid "_First Definition"
-msgstr "П_ърво определение"
-
-#: ../src/gdict-window.c:1319
-msgid "Go to the first definition"
-msgstr "Първо определение"
-
-#: ../src/gdict-window.c:1320
-msgid "_Last Definition"
-msgstr "П_оследно определение"
-
-#: ../src/gdict-window.c:1321
-msgid "Go to the last definition"
-msgstr "Последно определение"
-
-#. View menu
-#: ../src/gdict-window.c:1324
-msgid "Similar _Words"
-msgstr "_Подобни думи"
-
-#: ../src/gdict-window.c:1326
-msgid "Dictionary Sources"
-msgstr "Източници на речници"
-
-#: ../src/gdict-window.c:1328
-msgid "Available _Databases"
-msgstr "Налични _речници"
-
-#: ../src/gdict-window.c:1330
-msgid "Available St_rategies"
-msgstr "Налични _стратегии"
-
-#. Help menu
-#: ../src/gdict-window.c:1334
-msgid "_Contents"
-msgstr "_Ръководство"
-
-#: ../src/gdict-window.c:1336
-msgid "_About"
-msgstr "_Относно"
-
-#. View menu
-#: ../src/gdict-window.c:1347
-msgid "_Sidebar"
-msgstr "_Странична лента"
-
-#: ../src/gdict-window.c:1349
-msgid "S_tatusbar"
-msgstr "_Лента за състоянието"
-
-#: ../src/gdict-window.c:1414
+#: ../src/gdict-window.c:1361
 #, c-format
 msgid "Dictionary source `%s' selected"
 msgstr "Избран е източникът на речници „%s“"
 
-#: ../src/gdict-window.c:1435
+#: ../src/gdict-window.c:1382
 #, c-format
 msgid "Strategy `%s' selected"
 msgstr "Избрана е стратегията „%s“"
 
-#: ../src/gdict-window.c:1455
+#: ../src/gdict-window.c:1402
 #, c-format
 msgid "Database `%s' selected"
 msgstr "Избрана е базата от данни „%s“"
 
-#: ../src/gdict-window.c:1475
+#: ../src/gdict-window.c:1422
 #, c-format
 msgid "Word `%s' selected"
 msgstr "Избрана е думата „%s“"
 
 #. speller
-#: ../src/gdict-window.c:1500
+#: ../src/gdict-window.c:1447
 msgid "Double-click on the word to look up"
 msgstr "Натиснете двукратно върху думата, която търсите"
 
 #. strat-chooser
-#: ../src/gdict-window.c:1506
+#: ../src/gdict-window.c:1453
 msgid "Double-click on the matching strategy to use"
 msgstr "Натиснете двукратно върху стратегията, която да се използва"
 
 #. source-chooser
-#: ../src/gdict-window.c:1511
+#: ../src/gdict-window.c:1458
 msgid "Double-click on the source to use"
 msgstr "Натиснете двукратно върху източника, който да се използва"
 
 #. db-chooser
-#: ../src/gdict-window.c:1520
+#: ../src/gdict-window.c:1467
 msgid "Double-click on the database to use"
 msgstr "Натиснете двукратно върху базата от данни, която да се използва"
 
-#: ../src/gdict-window.c:1700
+#: ../src/gdict-window.c:1617
 msgid "Look _up:"
 msgstr "_Търсене:"
 
-#: ../src/gdict-window.c:1775
+#: ../src/gdict-window.c:1692
 msgid "Similar words"
 msgstr "Подобни думи"
 
-#: ../src/gdict-window.c:1788
+#: ../src/gdict-window.c:1705
 msgid "Available dictionaries"
 msgstr "Налични речници"
 
-#: ../src/gdict-window.c:1806
+#: ../src/gdict-window.c:1723
 msgid "Available strategies"
 msgstr "Налични стратегии"
 
-#: ../src/gdict-window.c:1822
+#: ../src/gdict-window.c:1739
 msgid "Dictionary sources"
 msgstr "Източници на речници"
