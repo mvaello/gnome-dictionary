@@ -52,10 +52,8 @@ msgid "Help"
 msgstr "ヘルプ(_H)"
 
 #: ../data/gnome-dictionary-menus.ui.h:3
-#, fuzzy
-#| msgid "Dictionary"
 msgid "About Dictionary"
-msgstr "辞書"
+msgstr "このアプリケーションについて"
 
 #: ../data/gnome-dictionary-menus.ui.h:4
 msgid "Quit"
@@ -849,6 +847,3 @@ msgstr "辞書ソース"
 
 #~ msgid "_Contents"
 #~ msgstr "目次(_C)"
-
-#~ msgid "_About"
-#~ msgstr "情報(_A)"
