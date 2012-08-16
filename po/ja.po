@@ -16,9 +16,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-utils master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-dictionary&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2012-05-10 17:07+0000\n"
-"PO-Revision-Date: 2011-09-24 18:11+0900\n"
-"Last-Translator: Yasumichi Akahoshi <yasumichi@vinelinux.org>\n"
+"POT-Creation-Date: 2012-08-16 04:56+0000\n"
+"PO-Revision-Date: 2012-08-16 23:35+0900\n"
+"Last-Translator: OKANO Takayoshi <kano@na.rim.or.jp>\n"
 "Language-Team: Japanese <gnome-translation@gnome.gr.jp>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
@@ -40,16 +40,12 @@ msgid "Check word definitions and spellings in an online dictionary"
 msgstr "オンライン辞書を使って単語の意味や綴りを調べます"
 
 #: ../data/gnome-dictionary-menus.ui.h:1
-#, fuzzy
-#| msgid "_Preferences"
 msgid "Preferences"
-msgstr "設定(_P)"
+msgstr "設定"
 
 #: ../data/gnome-dictionary-menus.ui.h:2
-#, fuzzy
-#| msgid "_Help"
 msgid "Help"
-msgstr "ヘルプ(_H)"
+msgstr "ヘルプ"
 
 #: ../data/gnome-dictionary-menus.ui.h:3
 msgid "About Dictionary"
@@ -57,7 +53,7 @@ msgstr "このアプリケーションについて"
 
 #: ../data/gnome-dictionary-menus.ui.h:4
 msgid "Quit"
-msgstr ""
+msgstr "終了"
 
 #: ../data/gnome-dictionary-menus.ui.h:5
 msgid "_File"
@@ -72,20 +68,16 @@ msgid "_Save a Copy..."
 msgstr "検索結果の保存(_S)..."
 
 #: ../data/gnome-dictionary-menus.ui.h:8
-#, fuzzy
-#| msgid "P_review..."
 msgid "P_review"
-msgstr "印刷プレビュー(_R)..."
+msgstr "印刷プレビュー(_R)"
 
 #: ../data/gnome-dictionary-menus.ui.h:9
-#, fuzzy
-#| msgid "Print"
 msgid "_Print"
-msgstr "印刷"
+msgstr "印刷(_P)"
 
 #: ../data/gnome-dictionary-menus.ui.h:10
 msgid "_Close"
-msgstr ""
+msgstr "閉じる(_C)"
 
 #: ../data/gnome-dictionary-menus.ui.h:11
 msgid "_Edit"
@@ -93,17 +85,15 @@ msgstr "編集(_E)"
 
 #: ../data/gnome-dictionary-menus.ui.h:12
 msgid "_Copy"
-msgstr ""
+msgstr "コピー(_C)"
 
 #: ../data/gnome-dictionary-menus.ui.h:13
 msgid "Select _All"
 msgstr "すべて選択(_A)"
 
 #: ../data/gnome-dictionary-menus.ui.h:14
-#, fuzzy
-#| msgid "F_ind:"
 msgid "_Find"
-msgstr "検索(_I):"
+msgstr "検索(_F)"
 
 #: ../data/gnome-dictionary-menus.ui.h:15
 msgid "Find Ne_xt"
