@@ -56,7 +56,6 @@ docs/reference/gdict/tmpl.stamp
 docs/reference/gdict/tmpl/
 docs/reference/gdict/version.xml
 docs/reference/gdict/xml/
-gnome-doc-utils.make
 gtk-doc.make
 install-sh
 libgdict/.deps/

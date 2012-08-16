@@ -469,7 +469,7 @@ gdict_source_dialog_response_cb (GtkDialog *dialog,
       break;
     case GTK_RESPONSE_HELP:
       gtk_show_uri (gtk_widget_get_screen (GTK_WIDGET (dialog)),
-                    "ghelp:gnome-dictionary#gnome-dictionary-add-source",
+                    "help:gnome-dictionary/gnome-dictionary-add-source",
                     gtk_get_current_event_time (), &err);
       if (err)
         {

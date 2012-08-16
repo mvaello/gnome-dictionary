@@ -122,7 +122,7 @@ gdict_app_cmd_help (GSimpleAction *action,
 
   window = GDICT_WINDOW (gtk_application_get_windows (app)->data);
   gtk_show_uri (gtk_widget_get_screen (GTK_WIDGET (window)),
-                "ghelp:gnome-dictionary",
+                "help:gnome-dictionary",
                 gtk_get_current_event_time (), &err);
   if (err)
     {
