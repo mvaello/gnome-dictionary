@@ -1,39 +1,35 @@
-# translation of gnome-utils-master-po-gl-14799.po to Galician
-# Galician translation of gnome-utils.
+# Galician translation of gnome-dictionary.
 # Copyright (C) 2000-2001 Jesús Bravo Álvarez.
 # Copyright (C) 1999 Ruben Lopez Gomez.
-#
 # Proxecto Trasno - Adaptación do software libre á lingua galega:  Se desexas
 # colaborar connosco, podes atopar máis información en http://www.trasno.net
-#
-# First Version: 2000-04-09 18:45+0200
-#
-#
-# Jesús Bravo Álvarez <jba@pobox.com>, 2000-2001.
 # Ruben Lopez Gomez <ryu@mundivia.es>, 1999. (logview from gnome-admin).
+# Jesús Bravo Álvarez <jba@pobox.com>, 2000-2001.
 # Ignacio Casal Quinteiro <adorador_del_heavy@hotmail.com>, 2004.
 # Ignacio Casal Quinteiro <nacho.resa@gmail.com>, 2005, 2006.
 # Ignacio Casal Quinteiro <icq@cvs.gnome.org>, 2007,2008.
 # Mancomún - Centro de Referencia e Servizos de Software Libre <g11n@mancomun.org>, 2009.
 # Suso Baleato <suso.baleato@xunta.es>, 2009.
 # Antón Méixome <meixome@mancomun.org>, 2009.
-# Fran Diéguez <frandieguez@gnome.org>, 2009, 2010, 2011.
+# Fran Diéguez <frandieguez@gnome.org>, 2009, 2010, 2011, 2012.
+# Leandro Regueiro <leandro.regueiro@gmail.com>, 2012.
 # Fran Dieguez <frandieguez@gnome.org>, 2012.
-#
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-utils-master-po-gl-14799\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-05-11 11:21+0200\n"
-"PO-Revision-Date: 2012-05-11 11:21+0200\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
+"dictionary&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2012-08-16 15:59+0000\n"
+"PO-Revision-Date: 2012-08-17 01:38+0200\n"
 "Last-Translator: Fran Dieguez <frandieguez@gnome.org>\n"
-"Language-Team: Galician <gnome-l10n-gl@gnome.org>\n"
+"Language-Team: gnome-l10n-gl@gnome.org\n"
 "Language: gl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n!=1);\n"
-"X-Generator: Lokalize 1.2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Virtaal 0.7.0\n"
+"X-Project-Style: gnome\n"
 
 #: ../data/default.desktop.in.h:1
 msgid "Default Dictionary Server"
@@ -86,7 +82,7 @@ msgstr "_Imprimir"
 
 #: ../data/gnome-dictionary-menus.ui.h:10
 msgid "_Close"
-msgstr "_Saír"
+msgstr "_Pechar"
 
 #: ../data/gnome-dictionary-menus.ui.h:11
 msgid "_Edit"
@@ -623,10 +619,11 @@ msgstr "Mostrar as opcións do GDict"
 #: ../src/gdict-about.c:55
 msgid "translator-credits"
 msgstr ""
-"Fran Diéguez <frandieguez@ubuntu.com>, 2009, 2010.\n"
+"Fran Diéguez <frandieguez@gnome.org>, 2009, 2010, 2011, 2012.\n"
+"Leandro Regueiro <leandro.regueiro@gmail.com>, 2012.\n"
 "Antón Méixome <meixome@mancomun.org>, 2009.\n"
-"Mancomún - Centro de Referencia e Servizos de Software Libre <g11n@mancomun."
-"org>, 2009.\n"
+"Mancomún - Centro de Referencia e Servizos de Software Libre "
+"<g11n@mancomun.org>, 2009.\n"
 "Suso Baleato <suso.baleato@xunta.es>, 2009.\n"
 "Ignacio Casal Quinteiro <icq@cvs.gnome.org>, 2004, 2005, 2006, 2007,2008.\n"
 "Jesús Bravo Álvarez <jba@pobox.com>, 2000-2001.\n"
@@ -694,16 +691,16 @@ msgstr "Engadir unha orixe de dicionario"
 #: ../src/gdict-pref-dialog.c:350
 #, c-format
 msgid "Remove \"%s\"?"
-msgstr "Quere eliminar «%s»?"
+msgstr "Quere retirar «%s»?"
 
 #: ../src/gdict-pref-dialog.c:352
 msgid "This will permanently remove the dictionary source from the list."
-msgstr "Isto eliminará permanentemente a orixe de dicionarios da lista."
+msgstr "Isto retirará permanentemente da lista a orixe de dicionarios."
 
 #: ../src/gdict-pref-dialog.c:382
 #, c-format
 msgid "Unable to remove source '%s'"
-msgstr "Non é posíbel eliminar a orixe «%s»"
+msgstr "Non é posíbel retirar a orixe «%s»"
 
 #: ../src/gdict-pref-dialog.c:643
 msgid "Add a new dictionary source"
@@ -711,7 +708,7 @@ msgstr "Engadir unha nova orixe de dicionarios"
 
 #: ../src/gdict-pref-dialog.c:649
 msgid "Remove the currently selected dictionary source"
-msgstr "Eliminar a orixe de dicionarios actualmente seleccionada"
+msgstr "Retirar a orixe de dicionarios seleccionada actualmente"
 
 #: ../src/gdict-pref-dialog.c:655
 msgid "Edit the currently selected dictionary source"
