@@ -4,135 +4,207 @@ msgid ""
 msgstr ""
 "Project-Id-Version: el-gnome-dictionary-help 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-03-27 12:43+0000\n"
-"PO-Revision-Date: 2009-04-05 15:00+0300\n"
-"Last-Translator: Fotis Tsamis <ftsamis@gmail.com>\n"
+"POT-Creation-Date: 2012-08-21 15:36+0000\n"
+"PO-Revision-Date: 2012-08-21 23:52+0200\n"
+"Last-Translator: Tom Tryfonidis <tomtryf@gmail.com>\n"
 "Language-Team: Greek <team@gnome.gr>\n"
+"Language: el\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: C/gnome-dictionary.xml:150(None)
-msgid ""
-"@@image: 'figures/gnome-dictionary-application.png'; "
-"md5=fb48a9e5863bfb2b3811df2e28489eb7"
+#. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
+msgctxt "_"
+msgid "translator-credits"
 msgstr ""
-"@@image: 'figures/gnome-dictionary-application.png'; "
-"md5=fb48a9e5863bfb2b3811df2e28489eb7"
+"Ελληνική μεταφραστική ομάδα GNOME\n"
+" Νίκος Χαρωνιτάκης <team@gnome.gr>, 2006\n"
+" Φώτης Τσάμης <ftsamis@gmail.com>, 2009\n"
+"\n"
+"Για περισσότερα δείτε http://www.gnome.gr/"
 
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: C/gnome-dictionary.xml:179(None)
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#.
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/index.docbook:150(imagedata)
+msgctxt "_"
 msgid ""
-"@@image: 'figures/gnome-dictionary-lookup.png'; "
-"md5=c41c96af4de54f457a2081aad009a8d0"
+"external ref='figures/gnome-dictionary-application.png' "
+"md5='fb48a9e5863bfb2b3811df2e28489eb7'"
 msgstr ""
-"@@image: 'figures/gnome-dictionary-lookup.png'; "
-"md5=c41c96af4de54f457a2081aad009a8d0"
+"external ref='figures/gnome-dictionary-application.png' "
+"md5='fb48a9e5863bfb2b3811df2e28489eb7'"
 
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: C/gnome-dictionary.xml:221(None)
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#.
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/index.docbook:179(imagedata)
+msgctxt "_"
 msgid ""
-"@@image: 'figures/gnome-dictionary-find.png'; "
-"md5=d8bf0677084e2d9998a7942faaab5379"
+"external ref='figures/gnome-dictionary-lookup.png' "
+"md5='c41c96af4de54f457a2081aad009a8d0'"
 msgstr ""
-"@@image: 'figures/gnome-dictionary-find.png'; "
-"md5=d8bf0677084e2d9998a7942faaab5379"
+"external ref='figures/gnome-dictionary-lookup.png' "
+"md5='c41c96af4de54f457a2081aad009a8d0'"
 
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: C/gnome-dictionary.xml:262(None)
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#.
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/index.docbook:221(imagedata)
+msgctxt "_"
 msgid ""
-"@@image: 'figures/gnome-dictionary-preferences-source.png'; "
-"md5=5470b15e64e66924477f150c4f47e96d"
+"external ref='figures/gnome-dictionary-find.png' "
+"md5='d8bf0677084e2d9998a7942faaab5379'"
 msgstr ""
-"@@image: 'figures/gnome-dictionary-preferences-source.png'; "
-"md5=5470b15e64e66924477f150c4f47e96d"
+"external ref='figures/gnome-dictionary-find.png' "
+"md5='d8bf0677084e2d9998a7942faaab5379'"
 
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: C/gnome-dictionary.xml:282(None)
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#.
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/index.docbook:262(imagedata)
+msgctxt "_"
 msgid ""
-"@@image: 'figures/gnome-dictionary-add-source.png'; "
-"md5=d059507fee77bb176fce53373951756b"
+"external ref='figures/gnome-dictionary-preferences-source.png' "
+"md5='5470b15e64e66924477f150c4f47e96d'"
 msgstr ""
-"@@image: 'figures/gnome-dictionary-add-source.png'; "
-"md5=d059507fee77bb176fce53373951756b"
+"external ref='figures/gnome-dictionary-preferences-source.png' "
+"md5='5470b15e64e66924477f150c4f47e96d'"
 
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: C/gnome-dictionary.xml:351(None)
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#.
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/index.docbook:282(imagedata)
+msgctxt "_"
 msgid ""
-"@@image: 'figures/gnome-dictionary-preferences-print.png'; "
-"md5=12a65f07cb333db4c7ba743d1d12a00f"
+"external ref='figures/gnome-dictionary-add-source.png' "
+"md5='d059507fee77bb176fce53373951756b'"
 msgstr ""
-"@@image: 'figures/gnome-dictionary-preferences-print.png'; "
-"md5=12a65f07cb333db4c7ba743d1d12a00f"
+"external ref='figures/gnome-dictionary-add-source.png' "
+"md5='d059507fee77bb176fce53373951756b'"
 
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: C/gnome-dictionary.xml:385(None)
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#.
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/index.docbook:351(imagedata)
+msgctxt "_"
 msgid ""
-"@@image: 'figures/gnome-dictionary-applet.png'; "
-"md5=538c7fa191540f99dd964963a1079677"
+"external ref='figures/gnome-dictionary-preferences-print.png' "
+"md5='12a65f07cb333db4c7ba743d1d12a00f'"
 msgstr ""
-"@@image: 'figures/gnome-dictionary-applet.png'; "
-"md5=538c7fa191540f99dd964963a1079677"
+"external ref='figures/gnome-dictionary-preferences-print.png' "
+"md5='12a65f07cb333db4c7ba743d1d12a00f'"
 
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: C/gnome-dictionary.xml:421(None)
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#.
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/index.docbook:385(imagedata)
+msgctxt "_"
 msgid ""
-"@@image: 'figures/gnome-dictionary-applet-window.png'; "
-"md5=e26ac4847d2e7b53c6bba7d8e1a519c4"
+"external ref='figures/gnome-dictionary-applet.png' "
+"md5='538c7fa191540f99dd964963a1079677'"
 msgstr ""
-"@@image: 'figures/gnome-dictionary-applet-window.png'; "
-"md5=e26ac4847d2e7b53c6bba7d8e1a519c4"
+"external ref='figures/gnome-dictionary-applet.png' "
+"md5='538c7fa191540f99dd964963a1079677'"
 
-#: C/gnome-dictionary.xml:24(title)
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#.
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/index.docbook:421(imagedata)
+msgctxt "_"
+msgid ""
+"external ref='figures/gnome-dictionary-applet-window.png' "
+"md5='e26ac4847d2e7b53c6bba7d8e1a519c4'"
+msgstr ""
+"external ref='figures/gnome-dictionary-applet-window.png' "
+"md5='e26ac4847d2e7b53c6bba7d8e1a519c4'"
+
+#: C/index.docbook:24(articleinfo/title)
 msgid "Dictionary Manual"
 msgstr "Εγχειρίδιο Λεξικού"
 
-#: C/gnome-dictionary.xml:27(para)
+#: C/index.docbook:27(abstract/para)
 msgid ""
 "Dictionary enables you to look up definitions and correct spellings of words."
 msgstr ""
 "Το λεξικό σας δίνει την δυνατότητα να αναζητήσετε ορισμούς και την σωστή "
 "ορθογραφία λέξεων."
 
-#: C/gnome-dictionary.xml:34(year)
-msgid "2005"
-msgstr "2005"
+#: C/index.docbook:33(articleinfo/copyright)
+msgid "<year>2005</year> <holder>Emmanuele Bassi</holder>"
+msgstr "<year>2005</year> <holder>Emmanuele Bassi</holder>"
 
-#: C/gnome-dictionary.xml:35(holder) C/gnome-dictionary.xml:82(para)
-msgid "Emmanuele Bassi"
-msgstr "Emmanuele Bassi"
-
-#: C/gnome-dictionary.xml:48(publishername) C/gnome-dictionary.xml:83(para)
+#: C/index.docbook:48(publisher/publishername)
+#: C/index.docbook:83(revdescription/para)
 msgid "GNOME Documentation Project"
 msgstr "Έργο τεκμηρίωσης GNOME"
 
-#: C/gnome-dictionary.xml:2(para)
+#: C/index.docbook:2(legalnotice/para)
 msgid ""
 "Permission is granted to copy, distribute and/or modify this document under "
 "the terms of the GNU Free Documentation License (GFDL), Version 1.1 or any "
 "later version published by the Free Software Foundation with no Invariant "
 "Sections, no Front-Cover Texts, and no Back-Cover Texts. You can find a copy "
-"of the GFDL at this <ulink type=\"help\" url=\"ghelp:fdl\">link</ulink> or "
-"in the file COPYING-DOCS distributed with this manual."
+"of the GFDL at this <ulink type=\"help\" url=\"help:fdl\">link</ulink> or in "
+"the file COPYING-DOCS distributed with this manual."
 msgstr ""
 "Παρέχεται άδεια για την αντιγραφή, διανομή και/ή τροποποίηση αυτού του "
 "εγγράφου υπό τους όρους της GNU Free Documentation License (GFDL), Έκδοση "
 "1.1 ή μεταγενέστερης που δημοσιεύεται από το Free Software Foundation χωρίς "
 "αμετάβλητα τμήματα, χωρίς κείμενα πρωτοσέλιδου, και χωρίς κείμενα "
-"οπισθόφυλλου. Μπορεί να βρείτε ένα αντίγραφο της GFDL στη <ulink type="
-"\"βοήθεια\" url=\"ghelp:fdl\">link</ulink> ή στο αρχείο COPYING-DOCS που "
+"οπισθόφυλλου. Μπορεί να βρείτε ένα αντίγραφο της GFDL στο <ulink type=\"help"
+"\" url=\"help:fdl\">σύνδεσμο</ulink> ή στο αρχείο COPYING-DOCS που "
 "διανέμεται με αυτό το εγχειρίδιο."
 
-#: C/gnome-dictionary.xml:12(para)
+#: C/index.docbook:12(legalnotice/para) C/legal.xml:12(legalnotice/para)
 msgid ""
 "This manual is part of a collection of GNOME manuals distributed under the "
 "GFDL. If you want to distribute this manual separately from the collection, "
@@ -144,7 +216,7 @@ msgstr ""
 "συλλογή, μπορείτε να το πραγματοποιήσετε προσθέτοντας ένα αντίγραφο της "
 "άδειας στον οδηγό, όπως περιγράφεται στο 6ο τμήμα της άδειας."
 
-#: C/gnome-dictionary.xml:19(para)
+#: C/index.docbook:19(legalnotice/para) C/legal.xml:19(legalnotice/para)
 msgid ""
 "Many of the names used by companies to distinguish their products and "
 "services are claimed as trademarks. Where those names appear in any GNOME "
@@ -158,7 +230,7 @@ msgstr ""
 "GNOME Documentation Project γνωρίουν για αυτά τα εμπορικά σήματα, τότε τα "
 "ονόματα είναι με κεφαλαία γράμματα ή με αρχικά κεφαλαία γράμματα."
 
-#: C/gnome-dictionary.xml:35(para)
+#: C/index.docbook:35(listitem/para) C/legal.xml:35(listitem/para)
 msgid ""
 "DOCUMENT IS PROVIDED ON AN \"AS IS\" BASIS, WITHOUT WARRANTY OF ANY KIND, "
 "EITHER EXPRESSED OR IMPLIED, INCLUDING, WITHOUT LIMITATION, WARRANTIES THAT "
@@ -186,7 +258,7 @@ msgstr ""
 "ΤΡΟΠΟΠΟΙΗΜΕΝΟΥ ΕΓΓΡΑΦΟΥ ΕΞΟΥΣΙΟΔΟΤΕΙΤΑΙ ΕΦΕΞΗΣ, ΠΑΡΑ ΥΠΟ ΤΟΝ ΟΡΟ ΤΗΣ ΩΣ ΑΝΩ "
 "ΠΑΡΑΙΤΗΣΗΣ ΚΑΙ"
 
-#: C/gnome-dictionary.xml:55(para)
+#: C/index.docbook:55(listitem/para) C/legal.xml:55(listitem/para)
 msgid ""
 "UNDER NO CIRCUMSTANCES AND UNDER NO LEGAL THEORY, WHETHER IN TORT (INCLUDING "
 "NEGLIGENCE), CONTRACT, OR OTHERWISE, SHALL THE AUTHOR, INITIAL WRITER, ANY "
@@ -206,130 +278,136 @@ msgstr ""
 "ΑΥΤΗΣ ΑΚΟΜΑ ΚΑΙ ΕΑΝ ΕΧΕΙ ΥΠΑΡΞΕΙ ΠΡΟΕΙΔΟΠΟΙΗΣΗ ΓΙΑ ΤΗΝ ΠΙΘΑΝΟΤΗΤΑ ΥΠΑΡΞΗΣ "
 "ΤΕΤΟΙΩΝ ΖΗΜΙΩΝ."
 
-#: C/gnome-dictionary.xml:28(para)
+#: C/index.docbook:28(legalnotice/para) C/legal.xml:28(legalnotice/para)
 msgid ""
 "DOCUMENT AND MODIFIED VERSIONS OF THE DOCUMENT ARE PROVIDED UNDER THE TERMS "
 "OF THE GNU FREE DOCUMENTATION LICENSE WITH THE FURTHER UNDERSTANDING THAT: "
-"<placeholder-1/>"
+"<_:orderedlist-1/>"
 msgstr ""
 "ΤΟ ΕΓΓΡΑΦΟ ΚΑΙ ΟΙ ΤΡΟΠΟΠΟΙΗΜΕΝΕΣ ΕΚΔΟΣΕΙΣ ΤΟΥ ΕΓΓΡΑΦΟΥ ΠΑΡΕΧΟΝΤΑΙ ΥΠΟ ΤΟΥΣ "
 "ΟΡΟΥΣ ΤΗΣ ΑΔΕΙΑΣ GNU FREE DOCUMENTATION LICENSE, ΜΕ ΤΗΝ ΕΠΙΠΛΕΟΝ ΚΑΤΑΝΟΗΣΗ "
-"ΟΤΙ: <placeholder-1/>"
+"ΟΤΙ: <_:orderedlist-1/>"
 
-#: C/gnome-dictionary.xml:55(firstname)
-msgid "Emmanuele"
-msgstr "Emmanuele"
+#: C/index.docbook:54(authorgroup/author)
+msgid ""
+"<firstname>Emmanuele</firstname> <surname>Bassi</surname> <affiliation> "
+"<address><email>ebassi@gmail.com</email></address> </affiliation>"
+msgstr ""
+"<firstname>Emmanuele</firstname> <surname>Bassi</surname> <affiliation> "
+"<address><email>ebassi@gmail.com</email></address> </affiliation>"
 
-#: C/gnome-dictionary.xml:56(surname)
-msgid "Bassi"
-msgstr "Bassi"
+#: C/index.docbook:82(revdescription/para)
+msgid "Emmanuele Bassi"
+msgstr "Emmanuele Bassi"
 
-#: C/gnome-dictionary.xml:58(email)
-msgid "ebassi@gmail.com"
-msgstr "ebassi@gmail.com"
+#: C/index.docbook:78(revhistory/revision)
+msgid ""
+"<revnumber>Dictionary Manual V1.0.0</revnumber> <date>January 2005</date> <_:"
+"revdescription-1/>"
+msgstr ""
+"<revnumber>Εγχειρίδιο Λεξικού V1.0.0</revnumber> <date>Ιανουάριος 2005</"
+"date> <_:revdescription-1/>"
 
-#: C/gnome-dictionary.xml:79(revnumber)
-msgid "Dictionary Manual V1.0.0"
-msgstr "Εγχειρίδιο Λεξικού V1.0.0"
-
-#: C/gnome-dictionary.xml:80(date)
-msgid "January 2005"
-msgstr "January 2005"
-
-#: C/gnome-dictionary.xml:88(releaseinfo)
+#: C/index.docbook:88(articleinfo/releaseinfo)
 msgid "This manual describes version 2.14.0 of Dictionary."
 msgstr "Αυτό το εγχειρίδιο περιγράφει την έκδοση 2.14.0 του Λεξικού"
 
-#: C/gnome-dictionary.xml:90(title)
+#: C/index.docbook:90(legalnotice/title)
 msgid "Feedback"
 msgstr "Ανάδραση"
 
-#: C/gnome-dictionary.xml:91(para)
+#: C/index.docbook:91(legalnotice/para)
 msgid ""
 "To report a bug or make a suggestion regarding the Dictionary application or "
-"this manual, follow the directions in the <ulink url=\"ghelp:gnome-feedback"
-"\" type=\"help\">GNOME Feedback Page</ulink>."
+"this manual, follow the directions in the <ulink url=\"help:gnome-feedback\" "
+"type=\"help\">GNOME Feedback Page</ulink>."
 msgstr ""
 "Για να αναφέρετε ένα σφάλμα ή να κάνετε μια πρόταση σχετικά με την εφαρμογή "
 "Λεξικού  ή αυτή την τεκμηρίωση, ακολουθήστε τις οδηγίες στη <ulink url="
-"\"ghelp:gnome-feedback\" type=\"help\">Σελίδα ανάδρασης GNOME</ulink>."
+"\"help:gnome-feedback\" type=\"help\">Σελίδα ανάδρασης GNOME</ulink>."
 
-#: C/gnome-dictionary.xml:101(primary)
-msgid "Dictionary"
-msgstr "Λεξικό"
+#: C/index.docbook:100(article/indexterm)
+msgid "<primary>Dictionary</primary>"
+msgstr "<primary>Λεξικό</primary>"
 
-#: C/gnome-dictionary.xml:107(title)
+#: C/index.docbook:107(sect1/title)
 msgid "Introduction"
 msgstr "Εισαγωγή"
 
-#: C/gnome-dictionary.xml:109(para)
+#: C/index.docbook:109(sect1/para)
 msgid ""
 "The <application>Dictionary</application> application enables you to search "
 "words and terms on a dictionary source."
 msgstr ""
-"Η εφαρμογή <application>Λεξικού</application> σας δείνει την δυνατότητα να "
-"αναζητήσετε λέξεις και ορισμούς σε μια πηγή λεξικού"
+"Η εφαρμογή <application>Λεξικό</application> σας δίνει την δυνατότητα να "
+"αναζητήσετε λέξεις και ορισμούς σε μια πηγή λεξικού."
 
-#: C/gnome-dictionary.xml:116(title)
+#: C/index.docbook:116(sect1/title)
 msgid "Getting Started"
 msgstr "Ξεκινώντας"
 
-#: C/gnome-dictionary.xml:120(title)
+#: C/index.docbook:120(sect2/title)
 msgid "To Start Dictionary"
 msgstr "Για να εκκινήσετε το Λεξικό"
 
-#: C/gnome-dictionary.xml:122(para)
+#: C/index.docbook:122(sect2/para)
 msgid ""
 "You can start <application>Dictionary</application> in the following ways:"
 msgstr ""
 "Μπορείτε να ξεκινήσετε το <application>Λεξικό</application> με τους "
 "ακόλουθους τρόπους:"
 
-#: C/gnome-dictionary.xml:127(term)
+#: C/index.docbook:127(varlistentry/term)
 msgid "<guimenu>Applications</guimenu> menu"
 msgstr "Μενού <guimenu>Εφαρμογές</guimenu>"
 
-#: C/gnome-dictionary.xml:129(para)
+#: C/index.docbook:129(listitem/para)
 msgid ""
-"Choose <menuchoice><guisubmenu>Accessories</"
-"guisubmenu><guimenuitem>Dictionary</guimenuitem></menuchoice>."
+"Choose <menuchoice><guisubmenu>Accessories</guisubmenu> "
+"<guimenuitem>Dictionary</guimenuitem></menuchoice>."
 msgstr ""
-"Επιλέξτε <menuchoice><guisubmenu>Βοηθήματα</guisubmenu><guimenuitem>Λεξικό</"
+"Επιλέξτε <menuchoice><guisubmenu>Βοηθήματα</guisubmenu> <guimenuitem>Λεξικό</"
 "guimenuitem></menuchoice>."
 
-#: C/gnome-dictionary.xml:135(term)
+#: C/index.docbook:135(varlistentry/term)
 msgid "Command line"
 msgstr "Γραμμή εντολών"
 
-#: C/gnome-dictionary.xml:137(para)
+#: C/index.docbook:137(listitem/para)
 msgid "Execute the following command: <command>gnome-dictionary</command>"
 msgstr "Εκτέλεση της παρακάτω εντολής: <command>gnome-dictionary</command>"
 
-#: C/gnome-dictionary.xml:142(para)
+#: C/index.docbook:142(sect2/para)
 msgid ""
 "Once started, the <application>Dictionary</application> window is displayed:"
 msgstr ""
 "Όταν ξεκινήσει, εμφανίζεται το παράθυρο <application>Λεξικού</application>:"
 
-#: C/gnome-dictionary.xml:146(title) C/gnome-dictionary.xml:175(title)
-#: C/gnome-dictionary.xml:217(title) C/gnome-dictionary.xml:258(title)
-#: C/gnome-dictionary.xml:278(title) C/gnome-dictionary.xml:347(title)
+#: C/index.docbook:146(figure/title) C/index.docbook:175(figure/title)
+#: C/index.docbook:217(figure/title) C/index.docbook:258(figure/title)
+#: C/index.docbook:278(figure/title) C/index.docbook:347(figure/title)
 msgid "Dictionary Window"
 msgstr "Παράθυρο λεξικού"
 
-#: C/gnome-dictionary.xml:152(phrase)
-msgid "Shows Dictionary main window."
-msgstr "Εμφανίζει το κύριο παράθυρο του Λεξικού."
+#: C/index.docbook:148(screenshot/mediaobject)
+msgid ""
+"<imageobject> <imagedata fileref=\"figures/gnome-dictionary-application.png"
+"\" format=\"PNG\"/> </imageobject> <textobject><phrase>Shows Dictionary main "
+"window.</phrase></textobject>"
+msgstr ""
+"<imageobject> <imagedata fileref=\"figures/gnome-dictionary-application.png"
+"\" format=\"PNG\"/> </imageobject> <textobject><phrase>Εμφανίζει το κύριο "
+"παράθυρο του Λεξικού.</phrase></textobject>"
 
-#: C/gnome-dictionary.xml:163(title)
+#: C/index.docbook:163(sect1/title)
 msgid "Usage"
 msgstr "Χρήση"
 
-#: C/gnome-dictionary.xml:166(title)
+#: C/index.docbook:166(sect2/title)
 msgid "Looking up a word"
 msgstr "Αναζήτηση μίας λέξης"
 
-#: C/gnome-dictionary.xml:168(para)
+#: C/index.docbook:168(sect2/para)
 msgid ""
 "To look up a word, type it into the <guilabel>entry field</guilabel> and "
 "press <keycap>Enter</keycap>."
@@ -337,7 +415,7 @@ msgstr ""
 "Για να αναζητήσετε μια λέξη, πληκτρολογήστε την μέσα στο <guilabel>πεδίο "
 "εισαγωγής</guilabel> και πατήστε <keycap>Enter</keycap>."
 
-#: C/gnome-dictionary.xml:171(para)
+#: C/index.docbook:171(sect2/para)
 msgid ""
 "If some definition for the word is found, it will appear inside the main "
 "window area:"
@@ -345,11 +423,17 @@ msgstr ""
 "Αν βρεθεί κάποιος ορισμός για την λέξη, θα εμφανιστεί μέσα στην κεντρική "
 "περιοχή του παραθύρου:"
 
-#: C/gnome-dictionary.xml:181(phrase)
-msgid "Shows a definition inside the Dictionary main window."
-msgstr "Εμφανίζει ένα ορισμό μέσα στο κεντρικό παράθυρο του λεξικού."
+#: C/index.docbook:177(screenshot/mediaobject)
+msgid ""
+"<imageobject> <imagedata fileref=\"figures/gnome-dictionary-lookup.png\" "
+"format=\"PNG\"/> </imageobject> <textobject><phrase>Shows a definition "
+"inside the Dictionary main window.</phrase></textobject>"
+msgstr ""
+"<imageobject> <imagedata fileref=\"figures/gnome-dictionary-lookup.png\" "
+"format=\"PNG\"/> </imageobject> <textobject><phrase>Εμφανίζει έναν ορισμό "
+"μέσα στο κύριο παράθυρο του Λεξικού.</phrase></textobject>"
 
-#: C/gnome-dictionary.xml:186(para)
+#: C/index.docbook:186(sect2/para)
 msgid ""
 "Otherwise, an error dialog will appear, with a message explaining the nature "
 "of the error."
@@ -357,11 +441,11 @@ msgstr ""
 "Διαφορετικά, ένας διάλογος σφάλματος θα εμφανιστεί και ένα μήνυμα θα εξηγεί "
 "την φύση του σφάλματος."
 
-#: C/gnome-dictionary.xml:192(title)
+#: C/index.docbook:192(sect2/title)
 msgid "Save look up results"
 msgstr "Αποθήκευση αποτελεσμάτων αναζήτησης"
 
-#: C/gnome-dictionary.xml:194(para)
+#: C/index.docbook:194(sect2/para)
 msgid ""
 "To save the results of a look up, choose <menuchoice><guimenu>File</"
 "guimenu><guimenuitem>Save a Copy</guimenuitem></menuchoice>. Enter a name "
@@ -374,11 +458,11 @@ msgstr ""
 "διάλογο του <guilabel>Αποθήκευση ενός αντιγράφου</guilabel>, έπειτα κάντε "
 "κλικ στο κουμπί <guibutton>Αποθήκευση</guibutton>."
 
-#: C/gnome-dictionary.xml:199(title)
+#: C/index.docbook:199(sect2/title)
 msgid "Print look up results"
 msgstr "Εκτύπωση αποτελεσμάτων αναζήτησης"
 
-#: C/gnome-dictionary.xml:201(para)
+#: C/index.docbook:201(sect2/para)
 msgid ""
 "To print the results of a look up, choose <menuchoice><guimenu>File</"
 "guimenu><guimenuitem>Print</guimenuitem></menuchoice>."
@@ -387,7 +471,7 @@ msgstr ""
 "<menuchoice><guimenu>Αρχείο</guimenu><guimenuitem>Εκτύπωση</guimenuitem></"
 "menuchoice>."
 
-#: C/gnome-dictionary.xml:203(para)
+#: C/index.docbook:203(sect2/para)
 msgid ""
 "Inside the <guilabel>Print</guilabel> dialog you can select the printer to "
 "use, the paper format, the number of copies."
@@ -395,7 +479,7 @@ msgstr ""
 "Μέσα από τον διάλογο <guilabel>Εκτύπωση</guilabel>μπορείτε να επιλέξετε τον "
 "εκτυπωτή, την μορφή χαρτιού και των αριθμό των αντιγράφων που θέλετε."
 
-#: C/gnome-dictionary.xml:206(para)
+#: C/index.docbook:206(sect2/para)
 msgid ""
 "To see a preview of what will be printed, click <guibutton>Preview</"
 "guibutton>."
@@ -403,42 +487,48 @@ msgstr ""
 "Για να δείτε μια προεπισκόπηση εκτύπωσης, κάντε κλικ στο "
 "<guibutton>Προεπισκόπηση</guibutton>."
 
-#: C/gnome-dictionary.xml:209(para)
+#: C/index.docbook:209(sect2/para)
 msgid "To print, click <guibutton>Print</guibutton>."
 msgstr "Για να εκτυπώσετε, κάντε κλικ στο <guibutton>Εκτύπωση</guibutton>."
 
-#: C/gnome-dictionary.xml:214(title)
+#: C/index.docbook:214(sect2/title)
 msgid "Find Text"
 msgstr "Εύρεση κειμένου"
 
-#: C/gnome-dictionary.xml:223(phrase)
-msgid "Shows the Dictionary Find pane inside the main window."
-msgstr "Εμφανίζει το πλαίσιο αναζήτησης του Λεξικού μέσα στο κύριο παράθυρο."
+#: C/index.docbook:219(screenshot/mediaobject)
+msgid ""
+"<imageobject> <imagedata fileref=\"figures/gnome-dictionary-find.png\" "
+"format=\"PNG\"/> </imageobject> <textobject><phrase>Shows the Dictionary "
+"Find pane inside the main window.</phrase></textobject>"
+msgstr ""
+"<imageobject> <imagedata fileref=\"figures/gnome-dictionary-find.png\" "
+"format=\"PNG\"/> </imageobject> <textobject><phrase>Εμφανίζει το πλαίσιο "
+"αναζήτησης του Λεξικού μέσα στο κύριο παράθυρο.</phrase></textobject>"
 
-#: C/gnome-dictionary.xml:229(para)
+#: C/index.docbook:229(sect2/para)
 msgid ""
 "To find text inside the results of a look up, perform the following steps:"
 msgstr ""
 "Για να εντοπίσετε κείμενο μέσα στα αποτελέσματα της αναζήτησης, ακολουθήστε "
 "τα παρακάτω βήματα:"
 
-#: C/gnome-dictionary.xml:233(para)
+#: C/index.docbook:233(listitem/para)
 msgid ""
-"Choose <menuchoice><guimenu>Edit</guimenu><guimenuitem>Find</guimenuitem></"
-"menuchoice> to display the <guilabel>Find</guilabel> pane."
+"Choose <menuchoice> <guimenu>Edit</guimenu> <guimenuitem>Find</guimenuitem> "
+"</menuchoice> to display the <guilabel>Find</guilabel> pane."
 msgstr ""
-"Επιλέξτε <menuchoice><guimenu>Επεξεργασία</guimenu><guimenuitem>Εύρεση</"
-"guimenuitem></menuchoice> για να εμφανίσετε το πλαίσιο <guilabel>Εύρεση</"
+"Επιλέξτε <menuchoice> <guimenu>Επεξεργασία</guimenu> <guimenuitem>Εύρεση</"
+"guimenuitem> </menuchoice> για να εμφανίσετε το πλαίσιο <guilabel>Εύρεση</"
 "guilabel>."
 
-#: C/gnome-dictionary.xml:235(para)
+#: C/index.docbook:235(listitem/para)
 msgid ""
 "Type the text you want to find inside the <guilabel>Search</guilabel> entry."
 msgstr ""
 "Πληκτρολογήστε το κείμενο που θέλετε να βρείτε μέσα στην "
 "<guilabel>Αναζήτηση</guilabel>."
 
-#: C/gnome-dictionary.xml:237(para)
+#: C/index.docbook:237(listitem/para)
 msgid ""
 "To find the next occurrence of the text, click <guibutton>Next</guibutton>. "
 "To find the previous occurrence of the text, click <guibutton>Previous</"
@@ -448,11 +538,11 @@ msgstr ""
 "<guibutton>Επόμενο</guibutton>. Για να βρείτε μια προηγούμενη εμφάνιση του "
 "κειμένου, κάντε κλικ στο <guibutton>Επόμενο</guibutton>."
 
-#: C/gnome-dictionary.xml:248(title) C/gnome-dictionary.xml:438(title)
+#: C/index.docbook:248(sect1/title) C/index.docbook:438(sect2/title)
 msgid "Preferences"
 msgstr "Προτιμήσεις"
 
-#: C/gnome-dictionary.xml:250(para)
+#: C/index.docbook:250(sect1/para)
 msgid ""
 "To change the <application>Dictionary</application> application preferences, "
 "choose <menuchoice><guimenu>Edit</guimenu><guimenuitem>Preferences</"
@@ -462,15 +552,21 @@ msgstr ""
 "application>, επιλέξτε <menuchoice><guimenu>Επεξεργασία</"
 "guimenu><guimenuitem>Προτιμήσεις</guimenuitem></menuchoice>."
 
-#: C/gnome-dictionary.xml:255(title)
+#: C/index.docbook:255(sect2/title)
 msgid "Dictionary Sources"
 msgstr "Πηγές λεξικών"
 
-#: C/gnome-dictionary.xml:264(phrase)
-msgid "Shows the Source tab of the Preferences dialog."
-msgstr "Εμφανίζει την καρτέλα Πηγή από τον διάλογο Προτιμήσεις."
+#: C/index.docbook:260(screenshot/mediaobject)
+msgid ""
+"<imageobject> <imagedata fileref=\"figures/gnome-dictionary-preferences-"
+"source.png\" format=\"PNG\"/> </imageobject> <textobject><phrase>Shows the "
+"Source tab of the Preferences dialog.</phrase></textobject>"
+msgstr ""
+"<imageobject> <imagedata fileref=\"figures/gnome-dictionary-preferences-"
+"source.png\" format=\"PNG\"/> </imageobject> <textobject><phrase>Εμφανίζει "
+"τη καρτέλα Πηγή του διαλόγου Προτιμήσεις.</phrase></textobject>"
 
-#: C/gnome-dictionary.xml:269(para)
+#: C/index.docbook:269(sect2/para)
 msgid ""
 "To change the dictionary source used to look up words, select the desired "
 "source from the list."
@@ -478,23 +574,29 @@ msgstr ""
 "Για να αλλάξετε την πηγή λεξικού στην οποία γίνονται οι αναζητήσεις, "
 "επιλέξτε την επιθυμητή πηγή από τη λίστα."
 
-#: C/gnome-dictionary.xml:275(title)
+#: C/index.docbook:275(sect2/title)
 msgid "Adding a new source"
 msgstr "Προσθήκη μίας νέας πηγής"
 
-#: C/gnome-dictionary.xml:284(phrase)
-msgid "Shows the Add Source dialog."
-msgstr "Εμφανίζει τον διάλογο Προσθήκη πηγής."
+#: C/index.docbook:280(screenshot/mediaobject)
+msgid ""
+"<imageobject> <imagedata fileref=\"figures/gnome-dictionary-add-source.png\" "
+"format=\"PNG\"/> </imageobject> <textobject><phrase>Shows the Add Source "
+"dialog.</phrase></textobject>"
+msgstr ""
+"<imageobject> <imagedata fileref=\"figures/gnome-dictionary-add-source.png\" "
+"format=\"PNG\"/> </imageobject> <textobject><phrase>Εμφανίζει το διάλογο "
+"Προσθήκη πηγής.</phrase></textobject>"
 
-#: C/gnome-dictionary.xml:289(para)
+#: C/index.docbook:289(sect2/para)
 msgid "To add a new dictionary source, perform the following steps:"
 msgstr "Για να προσθέστε μια νέα πηγή λεξικού, ακολουθήστε τα επόμενα βήματα:"
 
-#: C/gnome-dictionary.xml:292(para)
+#: C/index.docbook:292(listitem/para)
 msgid "Click on the <guibutton>Add</guibutton> button"
 msgstr "Κάντε κλικ στο κουμπί <guibutton>Προσθήκη</guibutton>"
 
-#: C/gnome-dictionary.xml:293(para)
+#: C/index.docbook:293(listitem/para)
 msgid ""
 "Edit the name of the new source inside the <guilabel>Description</guilabel> "
 "entry"
@@ -502,7 +604,7 @@ msgstr ""
 "Επεξεργασία του ονόματος της νέας πηγής μέσα στην καταχώρηση της "
 "<guilabel>Περιγραφής</guilabel>"
 
-#: C/gnome-dictionary.xml:294(para)
+#: C/index.docbook:294(listitem/para)
 msgid ""
 "Change the transport type of the new source using the <guilabel>Transport</"
 "guilabel> combo box"
@@ -510,15 +612,15 @@ msgstr ""
 "Αλλαγή του τύπου μεταφοράς της νέας πηγής με την χρήση του πλαισίου επιλογών "
 "<guilabel>Μεταφορά</guilabel>"
 
-#: C/gnome-dictionary.xml:295(para)
+#: C/index.docbook:295(listitem/para)
 msgid "Edit the attributes of the new source"
 msgstr "Επεξεργασία των γνωρισμάτων της νέας πηγής"
 
-#: C/gnome-dictionary.xml:296(para)
+#: C/index.docbook:296(listitem/para)
 msgid "Click <guibutton>Add</guibutton>"
 msgstr "Κάντε κλικ στο <guibutton>Προσθήκη</guibutton>"
 
-#: C/gnome-dictionary.xml:299(para)
+#: C/index.docbook:299(sect2/para)
 msgid ""
 "Different source transport types uses different attributes. This is the list "
 "of available attributes per transport type:"
@@ -526,43 +628,43 @@ msgstr ""
 "Διαφορετικοί τύποι μεταφοράς πηγής χρησιμοποιούν διαφορετικά γνωρίσματα. "
 "Αυτή είναι η λίστα των διαθέσιμων γνωρισμάτων ανά τύπο μεταφοράς:"
 
-#: C/gnome-dictionary.xml:306(para)
+#: C/index.docbook:306(entry/para)
 msgid "Transport"
 msgstr "Μεταφορά"
 
-#: C/gnome-dictionary.xml:307(para)
+#: C/index.docbook:307(entry/para)
 msgid "Attributes"
 msgstr "Γνωρίσματα"
 
-#: C/gnome-dictionary.xml:312(para)
+#: C/index.docbook:312(entry/para)
 msgid "Dictionary Server"
 msgstr "Εξυπηρετητής λεξικού"
 
-#: C/gnome-dictionary.xml:314(para)
+#: C/index.docbook:314(entry/para)
 msgid "Hostname: the hostname of the dictionary server"
 msgstr "Όνομα συστήματος: το όνομα συστήματος του εξυπηρετητή λεξικού"
 
-#: C/gnome-dictionary.xml:315(para)
+#: C/index.docbook:315(entry/para)
 msgid "Port: the port of the dictionary server"
 msgstr "Θύρα: η θύρα του εξυπηρετητή λεξικού"
 
-#: C/gnome-dictionary.xml:326(title)
+#: C/index.docbook:326(sect2/title)
 msgid "Removing a source"
 msgstr "Απομάκρυνση μιας πηγής"
 
-#: C/gnome-dictionary.xml:328(para)
+#: C/index.docbook:328(sect2/para)
 msgid "To remove a dictionary source, perform the following steps:"
 msgstr "Για να απομακρύνετε μια πηγή λεξικού, ακολουθήστε τα παρακάτω βήματα:"
 
-#: C/gnome-dictionary.xml:331(para)
+#: C/index.docbook:331(listitem/para)
 msgid "Select the source you wish to remove"
 msgstr "Επιλογή πηγής που θέλετε να απομακρυνθεί"
 
-#: C/gnome-dictionary.xml:332(para)
+#: C/index.docbook:332(listitem/para)
 msgid "Click the <guibutton>Remove</guibutton> button"
 msgstr "Κάντε κλικ στο κουμπί <guibutton>Απομάκρυνση</guibutton>"
 
-#: C/gnome-dictionary.xml:335(para)
+#: C/index.docbook:335(warning/para)
 msgid ""
 "If you remove a dictionary source it will be permanently deleted from the "
 "list of available sources. Also, as some sources might be defined system-"
@@ -574,15 +676,21 @@ msgstr ""
 "είναι πιθανό να μην μπορείτε να τις απομακρύνετε εκτός και αν έχετε τα "
 "απαραίτητα δικαιώματα."
 
-#: C/gnome-dictionary.xml:344(title)
+#: C/index.docbook:344(sect2/title)
 msgid "Print Options"
 msgstr "Επιλογές εκτύπωσης"
 
-#: C/gnome-dictionary.xml:353(phrase)
-msgid "Shows the Print tab inside the Preferences dialog."
-msgstr "Εμφανίζει την καρτέλα Εκτύπωση μέσα στον διάλογο Προτιμήσεις."
+#: C/index.docbook:349(screenshot/mediaobject)
+msgid ""
+"<imageobject> <imagedata fileref=\"figures/gnome-dictionary-preferences-"
+"print.png\" format=\"PNG\"/> </imageobject> <textobject><phrase>Shows the "
+"Print tab inside the Preferences dialog.</phrase></textobject>"
+msgstr ""
+"<imageobject> <imagedata fileref=\"figures/gnome-dictionary-preferences-"
+"print.png\" format=\"PNG\"/> </imageobject> <textobject><phrase>Εμφανίζει τη "
+"καρτέλα Εκτύπωση μέσα στο διάλογο Προτιμήσεις.</phrase></textobject>"
 
-#: C/gnome-dictionary.xml:358(para)
+#: C/index.docbook:358(sect2/para)
 msgid ""
 "If you want to change the font name and size used when printing, perform the "
 "following steps:"
@@ -590,24 +698,24 @@ msgstr ""
 "Αν θελήσετε να αλλάξετε το όνομα και το μέγεθος της γραμματοσειράς, "
 "ακολουθήστε τα επόμενα βήματα:"
 
-#: C/gnome-dictionary.xml:362(para)
+#: C/index.docbook:362(listitem/para)
 msgid "Click on the <guilabel>Print Font</guilabel> button"
 msgstr ""
 "Κάντε κλικ πάνω στο κουμπί <guilabel>Γραμματοσειρά εκτύπωσης</guilabel>"
 
-#: C/gnome-dictionary.xml:363(para)
+#: C/index.docbook:363(listitem/para)
 msgid "Select the font and size you wish to use"
 msgstr "Επιλέξτε το μέγεθος της γραμματοσειράς που θα χρησιμοποιηθεί"
 
-#: C/gnome-dictionary.xml:364(para)
+#: C/index.docbook:364(listitem/para)
 msgid "Click <guibutton>Ok</guibutton>"
 msgstr "Κάντε κλικ στο <guibutton>Εντάξει</guibutton>"
 
-#: C/gnome-dictionary.xml:373(title)
+#: C/index.docbook:373(sect1/title)
 msgid "The Dictionary Applet"
 msgstr "Η μικροεφαρμογή Λεξικού"
 
-#: C/gnome-dictionary.xml:375(para)
+#: C/index.docbook:375(sect1/para)
 msgid ""
 "The <application>Dictionary</application> application comes with a panel "
 "applet, the <application>Dictionary Applet</application>. You can add the "
@@ -619,19 +727,25 @@ msgstr ""
 "Μπορείτε να προσθέσετε την <application>Μικροεφαρμογή Λεξικό</application> "
 "στον πίνακα εφαρμογών και να αναζητείτε λέξεις σε διάφορα λεξικά."
 
-#: C/gnome-dictionary.xml:381(title) C/gnome-dictionary.xml:417(title)
+#: C/index.docbook:381(figure/title) C/index.docbook:417(figure/title)
 msgid "Dictionary Applet Window"
 msgstr "Παράθυρο μικροεφαρμογής Λεξικό"
 
-#: C/gnome-dictionary.xml:387(phrase)
-msgid "Shows Dictionary Applet."
-msgstr "Εμφανίζει την μικροεφαρμογή Λεξικoύ."
+#: C/index.docbook:383(screenshot/mediaobject)
+msgid ""
+"<imageobject> <imagedata fileref=\"figures/gnome-dictionary-applet.png\" "
+"format=\"PNG\"/> </imageobject> <textobject><phrase>Shows Dictionary Applet."
+"</phrase></textobject>"
+msgstr ""
+"<imageobject> <imagedata fileref=\"figures/gnome-dictionary-applet.png\" "
+"format=\"PNG\"/> </imageobject> <textobject><phrase>Εμφανίζει το παράθυρο "
+"της μικροεφαρμογής Λεξικό.</phrase></textobject>"
 
-#: C/gnome-dictionary.xml:395(title)
+#: C/index.docbook:395(sect2/title)
 msgid "To Start Dictionary Applet"
 msgstr "Για να ξεκινήσετε την μικροεφαρμογή Λεξικό"
 
-#: C/gnome-dictionary.xml:397(para)
+#: C/index.docbook:397(sect2/para)
 msgid ""
 "To add <application>Dictionary Applet</application> to a panel, right-click "
 "on the panel, then choose <guimenuitem>Add to Panel</guimenuitem>. Select "
@@ -645,11 +759,11 @@ msgstr ""
 "εφαρμογών</application>, έπειτα κάντε κλικ στο <guibutton>Εντάξει</"
 "guibutton>."
 
-#: C/gnome-dictionary.xml:406(title)
+#: C/index.docbook:406(sect2/title)
 msgid "Using the Dictionary Applet"
 msgstr "Χρησιμοποιώντας την μικροεφαρμογή Λεξικού"
 
-#: C/gnome-dictionary.xml:408(para)
+#: C/index.docbook:408(sect2/para)
 msgid ""
 "To look up a word, type it into the <guilabel>entry field</guilabel>, and "
 "press <keycap>Enter</keycap> or right-click on the dictionary icon and then "
@@ -659,7 +773,7 @@ msgstr ""
 "εισαγωγής</guilabel>, και πατήστε <keycap>Enter</keycap> ή κάντε δεξί κλικ "
 "στο εικονίδιο λεξικού και μετά επιλέξτε <guimenuitem>Αναζήτηση</guimenuitem>."
 
-#: C/gnome-dictionary.xml:413(para)
+#: C/index.docbook:413(sect2/para)
 msgid ""
 "If some definition for the word was found, a window will appear, with the "
 "text of the definitions:"
@@ -667,11 +781,17 @@ msgstr ""
 "Αν βρεθούν ορισμοί της λέξεως, ένα παράθυρο θα εμφανιστεί με το κείμενο των "
 "ορισμών:"
 
-#: C/gnome-dictionary.xml:423(phrase)
-msgid "Shows Dictionary Applet main window."
-msgstr "Εμφανίζει το κεντρικό παράθυρο της μικροεφαρμογής Λεξικό."
+#: C/index.docbook:419(screenshot/mediaobject)
+msgid ""
+"<imageobject> <imagedata fileref=\"figures/gnome-dictionary-applet-window.png"
+"\" format=\"PNG\"/> </imageobject> <textobject><phrase>Shows Dictionary "
+"Applet main window.</phrase></textobject>"
+msgstr ""
+"<imageobject> <imagedata fileref=\"figures/gnome-dictionary-applet-window.png"
+"\" format=\"PNG\"/> </imageobject> <textobject><phrase>Εμφανίζει το κύριο "
+"παράθυρο της μικροεφαρμογής Λεξικό.</phrase></textobject>"
 
-#: C/gnome-dictionary.xml:428(para)
+#: C/index.docbook:428(sect2/para)
 msgid ""
 "Click <guibutton>Save</guibutton> to save the definitions to a text file. "
 "Click <guibutton>Print</guibutton> to print the definitions. Click "
@@ -682,7 +802,7 @@ msgstr ""
 "guibutton> για να εκτυπώσετε τα αποτελέσματα. Κάντε κλικ στο "
 "<guibutton>Καθαρισμός</guibutton> για να καθαρίσετε τα αποτελέσματα."
 
-#: C/gnome-dictionary.xml:432(para)
+#: C/index.docbook:432(sect2/para)
 msgid ""
 "You can make the window disappear by left-clicking on the dictionary icon or "
 "by pressing <keycap>Esc</keycap>."
@@ -690,7 +810,7 @@ msgstr ""
 "Μπορείτε να εξαφανίσετε το παράθυρο με αριστερό κλικ στο εικονίδιο του "
 "λεξικού ή πατώντας το <keycap>Esc</keycap>."
 
-#: C/gnome-dictionary.xml:440(para)
+#: C/index.docbook:440(sect2/para)
 msgid ""
 "To configure the <application>Dictionary Applet</application>, right-click "
 "on the dictionary icon, then choose <guimenuitem>Preferences</guimenuitem>."
@@ -699,7 +819,7 @@ msgstr ""
 "δεξί κλικ στο εικονίδιο λεξικού, μετά επιλέξτε <guimenuitem>Προτιμήσεις</"
 "guimenuitem>."
 
-#: C/gnome-dictionary.xml:443(para)
+#: C/index.docbook:443(sect2/para)
 msgid ""
 "The <guilabel>Preferences</guilabel> dialog is the same used by the "
 "<application>Dictionary</application> application, so refer to <xref linkend="
@@ -709,7 +829,68 @@ msgstr ""
 "εφαρμογή  <application>Λεξικό</application>, ανατρέξτε στο <xref linkend="
 "\"gnome-dictionary-preferences\"/>"
 
-#. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2.
-#: C/gnome-dictionary.xml:0(None)
-msgid "translator-credits"
-msgstr "Nikos Charonitakis <team@gnome.gr>, 2006."
+#: C/legal.xml:9(para/ulink)
+msgid "link"
+msgstr "σύνδεσμο"
+
+#: C/legal.xml:2(legalnotice/para)
+msgid ""
+"Permission is granted to copy, distribute and/or modify this document under "
+"the terms of the GNU Free Documentation License (GFDL), Version 1.1 or any "
+"later version published by the Free Software Foundation with no Invariant "
+"Sections, no Front-Cover Texts, and no Back-Cover Texts. You can find a copy "
+"of the GFDL at this <_:ulink-1/> or in the file COPYING-DOCS distributed "
+"with this manual."
+msgstr ""
+"Παρέχεται άδεια για την αντιγραφή, διανομή και/ή τροποποίηση αυτού του "
+"εγγράφου υπό τους όρους της GNU Free Documentation License (GFDL), Έκδοση "
+"1.1 ή μεταγενέστερης που δημοσιεύεται από το Free Software Foundation χωρίς "
+"αμετάβλητα τμήματα, χωρίς κείμενα πρωτοσέλιδου, και χωρίς κείμενα "
+"οπισθόφυλλου. Μπορεί να βρείτε ένα αντίγραφο της GFDL στο <_:ulink-1/> ή στο "
+"αρχείο COPYING-DOCS που διανέμεται με αυτό το εγχειρίδιο."
+
+#~ msgid "2005"
+#~ msgstr "2005"
+
+#~ msgid "Emmanuele"
+#~ msgstr "Emmanuele"
+
+#~ msgid "Bassi"
+#~ msgstr "Bassi"
+
+#~ msgid "ebassi@gmail.com"
+#~ msgstr "ebassi@gmail.com"
+
+#~ msgid "Dictionary Manual V1.0.0"
+#~ msgstr "Εγχειρίδιο Λεξικού V1.0.0"
+
+#~ msgid "January 2005"
+#~ msgstr "January 2005"
+
+#~ msgid "Dictionary"
+#~ msgstr "Λεξικό"
+
+#~ msgid "Shows Dictionary main window."
+#~ msgstr "Εμφανίζει το κύριο παράθυρο του Λεξικού."
+
+#~ msgid "Shows a definition inside the Dictionary main window."
+#~ msgstr "Εμφανίζει ένα ορισμό μέσα στο κεντρικό παράθυρο του λεξικού."
+
+#~ msgid "Shows the Dictionary Find pane inside the main window."
+#~ msgstr ""
+#~ "Εμφανίζει το πλαίσιο αναζήτησης του Λεξικού μέσα στο κύριο παράθυρο."
+
+#~ msgid "Shows the Source tab of the Preferences dialog."
+#~ msgstr "Εμφανίζει την καρτέλα Πηγή από τον διάλογο Προτιμήσεις."
+
+#~ msgid "Shows the Add Source dialog."
+#~ msgstr "Εμφανίζει τον διάλογο Προσθήκη πηγής."
+
+#~ msgid "Shows the Print tab inside the Preferences dialog."
+#~ msgstr "Εμφανίζει την καρτέλα Εκτύπωση μέσα στον διάλογο Προτιμήσεις."
+
+#~ msgid "Shows Dictionary Applet."
+#~ msgstr "Εμφανίζει την μικροεφαρμογή Λεξικoύ."
+
+#~ msgid "Shows Dictionary Applet main window."
+#~ msgstr "Εμφανίζει το κεντρικό παράθυρο της μικροεφαρμογής Λεξικό."
