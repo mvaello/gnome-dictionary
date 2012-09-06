@@ -1,6 +1,12 @@
 # Finnish messages for gnome-utils
 # Copyright (C) 2003-2009 Free Software Foundation, Inc.
 # Suomennos: http://gnome.fi/
+#
+# days = päivää sitten, ks. konteksti
+#
+# Gnome 2012-03 Finnish translation sprint participants:
+# Niklas Laxström
+# Timo Jyrinki
 # Tuomas Merilä <tuomas@merila.org>, 1999.
 # Antti Ahvensalmi <aahven@mbnet.fi>, 2000.
 # Lauri Nurmi <lanurmi@iki.fi>, 2003.
@@ -8,41 +14,154 @@
 # Ilkka Tuohela <hile@iki.fi>, 2005-2009.
 # Timo Jyrinki <timo.jyrinki@iki.fi>, 2008.
 # Tommi Vainikainen <thv@iki.fi>, 2009-2011.
-#
-# days = päivää sitten, ks. konteksti
-#
-# Gnome 2012-03 Finnish translation sprint participants:
-# Niklas Laxström
-# Timo Jyrinki
+# Jiri Grönroos <jiri.gronroos@iki.fi>, 2012.
 msgid ""
 msgstr ""
-""
 "Project-Id-Version: gnome-utils\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-dictionary&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2011-10-25 14:13+0000\n"
-"PO-Revision-Date: 2012-03-12 08:37:00+0000\n"
-"Last-Translator: Tommi Vainikainen <thv@iki.fi>\n"
-"Language-Team: Finnish <gnome-fi-laatu@lists.sourceforge.net>\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
+"dictionary&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2012-05-10 17:07+0000\n"
+"PO-Revision-Date: 2012-09-04 23:17+0300\n"
+"Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
+"Language-Team: Finnish <>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fi\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-POT-Import-Date: 2012-02-19 15:16:04+0000\n"
-"X-Generator: MediaWiki 1.20alpha (r113129); Translate 2012-03-02\n"
+"X-Generator: Lokalize 1.5\n"
 
 #: ../data/default.desktop.in.h:1
 msgid "Default Dictionary Server"
 msgstr "Oletussanakirjapalvelin"
 
 #: ../data/gnome-dictionary.desktop.in.in.h:1 ../src/gdict-about.c:62
-#: ../src/gdict-app.c:238 ../src/gdict-window.c:601 ../src/gdict-window.c:1894
+#: ../src/gdict-app.c:349 ../src/gdict-window.c:545 ../src/gdict-window.c:1807
 msgid "Dictionary"
 msgstr "Sanakirja"
 
 #: ../data/gnome-dictionary.desktop.in.in.h:2
 msgid "Check word definitions and spellings in an online dictionary"
 msgstr "Etsi sanojen määrittelyjä ja kirjoitusasuja verkkosanakirjoista"
+
+#: ../data/gnome-dictionary-menus.ui.h:1
+#| msgid "_Preferences"
+msgid "Preferences"
+msgstr "Asetukset"
+
+#: ../data/gnome-dictionary-menus.ui.h:2
+#| msgid "_Help"
+msgid "Help"
+msgstr "Ohje"
+
+#: ../data/gnome-dictionary-menus.ui.h:3
+#| msgid "Dictionary"
+msgid "About Dictionary"
+msgstr "Tietoja sanakirjasta"
+
+#: ../data/gnome-dictionary-menus.ui.h:4
+msgid "Quit"
+msgstr "Lopeta"
+
+#: ../data/gnome-dictionary-menus.ui.h:5
+msgid "_File"
+msgstr "_Tiedosto"
+
+#: ../data/gnome-dictionary-menus.ui.h:6
+msgid "_New"
+msgstr "_Uusi"
+
+#: ../data/gnome-dictionary-menus.ui.h:7
+msgid "_Save a Copy..."
+msgstr "Tallenna _kopio…"
+
+#: ../data/gnome-dictionary-menus.ui.h:8
+#| msgid "P_review..."
+msgid "P_review"
+msgstr "_Esikatselu"
+
+#: ../data/gnome-dictionary-menus.ui.h:9
+#| msgid "Print"
+msgid "_Print"
+msgstr "_Tulosta"
+
+#: ../data/gnome-dictionary-menus.ui.h:10
+msgid "_Close"
+msgstr "_Sulje"
+
+#: ../data/gnome-dictionary-menus.ui.h:11
+msgid "_Edit"
+msgstr "_Muokkaa"
+
+#: ../data/gnome-dictionary-menus.ui.h:12
+msgid "_Copy"
+msgstr "_Kopioi"
+
+#: ../data/gnome-dictionary-menus.ui.h:13
+msgid "Select _All"
+msgstr "Valitse k_aikki"
+
+#: ../data/gnome-dictionary-menus.ui.h:14
+#| msgid "F_ind:"
+msgid "_Find"
+msgstr "_Etsi"
+
+#: ../data/gnome-dictionary-menus.ui.h:15
+msgid "Find Ne_xt"
+msgstr "Etsi seuraa_va"
+
+#: ../data/gnome-dictionary-menus.ui.h:16
+msgid "Find Pre_vious"
+msgstr "Etsi edelline_n"
+
+#: ../data/gnome-dictionary-menus.ui.h:17
+msgid "_View"
+msgstr "_Näytä"
+
+#: ../data/gnome-dictionary-menus.ui.h:18
+msgid "_Sidebar"
+msgstr "Sivu_palkki"
+
+#: ../data/gnome-dictionary-menus.ui.h:19
+msgid "S_tatusbar"
+msgstr "_Tilarivi"
+
+#: ../data/gnome-dictionary-menus.ui.h:20
+msgid "Similar _Words"
+msgstr "_Samankaltaiset sanat"
+
+#: ../data/gnome-dictionary-menus.ui.h:21
+msgid "Dictionary Sources"
+msgstr "Sanakirjalähteet"
+
+#: ../data/gnome-dictionary-menus.ui.h:22
+msgid "Available _Databases"
+msgstr "Saatavilla olevat tieto_kannat"
+
+#: ../data/gnome-dictionary-menus.ui.h:23
+msgid "Available St_rategies"
+msgstr "Käytettävissä olevat _hakutavat"
+
+#: ../data/gnome-dictionary-menus.ui.h:24
+msgid "_Go"
+msgstr "_Siirry"
+
+#: ../data/gnome-dictionary-menus.ui.h:25
+msgid "_Previous Definition"
+msgstr "E_dellinen määritelmä"
+
+#: ../data/gnome-dictionary-menus.ui.h:26
+msgid "_Next Definition"
+msgstr "_Seuraava määritelmä"
+
+#: ../data/gnome-dictionary-menus.ui.h:27
+msgid "_First Definition"
+msgstr "_Ensimmäinen määritelmä"
+
+#: ../data/gnome-dictionary-menus.ui.h:28
+msgid "_Last Definition"
+msgstr "_Viimeinen määritelmä"
 
 #: ../data/gnome-dictionary-preferences.ui.h:1
 msgid "_Select a dictionary source for looking up words:"
@@ -94,16 +213,26 @@ msgid "The default database to use"
 msgstr "Käytettävä oletustietokanta"
 
 #: ../data/org.gnome.dictionary.gschema.xml.in.in.h:2
-msgid "The name of the default individual database or meta-database to use on a dictionary source. An exclamation mark (\"!\") means that all the databases present in a dictionary source should be searched"
-msgstr "Tietokannan lähteenä oletuksena käytettävän yksittäisen tietokannan tai tietokantakokoelman nimi. Huutomerkki ”!” määrittelee, että etsitään kaikista lähteessä olevista tietokannoista"
+msgid ""
+"The name of the default individual database or meta-database to use on a "
+"dictionary source. An exclamation mark (\"!\") means that all the databases "
+"present in a dictionary source should be searched"
+msgstr ""
+"Tietokannan lähteenä oletuksena käytettävän yksittäisen tietokannan tai "
+"tietokantakokoelman nimi. Huutomerkki ”!” määrittelee, että etsitään "
+"kaikista lähteessä olevista tietokannoista"
 
 #: ../data/org.gnome.dictionary.gschema.xml.in.in.h:3
 msgid "The default search strategy to use"
 msgstr "Käytettävä oletushakustrategia"
 
 #: ../data/org.gnome.dictionary.gschema.xml.in.in.h:4
-msgid "The name of the default search strategy to use on a dictionary source, if available. The default strategy is 'exact', that is match exact words."
-msgstr "Oletushakutapa, jos se on käytettävissä sanakirjalähteessä. Oletushakutapa on exact, jolla tarkoitetaan, että hakusanoille pitää löytyä tarkka osuma."
+msgid ""
+"The name of the default search strategy to use on a dictionary source, if "
+"available. The default strategy is 'exact', that is match exact words."
+msgstr ""
+"Oletushakutapa, jos se on käytettävissä sanakirjalähteessä. Oletushakutapa "
+"on exact, jolla tarkoitetaan, että hakusanoille pitää löytyä tarkka osuma."
 
 #: ../data/org.gnome.dictionary.gschema.xml.in.in.h:5
 msgid "The font to be used when printing"
@@ -118,7 +247,8 @@ msgid "The name of the dictionary source used"
 msgstr "Käytetyn sanakirjalähteen nimi"
 
 #: ../data/org.gnome.dictionary.gschema.xml.in.in.h:8
-msgid "The name of the dictionary source used to retrieve the definitions of words."
+msgid ""
+"The name of the dictionary source used to retrieve the definitions of words."
 msgstr "Sanojen määritelmien hakuun käytetyn sanakirjalähteen nimi."
 
 #: ../data/spanish.desktop.in.h:1
@@ -169,7 +299,9 @@ msgstr "Ei yhteyttä sanakirjapalvelimeen %s:%d"
 #: ../libgdict/gdict-client-context.c:1060
 #, c-format
 msgid "Lookup failed for hostname '%s': no suitable resources found"
-msgstr "Palvelimen ”%s” osoitteen selvitys epäonnistui: tarvittavia resursseja ei löytynyt"
+msgstr ""
+"Palvelimen ”%s” osoitteen selvitys epäonnistui: tarvittavia resursseja ei "
+"löytynyt"
 
 #: ../libgdict/gdict-client-context.c:1091
 #, c-format
@@ -183,13 +315,21 @@ msgstr "Haku sanakirjapalvelimelta %s epäonnistui: palvelinta ei löydy"
 
 #: ../libgdict/gdict-client-context.c:1177
 #, c-format
-msgid "Unable to connect to the dictionary server at '%s:%d'. The server replied with code %d (server down)"
-msgstr "Sanakirjapalvelimeen osoitteessa ”%s:%d” ei saatu yhteyttä. Palvelin palautti tilakoodin %d (palvelin pois käytöstä)"
+msgid ""
+"Unable to connect to the dictionary server at '%s:%d'. The server replied "
+"with code %d (server down)"
+msgstr ""
+"Sanakirjapalvelimeen osoitteessa ”%s:%d” ei saatu yhteyttä. Palvelin "
+"palautti tilakoodin %d (palvelin pois käytöstä)"
 
 #: ../libgdict/gdict-client-context.c:1196
 #, c-format
-msgid "Unable to parse the dictionary server reply\n: '%s'"
-msgstr "Sanakirjapalvelimen antaman vastauksen jäsentäminen epäonnistui\n: ”%s”"
+msgid ""
+"Unable to parse the dictionary server reply\n"
+": '%s'"
+msgstr ""
+"Sanakirjapalvelimen antaman vastauksen jäsentäminen epäonnistui\n"
+": ”%s”"
 
 #: ../libgdict/gdict-client-context.c:1225
 #, c-format
@@ -233,8 +373,12 @@ msgstr "Yhdistäminen sanakirjanpalvelimeen osoitteessa %s:%d epäonnistui"
 
 #: ../libgdict/gdict-client-context.c:1787
 #, c-format
-msgid "Error while reading reply from server:\n%s"
-msgstr "Virhe luettaessa vastausta palvelimelta:\n%s"
+msgid ""
+"Error while reading reply from server:\n"
+"%s"
+msgstr ""
+"Virhe luettaessa vastausta palvelimelta:\n"
+"%s"
 
 #: ../libgdict/gdict-client-context.c:1860
 #, c-format
@@ -270,16 +414,16 @@ msgstr "Vain paikallinen"
 msgid "Whether the context uses only local dictionaries or not"
 msgstr "Käyttääkö konteksti ainoastaan paikallisia sanakirjoja"
 
-#: ../libgdict/gdict-database-chooser.c:378
+#: ../libgdict/gdict-database-chooser.c:379
 msgid "Reload the list of available databases"
 msgstr "Lataa luettelo käytettävissä olevista tietokannoista uudestaan"
 
-#: ../libgdict/gdict-database-chooser.c:390
+#: ../libgdict/gdict-database-chooser.c:391
 msgid "Clear the list of available databases"
 msgstr "Tyhjennä luettelo käytettävissä olevista tietokannoista"
 
-#: ../libgdict/gdict-database-chooser.c:837 ../libgdict/gdict-speller.c:778
-#: ../libgdict/gdict-strategy-chooser.c:785
+#: ../libgdict/gdict-database-chooser.c:838 ../libgdict/gdict-speller.c:778
+#: ../libgdict/gdict-strategy-chooser.c:786
 msgid "Error while matching"
 msgstr "Sanojen täsmäämimen epäonnistui"
 
@@ -300,19 +444,19 @@ msgstr "_Edellinen"
 msgid "_Next"
 msgstr "_Seuraava"
 
-#: ../libgdict/gdict-defbox.c:2512
+#: ../libgdict/gdict-defbox.c:2514
 msgid "Error while looking up definition"
 msgstr "Määritelmän hakeminen epäonnistui"
 
-#: ../libgdict/gdict-defbox.c:2554 ../libgdict/gdict-speller.c:736
+#: ../libgdict/gdict-defbox.c:2556 ../libgdict/gdict-speller.c:736
 msgid "Another search is in progress"
 msgstr "Toinen haku on jo käynnissä"
 
-#: ../libgdict/gdict-defbox.c:2555 ../libgdict/gdict-speller.c:737
+#: ../libgdict/gdict-defbox.c:2557 ../libgdict/gdict-speller.c:737
 msgid "Please wait until the current search ends."
 msgstr "Odota, että käynnissä oleva haku valmistuu."
 
-#: ../libgdict/gdict-defbox.c:2594
+#: ../libgdict/gdict-defbox.c:2596
 msgid "Error while retrieving the definition"
 msgstr "Määritelmän hakeminen epäonnistui"
 
@@ -390,7 +534,8 @@ msgstr "Avainta ”%s” ei löydy sanakirjalähteen määrittelystä: %s"
 
 #: ../libgdict/gdict-source.c:555
 #, c-format
-msgid "Unable to get the '%s' key inside the dictionary source definition file: %s"
+msgid ""
+"Unable to get the '%s' key inside the dictionary source definition file: %s"
 msgstr "Avainta ”%s” ei löydy sanakirjalähteen määrittelytiedostosta: %s"
 
 #: ../libgdict/gdict-source.c:741
@@ -439,11 +584,11 @@ msgstr "GdictContext-olion kyselyssä käytettävä tietokanta"
 msgid "The strategy used to query the GdictContext"
 msgstr "GdictContext-olion kyselyssä käytettävä hakutapa"
 
-#: ../libgdict/gdict-strategy-chooser.c:361
+#: ../libgdict/gdict-strategy-chooser.c:362
 msgid "Reload the list of available strategies"
 msgstr "Lataa luettelo käytettävissä olevista hakutavoista uudestaan"
 
-#: ../libgdict/gdict-strategy-chooser.c:373
+#: ../libgdict/gdict-strategy-chooser.c:374
 msgid "Clear the list of available strategies"
 msgstr "Tyhjennä luettelo käytettävissä olevista hakutavoista"
 
@@ -469,7 +614,17 @@ msgstr "Näytä GDict-valinnat"
 
 #: ../src/gdict-about.c:55
 msgid "translator-credits"
-msgstr "Niklas Laxström, 2012\nTommi Vainikainen, 2009-2011\nTimo Jyrinki, 2008\nIlkka Tuohela, 2005-2009\nPauli Virtanen, 2003-2005\nLauri Nurmi, 2003\nAntti Ahvensalmi, 2000\nTuomas Merilä, 1999\n\nhttp://gnome.fi/"
+msgstr ""
+"Niklas Laxström, 2012\n"
+"Tommi Vainikainen, 2009-2011\n"
+"Timo Jyrinki, 2008\n"
+"Ilkka Tuohela, 2005-2009\n"
+"Pauli Virtanen, 2003-2005\n"
+"Lauri Nurmi, 2003\n"
+"Antti Ahvensalmi, 2000\n"
+"Tuomas Merilä, 1999\n"
+"\n"
+"http://gnome.fi/"
 
 #: ../src/gdict-about.c:57
 msgid "Look up words in dictionaries"
@@ -507,8 +662,18 @@ msgstr "Käytettävä hakutapa"
 msgid "WORDS"
 msgstr "SANAT"
 
+#: ../src/gdict-app.c:108
+msgid "Dictionary Preferences"
+msgstr "Sanakirjan asetukset"
+
+#: ../src/gdict-app.c:130 ../src/gdict-pref-dialog.c:496
+#: ../src/gdict-source-dialog.c:477
+#, c-format
+msgid "There was an error while displaying help"
+msgstr "Ohjeen näyttäminen epäonnistui"
+
 #. create the new option context
-#: ../src/gdict-app.c:143
+#: ../src/gdict-app.c:219
 msgid " - Look up words in dictionaries"
 msgstr " - Etsi sanoja sanakirjoista"
 
@@ -533,12 +698,6 @@ msgstr "Tämä poistaa sanakirjan lähteen pysyvästi listalta."
 #, c-format
 msgid "Unable to remove source '%s'"
 msgstr "Lähteen ”%s” poistaminen epäonnistui"
-
-#: ../src/gdict-pref-dialog.c:496 ../src/gdict-source-dialog.c:477
-#: ../src/gdict-window.c:1245
-#, c-format
-msgid "There was an error while displaying help"
-msgstr "Ohjeen näyttäminen epäonnistui"
 
 #: ../src/gdict-pref-dialog.c:643
 msgid "Add a new dictionary source"
@@ -569,256 +728,147 @@ msgstr "Lähdetiedoston luominen epäonnistui"
 msgid "Unable to save source file"
 msgstr "Lähdetiedoston tallentaminen epäonnistui"
 
-#: ../src/gdict-window.c:311
+#: ../src/gdict-window.c:255
 #, c-format
 msgid "Searching for '%s'..."
 msgstr "Etsitään sanaa ”%s”…"
 
-#: ../src/gdict-window.c:343 ../src/gdict-window.c:400
+#: ../src/gdict-window.c:287 ../src/gdict-window.c:344
 msgid "No definitions found"
 msgstr "Määritelmiä ei löytynyt"
 
-#: ../src/gdict-window.c:345
+#: ../src/gdict-window.c:289
 #, c-format
 msgid "A definition found"
 msgid_plural "%d definitions found"
 msgstr[0] "Määritelmä löytyi"
 msgstr[1] "%d määritelmää löytyi"
 
-#: ../src/gdict-window.c:516
+#: ../src/gdict-window.c:460
 #, c-format
 msgid "No dictionary source available with name '%s'"
 msgstr "Nimellä ”%s” ei löydy sanakirjalähdettä"
 
-#: ../src/gdict-window.c:520
+#: ../src/gdict-window.c:464
 msgid "Unable to find dictionary source"
 msgstr "Sanakirjalähdettä ei löytynyt"
 
-#: ../src/gdict-window.c:536
+#: ../src/gdict-window.c:480
 #, c-format
 msgid "No context available for source '%s'"
 msgstr "Lähteelle ”%s” ei löydy kontekstia"
 
-#: ../src/gdict-window.c:540
+#: ../src/gdict-window.c:484
 msgid "Unable to create a context"
 msgstr "Kontekstin luominen epäonnistui"
 
-#: ../src/gdict-window.c:599
+#: ../src/gdict-window.c:543
 #, c-format
 msgid "%s - Dictionary"
 msgstr "%s - sanakirja"
 
-#: ../src/gdict-window.c:962
+#: ../src/gdict-window.c:912
 msgid "Save a Copy"
 msgstr "Tallenna kopio"
 
-#: ../src/gdict-window.c:972
+#: ../src/gdict-window.c:922
 msgid "Untitled document"
 msgstr "Nimeämätön asiakirja"
 
-#: ../src/gdict-window.c:993
+#: ../src/gdict-window.c:943
 #, c-format
 msgid "Error while writing to '%s'"
 msgstr "Tiedostoon ”%s” kirjoittaminen epäonnistui"
 
-#: ../src/gdict-window.c:1098
-msgid "Dictionary Preferences"
-msgstr "Sanakirjan asetukset"
-
-#: ../src/gdict-window.c:1280
-msgid "_File"
-msgstr "_Tiedosto"
-
-#: ../src/gdict-window.c:1281
-msgid "_Edit"
-msgstr "_Muokkaa"
-
-#: ../src/gdict-window.c:1282
-msgid "_View"
-msgstr "_Näytä"
-
-#: ../src/gdict-window.c:1283
-msgid "_Go"
-msgstr "_Siirry"
-
-#: ../src/gdict-window.c:1284
-msgid "_Help"
-msgstr "O_hje"
-
-#. File menu
-#: ../src/gdict-window.c:1287
-msgid "_New"
-msgstr "_Uusi"
-
-#: ../src/gdict-window.c:1288
-msgid "New look up"
-msgstr "Uusi haku"
-
-#: ../src/gdict-window.c:1289
-msgid "_Save a Copy..."
-msgstr "Tallenna _kopio…"
-
-#: ../src/gdict-window.c:1291
-msgid "P_review..."
-msgstr "_Esikatselu…"
-
-#: ../src/gdict-window.c:1292
-msgid "Preview this document"
-msgstr "Esikatsele asiakirjaa"
-
-#: ../src/gdict-window.c:1293
-msgid "_Print..."
-msgstr "T_ulosta…"
-
-#: ../src/gdict-window.c:1294
-msgid "Print this document"
-msgstr "Tulosta tämä asiakirja"
-
-#: ../src/gdict-window.c:1301
-msgid "Select _All"
-msgstr "Valitse k_aikki"
-
-#: ../src/gdict-window.c:1304
-msgid "Find a word or phrase in the document"
-msgstr "Etsii sanaa tai lausetta tekstistä"
-
-#: ../src/gdict-window.c:1306
-msgid "Find Ne_xt"
-msgstr "Etsi seuraa_va"
-
-#: ../src/gdict-window.c:1308
-msgid "Find Pre_vious"
-msgstr "Etsi edelline_n"
-
-#: ../src/gdict-window.c:1310
-msgid "_Preferences"
-msgstr "_Asetukset"
-
-#. Go menu
-#: ../src/gdict-window.c:1314
-msgid "_Previous Definition"
-msgstr "E_dellinen määritelmä"
-
-#: ../src/gdict-window.c:1315
-msgid "Go to the previous definition"
-msgstr "Siirry edelliseen määritelmään"
-
-#: ../src/gdict-window.c:1316
-msgid "_Next Definition"
-msgstr "_Seuraava määritelmä"
-
-#: ../src/gdict-window.c:1317
-msgid "Go to the next definition"
-msgstr "Siirry seuraavaan määritelmään"
-
-#: ../src/gdict-window.c:1318
-msgid "_First Definition"
-msgstr "_Ensimmäinen määritelmä"
-
-#: ../src/gdict-window.c:1319
-msgid "Go to the first definition"
-msgstr "Siirry ensimmäiseen määritelmään"
-
-#: ../src/gdict-window.c:1320
-msgid "_Last Definition"
-msgstr "_Viimeinen määritelmä"
-
-#: ../src/gdict-window.c:1321
-msgid "Go to the last definition"
-msgstr "Siirry viimeiseen määritelmään"
-
-#. View menu
-#: ../src/gdict-window.c:1324
-msgid "Similar _Words"
-msgstr "_Samankaltaiset sanat"
-
-#: ../src/gdict-window.c:1326
-msgid "Dictionary Sources"
-msgstr "Sanakirjalähteet"
-
-#: ../src/gdict-window.c:1328
-msgid "Available _Databases"
-msgstr "Saatavilla olevat tieto_kannat"
-
-#: ../src/gdict-window.c:1330
-msgid "Available St_rategies"
-msgstr "Käytettävissä olevat _hakutavat"
-
-#. Help menu
-#: ../src/gdict-window.c:1334
-msgid "_Contents"
-msgstr "_Sisältö"
-
-#: ../src/gdict-window.c:1336
-msgid "_About"
-msgstr "_Tietoja"
-
-#. View menu
-#: ../src/gdict-window.c:1347
-msgid "_Sidebar"
-msgstr "Sivu_palkki"
-
-#: ../src/gdict-window.c:1349
-msgid "S_tatusbar"
-msgstr "_Tilarivi"
-
-#: ../src/gdict-window.c:1414
+#: ../src/gdict-window.c:1361
 #, c-format
 msgid "Dictionary source `%s' selected"
 msgstr "Sanakirjalähde ”%s” valittu"
 
-#: ../src/gdict-window.c:1435
+#: ../src/gdict-window.c:1382
 #, c-format
 msgid "Strategy `%s' selected"
 msgstr "Hakutapa ”%s” valittu"
 
-#: ../src/gdict-window.c:1455
+#: ../src/gdict-window.c:1402
 #, c-format
 msgid "Database `%s' selected"
 msgstr "Tietokanta ”%s” valittu"
 
-#: ../src/gdict-window.c:1475
+#: ../src/gdict-window.c:1422
 #, c-format
 msgid "Word `%s' selected"
 msgstr "Sana ”%s” valittu"
 
 #. speller
-#: ../src/gdict-window.c:1500
+#: ../src/gdict-window.c:1447
 msgid "Double-click on the word to look up"
 msgstr "Hae sanan määritelmä kaksoisnapsauttamalla sitä"
 
 #. strat-chooser
-#: ../src/gdict-window.c:1506
+#: ../src/gdict-window.c:1453
 msgid "Double-click on the matching strategy to use"
 msgstr "Kaksoisnapsauta täsmäystapaa, jota haluat käyttää"
 
 #. source-chooser
-#: ../src/gdict-window.c:1511
+#: ../src/gdict-window.c:1458
 msgid "Double-click on the source to use"
 msgstr "Kaksoisnapsauta lähdettä, jota haluat käyttää"
 
 #. db-chooser
-#: ../src/gdict-window.c:1520
+#: ../src/gdict-window.c:1467
 msgid "Double-click on the database to use"
 msgstr "Kaksoisnapsauta tietokantaa, jota haluat käyttää"
 
-#: ../src/gdict-window.c:1700
+#: ../src/gdict-window.c:1617
 msgid "Look _up:"
 msgstr "_Etsi sanaa:"
 
-#: ../src/gdict-window.c:1775
+#: ../src/gdict-window.c:1692
 msgid "Similar words"
 msgstr "Samankaltaiset sanat"
 
-#: ../src/gdict-window.c:1788
+#: ../src/gdict-window.c:1705
 msgid "Available dictionaries"
 msgstr "Saatavilla olevat sanakirjat"
 
-#: ../src/gdict-window.c:1806
+#: ../src/gdict-window.c:1723
 msgid "Available strategies"
 msgstr "Käytettävissä olevat hakutavat"
 
-#: ../src/gdict-window.c:1822
+#: ../src/gdict-window.c:1739
 msgid "Dictionary sources"
 msgstr "Sanakirjalähteet"
 
+#~ msgid "New look up"
+#~ msgstr "Uusi haku"
+
+#~ msgid "Preview this document"
+#~ msgstr "Esikatsele asiakirjaa"
+
+#~ msgid "_Print..."
+#~ msgstr "T_ulosta…"
+
+#~ msgid "Print this document"
+#~ msgstr "Tulosta tämä asiakirja"
+
+#~ msgid "Find a word or phrase in the document"
+#~ msgstr "Etsii sanaa tai lausetta tekstistä"
+
+#~ msgid "Go to the previous definition"
+#~ msgstr "Siirry edelliseen määritelmään"
+
+#~ msgid "Go to the next definition"
+#~ msgstr "Siirry seuraavaan määritelmään"
+
+#~ msgid "Go to the first definition"
+#~ msgstr "Siirry ensimmäiseen määritelmään"
+
+#~ msgid "Go to the last definition"
+#~ msgstr "Siirry viimeiseen määritelmään"
+
+#~ msgid "_Contents"
+#~ msgstr "_Sisältö"
+
+#~ msgid "_About"
+#~ msgstr "_Tietoja"
