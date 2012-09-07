@@ -1,63 +1,201 @@
 # Thai translation for gnome-utils.
-# Copyright (C) 2004-2011 Free Software Foundation, Inc.
+# Copyright (C) 2004-2012 Free Software Foundation, Inc.
 # This file is distributed under the same license as the gnome-utils package.
 # Khunti Yeesoon <sc445138@bucc3.buu.ac.th>, 2003.
 # Paisa Seeluangsawat <paisa@users.sf.net>, 2004.
 # Supranee Thirawatthanasuk <supranee@opentle.org>, 2004.
-# Theppitak Karoonboonyanan <thep@linux.thai.net>, 2005-2011.
+# Theppitak Karoonboonyanan <thep@linux.thai.net>, 2005-2012.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-utils\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-10-06 14:35-0400\n"
-"PO-Revision-Date: 2011-09-18 14:16+0700\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
+"dictionary&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2012-05-10 17:07+0000\n"
+"PO-Revision-Date: 2012-09-07 15:31+0700\n"
 "Last-Translator: Theppitak Karoonboonyanan <thep@linux.thai.net>\n"
 "Language-Team: Thai <thai-l10n@googlegroups.com>\n"
-"Language: th\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: th\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #: ../data/default.desktop.in.h:1
 msgid "Default Dictionary Server"
 msgstr "เซิร์ฟเวอร์พจนานุกรมปริยาย"
 
-#: ../data/spanish.desktop.in.h:1
-msgid "Spanish Dictionaries"
-msgstr "พจนานุกรมสเปน"
+#: ../data/gnome-dictionary.desktop.in.in.h:1 ../src/gdict-about.c:62
+#: ../src/gdict-app.c:349 ../src/gdict-window.c:545 ../src/gdict-window.c:1807
+msgid "Dictionary"
+msgstr "พจนานุกรม"
 
-#: ../data/thai.desktop.in.h:1
-msgid "Longdo Thai-English Dictionaries"
-msgstr "พจนานุกรมไทย-อังกฤษ Longdo"
-
-#: ../data/gnome-dictionary.desktop.in.in.h:1
+#: ../data/gnome-dictionary.desktop.in.in.h:2
 msgid "Check word definitions and spellings in an online dictionary"
 msgstr "หาความหมายและการสะกดของคำในพจนานุกรมออนไลน์"
 
-#: ../data/gnome-dictionary.desktop.in.in.h:2 ../src/gdict-about.c:62
-#: ../src/gdict-app.c:233 ../src/gdict-window.c:601 ../src/gdict-window.c:1894
-msgid "Dictionary"
+#: ../data/gnome-dictionary-menus.ui.h:1
+msgid "Preferences"
+msgstr "ปรับแต่ง"
+
+#: ../data/gnome-dictionary-menus.ui.h:2
+msgid "Help"
+msgstr "วิธีใช้"
+
+#: ../data/gnome-dictionary-menus.ui.h:3
+msgid "About Dictionary"
+msgstr "เกี่ยวกับพจนานุกรม"
+
+#: ../data/gnome-dictionary-menus.ui.h:4
+msgid "Quit"
+msgstr "ออก"
+
+#: ../data/gnome-dictionary-menus.ui.h:5
+msgid "_File"
+msgstr "แ_ฟ้ม"
+
+#: ../data/gnome-dictionary-menus.ui.h:6
+msgid "_New"
+msgstr "ใ_หม่"
+
+#: ../data/gnome-dictionary-menus.ui.h:7
+msgid "_Save a Copy..."
+msgstr "_บันทึกสำเนา..."
+
+#: ../data/gnome-dictionary-menus.ui.h:8
+msgid "P_review"
+msgstr "ตัว_อย่างก่อนพิมพ์"
+
+#: ../data/gnome-dictionary-menus.ui.h:9
+msgid "_Print"
+msgstr "_พิมพ์"
+
+#: ../data/gnome-dictionary-menus.ui.h:10
+msgid "_Close"
+msgstr "ปิ_ด"
+
+#: ../data/gnome-dictionary-menus.ui.h:11
+msgid "_Edit"
+msgstr "แ_ก้ไข"
+
+#: ../data/gnome-dictionary-menus.ui.h:12
+msgid "_Copy"
+msgstr "_คัดลอก"
+
+#: ../data/gnome-dictionary-menus.ui.h:13
+msgid "Select _All"
+msgstr "เลือกทั้ง_หมด"
+
+#: ../data/gnome-dictionary-menus.ui.h:14
+msgid "_Find"
+msgstr "_หา"
+
+#: ../data/gnome-dictionary-menus.ui.h:15
+msgid "Find Ne_xt"
+msgstr "หาต่_อ"
+
+#: ../data/gnome-dictionary-menus.ui.h:16
+msgid "Find Pre_vious"
+msgstr "หา_ก่อนหน้า"
+
+#: ../data/gnome-dictionary-menus.ui.h:17
+msgid "_View"
+msgstr "มุ_มมอง"
+
+#: ../data/gnome-dictionary-menus.ui.h:18
+msgid "_Sidebar"
+msgstr "แถบ_ข้าง"
+
+#: ../data/gnome-dictionary-menus.ui.h:19
+msgid "S_tatusbar"
+msgstr "แถบ_สถานะ"
+
+#: ../data/gnome-dictionary-menus.ui.h:20
+msgid "Similar _Words"
+msgstr "คำ_คล้าย"
+
+#: ../data/gnome-dictionary-menus.ui.h:21
+msgid "Dictionary Sources"
+msgstr "แหล่งพจนานุกรม"
+
+#: ../data/gnome-dictionary-menus.ui.h:22
+msgid "Available _Databases"
+msgstr "ฐาน_ข้อมูลที่มี"
+
+#: ../data/gnome-dictionary-menus.ui.h:23
+msgid "Available St_rategies"
+msgstr "_กลวิธีการค้นหาที่มี"
+
+#: ../data/gnome-dictionary-menus.ui.h:24
+msgid "_Go"
+msgstr "ไ_ป"
+
+#: ../data/gnome-dictionary-menus.ui.h:25
+msgid "_Previous Definition"
+msgstr "ความหมาย_ก่อนหน้า"
+
+#: ../data/gnome-dictionary-menus.ui.h:26
+msgid "_Next Definition"
+msgstr "ความหมาย_ถัดไป"
+
+#: ../data/gnome-dictionary-menus.ui.h:27
+msgid "_First Definition"
+msgstr "ความหมายแ_รก"
+
+#: ../data/gnome-dictionary-menus.ui.h:28
+msgid "_Last Definition"
+msgstr "ความหมายสุด_ท้าย"
+
+#: ../data/gnome-dictionary-preferences.ui.h:1
+msgid "_Select a dictionary source for looking up words:"
+msgstr "เ_ลือกแหล่งพจนานุกรมที่จะค้นหาคำ:"
+
+#: ../data/gnome-dictionary-preferences.ui.h:2
+#: ../data/gnome-dictionary-source.ui.h:6
+msgid "Source"
+msgstr "แหล่ง"
+
+#: ../data/gnome-dictionary-preferences.ui.h:3
+msgid "_Print font:"
+msgstr "แ_บบอักษรสำหรับพิมพ์:"
+
+#: ../data/gnome-dictionary-preferences.ui.h:4
+msgid "Print"
+msgstr "พิมพ์"
+
+#: ../data/gnome-dictionary-source.ui.h:1
+msgid "_Description:"
+msgstr "_คำบรรยาย:"
+
+#: ../data/gnome-dictionary-source.ui.h:2
+msgid "_Transport:"
+msgstr "การ_ส่งข้อมูล:"
+
+#: ../data/gnome-dictionary-source.ui.h:3
+msgid "H_ostname:"
+msgstr "ชื่อโ_ฮสต์:"
+
+#: ../data/gnome-dictionary-source.ui.h:4
+msgid "_Port:"
+msgstr "_พอร์ต:"
+
+#: ../data/gnome-dictionary-source.ui.h:5
+msgid "Source Name"
+msgstr "ชื่อแหล่ง"
+
+#: ../data/gnome-dictionary-source.ui.h:7
+msgid "Dictionaries"
 msgstr "พจนานุกรม"
+
+#: ../data/gnome-dictionary-source.ui.h:8
+msgid "Strategies"
+msgstr "กลวิธีการค้นหา"
 
 #: ../data/org.gnome.dictionary.gschema.xml.in.in.h:1
 msgid "The default database to use"
 msgstr "ฐานข้อมูลปริยายที่จะใช้"
 
 #: ../data/org.gnome.dictionary.gschema.xml.in.in.h:2
-msgid "The default search strategy to use"
-msgstr "กลวิธีการค้นหาที่จะใช้โดยปริยาย"
-
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:3
-msgid "The font to be used when printing"
-msgstr "แบบอักษรที่จะใช้ในการพิมพ์"
-
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:4
-msgid "The font to be used when printing a definition."
-msgstr "แบบอักษรที่จะใช้ในการพิมพ์คำจำกัดความของคำ"
-
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:5
 msgid ""
 "The name of the default individual database or meta-database to use on a "
 "dictionary source. An exclamation mark (\"!\") means that all the databases "
@@ -66,13 +204,25 @@ msgstr ""
 "ชื่อของฐานข้อมูลเดี่ยวหรือกลุ่มฐานข้อมูลปริยายที่จะใช้จากแหล่งพจนานุกรม การใช้เครื่องหมายอัศเจรีย์ "
 "(\"!\") จะหมายถึงให้ค้นทุกฐานข้อมูลที่มีอยู่ในแหล่งนั้น"
 
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:6
+#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:3
+msgid "The default search strategy to use"
+msgstr "กลวิธีการค้นหาที่จะใช้โดยปริยาย"
+
+#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:4
 msgid ""
 "The name of the default search strategy to use on a dictionary source, if "
 "available. The default strategy is 'exact', that is match exact words."
 msgstr ""
 "ชื่อกลวิธีที่จะใช้โดยปริยายในการค้นพจนานุกรม ค่าปริยายคือ 'exact' "
 "ซึ่งหมายถึงการค้นแบบตรงตัวสะกด"
+
+#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:5
+msgid "The font to be used when printing"
+msgstr "แบบอักษรที่จะใช้ในการพิมพ์"
+
+#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:6
+msgid "The font to be used when printing a definition."
+msgstr "แบบอักษรที่จะใช้ในการพิมพ์คำจำกัดความของคำ"
 
 #: ../data/org.gnome.dictionary.gschema.xml.in.in.h:7
 msgid "The name of the dictionary source used"
@@ -83,50 +233,13 @@ msgid ""
 "The name of the dictionary source used to retrieve the definitions of words."
 msgstr "ชื่อของแหล่งพจนานุกรมที่ใช้ในการค้นหาความหมายคำ"
 
-#: ../data/gnome-dictionary-preferences.ui.h:1
-msgid "Print"
-msgstr "พิมพ์"
+#: ../data/spanish.desktop.in.h:1
+msgid "Spanish Dictionaries"
+msgstr "พจนานุกรมสเปน"
 
-#: ../data/gnome-dictionary-preferences.ui.h:2
-#: ../data/gnome-dictionary-source.ui.h:3
-msgid "Source"
-msgstr "แหล่ง"
-
-#: ../data/gnome-dictionary-preferences.ui.h:3
-msgid "_Print font:"
-msgstr "แ_บบอักษรสำหรับพิมพ์:"
-
-#: ../data/gnome-dictionary-preferences.ui.h:4
-msgid "_Select a dictionary source for looking up words:"
-msgstr "เ_ลือกแหล่งพจนานุกรมที่จะค้นหาคำ:"
-
-#: ../data/gnome-dictionary-source.ui.h:1
-msgid "Dictionaries"
-msgstr "พจนานุกรม"
-
-#: ../data/gnome-dictionary-source.ui.h:2
-msgid "H_ostname:"
-msgstr "ชื่อโ_ฮสต์:"
-
-#: ../data/gnome-dictionary-source.ui.h:4
-msgid "Source Name"
-msgstr "ชื่อแหล่ง"
-
-#: ../data/gnome-dictionary-source.ui.h:5
-msgid "Strategies"
-msgstr "กลวิธีการค้นหา"
-
-#: ../data/gnome-dictionary-source.ui.h:6
-msgid "_Description:"
-msgstr "_คำบรรยาย:"
-
-#: ../data/gnome-dictionary-source.ui.h:7
-msgid "_Port:"
-msgstr "_พอร์ต:"
-
-#: ../data/gnome-dictionary-source.ui.h:8
-msgid "_Transport:"
-msgstr "การ_ส่งข้อมูล:"
+#: ../data/thai.desktop.in.h:1
+msgid "Longdo Thai-English Dictionaries"
+msgstr "พจนานุกรมไทย-อังกฤษ Longdo"
 
 #: ../libgdict/gdict-client-context.c:283
 msgid "Client Name"
@@ -281,16 +394,16 @@ msgstr "ในเครื่องเท่านั้น"
 msgid "Whether the context uses only local dictionaries or not"
 msgstr "กำหนดว่า context ใช้พจนานุกรมในเครื่องเท่านั้นหรือไม่"
 
-#: ../libgdict/gdict-database-chooser.c:378
+#: ../libgdict/gdict-database-chooser.c:379
 msgid "Reload the list of available databases"
 msgstr "อ่านรายชื่อฐานข้อมูลที่มีใหม่"
 
-#: ../libgdict/gdict-database-chooser.c:390
+#: ../libgdict/gdict-database-chooser.c:391
 msgid "Clear the list of available databases"
 msgstr "ล้างรายชื่อฐานข้อมูลที่มี"
 
-#: ../libgdict/gdict-database-chooser.c:837 ../libgdict/gdict-speller.c:778
-#: ../libgdict/gdict-strategy-chooser.c:785
+#: ../libgdict/gdict-database-chooser.c:838 ../libgdict/gdict-speller.c:778
+#: ../libgdict/gdict-strategy-chooser.c:786
 msgid "Error while matching"
 msgstr "เกิดข้อผิดพลาดขณะค้นหา"
 
@@ -311,19 +424,19 @@ msgstr "_ก่อนหน้า"
 msgid "_Next"
 msgstr "_ถัดไป"
 
-#: ../libgdict/gdict-defbox.c:2512
+#: ../libgdict/gdict-defbox.c:2514
 msgid "Error while looking up definition"
 msgstr "เกิดข้อผิดพลาดขณะค้นความหมายของคำ"
 
-#: ../libgdict/gdict-defbox.c:2554 ../libgdict/gdict-speller.c:736
+#: ../libgdict/gdict-defbox.c:2556 ../libgdict/gdict-speller.c:736
 msgid "Another search is in progress"
 msgstr "กำลังอยู่ระหว่างค้นคำอื่น"
 
-#: ../libgdict/gdict-defbox.c:2555 ../libgdict/gdict-speller.c:737
+#: ../libgdict/gdict-defbox.c:2557 ../libgdict/gdict-speller.c:737
 msgid "Please wait until the current search ends."
 msgstr "กรุณารอสักครู่ จนกว่าจะการค้นจะเสร็จสิ้น"
 
-#: ../libgdict/gdict-defbox.c:2594
+#: ../libgdict/gdict-defbox.c:2596
 msgid "Error while retrieving the definition"
 msgstr "เกิดข้อผิดพลาดระหว่างดึงความหมายของคำ"
 
@@ -451,11 +564,11 @@ msgstr "ฐานข้อมูลที่จะใช้สืบค้น Gd
 msgid "The strategy used to query the GdictContext"
 msgstr "กลวิธีที่จะใช้สืบค้น GdictContext"
 
-#: ../libgdict/gdict-strategy-chooser.c:361
+#: ../libgdict/gdict-strategy-chooser.c:362
 msgid "Reload the list of available strategies"
 msgstr "อ่านรายชื่อกลวิธีการสืบค้นที่มีใหม่"
 
-#: ../libgdict/gdict-strategy-chooser.c:373
+#: ../libgdict/gdict-strategy-chooser.c:374
 msgid "Clear the list of available strategies"
 msgstr "ล้างรายชื่อกลวิธีการสืบค้นที่มี"
 
@@ -525,8 +638,18 @@ msgstr "กลวิธีที่จะใช้"
 msgid "WORDS"
 msgstr "รายการคำ"
 
+#: ../src/gdict-app.c:108
+msgid "Dictionary Preferences"
+msgstr "ปรับแต่งพจนานุกรม"
+
+#: ../src/gdict-app.c:130 ../src/gdict-pref-dialog.c:496
+#: ../src/gdict-source-dialog.c:477
+#, c-format
+msgid "There was an error while displaying help"
+msgstr "เกิดข้อผิดพลาดขณะแสดงวิธีใช้"
+
 #. create the new option context
-#: ../src/gdict-app.c:143
+#: ../src/gdict-app.c:219
 msgid " - Look up words in dictionaries"
 msgstr " - เปิดหาคำในพจนานุกรมต่างๆ"
 
@@ -552,12 +675,6 @@ msgstr "การลบนี้ จะลบแหล่งพจนานุ�
 msgid "Unable to remove source '%s'"
 msgstr "ไม่สามารถลบแหล่ง '%s' ได้"
 
-#: ../src/gdict-pref-dialog.c:496 ../src/gdict-source-dialog.c:479
-#: ../src/gdict-window.c:1245
-#, c-format
-msgid "There was an error while displaying help"
-msgstr "เกิดข้อผิดพลาดขณะแสดงวิธีใช้"
-
 #: ../src/gdict-pref-dialog.c:643
 msgid "Add a new dictionary source"
 msgstr "เพิ่มแหล่งพจนานุกรมใหม่"
@@ -579,262 +696,154 @@ msgstr "กำหนดแบบอักษรที่จะใช้พิม
 msgid "Unable to display the preview: %s"
 msgstr "ไม่สามารถแสดงตัวอย่าง: %s"
 
-#: ../src/gdict-source-dialog.c:341 ../src/gdict-source-dialog.c:434
+#: ../src/gdict-source-dialog.c:342 ../src/gdict-source-dialog.c:434
 msgid "Unable to create a source file"
 msgstr "ไม่สามารถสร้างแฟ้มแหล่งได้"
 
-#: ../src/gdict-source-dialog.c:359 ../src/gdict-source-dialog.c:452
+#: ../src/gdict-source-dialog.c:358 ../src/gdict-source-dialog.c:450
 msgid "Unable to save source file"
 msgstr "ไม่สามารถบันทึกแฟ้มแหล่งได้"
 
-#: ../src/gdict-window.c:311
+#: ../src/gdict-window.c:255
 #, c-format
 msgid "Searching for '%s'..."
 msgstr "กำลังค้นหา '%s'..."
 
-#: ../src/gdict-window.c:343 ../src/gdict-window.c:400
+#: ../src/gdict-window.c:287 ../src/gdict-window.c:344
 msgid "No definitions found"
 msgstr "ไม่พบความหมายของคำ"
 
-#: ../src/gdict-window.c:345
+#: ../src/gdict-window.c:289
 #, c-format
 msgid "A definition found"
 msgid_plural "%d definitions found"
 msgstr[0] "พบ %d ความหมาย"
 
-#: ../src/gdict-window.c:516
+#: ../src/gdict-window.c:460
 #, c-format
 msgid "No dictionary source available with name '%s'"
 msgstr "ไม่มีแหล่งพจนานุกรมที่ชื่อ '%s'"
 
-#: ../src/gdict-window.c:520
+#: ../src/gdict-window.c:464
 msgid "Unable to find dictionary source"
 msgstr "หาแหล่งพจนานุกรมไม่พบ"
 
-#: ../src/gdict-window.c:536
+#: ../src/gdict-window.c:480
 #, c-format
 msgid "No context available for source '%s'"
 msgstr "ไม่มี context สำหรับแหล่ง '%s' ให้ใช้"
 
-#: ../src/gdict-window.c:540
+#: ../src/gdict-window.c:484
 msgid "Unable to create a context"
 msgstr "ไม่สามารถสร้าง context ได้"
 
-#: ../src/gdict-window.c:599
+#: ../src/gdict-window.c:543
 #, c-format
 msgid "%s - Dictionary"
 msgstr "%s - พจนานุกรม"
 
-#: ../src/gdict-window.c:962
+#: ../src/gdict-window.c:912
 msgid "Save a Copy"
 msgstr "บันทึกสำเนา"
 
-#: ../src/gdict-window.c:972
+#: ../src/gdict-window.c:922
 msgid "Untitled document"
 msgstr "เอกสารไม่มีชื่อ"
 
-#: ../src/gdict-window.c:993
+#: ../src/gdict-window.c:943
 #, c-format
 msgid "Error while writing to '%s'"
 msgstr "เกิดข้อผิดพลาดขณะเขียนแฟ้ม '%s'"
 
-#: ../src/gdict-window.c:1098
-msgid "Dictionary Preferences"
-msgstr "ปรับแต่งพจนานุกรม"
-
-#: ../src/gdict-window.c:1280
-msgid "_File"
-msgstr "แ_ฟ้ม"
-
-#: ../src/gdict-window.c:1281
-msgid "_Edit"
-msgstr "แ_ก้ไข"
-
-#: ../src/gdict-window.c:1282
-msgid "_View"
-msgstr "_มุมมอง"
-
-#: ../src/gdict-window.c:1283
-msgid "_Go"
-msgstr "ไ_ป"
-
-#: ../src/gdict-window.c:1284
-msgid "_Help"
-msgstr "_วิธีใช้"
-
-#. File menu
-#: ../src/gdict-window.c:1287
-msgid "_New"
-msgstr "ใ_หม่"
-
-#: ../src/gdict-window.c:1288
-msgid "New look up"
-msgstr "การค้นหาใหม่"
-
-#: ../src/gdict-window.c:1289
-msgid "_Save a Copy..."
-msgstr "_บันทึกสำเนา..."
-
-#: ../src/gdict-window.c:1291
-msgid "P_review..."
-msgstr "ตัว_อย่างก่อนพิมพ์..."
-
-#: ../src/gdict-window.c:1292
-msgid "Preview this document"
-msgstr "ดูตัวอย่างก่อนพิมพ์เอกสารนี้"
-
-#: ../src/gdict-window.c:1293
-msgid "_Print..."
-msgstr "_พิมพ์..."
-
-#: ../src/gdict-window.c:1294
-msgid "Print this document"
-msgstr "พิมพ์เอกสารนี้"
-
-#: ../src/gdict-window.c:1301
-msgid "Select _All"
-msgstr "เลือกทั้ง_หมด"
-
-#: ../src/gdict-window.c:1304
-msgid "Find a word or phrase in the document"
-msgstr "หาคำหรือวลีในเอกสาร"
-
-#: ../src/gdict-window.c:1306
-msgid "Find Ne_xt"
-msgstr "หาต่_อ"
-
-#: ../src/gdict-window.c:1308
-msgid "Find Pre_vious"
-msgstr "หา_ก่อนหน้า"
-
-#: ../src/gdict-window.c:1310
-msgid "_Preferences"
-msgstr "_ปรับแต่ง"
-
-#. Go menu
-#: ../src/gdict-window.c:1314
-msgid "_Previous Definition"
-msgstr "ความหมาย_ก่อนหน้า"
-
-#: ../src/gdict-window.c:1315
-msgid "Go to the previous definition"
-msgstr "ไปยังความหมายก่อนหน้า"
-
-#: ../src/gdict-window.c:1316
-msgid "_Next Definition"
-msgstr "ความหมาย_ถัดไป"
-
-#: ../src/gdict-window.c:1317
-msgid "Go to the next definition"
-msgstr "ไปยังความหมายถัดไป"
-
-#: ../src/gdict-window.c:1318
-msgid "_First Definition"
-msgstr "ความหมายแ_รก"
-
-#: ../src/gdict-window.c:1319
-msgid "Go to the first definition"
-msgstr "ไปยังความหมายแรก"
-
-#: ../src/gdict-window.c:1320
-msgid "_Last Definition"
-msgstr "ความหมายสุด_ท้าย"
-
-#: ../src/gdict-window.c:1321
-msgid "Go to the last definition"
-msgstr "ไปยังความหมายสุดท้าย"
-
-#. View menu
-#: ../src/gdict-window.c:1324
-msgid "Similar _Words"
-msgstr "คำ_คล้าย"
-
-#: ../src/gdict-window.c:1326
-msgid "Dictionary Sources"
-msgstr "แหล่งพจนานุกรม"
-
-#: ../src/gdict-window.c:1328
-msgid "Available _Databases"
-msgstr "ฐาน_ข้อมูลที่มี"
-
-#: ../src/gdict-window.c:1330
-msgid "Available St_rategies"
-msgstr "_กลวิธีการค้นหาที่มี"
-
-#. Help menu
-#: ../src/gdict-window.c:1334
-msgid "_Contents"
-msgstr "เนื้อ_หา"
-
-#: ../src/gdict-window.c:1336
-msgid "_About"
-msgstr "เ_กี่ยวกับ"
-
-#. View menu
-#: ../src/gdict-window.c:1347
-msgid "_Sidebar"
-msgstr "แถบ_ข้าง"
-
-#: ../src/gdict-window.c:1349
-msgid "S_tatusbar"
-msgstr "แถบ_สถานะ"
-
-#: ../src/gdict-window.c:1414
+#: ../src/gdict-window.c:1361
 #, c-format
 msgid "Dictionary source `%s' selected"
 msgstr "เลือกแหล่งพจนานุกรม `%s' แล้ว"
 
-#: ../src/gdict-window.c:1435
+#: ../src/gdict-window.c:1382
 #, c-format
 msgid "Strategy `%s' selected"
 msgstr "เลือกกลวิธีการค้นหา `%s' แล้ว"
 
-#: ../src/gdict-window.c:1455
+#: ../src/gdict-window.c:1402
 #, c-format
 msgid "Database `%s' selected"
 msgstr "เลือกฐานข้อมูล `%s' แล้ว"
 
-#: ../src/gdict-window.c:1475
+#: ../src/gdict-window.c:1422
 #, c-format
 msgid "Word `%s' selected"
 msgstr "เลือกคำ `%s' แล้ว"
 
 #. speller
-#: ../src/gdict-window.c:1500
+#: ../src/gdict-window.c:1447
 msgid "Double-click on the word to look up"
 msgstr "ดับเบิลคลิกที่คำที่คุณต้องการค้นหาความหมาย"
 
 #. strat-chooser
-#: ../src/gdict-window.c:1506
+#: ../src/gdict-window.c:1453
 msgid "Double-click on the matching strategy to use"
 msgstr "ดับเบิลคลิกที่กลวิธีการค้นหาที่จะใช้"
 
 #. source-chooser
-#: ../src/gdict-window.c:1511
+#: ../src/gdict-window.c:1458
 msgid "Double-click on the source to use"
 msgstr "ดับเบิลคลิกที่แหล่งพจนานุกรมที่จะใช้"
 
 #. db-chooser
-#: ../src/gdict-window.c:1520
+#: ../src/gdict-window.c:1467
 msgid "Double-click on the database to use"
 msgstr "ดับเบิลคลิกที่ฐานข้อมูลที่จะใช้"
 
-#: ../src/gdict-window.c:1700
+#: ../src/gdict-window.c:1617
 msgid "Look _up:"
 msgstr "_ค้นหา:"
 
-#: ../src/gdict-window.c:1775
+#: ../src/gdict-window.c:1692
 msgid "Similar words"
 msgstr "คำคล้าย"
 
-#: ../src/gdict-window.c:1788
+#: ../src/gdict-window.c:1705
 msgid "Available dictionaries"
 msgstr "พจนานุกรมที่มี"
 
-#: ../src/gdict-window.c:1806
+#: ../src/gdict-window.c:1723
 msgid "Available strategies"
 msgstr "กลวิธีการค้นหาที่มี"
 
-#: ../src/gdict-window.c:1822
+#: ../src/gdict-window.c:1739
 msgid "Dictionary sources"
 msgstr "แหล่งพจนานุกรม"
+
+#~ msgid "New look up"
+#~ msgstr "การค้นหาใหม่"
+
+#~ msgid "Preview this document"
+#~ msgstr "ดูตัวอย่างก่อนพิมพ์เอกสารนี้"
+
+#~ msgid "_Print..."
+#~ msgstr "_พิมพ์..."
+
+#~ msgid "Print this document"
+#~ msgstr "พิมพ์เอกสารนี้"
+
+#~ msgid "Find a word or phrase in the document"
+#~ msgstr "หาคำหรือวลีในเอกสาร"
+
+#~ msgid "Go to the previous definition"
+#~ msgstr "ไปยังความหมายก่อนหน้า"
+
+#~ msgid "Go to the next definition"
+#~ msgstr "ไปยังความหมายถัดไป"
+
+#~ msgid "Go to the first definition"
+#~ msgstr "ไปยังความหมายแรก"
+
+#~ msgid "Go to the last definition"
+#~ msgstr "ไปยังความหมายสุดท้าย"
+
+#~ msgid "_Contents"
+#~ msgstr "เนื้อ_หา"
+
+#~ msgid "_About"
+#~ msgstr "เ_กี่ยวกับ"
