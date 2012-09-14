@@ -5,91 +5,160 @@
 #
 # Amanpreet Singh Alam <amanlinux@netscape.net>, 2004.
 # A S Alam <aalam@users.sf.net>, 2005, 2006, 2007,2008, 2009, 2010, 2011.
-# Amanpreet Singh Alam <aalam@users.sf.net>, 2009.
+# Amanpreet Singh Alam <aalam@users.sf.net>, 2009, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-utils.HEAD\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-10-06 14:35-0400\n"
-"PO-Revision-Date: 2011-09-23 06:52+0530\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
+"dictionary&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2012-05-10 17:07+0000\n"
+"PO-Revision-Date: 2012-09-14 07:24+0530\n"
 "Last-Translator: A S Alam <aalam@users.sf.net>\n"
 "Language-Team: Punjabi/Panjabi <kde-i18n-doc@kde.org>\n"
-"Language: pa\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: pa\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 1.2\n"
+"X-Generator: Lokalize 1.4\n"
 
 #: ../data/default.desktop.in.h:1
 msgid "Default Dictionary Server"
 msgstr "ਡਿਫਾਲਟ ਡਿਕਸ਼ਨਰੀ ਸਰਵਰ"
 
-#: ../data/spanish.desktop.in.h:1
-msgid "Spanish Dictionaries"
-msgstr "ਸਪੇਨੀ ਡਿਕਸ਼ਨਰੀ"
-
-#: ../data/thai.desktop.in.h:1
-msgid "Longdo Thai-English Dictionaries"
-msgstr "ਲੋਂਗਦੋ ਥਾਈ-ਅੰਗਰੇਜ਼ੀ ਡਿਕਸ਼ਨਰੀ"
-
-#: ../data/gnome-dictionary.desktop.in.in.h:1
-msgid "Check word definitions and spellings in an online dictionary"
-msgstr "ਇੱਕ ਆਨਲਾਈਨ ਡਿਕਸ਼ਨਰੀ ਵਿੱਚ ਸ਼ਬਦ ਪ੍ਰੀਭਾਸ਼ਾ ਅਤੇ ਸ਼ਬਦ-ਜੋੜ ਵੇਖੋ"
-
-#: ../data/gnome-dictionary.desktop.in.in.h:2 ../src/gdict-about.c:62
-#: ../src/gdict-app.c:233 ../src/gdict-window.c:601 ../src/gdict-window.c:1894
+#: ../data/gnome-dictionary.desktop.in.in.h:1 ../src/gdict-about.c:62
+#: ../src/gdict-app.c:349 ../src/gdict-window.c:545 ../src/gdict-window.c:1807
 msgid "Dictionary"
 msgstr "ਡਿਕਸ਼ਨਰੀ"
 
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:1
-msgid "The default database to use"
-msgstr "ਵਰਤਣ ਲਈ ਮੂਲ ਡਾਟਾਬੇਸ"
+#: ../data/gnome-dictionary.desktop.in.in.h:2
+msgid "Check word definitions and spellings in an online dictionary"
+msgstr "ਇੱਕ ਆਨਲਾਈਨ ਡਿਕਸ਼ਨਰੀ ਵਿੱਚ ਸ਼ਬਦ ਪ੍ਰੀਭਾਸ਼ਾ ਅਤੇ ਸ਼ਬਦ-ਜੋੜ ਵੇਖੋ"
 
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:2
-msgid "The default search strategy to use"
-msgstr "ਵਰਤਣ ਲਈ ਮੂਲ ਖੋਜ ਨੀਤੀ"
+#: ../data/gnome-dictionary-menus.ui.h:1
+#| msgid "_Preferences"
+msgid "Preferences"
+msgstr "ਮੇਰੀ ਪਸੰਦ"
 
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:3
-msgid "The font to be used when printing"
-msgstr "ਪਰਿੰਟ ਕਰਨ ਲਈ ਵਰਤੇ ਜਾਣ ਵਾਲੇ ਫੋਂਟ"
+#: ../data/gnome-dictionary-menus.ui.h:2
+#| msgid "_Help"
+msgid "Help"
+msgstr "ਮੱਦਦ"
 
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:4
-msgid "The font to be used when printing a definition."
-msgstr "ਇੱਕ ਪਰਿਭਾਸ਼ਾ ਛਾਪਣ ਲਈ ਵਰਤੇ ਜਾਣ ਵਾਲੇ ਫੋਂਟ ਹੈ।"
+#: ../data/gnome-dictionary-menus.ui.h:3
+#| msgid "Dictionary"
+msgid "About Dictionary"
+msgstr "ਡਿਕਸ਼ਨਰੀ ਬਾਰੇ"
 
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:5
-msgid ""
-"The name of the default individual database or meta-database to use on a "
-"dictionary source. An exclamation mark (\"!\") means that all the databases "
-"present in a dictionary source should be searched"
-msgstr ""
-"ਇੱਕ ਡਿਕਸ਼ਨਰੀ ਸਰੋਤ ਦੇ ਲਈ ਵਰਤਣ ਲਈ ਮੂਲ ਇੱਕਲਾ ਡਾਟਾਬੇਸ ਜਾਂ ਮੈਟਾ-ਡਾਟਾਬੇਸ ਦਾ ਨਾਂ ਹੈ। ਹੈਰਾਨੀਵਾਚਕ "
-"ਨਿਸ਼ਾਨ (\"!\") ਦਾ ਮਤਲਬ ਹੈ ਕਿ ਸਰੋਤ ਉੱਤੇ ਮੌਜੂਦ ਹਰੇਕ ਡਾਟਾਬੇਸ ਵਿੱਚ ਖੋਜਿਆ ਜਾਵੇਗਾ।"
+#: ../data/gnome-dictionary-menus.ui.h:4
+msgid "Quit"
+msgstr "ਬਾਹਰ"
 
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:6
-msgid ""
-"The name of the default search strategy to use on a dictionary source, if "
-"available. The default strategy is 'exact', that is match exact words."
-msgstr ""
-"ਇੱਕ ਡਿਕਸ਼ਨਰੀ ਉੱਤੇ ਵਰਤਣ ਲਈ ਮੂਲ ਖੋਜ ਨੀਤੀ ਦਾ ਨਾਂ, ਜੇਕਰ ਕੋਈ ਹੈ। ਮੂਲ ਨੀਤੀ 'exact' ਹੈ, ਇਹ ਨੀਤੀ "
-"ਪੂਰਾ ਸ਼ਬਦ ਮਿਲਾਉਦੀ ਹੈ।"
+#: ../data/gnome-dictionary-menus.ui.h:5
+msgid "_File"
+msgstr "ਫਾਇਲ(_F)"
 
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:7
-msgid "The name of the dictionary source used"
-msgstr "ਵਰਤੇ ਜਾਣ ਵਾਲੇ ਡਿਕਸ਼ਨਰੀ ਸਰੋਤ ਦਾ ਨਾਂ ਹੈ"
+#: ../data/gnome-dictionary-menus.ui.h:6
+msgid "_New"
+msgstr "ਵੇਖੋ(_N)"
 
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:8
-msgid ""
-"The name of the dictionary source used to retrieve the definitions of words."
-msgstr "ਸ਼ਬਦਾਂ ਦੀ ਪਰਿਭਾਸ਼ਾ ਪ੍ਰਾਪਤ ਕਰਨ ਲਈ ਵਰਤੇ ਜਾਣ ਵਾਲੇ ਡਿਕਸ਼ਨਰੀ ਦੇ ਸਰੋਤ ਦਾ ਨਾਂ ਹੈ।"
+#: ../data/gnome-dictionary-menus.ui.h:7
+msgid "_Save a Copy..."
+msgstr "ਇੱਕ ਕਾਪੀ ਸੰਭਾਲੋ(_S)..."
+
+#: ../data/gnome-dictionary-menus.ui.h:8
+#| msgid "P_review..."
+msgid "P_review"
+msgstr "ਝਲਕ(_r)"
+
+#: ../data/gnome-dictionary-menus.ui.h:9
+#| msgid "Print"
+msgid "_Print"
+msgstr "ਪਰਿੰਟ ਕਰੋ(_P)"
+
+#: ../data/gnome-dictionary-menus.ui.h:10
+msgid "_Close"
+msgstr "ਬੰਦ ਕਰੋ(_C)"
+
+#: ../data/gnome-dictionary-menus.ui.h:11
+msgid "_Edit"
+msgstr "ਸੋਧ(_E)"
+
+#: ../data/gnome-dictionary-menus.ui.h:12
+msgid "_Copy"
+msgstr "ਕਾਪੀ ਕਰੋ(_C)"
+
+#: ../data/gnome-dictionary-menus.ui.h:13
+msgid "Select _All"
+msgstr "ਸਭ ਚੁਣੋ(_A)"
+
+#: ../data/gnome-dictionary-menus.ui.h:14
+#| msgid "F_ind:"
+msgid "_Find"
+msgstr "ਖੋਜ(_i)"
+
+#: ../data/gnome-dictionary-menus.ui.h:15
+msgid "Find Ne_xt"
+msgstr "ਅੱਗੇ ਖੋਜ(_x)"
+
+#: ../data/gnome-dictionary-menus.ui.h:16
+msgid "Find Pre_vious"
+msgstr "ਪਿੱਛੇ ਖੋਜ(_v)"
+
+#: ../data/gnome-dictionary-menus.ui.h:17
+msgid "_View"
+msgstr "ਵੇਖੋ(_V)"
+
+#: ../data/gnome-dictionary-menus.ui.h:18
+msgid "_Sidebar"
+msgstr "ਬਾਹੀ(_S)"
+
+#: ../data/gnome-dictionary-menus.ui.h:19
+msgid "S_tatusbar"
+msgstr "ਹਾਲਤ-ਪੱਟੀ(_t)"
+
+#: ../data/gnome-dictionary-menus.ui.h:20
+msgid "Similar _Words"
+msgstr "ਰਲਦੇ ਸ਼ਬਦ(_W)"
+
+#: ../data/gnome-dictionary-menus.ui.h:21
+msgid "Dictionary Sources"
+msgstr "ਡਿਕਸ਼ਨਰੀ ਸਰੋਤ"
+
+#: ../data/gnome-dictionary-menus.ui.h:22
+msgid "Available _Databases"
+msgstr "ਉਪਲੱਬਧ ਡਾਟਾਬੇਸ(_D)"
+
+#: ../data/gnome-dictionary-menus.ui.h:23
+msgid "Available St_rategies"
+msgstr "ਉਪਲੱਬਧ ਨੀਤੀਆਂ(_r)"
+
+#: ../data/gnome-dictionary-menus.ui.h:24
+msgid "_Go"
+msgstr "ਜਾਓ(_G)"
+
+#: ../data/gnome-dictionary-menus.ui.h:25
+msgid "_Previous Definition"
+msgstr "ਪਰਿਭਾਸ਼ਾ ਪਿੱਛੇ(_P)"
+
+#: ../data/gnome-dictionary-menus.ui.h:26
+msgid "_Next Definition"
+msgstr "ਪਰਿਭਾਸ਼ਾ ਅੱਗੇ(_N)"
+
+#: ../data/gnome-dictionary-menus.ui.h:27
+msgid "_First Definition"
+msgstr "ਪਹਿਲੀਂ ਪਰਿਭਾਸ਼ਾ(_F)"
+
+#: ../data/gnome-dictionary-menus.ui.h:28
+msgid "_Last Definition"
+msgstr "ਆਖਰੀ ਪਰਿਭਾਸ਼ਾ(_L)"
 
 #: ../data/gnome-dictionary-preferences.ui.h:1
-msgid "Print"
-msgstr "ਪਰਿੰਟ ਕਰੋ"
+msgid "_Select a dictionary source for looking up words:"
+msgstr "ਸ਼ਬਦਾਂ ਦੀ ਖੋਜ ਲਈ ਇੱਕ ਡਿਕਸ਼ਨਰੀ ਸਰੋਤ ਦੀ ਚੋਣ ਕਰੋ(_S):"
 
 #: ../data/gnome-dictionary-preferences.ui.h:2
-#: ../data/gnome-dictionary-source.ui.h:3
+#: ../data/gnome-dictionary-source.ui.h:6
 msgid "Source"
 msgstr "ਸਰੋਤ"
 
@@ -98,36 +167,89 @@ msgid "_Print font:"
 msgstr "ਪਰਿੰਟ ਫੋਂਟ(_P):"
 
 #: ../data/gnome-dictionary-preferences.ui.h:4
-msgid "_Select a dictionary source for looking up words:"
-msgstr "ਸ਼ਬਦਾਂ ਦੀ ਖੋਜ ਲਈ ਇੱਕ ਡਿਕਸ਼ਨਰੀ ਸਰੋਤ ਦੀ ਚੋਣ ਕਰੋ(_S):"
+msgid "Print"
+msgstr "ਪਰਿੰਟ ਕਰੋ"
 
 #: ../data/gnome-dictionary-source.ui.h:1
-msgid "Dictionaries"
-msgstr "ਡਿਕਸ਼ਨਰੀਆਂ"
+msgid "_Description:"
+msgstr "ਵੇਰਵਾ(_D):"
 
 #: ../data/gnome-dictionary-source.ui.h:2
+msgid "_Transport:"
+msgstr "ਟਰਾਂਸਪੋਰਟ(_T):"
+
+#: ../data/gnome-dictionary-source.ui.h:3
 msgid "H_ostname:"
 msgstr "ਹੋਸਟ ਨਾਂ(_O):"
 
 #: ../data/gnome-dictionary-source.ui.h:4
-msgid "Source Name"
-msgstr "ਸਰੋਤ ਨਾਂ"
-
-#: ../data/gnome-dictionary-source.ui.h:5
-msgid "Strategies"
-msgstr "ਨੀਤੀਆਂ"
-
-#: ../data/gnome-dictionary-source.ui.h:6
-msgid "_Description:"
-msgstr "ਵੇਰਵਾ(_D):"
-
-#: ../data/gnome-dictionary-source.ui.h:7
 msgid "_Port:"
 msgstr "ਪੋਰਟ(_P):"
 
+#: ../data/gnome-dictionary-source.ui.h:5
+msgid "Source Name"
+msgstr "ਸਰੋਤ ਨਾਂ"
+
+#: ../data/gnome-dictionary-source.ui.h:7
+msgid "Dictionaries"
+msgstr "ਡਿਕਸ਼ਨਰੀਆਂ"
+
 #: ../data/gnome-dictionary-source.ui.h:8
-msgid "_Transport:"
-msgstr "ਟਰਾਂਸਪੋਰਟ(_T):"
+msgid "Strategies"
+msgstr "ਨੀਤੀਆਂ"
+
+#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:1
+msgid "The default database to use"
+msgstr "ਵਰਤਣ ਲਈ ਮੂਲ ਡਾਟਾਬੇਸ"
+
+#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:2
+msgid ""
+"The name of the default individual database or meta-database to use on a "
+"dictionary source. An exclamation mark (\"!\") means that all the databases "
+"present in a dictionary source should be searched"
+msgstr ""
+"ਇੱਕ ਡਿਕਸ਼ਨਰੀ ਸਰੋਤ ਦੇ ਲਈ ਵਰਤਣ ਲਈ ਮੂਲ ਇੱਕਲਾ ਡਾਟਾਬੇਸ ਜਾਂ ਮੈਟਾ-ਡਾਟਾਬੇਸ ਦਾ ਨਾਂ ਹੈ। "
+"ਹੈਰਾਨੀਵਾਚਕ "
+"ਨਿਸ਼ਾਨ (\"!\") ਦਾ ਮਤਲਬ ਹੈ ਕਿ ਸਰੋਤ ਉੱਤੇ ਮੌਜੂਦ ਹਰੇਕ ਡਾਟਾਬੇਸ ਵਿੱਚ ਖੋਜਿਆ ਜਾਵੇਗਾ।"
+
+#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:3
+msgid "The default search strategy to use"
+msgstr "ਵਰਤਣ ਲਈ ਮੂਲ ਖੋਜ ਨੀਤੀ"
+
+#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:4
+msgid ""
+"The name of the default search strategy to use on a dictionary source, if "
+"available. The default strategy is 'exact', that is match exact words."
+msgstr ""
+"ਇੱਕ ਡਿਕਸ਼ਨਰੀ ਉੱਤੇ ਵਰਤਣ ਲਈ ਮੂਲ ਖੋਜ ਨੀਤੀ ਦਾ ਨਾਂ, ਜੇਕਰ ਕੋਈ ਹੈ। ਮੂਲ ਨੀਤੀ 'exact' "
+"ਹੈ, ਇਹ ਨੀਤੀ "
+"ਪੂਰਾ ਸ਼ਬਦ ਮਿਲਾਉਦੀ ਹੈ।"
+
+#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:5
+msgid "The font to be used when printing"
+msgstr "ਪਰਿੰਟ ਕਰਨ ਲਈ ਵਰਤੇ ਜਾਣ ਵਾਲੇ ਫੋਂਟ"
+
+#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:6
+msgid "The font to be used when printing a definition."
+msgstr "ਇੱਕ ਪਰਿਭਾਸ਼ਾ ਛਾਪਣ ਲਈ ਵਰਤੇ ਜਾਣ ਵਾਲੇ ਫੋਂਟ ਹੈ।"
+
+#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:7
+msgid "The name of the dictionary source used"
+msgstr "ਵਰਤੇ ਜਾਣ ਵਾਲੇ ਡਿਕਸ਼ਨਰੀ ਸਰੋਤ ਦਾ ਨਾਂ ਹੈ"
+
+#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:8
+msgid ""
+"The name of the dictionary source used to retrieve the definitions of words."
+msgstr ""
+"ਸ਼ਬਦਾਂ ਦੀ ਪਰਿਭਾਸ਼ਾ ਪ੍ਰਾਪਤ ਕਰਨ ਲਈ ਵਰਤੇ ਜਾਣ ਵਾਲੇ ਡਿਕਸ਼ਨਰੀ ਦੇ ਸਰੋਤ ਦਾ ਨਾਂ ਹੈ।"
+
+#: ../data/spanish.desktop.in.h:1
+msgid "Spanish Dictionaries"
+msgstr "ਸਪੇਨੀ ਡਿਕਸ਼ਨਰੀ"
+
+#: ../data/thai.desktop.in.h:1
+msgid "Longdo Thai-English Dictionaries"
+msgstr "ਲੋਂਗਦੋ ਥਾਈ-ਅੰਗਰੇਜ਼ੀ ਡਿਕਸ਼ਨਰੀ"
 
 #: ../libgdict/gdict-client-context.c:283
 msgid "Client Name"
@@ -187,7 +309,8 @@ msgid ""
 "Unable to connect to the dictionary server at '%s:%d'. The server replied "
 "with code %d (server down)"
 msgstr ""
-"'%s:%d' ਉੱਤੇ ਡਿਕਸ਼ਨਰੀ ਸਰਵਰ ਨਾ ਜੁੜਨ ਲਈ ਅਸਮਰੱਥ ਹੈ। ਸਰਵਰ ਦਾ ਕੋਡ (%d) ਨਾਲ ਜਵਾਬ (ਸਰਵਰ ਬੰਦ "
+"'%s:%d' ਉੱਤੇ ਡਿਕਸ਼ਨਰੀ ਸਰਵਰ ਨਾ ਜੁੜਨ ਲਈ ਅਸਮਰੱਥ ਹੈ। ਸਰਵਰ ਦਾ ਕੋਡ (%d) ਨਾਲ ਜਵਾਬ "
+"(ਸਰਵਰ ਬੰਦ "
 "ਹੈ)"
 
 #: ../libgdict/gdict-client-context.c:1196
@@ -282,16 +405,16 @@ msgstr "ਲੋਕਲ ਹੀ"
 msgid "Whether the context uses only local dictionaries or not"
 msgstr "ਕੀ ਭਾਗ ਸਿਰਫ਼ ਲੋਕਲ ਡਿਕਸ਼ਨਰੀ ਵਰਤੇ ਜਾਂ ਨਾ"
 
-#: ../libgdict/gdict-database-chooser.c:378
+#: ../libgdict/gdict-database-chooser.c:379
 msgid "Reload the list of available databases"
 msgstr "ਉਪਲੱਬਧ ਡਾਟਾਬੇਸ ਦੀ ਸੂਚੀ ਮੁੜ-ਲੋਡ"
 
-#: ../libgdict/gdict-database-chooser.c:390
+#: ../libgdict/gdict-database-chooser.c:391
 msgid "Clear the list of available databases"
 msgstr "ਉਪਲੱਬਧ ਡਾਟਾਬੇਸ ਦੀ ਸੂਚੀ ਸਾਫ਼ ਕਰੋ"
 
-#: ../libgdict/gdict-database-chooser.c:837 ../libgdict/gdict-speller.c:778
-#: ../libgdict/gdict-strategy-chooser.c:785
+#: ../libgdict/gdict-database-chooser.c:838 ../libgdict/gdict-speller.c:778
+#: ../libgdict/gdict-strategy-chooser.c:786
 msgid "Error while matching"
 msgstr "ਮੇਲ ਕਰਨ ਦੌਰਾਨ ਗਲਤੀ"
 
@@ -312,19 +435,19 @@ msgstr "ਪਿੱਛੇ(_P)"
 msgid "_Next"
 msgstr "ਅੱਗੇ(_N)"
 
-#: ../libgdict/gdict-defbox.c:2512
+#: ../libgdict/gdict-defbox.c:2514
 msgid "Error while looking up definition"
 msgstr "ਪਰਿਭਾਸ਼ਾ ਖੋਜ ਕਰਨ ਦੌਰਾਨ ਗਲਤੀ"
 
-#: ../libgdict/gdict-defbox.c:2554 ../libgdict/gdict-speller.c:736
+#: ../libgdict/gdict-defbox.c:2556 ../libgdict/gdict-speller.c:736
 msgid "Another search is in progress"
 msgstr "ਹੋਰ ਖੋਜ ਜਾਰੀ ਹੈ"
 
-#: ../libgdict/gdict-defbox.c:2555 ../libgdict/gdict-speller.c:737
+#: ../libgdict/gdict-defbox.c:2557 ../libgdict/gdict-speller.c:737
 msgid "Please wait until the current search ends."
 msgstr "ਕਿਰਪਾ ਕਰਕੇ ਮੌਜੂਦਾ ਖੋਜ ਖਤਮ ਹੋਣ ਦੀ ਉਡੀਕ ਕਰੋ"
 
-#: ../libgdict/gdict-defbox.c:2594
+#: ../libgdict/gdict-defbox.c:2596
 msgid "Error while retrieving the definition"
 msgstr "ਪਰਿਭਾਸ਼ਾ ਪ੍ਰਾਪਤ ਕਰਨ ਦੌਰਾਨ ਗਲਤੀ"
 
@@ -452,11 +575,11 @@ msgstr "GdictContext ਸਵਾਲ ਲਈ ਡਾਟਾਬੇਸ ਵਰਤਿਆ �
 msgid "The strategy used to query the GdictContext"
 msgstr "GdictContext ਸਵਾਲ ਲਈ ਨੀਤੀ ਵਰਤੋਂ ਜਾਵੇਗੀ"
 
-#: ../libgdict/gdict-strategy-chooser.c:361
+#: ../libgdict/gdict-strategy-chooser.c:362
 msgid "Reload the list of available strategies"
 msgstr "ਉਪਲੱਬਧ ਨੀਤੀਆਂ ਦੀ ਲਿਸਟ ਮੁੜ-ਲੋਡ"
 
-#: ../libgdict/gdict-strategy-chooser.c:373
+#: ../libgdict/gdict-strategy-chooser.c:374
 msgid "Clear the list of available strategies"
 msgstr "ਉਪਲੱਬਧ ਨੀਤੀਆਂ ਦੀ ਲਿਸਟ ਸਾਫ਼ ਕਰੋ"
 
@@ -523,8 +646,18 @@ msgstr "ਵਰਤਣ ਲਈ ਨੀਤੀ"
 msgid "WORDS"
 msgstr "ਸ਼ਬਦ"
 
+#: ../src/gdict-app.c:108
+msgid "Dictionary Preferences"
+msgstr "ਡਿਕਸ਼ਨਰੀ ਪਸੰਦ"
+
+#: ../src/gdict-app.c:130 ../src/gdict-pref-dialog.c:496
+#: ../src/gdict-source-dialog.c:477
+#, c-format
+msgid "There was an error while displaying help"
+msgstr "ਮੱਦਦ ਵੇਖਾਉਣ ਲਈ ਗਲਤੀ ਆਈ ਸੀ"
+
 #. create the new option context
-#: ../src/gdict-app.c:143
+#: ../src/gdict-app.c:219
 msgid " - Look up words in dictionaries"
 msgstr " - ਡਿਕਸ਼ਨਰੀਾਂ ਵਿੱਚ ਸ਼ਬਦਾਂ ਦੀ ਖੋਜ"
 
@@ -550,12 +683,6 @@ msgstr "ਇਹ ਸੂਚੀ ਵਿੱਚੋਂ ਡਿਕਸ਼ਨਰੀ ਸਰ�
 msgid "Unable to remove source '%s'"
 msgstr "ਸਰੋਤ '%s' ਹਟਾਉਣ ਲਈ ਅਸਮਰੱਥ"
 
-#: ../src/gdict-pref-dialog.c:496 ../src/gdict-source-dialog.c:479
-#: ../src/gdict-window.c:1245
-#, c-format
-msgid "There was an error while displaying help"
-msgstr "ਮੱਦਦ ਵੇਖਾਉਣ ਲਈ ਗਲਤੀ ਆਈ ਸੀ"
-
 #: ../src/gdict-pref-dialog.c:643
 msgid "Add a new dictionary source"
 msgstr "ਇੱਕ ਨਵਾਂ ਡਿਕਸ਼ਨਰੀ ਸਰੋਤ ਸ਼ਾਮਲ"
@@ -577,263 +704,155 @@ msgstr "ਪਰਿਭਾਸ਼ਾ ਛਾਪਣ ਲਈ ਵਰਤੇ ਜਾਣ ਵ�
 msgid "Unable to display the preview: %s"
 msgstr "ਝਲਕ ਵੇਖਣ ਲਈ ਅਸਮਰੱਥ: %s"
 
-#: ../src/gdict-source-dialog.c:341 ../src/gdict-source-dialog.c:434
+#: ../src/gdict-source-dialog.c:342 ../src/gdict-source-dialog.c:434
 msgid "Unable to create a source file"
 msgstr "ਇੱਕ ਸਰੋਤ ਫਾਇਲ ਬਣਾਉਣ ਲਈ ਅਸਮਰੱਥ"
 
-#: ../src/gdict-source-dialog.c:359 ../src/gdict-source-dialog.c:452
+#: ../src/gdict-source-dialog.c:358 ../src/gdict-source-dialog.c:450
 msgid "Unable to save source file"
 msgstr "ਸਰੋਤ ਫਾਇਲ ਸੰਭਾਲਣ ਲਈ ਅਸਮਰੱਥ"
 
-#: ../src/gdict-window.c:311
+#: ../src/gdict-window.c:255
 #, c-format
 msgid "Searching for '%s'..."
 msgstr "'%s' ਲਈ ਖੋਜ ਜਾਰੀ..."
 
-#: ../src/gdict-window.c:343 ../src/gdict-window.c:400
+#: ../src/gdict-window.c:287 ../src/gdict-window.c:344
 msgid "No definitions found"
 msgstr "ਕੋਈ ਪਰਿਭਾਸ਼ਾ ਨਹੀਂ ਲੱਭੀ"
 
-#: ../src/gdict-window.c:345
+#: ../src/gdict-window.c:289
 #, c-format
 msgid "A definition found"
 msgid_plural "%d definitions found"
 msgstr[0] "ਇਕ ਪਰਿਭਾਸ਼ਾ ਲੱਭੀ"
 msgstr[1] "%d ਪ੍ਰੀਭਾਸ਼ਾਵਾਂ ਲੱਭੀਆਂ"
 
-#: ../src/gdict-window.c:516
+#: ../src/gdict-window.c:460
 #, c-format
 msgid "No dictionary source available with name '%s'"
 msgstr "ਨਾਂ '%s' ਨਾਲ ਕੋਈ ਡਿਕਸ਼ਨਰੀ ਸਰੋਤ ਉਪਲੱਬਧ ਨਹੀਂ ਹੈ"
 
-#: ../src/gdict-window.c:520
+#: ../src/gdict-window.c:464
 msgid "Unable to find dictionary source"
 msgstr "ਡਿਕਸ਼ਨਰੀ ਸਰੋਤ ਲੱਭਣ ਲਈ ਅਸਫ਼ਲ ਹੈ"
 
-#: ../src/gdict-window.c:536
+#: ../src/gdict-window.c:480
 #, c-format
 msgid "No context available for source '%s'"
 msgstr "ਸਰੋਤ '%s' ਲਈ ਕੋਈ ਪਰਸੰਗ ਉਪਲੱਬਧ ਨਹੀਂ"
 
-#: ../src/gdict-window.c:540
+#: ../src/gdict-window.c:484
 msgid "Unable to create a context"
 msgstr "ਇੱਕ ਭਾਗ ਬਣਾਉਣ ਲਈ ਅਸਫ਼ਲ ਹੈ"
 
-#: ../src/gdict-window.c:599
+#: ../src/gdict-window.c:543
 #, c-format
 msgid "%s - Dictionary"
 msgstr "%s - ਡਿਕਸ਼ਨਰੀ"
 
-#: ../src/gdict-window.c:962
+#: ../src/gdict-window.c:912
 msgid "Save a Copy"
 msgstr "ਇੱਕ ਕਾਪੀ ਸੰਭਾਲੋ"
 
-#: ../src/gdict-window.c:972
+#: ../src/gdict-window.c:922
 msgid "Untitled document"
 msgstr "ਬਿਨਾਂ-ਨਾਂ ਡੌਕੂਮੈਂਟ"
 
-#: ../src/gdict-window.c:993
+#: ../src/gdict-window.c:943
 #, c-format
 msgid "Error while writing to '%s'"
 msgstr "'%s' ਲਿਖਣ ਦੌਰਾਨ ਗਲਤੀ"
 
-#: ../src/gdict-window.c:1098
-msgid "Dictionary Preferences"
-msgstr "ਡਿਕਸ਼ਨਰੀ ਪਸੰਦ"
-
-#: ../src/gdict-window.c:1280
-msgid "_File"
-msgstr "ਫਾਇਲ(_F)"
-
-#: ../src/gdict-window.c:1281
-msgid "_Edit"
-msgstr "ਸੋਧ(_E)"
-
-#: ../src/gdict-window.c:1282
-msgid "_View"
-msgstr "ਵੇਖੋ(_V)"
-
-#: ../src/gdict-window.c:1283
-msgid "_Go"
-msgstr "ਜਾਓ(_G)"
-
-#: ../src/gdict-window.c:1284
-msgid "_Help"
-msgstr "ਮੱਦਦ(_H)"
-
-#. File menu
-#: ../src/gdict-window.c:1287
-msgid "_New"
-msgstr "ਵੇਖੋ(_N)"
-
-#: ../src/gdict-window.c:1288
-msgid "New look up"
-msgstr "ਨਵੀਂ ਖੋਜ"
-
-#: ../src/gdict-window.c:1289
-msgid "_Save a Copy..."
-msgstr "ਇੱਕ ਕਾਪੀ ਸੰਭਾਲੋ(_S)..."
-
-#: ../src/gdict-window.c:1291
-msgid "P_review..."
-msgstr "ਝਲਕ(_r)..."
-
-#: ../src/gdict-window.c:1292
-msgid "Preview this document"
-msgstr "ਇਹ ਡੌਕੂਮੈਂਟ ਦੀ ਝਲਕ"
-
-#: ../src/gdict-window.c:1293
-msgid "_Print..."
-msgstr "ਪਰਿੰਟ ਕਰੋ(_P)..."
-
-#: ../src/gdict-window.c:1294
-msgid "Print this document"
-msgstr "ਇਹ ਡੌਕੂਮੈਂਟ ਪਰਿੰਟ ਕਰੋ"
-
-#: ../src/gdict-window.c:1301
-msgid "Select _All"
-msgstr "ਸਭ ਚੁਣੋ(_A)"
-
-#: ../src/gdict-window.c:1304
-msgid "Find a word or phrase in the document"
-msgstr "ਡੌਕੂਮੈਂਟ ਵਿੱਚ ਇੱਕ ਸ਼ਬਦ ਜਾਂ ਪ੍ਹੈਰਾ ਖੋਜ"
-
-#: ../src/gdict-window.c:1306
-msgid "Find Ne_xt"
-msgstr "ਅੱਗੇ ਖੋਜ(_x)"
-
-#: ../src/gdict-window.c:1308
-msgid "Find Pre_vious"
-msgstr "ਪਿੱਛੇ ਖੋਜ(_v)"
-
-#: ../src/gdict-window.c:1310
-msgid "_Preferences"
-msgstr "ਮੇਰੀ ਪਸੰਦ(_P)"
-
-#. Go menu
-#: ../src/gdict-window.c:1314
-msgid "_Previous Definition"
-msgstr "ਪਰਿਭਾਸ਼ਾ ਪਿੱਛੇ(_P)"
-
-#: ../src/gdict-window.c:1315
-msgid "Go to the previous definition"
-msgstr "ਪਿਛਲੀ ਪਰਿਭਾਸ਼ਾ ਉੱਤੇ ਜਾਓ"
-
-#: ../src/gdict-window.c:1316
-msgid "_Next Definition"
-msgstr "ਪਰਿਭਾਸ਼ਾ ਅੱਗੇ(_N)"
-
-#: ../src/gdict-window.c:1317
-msgid "Go to the next definition"
-msgstr "ਅਗਲੀ ਪਰਿਭਾਸ਼ਾ ਉੱਤੇ ਜਾਓ"
-
-#: ../src/gdict-window.c:1318
-msgid "_First Definition"
-msgstr "ਪਹਿਲੀਂ ਪਰਿਭਾਸ਼ਾ(_F)"
-
-#: ../src/gdict-window.c:1319
-msgid "Go to the first definition"
-msgstr "ਪਹਿਲੀਂ ਪਰਿਭਾਸ਼ਾ ਉੱਤੇ ਜਾਓ"
-
-#: ../src/gdict-window.c:1320
-msgid "_Last Definition"
-msgstr "ਆਖਰੀ ਪਰਿਭਾਸ਼ਾ(_L)"
-
-#: ../src/gdict-window.c:1321
-msgid "Go to the last definition"
-msgstr "ਆਖਰੀ ਪਰਿਭਾਸ਼ਾ ਉੱਤੇ ਜਾਓ"
-
-#. View menu
-#: ../src/gdict-window.c:1324
-msgid "Similar _Words"
-msgstr "ਰਲਦੇ ਸ਼ਬਦ(_W)"
-
-#: ../src/gdict-window.c:1326
-msgid "Dictionary Sources"
-msgstr "ਡਿਕਸ਼ਨਰੀ ਸਰੋਤ"
-
-#: ../src/gdict-window.c:1328
-msgid "Available _Databases"
-msgstr "ਉਪਲੱਬਧ ਡਾਟਾਬੇਸ(_D)"
-
-#: ../src/gdict-window.c:1330
-msgid "Available St_rategies"
-msgstr "ਉਪਲੱਬਧ ਨੀਤੀਆਂ(_r)"
-
-#. Help menu
-#: ../src/gdict-window.c:1334
-msgid "_Contents"
-msgstr "ਸਮੱਗਰੀ(_C)"
-
-#: ../src/gdict-window.c:1336
-msgid "_About"
-msgstr "ਇਸ ਬਾਰੇ(_A)"
-
-#. View menu
-#: ../src/gdict-window.c:1347
-msgid "_Sidebar"
-msgstr "ਬਾਹੀ(_S)"
-
-#: ../src/gdict-window.c:1349
-msgid "S_tatusbar"
-msgstr "ਹਾਲਤ-ਪੱਟੀ(_t)"
-
-#: ../src/gdict-window.c:1414
+#: ../src/gdict-window.c:1361
 #, c-format
 msgid "Dictionary source `%s' selected"
 msgstr "ਡਿਕਸ਼ਨਰੀ ਸਰੋਤ '%s' ਚੁਣਿਆ"
 
-#: ../src/gdict-window.c:1435
+#: ../src/gdict-window.c:1382
 #, c-format
 msgid "Strategy `%s' selected"
 msgstr "ਨੀਤੀ `%s' ਚੁਣੀ"
 
-#: ../src/gdict-window.c:1455
+#: ../src/gdict-window.c:1402
 #, c-format
 msgid "Database `%s' selected"
 msgstr "ਡਾਟਾਬੇਸ `%s' ਚੁਣਿਆ"
 
-#: ../src/gdict-window.c:1475
+#: ../src/gdict-window.c:1422
 #, c-format
 msgid "Word `%s' selected"
 msgstr "ਸ਼ਬਦ `%s' ਚੁਣਿਆ"
 
 #. speller
-#: ../src/gdict-window.c:1500
+#: ../src/gdict-window.c:1447
 msgid "Double-click on the word to look up"
 msgstr "ਸ਼ਬਦ ਖੋਜ ਲਈ ਦੋ ਵਾਰ ਦਬਾਓ"
 
 #. strat-chooser
-#: ../src/gdict-window.c:1506
+#: ../src/gdict-window.c:1453
 msgid "Double-click on the matching strategy to use"
 msgstr "ਵਰਤਣ ਲਈ ਰਲਦੀ ਨੀਤੀ ਉੱਤੇ ਦੋ ਵਾਰ ਦਬਾਓ"
 
 #. source-chooser
-#: ../src/gdict-window.c:1511
+#: ../src/gdict-window.c:1458
 msgid "Double-click on the source to use"
 msgstr "ਵਰਤਣ ਲਈ ਸਰੋਤ ਉੱਤੇ ਡਬਲ ਕਲਿੱਕ ਕਰੋ"
 
 #. db-chooser
-#: ../src/gdict-window.c:1520
+#: ../src/gdict-window.c:1467
 msgid "Double-click on the database to use"
 msgstr "ਵਰਤਣ ਲਈ ਡਾਟਾਬੇਸ ਉੱਤੇ ਦੋ ਵਾਰ ਦਬਾਓ"
 
-#: ../src/gdict-window.c:1700
+#: ../src/gdict-window.c:1617
 msgid "Look _up:"
 msgstr "ਖੋਜ(_U):"
 
-#: ../src/gdict-window.c:1775
+#: ../src/gdict-window.c:1692
 msgid "Similar words"
 msgstr "ਰਲਦੇ ਸ਼ਬਦ"
 
-#: ../src/gdict-window.c:1788
+#: ../src/gdict-window.c:1705
 msgid "Available dictionaries"
 msgstr "ਉਪਲੱਬਧ ਡਿਕਸ਼ਨਰੀਆਂ"
 
-#: ../src/gdict-window.c:1806
+#: ../src/gdict-window.c:1723
 msgid "Available strategies"
 msgstr "ਉਪਲੱਬਧ ਨੀਤੀਆਂ"
 
-#: ../src/gdict-window.c:1822
+#: ../src/gdict-window.c:1739
 msgid "Dictionary sources"
 msgstr "ਡਿਕਸ਼ਨਰੀ ਸਰੋਤ"
+
+#~ msgid "New look up"
+#~ msgstr "ਨਵੀਂ ਖੋਜ"
+
+#~ msgid "Preview this document"
+#~ msgstr "ਇਹ ਡੌਕੂਮੈਂਟ ਦੀ ਝਲਕ"
+
+#~ msgid "_Print..."
+#~ msgstr "ਪਰਿੰਟ ਕਰੋ(_P)..."
+
+#~ msgid "Print this document"
+#~ msgstr "ਇਹ ਡੌਕੂਮੈਂਟ ਪਰਿੰਟ ਕਰੋ"
+
+#~ msgid "Find a word or phrase in the document"
+#~ msgstr "ਡੌਕੂਮੈਂਟ ਵਿੱਚ ਇੱਕ ਸ਼ਬਦ ਜਾਂ ਪ੍ਹੈਰਾ ਖੋਜ"
+
+#~ msgid "Go to the previous definition"
+#~ msgstr "ਪਿਛਲੀ ਪਰਿਭਾਸ਼ਾ ਉੱਤੇ ਜਾਓ"
+
+#~ msgid "Go to the next definition"
+#~ msgstr "ਅਗਲੀ ਪਰਿਭਾਸ਼ਾ ਉੱਤੇ ਜਾਓ"
+
+#~ msgid "Go to the first definition"
+#~ msgstr "ਪਹਿਲੀਂ ਪਰਿਭਾਸ਼ਾ ਉੱਤੇ ਜਾਓ"
+
+#~ msgid "Go to the last definition"
+#~ msgstr "ਆਖਰੀ ਪਰਿਭਾਸ਼ਾ ਉੱਤੇ ਜਾਓ"
+
+#~ msgid "_Contents"
+#~ msgstr "ਸਮੱਗਰੀ(_C)"
+
+#~ msgid "_About"
+#~ msgstr "ਇਸ ਬਾਰੇ(_A)"
