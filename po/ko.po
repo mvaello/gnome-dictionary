@@ -1,66 +1,206 @@
-# gnome-utils ko.po
-# This file is distributed under the same license as the gnome-util package.
+# gnome-dictionary ko.po
+# This file is distributed under the same license as the gnome-dictionary package.
 #
+# Imported from gnome-utils:
 # update by Young-Ho, Cha <ganadist@chollian.net>, 2001
 # Changwoo Ryu <cwryu@debian.org>, 1998, 2002-2006, 2007, 2008, 2009, 2010, 2011.
 #
-# 새로 번역하시는 분은 아래 translator-credits에 추가하세요.
+# Updated for gnome-dictionary:
+# Changwoo Ryu <cwryu@debian.org>, 2012.
 #
-# 주의:
-# - Baobab은 "바오밥"으로 음역
+#
+# 새로 번역하시는 분은 아래 translator-credits에 추가하세요.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-utils\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-10-06 14:35-0400\n"
-"PO-Revision-Date: 2011-09-23 06:19+0900\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
+"dictionary&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2012-05-10 17:07+0000\n"
+"PO-Revision-Date: 2012-09-15 16:25+0900\n"
 "Last-Translator: Changwoo Ryu <cwryu@debian.org>\n"
 "Language-Team: GNOME Korea <gnome-kr@googlegroups.com>\n"
-"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #: ../data/default.desktop.in.h:1
 msgid "Default Dictionary Server"
 msgstr "기본 사전 서버"
 
-#: ../data/spanish.desktop.in.h:1
-msgid "Spanish Dictionaries"
-msgstr "스페인어 사전"
+#: ../data/gnome-dictionary.desktop.in.in.h:1 ../src/gdict-about.c:62
+#: ../src/gdict-app.c:349 ../src/gdict-window.c:545 ../src/gdict-window.c:1807
+msgid "Dictionary"
+msgstr "사전"
 
-#: ../data/thai.desktop.in.h:1
-msgid "Longdo Thai-English Dictionaries"
-msgstr "롱도 타이어-영어 사전"
-
-#: ../data/gnome-dictionary.desktop.in.in.h:1
+#: ../data/gnome-dictionary.desktop.in.in.h:2
 msgid "Check word definitions and spellings in an online dictionary"
 msgstr "온라인 사전에서 단어의 의미와 맞춤법을 찾아 봅니다"
 
-#: ../data/gnome-dictionary.desktop.in.in.h:2 ../src/gdict-about.c:62
-#: ../src/gdict-app.c:233 ../src/gdict-window.c:601 ../src/gdict-window.c:1894
-msgid "Dictionary"
+#: ../data/gnome-dictionary-menus.ui.h:1
+msgid "Preferences"
+msgstr "기본 설정"
+
+#: ../data/gnome-dictionary-menus.ui.h:2
+msgid "Help"
+msgstr "도움말"
+
+#: ../data/gnome-dictionary-menus.ui.h:3
+msgid "About Dictionary"
+msgstr "사전 정보"
+
+#: ../data/gnome-dictionary-menus.ui.h:4
+msgid "Quit"
+msgstr "끝내기"
+
+#: ../data/gnome-dictionary-menus.ui.h:5
+msgid "_File"
+msgstr "파일(_F)"
+
+#: ../data/gnome-dictionary-menus.ui.h:6
+msgid "_New"
+msgstr "새로 만들기(_N)"
+
+#: ../data/gnome-dictionary-menus.ui.h:7
+msgid "_Save a Copy..."
+msgstr "복사본 저장(_S)..."
+
+#: ../data/gnome-dictionary-menus.ui.h:8
+msgid "P_review"
+msgstr "미리 보기(_R)"
+
+#: ../data/gnome-dictionary-menus.ui.h:9
+msgid "_Print"
+msgstr "인쇄(_P)"
+
+#: ../data/gnome-dictionary-menus.ui.h:10
+msgid "_Close"
+msgstr "닫기(_C)"
+
+#: ../data/gnome-dictionary-menus.ui.h:11
+msgid "_Edit"
+msgstr "편집(_E)"
+
+#: ../data/gnome-dictionary-menus.ui.h:12
+msgid "_Copy"
+msgstr "복사(_C)"
+
+#: ../data/gnome-dictionary-menus.ui.h:13
+msgid "Select _All"
+msgstr "모두 선택(_A)"
+
+#: ../data/gnome-dictionary-menus.ui.h:14
+msgid "_Find"
+msgstr "찾기(_F)"
+
+#: ../data/gnome-dictionary-menus.ui.h:15
+msgid "Find Ne_xt"
+msgstr "다음 찾기(_X)"
+
+#: ../data/gnome-dictionary-menus.ui.h:16
+msgid "Find Pre_vious"
+msgstr "이전 찾기(_V)"
+
+#: ../data/gnome-dictionary-menus.ui.h:17
+msgid "_View"
+msgstr "보기(_V)"
+
+#: ../data/gnome-dictionary-menus.ui.h:18
+msgid "_Sidebar"
+msgstr "가장자리 창(_S)"
+
+#: ../data/gnome-dictionary-menus.ui.h:19
+msgid "S_tatusbar"
+msgstr "상태 표시줄(_T)"
+
+#: ../data/gnome-dictionary-menus.ui.h:20
+msgid "Similar _Words"
+msgstr "비슷한 단어(_W)"
+
+#: ../data/gnome-dictionary-menus.ui.h:21
+msgid "Dictionary Sources"
+msgstr "사전 공급원"
+
+#: ../data/gnome-dictionary-menus.ui.h:22
+msgid "Available _Databases"
+msgstr "사용 가능한 데이터베이스(_D)"
+
+#: ../data/gnome-dictionary-menus.ui.h:23
+msgid "Available St_rategies"
+msgstr "사용 가능한 찾기 방식(_R)"
+
+#: ../data/gnome-dictionary-menus.ui.h:24
+msgid "_Go"
+msgstr "이동(_G)"
+
+#: ../data/gnome-dictionary-menus.ui.h:25
+msgid "_Previous Definition"
+msgstr "이전 단어 정의(_P)"
+
+#: ../data/gnome-dictionary-menus.ui.h:26
+msgid "_Next Definition"
+msgstr "다음 단어 정의(_N)"
+
+#: ../data/gnome-dictionary-menus.ui.h:27
+msgid "_First Definition"
+msgstr "처음 단어 정의(_F)"
+
+#: ../data/gnome-dictionary-menus.ui.h:28
+msgid "_Last Definition"
+msgstr "마지막 단어 정의(_L)"
+
+#: ../data/gnome-dictionary-preferences.ui.h:1
+msgid "_Select a dictionary source for looking up words:"
+msgstr "단어를 찾을 때 사용할 사전 공급원 선택(_S):"
+
+#: ../data/gnome-dictionary-preferences.ui.h:2
+#: ../data/gnome-dictionary-source.ui.h:6
+msgid "Source"
+msgstr "공급원"
+
+#: ../data/gnome-dictionary-preferences.ui.h:3
+msgid "_Print font:"
+msgstr "인쇄용 글꼴(_P):"
+
+#: ../data/gnome-dictionary-preferences.ui.h:4
+msgid "Print"
+msgstr "인쇄"
+
+#: ../data/gnome-dictionary-source.ui.h:1
+msgid "_Description:"
+msgstr "설명(_D):"
+
+#: ../data/gnome-dictionary-source.ui.h:2
+msgid "_Transport:"
+msgstr "전송(_T):"
+
+#: ../data/gnome-dictionary-source.ui.h:3
+msgid "H_ostname:"
+msgstr "호스트 이름(_O):"
+
+#: ../data/gnome-dictionary-source.ui.h:4
+msgid "_Port:"
+msgstr "포트(_P):"
+
+#: ../data/gnome-dictionary-source.ui.h:5
+msgid "Source Name"
+msgstr "공급원 이름"
+
+#: ../data/gnome-dictionary-source.ui.h:7
+msgid "Dictionaries"
 msgstr "사전"
+
+#: ../data/gnome-dictionary-source.ui.h:8
+msgid "Strategies"
+msgstr "찾기 방식"
 
 #: ../data/org.gnome.dictionary.gschema.xml.in.in.h:1
 msgid "The default database to use"
 msgstr "사용할 기본 데이터베이스"
 
 #: ../data/org.gnome.dictionary.gschema.xml.in.in.h:2
-msgid "The default search strategy to use"
-msgstr "사용할 기본 검색 방식"
-
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:3
-msgid "The font to be used when printing"
-msgstr "인쇄할 때 사용할 글꼴"
-
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:4
-msgid "The font to be used when printing a definition."
-msgstr "단어 정의를 인쇄할 때 사용할 글꼴."
-
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:5
 msgid ""
 "The name of the default individual database or meta-database to use on a "
 "dictionary source. An exclamation mark (\"!\") means that all the databases "
@@ -69,13 +209,23 @@ msgstr ""
 "사전 서버에서 사용할 각 데이터베이스의 이름. 느낌표(\"!\")는 사전 공급원에 주"
 "어진 서버에 있는 모든 데이터베이스를 찾는다는 뜻입니다."
 
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:6
+#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:3
+msgid "The default search strategy to use"
+msgstr "사용할 기본 검색 방식"
+
+#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:4
 msgid ""
 "The name of the default search strategy to use on a dictionary source, if "
 "available. The default strategy is 'exact', that is match exact words."
-msgstr ""
-"주어진 사전 공급원에서 사용할 기본 검색 방식 (사용 가능하다면). 기본 방식은 "
-"'exact'로 정확히 맞는 단어만 찾습니다."
+msgstr "주어진 사전 공급원에서 사용할 기본 검색 방식의(있다면) 이름. 기본 방식은 'exact'로 정확히 맞는 단어만 찾습니다."
+
+#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:5
+msgid "The font to be used when printing"
+msgstr "인쇄할 때 사용할 글꼴"
+
+#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:6
+msgid "The font to be used when printing a definition."
+msgstr "단어 정의를 인쇄할 때 사용할 글꼴."
 
 #: ../data/org.gnome.dictionary.gschema.xml.in.in.h:7
 msgid "The name of the dictionary source used"
@@ -86,50 +236,13 @@ msgid ""
 "The name of the dictionary source used to retrieve the definitions of words."
 msgstr "단어 정의를 가져올 때 사용할 사전 공급원의 이름."
 
-#: ../data/gnome-dictionary-preferences.ui.h:1
-msgid "Print"
-msgstr "인쇄"
+#: ../data/spanish.desktop.in.h:1
+msgid "Spanish Dictionaries"
+msgstr "스페인어 사전"
 
-#: ../data/gnome-dictionary-preferences.ui.h:2
-#: ../data/gnome-dictionary-source.ui.h:3
-msgid "Source"
-msgstr "공급원"
-
-#: ../data/gnome-dictionary-preferences.ui.h:3
-msgid "_Print font:"
-msgstr "인쇄용 글꼴(_P):"
-
-#: ../data/gnome-dictionary-preferences.ui.h:4
-msgid "_Select a dictionary source for looking up words:"
-msgstr "단어를 찾을 때 사용할 사전 공급원 선택(_S):"
-
-#: ../data/gnome-dictionary-source.ui.h:1
-msgid "Dictionaries"
-msgstr "사전"
-
-#: ../data/gnome-dictionary-source.ui.h:2
-msgid "H_ostname:"
-msgstr "호스트 이름(_O):"
-
-#: ../data/gnome-dictionary-source.ui.h:4
-msgid "Source Name"
-msgstr "공급원 이름"
-
-#: ../data/gnome-dictionary-source.ui.h:5
-msgid "Strategies"
-msgstr "찾기 방식"
-
-#: ../data/gnome-dictionary-source.ui.h:6
-msgid "_Description:"
-msgstr "설명(_D):"
-
-#: ../data/gnome-dictionary-source.ui.h:7
-msgid "_Port:"
-msgstr "포트(_P):"
-
-#: ../data/gnome-dictionary-source.ui.h:8
-msgid "_Transport:"
-msgstr "전송(_T):"
+#: ../data/thai.desktop.in.h:1
+msgid "Longdo Thai-English Dictionaries"
+msgstr "롱도 타이어-영어 사전"
 
 #: ../libgdict/gdict-client-context.c:283
 msgid "Client Name"
@@ -188,9 +301,7 @@ msgstr "호스트 '%s' 찾기 실패: 호스트를 찾을 수 없습니다"
 msgid ""
 "Unable to connect to the dictionary server at '%s:%d'. The server replied "
 "with code %d (server down)"
-msgstr ""
-"'%s:%d' 사전 서버에 연결할 수 없습니다. 서버에서 %d번 코드로 응답했습니다 (서"
-"버 다운)"
+msgstr "'%s:%d' 사전 서버에 연결할 수 없습니다. 서버에서 %d번 코드로 응답했습니다(서버 다운)"
 
 #: ../libgdict/gdict-client-context.c:1196
 #, c-format
@@ -284,16 +395,16 @@ msgstr "로컬만 사용"
 msgid "Whether the context uses only local dictionaries or not"
 msgstr "컨텍스트가 로컬 사전만 사용할지 여부"
 
-#: ../libgdict/gdict-database-chooser.c:378
+#: ../libgdict/gdict-database-chooser.c:379
 msgid "Reload the list of available databases"
 msgstr "사용 가능한 데이터베이스 목록을 다시 읽어들입니다"
 
-#: ../libgdict/gdict-database-chooser.c:390
+#: ../libgdict/gdict-database-chooser.c:391
 msgid "Clear the list of available databases"
 msgstr "사용 가능한 데이터베이스 목록을 비웁니다"
 
-#: ../libgdict/gdict-database-chooser.c:837 ../libgdict/gdict-speller.c:778
-#: ../libgdict/gdict-strategy-chooser.c:785
+#: ../libgdict/gdict-database-chooser.c:838 ../libgdict/gdict-speller.c:778
+#: ../libgdict/gdict-strategy-chooser.c:786
 msgid "Error while matching"
 msgstr "맞춰 보는 데 오류가 발생했습니다"
 
@@ -314,19 +425,19 @@ msgstr "이전(_P)"
 msgid "_Next"
 msgstr "다음(_N)"
 
-#: ../libgdict/gdict-defbox.c:2512
+#: ../libgdict/gdict-defbox.c:2514
 msgid "Error while looking up definition"
 msgstr "단어 정의를 찾는 중 오류"
 
-#: ../libgdict/gdict-defbox.c:2554 ../libgdict/gdict-speller.c:736
+#: ../libgdict/gdict-defbox.c:2556 ../libgdict/gdict-speller.c:736
 msgid "Another search is in progress"
 msgstr "다른 검색이 진행 중입니다"
 
-#: ../libgdict/gdict-defbox.c:2555 ../libgdict/gdict-speller.c:737
+#: ../libgdict/gdict-defbox.c:2557 ../libgdict/gdict-speller.c:737
 msgid "Please wait until the current search ends."
 msgstr "현재 검색이 끝날 때까지 기다리십시오."
 
-#: ../libgdict/gdict-defbox.c:2594
+#: ../libgdict/gdict-defbox.c:2596
 msgid "Error while retrieving the definition"
 msgstr "단어 정의를 받는 중 오류"
 
@@ -454,11 +565,11 @@ msgstr "GdictContext 질의에 사용할 데이터베이스"
 msgid "The strategy used to query the GdictContext"
 msgstr "GdictContext 질의에 사용할 방식"
 
-#: ../libgdict/gdict-strategy-chooser.c:361
+#: ../libgdict/gdict-strategy-chooser.c:362
 msgid "Reload the list of available strategies"
 msgstr "사용 가능한 찾기 방식 목록을 다시 읽어들입니다"
 
-#: ../libgdict/gdict-strategy-chooser.c:373
+#: ../libgdict/gdict-strategy-chooser.c:374
 msgid "Clear the list of available strategies"
 msgstr "사용 가능한 찾기 방식 목록을 비웁니다"
 
@@ -524,8 +635,18 @@ msgstr "사용할 방식"
 msgid "WORDS"
 msgstr "<단어>"
 
+#: ../src/gdict-app.c:108
+msgid "Dictionary Preferences"
+msgstr "사전 기본 설정"
+
+#: ../src/gdict-app.c:130 ../src/gdict-pref-dialog.c:496
+#: ../src/gdict-source-dialog.c:477
+#, c-format
+msgid "There was an error while displaying help"
+msgstr "도움말을 표시하는 데 오류가 발생했습니다"
+
 #. create the new option context
-#: ../src/gdict-app.c:143
+#: ../src/gdict-app.c:219
 msgid " - Look up words in dictionaries"
 msgstr "- 사전에서 단어를 찾습니다"
 
@@ -551,12 +672,6 @@ msgstr "이렇게 하면 목록에서 사전 공급원을 완전히 제거하게
 msgid "Unable to remove source '%s'"
 msgstr "%s 공급원을 제거할 수 없습니다"
 
-#: ../src/gdict-pref-dialog.c:496 ../src/gdict-source-dialog.c:479
-#: ../src/gdict-window.c:1245
-#, c-format
-msgid "There was an error while displaying help"
-msgstr "도움말을 표시하는 데 오류가 발생했습니다"
-
 #: ../src/gdict-pref-dialog.c:643
 msgid "Add a new dictionary source"
 msgstr "새 사전 공급원을 추가합니다"
@@ -578,262 +693,121 @@ msgstr "단어 정의를 인쇄하는 데 사용할 글꼴 설정"
 msgid "Unable to display the preview: %s"
 msgstr "미리 보기를 표시할 수 없습니다: %s"
 
-#: ../src/gdict-source-dialog.c:341 ../src/gdict-source-dialog.c:434
+#: ../src/gdict-source-dialog.c:342 ../src/gdict-source-dialog.c:434
 msgid "Unable to create a source file"
 msgstr "공급원 파일을 만들 수 없습니다"
 
-#: ../src/gdict-source-dialog.c:359 ../src/gdict-source-dialog.c:452
+#: ../src/gdict-source-dialog.c:358 ../src/gdict-source-dialog.c:450
 msgid "Unable to save source file"
 msgstr "공급원 파일을 저장할 수 없습니다"
 
-#: ../src/gdict-window.c:311
+#: ../src/gdict-window.c:255
 #, c-format
 msgid "Searching for '%s'..."
 msgstr "'%s' 찾는 중입니다..."
 
-#: ../src/gdict-window.c:343 ../src/gdict-window.c:400
+#: ../src/gdict-window.c:287 ../src/gdict-window.c:344
 msgid "No definitions found"
 msgstr "단어 설명이 없습니다"
 
-#: ../src/gdict-window.c:345
+#: ../src/gdict-window.c:289
 #, c-format
 msgid "A definition found"
 msgid_plural "%d definitions found"
 msgstr[0] "%d개의 단어 정의를 찾았습니다"
 
-#: ../src/gdict-window.c:516
+#: ../src/gdict-window.c:460
 #, c-format
 msgid "No dictionary source available with name '%s'"
 msgstr "이름이 '%s'인 사전 공급원이 없습니다"
 
-#: ../src/gdict-window.c:520
+#: ../src/gdict-window.c:464
 msgid "Unable to find dictionary source"
 msgstr "사전 공급원을 찾을 수 없습니다"
 
-#: ../src/gdict-window.c:536
+#: ../src/gdict-window.c:480
 #, c-format
 msgid "No context available for source '%s'"
 msgstr "'%s' 공급원에 대해 사용할 수 있는 컨텍스트가 없습니다"
 
-#: ../src/gdict-window.c:540
+#: ../src/gdict-window.c:484
 msgid "Unable to create a context"
 msgstr "컨텍스트를 만들 수 없습니다"
 
-#: ../src/gdict-window.c:599
+#: ../src/gdict-window.c:543
 #, c-format
 msgid "%s - Dictionary"
 msgstr "%s - 사전"
 
-#: ../src/gdict-window.c:962
+#: ../src/gdict-window.c:912
 msgid "Save a Copy"
 msgstr "복사본 저장"
 
-#: ../src/gdict-window.c:972
+#: ../src/gdict-window.c:922
 msgid "Untitled document"
 msgstr "제목 없는 문서"
 
-#: ../src/gdict-window.c:993
+#: ../src/gdict-window.c:943
 #, c-format
 msgid "Error while writing to '%s'"
 msgstr "'%s'에 쓰는 데 오류가 발생했습니다"
 
-#: ../src/gdict-window.c:1098
-msgid "Dictionary Preferences"
-msgstr "사전 기본 설정"
-
-#: ../src/gdict-window.c:1280
-msgid "_File"
-msgstr "파일(_F)"
-
-#: ../src/gdict-window.c:1281
-msgid "_Edit"
-msgstr "편집(_E)"
-
-#: ../src/gdict-window.c:1282
-msgid "_View"
-msgstr "보기(_V)"
-
-#: ../src/gdict-window.c:1283
-msgid "_Go"
-msgstr "이동(_G)"
-
-#: ../src/gdict-window.c:1284
-msgid "_Help"
-msgstr "도움말(_H)"
-
-#. File menu
-#: ../src/gdict-window.c:1287
-msgid "_New"
-msgstr "새로 만들기(_N)"
-
-#: ../src/gdict-window.c:1288
-msgid "New look up"
-msgstr "새로 찾아 보기"
-
-#: ../src/gdict-window.c:1289
-msgid "_Save a Copy..."
-msgstr "복사본 저장(_S)..."
-
-#: ../src/gdict-window.c:1291
-msgid "P_review..."
-msgstr "미리 보기(_R)..."
-
-#: ../src/gdict-window.c:1292
-msgid "Preview this document"
-msgstr "이 문서를 미리 봅니다"
-
-#: ../src/gdict-window.c:1293
-msgid "_Print..."
-msgstr "인쇄(_P)..."
-
-#: ../src/gdict-window.c:1294
-msgid "Print this document"
-msgstr "이 문서를 인쇄합니다"
-
-#: ../src/gdict-window.c:1301
-msgid "Select _All"
-msgstr "모두 선택(_A)"
-
-#: ../src/gdict-window.c:1304
-msgid "Find a word or phrase in the document"
-msgstr "문서에서 단어나 문구를 찾아 봅니다"
-
-#: ../src/gdict-window.c:1306
-msgid "Find Ne_xt"
-msgstr "다음 찾기(_X)"
-
-#: ../src/gdict-window.c:1308
-msgid "Find Pre_vious"
-msgstr "이전 찾기(_V)"
-
-#: ../src/gdict-window.c:1310
-msgid "_Preferences"
-msgstr "기본 설정(_P)"
-
-#. Go menu
-#: ../src/gdict-window.c:1314
-msgid "_Previous Definition"
-msgstr "이전 단어 정의(_P)"
-
-#: ../src/gdict-window.c:1315
-msgid "Go to the previous definition"
-msgstr "이전 단어 정의로 갑니다"
-
-#: ../src/gdict-window.c:1316
-msgid "_Next Definition"
-msgstr "다음 단어 정의(_N)"
-
-#: ../src/gdict-window.c:1317
-msgid "Go to the next definition"
-msgstr "다음 단어 정의로 갑니다"
-
-#: ../src/gdict-window.c:1318
-msgid "_First Definition"
-msgstr "처음 단어 정의(_F)"
-
-#: ../src/gdict-window.c:1319
-msgid "Go to the first definition"
-msgstr "첫번째 단어 정의로 갑니다"
-
-#: ../src/gdict-window.c:1320
-msgid "_Last Definition"
-msgstr "마지막 단어 정의(_L)"
-
-#: ../src/gdict-window.c:1321
-msgid "Go to the last definition"
-msgstr "마지막 단어 정의로 갑니다"
-
-#. View menu
-#: ../src/gdict-window.c:1324
-msgid "Similar _Words"
-msgstr "비슷한 단어(_W)"
-
-#: ../src/gdict-window.c:1326
-msgid "Dictionary Sources"
-msgstr "사전 공급원"
-
-#: ../src/gdict-window.c:1328
-msgid "Available _Databases"
-msgstr "사용 가능한 데이터베이스(_D)"
-
-#: ../src/gdict-window.c:1330
-msgid "Available St_rategies"
-msgstr "사용 가능한 찾기 방식(_R)"
-
-#. Help menu
-#: ../src/gdict-window.c:1334
-msgid "_Contents"
-msgstr "차례(_C)"
-
-#: ../src/gdict-window.c:1336
-msgid "_About"
-msgstr "정보(_A)"
-
-#. View menu
-#: ../src/gdict-window.c:1347
-msgid "_Sidebar"
-msgstr "가장자리 창(_S)"
-
-#: ../src/gdict-window.c:1349
-msgid "S_tatusbar"
-msgstr "상태 표시줄(_T)"
-
-#: ../src/gdict-window.c:1414
+#: ../src/gdict-window.c:1361
 #, c-format
 msgid "Dictionary source `%s' selected"
 msgstr "`%s' 사전 공급원을 선택했습니다"
 
-#: ../src/gdict-window.c:1435
+#: ../src/gdict-window.c:1382
 #, c-format
 msgid "Strategy `%s' selected"
 msgstr "`%s' 찾기 방식을 선택했습니다"
 
-#: ../src/gdict-window.c:1455
+#: ../src/gdict-window.c:1402
 #, c-format
 msgid "Database `%s' selected"
 msgstr "`%s' 데이터베이스를 선택했습니다"
 
-#: ../src/gdict-window.c:1475
+#: ../src/gdict-window.c:1422
 #, c-format
 msgid "Word `%s' selected"
 msgstr "`%s' 단어를 선택했습니다"
 
 #. speller
-#: ../src/gdict-window.c:1500
+#: ../src/gdict-window.c:1447
 msgid "Double-click on the word to look up"
 msgstr "찾아보려는 단어를 두번 누르십시오"
 
 #. strat-chooser
-#: ../src/gdict-window.c:1506
+#: ../src/gdict-window.c:1453
 msgid "Double-click on the matching strategy to use"
 msgstr "사용할 찾기 방식을 두 번 누르십시오"
 
 #. source-chooser
-#: ../src/gdict-window.c:1511
+#: ../src/gdict-window.c:1458
 msgid "Double-click on the source to use"
 msgstr "사용할 공급원을 두 번 누르십시오"
 
 #. db-chooser
-#: ../src/gdict-window.c:1520
+#: ../src/gdict-window.c:1467
 msgid "Double-click on the database to use"
 msgstr "사용할 데이터베이스를 두 번 누르십시오"
 
-#: ../src/gdict-window.c:1700
+#: ../src/gdict-window.c:1617
 msgid "Look _up:"
 msgstr "단어 찾아 보기(_U):"
 
-#: ../src/gdict-window.c:1775
+#: ../src/gdict-window.c:1692
 msgid "Similar words"
 msgstr "비슷한 단어"
 
-#: ../src/gdict-window.c:1788
+#: ../src/gdict-window.c:1705
 msgid "Available dictionaries"
 msgstr "사용 가능한 사전"
 
-#: ../src/gdict-window.c:1806
+#: ../src/gdict-window.c:1723
 msgid "Available strategies"
 msgstr "사용 가능한 찾기 방식"
 
-#: ../src/gdict-window.c:1822
+#: ../src/gdict-window.c:1739
 msgid "Dictionary sources"
 msgstr "사전 공급원"
