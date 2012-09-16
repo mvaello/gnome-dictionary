@@ -22,8 +22,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-utils\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-10-06 14:35-0400\n"
-"PO-Revision-Date: 2011-09-12 00:44+0200\n"
+"POT-Creation-Date: 2012-09-16 13:25+0200\n"
+"PO-Revision-Date: 2012-09-16 00:42+0200\n"
 "Last-Translator: Joe Hansen <joedalton2@yahoo.dk>\n"
 "Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
 "Language: da\n"
@@ -36,40 +36,178 @@ msgstr ""
 msgid "Default Dictionary Server"
 msgstr "Standardordbogsserver"
 
-#: ../data/spanish.desktop.in.h:1
-msgid "Spanish Dictionaries"
-msgstr "Spansk-ordbøger"
+#: ../data/gnome-dictionary.desktop.in.in.h:1 ../src/gdict-about.c:62
+#: ../src/gdict-app.c:349 ../src/gdict-window.c:545 ../src/gdict-window.c:1807
+msgid "Dictionary"
+msgstr "Ordbog"
 
-#: ../data/thai.desktop.in.h:1
-msgid "Longdo Thai-English Dictionaries"
-msgstr "Longdo Thai-Engelsk ordbøger"
-
-#: ../data/gnome-dictionary.desktop.in.in.h:1
+#: ../data/gnome-dictionary.desktop.in.in.h:2
 msgid "Check word definitions and spellings in an online dictionary"
 msgstr "Slå orddefinitioner og stavning op i en ordbog på internettet"
 
-#: ../data/gnome-dictionary.desktop.in.in.h:2 ../src/gdict-about.c:62
-#: ../src/gdict-app.c:233 ../src/gdict-window.c:601 ../src/gdict-window.c:1894
-msgid "Dictionary"
-msgstr "Ordbog"
+#: ../data/gnome-dictionary-menus.ui.h:1
+msgid "Preferences"
+msgstr "Indstillinger"
+
+#: ../data/gnome-dictionary-menus.ui.h:2
+msgid "Help"
+msgstr "Hjælp"
+
+#: ../data/gnome-dictionary-menus.ui.h:3
+msgid "About Dictionary"
+msgstr "Om Ordbog"
+
+#: ../data/gnome-dictionary-menus.ui.h:4
+msgid "Quit"
+msgstr "Afslut"
+
+#: ../data/gnome-dictionary-menus.ui.h:5
+msgid "_File"
+msgstr "_Fil"
+
+#: ../data/gnome-dictionary-menus.ui.h:6
+msgid "_New"
+msgstr "_Ny"
+
+#: ../data/gnome-dictionary-menus.ui.h:7
+msgid "_Save a Copy..."
+msgstr "_Gem en kopi..."
+
+#: ../data/gnome-dictionary-menus.ui.h:8
+msgid "P_review"
+msgstr "Fo_rhåndsvisning"
+
+#: ../data/gnome-dictionary-menus.ui.h:9
+msgid "_Print"
+msgstr "_Udskriv"
+
+#: ../data/gnome-dictionary-menus.ui.h:10
+msgid "_Close"
+msgstr "_Luk"
+
+#: ../data/gnome-dictionary-menus.ui.h:11
+msgid "_Edit"
+msgstr "_Redigér"
+
+#: ../data/gnome-dictionary-menus.ui.h:12
+msgid "_Copy"
+msgstr "_Kopiér"
+
+#: ../data/gnome-dictionary-menus.ui.h:13
+msgid "Select _All"
+msgstr "Markér _alt"
+
+#: ../data/gnome-dictionary-menus.ui.h:14
+msgid "_Find"
+msgstr "_Find"
+
+#: ../data/gnome-dictionary-menus.ui.h:15
+msgid "Find Ne_xt"
+msgstr "Find n_æste"
+
+#: ../data/gnome-dictionary-menus.ui.h:16
+msgid "Find Pre_vious"
+msgstr "Find f_orrige"
+
+#: ../data/gnome-dictionary-menus.ui.h:17
+msgid "_View"
+msgstr "_Vis"
+
+#: ../data/gnome-dictionary-menus.ui.h:18
+msgid "_Sidebar"
+msgstr "_Sidepanel"
+
+#: ../data/gnome-dictionary-menus.ui.h:19
+msgid "S_tatusbar"
+msgstr "S_tatusbjælke"
+
+#: ../data/gnome-dictionary-menus.ui.h:20
+msgid "Similar _Words"
+msgstr "Lignende _ord"
+
+#: ../data/gnome-dictionary-menus.ui.h:21
+msgid "Dictionary Sources"
+msgstr "Ordbogskilder"
+
+#: ../data/gnome-dictionary-menus.ui.h:22
+msgid "Available _Databases"
+msgstr "Tilgængelige _databaser"
+
+#: ../data/gnome-dictionary-menus.ui.h:23
+msgid "Available St_rategies"
+msgstr "Tilgængelige st_rategier"
+
+# Tilhører tilsyneladende menuen med "forrige", "næste" etc.
+#: ../data/gnome-dictionary-menus.ui.h:24
+msgid "_Go"
+msgstr "_Gå til"
+
+#: ../data/gnome-dictionary-menus.ui.h:25
+msgid "_Previous Definition"
+msgstr "_Forrige definition"
+
+#: ../data/gnome-dictionary-menus.ui.h:26
+msgid "_Next Definition"
+msgstr "_Næste definition"
+
+#: ../data/gnome-dictionary-menus.ui.h:27
+msgid "_First Definition"
+msgstr "_Første definition"
+
+#: ../data/gnome-dictionary-menus.ui.h:28
+msgid "_Last Definition"
+msgstr "_Sidste definition"
+
+#: ../data/gnome-dictionary-preferences.ui.h:1
+msgid "_Select a dictionary source for looking up words:"
+msgstr "_Vælg en ordbogskilde til ordopslag:"
+
+#: ../data/gnome-dictionary-preferences.ui.h:2
+#: ../data/gnome-dictionary-source.ui.h:6
+msgid "Source"
+msgstr "Kilde"
+
+#: ../data/gnome-dictionary-preferences.ui.h:3
+msgid "_Print font:"
+msgstr "Skrifttype til _udskrift:"
+
+#: ../data/gnome-dictionary-preferences.ui.h:4
+msgid "Print"
+msgstr "Udskriv"
+
+#: ../data/gnome-dictionary-source.ui.h:1
+msgid "_Description:"
+msgstr "_Beskrivelse:"
+
+#: ../data/gnome-dictionary-source.ui.h:2
+msgid "_Transport:"
+msgstr "_Transport:"
+
+#: ../data/gnome-dictionary-source.ui.h:3
+msgid "H_ostname:"
+msgstr "V_ærtsnavn:"
+
+#: ../data/gnome-dictionary-source.ui.h:4
+msgid "_Port:"
+msgstr "_Port:"
+
+#: ../data/gnome-dictionary-source.ui.h:5
+msgid "Source Name"
+msgstr "Kildenavn"
+
+#: ../data/gnome-dictionary-source.ui.h:7
+msgid "Dictionaries"
+msgstr "Ordbøger"
+
+#: ../data/gnome-dictionary-source.ui.h:8
+msgid "Strategies"
+msgstr "Strategier"
 
 #: ../data/org.gnome.dictionary.gschema.xml.in.in.h:1
 msgid "The default database to use"
 msgstr "Standarddatabasen der skal benyttes"
 
 #: ../data/org.gnome.dictionary.gschema.xml.in.in.h:2
-msgid "The default search strategy to use"
-msgstr "Standardsøgestrategi der skal benyttes"
-
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:3
-msgid "The font to be used when printing"
-msgstr "Skrifttypen der bruges når der printes"
-
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:4
-msgid "The font to be used when printing a definition."
-msgstr "Skrifttypen der bruges når en definition udskrives."
-
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:5
 msgid ""
 "The name of the default individual database or meta-database to use on a "
 "dictionary source. An exclamation mark (\"!\") means that all the databases "
@@ -79,7 +217,11 @@ msgstr ""
 "bruges på ordbogskilde. Et udråbstegn (\"!\") angiver at alle databaserne "
 "fra en given kilde skal søges"
 
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:6
+#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:3
+msgid "The default search strategy to use"
+msgstr "Standardsøgestrategi der skal benyttes"
+
+#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:4
 msgid ""
 "The name of the default search strategy to use on a dictionary source, if "
 "available. The default strategy is 'exact', that is match exact words."
@@ -87,6 +229,14 @@ msgstr ""
 "Navnet af standardsøgestrategien der benyttes på en ordbogskilde, hvis "
 "tilgængelig. Standardstrategien er \"exact\", det vil sige træf identiske "
 "ord."
+
+#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:5
+msgid "The font to be used when printing"
+msgstr "Skrifttypen der bruges når der printes"
+
+#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:6
+msgid "The font to be used when printing a definition."
+msgstr "Skrifttypen der bruges når en definition udskrives."
 
 #: ../data/org.gnome.dictionary.gschema.xml.in.in.h:7
 msgid "The name of the dictionary source used"
@@ -97,50 +247,13 @@ msgid ""
 "The name of the dictionary source used to retrieve the definitions of words."
 msgstr "Navnet på ordbogskilden der benyttes til at hente orddefinitioner."
 
-#: ../data/gnome-dictionary-preferences.ui.h:1
-msgid "Print"
-msgstr "Udskriv"
+#: ../data/spanish.desktop.in.h:1
+msgid "Spanish Dictionaries"
+msgstr "Spansk-ordbøger"
 
-#: ../data/gnome-dictionary-preferences.ui.h:2
-#: ../data/gnome-dictionary-source.ui.h:3
-msgid "Source"
-msgstr "Kilde"
-
-#: ../data/gnome-dictionary-preferences.ui.h:3
-msgid "_Print font:"
-msgstr "Skrifttype til _udskrift:"
-
-#: ../data/gnome-dictionary-preferences.ui.h:4
-msgid "_Select a dictionary source for looking up words:"
-msgstr "_Vælg en ordbogskilde til ordopslag:"
-
-#: ../data/gnome-dictionary-source.ui.h:1
-msgid "Dictionaries"
-msgstr "Ordbøger"
-
-#: ../data/gnome-dictionary-source.ui.h:2
-msgid "H_ostname:"
-msgstr "V_ærtsnavn:"
-
-#: ../data/gnome-dictionary-source.ui.h:4
-msgid "Source Name"
-msgstr "Kildenavn"
-
-#: ../data/gnome-dictionary-source.ui.h:5
-msgid "Strategies"
-msgstr "Strategier"
-
-#: ../data/gnome-dictionary-source.ui.h:6
-msgid "_Description:"
-msgstr "_Beskrivelse:"
-
-#: ../data/gnome-dictionary-source.ui.h:7
-msgid "_Port:"
-msgstr "_Port:"
-
-#: ../data/gnome-dictionary-source.ui.h:8
-msgid "_Transport:"
-msgstr "_Transport:"
+#: ../data/thai.desktop.in.h:1
+msgid "Longdo Thai-English Dictionaries"
+msgstr "Longdo Thai-Engelsk ordbøger"
 
 #: ../libgdict/gdict-client-context.c:283
 msgid "Client Name"
@@ -295,17 +408,17 @@ msgstr "Kun lokal"
 msgid "Whether the context uses only local dictionaries or not"
 msgstr "Om konteksten kun bruger lokale ordbøger"
 
-#: ../libgdict/gdict-database-chooser.c:378
+#: ../libgdict/gdict-database-chooser.c:379
 msgid "Reload the list of available databases"
 msgstr "Genindlæs listen af tilgængelige databaser"
 
-#: ../libgdict/gdict-database-chooser.c:390
+#: ../libgdict/gdict-database-chooser.c:391
 msgid "Clear the list of available databases"
 msgstr "Ryd listen af tilgængelige databaser"
 
 # Søgning er måske ikke det mest præcise
-#: ../libgdict/gdict-database-chooser.c:837 ../libgdict/gdict-speller.c:778
-#: ../libgdict/gdict-strategy-chooser.c:785
+#: ../libgdict/gdict-database-chooser.c:838 ../libgdict/gdict-speller.c:778
+#: ../libgdict/gdict-strategy-chooser.c:786
 msgid "Error while matching"
 msgstr "Fejl under søgning"
 
@@ -326,19 +439,19 @@ msgstr "_Forrige"
 msgid "_Next"
 msgstr "_Næste"
 
-#: ../libgdict/gdict-defbox.c:2512
+#: ../libgdict/gdict-defbox.c:2514
 msgid "Error while looking up definition"
 msgstr "Fejl ved opslag af definition"
 
-#: ../libgdict/gdict-defbox.c:2554 ../libgdict/gdict-speller.c:736
+#: ../libgdict/gdict-defbox.c:2556 ../libgdict/gdict-speller.c:736
 msgid "Another search is in progress"
 msgstr "En anden søgning er i gang"
 
-#: ../libgdict/gdict-defbox.c:2555 ../libgdict/gdict-speller.c:737
+#: ../libgdict/gdict-defbox.c:2557 ../libgdict/gdict-speller.c:737
 msgid "Please wait until the current search ends."
 msgstr "Vent venligst til den aktuelle søgning er afsluttet."
 
-#: ../libgdict/gdict-defbox.c:2594
+#: ../libgdict/gdict-defbox.c:2596
 msgid "Error while retrieving the definition"
 msgstr "Fejl under overførsel af definition"
 
@@ -467,11 +580,11 @@ msgstr "Den database der skal benyttes til forespørgsler GdictContext'en"
 msgid "The strategy used to query the GdictContext"
 msgstr "Strategien der bruges til forespørgsler til GdictContext'en"
 
-#: ../libgdict/gdict-strategy-chooser.c:361
+#: ../libgdict/gdict-strategy-chooser.c:362
 msgid "Reload the list of available strategies"
 msgstr "Genindlæs listen af tilgængelige strategier"
 
-#: ../libgdict/gdict-strategy-chooser.c:373
+#: ../libgdict/gdict-strategy-chooser.c:374
 msgid "Clear the list of available strategies"
 msgstr "Ryd listen af tilgængelige strategier"
 
@@ -548,8 +661,18 @@ msgstr "Benyttet søgningsstrategi"
 msgid "WORDS"
 msgstr "ORD"
 
+#: ../src/gdict-app.c:108
+msgid "Dictionary Preferences"
+msgstr "Indstillinger for ordbog"
+
+#: ../src/gdict-app.c:130 ../src/gdict-pref-dialog.c:496
+#: ../src/gdict-source-dialog.c:477
+#, c-format
+msgid "There was an error while displaying help"
+msgstr "Der opstod en fejl ved visning af hjælp"
+
 #. create the new option context
-#: ../src/gdict-app.c:143
+#: ../src/gdict-app.c:219
 msgid " - Look up words in dictionaries"
 msgstr " - Slå ord op i ordbøger"
 
@@ -575,12 +698,6 @@ msgstr "Dette vil permanent fjerne ordbogskilden fra listen."
 msgid "Unable to remove source '%s'"
 msgstr "Kunne ikke fjerne kilden \"%s\""
 
-#: ../src/gdict-pref-dialog.c:496 ../src/gdict-source-dialog.c:479
-#: ../src/gdict-window.c:1245
-#, c-format
-msgid "There was an error while displaying help"
-msgstr "Der opstod en fejl ved visning af hjælp"
-
 #: ../src/gdict-pref-dialog.c:643
 msgid "Add a new dictionary source"
 msgstr "Tilføj en ny ordbogskilde"
@@ -602,265 +719,156 @@ msgstr "Sæt skrifttypen der bruges til udskrift af definitioner"
 msgid "Unable to display the preview: %s"
 msgstr "Kunne ikke lave forhåndvisning: %s"
 
-#: ../src/gdict-source-dialog.c:341 ../src/gdict-source-dialog.c:434
+#: ../src/gdict-source-dialog.c:342 ../src/gdict-source-dialog.c:434
 msgid "Unable to create a source file"
 msgstr "Kan ikke oprette en kildefil"
 
-#: ../src/gdict-source-dialog.c:359 ../src/gdict-source-dialog.c:452
+#: ../src/gdict-source-dialog.c:358 ../src/gdict-source-dialog.c:450
 msgid "Unable to save source file"
 msgstr "Kan ikke gemme kildefil"
 
-#: ../src/gdict-window.c:311
+#: ../src/gdict-window.c:255
 #, c-format
 msgid "Searching for '%s'..."
 msgstr "Søger efter \"%s\"..."
 
-#: ../src/gdict-window.c:343 ../src/gdict-window.c:400
+#: ../src/gdict-window.c:287 ../src/gdict-window.c:344
 msgid "No definitions found"
 msgstr "Ingen definitioner fundet"
 
-#: ../src/gdict-window.c:345
+#: ../src/gdict-window.c:289
 #, c-format
 msgid "A definition found"
 msgid_plural "%d definitions found"
 msgstr[0] "Én definition fundet"
 msgstr[1] "%d definitioner fundet"
 
-#: ../src/gdict-window.c:516
+#: ../src/gdict-window.c:460
 #, c-format
 msgid "No dictionary source available with name '%s'"
 msgstr "Ingen ordbogskilde tilgængelig med navnet \"%s\""
 
-#: ../src/gdict-window.c:520
+#: ../src/gdict-window.c:464
 msgid "Unable to find dictionary source"
 msgstr "Kan ikke finde ordbogskilde"
 
-#: ../src/gdict-window.c:536
+#: ../src/gdict-window.c:480
 #, c-format
 msgid "No context available for source '%s'"
 msgstr "Ingen kontekst tilgængelig for kilden \"%s\""
 
-#: ../src/gdict-window.c:540
+#: ../src/gdict-window.c:484
 msgid "Unable to create a context"
 msgstr "Kan ikke oprette kontekst"
 
-#: ../src/gdict-window.c:599
+#: ../src/gdict-window.c:543
 #, c-format
 msgid "%s - Dictionary"
 msgstr "%s - Ordbog"
 
-#: ../src/gdict-window.c:962
+#: ../src/gdict-window.c:912
 msgid "Save a Copy"
 msgstr "Gem en kopi"
 
-#: ../src/gdict-window.c:972
+#: ../src/gdict-window.c:922
 msgid "Untitled document"
 msgstr "Dokument uden titel"
 
-#: ../src/gdict-window.c:993
+#: ../src/gdict-window.c:943
 #, c-format
 msgid "Error while writing to '%s'"
 msgstr "Fejl under skrivning til \"%s\""
 
-#: ../src/gdict-window.c:1098
-msgid "Dictionary Preferences"
-msgstr "Indstillinger for ordbog"
-
-#: ../src/gdict-window.c:1280
-msgid "_File"
-msgstr "_Fil"
-
-#: ../src/gdict-window.c:1281
-msgid "_Edit"
-msgstr "_Redigér"
-
-#: ../src/gdict-window.c:1282
-msgid "_View"
-msgstr "_Vis"
-
-# Tilhører tilsyneladende menuen med "forrige", "næste" etc.
-#: ../src/gdict-window.c:1283
-msgid "_Go"
-msgstr "_Gå til"
-
-#: ../src/gdict-window.c:1284
-msgid "_Help"
-msgstr "_Hjælp"
-
-#. File menu
-#: ../src/gdict-window.c:1287
-msgid "_New"
-msgstr "_Ny"
-
-#: ../src/gdict-window.c:1288
-msgid "New look up"
-msgstr "Nyt opslag"
-
-#: ../src/gdict-window.c:1289
-msgid "_Save a Copy..."
-msgstr "_Gem en kopi..."
-
-#: ../src/gdict-window.c:1291
-msgid "P_review..."
-msgstr "Fo_rhåndsvis..."
-
-#: ../src/gdict-window.c:1292
-msgid "Preview this document"
-msgstr "Forhåndsvis dette dokument"
-
-#: ../src/gdict-window.c:1293
-msgid "_Print..."
-msgstr "_Udskriv..."
-
-#: ../src/gdict-window.c:1294
-msgid "Print this document"
-msgstr "Udskriv dette dokument"
-
-#: ../src/gdict-window.c:1301
-msgid "Select _All"
-msgstr "Markér _alt"
-
-# bemærk: denne og følgende skal synkroniseres med senere tekster
-#: ../src/gdict-window.c:1304
-msgid "Find a word or phrase in the document"
-msgstr "Find et ord eller en frase i dokumentet"
-
-#: ../src/gdict-window.c:1306
-msgid "Find Ne_xt"
-msgstr "Find n_æste"
-
-#: ../src/gdict-window.c:1308
-msgid "Find Pre_vious"
-msgstr "Find f_orrige"
-
-#: ../src/gdict-window.c:1310
-msgid "_Preferences"
-msgstr "_Indstillinger"
-
-#. Go menu
-#: ../src/gdict-window.c:1314
-msgid "_Previous Definition"
-msgstr "_Forrige definition"
-
-#: ../src/gdict-window.c:1315
-msgid "Go to the previous definition"
-msgstr "Gå til forrige definition"
-
-#: ../src/gdict-window.c:1316
-msgid "_Next Definition"
-msgstr "_Næste definition"
-
-#: ../src/gdict-window.c:1317
-msgid "Go to the next definition"
-msgstr "Gå til næste definition"
-
-#: ../src/gdict-window.c:1318
-msgid "_First Definition"
-msgstr "_Første definition"
-
-#: ../src/gdict-window.c:1319
-msgid "Go to the first definition"
-msgstr "Gå til den første definition"
-
-#: ../src/gdict-window.c:1320
-msgid "_Last Definition"
-msgstr "_Sidste definition"
-
-#: ../src/gdict-window.c:1321
-msgid "Go to the last definition"
-msgstr "Gå til den sidste definition"
-
-#. View menu
-#: ../src/gdict-window.c:1324
-msgid "Similar _Words"
-msgstr "Lignende _ord"
-
-#: ../src/gdict-window.c:1326
-msgid "Dictionary Sources"
-msgstr "Ordbogskilder"
-
-#: ../src/gdict-window.c:1328
-msgid "Available _Databases"
-msgstr "Tilgængelige _databaser"
-
-#: ../src/gdict-window.c:1330
-msgid "Available St_rategies"
-msgstr "Tilgængelige st_rategier"
-
-#. Help menu
-#: ../src/gdict-window.c:1334
-msgid "_Contents"
-msgstr "_Indhold"
-
-#: ../src/gdict-window.c:1336
-msgid "_About"
-msgstr "_Om"
-
-#. View menu
-#: ../src/gdict-window.c:1347
-msgid "_Sidebar"
-msgstr "_Sidepanel"
-
-#: ../src/gdict-window.c:1349
-msgid "S_tatusbar"
-msgstr "S_tatusbjælke"
-
-#: ../src/gdict-window.c:1414
+#: ../src/gdict-window.c:1361
 #, c-format
 msgid "Dictionary source `%s' selected"
 msgstr "Ordbogskilde \"%s\" valgt"
 
-#: ../src/gdict-window.c:1435
+#: ../src/gdict-window.c:1382
 #, c-format
 msgid "Strategy `%s' selected"
 msgstr "Strategi \"%s\" valgt"
 
-#: ../src/gdict-window.c:1455
+#: ../src/gdict-window.c:1402
 #, c-format
 msgid "Database `%s' selected"
 msgstr "Database \"%s\" valgt"
 
-#: ../src/gdict-window.c:1475
+#: ../src/gdict-window.c:1422
 #, c-format
 msgid "Word `%s' selected"
 msgstr "Ord \"%s\" valgt"
 
 #. speller
-#: ../src/gdict-window.c:1500
+#: ../src/gdict-window.c:1447
 msgid "Double-click on the word to look up"
 msgstr "Dobbeltklik på ordet for at slå det op"
 
 #. strat-chooser
-#: ../src/gdict-window.c:1506
+#: ../src/gdict-window.c:1453
 msgid "Double-click on the matching strategy to use"
 msgstr "Dobbeltklik på søgningsstrategien der skal benyttes"
 
 #. source-chooser
-#: ../src/gdict-window.c:1511
+#: ../src/gdict-window.c:1458
 msgid "Double-click on the source to use"
 msgstr "Dobbeltklik på den kilde som skal benyttes"
 
 #. db-chooser
-#: ../src/gdict-window.c:1520
+#: ../src/gdict-window.c:1467
 msgid "Double-click on the database to use"
 msgstr "Dobbeltklik på databasen der skal benyttes"
 
-#: ../src/gdict-window.c:1700
+#: ../src/gdict-window.c:1617
 msgid "Look _up:"
 msgstr "Slå _op:"
 
-#: ../src/gdict-window.c:1775
+#: ../src/gdict-window.c:1692
 msgid "Similar words"
 msgstr "Lignende ord"
 
-#: ../src/gdict-window.c:1788
+#: ../src/gdict-window.c:1705
 msgid "Available dictionaries"
 msgstr "Tilgængelige ordbøger"
 
-#: ../src/gdict-window.c:1806
+#: ../src/gdict-window.c:1723
 msgid "Available strategies"
 msgstr "Tilgængelige strategier"
 
-#: ../src/gdict-window.c:1822
+#: ../src/gdict-window.c:1739
 msgid "Dictionary sources"
 msgstr "Ordbogskilder"
+
+#~ msgid "New look up"
+#~ msgstr "Nyt opslag"
+
+#~ msgid "Preview this document"
+#~ msgstr "Forhåndsvis dette dokument"
+
+#~ msgid "_Print..."
+#~ msgstr "_Udskriv..."
+
+#~ msgid "Print this document"
+#~ msgstr "Udskriv dette dokument"
+
+# bemærk: denne og følgende skal synkroniseres med senere tekster
+#~ msgid "Find a word or phrase in the document"
+#~ msgstr "Find et ord eller en frase i dokumentet"
+
+#~ msgid "Go to the previous definition"
+#~ msgstr "Gå til forrige definition"
+
+#~ msgid "Go to the next definition"
+#~ msgstr "Gå til næste definition"
+
+#~ msgid "Go to the first definition"
+#~ msgstr "Gå til den første definition"
+
+#~ msgid "Go to the last definition"
+#~ msgstr "Gå til den sidste definition"
+
+#~ msgid "_Contents"
+#~ msgstr "_Indhold"
+
+#~ msgid "_About"
+#~ msgstr "_Om"
