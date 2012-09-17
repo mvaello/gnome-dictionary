@@ -10,7 +10,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: dictionary.HEAD\n"
-"POT-Creation-Date: 2012-08-21 15:36+0000\n"
+"POT-Creation-Date: 2012-08-23 16:43+0000\n"
 "PO-Revision-Date: 2012-08-23 18:33+0200\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
 "Language-Team: Español <gnome-es-list@gnome.org>\n"
@@ -22,7 +22,6 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
-#| msgid "translator-credits"
 msgctxt "_"
 msgid "translator-credits"
 msgstr ""
@@ -40,9 +39,6 @@ msgstr ""
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/index.docbook:150(imagedata)
-#| msgid ""
-#| "@@image: 'figures/gnome-dictionary-application.png'; "
-#| "md5=fb48a9e5863bfb2b3811df2e28489eb7"
 msgctxt "_"
 msgid ""
 "external ref='figures/gnome-dictionary-application.png' "
@@ -61,9 +57,6 @@ msgstr ""
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/index.docbook:179(imagedata)
-#| msgid ""
-#| "@@image: 'figures/gnome-dictionary-lookup.png'; "
-#| "md5=c41c96af4de54f457a2081aad009a8d0"
 msgctxt "_"
 msgid ""
 "external ref='figures/gnome-dictionary-lookup.png' "
@@ -82,9 +75,6 @@ msgstr ""
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/index.docbook:221(imagedata)
-#| msgid ""
-#| "@@image: 'figures/gnome-dictionary-find.png'; "
-#| "md5=d8bf0677084e2d9998a7942faaab5379"
 msgctxt "_"
 msgid ""
 "external ref='figures/gnome-dictionary-find.png' "
@@ -103,9 +93,6 @@ msgstr ""
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/index.docbook:262(imagedata)
-#| msgid ""
-#| "@@image: 'figures/gnome-dictionary-preferences-source.png'; "
-#| "md5=5470b15e64e66924477f150c4f47e96d"
 msgctxt "_"
 msgid ""
 "external ref='figures/gnome-dictionary-preferences-source.png' "
@@ -124,9 +111,6 @@ msgstr ""
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/index.docbook:282(imagedata)
-#| msgid ""
-#| "@@image: 'figures/gnome-dictionary-add-source.png'; "
-#| "md5=d059507fee77bb176fce53373951756b"
 msgctxt "_"
 msgid ""
 "external ref='figures/gnome-dictionary-add-source.png' "
@@ -145,9 +129,6 @@ msgstr ""
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/index.docbook:351(imagedata)
-#| msgid ""
-#| "@@image: 'figures/gnome-dictionary-preferences-print.png'; "
-#| "md5=12a65f07cb333db4c7ba743d1d12a00f"
 msgctxt "_"
 msgid ""
 "external ref='figures/gnome-dictionary-preferences-print.png' "
@@ -166,9 +147,6 @@ msgstr ""
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/index.docbook:385(imagedata)
-#| msgid ""
-#| "@@image: 'figures/gnome-dictionary-applet.png'; "
-#| "md5=538c7fa191540f99dd964963a1079677"
 msgctxt "_"
 msgid ""
 "external ref='figures/gnome-dictionary-applet.png' "
@@ -187,9 +165,6 @@ msgstr ""
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/index.docbook:421(imagedata)
-#| msgid ""
-#| "@@image: 'figures/gnome-dictionary-applet-window.png'; "
-#| "md5=e26ac4847d2e7b53c6bba7d8e1a519c4"
 msgctxt "_"
 msgid ""
 "external ref='figures/gnome-dictionary-applet-window.png' "
@@ -219,13 +194,6 @@ msgid "GNOME Documentation Project"
 msgstr "Proyecto de documentación de GNOME"
 
 #: C/index.docbook:2(legalnotice/para)
-#| msgid ""
-#| "Permission is granted to copy, distribute and/or modify this document "
-#| "under the terms of the GNU Free Documentation License (GFDL), Version 1.1 "
-#| "or any later version published by the Free Software Foundation with no "
-#| "Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts. You "
-#| "can find a copy of the GFDL at this <ulink type=\"help\" url=\"ghelp:fdl"
-#| "\">link</ulink> or in the file COPYING-DOCS distributed with this manual."
 msgid ""
 "Permission is granted to copy, distribute and/or modify this document under "
 "the terms of the GNU Free Documentation License (GFDL), Version 1.1 or any "
@@ -321,10 +289,6 @@ msgstr ""
 "SE PRODUJESEN DICHOS DAÑOS."
 
 #: C/index.docbook:28(legalnotice/para) C/legal.xml:28(legalnotice/para)
-#| msgid ""
-#| "DOCUMENT AND MODIFIED VERSIONS OF THE DOCUMENT ARE PROVIDED UNDER THE "
-#| "TERMS OF THE GNU FREE DOCUMENTATION LICENSE WITH THE FURTHER "
-#| "UNDERSTANDING THAT: <placeholder-1/>"
 msgid ""
 "DOCUMENT AND MODIFIED VERSIONS OF THE DOCUMENT ARE PROVIDED UNDER THE TERMS "
 "OF THE GNU FREE DOCUMENTATION LICENSE WITH THE FURTHER UNDERSTANDING THAT: "
@@ -363,10 +327,6 @@ msgid "Feedback"
 msgstr "Comentarios"
 
 #: C/index.docbook:91(legalnotice/para)
-#| msgid ""
-#| "To report a bug or make a suggestion regarding the Dictionary application "
-#| "or this manual, follow the directions in the <ulink url=\"ghelp:gnome-"
-#| "feedback\" type=\"help\">GNOME Feedback Page</ulink>."
 msgid ""
 "To report a bug or make a suggestion regarding the Dictionary application or "
 "this manual, follow the directions in the <ulink url=\"help:gnome-feedback\" "
@@ -413,9 +373,6 @@ msgid "<guimenu>Applications</guimenu> menu"
 msgstr "Menú <guimenu>Aplicaciones</guimenu>"
 
 #: C/index.docbook:129(listitem/para)
-#| msgid ""
-#| "Choose <menuchoice><guisubmenu>Accessories</"
-#| "guisubmenu><guimenuitem>Dictionary</guimenuitem></menuchoice>."
 msgid ""
 "Choose <menuchoice><guisubmenu>Accessories</guisubmenu> "
 "<guimenuitem>Dictionary</guimenuitem></menuchoice>."
@@ -569,9 +526,6 @@ msgstr ""
 "siguientes pasos:"
 
 #: C/index.docbook:233(listitem/para)
-#| msgid ""
-#| "Choose <menuchoice><guimenu>Edit</guimenu><guimenuitem>Find</"
-#| "guimenuitem></menuchoice> to display the <guilabel>Find</guilabel> pane."
 msgid ""
 "Choose <menuchoice> <guimenu>Edit</guimenu> <guimenuitem>Find</guimenuitem> "
 "</menuchoice> to display the <guilabel>Find</guilabel> pane."
@@ -630,7 +584,7 @@ msgid ""
 "source from the list."
 msgstr ""
 "Para cambiar la fuente de diccionarios usada para buscar palabras, "
-"seleccione la fuente deseada de la lista."
+"seleccione la fuente que quiere de la lista."
 
 #: C/index.docbook:275(sect2/title)
 msgid "Adding a new source"
@@ -730,7 +684,7 @@ msgid ""
 "wide you may actually not be able to remove them unless you have the right "
 "ownership privileges."
 msgstr ""
-"Si quita una fuente de diccionario se borrará permanentemente de la lista de "
+"Si quita una fuente de diccionario se eliminará permanentemente de la lista de "
 "fuentes disponibles. Además, como algunas fuentes quizá estén definidas para "
 "todo el sistema, no podrá quitarlas a no ser que tenga los derechos de "
 "propiedad adecuados."
@@ -763,7 +717,7 @@ msgstr "Pulse en el botón <guilabel>Tipografía de impresión</guilabel>"
 
 #: C/index.docbook:363(listitem/para)
 msgid "Select the font and size you wish to use"
-msgstr "Seleccione el tamaño y la tipografía que desea usar"
+msgstr "Seleccione el tamaño y la tipografía que quiere usar"
 
 #: C/index.docbook:364(listitem/para)
 msgid "Click <guibutton>Ok</guibutton>"
@@ -893,13 +847,6 @@ msgid "link"
 msgstr "enlace"
 
 #: C/legal.xml:2(legalnotice/para)
-#| msgid ""
-#| "Permission is granted to copy, distribute and/or modify this document "
-#| "under the terms of the GNU Free Documentation License (GFDL), Version 1.1 "
-#| "or any later version published by the Free Software Foundation with no "
-#| "Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts. You "
-#| "can find a copy of the GFDL at this <ulink type=\"help\" url=\"ghelp:fdl"
-#| "\">link</ulink> or in the file COPYING-DOCS distributed with this manual."
 msgid ""
 "Permission is granted to copy, distribute and/or modify this document under "
 "the terms of the GNU Free Documentation License (GFDL), Version 1.1 or any "
