@@ -7,14 +7,14 @@
 # Raivis Dejus <orvils@gmail.com>, 2006, 2007, 2009.
 # Rūdolfs Mazurs <rudolfs.mazurs@gmail.com>, 2010, 2011.
 # Rudolfs <rudolfs.mazurs@gmail.com>, 2011.
-# Rūdofls Mazurs <rudolfs.mazurs@gmail.com>, 2011.
+# Rūdofls Mazurs <rudolfs.mazurs@gmail.com>, 2011, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: lv\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-10-06 14:35-0400\n"
-"PO-Revision-Date: 2011-09-07 11:37+0300\n"
-"Last-Translator: Rūdofls Mazurs <rudolfs.mazurs@gmail.com>\n"
+"POT-Creation-Date: 2012-09-23 20:56+0300\n"
+"PO-Revision-Date: 2012-09-23 21:31+0300\n"
+"Last-Translator: Rūdolfs Mazurs <rudolfs.mazurs@gmail.com>\n"
 "Language-Team: Latvian <lata-l10n@googlegroups.com>\n"
 "Language: lv\n"
 "MIME-Version: 1.0\n"
@@ -22,66 +22,229 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : "
 "2);\n"
-"X-Generator: Lokalize 1.1\n"
+"X-Generator: Lokalize 1.4\n"
 
 #: ../data/default.desktop.in.h:1
 msgid "Default Dictionary Server"
-msgstr "Noklusētais vārdnīcas serveris"
+msgstr "Noklusējuma vārdnīcas serveris"
 
-#: ../data/spanish.desktop.in.h:1
-msgid "Spanish Dictionaries"
-msgstr "Spāņu vārdnīcas"
-
-#: ../data/thai.desktop.in.h:1
-msgid "Longdo Thai-English Dictionaries"
-msgstr "Longdo Thai-English vārdnīcas"
+#: ../data/gnome-dictionary.desktop.in.in.h:1 ../src/gdict-about.c:62
+#: ../src/gdict-app.c:349 ../src/gdict-window.c:545 ../src/gdict-window.c:1807
+msgid "Dictionary"
+msgstr "Vārdnīca"
 
 # gdictsrc/gdict-app.c:454 gdictsrc/gdict-app.c:511
-#: ../data/gnome-dictionary.desktop.in.in.h:1
+#: ../data/gnome-dictionary.desktop.in.in.h:2
 msgid "Check word definitions and spellings in an online dictionary"
 msgstr "Pārbauda vārdu skaidrojumus un rakstību interneta vārdnīcā"
 
-#: ../data/gnome-dictionary.desktop.in.in.h:2 ../src/gdict-about.c:62
-#: ../src/gdict-app.c:233 ../src/gdict-window.c:601 ../src/gdict-window.c:1894
-msgid "Dictionary"
-msgstr "Vārdnīca"
+# gdictsrc/gdict-pref-dialog.c:129 gtt/options.c:518
+# mini-utils/gcolorsel/menus.c:1109 mini-utils/gshutdown/gshutdown.c:314
+#: ../data/gnome-dictionary-menus.ui.h:1
+msgid "Preferences"
+msgstr "Iestatījumi"
+
+# gcharmap/src/interface.c:208 gnome-find/gnome-find.c:89
+# gstripchart/gstripchart.c:1784 gstripchart/gstripchart.c:2071
+#: ../data/gnome-dictionary-menus.ui.h:2
+msgid "Help"
+msgstr "Palīdzība"
+
+#: ../data/gnome-dictionary-menus.ui.h:3
+msgid "About Dictionary"
+msgstr "Par vārdnīcu"
+
+#: ../data/gnome-dictionary-menus.ui.h:4
+msgid "Quit"
+msgstr "Iziet"
+
+#: ../data/gnome-dictionary-menus.ui.h:5
+msgid "_File"
+msgstr "_Datne"
+
+#: ../data/gnome-dictionary-menus.ui.h:6
+msgid "_New"
+msgstr "Jau_ns"
+
+#: ../data/gnome-dictionary-menus.ui.h:7
+msgid "_Save a Copy..."
+msgstr "_Saglabāt kopiju..."
+
+# gdictsrc/gdict-pref-dialog.c:161
+#: ../data/gnome-dictionary-menus.ui.h:8
+msgid "P_review"
+msgstr "P_riekšskatījums"
+
+# gdictsrc/gdict-pref-dialog.c:161
+#: ../data/gnome-dictionary-menus.ui.h:9
+msgid "_Print"
+msgstr "_Drukāt"
+
+#: ../data/gnome-dictionary-menus.ui.h:10
+msgid "_Close"
+msgstr "_Aizvērt"
+
+# logview/actions.c:120
+#: ../data/gnome-dictionary-menus.ui.h:11
+msgid "_Edit"
+msgstr "R_ediģēt"
+
+#: ../data/gnome-dictionary-menus.ui.h:12
+msgid "_Copy"
+msgstr "_Kopēt"
+
+#: ../data/gnome-dictionary-menus.ui.h:13
+msgid "Select _All"
+msgstr "Izvēlēties _visu"
+
+#: ../data/gnome-dictionary-menus.ui.h:14
+msgid "_Find"
+msgstr "_Meklēt"
+
+# gdictsrc/gdict-app.c:381
+#: ../data/gnome-dictionary-menus.ui.h:15
+msgid "Find Ne_xt"
+msgstr "Meklēt nā_kamo"
+
+#: ../data/gnome-dictionary-menus.ui.h:16
+msgid "Find Pre_vious"
+msgstr "Meklēt _iepriekšējo"
+
+#: ../data/gnome-dictionary-menus.ui.h:17
+msgid "_View"
+msgstr "_Skats"
+
+#: ../data/gnome-dictionary-menus.ui.h:18
+msgid "_Sidebar"
+msgstr "_Sānjosla"
+
+#: ../data/gnome-dictionary-menus.ui.h:19
+msgid "S_tatusbar"
+msgstr "S_tatusa josla"
+
+#: ../data/gnome-dictionary-menus.ui.h:20
+msgid "Similar _Words"
+msgstr "Līdzīgie _vārdi"
+
+#: ../data/gnome-dictionary-menus.ui.h:21
+msgid "Dictionary Sources"
+msgstr "Vārdnīcas avoti"
+
+#: ../data/gnome-dictionary-menus.ui.h:22
+msgid "Available _Databases"
+msgstr "Pieejamās _datubāzes"
+
+#: ../data/gnome-dictionary-menus.ui.h:23
+msgid "Available St_rategies"
+msgstr "Pieejamās st_ratēģijas"
+
+#: ../data/gnome-dictionary-menus.ui.h:24
+msgid "_Go"
+msgstr "_Iet"
+
+#: ../data/gnome-dictionary-menus.ui.h:25
+msgid "_Previous Definition"
+msgstr "Ie_priekšējā definīcija"
+
+#: ../data/gnome-dictionary-menus.ui.h:26
+msgid "_Next Definition"
+msgstr "_Nākamā definīcija"
+
+#: ../data/gnome-dictionary-menus.ui.h:27
+msgid "_First Definition"
+msgstr "Pirmā de_finīcija"
+
+#: ../data/gnome-dictionary-menus.ui.h:28
+msgid "_Last Definition"
+msgstr "Pē_dējā definīcija"
+
+#: ../data/gnome-dictionary-preferences.ui.h:1
+msgid "_Select a dictionary source for looking up words:"
+msgstr "Izvēlietie_s vārdnīcas avotu vārdu uzmeklēšanai:"
+
+# gtt/toolbar.c:152
+#: ../data/gnome-dictionary-preferences.ui.h:2
+#: ../data/gnome-dictionary-source.ui.h:6
+msgid "Source"
+msgstr "Avots"
+
+# gdictsrc/gdict-pref-dialog.c:161
+#: ../data/gnome-dictionary-preferences.ui.h:3
+msgid "_Print font:"
+msgstr "_Drukāšanas fonts:"
+
+# gdictsrc/gdict-pref-dialog.c:161
+#: ../data/gnome-dictionary-preferences.ui.h:4
+msgid "Print"
+msgstr "Drukāt"
+
+# logview/zoom.c:183
+#: ../data/gnome-dictionary-source.ui.h:1
+msgid "_Description:"
+msgstr "_Apraksts:"
+
+#: ../data/gnome-dictionary-source.ui.h:2
+msgid "_Transport:"
+msgstr "_Transports:"
+
+#: ../data/gnome-dictionary-source.ui.h:3
+msgid "H_ostname:"
+msgstr "Servera n_osaukums:"
+
+# gdictsrc/gdict-pref-dialog.c:161
+#: ../data/gnome-dictionary-source.ui.h:4
+msgid "_Port:"
+msgstr "_Ports:"
+
+#: ../data/gnome-dictionary-source.ui.h:5
+msgid "Source Name"
+msgstr "Avota nosaukums"
+
+#: ../data/gnome-dictionary-source.ui.h:7
+msgid "Dictionaries"
+msgstr "Vārdnīcas"
+
+# gdictsrc/gdict-pref-dialog.c:178
+#: ../data/gnome-dictionary-source.ui.h:8
+msgid "Strategies"
+msgstr "Stratēģijas"
 
 # gdictsrc/gdict-pref-dialog.c:178
 #: ../data/org.gnome.dictionary.gschema.xml.in.in.h:1
 msgid "The default database to use"
-msgstr "Noklusētā datubāze, kuru lietot"
+msgstr "Noklusējuma datubāze, ko lietot"
 
-# gdictsrc/gdict-pref-dialog.c:178
 #: ../data/org.gnome.dictionary.gschema.xml.in.in.h:2
-msgid "The default search strategy to use"
-msgstr "Noklusētā meklēšanas stratēģija, kuru lietot"
-
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:3
-msgid "The font to be used when printing"
-msgstr "Fonts, kuru izmantot drukāšanai"
-
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:4
-msgid "The font to be used when printing a definition."
-msgstr "Fonts, kuru izmantot definīciju drukāšanai."
-
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:5
 msgid ""
 "The name of the default individual database or meta-database to use on a "
 "dictionary source. An exclamation mark (\"!\") means that all the databases "
 "present in a dictionary source should be searched"
 msgstr ""
-"Noklusētās individuālās datubāzes vai meta-datubāzes nosaukums, kuru "
-"izmantot vārdnīcas avotā. Izsaukuma zīme (\"!\") nozīmē, ka vajag pārmeklēt "
+"Noklusējuma individuālās datubāzes vai meta-datubāzes nosaukums, kuru "
+"izmantot vārdnīcas avotā. Izsaukuma zīme (“!”) nozīmē, ka vajag pārmeklēt "
 "visas datubāzes, kuras atrodas vārdnīcas avotā"
 
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:6
+# gdictsrc/gdict-pref-dialog.c:178
+#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:3
+msgid "The default search strategy to use"
+msgstr "Noklusējuma meklēšanas stratēģija, ko lietot"
+
+#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:4
 msgid ""
 "The name of the default search strategy to use on a dictionary source, if "
 "available. The default strategy is 'exact', that is match exact words."
 msgstr ""
-"Noklusētās meklēšanas stratēģijas nosaukums, kuru izmantot vārdnīcas avotā, "
-"ja tas ir pieejams. Noklusētā stratēģija ir 'exact', kas nozīmē, lai vārdi "
+"Noklusējuma meklēšanas stratēģijas nosaukums, kuru izmantot vārdnīcas avotā, "
+"ja tas ir pieejams. Noklusējuma stratēģija ir “exact”, kas nozīmē, lai vārdi "
 "precīzi sakrīt."
+
+#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:5
+msgid "The font to be used when printing"
+msgstr "Fonts, ko izmantot drukāšanai"
+
+#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:6
+msgid "The font to be used when printing a definition."
+msgstr "Fonts, ko izmantot definīciju drukāšanai."
 
 #: ../data/org.gnome.dictionary.gschema.xml.in.in.h:7
 msgid "The name of the dictionary source used"
@@ -91,58 +254,15 @@ msgstr "Vārdnīcas avota nosaukums, kas tiek izmantots"
 msgid ""
 "The name of the dictionary source used to retrieve the definitions of words."
 msgstr ""
-"Vārdnīcas avota nosaukums, kas tiek izmantots, lai atgūt vārdu definīcijas."
+"Vārdnīcas avota nosaukums, kas tiek izmantots, lai saņemtu vārdu definīcijas."
 
-# gdictsrc/gdict-pref-dialog.c:161
-#: ../data/gnome-dictionary-preferences.ui.h:1
-msgid "Print"
-msgstr "Drukāt"
+#: ../data/spanish.desktop.in.h:1
+msgid "Spanish Dictionaries"
+msgstr "Spāņu vārdnīcas"
 
-# gtt/toolbar.c:152
-#: ../data/gnome-dictionary-preferences.ui.h:2
-#: ../data/gnome-dictionary-source.ui.h:3
-msgid "Source"
-msgstr "Avots"
-
-# gdictsrc/gdict-pref-dialog.c:161
-#: ../data/gnome-dictionary-preferences.ui.h:3
-msgid "_Print font:"
-msgstr "_Drukāšanas fonts:"
-
-#: ../data/gnome-dictionary-preferences.ui.h:4
-msgid "_Select a dictionary source for looking up words:"
-msgstr "Izvēlietie_s vārdnīcas avotu vārdu meklēšanai:"
-
-#: ../data/gnome-dictionary-source.ui.h:1
-msgid "Dictionaries"
-msgstr "Vārdnīcas"
-
-#: ../data/gnome-dictionary-source.ui.h:2
-msgid "H_ostname:"
-msgstr "Servera n_osaukums:"
-
-#: ../data/gnome-dictionary-source.ui.h:4
-msgid "Source Name"
-msgstr "Avota nosaukums"
-
-# gdictsrc/gdict-pref-dialog.c:178
-#: ../data/gnome-dictionary-source.ui.h:5
-msgid "Strategies"
-msgstr "Stratēģijas"
-
-# logview/zoom.c:183
-#: ../data/gnome-dictionary-source.ui.h:6
-msgid "_Description:"
-msgstr "_Apraksts:"
-
-# gdictsrc/gdict-pref-dialog.c:161
-#: ../data/gnome-dictionary-source.ui.h:7
-msgid "_Port:"
-msgstr "_Ports:"
-
-#: ../data/gnome-dictionary-source.ui.h:8
-msgid "_Transport:"
-msgstr "_Transports:"
+#: ../data/thai.desktop.in.h:1
+msgid "Longdo Thai-English Dictionaries"
+msgstr "Longdo taju-angļu vārdnīcas"
 
 #: ../libgdict/gdict-client-context.c:283
 msgid "Client Name"
@@ -158,7 +278,7 @@ msgstr "Servera nosaukums"
 
 #: ../libgdict/gdict-client-context.c:298
 msgid "The hostname of the dictionary server to connect to"
-msgstr "Vārndnīcas servera nosaukums, kuram pieslēgties"
+msgstr "Vārdnīcas servera nosaukums, ar ko savienoties"
 
 # gdictsrc/gdict-pref-dialog.c:161
 #: ../libgdict/gdict-client-context.c:311
@@ -167,7 +287,7 @@ msgstr "Ports"
 
 #: ../libgdict/gdict-client-context.c:312
 msgid "The port of the dictionary server to connect to"
-msgstr "Vārdnīcas servera porta numurs, pie kura savienoties"
+msgstr "Vārdnīcas servera porta numurs, ar ko savienoties"
 
 #: ../libgdict/gdict-client-context.c:327
 msgid "Status"
@@ -175,27 +295,27 @@ msgstr "Statuss"
 
 #: ../libgdict/gdict-client-context.c:328
 msgid "The status code as returned by the dictionary server"
-msgstr "Statusa kods, kuru atgriež vārdnīcas serveris"
+msgstr "Statusa kods, ko atgrieza vārdnīcas serveris"
 
 #: ../libgdict/gdict-client-context.c:777
 #, c-format
 msgid "No connection to the dictionary server at '%s:%d'"
-msgstr "Nav savienojuma ar vārdnīcas serveri vietā '%s:%d'"
+msgstr "Nav savienojuma ar vārdnīcas serveri vietā “%s:%d”"
 
 #: ../libgdict/gdict-client-context.c:1060
 #, c-format
 msgid "Lookup failed for hostname '%s': no suitable resources found"
-msgstr "Uzmeklēšana neizdevās serverim '%s': piemērots resurss netika atrast"
+msgstr "Uzmeklēšana neizdevās serverim “%s” — netika atrasts piemērots resurss"
 
 #: ../libgdict/gdict-client-context.c:1091
 #, c-format
 msgid "Lookup failed for host '%s': %s"
-msgstr "Neizdevās uzmeklēšana serverim '%s': %s"
+msgstr "Neizdevās uzmeklēšana serverim “%s” — %s"
 
 #: ../libgdict/gdict-client-context.c:1125
 #, c-format
 msgid "Lookup failed for host '%s': host not found"
-msgstr "Neizdevās uzmeklēšana serverim '%s': serveris netika atrasts"
+msgstr "Neizdevās uzmeklēšana serverim “%s” — serveris netika atrasts"
 
 #: ../libgdict/gdict-client-context.c:1177
 #, c-format
@@ -203,7 +323,7 @@ msgid ""
 "Unable to connect to the dictionary server at '%s:%d'. The server replied "
 "with code %d (server down)"
 msgstr ""
-"Nevar savienoties ar vārdnīcas serveri vietā '%s:%d'. Serveris atgrieza kodu "
+"Nevar savienoties ar vārdnīcas serveri vietā “%s:%d”. Serveris atgrieza kodu "
 "%d (serveris nedarbojas)"
 
 #: ../libgdict/gdict-client-context.c:1196
@@ -213,32 +333,32 @@ msgid ""
 ": '%s'"
 msgstr ""
 "Neizdodas apstrādāt vārdnīcas servera atbildi\n"
-": '%s'"
+": “%s”"
 
 #: ../libgdict/gdict-client-context.c:1225
 #, c-format
 msgid "No definitions found for '%s'"
-msgstr "Netika atrastas '%s' definīcijas"
+msgstr "Netika atrastas “%s” definīcijas"
 
 #: ../libgdict/gdict-client-context.c:1240
 #, c-format
 msgid "Invalid database '%s'"
-msgstr "Nederīga datubāze '%s'"
+msgstr "Nederīga datubāze “%s”"
 
 #: ../libgdict/gdict-client-context.c:1255
 #, c-format
 msgid "Invalid strategy '%s'"
-msgstr "Nederīga stratēģija '%s'"
+msgstr "Nederīga stratēģija “%s”"
 
 #: ../libgdict/gdict-client-context.c:1270
 #, c-format
 msgid "Bad command '%s'"
-msgstr "Nepareiza komanda '%s'"
+msgstr "Slikta komanda “%s”"
 
 #: ../libgdict/gdict-client-context.c:1285
 #, c-format
 msgid "Bad parameters for command '%s'"
-msgstr "Nepareizi parametri komandai '%s'"
+msgstr "Nepareizi parametri komandai “%s”"
 
 #: ../libgdict/gdict-client-context.c:1300
 #, c-format
@@ -248,7 +368,7 @@ msgstr "Netika atrastas datubāzes vārdnīcas serverī '%s'"
 #: ../libgdict/gdict-client-context.c:1315
 #, c-format
 msgid "No strategies found on dictionary server at '%s'"
-msgstr "Netika atrastas stratēģijas vārdnīcas serverī '%s'"
+msgstr "Netika atrastas stratēģijas vārdnīcas serverī “%s”"
 
 #: ../libgdict/gdict-client-context.c:1748
 #, c-format
@@ -267,12 +387,12 @@ msgstr ""
 #: ../libgdict/gdict-client-context.c:1860
 #, c-format
 msgid "Connection timeout for the dictionary server at '%s:%d'"
-msgstr "Savienojuma noildze ar vārdnīcas serveri '%s:%d'"
+msgstr "Savienojuma noildze ar vārdnīcas serveri “%s:%d”"
 
 #: ../libgdict/gdict-client-context.c:1894
 #, c-format
 msgid "No hostname defined for the dictionary server"
-msgstr "Nav definēta datora vārda vārdnīcas serverim"
+msgstr "Nav definēts datora nosaukums vārdnīcas serverim"
 
 # mini-utils/idetool/idetool.c:41
 #: ../libgdict/gdict-client-context.c:1930
@@ -284,12 +404,12 @@ msgstr "Nevarēja izveidot ligzdu"
 #: ../libgdict/gdict-client-context.c:1971
 #, c-format
 msgid "Unable to set the channel as non-blocking: %s"
-msgstr "Nevarēja iestatīt kanālu kā nebloķējošo: %s"
+msgstr "Nevarēja iestatīt kanālu kā nebloķējošo — %s"
 
 #: ../libgdict/gdict-client-context.c:1986
 #, c-format
 msgid "Unable to connect to the dictionary server at '%s:%d'"
-msgstr "Nevarēja savienoties ar vārdnīcas serveri vietā '%s:%d'"
+msgstr "Nevarēja savienoties ar vārdnīcas serveri vietā “%s:%d”"
 
 #: ../libgdict/gdict-context.c:218
 msgid "Local Only"
@@ -297,18 +417,18 @@ msgstr "Tikai lokāli"
 
 #: ../libgdict/gdict-context.c:219
 msgid "Whether the context uses only local dictionaries or not"
-msgstr "Vai konteksts izmanto tikai vietējās vārdnīcas vai nē"
+msgstr "Vai konteksts izmanto tikai vietējās vārdnīcas"
 
-#: ../libgdict/gdict-database-chooser.c:378
+#: ../libgdict/gdict-database-chooser.c:379
 msgid "Reload the list of available databases"
 msgstr "Pārlādēt pieejamo datubāžu sarakstu"
 
-#: ../libgdict/gdict-database-chooser.c:390
+#: ../libgdict/gdict-database-chooser.c:391
 msgid "Clear the list of available databases"
-msgstr "Notīrīt pieejamo datubāžu sarakstu"
+msgstr "Attīrīt pieejamo datubāžu sarakstu"
 
-#: ../libgdict/gdict-database-chooser.c:837 ../libgdict/gdict-speller.c:778
-#: ../libgdict/gdict-strategy-chooser.c:785
+#: ../libgdict/gdict-database-chooser.c:838 ../libgdict/gdict-speller.c:778
+#: ../libgdict/gdict-strategy-chooser.c:786
 msgid "Error while matching"
 msgstr "Kļūda, meklējot atbilstību"
 
@@ -316,7 +436,7 @@ msgstr "Kļūda, meklējot atbilstību"
 #: ../libgdict/gdict-defbox.c:1127 ../libgdict/gdict-defbox.c:1221
 #: ../libgdict/gdict-defbox.c:1255
 msgid "Not found"
-msgstr "Netika atrasts"
+msgstr "Nav atrasts"
 
 # gdictsrc/gdict-app.c:381
 #: ../libgdict/gdict-defbox.c:1316
@@ -329,32 +449,32 @@ msgstr "Ie_priekšējais"
 
 #: ../libgdict/gdict-defbox.c:1337
 msgid "_Next"
-msgstr "_Nākošais"
+msgstr "_Nākamais"
 
-#: ../libgdict/gdict-defbox.c:2512
+#: ../libgdict/gdict-defbox.c:2514
 msgid "Error while looking up definition"
-msgstr "Kļūda, meklējot definīciju"
+msgstr "Kļūda, uzmeklējot definīciju"
 
-#: ../libgdict/gdict-defbox.c:2554 ../libgdict/gdict-speller.c:736
+#: ../libgdict/gdict-defbox.c:2556 ../libgdict/gdict-speller.c:736
 msgid "Another search is in progress"
 msgstr "Pašlaik darbojas cita meklēšana"
 
-#: ../libgdict/gdict-defbox.c:2555 ../libgdict/gdict-speller.c:737
+#: ../libgdict/gdict-defbox.c:2557 ../libgdict/gdict-speller.c:737
 msgid "Please wait until the current search ends."
 msgstr "Lūdzu, uzgaidiet, kamēr tekošā meklēšana beigsies."
 
-#: ../libgdict/gdict-defbox.c:2594
+#: ../libgdict/gdict-defbox.c:2596
 msgid "Error while retrieving the definition"
 msgstr "Kļūda, saņemot definīciju"
 
 # logview/logview.c:370
 #: ../libgdict/gdict-source.c:232
 msgid "Filename"
-msgstr "Faila nosaukums"
+msgstr "Datnes nosaukums"
 
 #: ../libgdict/gdict-source.c:233
 msgid "The filename used by this dictionary source"
-msgstr "Faila nosaukums, kuru izmanto dotais vārdnīcas avots"
+msgstr "Datnes nosaukums, kuru izmanto dotais vārdnīcas avots"
 
 #: ../libgdict/gdict-source.c:246
 msgid "Name"
@@ -381,7 +501,7 @@ msgstr "Datubāze"
 
 #: ../libgdict/gdict-source.c:275
 msgid "The default database of this dictionary source"
-msgstr "Dotā vārdnīcas avota noklusētā datubāze"
+msgstr "Dotā vārdnīcas avota noklusējuma datubāze"
 
 # gdictsrc/gdict-pref-dialog.c:178
 #: ../libgdict/gdict-source.c:288 ../libgdict/gdict-speller.c:390
@@ -390,7 +510,7 @@ msgstr "Stratēģija"
 
 #: ../libgdict/gdict-source.c:289
 msgid "The default strategy of this dictionary source"
-msgstr "Dotā vārdnīcas avota noklusētā stratēģija"
+msgstr "Dotā vārdnīcas avota noklusējuma stratēģija"
 
 #: ../libgdict/gdict-source.c:302
 msgid "Transport"
@@ -411,24 +531,24 @@ msgstr "GdictContext robeža dotajam avotam"
 #: ../libgdict/gdict-source.c:413
 #, c-format
 msgid "Invalid transport type '%d'"
-msgstr "Nederīgs transporta veids '%d'"
+msgstr "Nederīgs transporta veids “%d”"
 
 #: ../libgdict/gdict-source.c:441
 #, c-format
 msgid "No '%s' group found inside the dictionary source definition"
-msgstr "Netika atrasta grupa '%s' vārdnīcas avota definīcijā"
+msgstr "Netika atrasta grupa “%s” vārdnīcas avota definīcijā"
 
 #: ../libgdict/gdict-source.c:457 ../libgdict/gdict-source.c:481
 #: ../libgdict/gdict-source.c:505 ../libgdict/gdict-source.c:530
 #, c-format
 msgid "Unable to get the '%s' key inside the dictionary source definition: %s"
-msgstr "Nevarēja iegūt '%s' atslēgu vārdnīcas avota definīcijā: %s"
+msgstr "Nevarēja iegūt “%s” atslēgu vārdnīcas avota definīcijā — %s"
 
 #: ../libgdict/gdict-source.c:555
 #, c-format
 msgid ""
 "Unable to get the '%s' key inside the dictionary source definition file: %s"
-msgstr "Nevarēja iegūt '%s' atslēgu vārdnīcas avota definīcijas failā: %s"
+msgstr "Nevarēja iegūt “%s” atslēgu vārdnīcas avota definīcijas datnē — %s"
 
 #: ../libgdict/gdict-source.c:741
 #, c-format
@@ -438,7 +558,7 @@ msgstr "Vārdnīcas avotam nav nosaukuma"
 #: ../libgdict/gdict-source.c:750
 #, c-format
 msgid "Dictionary source '%s' has invalid transport '%s'"
-msgstr "Vārdnīcas avotam '%s' ir nepareizs transports '%s'"
+msgstr "Vārdnīcas avotam “%s” ir nepareizs transports “%s”"
 
 #: ../libgdict/gdict-source-chooser.c:295
 msgid "Reload the list of available sources"
@@ -464,7 +584,7 @@ msgstr "Atrastie vārdnīcas avoti"
 # gdictsrc/gdict-app.c:454 gdictsrc/gdict-app.c:511
 #: ../libgdict/gdict-speller.c:353
 msgid "Clear the list of similar words"
-msgstr "Notīrīt līdzīgo vārdu sarakstu"
+msgstr "Attīrīt līdzīgo vārdu sarakstu"
 
 #: ../libgdict/gdict-speller.c:377
 msgid "The GdictContext object used to get the word definition"
@@ -478,17 +598,17 @@ msgstr "Datubāze, kas tiek izmantota, vaicājot GdictContext"
 msgid "The strategy used to query the GdictContext"
 msgstr "Stratēģija, kas tiks izmantota, meklējot GdictContext"
 
-#: ../libgdict/gdict-strategy-chooser.c:361
+#: ../libgdict/gdict-strategy-chooser.c:362
 msgid "Reload the list of available strategies"
 msgstr "Pārlādēt pieejamo stratēģiju sarakstu"
 
-#: ../libgdict/gdict-strategy-chooser.c:373
+#: ../libgdict/gdict-strategy-chooser.c:374
 msgid "Clear the list of available strategies"
-msgstr "Notīrīt pieejamo stratēģiju sarakstu"
+msgstr "Attīrīt pieejamo stratēģiju sarakstu"
 
 #: ../libgdict/gdict-utils.c:97
 msgid "GDict debugging flags to set"
-msgstr "GDict atkļūdošanas karogu iestatīšana"
+msgstr "Iestatāmie GDict atkļūdošanas karogi"
 
 #: ../libgdict/gdict-utils.c:97 ../libgdict/gdict-utils.c:99
 msgid "FLAGS"
@@ -496,7 +616,7 @@ msgstr "KAROGI"
 
 #: ../libgdict/gdict-utils.c:99
 msgid "GDict debugging flags to unset"
-msgstr "GDict atkļūdošanas karogu atiestatīšana"
+msgstr "Atstatāmie GDict atkļūdošanas karogi"
 
 #: ../libgdict/gdict-utils.c:157
 msgid "GDict Options"
@@ -521,7 +641,7 @@ msgstr "Uzmeklēt vārdus vārdnīcās"
 # gdictsrc/gdict-pref-dialog.c:147
 #: ../src/gdict-app.c:62 ../src/gdict-app.c:91
 msgid "Words to look up"
-msgstr "Vārdi, kurus uzmeklēt"
+msgstr "Vārdi, ko uzmeklēt"
 
 #: ../src/gdict-app.c:62 ../src/gdict-app.c:68
 msgid "WORD"
@@ -534,7 +654,7 @@ msgstr "Meklējamie vārdi"
 
 #: ../src/gdict-app.c:74
 msgid "Dictionary source to use"
-msgstr "Vārdnīcas avots, kuru izmantot"
+msgstr "Vārdnīcas avots, ko izmantot"
 
 #: ../src/gdict-app.c:74 ../src/gdict-app.c:80 ../src/gdict-app.c:86
 msgid "NAME"
@@ -543,7 +663,7 @@ msgstr "NOSAUKUMS"
 # gdictsrc/gdict-pref-dialog.c:171
 #: ../src/gdict-app.c:80
 msgid "Database to use"
-msgstr "Datubāze, kuru izmantot"
+msgstr "Datubāze, ko izmantot"
 
 # gdictsrc/gdict-pref-dialog.c:178
 #: ../src/gdict-app.c:86
@@ -554,9 +674,20 @@ msgstr "Izmantojamā stratēģija"
 msgid "WORDS"
 msgstr "VĀRDI"
 
+# gtt/toolbar.c:190
+#: ../src/gdict-app.c:108
+msgid "Dictionary Preferences"
+msgstr "Vārdnīcas iestatījumi"
+
+#: ../src/gdict-app.c:130 ../src/gdict-pref-dialog.c:496
+#: ../src/gdict-source-dialog.c:477
+#, c-format
+msgid "There was an error while displaying help"
+msgstr "Gadījās kļūda, rādot palīdzību"
+
 # gdictsrc/gdict-app.c:454 gdictsrc/gdict-app.c:511
 #. create the new option context
-#: ../src/gdict-app.c:143
+#: ../src/gdict-app.c:219
 msgid " - Look up words in dictionaries"
 msgstr " - Uzmeklēt vārdus vārdnīcās"
 
@@ -573,7 +704,7 @@ msgstr "Pievienot vārdnīcas avotu"
 #: ../src/gdict-pref-dialog.c:350
 #, c-format
 msgid "Remove \"%s\"?"
-msgstr "Izņemt \"%s\"?"
+msgstr "Izņemt “%s”?"
 
 #: ../src/gdict-pref-dialog.c:352
 msgid "This will permanently remove the dictionary source from the list."
@@ -583,13 +714,7 @@ msgstr "Vārdnīcas avots tiks izņemts no saraksta pavisam."
 #: ../src/gdict-pref-dialog.c:382
 #, c-format
 msgid "Unable to remove source '%s'"
-msgstr "Nevar izņemt avotu '%s'"
-
-#: ../src/gdict-pref-dialog.c:496 ../src/gdict-source-dialog.c:479
-#: ../src/gdict-window.c:1245
-#, c-format
-msgid "There was an error while displaying help"
-msgstr "Notikusi kļūda, rādot palīdzību"
+msgstr "Nevar izņemt avotu “%s”"
 
 #: ../src/gdict-pref-dialog.c:643
 msgid "Add a new dictionary source"
@@ -611,290 +736,174 @@ msgstr "Iestatīt definīciju drukai lietojamo fontu"
 #: ../src/gdict-print.c:241 ../src/gdict-print.c:305
 #, c-format
 msgid "Unable to display the preview: %s"
-msgstr "Nevar parādīt priekšskatījumu: %s"
+msgstr "Nevar parādīt priekšskatījumu — %s"
 
 # mini-utils/idetool/idetool.c:41
-#: ../src/gdict-source-dialog.c:341 ../src/gdict-source-dialog.c:434
+#: ../src/gdict-source-dialog.c:342 ../src/gdict-source-dialog.c:434
 msgid "Unable to create a source file"
-msgstr "Nevar izveidot avota failu"
+msgstr "Nevar izveidot avota datni"
 
 # logview/logrtns.c:129
-#: ../src/gdict-source-dialog.c:359 ../src/gdict-source-dialog.c:452
+#: ../src/gdict-source-dialog.c:358 ../src/gdict-source-dialog.c:450
 msgid "Unable to save source file"
-msgstr "Nevar saglabāt avota failu"
+msgstr "Nevar saglabāt avota datni"
 
 # gsearchtool/gsearchtool.c:824
-#: ../src/gdict-window.c:311
+#: ../src/gdict-window.c:255
 #, c-format
 msgid "Searching for '%s'..."
-msgstr "Meklē '%s'..."
+msgstr "Meklē “%s”..."
 
 # gdictsrc/gdict-app.c:133 gdictsrc/gdict-app.c:266
-#: ../src/gdict-window.c:343 ../src/gdict-window.c:400
+#: ../src/gdict-window.c:287 ../src/gdict-window.c:344
 msgid "No definitions found"
 msgstr "Neviena definīcija nav atrasta"
 
-#: ../src/gdict-window.c:345
+#: ../src/gdict-window.c:289
 #, c-format
 msgid "A definition found"
 msgid_plural "%d definitions found"
 msgstr[0] "Atrasta %d definīcija"
 msgstr[1] "Atrastas %d definīcijas"
-msgstr[2] "Atrastas %d definīcijas"
+msgstr[2] "Atrastu %d definīciju"
 
-#: ../src/gdict-window.c:516
+#: ../src/gdict-window.c:460
 #, c-format
 msgid "No dictionary source available with name '%s'"
-msgstr "Nav pieejams vārdnīcas avots ar nosaukumu '%s'"
+msgstr "Nav pieejams vārdnīcas avots ar nosaukumu “%s”"
 
-#: ../src/gdict-window.c:520
+#: ../src/gdict-window.c:464
 msgid "Unable to find dictionary source"
 msgstr "Nevarēja atrast vārdnīcas avotu"
 
-#: ../src/gdict-window.c:536
+#: ../src/gdict-window.c:480
 #, c-format
 msgid "No context available for source '%s'"
-msgstr "Nav pieejama konteksta avotam '%s'"
+msgstr "Nav pieejama konteksta avotam “%s”"
 
 # mini-utils/idetool/idetool.c:41
-#: ../src/gdict-window.c:540
+#: ../src/gdict-window.c:484
 msgid "Unable to create a context"
 msgstr "Nevar izveidot kontekstu"
 
-#: ../src/gdict-window.c:599
+#: ../src/gdict-window.c:543
 #, c-format
 msgid "%s - Dictionary"
 msgstr "%s - vārdnīca"
 
-#: ../src/gdict-window.c:962
+#: ../src/gdict-window.c:912
 msgid "Save a Copy"
 msgstr "Saglabāt kopiju"
 
-#: ../src/gdict-window.c:972
+#: ../src/gdict-window.c:922
 msgid "Untitled document"
 msgstr "Nenosaukts dokuments"
 
-#: ../src/gdict-window.c:993
+#: ../src/gdict-window.c:943
 #, c-format
 msgid "Error while writing to '%s'"
-msgstr "Kļūda, rakstot uz '%s'"
+msgstr "Kļūda, rakstot uz “%s”"
 
-# gtt/toolbar.c:190
-#: ../src/gdict-window.c:1098
-msgid "Dictionary Preferences"
-msgstr "Vārdnīcas iestatījumi"
-
-#: ../src/gdict-window.c:1280
-msgid "_File"
-msgstr "_Fails"
-
-# logview/actions.c:120
-#: ../src/gdict-window.c:1281
-msgid "_Edit"
-msgstr "R_ediģēt"
-
-#: ../src/gdict-window.c:1282
-msgid "_View"
-msgstr "_Skats"
-
-#: ../src/gdict-window.c:1283
-msgid "_Go"
-msgstr "_Iet"
-
-# gcharmap/src/interface.c:208 gnome-find/gnome-find.c:89
-# gstripchart/gstripchart.c:1784 gstripchart/gstripchart.c:2071
-#: ../src/gdict-window.c:1284
-msgid "_Help"
-msgstr "_Palīdzība"
-
-#. File menu
-#: ../src/gdict-window.c:1287
-msgid "_New"
-msgstr "Jau_ns"
-
-#: ../src/gdict-window.c:1288
-msgid "New look up"
-msgstr "Jauna uzmeklēšana"
-
-#: ../src/gdict-window.c:1289
-msgid "_Save a Copy..."
-msgstr "_Saglabāt kopiju..."
-
-# gdictsrc/gdict-pref-dialog.c:161
-#: ../src/gdict-window.c:1291
-msgid "P_review..."
-msgstr "P_riekšskatījums..."
-
-# logview/logrtns.c:202
-#: ../src/gdict-window.c:1292
-msgid "Preview this document"
-msgstr "Priekšskatīt šo dokumentu"
-
-# gdictsrc/gdict-pref-dialog.c:161
-#: ../src/gdict-window.c:1293
-msgid "_Print..."
-msgstr "_Drukāt..."
-
-# logview/logrtns.c:202
-#: ../src/gdict-window.c:1294
-msgid "Print this document"
-msgstr "Drukāt šo dokumentu"
-
-#: ../src/gdict-window.c:1301
-msgid "Select _All"
-msgstr "Izvēlēties _visu"
-
-#: ../src/gdict-window.c:1304
-msgid "Find a word or phrase in the document"
-msgstr "Meklēt vārdu vai teikumu dokumentā"
-
-# gdictsrc/gdict-app.c:381
-#: ../src/gdict-window.c:1306
-msgid "Find Ne_xt"
-msgstr "Meklēt nā_kamo"
-
-#: ../src/gdict-window.c:1308
-msgid "Find Pre_vious"
-msgstr "Meklēt _iepriekšējo"
-
-# gdictsrc/gdict-pref-dialog.c:129 gtt/options.c:518
-# mini-utils/gcolorsel/menus.c:1109 mini-utils/gshutdown/gshutdown.c:314
-#: ../src/gdict-window.c:1310
-msgid "_Preferences"
-msgstr "_Iestatījumi"
-
-#. Go menu
-#: ../src/gdict-window.c:1314
-msgid "_Previous Definition"
-msgstr "Ie_priekšējā definīcija"
-
-#: ../src/gdict-window.c:1315
-msgid "Go to the previous definition"
-msgstr "Iet uz iepriekšējo definīciju"
-
-#: ../src/gdict-window.c:1316
-msgid "_Next Definition"
-msgstr "_Nākamā definīcija"
-
-#: ../src/gdict-window.c:1317
-msgid "Go to the next definition"
-msgstr "Iet uz nākamo definīciju"
-
-#: ../src/gdict-window.c:1318
-msgid "_First Definition"
-msgstr "Pirmā de_finīcija"
-
-#: ../src/gdict-window.c:1319
-msgid "Go to the first definition"
-msgstr "Iet uz pirmo definīciju"
-
-#: ../src/gdict-window.c:1320
-msgid "_Last Definition"
-msgstr "Pē_dējā definīcija"
-
-#: ../src/gdict-window.c:1321
-msgid "Go to the last definition"
-msgstr "Iet uz pēdējo definīciju"
-
-#. View menu
-#: ../src/gdict-window.c:1324
-msgid "Similar _Words"
-msgstr "Līdzīgie _vārdi"
-
-#: ../src/gdict-window.c:1326
-msgid "Dictionary Sources"
-msgstr "Vārdnīcas avoti"
-
-#: ../src/gdict-window.c:1328
-msgid "Available _Databases"
-msgstr "Pieejamās _datubāzes"
-
-#: ../src/gdict-window.c:1330
-msgid "Available St_rategies"
-msgstr "Pieejamās st_ratēģijas"
-
-#. Help menu
-#: ../src/gdict-window.c:1334
-msgid "_Contents"
-msgstr "_Saturs"
-
-# gdictsrc/gdict-applet.c:130 mini-utils/gcolorsel/menus.c:1098
-#: ../src/gdict-window.c:1336
-msgid "_About"
-msgstr "P_ar"
-
-#. View menu
-#: ../src/gdict-window.c:1347
-msgid "_Sidebar"
-msgstr "_Sānu josla"
-
-#: ../src/gdict-window.c:1349
-msgid "S_tatusbar"
-msgstr "S_tatusa josla"
-
-#: ../src/gdict-window.c:1414
+#: ../src/gdict-window.c:1361
 #, c-format
 msgid "Dictionary source `%s' selected"
-msgstr "Vārdnīcas avots `%s' ir izvēlēts"
+msgstr "Vārdnīcas avots “%s” ir izvēlēts"
 
 # gdictsrc/gdict-pref-dialog.c:171
-#: ../src/gdict-window.c:1435
+#: ../src/gdict-window.c:1382
 #, c-format
 msgid "Strategy `%s' selected"
-msgstr "Izvēlēta stratēģija `%s'"
+msgstr "Izvēlēta stratēģija “%s”"
 
 # gdictsrc/gdict-pref-dialog.c:171
-#: ../src/gdict-window.c:1455
+#: ../src/gdict-window.c:1402
 #, c-format
 msgid "Database `%s' selected"
-msgstr "Izvēlēta datubāze `%s'"
+msgstr "Izvēlēta datubāze “%s”"
 
-#: ../src/gdict-window.c:1475
+#: ../src/gdict-window.c:1422
 #, c-format
 msgid "Word `%s' selected"
-msgstr "Izvēlēts vārds `%s'"
+msgstr "Izvēlēts vārds “%s”"
 
 #. speller
-#: ../src/gdict-window.c:1500
+#: ../src/gdict-window.c:1447
 msgid "Double-click on the word to look up"
 msgstr "Dubults klikšķis uz vārda, lai to uzmeklētu"
 
 # gdictsrc/gdict-pref-dialog.c:178
 #. strat-chooser
-#: ../src/gdict-window.c:1506
+#: ../src/gdict-window.c:1453
 msgid "Double-click on the matching strategy to use"
 msgstr "Dubults klikšķis uz stratēģijas, lai to izmantotu"
 
 # gdictsrc/gdict-pref-dialog.c:178
 #. source-chooser
-#: ../src/gdict-window.c:1511
+#: ../src/gdict-window.c:1458
 msgid "Double-click on the source to use"
 msgstr "Dubults klikšķis uz avota, lai to izmantotu"
 
 # gdictsrc/gdict-pref-dialog.c:178
 #. db-chooser
-#: ../src/gdict-window.c:1520
+#: ../src/gdict-window.c:1467
 msgid "Double-click on the database to use"
 msgstr "Dubults klikšķis uz datubāzes, lai to izmantotu"
 
 # gdictsrc/gdict-app.c:453 gdictsrc/gdict-app.c:510
 # gdictsrc/gdict-applet.c:153
-#: ../src/gdict-window.c:1700
+#: ../src/gdict-window.c:1617
 msgid "Look _up:"
 msgstr "_Uzmeklēt:"
 
-#: ../src/gdict-window.c:1775
+#: ../src/gdict-window.c:1692
 msgid "Similar words"
 msgstr "Līdzīgie vārdi"
 
-#: ../src/gdict-window.c:1788
+#: ../src/gdict-window.c:1705
 msgid "Available dictionaries"
 msgstr "Pieejamās vārdnīcas"
 
-#: ../src/gdict-window.c:1806
+#: ../src/gdict-window.c:1723
 msgid "Available strategies"
 msgstr "Pieejamās stratēģijas"
 
-#: ../src/gdict-window.c:1822
+#: ../src/gdict-window.c:1739
 msgid "Dictionary sources"
 msgstr "Vārdnīcu avoti"
+
+#~ msgid "New look up"
+#~ msgstr "Jauna uzmeklēšana"
+
+# logview/logrtns.c:202
+#~ msgid "Preview this document"
+#~ msgstr "Priekšskatīt šo dokumentu"
+
+# gdictsrc/gdict-pref-dialog.c:161
+#~ msgid "_Print..."
+#~ msgstr "_Drukāt..."
+
+# logview/logrtns.c:202
+#~ msgid "Print this document"
+#~ msgstr "Drukāt šo dokumentu"
+
+#~ msgid "Find a word or phrase in the document"
+#~ msgstr "Meklēt vārdu vai teikumu dokumentā"
+
+#~ msgid "Go to the previous definition"
+#~ msgstr "Iet uz iepriekšējo definīciju"
+
+#~ msgid "Go to the next definition"
+#~ msgstr "Iet uz nākamo definīciju"
+
+#~ msgid "Go to the first definition"
+#~ msgstr "Iet uz pirmo definīciju"
+
+#~ msgid "Go to the last definition"
+#~ msgstr "Iet uz pēdējo definīciju"
+
+#~ msgid "_Contents"
+#~ msgstr "_Saturs"
+
+# gdictsrc/gdict-applet.c:130 mini-utils/gcolorsel/menus.c:1098
+#~ msgid "_About"
+#~ msgstr "P_ar"
