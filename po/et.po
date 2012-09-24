@@ -17,14 +17,14 @@ msgstr ""
 "Project-Id-Version: gnome-utils MASTER\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "dictionary&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2012-02-26 14:24+0000\n"
-"PO-Revision-Date: 2012-02-29 11:20+0200\n"
+"POT-Creation-Date: 2012-09-22 09:42+0000\n"
+"PO-Revision-Date: 2012-09-23 16:11+0300\n"
 "Last-Translator: Mattias Põldaru <mahfiaz@gmail.com>\n"
 "Language-Team: Estonian <>\n"
 "Language: et\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bits\n"
+"Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
 
 msgid "Default Dictionary Server"
@@ -35,6 +35,90 @@ msgstr "Sõnaraamat"
 
 msgid "Check word definitions and spellings in an online dictionary"
 msgstr "Sõnade definitsioonide ja kirjaviiside otsimine onlain-sõnaraamatust"
+
+msgid "Preferences"
+msgstr "Eelistused"
+
+msgid "Help"
+msgstr "Abi"
+
+msgid "About Dictionary"
+msgstr "Sõnaraamatust lähemalt"
+
+msgid "Quit"
+msgstr "Lõpeta"
+
+msgid "_File"
+msgstr "_Fail"
+
+msgid "_New"
+msgstr "_Uus"
+
+msgid "_Save a Copy..."
+msgstr "_Salvesta koopia.."
+
+msgid "P_review"
+msgstr "_Eelvaade"
+
+msgid "_Print"
+msgstr "_Prindi"
+
+msgid "_Close"
+msgstr "_Sulge"
+
+msgid "_Edit"
+msgstr "_Redaktor"
+
+msgid "_Copy"
+msgstr "_Kopeeri"
+
+msgid "Select _All"
+msgstr "_Vali kõik"
+
+msgid "_Find"
+msgstr "_Otsi"
+
+msgid "Find Ne_xt"
+msgstr "Otsi _järgmist"
+
+msgid "Find Pre_vious"
+msgstr "Otsi ee_lmist"
+
+msgid "_View"
+msgstr "_Vaade"
+
+msgid "_Sidebar"
+msgstr "_Külgpaan"
+
+msgid "S_tatusbar"
+msgstr "_Olekuriba"
+
+msgid "Similar _Words"
+msgstr "_Sarnased sõnad"
+
+msgid "Dictionary Sources"
+msgstr "Sõnaraamatuallikad"
+
+msgid "Available _Databases"
+msgstr "Saadaolevad _andmebaasid"
+
+msgid "Available St_rategies"
+msgstr "Saadaolevad st_rateegiad"
+
+msgid "_Go"
+msgstr "_Liikumine"
+
+msgid "_Previous Definition"
+msgstr "_Eelmine definitsioon"
+
+msgid "_Next Definition"
+msgstr "_Järgmine definitsioon"
+
+msgid "_First Definition"
+msgstr "E_simene definitsioon"
+
+msgid "_Last Definition"
+msgstr "_Viimane definitsioon"
 
 msgid "_Select a dictionary source for looking up words:"
 msgstr "_Vali sõnaraamat, millest sõnu otsida:"
@@ -416,6 +500,13 @@ msgstr "Kasutatav strateegia"
 msgid "WORDS"
 msgstr "SÕNAD"
 
+msgid "Dictionary Preferences"
+msgstr "Sõnaraamatu eelistused"
+
+#, c-format
+msgid "There was an error while displaying help"
+msgstr "Abiteabe kuvamisel tekkis viga"
+
 #. create the new option context
 msgid " - Look up words in dictionaries"
 msgstr " - Sõnade otsimine sõnaraamatust"
@@ -436,10 +527,6 @@ msgstr "Sõnaraamatuallikas eemaldatakse sellest loetelust jäädavalt."
 #, c-format
 msgid "Unable to remove source '%s'"
 msgstr "Allikat %s pole võimalik eemaldada"
-
-#, c-format
-msgid "There was an error while displaying help"
-msgstr "Abiteabe kuvamisel tekkis viga"
 
 msgid "Add a new dictionary source"
 msgstr "Uue sõnaraamatuallika lisamine"
@@ -504,113 +591,6 @@ msgstr "Pealkirjata dokument"
 msgid "Error while writing to '%s'"
 msgstr "Viga '%s' kirjutamisel"
 
-msgid "Dictionary Preferences"
-msgstr "Sõnaraamatu eelistused"
-
-msgid "_File"
-msgstr "_Fail"
-
-msgid "_Edit"
-msgstr "_Redaktor"
-
-msgid "_View"
-msgstr "_Vaade"
-
-msgid "_Go"
-msgstr "_Liikumine"
-
-msgid "_Help"
-msgstr "A_bi"
-
-#. File menu
-msgid "_New"
-msgstr "_Uus"
-
-msgid "New look up"
-msgstr "Uus otsing"
-
-msgid "_Save a Copy..."
-msgstr "_Salvesta koopia.."
-
-msgid "P_review..."
-msgstr "_Eelvaade..."
-
-msgid "Preview this document"
-msgstr "Selle dokumendi eelvaatlemine"
-
-msgid "_Print..."
-msgstr "_Prindi..."
-
-msgid "Print this document"
-msgstr "Selle dokumendi printimine"
-
-msgid "Select _All"
-msgstr "_Vali kõik"
-
-msgid "Find a word or phrase in the document"
-msgstr "Dokumendist sõna või fraasi otsimine"
-
-msgid "Find Ne_xt"
-msgstr "Otsi _järgmist"
-
-msgid "Find Pre_vious"
-msgstr "Otsi ee_lmist"
-
-msgid "_Preferences"
-msgstr "_Eelistused"
-
-#. Go menu
-msgid "_Previous Definition"
-msgstr "_Eelmine definitsioon"
-
-msgid "Go to the previous definition"
-msgstr "Eelmisele definitsioonile liikumine"
-
-msgid "_Next Definition"
-msgstr "_Järgmine definitsioon"
-
-msgid "Go to the next definition"
-msgstr "Järgmisele definitsioonile liikumine"
-
-msgid "_First Definition"
-msgstr "E_simene definitsioon"
-
-msgid "Go to the first definition"
-msgstr "Esimesele definitsioonile liikumine"
-
-msgid "_Last Definition"
-msgstr "_Viimane definitsioon"
-
-msgid "Go to the last definition"
-msgstr "Viimasele definitsioonile liikumine"
-
-#. View menu
-msgid "Similar _Words"
-msgstr "_Sarnased sõnad"
-
-msgid "Dictionary Sources"
-msgstr "Sõnaraamatuallikad"
-
-msgid "Available _Databases"
-msgstr "Saadaolevad _andmebaasid"
-
-msgid "Available St_rategies"
-msgstr "Saadaolevad st_rateegiad"
-
-#. Help menu
-msgid "_Contents"
-msgstr "_Sisukord"
-
-msgid "_About"
-msgstr "_Programmist lähemalt"
-
-#. View menu
-msgid "_Sidebar"
-msgstr "_Külgpaan"
-
-msgid "S_tatusbar"
-msgstr "_Olekuriba"
-
 #, c-format
 msgid "Dictionary source `%s' selected"
 msgstr "Sõnaraamatuallikas `%s' on valitud"
@@ -657,3 +637,36 @@ msgstr "Saadaolevad strateegiad"
 
 msgid "Dictionary sources"
 msgstr "Sõnaraamatuallikad"
+
+#~ msgid "New look up"
+#~ msgstr "Uus otsing"
+
+#~ msgid "Preview this document"
+#~ msgstr "Selle dokumendi eelvaatlemine"
+
+#~ msgid "_Print..."
+#~ msgstr "_Prindi..."
+
+#~ msgid "Print this document"
+#~ msgstr "Selle dokumendi printimine"
+
+#~ msgid "Find a word or phrase in the document"
+#~ msgstr "Dokumendist sõna või fraasi otsimine"
+
+#~ msgid "Go to the previous definition"
+#~ msgstr "Eelmisele definitsioonile liikumine"
+
+#~ msgid "Go to the next definition"
+#~ msgstr "Järgmisele definitsioonile liikumine"
+
+#~ msgid "Go to the first definition"
+#~ msgstr "Esimesele definitsioonile liikumine"
+
+#~ msgid "Go to the last definition"
+#~ msgstr "Viimasele definitsioonile liikumine"
+
+#~ msgid "_Contents"
+#~ msgstr "_Sisukord"
+
+#~ msgid "_About"
+#~ msgstr "_Programmist lähemalt"
