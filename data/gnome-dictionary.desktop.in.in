@@ -1,6 +1,7 @@
 [Desktop Entry]
 _Name=Dictionary
 _Comment=Check word definitions and spellings in an online dictionary
+_Keywords=word;synonym;definition;spelling;
 Exec=gnome-dictionary
 Terminal=false
 Type=Application
