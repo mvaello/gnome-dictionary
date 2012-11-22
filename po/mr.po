@@ -10,14 +10,14 @@ msgstr ""
 "Project-Id-Version: mr\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "dictionary&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2012-05-10 17:07+0000\n"
-"PO-Revision-Date: 2012-08-16 10:24+0530\n"
+"POT-Creation-Date: 2012-11-14 18:34+0000\n"
+"PO-Revision-Date: 2012-11-22 12:48+0530\n"
 "Last-Translator: Sandeep Shedmake <sshedmak@redhat.com>\n"
 "Language-Team: Marathi <fedora-trans-mr@redhat.com>\n"
+"Language: mr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: mr\n"
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
 "\n"
 "\n"
@@ -27,14 +27,14 @@ msgstr ""
 "\n"
 "\n"
 "\n"
-"X-Generator: Lokalize 1.4\n"
+"X-Generator: Lokalize 1.5\n"
 
 #: ../data/default.desktop.in.h:1
 msgid "Default Dictionary Server"
 msgstr "मुलभूत शब्दकोश सर्वर"
 
-#: ../data/gnome-dictionary.desktop.in.in.h:1 ../src/gdict-about.c:62
-#: ../src/gdict-app.c:349 ../src/gdict-window.c:545 ../src/gdict-window.c:1807
+#: ../data/gnome-dictionary.desktop.in.in.h:1 ../src/gdict-about.c:60
+#: ../src/gdict-app.c:347 ../src/gdict-window.c:543 ../src/gdict-window.c:1805
 msgid "Dictionary"
 msgstr "शब्दकोश"
 
@@ -42,18 +42,19 @@ msgstr "शब्दकोश"
 msgid "Check word definitions and spellings in an online dictionary"
 msgstr "ऑनलाईन शब्दकोशात शब्द व्याख्या व शब्दलेखन करीता तपासा"
 
+#: ../data/gnome-dictionary.desktop.in.in.h:3
+msgid "word;synonym;definition;spelling;"
+msgstr "शब्द;समानार्थी;वर्णन;शुद्धलेखन;"
+
 #: ../data/gnome-dictionary-menus.ui.h:1
-#| msgid "_Preferences"
 msgid "Preferences"
 msgstr "पसंती"
 
 #: ../data/gnome-dictionary-menus.ui.h:2
-#| msgid "_Help"
 msgid "Help"
 msgstr "मदत"
 
 #: ../data/gnome-dictionary-menus.ui.h:3
-#| msgid "Dictionary"
 msgid "About Dictionary"
 msgstr "शब्दकोशविषयी"
 
@@ -74,12 +75,10 @@ msgid "_Save a Copy..."
 msgstr "_प्रत संचयीत करा..."
 
 #: ../data/gnome-dictionary-menus.ui.h:8
-#| msgid "P_review..."
 msgid "P_review"
 msgstr "पूर्वावलोकन (_r)"
 
 #: ../data/gnome-dictionary-menus.ui.h:9
-#| msgid "Print"
 msgid "_Print"
 msgstr "छपाई (_P)"
 
@@ -100,7 +99,6 @@ msgid "Select _All"
 msgstr "सर्व निवडा (_A)"
 
 #: ../data/gnome-dictionary-menus.ui.h:14
-#| msgid "F_ind:"
 msgid "_Find"
 msgstr "शोधा (_F)"
 
@@ -257,59 +255,59 @@ msgstr "स्पॅनिश शब्दकोश"
 msgid "Longdo Thai-English Dictionaries"
 msgstr "लॉंगडो थाई-इंग्रजी शब्दकोश"
 
-#: ../libgdict/gdict-client-context.c:283
+#: ../libgdict/gdict-client-context.c:282
 msgid "Client Name"
 msgstr "क्लाऐंटचे नाव"
 
-#: ../libgdict/gdict-client-context.c:284
+#: ../libgdict/gdict-client-context.c:283
 msgid "The name of the client of the context object"
 msgstr "संदर्भ वस्तूचे क्लाऐंट नाव"
 
-#: ../libgdict/gdict-client-context.c:297
+#: ../libgdict/gdict-client-context.c:296
 msgid "Hostname"
 msgstr "यजमाननाव"
 
-#: ../libgdict/gdict-client-context.c:298
+#: ../libgdict/gdict-client-context.c:297
 msgid "The hostname of the dictionary server to connect to"
 msgstr "शब्दकोश सर्वरशी जुळवणी स्थापीत करण्याकरीता यजमाननाव"
 
-#: ../libgdict/gdict-client-context.c:311
+#: ../libgdict/gdict-client-context.c:310
 msgid "Port"
 msgstr "पोर्ट"
 
-#: ../libgdict/gdict-client-context.c:312
+#: ../libgdict/gdict-client-context.c:311
 msgid "The port of the dictionary server to connect to"
 msgstr "शब्दकोश सर्वरशी जुळवणी स्थापीत करण्याकरीता पोर्ट"
 
-#: ../libgdict/gdict-client-context.c:327
+#: ../libgdict/gdict-client-context.c:326
 msgid "Status"
 msgstr "स्थिती"
 
-#: ../libgdict/gdict-client-context.c:328
+#: ../libgdict/gdict-client-context.c:327
 msgid "The status code as returned by the dictionary server"
 msgstr "शब्दकोश सर्वर तर्फे पुन्हा पाठविलेले स्थिती कोड"
 
-#: ../libgdict/gdict-client-context.c:777
+#: ../libgdict/gdict-client-context.c:776
 #, c-format
 msgid "No connection to the dictionary server at '%s:%d'"
 msgstr "'%s:%d' वरील शब्दकोश सर्वरशी जुळवणी शक्य नाही"
 
-#: ../libgdict/gdict-client-context.c:1060
+#: ../libgdict/gdict-client-context.c:1059
 #, c-format
 msgid "Lookup failed for hostname '%s': no suitable resources found"
 msgstr "यजमाननाव '%s' करीता शोध अपयशी: संभाव्य स्त्रोत आढळले नाही"
 
-#: ../libgdict/gdict-client-context.c:1091
+#: ../libgdict/gdict-client-context.c:1090
 #, c-format
 msgid "Lookup failed for host '%s': %s"
 msgstr "'%s' करीता शोध अपयशी: %s"
 
-#: ../libgdict/gdict-client-context.c:1125
+#: ../libgdict/gdict-client-context.c:1124
 #, c-format
 msgid "Lookup failed for host '%s': host not found"
 msgstr "'%s' करीता शोध अपयशी: यजमान आढळले नाही"
 
-#: ../libgdict/gdict-client-context.c:1177
+#: ../libgdict/gdict-client-context.c:1176
 #, c-format
 msgid ""
 "Unable to connect to the dictionary server at '%s:%d'. The server replied "
@@ -319,7 +317,7 @@ msgstr ""
 "आहे "
 "(सर्वर अकार्यक्षम)"
 
-#: ../libgdict/gdict-client-context.c:1196
+#: ../libgdict/gdict-client-context.c:1195
 #, c-format
 msgid ""
 "Unable to parse the dictionary server reply\n"
@@ -328,47 +326,47 @@ msgstr ""
 "शब्दकोश सर्वर प्रतिसाद वाचू शकला नाही\n"
 ": '%s'"
 
-#: ../libgdict/gdict-client-context.c:1225
+#: ../libgdict/gdict-client-context.c:1224
 #, c-format
 msgid "No definitions found for '%s'"
 msgstr "'%s' करीता व्याख्या आढळले नाही"
 
-#: ../libgdict/gdict-client-context.c:1240
+#: ../libgdict/gdict-client-context.c:1239
 #, c-format
 msgid "Invalid database '%s'"
 msgstr "अवैध माहितीकोश '%s'"
 
-#: ../libgdict/gdict-client-context.c:1255
+#: ../libgdict/gdict-client-context.c:1254
 #, c-format
 msgid "Invalid strategy '%s'"
 msgstr "अवैध योजना '%s'"
 
-#: ../libgdict/gdict-client-context.c:1270
+#: ../libgdict/gdict-client-context.c:1269
 #, c-format
 msgid "Bad command '%s'"
 msgstr "चुकीचा आदेश '%s'"
 
-#: ../libgdict/gdict-client-context.c:1285
+#: ../libgdict/gdict-client-context.c:1284
 #, c-format
 msgid "Bad parameters for command '%s'"
 msgstr "आदेश '%s' करीता चुकीच्या बाबी"
 
-#: ../libgdict/gdict-client-context.c:1300
+#: ../libgdict/gdict-client-context.c:1299
 #, c-format
 msgid "No databases found on dictionary server at '%s'"
 msgstr "'%s' स्थीत शब्दकोश सर्वर वरील माहितीकोश आढळले नाही"
 
-#: ../libgdict/gdict-client-context.c:1315
+#: ../libgdict/gdict-client-context.c:1314
 #, c-format
 msgid "No strategies found on dictionary server at '%s'"
 msgstr "'%s' स्थीत शब्दकोश सर्वर वरील योजना आढळले नाही"
 
-#: ../libgdict/gdict-client-context.c:1748
+#: ../libgdict/gdict-client-context.c:1747
 #, c-format
 msgid "Connection failed to the dictionary server at %s:%d"
 msgstr "%s येथे शब्दकोश सर्वरकरीता जुळवणी स्थापीत करण्यास अपयशी: %d"
 
-#: ../libgdict/gdict-client-context.c:1787
+#: ../libgdict/gdict-client-context.c:1786
 #, c-format
 msgid ""
 "Error while reading reply from server:\n"
@@ -377,455 +375,455 @@ msgstr ""
 "सर्वर पासून प्रतिसाद वाचतेवेळी त्रूटी:\n"
 "%s"
 
-#: ../libgdict/gdict-client-context.c:1860
+#: ../libgdict/gdict-client-context.c:1859
 #, c-format
 msgid "Connection timeout for the dictionary server at '%s:%d'"
 msgstr "'%s:%d' येथे शब्दकोश सर्वरकरीता जुळवणी कालबाह्य झाली"
 
-#: ../libgdict/gdict-client-context.c:1894
+#: ../libgdict/gdict-client-context.c:1893
 #, c-format
 msgid "No hostname defined for the dictionary server"
 msgstr "शब्दकोश सर्वर करीता यजमान नाव व्याख्यीत नाही"
 
-#: ../libgdict/gdict-client-context.c:1930
-#: ../libgdict/gdict-client-context.c:1945
+#: ../libgdict/gdict-client-context.c:1929
+#: ../libgdict/gdict-client-context.c:1944
 #, c-format
 msgid "Unable to create socket"
 msgstr "सॉकेट बनवू शकला नाही"
 
-#: ../libgdict/gdict-client-context.c:1971
+#: ../libgdict/gdict-client-context.c:1970
 #, c-format
 msgid "Unable to set the channel as non-blocking: %s"
 msgstr "मार्ग अडथळाहीन असे निश्चित करू शकला नाही: %s"
 
-#: ../libgdict/gdict-client-context.c:1986
+#: ../libgdict/gdict-client-context.c:1985
 #, c-format
 msgid "Unable to connect to the dictionary server at '%s:%d'"
 msgstr "'%s:%d' येथे शब्दकोश सर्वरशी जुळवणी करा"
 
-#: ../libgdict/gdict-context.c:218
+#: ../libgdict/gdict-context.c:217
 msgid "Local Only"
 msgstr "केवळ स्थानिक"
 
-#: ../libgdict/gdict-context.c:219
+#: ../libgdict/gdict-context.c:218
 msgid "Whether the context uses only local dictionaries or not"
 msgstr "संदर्भ फक्त स्थानिक शब्दकोश वापरते की नाही"
 
-#: ../libgdict/gdict-database-chooser.c:379
+#: ../libgdict/gdict-database-chooser.c:378
 msgid "Reload the list of available databases"
 msgstr "उपलब्ध माहितीकोश यादी पुनःदाखल करा"
 
-#: ../libgdict/gdict-database-chooser.c:391
+#: ../libgdict/gdict-database-chooser.c:390
 msgid "Clear the list of available databases"
 msgstr "उपलब्ध माहितीकेश यादी पुसून टाका"
 
-#: ../libgdict/gdict-database-chooser.c:838 ../libgdict/gdict-speller.c:778
-#: ../libgdict/gdict-strategy-chooser.c:786
+#: ../libgdict/gdict-database-chooser.c:837 ../libgdict/gdict-speller.c:777
+#: ../libgdict/gdict-strategy-chooser.c:785
 msgid "Error while matching"
 msgstr "जुळवणी करतेवेळी त्रुटी आढळली"
 
-#: ../libgdict/gdict-defbox.c:1127 ../libgdict/gdict-defbox.c:1221
-#: ../libgdict/gdict-defbox.c:1255
+#: ../libgdict/gdict-defbox.c:1126 ../libgdict/gdict-defbox.c:1220
+#: ../libgdict/gdict-defbox.c:1254
 msgid "Not found"
 msgstr "आढळले नाही"
 
-#: ../libgdict/gdict-defbox.c:1316
+#: ../libgdict/gdict-defbox.c:1315
 msgid "F_ind:"
 msgstr "शोधा (_i):"
 
-#: ../libgdict/gdict-defbox.c:1329
+#: ../libgdict/gdict-defbox.c:1328
 msgid "_Previous"
 msgstr "मागील (_P)"
 
-#: ../libgdict/gdict-defbox.c:1337
+#: ../libgdict/gdict-defbox.c:1336
 msgid "_Next"
 msgstr "पुढील (_N)"
 
-#: ../libgdict/gdict-defbox.c:2514
+#: ../libgdict/gdict-defbox.c:2513
 msgid "Error while looking up definition"
 msgstr "व्याख्या शोधतेवेळी त्रुटी आढळली"
 
-#: ../libgdict/gdict-defbox.c:2556 ../libgdict/gdict-speller.c:736
+#: ../libgdict/gdict-defbox.c:2555 ../libgdict/gdict-speller.c:735
 msgid "Another search is in progress"
 msgstr "अन्य शोध स्द्य आहे"
 
-#: ../libgdict/gdict-defbox.c:2557 ../libgdict/gdict-speller.c:737
+#: ../libgdict/gdict-defbox.c:2556 ../libgdict/gdict-speller.c:736
 msgid "Please wait until the current search ends."
 msgstr "सद्याचे शोध पूर्ण होई पर्यंत कृपया थांबा."
 
-#: ../libgdict/gdict-defbox.c:2596
+#: ../libgdict/gdict-defbox.c:2595
 msgid "Error while retrieving the definition"
 msgstr "व्याख्या प्राप्त करतेवेळी त्रुटी"
 
-#: ../libgdict/gdict-source.c:232
+#: ../libgdict/gdict-source.c:231
 msgid "Filename"
 msgstr "फाइलनाव"
 
-#: ../libgdict/gdict-source.c:233
+#: ../libgdict/gdict-source.c:232
 msgid "The filename used by this dictionary source"
 msgstr "या शब्दकोश स्त्रोत द्वारे वापरलेले फाइलनाव"
 
-#: ../libgdict/gdict-source.c:246
+#: ../libgdict/gdict-source.c:245
 msgid "Name"
 msgstr "नाव"
 
-#: ../libgdict/gdict-source.c:247
+#: ../libgdict/gdict-source.c:246
 msgid "The display name of this dictionary source"
 msgstr "शब्दकोश स्त्रोताचे दिस्पले नाव"
 
-#: ../libgdict/gdict-source.c:260
+#: ../libgdict/gdict-source.c:259
 msgid "Description"
 msgstr "वर्णन"
 
-#: ../libgdict/gdict-source.c:261
+#: ../libgdict/gdict-source.c:260
 msgid "The description of this dictionary source"
 msgstr "या शब्दकोश स्त्रोताचे वर्णन"
 
-#: ../libgdict/gdict-source.c:274 ../libgdict/gdict-speller.c:383
+#: ../libgdict/gdict-source.c:273 ../libgdict/gdict-speller.c:382
 msgid "Database"
 msgstr "माहितीकोश"
 
-#: ../libgdict/gdict-source.c:275
+#: ../libgdict/gdict-source.c:274
 msgid "The default database of this dictionary source"
 msgstr "या शब्दकोश स्रोतचे पूर्वनिर्धारित शब्दकोश"
 
-#: ../libgdict/gdict-source.c:288 ../libgdict/gdict-speller.c:390
+#: ../libgdict/gdict-source.c:287 ../libgdict/gdict-speller.c:389
 msgid "Strategy"
 msgstr "योजना"
 
-#: ../libgdict/gdict-source.c:289
+#: ../libgdict/gdict-source.c:288
 msgid "The default strategy of this dictionary source"
 msgstr "ह्या शब्दकोश स्त्रोतची पूर्वनिर्धारित नीति"
 
-#: ../libgdict/gdict-source.c:302
+#: ../libgdict/gdict-source.c:301
 msgid "Transport"
 msgstr "स्थानांतरन"
 
-#: ../libgdict/gdict-source.c:303
+#: ../libgdict/gdict-source.c:302
 msgid "The transport mechanism used by this dictionary source"
 msgstr "या शब्दकोश स्त्रोतशी वापरल्या गेलेले स्थानांतर कार्यपध्दती"
 
-#: ../libgdict/gdict-source.c:317 ../libgdict/gdict-speller.c:376
+#: ../libgdict/gdict-source.c:316 ../libgdict/gdict-speller.c:375
 msgid "Context"
 msgstr "संदर्भ"
 
-#: ../libgdict/gdict-source.c:318
+#: ../libgdict/gdict-source.c:317
 msgid "The GdictContext bound to this source"
 msgstr "या स्त्रोतशी बंधनकारक GdictContex"
 
-#: ../libgdict/gdict-source.c:413
+#: ../libgdict/gdict-source.c:412
 #, c-format
 msgid "Invalid transport type '%d'"
 msgstr "अवैध स्थानांतर प्रकार '%d'"
 
-#: ../libgdict/gdict-source.c:441
+#: ../libgdict/gdict-source.c:440
 #, c-format
 msgid "No '%s' group found inside the dictionary source definition"
 msgstr "शब्दकोश स्त्रोत व्याख्या आंतरीक '%s' गट आढळले नाही"
 
-#: ../libgdict/gdict-source.c:457 ../libgdict/gdict-source.c:481
-#: ../libgdict/gdict-source.c:505 ../libgdict/gdict-source.c:530
+#: ../libgdict/gdict-source.c:456 ../libgdict/gdict-source.c:480
+#: ../libgdict/gdict-source.c:504 ../libgdict/gdict-source.c:529
 #, c-format
 msgid "Unable to get the '%s' key inside the dictionary source definition: %s"
 msgstr "शब्दकोश स्त्रोत व्याख्या अंतर्भूत '%s' किल्ली आढळली नाही: %s"
 
-#: ../libgdict/gdict-source.c:555
+#: ../libgdict/gdict-source.c:554
 #, c-format
 msgid ""
 "Unable to get the '%s' key inside the dictionary source definition file: %s"
 msgstr "शब्दकोश स्त्रोत व्याख्या फाइल अंतर्भूत '%s' किल्ली आढळली नाही: %s"
 
-#: ../libgdict/gdict-source.c:741
+#: ../libgdict/gdict-source.c:740
 #, c-format
 msgid "Dictionary source does not have name"
 msgstr "शब्दकोश स्त्रोत मध्ये नाव समाविष्टीत नाही"
 
-#: ../libgdict/gdict-source.c:750
+#: ../libgdict/gdict-source.c:749
 #, c-format
 msgid "Dictionary source '%s' has invalid transport '%s'"
 msgstr "शब्दकोश स्त्रोत '%s' मध्ये अवैध स्थानांतरन '%s' समाविष्टीत आहे"
 
-#: ../libgdict/gdict-source-chooser.c:295
+#: ../libgdict/gdict-source-chooser.c:294
 msgid "Reload the list of available sources"
 msgstr "उपलब्ध स्त्रोतांची यादी पुनःदाखल करा"
 
-#: ../libgdict/gdict-source-loader.c:171
+#: ../libgdict/gdict-source-loader.c:170
 msgid "Paths"
 msgstr "मार्ग"
 
-#: ../libgdict/gdict-source-loader.c:172
+#: ../libgdict/gdict-source-loader.c:171
 msgid "Search paths used by this object"
 msgstr "वस्तुद्वारा वापरल्या गेलेले मार्ग शोधा"
 
-#: ../libgdict/gdict-source-loader.c:184
+#: ../libgdict/gdict-source-loader.c:183
 msgid "Sources"
 msgstr "स्त्रोत"
 
-#: ../libgdict/gdict-source-loader.c:185
+#: ../libgdict/gdict-source-loader.c:184
 msgid "Dictionary sources found"
 msgstr "शब्दकोश स्त्रोत आढळले"
 
-#: ../libgdict/gdict-speller.c:353
+#: ../libgdict/gdict-speller.c:352
 msgid "Clear the list of similar words"
 msgstr "समान शब्धांची यादी पुसून टाका"
 
-#: ../libgdict/gdict-speller.c:377
+#: ../libgdict/gdict-speller.c:376
 msgid "The GdictContext object used to get the word definition"
 msgstr "शब्द व्याख्या प्राप्त करण्याकरीता GdictContext वस्तू"
 
-#: ../libgdict/gdict-speller.c:384
+#: ../libgdict/gdict-speller.c:383
 msgid "The database used to query the GdictContext"
 msgstr "GdictContext ला प्रश्न विचारण्याकरीता वापरल्यागेले माहितीकोश"
 
-#: ../libgdict/gdict-speller.c:391
+#: ../libgdict/gdict-speller.c:390
 msgid "The strategy used to query the GdictContext"
 msgstr "GdictContext ला प्रश्न विचारण्यास वापरली जाणारी योजना"
 
-#: ../libgdict/gdict-strategy-chooser.c:362
+#: ../libgdict/gdict-strategy-chooser.c:361
 msgid "Reload the list of available strategies"
 msgstr "उपलब्ध योजनांची यादी पुनःदाखल करा"
 
-#: ../libgdict/gdict-strategy-chooser.c:374
+#: ../libgdict/gdict-strategy-chooser.c:373
 msgid "Clear the list of available strategies"
 msgstr "उपलब्ध योजनांची यादी पुसून टाका"
 
-#: ../libgdict/gdict-utils.c:97
+#: ../libgdict/gdict-utils.c:96
 msgid "GDict debugging flags to set"
 msgstr "निश्चित करण्याजोगी GDict डिबगींग फ्लॅग"
 
-#: ../libgdict/gdict-utils.c:97 ../libgdict/gdict-utils.c:99
+#: ../libgdict/gdict-utils.c:96 ../libgdict/gdict-utils.c:98
 msgid "FLAGS"
 msgstr "FLAGS"
 
-#: ../libgdict/gdict-utils.c:99
+#: ../libgdict/gdict-utils.c:98
 msgid "GDict debugging flags to unset"
 msgstr "पूर्ववत करण्याजोगी GDict डिबगींग फ्लॅग"
 
-#: ../libgdict/gdict-utils.c:157
+#: ../libgdict/gdict-utils.c:156
 msgid "GDict Options"
 msgstr "GDict पर्याय"
 
-#: ../libgdict/gdict-utils.c:158
+#: ../libgdict/gdict-utils.c:157
 msgid "Show GDict Options"
 msgstr "GDict पर्याय दर्शवा"
 
-#: ../src/gdict-about.c:55
+#: ../src/gdict-about.c:53
 msgid "translator-credits"
 msgstr ""
 "संदिप शेडमाके <sandeep.shedmake@gmail.com>, 2007, 2008, 2009; संदिप शेडमाके "
 "<sshedmak@gmail.com>, 2009."
 
-#: ../src/gdict-about.c:57
+#: ../src/gdict-about.c:55
 msgid "Look up words in dictionaries"
 msgstr "शब्दकोशातील शोध शब्द"
 
-#: ../src/gdict-app.c:62 ../src/gdict-app.c:91
+#: ../src/gdict-app.c:60 ../src/gdict-app.c:89
 msgid "Words to look up"
 msgstr "शोधण्याजोगी शब्द"
 
-#: ../src/gdict-app.c:62 ../src/gdict-app.c:68
+#: ../src/gdict-app.c:60 ../src/gdict-app.c:66
 msgid "WORD"
 msgstr "शब्द"
 
-#: ../src/gdict-app.c:68
+#: ../src/gdict-app.c:66
 msgid "Words to match"
 msgstr "जुळवणीकरीता शब्द"
 
-#: ../src/gdict-app.c:74
+#: ../src/gdict-app.c:72
 msgid "Dictionary source to use"
 msgstr "वापरायचे ते शब्दकोश स्त्रोत"
 
-#: ../src/gdict-app.c:74 ../src/gdict-app.c:80 ../src/gdict-app.c:86
+#: ../src/gdict-app.c:72 ../src/gdict-app.c:78 ../src/gdict-app.c:84
 msgid "NAME"
 msgstr "नाव"
 
-#: ../src/gdict-app.c:80
+#: ../src/gdict-app.c:78
 msgid "Database to use"
 msgstr "वापरायचे ते माहितीकोश"
 
-#: ../src/gdict-app.c:86
+#: ../src/gdict-app.c:84
 msgid "Strategy to use"
 msgstr "वापराची ती योजना"
 
-#: ../src/gdict-app.c:91
+#: ../src/gdict-app.c:89
 msgid "WORDS"
 msgstr "शब्द"
 
-#: ../src/gdict-app.c:108
+#: ../src/gdict-app.c:106
 msgid "Dictionary Preferences"
 msgstr "शब्दकोश प्राधान्यता"
 
-#: ../src/gdict-app.c:130 ../src/gdict-pref-dialog.c:496
-#: ../src/gdict-source-dialog.c:477
+#: ../src/gdict-app.c:128 ../src/gdict-pref-dialog.c:494
+#: ../src/gdict-source-dialog.c:475
 #, c-format
 msgid "There was an error while displaying help"
 msgstr "मदत दर्शवितेवेळी त्रुटी आढळली"
 
 #. create the new option context
-#: ../src/gdict-app.c:219
+#: ../src/gdict-app.c:217
 msgid " - Look up words in dictionaries"
 msgstr " - शब्दकोशात शब्द शोधा"
 
-#: ../src/gdict-pref-dialog.c:241 ../src/gdict-pref-dialog.c:430
+#: ../src/gdict-pref-dialog.c:239 ../src/gdict-pref-dialog.c:428
 msgid "Edit Dictionary Source"
 msgstr "शब्दकोश स्त्रोत संपादन करा"
 
-#: ../src/gdict-pref-dialog.c:305
+#: ../src/gdict-pref-dialog.c:303
 msgid "Add Dictionary Source"
 msgstr "शब्दकोश स्त्रोत जोडा"
 
-#: ../src/gdict-pref-dialog.c:350
+#: ../src/gdict-pref-dialog.c:348
 #, c-format
 msgid "Remove \"%s\"?"
 msgstr "\"%s\" काढून टाकायचे?"
 
-#: ../src/gdict-pref-dialog.c:352
+#: ../src/gdict-pref-dialog.c:350
 msgid "This will permanently remove the dictionary source from the list."
 msgstr "यामुळे शब्दकोश स्त्रोत यादीमधून नेहमीकरीता काढून टाकले जाईल."
 
-#: ../src/gdict-pref-dialog.c:382
+#: ../src/gdict-pref-dialog.c:380
 #, c-format
 msgid "Unable to remove source '%s'"
 msgstr "'%s' स्त्रोत काढून टाकाता येत नाही"
 
-#: ../src/gdict-pref-dialog.c:643
+#: ../src/gdict-pref-dialog.c:641
 msgid "Add a new dictionary source"
 msgstr "नविन शब्दकोश स्त्रोत जोडा"
 
-#: ../src/gdict-pref-dialog.c:649
+#: ../src/gdict-pref-dialog.c:647
 msgid "Remove the currently selected dictionary source"
 msgstr "सद्या निवडले शब्दकोश स्त्रोत काढून टाका"
 
-#: ../src/gdict-pref-dialog.c:655
+#: ../src/gdict-pref-dialog.c:653
 msgid "Edit the currently selected dictionary source"
 msgstr "सध्याचे निवडलेले शब्दकोश स्त्रोत संपादित करा"
 
-#: ../src/gdict-pref-dialog.c:663
+#: ../src/gdict-pref-dialog.c:661
 msgid "Set the font used for printing the definitions"
 msgstr "व्याख्या छपाईकरीता वापरले जाणारे फॉन्ट निश्चित करा"
 
-#: ../src/gdict-print.c:241 ../src/gdict-print.c:305
+#: ../src/gdict-print.c:239 ../src/gdict-print.c:303
 #, c-format
 msgid "Unable to display the preview: %s"
 msgstr "पूर्वदृश्य दर्शवू शकले नाही: %s"
 
-#: ../src/gdict-source-dialog.c:342 ../src/gdict-source-dialog.c:434
+#: ../src/gdict-source-dialog.c:340 ../src/gdict-source-dialog.c:432
 msgid "Unable to create a source file"
 msgstr "स्त्रोत फाइल बनवू शकले नाही"
 
-#: ../src/gdict-source-dialog.c:358 ../src/gdict-source-dialog.c:450
+#: ../src/gdict-source-dialog.c:356 ../src/gdict-source-dialog.c:448
 msgid "Unable to save source file"
 msgstr "स्त्रोत फाइल संचयीत करू शकले नाही"
 
-#: ../src/gdict-window.c:255
+#: ../src/gdict-window.c:253
 #, c-format
 msgid "Searching for '%s'..."
 msgstr "'%s' करीता शोधत आहे..."
 
-#: ../src/gdict-window.c:287 ../src/gdict-window.c:344
+#: ../src/gdict-window.c:285 ../src/gdict-window.c:342
 msgid "No definitions found"
 msgstr "व्याख्या आढळली नाही"
 
-#: ../src/gdict-window.c:289
+#: ../src/gdict-window.c:287
 #, c-format
 msgid "A definition found"
 msgid_plural "%d definitions found"
 msgstr[0] "व्याख्या आढळली"
 msgstr[1] "%d व्याख्या आढळली"
 
-#: ../src/gdict-window.c:460
+#: ../src/gdict-window.c:458
 #, c-format
 msgid "No dictionary source available with name '%s'"
 msgstr "'%s' नावाची शब्दकोश स्त्रोत उपलब्ध नाही"
 
-#: ../src/gdict-window.c:464
+#: ../src/gdict-window.c:462
 msgid "Unable to find dictionary source"
 msgstr "शब्दकोश स्त्रोत शोधता आले नाही"
 
-#: ../src/gdict-window.c:480
+#: ../src/gdict-window.c:478
 #, c-format
 msgid "No context available for source '%s'"
 msgstr "स्त्रोत '%s' करीता संदर्भ उपलब्ध नाही"
 
-#: ../src/gdict-window.c:484
+#: ../src/gdict-window.c:482
 msgid "Unable to create a context"
 msgstr "संदर्भ बनविता आले नाही"
 
-#: ../src/gdict-window.c:543
+#: ../src/gdict-window.c:541
 #, c-format
 msgid "%s - Dictionary"
 msgstr "%s - शब्दकोश"
 
-#: ../src/gdict-window.c:912
+#: ../src/gdict-window.c:910
 msgid "Save a Copy"
 msgstr "प्रत संचयीत करा"
 
-#: ../src/gdict-window.c:922
+#: ../src/gdict-window.c:920
 msgid "Untitled document"
 msgstr "शिर्षकहीन दस्तऐवज"
 
-#: ../src/gdict-window.c:943
+#: ../src/gdict-window.c:941
 #, c-format
 msgid "Error while writing to '%s'"
 msgstr "'%s' वर लिहीतेवेळी त्रुटी"
 
-#: ../src/gdict-window.c:1361
+#: ../src/gdict-window.c:1359
 #, c-format
 msgid "Dictionary source `%s' selected"
 msgstr "शब्दकोश स्त्रोत `%s' निवडले"
 
-#: ../src/gdict-window.c:1382
+#: ../src/gdict-window.c:1380
 #, c-format
 msgid "Strategy `%s' selected"
 msgstr "योजना `%s' निवडले"
 
-#: ../src/gdict-window.c:1402
+#: ../src/gdict-window.c:1400
 #, c-format
 msgid "Database `%s' selected"
 msgstr "`%s' माहितीकोश निवडले"
 
-#: ../src/gdict-window.c:1422
+#: ../src/gdict-window.c:1420
 #, c-format
 msgid "Word `%s' selected"
 msgstr "शब्द `%s' निवडले"
 
 #. speller
-#: ../src/gdict-window.c:1447
+#: ../src/gdict-window.c:1445
 msgid "Double-click on the word to look up"
 msgstr "शोधण्याकरीता शब्दवर दोनवेळा क्लिक करा"
 
 #. strat-chooser
-#: ../src/gdict-window.c:1453
+#: ../src/gdict-window.c:1451
 msgid "Double-click on the matching strategy to use"
 msgstr "जुळवणी योजना वापरण्याकरीता दोनवेळा क्लिक करा"
 
 #. source-chooser
-#: ../src/gdict-window.c:1458
+#: ../src/gdict-window.c:1456
 msgid "Double-click on the source to use"
 msgstr "स्त्रोत वापरण्याकरीता दोनवेळी क्लिक करा"
 
 #. db-chooser
-#: ../src/gdict-window.c:1467
+#: ../src/gdict-window.c:1465
 msgid "Double-click on the database to use"
 msgstr "माहितीकोश वापरण्याकरीता दोनवेळा क्लिक करा"
 
-#: ../src/gdict-window.c:1617
+#: ../src/gdict-window.c:1615
 msgid "Look _up:"
 msgstr "शोधा (_u):"
 
-#: ../src/gdict-window.c:1692
+#: ../src/gdict-window.c:1690
 msgid "Similar words"
 msgstr "समान शब्द"
 
-#: ../src/gdict-window.c:1705
+#: ../src/gdict-window.c:1703
 msgid "Available dictionaries"
 msgstr "उपलब्ध शब्दकोश"
 
-#: ../src/gdict-window.c:1723
+#: ../src/gdict-window.c:1721
 msgid "Available strategies"
 msgstr "उपलब्ध योजना"
 
-#: ../src/gdict-window.c:1739
+#: ../src/gdict-window.c:1737
 msgid "Dictionary sources"
 msgstr "शब्दकोश स्त्रोत"
 
