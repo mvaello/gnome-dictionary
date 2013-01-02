@@ -35,6 +35,8 @@ gnome_dictionary_SOURCES = \
 gnome_dictionary_CFLAGS = \
 	-I$(top_builddir)	\
 	-I$(top_srcdir)		\
+	-I$(top_srcdir)/libgdict	\
+	-I$(top_builddir)/libgdict 	\
 	$(GDICT_CFLAGS)		\
 	$(NULL)
 
