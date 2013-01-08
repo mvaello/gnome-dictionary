@@ -3,19 +3,9 @@
 HELP_ID = gnome-dictionary
 
 HELP_FILES = \
-	   index.docbook \
+	   index.page \
 	   legal.xml
-				
 HELP_MEDIA = \
-	figures/gnome-dictionary-add-source.png	\	
-	figures/gnome-dictionary-applet-window.png \	
-	figures/gnome-dictionary-applet.png \	
-	figures/gnome-dictionary-application.png \	
-	figures/gnome-dictionary-find.png \	
-	figures/gnome-dictionary-lookup.png \
-	figures/gnome-dictionary-preferences-print.png \	
-	figures/gnome-dictionary-preferences-source.png	
+	figures/gnome-dictionary-icon.png	\
 
 HELP_LINGUAS = ca cs da de el en_GB es eu fi fr gl id it oc pt_BR ru sl sv uk zh_CN
-
-

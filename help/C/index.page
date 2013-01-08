@@ -1,0 +1,38 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="guide" style="2column task"
+      id="index">
+
+  <info>
+    <revision version="0.1" date="2013-03-06" status="draft"/>
+    <title type="link">Dictionary</title>
+    <title type="text">Dictionary</title>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+
+    <desc>Look up words using dictionary sources.</desc>
+  </info>
+
+  <title>
+    <media type="image" mime="image/png" src="figures/gnome-dictionary-icon.png">
+    </media>
+    Dictionary Help
+  </title>
+
+    <section id="features" style="1column">
+    <title>Main features</title>
+  </section>
+
+ <section id="preferences" style="2column">
+    <title>Preferences</title>
+  </section>
+
+ <section id="troubleshooting" style="2column">
+    <title>Common problems and solutions</title>
+  </section>
+</page>
