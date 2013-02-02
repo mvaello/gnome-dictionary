@@ -16,6 +16,6 @@ HELP_MEDIA = \
 	figures/gnome-dictionary-preferences-print.png \	
 	figures/gnome-dictionary-preferences-source.png	
 
-HELP_LINGUAS = ca cs da de el en_GB es eu fi fr gl id it oc ru sl sv uk zh_CN
+HELP_LINGUAS = ca cs da de el en_GB es eu fi fr gl id it oc pt_BR ru sl sv uk zh_CN
 
 
