@@ -8,9 +8,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-dictionary\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-dictionary&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2012-11-14 18:34+0000\n"
-"PO-Revision-Date: 2011-08-08 15:43+0600\n"
-"Last-Translator: Sahran <sahran.ug@gmail.com>\n"
+"POT-Creation-Date: 2013-01-04 11:37+0000\n"
+"PO-Revision-Date: 2013-02-16 12:59+0900\n"
+"Last-Translator: Gheyret Kenji <gheyret@gmail.com>\n"
 "Language-Team: Uyghur Computer Science Association <UKIJ@yahoogroups.com>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
@@ -33,20 +33,17 @@ msgstr "توردىكى لۇغەتتىن سۆز ئېنىقلىمىسى ۋە ئى�
 
 #: ../data/gnome-dictionary.desktop.in.in.h:3
 msgid "word;synonym;definition;spelling;"
-msgstr "سۆز؛مەنىداش سۆز؛مەنىسى؛تەلەپپۇزى؛"
+msgstr "word;synonym;definition;spelling;سۆز;مەنىداش سۆز;مەنىسى;ئىملاسى;"
 
 #: ../data/gnome-dictionary-menus.ui.h:1
-#| msgid "_Preferences"
 msgid "Preferences"
 msgstr "مايىللىق"
 
 #: ../data/gnome-dictionary-menus.ui.h:2
-#| msgid "_Help"
 msgid "Help"
 msgstr "ياردەم"
 
 #: ../data/gnome-dictionary-menus.ui.h:3
-#| msgid "Dictionary"
 msgid "About Dictionary"
 msgstr "لۇغەت ھەققىدە"
 
@@ -67,12 +64,10 @@ msgid "_Save a Copy..."
 msgstr "نۇسخا ساقلا(_S)…"
 
 #: ../data/gnome-dictionary-menus.ui.h:8
-#| msgid "P_review..."
 msgid "P_review"
 msgstr "ئالدىن كور(_R)"
 
 #: ../data/gnome-dictionary-menus.ui.h:9
-#| msgid "Print"
 msgid "_Print"
 msgstr "باس(_P)"
 
@@ -122,15 +117,15 @@ msgstr "ئوخشايدىغان سۆزلەر(_W)"
 
 #: ../data/gnome-dictionary-menus.ui.h:21
 msgid "Dictionary Sources"
-msgstr "لۇغەت مەنبەسى"
+msgstr "لۇغەت مەنبەلىرى"
 
 #: ../data/gnome-dictionary-menus.ui.h:22
 msgid "Available _Databases"
-msgstr "ئىشلىتىلىشچان ساندان(_D)"
+msgstr "ئىشلەتكىلى بولىدىغان ساندانلار(_D)"
 
 #: ../data/gnome-dictionary-menus.ui.h:23
 msgid "Available St_rategies"
-msgstr "ئىشلىتىلىشچان تەدبىر(_R)"
+msgstr "ئىشلەتكىلى بولىدىغان تەدبىرلەر(_R)"
 
 #: ../data/gnome-dictionary-menus.ui.h:24
 msgid "_Go"
@@ -195,7 +190,7 @@ msgstr "لۇغەتلەر"
 
 #: ../data/gnome-dictionary-source.ui.h:8
 msgid "Strategies"
-msgstr "تاكتىكا"
+msgstr "تەدبىر‏"
 
 #: ../data/org.gnome.dictionary.gschema.xml.in.in.h:1
 msgid "The default database to use"
@@ -210,13 +205,13 @@ msgstr "توردىكى مۇلازىمېتىردا ئىشلىتىدىغان مۇ�
 
 #: ../data/org.gnome.dictionary.gschema.xml.in.in.h:3
 msgid "The default search strategy to use"
-msgstr "ئىشلىتىلىدىغان كۆڭۈلدىكى ئىستراتېگىيە"
+msgstr "ئىشلىتىلىدىغان كۆڭۈلدىكى تەدبىر"
 
 #: ../data/org.gnome.dictionary.gschema.xml.in.in.h:4
 msgid ""
 "The name of the default search strategy to use on a dictionary source, if "
 "available. The default strategy is 'exact', that is match exact words."
-msgstr "لۇغەت مەنبەسىدە ئىشلىتىدىغان كۆڭۈلدىكى ئىزدەش تاكتىكىسى. كۆڭۈلدىكى تاكتىكا 'exact' سۆزگە دەل ماسلاشتۇرۇشنى كۆرسىتىدۇ."
+msgstr "لۇغەت مەنبەسىدە ئىشلىتىدىغان كۆڭۈلدىكى ئىزدەش تەدبىر‏ى. كۆڭۈلدىكى تەدبىر‏ 'exact' سۆزگە دەل ماسلاشتۇرۇشنى كۆرسىتىدۇ."
 
 #: ../data/org.gnome.dictionary.gschema.xml.in.in.h:5
 msgid "The font to be used when printing"
@@ -342,7 +337,7 @@ msgstr "‹%s› دىكى لۇغەت مۇلازىمېتىرىدىن ساندان
 #: ../libgdict/gdict-client-context.c:1314
 #, c-format
 msgid "No strategies found on dictionary server at '%s'"
-msgstr "‹%s› دىكى لۇغەت مۇلازىمېتىرىدىن تاكتىكا تېپىلمىدى"
+msgstr "‹%s› دىكى لۇغەت مۇلازىمېتىرىدىن تەدبىر‏لەر تېپىلمىدى"
 
 #: ../libgdict/gdict-client-context.c:1747
 #, c-format
@@ -593,13 +588,7 @@ msgstr "GDict تاللانما كۆرسەت"
 msgid "translator-credits"
 msgstr "Gheyret Kenji <gheyret@gmail.com>\n"
 "Sahran<sahran@live.com>\n"
-"Muhemmed Erdem <misran_erdem@hotmail.com>\n"
-"\n"
-"Launchpad Contributions:\n"
-"  Abdumomin.Kadir https://launchpad.net/~abdumomin-kadir\n"
-"  Gheyret T.Kenji https://launchpad.net/~gheyret\n"
-"  Gheyret T.Kenji https://launchpad.net/~gheyretkenji\n"
-"  Sahran https://launchpad.net/~sahran"
+"Muhemmed Erdem <misran_erdem@hotmail.com>"
 
 #: ../src/gdict-about.c:55
 msgid "Look up words in dictionaries"
@@ -804,11 +793,11 @@ msgstr "ئوخشايدىغان سۆزلەر"
 
 #: ../src/gdict-window.c:1703
 msgid "Available dictionaries"
-msgstr "ئىشلىتىلىشچان لۇغەتلەر"
+msgstr "ئىشلەتكىلى بولىدىغان لۇغەتلەر"
 
 #: ../src/gdict-window.c:1721
 msgid "Available strategies"
-msgstr "ئىشلىتىلىشچان تەدبىرلەر"
+msgstr "ئىشلەتكىلى بولىدىغان تەدبىرلەر"
 
 #: ../src/gdict-window.c:1737
 msgid "Dictionary sources"
