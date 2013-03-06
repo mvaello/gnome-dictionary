@@ -3,10 +3,10 @@
       id="definition">
 
   <info>
-    <revision version="0.1" date="2013-03-06" status="draft"/>
+    <revision version="0.1" date="2013-03-23" status="review"/>
     <link type="guide" xref="index#features"/>
     <!--link type="guide" xref=""/-->
-
+    <link type="seealso" xref="sources"/>
     <credit type="author copyright">
       <name>Sindhu S</name>
       <email>sindhus@live.in</email>
@@ -19,6 +19,25 @@
 
   </info>
 
-  <title>Search definitions</title>
+  <title>Look up definitions</title>
 
+  <p>Meanings of words explain their origin, importance and their usage in
+  language. To look up a definition:</p>
+
+  <steps>
+    <item>
+      <p>In the text entry next to <gui style="button">Look up:</gui>, type the
+      desired term.</p>
+    </item>
+    <item>
+      <p>Press <gui style="button">Look up:</gui> or <key>Enter</key> to let
+      <app>Dictionary</app> search the definition from a
+      <link xref="sources-select">selected dictionary source</link>.</p>
+    </item>
+  </steps>
+
+  <note style="tip">
+    <p>You can press <keyseq><key>Ctrl</key><key>T</key></keyseq> and view
+    <link xref="similar-words">similar words</link> to your search term.</p>
+  </note>
 </page>

@@ -1,0 +1,54 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="task"
+      id="print-font">
+
+  <info>
+    <revision version="0.1" date="2013-03-28" status="review"/>
+    <link type="guide" xref="index#preferences"/>
+    <!--link type="guide" xref=""/-->
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+
+    <desc>Select font for printing definitions.</desc>
+
+  </info>
+
+  <title>Print font</title>
+
+  <p>You can select custom font and size to print defintions. To select font
+  for printing defintions:</p>
+
+  <steps>
+    <item>
+      <p>Select <guiseq><gui style="menu">Dictionary</gui>
+      <gui style="menuitem">Preferences</gui>
+      <gui style="tab">Print</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Click the button next to <gui>Font:</gui>.</p>
+    </item>
+    <item>
+      <p>Browse fonts from the list and click to select the desired font.
+      Alternatively you can search the font by name in the text input bar.</p>
+    </item>
+    <item>
+      <p>Drag the slider forward to increase the font size. Alternatively, you
+      can input the font size in the text box and use <gui>+</gui> to increase
+      or <gui>-</gui> to decrease the font size.</p>
+    </item>
+    <item>
+      <p>Click <gui style="button">Select</gui> to confirm choice of font and
+      size selection.</p>
+    </item>
+    <item>
+      <p>Click <gui style="button">Close</gui> to exit <gui>Preferences</gui>
+      dialog and return to <app>Dictionary</app>.</p>
+    </item>
+  </steps>
+</page>

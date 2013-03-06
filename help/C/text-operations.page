@@ -15,10 +15,21 @@
 
     <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
 
-    <desc>Operations on text <app>Dictionary</app>.</desc>
+    <desc>Copy defintions as text.</desc>
 
   </info>
 
   <title>Text operations</title>
+
+  <p>You can copy definitions from <app>Dictionary</app> to pasted as text into other applications of choice. To copy a definition:</p>
+
+    <steps>
+      <item>
+        <p>Drag and select desired text portions in <app>Dictionary</app>.</p>
+      </item>
+      <item>
+        <p>Select <guiseq><gui style="menu">Edit</gui><gui style="menuitem">Copy</gui></guiseq>.</p>
+      </item>
+    </steps>
 
 </page>

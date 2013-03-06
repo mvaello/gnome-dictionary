@@ -1,0 +1,43 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="task"
+      id="save-text">
+
+  <info>
+    <revision version="0.1" date="2013-03-28" status="review"/>
+    <link type="guide" xref="index#features"/>
+    <!--link type="guide" xref=""/-->
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+
+    <desc>Save definitions on file.</desc>
+
+  </info>
+
+  <title>Save definitions</title>
+
+  <p><app>Dictionary</app> allows you to save definitions for future reference
+  onto a text file.</p>
+
+  <steps>
+    <title>To save a definition:</title>
+    <item>
+      <p>Select <guiseq><gui style="menu">File</gui>
+      <gui style="menuitem">Save a Copy…</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Input the desired filename along with the file extension,
+      <code>.txt</code> in the <gui>Save a Copy…</gui> dialog. You can also
+      browse and select the desired directory for the file to be saved
+      onto.</p>
+    </item>
+    <item>
+      <p>Click <gui style="button">Save</gui> to save the definition to file.</p>
+    </item>
+  </steps>
+</page>

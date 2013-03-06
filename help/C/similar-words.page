@@ -3,8 +3,9 @@
       id="similar-words">
 
   <info>
-    <revision version="0.1" date="2013-03-06" status="draft"/>
+    <revision version="0.1" date="2013-03-28" status="review"/>
     <link type="guide" xref="index#features"/>
+    <link type="seealso" xref="sources-guide"/>
     <!--link type="guide" xref=""/-->
 
     <credit type="author copyright">
@@ -15,10 +16,39 @@
 
     <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
 
-    <desc>Find similar words.</desc>
+    <desc>Search dictionaries for similar words.</desc>
 
   </info>
 
-  <title>Look up similar words</title>
+  <title>Similar words</title>
 
+  <p><app>Dictionary</app> searches for terms similar to your
+  searched term from dictionary sources other than the default. To view similar
+  words:</p>
+
+  <steps>
+    <item>
+      <p><link xref="definition">Look up</link> the desired term.</p>
+    <note style="tip">
+     <p>If the sidebar is not already visible, select
+     <guiseq><gui style="menu">View</gui>
+     <gui style="menuitem">Similar Words</gui></guiseq>.</p>
+    </note>
+    </item>
+    <item>
+      <p>The <gui>Similar Words</gui> sidebar will now show expressions same as
+      the searched term from other dictionary sources. To view the similar
+      word, double click on the desired entry. The definition will be
+      displayed in <app>Dictionary</app>.</p>
+    </item>
+    <item>
+      <p>To close the <gui>Similar Words</gui> sidebar click the <gui>x</gui>
+      button.</p>
+    </item>
+  </steps>
+
+  <note style="tip">
+    <p>If you are experiencing delays when searching for similar words, press
+    the brush icon below the sidebar to refresh the search.</p>
+  </note>
 </page>

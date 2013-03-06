@@ -3,7 +3,7 @@
       id="index">
 
   <info>
-    <revision version="0.1" date="2013-03-06" status="draft"/>
+    <revision version="0.1" date="2013-03-23" status="review"/>
     <title type="link">Dictionary</title>
     <title type="text">Dictionary</title>
 
@@ -25,7 +25,7 @@
   </title>
 
     <section id="features" style="1column">
-    <title>Main features</title>
+    <title>Features</title>
   </section>
 
  <section id="preferences" style="2column">

@@ -1,10 +1,10 @@
 <page xmlns="http://projectmallard.org/1.0/"
       type="task"
-      id="save-text">
+      id="strategies">
 
   <info>
     <revision version="0.1" date="2013-03-06" status="draft"/>
-    <link type="guide" xref="index#features"/>
+    <link type="guide" xref="index#preferences"/>
     <!--link type="guide" xref=""/-->
 
     <credit type="author copyright">
@@ -15,10 +15,12 @@
 
     <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
 
-    <desc>Save definitions on file.</desc>
+    <desc>View definition strategies.</desc>
 
   </info>
 
-  <title>Save definitions</title>
+  <title><app>Search</app> strategies</title>
+
+  <p></p>
 
 </page>
