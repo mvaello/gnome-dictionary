@@ -1,0 +1,47 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="task"
+      id="find">
+
+  <info>
+    <revision version="0.1" date="2013-03-28" status="review"/>
+    <link type="guide" xref="index#features"/>
+    <!--link type="guide" xref=""/-->
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+
+    <desc>Search for text in definitions.</desc>
+
+  </info>
+
+  <title>Find text</title>
+
+  <p><app>Dictionary</app> is able to search specific text in definitions.</p>
+
+  <steps>
+    <title>To find text in definitions:</title>
+    <item>
+      <p>Select <guiseq><gui style="menu">Edit</gui>
+      <gui style="menitem">Find</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>The <gui>Find</gui> bar will appear at the bottom of the
+      <app>Dictionary</app> window. Type in the desired term to find within
+      the the currently displayed definition. If the term is found, it is
+      highlighted.</p>
+    </item>
+  </steps>
+
+  <note style="tip">
+    <p>If multiple terms are found in the definition that match your search
+    term, then to navigate these results use you may use:
+    <keyseq><key>Ctrl</key><key>G</key></keyseq> to find the next occurence of
+    the term and <keyseq><key>Shift</key><key>Ctrl</key><key>G</key></keyseq>
+    to find previous occurence of the term.</p>
+  </note>
+</page>
