@@ -60,7 +60,7 @@ msgstr "Έλεγχος ορισμών λέξεων και ορθογραφίας
 
 #: ../data/gnome-dictionary.desktop.in.in.h:3
 msgid "word;synonym;definition;spelling;"
-msgstr "λέξη·συνώνυμο·ορισμός·ορθογραφία·"
+msgstr "λέξη;συνώνυμο;ορισμός;ορθογραφία;"
 
 #: ../data/gnome-dictionary-menus.ui.h:1
 msgid "Preferences"
