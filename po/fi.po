@@ -20,8 +20,8 @@ msgstr ""
 "Project-Id-Version: gnome-utils\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "dictionary&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2012-11-14 18:34+0000\n"
-"PO-Revision-Date: 2013-03-05 20:35+0200\n"
+"POT-Creation-Date: 2013-03-07 18:52+0000\n"
+"PO-Revision-Date: 2013-03-26 20:13+0200\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos+l10n@iki.fi>\n"
 "Language-Team: Finnish <gnome-fi-laatu@lists.sourceforge.net>\n"
 "Language: fi\n"
@@ -48,8 +48,8 @@ msgstr "Etsi sanojen määrittelyjä ja kirjoitusasuja verkkosanakirjoista"
 #: ../data/gnome-dictionary.desktop.in.in.h:3
 msgid "word;synonym;definition;spelling;"
 msgstr ""
-"word;synonym;definition;spelling;sana;synonyymi;määrite;selite;kirjoitusasu;oi"
-"keinkirjoitus;"
+"word;synonym;definition;spelling;sana;synonyymi;määrite;selite;kirjoitusasu;"
+"oikeinkirjoitus;"
 
 #: ../data/gnome-dictionary-menus.ui.h:1
 msgid "Preferences"
@@ -61,7 +61,7 @@ msgstr "Ohje"
 
 #: ../data/gnome-dictionary-menus.ui.h:3
 msgid "About Dictionary"
-msgstr "Tietoja sanakirjasta"
+msgstr "Tietoja - Sanakirja"
 
 #: ../data/gnome-dictionary-menus.ui.h:4
 msgid "Quit"
