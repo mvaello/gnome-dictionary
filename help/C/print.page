@@ -3,8 +3,9 @@
       id="print">
 
   <info>
-    <revision version="0.1" date="2013-03-06" status="draft"/>
+    <revision version="0.1" date="2013-03-28" status="review"/>
     <link type="guide" xref="index#features"/>
+    <link type="seealso" xref="definitions"/>
     <!--link type="guide" xref=""/-->
 
     <credit type="author copyright">
@@ -19,28 +20,98 @@
 
   </info>
 
-  <title>Preview and Printing defintions</title>
+  <title>Printing With <app>Dictionary</app></title>
+
+    <p><app>Dictionary</app> allows you to print definitions to both paper and
+    file.</p>
 
   <section id="preview">
-    <title>Print preview definitions</title>
+    <title>Preview Definitions</title>
 
-    <p></p>
+    <p>You can preview the definition to be printed as it would look on paper
+    using the the <gui style="menuitem">Preview</gui> option.</p>
+
+    <steps>
+      <title>To preview a definition before printing:</title>
+      <item>
+        <p>Select <guiseq><gui style="menu">File</gui><gui style="menuitem">Preview</gui></guiseq>.</p>
+      </item>
+      <item>
+        <p>A <gui>Dictionary job</gui> window will open to show you the print
+        preview of the selected defintion. You can use the toolbar to browse
+        pages, adjust zoom level and page width for readibility purposes.</p>
+      </item>
+      <item>
+        <p>To end the preview and return back to <app>Dictionary</app>, click
+        <gui style="button">×</gui>.</p>
+      </item>
+    </steps>
   </section>
 
   <section id="print">
     <title>Print defintions</title>
 
-    <p>You can print definitions to your local or remote printer. To print defintions you have looked up:</p>
+    <note style="important">
+      <p>Printing with <app>Dictionary</app> to paper requires that you have
+      connected and configured your printer. If you have not done this, please
+      consult the <link href="help:gnome-help/printing">printing help for
+      GNOME</link> .</p>
+    </note>
 
     <steps>
+      <title>To print defintions you have looked up:</title>
       <item>
-        <p>Select <guiseq><gui style="menu">File</gui><gui style="menuitem">Print</gui></guiseq>.</p>
+        <p>Select <guiseq><gui style="menu">File</gui>
+        <gui style="menuitem">Print</gui>
+        <gui style="tab">General</gui></guiseq>.</p>
       </item>
       <item>
-        <p><!--Change print page layout, size etc --></p>
+        <p>Select the desired from printer from the list of printers
+        available.</p>
+        <p>If you have selected <gui>Print to File</gui>, then:</p>
+        <steps>
+          <item>
+            <p>Click on the button next to <gui style="button">File:</gui>.
+            In the <gui>Select a filename</gui> dialog, browse and select the
+            location on disk for the file to be saved onto. Type the desired
+            name for the file and click <gui style="button">Select</gui>.</p>
+          </item>
+          <item>
+            <p>Select the format for the file to be printed. The default format
+            is set to <code>PDF</code>. You can also save in other formats such
+            as:</p>
+            <list>
+              <item>
+                <p><gui style="radiobutton">Postscript</gui></p>
+              </item>
+              <item>
+                <p><gui style="radiobutton">SVG</gui></p>
+              </item>
+            </list>
+            <note style="important">
+              <p>If you have not selected the directory for the file to be
+              saved on disk, by default the file will be saved to the
+              <em>Documents</em> folder in your HOME directory. The file
+              will be saved with the default name - <sys>output</sys> along
+              with the corresponding file extension for the selected file
+              format. For example, <sys>output.pdf</sys> or
+              <sys>output.ps</sys>.</p>
+            </note>
+          </item>
+        </steps>
       </item>
       <item>
-        <p>Click <gui style="button">Print</gui> to send the selected definition to your printer.</p>
+        <p>To print particular pages only, multiple copies or change order of
+        prints, you can consult <link href="help:gnome-help/printing-order">printing order help</link>.
+        Additionally, from <gui style="tab">Page Setup</gui> tab: you can
+        set options to print using different layouts and paper sizes. Please
+        consult
+        <link href="help:gnome-help/printing#paper">layout and paper</link>
+        help.</p>
+      </item>
+      <item>
+        <p>Click <gui style="button">Print</gui> to send the definition
+        to the selected printer.</p>
       </item>
     </steps>
 
