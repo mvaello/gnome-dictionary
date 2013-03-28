@@ -1,0 +1,26 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="task"
+      id="error-while-retrieving-definition">
+
+  <info>
+    <revision version="0.1" date="2013-03-28" status="review"/>
+    <link type="guide" xref="index#troubleshooting"/>
+    <link type="seealso" xref="definitions"/>
+    <!--link type="guide" xref=""/-->
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+
+    <desc>What do I do?</desc>
+
+  </info>
+
+  <title>"Error while retreiving definition" message</title>
+
+  <p></p>
+</page>

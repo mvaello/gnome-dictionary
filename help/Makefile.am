@@ -10,6 +10,7 @@ HELP_FILES = \
 	   legal.xml \
 	   print-font.page \
 	   print.page \
+	   prob-error-while-retrieving-definition.page \
 	   save-definition.page \
 	   shortcuts.page \
 	   similar-words.page \
