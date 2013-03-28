@@ -14,7 +14,13 @@ HELP_FILES = \
 	   save-definition.page \
 	   shortcuts.page \
 	   similar-words.page \
+	   source-add-remote.page \
+	   source-add-local.page \
+	   sources-default.page \
+	   sources-delete.page \
+	   sources-edit.page \
 	   sources-guide.page \
+	   sources-select.page \
 	   strategies.page \
 	   text-operations.page
 HELP_MEDIA = \
