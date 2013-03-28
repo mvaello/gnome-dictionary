@@ -3,7 +3,7 @@
       id="index">
 
   <info>
-    <revision version="0.1" date="2013-03-23" status="review"/>
+    <revision pkgversion="3.6" version="0.1" date="2013-03-28" status="final"/>
     <title type="link">Dictionary</title>
     <title type="text">Dictionary</title>
 
@@ -19,12 +19,10 @@
   </info>
 
   <title>
-    <media type="image" mime="image/png" src="figures/gnome-dictionary-icon.png">
-    </media>
-    Dictionary Help
+    <media type="image" mime="image/png" src="figures/gnome-dictionary-icon.png" /> Dictionary Help
   </title>
 
-    <section id="features" style="1column">
+  <section id="features" style="1column">
     <title>Features</title>
   </section>
 
@@ -32,7 +30,7 @@
     <title>Preferences</title>
   </section>
 
- <section id="troubleshooting" style="2column">
+ <section id="troubleshooting" style="1column">
     <title>Common problems and solutions</title>
   </section>
 </page>

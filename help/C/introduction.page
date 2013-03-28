@@ -3,13 +3,17 @@
       id="introduction">
 
   <info>
-    <revision version="0.1" date="2013-03-23" status="review"/>
+    <revision pkgversion="3.6" version="0.1" date="2013-03-28" status="candidate"/>
     <link type="guide" xref="index"/>
-    <!--link type="guide" xref=""/-->
 
     <credit type="author copyright">
       <name>Sindhu S</name>
       <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
       <years>2013</years>
     </credit>
 
@@ -21,19 +25,18 @@
 
   <title>Introduction</title>
 
-  <p><app>Dictionary</app> is a program to search and view definitions of\
-  words, phrases for a language or subject of your choice.
-  <app>Dictionary</app> searches for definitions using a <app>DICT</app>
-  server located on the Internet. The default DICT server is at
-  <link href="http://dict.org">http://dict.org</link>.</p>
+  <p><app>Dictionary</app> is an application for looking up term definitions.
+  <app>Dictionary</app> searches for definitions using an online
+  <app>DICT</app> server. The default DICT server is at
+  <sys href="http://dict.org">http://dict.org</sys>.</p>
 
-  <p>If you do not have access to an Internet connection, you can also install
-  offline <app>DICT</app> server.</p>
+  <!--<p>If you do not have access to an Internet connection, you can also install
+  offline <app>DICT</app> server.</p>-->
 
   <figure>
     <title>Dictionary</title>
-    <desc>Screenshot of <app>Dictionary</app></desc>
-    <media type="image" src="figures/gnome-dictionary.png" width="700">
+    <media type="image" src="figures/gnome-dictionary.png">
+      <p>Screenshot showing the <app>Dictionary</app> main window.</p>
     </media>
   </figure>
 </page>

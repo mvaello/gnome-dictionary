@@ -3,41 +3,50 @@
       id="definition">
 
   <info>
-    <revision version="0.1" date="2013-03-23" status="review"/>
+    <revision pkgversion="3.6" version="0.1" date="2013-03-28" status="candidate"/>
     <link type="guide" xref="index#features"/>
-    <!--link type="guide" xref=""/-->
-    <link type="seealso" xref="sources"/>
+
     <credit type="author copyright">
       <name>Sindhu S</name>
       <email>sindhus@live.in</email>
       <years>2013</years>
     </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
 
     <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
 
-    <desc>Find meanings of words.</desc>
+    <desc>Find the definition of a word or term.</desc>
 
   </info>
 
-  <title>Look up definitions</title>
+  <title>Look up a word or term</title>
 
-  <p>Meanings of words explain their origin, importance and their usage in
-  language. To look up a definition:</p>
+  <p>You can use <app>Dictionary</app> to look up the meaning of a
+  <em>term</em>. A term can be a single word such as <input>apple</input> or a
+  compound word such as <input>chopping board</input>. The search result may
+  also show you the origin, importance and the usage of a word. To look up a
+  term:</p>
 
   <steps>
     <item>
-      <p>In the text entry next to <gui style="button">Look up:</gui>, type the
-      desired term.</p>
+      <p>Type in the term that you want to search for next to
+      <gui>Look up</gui>.</p>
     </item>
     <item>
-      <p>Press <gui style="button">Look up:</gui> or <key>Enter</key> to let
-      <app>Dictionary</app> search the definition from a
-      <link xref="sources-select">selected dictionary source</link>.</p>
+      <p>Press <key>Return</key> or <gui style="button">Look up:</gui> to
+      search.</p>
     </item>
   </steps>
 
-  <note style="tip">
-    <p>You can press <keyseq><key>Ctrl</key><key>T</key></keyseq> and view
-    <link xref="similar-words">similar words</link> to your search term.</p>
-  </note>
+  <p><app>Dictionary</app> will search your selected dictionary source and
+  show you the result from the first dictionary in the source. To view results
+  from the other dictionaries that are in the same source, select
+  <link xref="similar-words"><guiseq><gui style="menu">View</gui>
+  <gui style="menuitem">Similar Words</gui></guiseq></link> to pop up a
+  sidebar that shows all the results.</p>
+
 </page>
