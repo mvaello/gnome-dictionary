@@ -3,7 +3,7 @@
       id="introduction">
 
   <info>
-    <revision pkgversion="3.6" version="0.1" date="2013-03-28" status="candidate"/>
+    <revision pkgversion="3.6" version="0.1" date="2013-03-28" status="review"/>
     <link type="guide" xref="index"/>
 
     <credit type="author copyright">
@@ -30,8 +30,8 @@
   <app>DICT</app> server. The default DICT server is at
   <sys href="http://dict.org">http://dict.org</sys>.</p>
 
-  <!--<p>If you do not have access to an Internet connection, you can also install
-  offline <app>DICT</app> server.</p>-->
+  <p>Start using <app>Dictionary</app> by
+  <link xref="definition">looking up a definition</link>!</p>
 
   <figure>
     <title>Dictionary</title>
