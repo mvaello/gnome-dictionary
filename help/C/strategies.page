@@ -19,8 +19,58 @@
 
   </info>
 
-  <title><app>Search</app> strategies</title>
+  <title>Definition strategies</title>
 
   <p></p>
 
+  <terms>
+    <item>
+      <title>Match headwords exactly</title>
+      <p></p>
+    </item>
+    <item>
+      <title>March prefixes</title>
+      <p></p>
+    </item>
+    <item>
+      <title>Match prefixes (skip, count)</title>
+      <p></p>
+    </item>
+    <item>
+      <title>Match substring occuring anywhere in a headword</title>
+      <p></p>
+    </item>
+    <item>
+      <title>Match suffixes</title>
+      <p></p>
+    </item>
+    <item>
+      <title>POSIX 1003.2 (modern) regular expressions</title>
+      <p></p>
+    </item>
+    <item>
+      <title>Old (basic) regular expressions</title>
+      <p></p>
+    </item>
+    <item>
+      <title>Match using SOUNDEX algorithm</title>
+      <p></p>
+    </item>
+    <item>
+      <title>Match headwords withinLevenshtein distance one</title>
+      <p></p>
+    </item>
+    <item>
+      <title>Match separate words within headwords</title>
+      <p></p>
+    </item>
+    <item>
+      <title>Match the first word within headwords</title>
+      <p></p>
+    </item>
+    <item>
+      <title>Match the last word within headwords</title>
+      <p></p>
+    </item>
+  </terms>
 </page>
