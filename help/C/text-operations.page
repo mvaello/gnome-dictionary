@@ -3,8 +3,9 @@
       id="text-operations">
 
   <info>
-    <revision version="0.1" date="2013-03-06" status="draft"/>
+    <revision version="0.1" date="2013-03-28" status="review"/>
     <link type="guide" xref="index#features"/>
+    <link type="seealso" xref="shortcuts"/>
     <!--link type="guide" xref=""/-->
 
     <credit type="author copyright">
@@ -15,21 +16,42 @@
 
     <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
 
-    <desc>Copy defintions as text.</desc>
+    <desc>Select and Copy defintions to another program.</desc>
 
   </info>
 
   <title>Text operations</title>
 
-  <p>You can copy definitions from <app>Dictionary</app> to pasted as text into other applications of choice. To copy a definition:</p>
+  <p>You can copy definitions from <app>Dictionary</app> to pasted as text
+  into other applications of choice.</p>
 
-    <steps>
-      <item>
-        <p>Drag and select desired text portions in <app>Dictionary</app>.</p>
-      </item>
-      <item>
-        <p>Select <guiseq><gui style="menu">Edit</gui><gui style="menuitem">Copy</gui></guiseq>.</p>
-      </item>
-    </steps>
+  <steps>
+    <title>To copy a definition:</title>
+    <item>
+      <p>Drag and select desired text portions in <app>Dictionary</app>.</p>
+    </item>
+    <item>
+      <p>Select <guiseq><gui style="menu">Edit</gui>
+      <gui style="menuitem">Copy</gui></guiseq>.</p>
+    </item>
+  </steps>
 
+  <p>Alternatively, to copy text, you can:</p>
+
+  <steps>
+    <item>
+      <p>Select <guiseq><gui style="menu">Edit</gui>
+      <gui style="menuitem">Select All</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Select <guiseq><gui style="menu">Edit</gui>
+      <gui style="menuitem">Copy</gui></guiseq>.</p>
+    </item>
+  </steps>
+
+  <note style="tip">
+    <p>You can also copy text by highlighting the desired portions of text
+    with your mouse pointer and pressing <keyseq><key>Ctrl</key>
+    <key>C</key></keyseq>.</p>
+  </note>
 </page>

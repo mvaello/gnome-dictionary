@@ -1,0 +1,148 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      xmlns:ui="http://projectmallard.org/experimental/ui/"
+      type="task"
+      id="shortcuts">
+
+  <info>
+    <revision version="0.1" date="2013-03-28" status="review"/>
+    <link type="guide" xref="index#features"/>
+    <!--link type="guide" xref=""/-->
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+
+    <desc>Use keyboard shortcuts</desc>
+
+  </info>
+
+  <title>Keyboard Shortcuts</title>
+
+  <p>Keyboard shortcuts are a combination of keys that allow you to do routine
+  tasks such as selecting and copying text quickly. The following shortcuts
+  are available:</p>
+
+  <table rules="rows" frame="top bottom" ui:expanded="yes">
+    <title><app>Dictionary</app> window shortcuts:</title>
+    <thead>
+      <tr>
+        <td><p>To Do This</p></td>
+        <td><p>Press This</p></td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><p>Preview</p></td>
+        <td><p><keyseq><key>Shift</key><key>Ctrl</key><key>P</key></keyseq></p></td>
+      </tr>
+      <tr>
+        <td><p>Print</p></td>
+        <td><p><keyseq><key>Ctrl</key><key>P</key></keyseq></p></td>
+      </tr>
+      <tr>
+        <td><p>View sidebar</p></td>
+        <td><p><key>F9</key></p></td>
+      </tr>
+      <tr>
+        <td><p>Open a new <app>Dictionary</app> window</p></td>
+        <td><p><keyseq><key>Ctrl</key><key>N</key></keyseq></p></td>
+      </tr>
+      <tr>
+        <td><p>Close current <app>Dictionary</app> window</p></td>
+        <td><p><keyseq><key>Ctrl</key><key>W</key></keyseq></p></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <table rules="rows" frame="top bottom" ui:expanded="yes">
+    <title>Text operation shortcuts:</title>
+    <thead>
+      <tr>
+        <td><p>To Do This</p></td>
+        <td><p>Press This</p></td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><p>Open Find bar</p></td>
+        <td><p><key>/</key></p></td>
+      </tr>
+      <tr>
+        <td><p>Find Next</p></td>
+        <td><p><keyseq><key>Ctrl</key><key>G</key></keyseq></p></td>
+      </tr>
+      <tr>
+        <td><p>Find Previous</p></td>
+        <td><p><keyseq><key>Shift</key><key>Ctrl</key><key>G</key></keyseq></p></td>
+      </tr>
+      <tr>
+        <td><p>Select all text</p></td>
+        <td><p><keyseq><key>Ctrl</key><key>A</key></keyseq></p></td>
+      </tr>
+      <tr>
+        <td><p>Copy text</p></td>
+        <td><p><keyseq><key>Ctrl</key><key>C</key></keyseq></p></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <table rules="rows" frame="top bottom" ui:expanded="yes">
+    <title>Search and navigate results shortcuts:</title>
+    <thead>
+      <tr>
+        <td><p>To Do This</p></td>
+        <td><p>Press This</p></td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><p>Previous Definition</p></td>
+        <td><p><keyseq><key>Ctrl</key><key>Page Up</key></keyseq></p></td>
+      </tr>
+      <tr>
+        <td><p>Next Definition</p></td>
+        <td><p><keyseq><key>Ctrl</key><key>Page Down</key></keyseq></p></td>
+      </tr>
+      <tr>
+        <td><p>First Definition</p></td>
+        <td><p><keyseq><key>Ctrl</key><key>Home</key></keyseq></p></td>
+      </tr>
+      <tr>
+        <td><p>Last Definition</p></td>
+        <td><p><keyseq><key>Ctrl</key><key>End</key></keyseq></p></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <table rules="rows" frame="top bottom" ui:expanded="yes">
+    <title><app>Dictionary</app> definitions shortcuts:</title>
+    <thead>
+      <tr>
+        <td><p>To Do This</p></td>
+        <td><p>Press This</p></td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><p>Similar words</p></td>
+        <td><p><keyseq><key>Ctrl</key><key>T</key></keyseq></p></td>
+      </tr>
+      <tr>
+        <td><p>Dictionary Sources</p></td>
+        <td><p><keyseq><key>Ctrl</key><key>D</key></keyseq></p></td>
+      </tr>
+      <tr>
+        <td><p>Available Databases</p></td>
+        <td><p><keyseq><key>Ctrl</key><key>B</key></keyseq></p></td>
+      </tr>
+      <tr>
+        <td><p>Available Strategies</p></td>
+        <td><p><keyseq><key>Ctrl</key><key>R</key></keyseq></p></td>
+      </tr>
+    </tbody>
+  </table>
+</page>

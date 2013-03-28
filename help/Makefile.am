@@ -11,6 +11,7 @@ HELP_FILES = \
 	   print-font.page \
 	   print.page \
 	   save-definition.page \
+	   shortcuts.page \
 	   similar-words.page \
 	   sources-guide.page \
 	   strategies.page \
