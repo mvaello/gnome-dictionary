@@ -3,115 +3,89 @@
       id="print">
 
   <info>
-    <revision version="0.1" date="2013-03-28" status="review"/>
+    <revision version="0.1" date="2013-03-28" status="candidate"/>
     <link type="guide" xref="index#features"/>
-    <link type="seealso" xref="definitions"/>
-    <!--link type="guide" xref=""/-->
+    <link type="seealso" xref="definition"/>
+    <link type="seealso" xref="print-font"/>
 
     <credit type="author copyright">
       <name>Sindhu S</name>
       <email>sindhus@live.in</email>
       <years>2013</years>
     </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
 
     <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
 
-    <desc>Preview and print definitions.</desc>
+    <desc>Print preview and print definitions.</desc>
 
   </info>
 
-  <title>Printing With <app>Dictionary</app></title>
+  <title>Print a definition</title>
 
-    <p><app>Dictionary</app> allows you to print definitions to both paper and
-    file.</p>
+  <p>You can print a definition to paper or a file. Before printing, you
+  should preview the definition as it would be printed to check that the text
+  fits onto the page, especially if you have changed the
+  <link xref="print-font">print font</link> size.</p>
 
   <section id="preview">
-    <title>Preview Definitions</title>
-
-    <p>You can preview the definition to be printed as it would look on paper
-    using the the <gui style="menuitem">Preview</gui> option.</p>
+    <title>Print preview</title>
 
     <steps>
-      <title>To preview a definition before printing:</title>
       <item>
-        <p>Select <guiseq><gui style="menu">File</gui><gui style="menuitem">Preview</gui></guiseq>.</p>
+        <p>Select <guiseq><gui style="menu">File</gui>
+        <gui style="menuitem">Preview</gui></guiseq>.</p>
       </item>
       <item>
-        <p>A <gui>Dictionary job</gui> window will open to show you the print
-        preview of the selected defintion. You can use the toolbar to browse
-        pages, adjust zoom level and page width for readibility purposes.</p>
+        <p>A print preview window will open which will show you the definition
+        exactly as it will be printed.</p>
       </item>
       <item>
-        <p>To end the preview and return back to <app>Dictionary</app>, click
-        <gui style="button">×</gui>.</p>
+	<p>Use the toolbar to browse pages, adjust zoom level and page
+	width.</p>
+      </item>
+      <item>
+        <p>Click the <gui style="button">Print this document</gui> to print
+        the definition or close the window to end the preview.</p>
       </item>
     </steps>
+
+    <note>
+      <p>The print button in the toolbar may not always work. If it does not
+      work for you, close the window and select
+      <guiseq><gui style="menu">File</gui>
+      <gui style="menuitem">Print</gui></guiseq>.</p>
+    </note>
+
   </section>
 
   <section id="print">
-    <title>Print defintions</title>
+    <title>Print</title>
 
-    <note style="important">
-      <p>Printing with <app>Dictionary</app> to paper requires that you have
-      connected and configured your printer. If you have not done this, please
-      consult the <link href="help:gnome-help/printing">printing help for
-      GNOME</link> .</p>
-    </note>
+    <p>You need to <link href="help:gnome-help/printing">have a printer set
+    up</link> to be able to print to paper.</p>
 
     <steps>
-      <title>To print defintions you have looked up:</title>
       <item>
         <p>Select <guiseq><gui style="menu">File</gui>
         <gui style="menuitem">Print</gui>
         <gui style="tab">General</gui></guiseq>.</p>
       </item>
       <item>
-        <p>Select the desired from printer from the list of printers
-        available.</p>
-        <p>If you have selected <gui>Print to File</gui>, then:</p>
-        <steps>
-          <item>
-            <p>Click on the button next to <gui style="button">File:</gui>.
-            In the <gui>Select a filename</gui> dialog, browse and select the
-            location on disk for the file to be saved onto. Type the desired
-            name for the file and click <gui style="button">Select</gui>.</p>
-          </item>
-          <item>
-            <p>Select the format for the file to be printed. The default format
-            is set to <code>PDF</code>. You can also save in other formats such
-            as:</p>
-            <list>
-              <item>
-                <p><gui style="radiobutton">Postscript</gui></p>
-              </item>
-              <item>
-                <p><gui style="radiobutton">SVG</gui></p>
-              </item>
-            </list>
-            <note style="important">
-              <p>If you have not selected the directory for the file to be
-              saved on disk, by default the file will be saved to the
-              <em>Documents</em> folder in your HOME directory. The file
-              will be saved with the default name - <sys>output</sys> along
-              with the corresponding file extension for the selected file
-              format. For example, <sys>output.pdf</sys> or
-              <sys>output.ps</sys>.</p>
-            </note>
-          </item>
-        </steps>
+        <p>Select the printer that you want to use from the list of printers
+        or select
+        <gui href="help:gnome-help/print-to-file">Print to File</gui>.</p>
       </item>
       <item>
-        <p>To print particular pages only, multiple copies or change order of
-        prints, you can consult <link href="help:gnome-help/printing-order">printing order help</link>.
-        Additionally, from <gui style="tab">Page Setup</gui> tab: you can
-        set options to print using different layouts and paper sizes. Please
-        consult
-        <link href="help:gnome-help/printing#paper">layout and paper</link>
-        help.</p>
+        <p>Chose your <link href="help:gnome-help/printing#paper">printing
+        settings</link>.</p>
       </item>
       <item>
-        <p>Click <gui style="button">Print</gui> to send the definition
-        to the selected printer.</p>
+        <p>Press <gui style="button">Print</gui> to print the definition.</p>
       </item>
     </steps>
 
