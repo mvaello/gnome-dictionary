@@ -7,12 +7,12 @@ HELP_FILES = \
 	   find.page \
 	   index.page \
 	   introduction.page \
+	   keyboard-shortcuts.page \
 	   legal.xml \
 	   print-font.page \
 	   print.page \
 	   prob-error-while-retrieving-definition.page \
 	   save-definition.page \
-	   shortcuts.page \
 	   similar-words.page \
 	   source-add-remote.page \
 	   source-add-local.page \
