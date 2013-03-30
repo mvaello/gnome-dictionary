@@ -3,15 +3,19 @@
       id="sources-select">
 
   <info>
-    <revision pkgversion="3.6" version="0.1" date="2013-03-30" status="review"/>
-    <link type="guide" xref="sources-guide#guide"/>
+    <revision pkgversion="3.6" version="0.1" date="2013-03-30" status="candidate"/>
+    <link type="guide" xref="sources#guide"/>
     <link type="seealso" xref="sources-default"/>
     <link type="seealso" xref="dictionary-select"/>
-    <!--link type="guide" xref=""/-->
 
     <credit type="author copyright">
       <name>Sindhu S</name>
       <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
       <years>2013</years>
     </credit>
 
@@ -21,19 +25,17 @@
 
   <title>Select a dictionary source</title>
 
-  <p><app>Dictionary</app> allows you to change the
-  <link xref="sources-default">default dictionary source</link>
-  without affecting the <link xref="index#preferences">
-  <gui>Preferences</gui></link>.</p>
+  <p>You to change the <link xref="sources">dictionary source</link>
+  that you are currently using without changing your default preferences.</p>
 
   <steps>
-    <title>To temporarily change the dictionary source:</title>
+    <title>Temporarily change the dictionary source:</title>
     <item>
       <p>Select <guiseq><gui style="menu">View</gui>
       <gui style="menuitem">Dictionary Sources</gui></guiseq>.</p>
     </item>
     <item>
-      <p>Select and click on the desired dictionary source.</p>
+      <p>Double click on the dictionary source that you want to use.</p>
     </item>
   </steps>
 

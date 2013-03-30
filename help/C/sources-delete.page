@@ -3,14 +3,18 @@
       id="sources-delete">
 
   <info>
-    <revision pkgversion="3.6" version="0.1" date="2013-03-30" status="review"/>
-    <link type="guide" xref="sources-guide#guide"/>
+    <revision pkgversion="3.6" version="0.1" date="2013-03-30" status="candidate"/>
+    <link type="guide" xref="sources#guide"/>
     <link type="seealso" xref="prob-retrieving-definition"/>
-    <!--link type="guide" xref=""/-->
 
     <credit type="author copyright">
       <name>Sindhu S</name>
       <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyrighti editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3767@gmail.com</email>
       <years>2013</years>
     </credit>
 
@@ -18,32 +22,29 @@
 
   </info>
 
-  <title>Delete Dictionary Sources</title>
+  <title>Delete a dictionary source</title>
 
-  <p>When some <link xref="sources-add-remote">dictionary sources</link>
-  stop working for you or if you do not require a particular dictionary
-  source, you may choose to delete such dictionary sources.</p>
+  <p>If you no longer need a specific
+  <link xref="sources">dictionary source</link> or if one stops
+  working for you, you may want to delete it.</p>
 
   <steps>
-    <title>To delete a dictionary source:</title>
+    <title>Delete a dictionary source:</title>
     <item>
       <p>Select <guiseq><gui style="menu"><app>Dictionary</app></gui>
       <gui style="menuitem">Preferences</gui>
       <gui style="tab">Source</gui></guiseq>.</p>
     </item>
     <item>
-      <p>Select the desired dictionary source.</p>
+      <p>Select the dictionary source that you want to delete.</p>
     </item>
     <item>
-      <p>Click <gui style="button">Remove</gui>.</p>
-      <note style="warning">
-        <p>A dictionary source once deleted cannot be restored.</p>
-      </note>
+      <p>Press <gui style="button">Remove</gui>.</p>
     </item>
     <item>
-      <p>To close the <gui>Dictionary Preferences</gui> dialog and return to
-      <app>Dictionary</app>, click
-      <gui style="button">Close</gui>.</p>
+      <p>A dialog will pop up asking you to confirm that you wish to
+      permanently delete the selected source. Once you confirm, the source will
+      be deleted.</p>
     </item>
   </steps>
 

@@ -19,7 +19,7 @@ HELP_FILES = \
 	   sources-default.page \
 	   sources-delete.page \
 	   sources-edit.page \
-	   sources-guide.page \
+	   sources.page \
 	   sources-select.page \
 	   text-operations.page
 HELP_MEDIA = \

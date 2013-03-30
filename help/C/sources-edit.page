@@ -3,13 +3,17 @@
       id="sources-edit">
 
   <info>
-    <revision pkgversion="3.6" version="0.1" date="2013-03-30" status="review"/>
-    <link type="guide" xref="sources-guide#guide"/>
-    <!--link type="guide" xref=""/-->
+    <revision pkgversion="3.6" version="0.1" date="2013-03-30" status="candidate"/>
+    <link type="guide" xref="sources#guide"/>
 
     <credit type="author copyright">
       <name>Sindhu S</name>
       <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
       <years>2013</years>
     </credit>
 
@@ -19,46 +23,45 @@
 
   <title>Edit a dictionary source</title>
 
-  <p>You can customize a dictionary source to update details such as it's
-  description, remote address and so on.</p>
+  <p>You can customize a <link xref="sources">dictionary source</link> to
+  update details such as its description, remote address and so on.</p>
 
   <steps>
     <title>To edit a dictionary source:</title>
     <item>
-      <p>Select <guiseq><gui style="menu">Dictionary</gui><gui style="menuitem">Preferences</gui><gui style="tab">Source</gui></guiseq>.</p>
+      <p>Select <guiseq><gui style="menu">Dictionary</gui>
+      <gui style="menuitem">Preferences</gui>
+      <gui style="tab">Source</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Double click on the dictionary source which you want to edit.</p>
     </item>
     <item>
       <p>You can edit the following fields:</p>
       <list>
         <item>
-          <p><gui style="input">Description:</gui> adds a short note about the
-          dictionary source.</p>
+          <p><gui>Description</gui> is the name of the source as it will be
+          displayed to you.</p>
         </item>
         <item>
-          <p><gui style="menu">Transport:</gui> indicates the type of 
-          server.</p>
+          <p><gui>Transport</gui> is the type of server.</p>
         </item>
         <item>
-          <p><gui style="input">Hostname:</gui> indicates the remote address
-          where the dictionary source is located.</p>
+          <p><gui>Hostname</gui> is the location of the dictionary source.</p>
         </item>
         <item>
-          <p><gui style="input">Port:</gui> indicates the remote port for the
-          associated <gui style="input">Hostname</gui>.</p>
+          <!-- TODO: explain that the user should not need to set it, maybe
+          explain when one may want to set it. -->
+          <p><gui>Port</gui>.</p>
         </item>
       </list>
     </item>
     <item>
-      <p>To view available dictionaries under the dictionary source, select
-      <guiseq><gui style="menu"><app>Dictionary</app></gui>
-      <gui style="menuitem">Preferences</gui>
-      <gui style="tab">Dictionaries</gui></guiseq>. Optionally, you may use
-      the arrow icon to refresh the list and the brush icon to clear the
-      list.</p>
+      <p>View the dictionaries that are available in the dictionary source by
+      selecting the <gui style="tab">Dictionaries</gui> tab.</p>
     </item>
     <item>
-      <p>To close the <gui>Dictionary Source</gui> dialog and return to
-      <app>Dictionary</app>, click <gui style="button">Close</gui>.</p>
+      <p>Press <gui style="button">Close</gui> to save the settings.</p>
     </item>
   </steps>
 

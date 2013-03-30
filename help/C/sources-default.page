@@ -3,13 +3,17 @@
       id="sources-default">
 
   <info>
-    <revision pkgversion="3.6" version="0.1" date="2013-03-30" status="review"/>
-    <link type="guide" xref="sources-guide#guide"/>
-    <!--link type="guide" xref=""/-->
+    <revision pkgversion="3.6" version="0.1" date="2013-03-30" status="candidate"/>
+    <link type="guide" xref="sources#guide"/>
 
     <credit type="author copyright">
       <name>Sindhu S</name>
       <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
       <years>2013</years>
     </credit>
 
@@ -19,27 +23,23 @@
 
   <title>Set a default dictionary source</title>
 
-  <p>The default dictionary source in <app>Dictionary</app> is to set to
-  <sys href="http://dict.org">dict.org</sys>. <app>Dictionary</app> can look
-  up definitions from dictionary sources of your choice. This is useful if you
-  often look up terms in a dictionary source other than the default.</p>
+  <p>When you first use <app>Dictionary</app>, it should have some
+  pre-installed dictionaries that you can use. You can change the default
+  <link xref="sources">dictionary source</link> to one that you would
+  prefer to use instead.</p>
 
   <steps>
-    <title>To set a defualt dictionary source:</title>
+    <title>Change the default dictionary source:</title>
     <item>
       <p>Select <guiseq><gui><app>Dictionary</app></gui>
       <gui style="menu">Preferences</gui>
       <gui style="tab">Source</gui></guiseq>.</p>
     </item>
     <item>
-      <p>From the list below <gui style="radiobutton">Select a dictionary
-      source for looking up words:</gui>, select the desired dictionary source
-      to be set as the default.</p>
+      <p>Select the dictionary source that you want to set as the default.</p>
     </item>
     <item>
-      <p>Click <gui style="button">Close</gui> to close the
-      <gui><app>Dictionary</app> Preferences</gui> dialog and return to
-      <app>Dictionary</app>.</p>
+      <p>Your change will be saved automatically.</p>
     </item>
   </steps>
 
