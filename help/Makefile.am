@@ -17,6 +17,8 @@ HELP_FILES = \
 	   similar-words.page \
 	   source-add-local.page \
 	   sources-default.page \
+	   sources-delete.page \
+	   sources-edit.page \
 	   sources-guide.page \
 	   sources-select.page \
 	   text-operations.page

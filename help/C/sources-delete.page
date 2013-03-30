@@ -1,0 +1,50 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="task"
+      id="sources-delete">
+
+  <info>
+    <revision version="0.1" date="2013-03-06" status="draft"/>
+    <link type="guide" xref="sources-guide#guide"/>
+    <link type="seealso" xref="prob-error-while-retrieving-definition"/>
+    <!--link type="guide" xref=""/-->
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+
+  </info>
+
+  <title>Delete Dictionary Sources</title>
+
+  <p>When some <link xref="sources-add-remote">dictionary sources</link>
+  stop working for you or if you do not require a particular dictionary
+  source, you may choose to delete such dictionary sources.</p>
+
+  <steps>
+    <title>To delete a dictionary source:</title>
+    <item>
+      <p>Select <guiseq><gui style="menu"><app>Dictionary</app></gui>
+      <gui style="menuitem">Preferences</gui>
+      <gui style="tab">Source</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Select the desired dictionary source.</p>
+    </item>
+    <item>
+      <p>Click <gui style="button">Remove</gui>.</p>
+      <note style="warning">
+        <p>A dictionary source once deleted cannot be restored.</p>
+      </note>
+    </item>
+    <item>
+      <p>To close the <gui>Dictionary Preferences</gui> dialog and return to
+      <app>Dictionary</app>, click
+      <gui style="button">Close</gui>.</p>
+    </item>
+  </steps>
+
+</page>
