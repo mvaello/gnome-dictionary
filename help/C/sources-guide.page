@@ -3,7 +3,7 @@
       id="sources-guide">
 
   <info>
-    <revision version="0.1" date="2013-03-28" status="review"/>
+    <revision version="0.1" date="2013-03-30" status="review"/>
     <link type="guide" xref="index#preferences"/>
     <link type="seealso" xref="definition"/>
 
@@ -21,11 +21,10 @@
 
   <title><app>Dictionary</app> sources</title>
 
-  <p><gui><app>Dictionary</app> sources</gui> are collections of terms and
-  their meanings. Each dictionary source contains terms particular to a
-  language or subject. Individually, each dictionary source is called a
-  <em>Dictionary</em>. You can install various dictionaries (both online and
-  offline) related to your interest.</p>
+  <p>Dictionaries are collections of terms and their meanings. A 
+  <gui><app>Dictionary</app> source</gui> is an online or offline resource
+  containing many dictionaries. Each dictionary contains terms particular to a
+  language or subject.</p>
 
   <section id="guide" style="2column">
     <title>Manage your dictionary sources</title>

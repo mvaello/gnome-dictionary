@@ -1,0 +1,40 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="task"
+      id="sources-select">
+
+  <info>
+    <revision version="0.1" date="2013-03-30" status="review"/>
+    <link type="guide" xref="sources-guide#guide"/>
+    <link type="seealso" xref="sources-default"/>
+    <link type="seealso" xref="dictionary-select"/>
+    <!--link type="guide" xref=""/-->
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+
+  </info>
+
+  <title>Select a dictionary source</title>
+
+  <p><app>Dictionary</app> allows you to change the
+  <link xref="sources-default">default dictionary source</link>
+  without affecting the <link xref="index#preferences">
+  <gui>Preferences</gui></link>.</p>
+
+  <steps>
+    <title>To temporarily change the dictionary source:</title>
+    <item>
+      <p>Select <guiseq><gui style="menu">View</gui>
+      <gui style="menuitem">Dictionary Sources</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Select and click on the desired dictionary source.</p>
+    </item>
+  </steps>
+
+</page>

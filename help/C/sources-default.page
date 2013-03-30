@@ -1,0 +1,46 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="task"
+      id="sources-default">
+
+  <info>
+    <revision version="0.1" date="2013-03-30" status="review"/>
+    <link type="guide" xref="sources-guide#guide"/>
+    <!--link type="guide" xref=""/-->
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+
+  </info>
+
+  <title>Set a default dictionary source</title>
+
+  <p>The default dictionary source in <app>Dictionary</app> is to set to
+  <sys href="http://dict.org">dict.org</sys>. <app>Dictionary</app> can look
+  up definitions from dictionary sources of your choice. This is useful if you
+  often look up terms in a dictionary source other than the default.</p>
+
+  <steps>
+    <title>To set a defualt dictionary source:</title>
+    <item>
+      <p>Select <guiseq><gui><app>Dictionary</app></gui>
+      <gui style="menu">Preferences</gui>
+      <gui style="tab">Source</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>From the list below <gui style="radiobutton">Select a dictionary
+      source for looking up words:</gui>, select the desired dictionary source
+      to be set as the default.</p>
+    </item>
+    <item>
+      <p>Click <gui style="button">Close</gui> to close the
+      <gui><app>Dictionary</app> Preferences</gui> dialog and return to
+      <app>Dictionary</app>.</p>
+    </item>
+  </steps>
+
+</page>

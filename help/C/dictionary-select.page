@@ -1,0 +1,50 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="task"
+      id="dictionary-select">
+
+  <info>
+    <revision version="0.1" date="2013-03-30" status="review"/>
+    <link type="guide" xref="index#features"/>
+    <link type="seealso" xref="sources-default"/>
+    <!--link type="guide" xref=""/-->
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+
+  </info>
+
+  <title>Select a dictionary</title>
+
+  <p>A single dictionary source may have many dictionaries related to various
+  subjects and languages. You can search terms from any of these
+  dictionaries.</p>
+
+  <steps>
+    <title>To select a dictionary:</title>
+    <item>
+      <p>Select <guiseq><gui style="menu">View</gui><gui style="menuitem">Available Databases</gui></guiseq>. The sidebar will pop up listing the
+      available dictionaries for your default set dictionary source.</p>
+    </item>
+    <item>
+      <p>Select and click the desired dictionary.</p>
+    </item>
+    <item>
+      <p><link xref="definition">Look up</link> the definition for the desired
+      term.</p>
+    </item>
+  </steps>
+
+  <note style="important">
+    <p>Unless you select another dictionary or open a new instance of
+    <app>Dictionary</app> or restart <app>Dictionary</app>, throughout the
+    current session of <app>Dictionary</app>, terms you search
+    will be looked up from the selected dictionary. By default in a new
+    instance, a term will searched from the first dictionary from the
+    <gui>Available Dictionaries</gui> list.</p>
+  </note>
+</page>

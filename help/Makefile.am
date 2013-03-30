@@ -4,6 +4,7 @@ HELP_ID = gnome-dictionary
 
 HELP_FILES = \
 	   definition.page \
+	   dictionary-select.page \
 	   find.page \
 	   index.page \
 	   introduction.page \
@@ -15,8 +16,9 @@ HELP_FILES = \
 	   save-definition.page \
 	   similar-words.page \
 	   source-add-local.page \
+	   sources-default.page \
 	   sources-guide.page \
-	   strategies.page \
+	   sources-select.page \
 	   text-operations.page
 HELP_MEDIA = \
 	figures/gnome-dictionary-icon.png \
