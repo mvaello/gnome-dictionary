@@ -1,6 +1,6 @@
 <page xmlns="http://projectmallard.org/1.0/"
       type="task"
-      id="sources-delete">
+      id="sources-add-remote">
 
   <info>
     <revision version="0.1" date="2013-03-06" status="draft"/>
@@ -17,7 +17,13 @@
 
   </info>
 
-  <title>Remove dictionary sources</title>
+  <title>Add remote dictionary sources</title>
 
+  <p></p>
 
+  <steps>
+    <item>
+      <p></p>
+    </item>
+  </steps>
 </page>
