@@ -3,7 +3,7 @@
       id="sources-delete">
 
   <info>
-    <revision version="0.1" date="2013-03-06" status="draft"/>
+    <revision pkgversion="3.6" version="0.1" date="2013-03-30" status="review"/>
     <link type="guide" xref="sources-guide#guide"/>
     <link type="seealso" xref="prob-error-while-retrieving-definition"/>
     <!--link type="guide" xref=""/-->

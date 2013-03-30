@@ -3,7 +3,7 @@
       id="definition">
 
   <info>
-    <revision pkgversion="3.6" version="0.1" date="2013-03-28" status="review"/>
+    <revision pkgversion="3.6" version="0.1" date="2013-03-30" status="candidate"/>
     <link type="guide" xref="index#features"/>
     <link type="seealso" xref="similar-words"/>
     <link type="seealso" xref="sources-select"/>

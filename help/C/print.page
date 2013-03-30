@@ -3,7 +3,7 @@
       id="print">
 
   <info>
-    <revision version="0.1" date="2013-03-28" status="candidate"/>
+    <revision pkgversion="3.6" version="0.1" date="2013-03-30" status="candidate"/>
     <link type="guide" xref="index#features"/>
     <link type="seealso" xref="definition"/>
     <link type="seealso" xref="print-font"/>

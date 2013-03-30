@@ -3,7 +3,7 @@
       id="sources-default">
 
   <info>
-    <revision version="0.1" date="2013-03-30" status="review"/>
+    <revision pkgversion="3.6" version="0.1" date="2013-03-30" status="review"/>
     <link type="guide" xref="sources-guide#guide"/>
     <!--link type="guide" xref=""/-->
 

@@ -3,7 +3,7 @@
       id="dictionary-select">
 
   <info>
-    <revision version="0.1" date="2013-03-30" status="review"/>
+    <revision pkgversion="3.6" version="0.1" date="2013-03-30" status="review"/>
     <link type="guide" xref="index#features"/>
     <link type="seealso" xref="sources-default"/>
     <!--link type="guide" xref=""/-->

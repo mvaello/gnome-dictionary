@@ -3,7 +3,7 @@
       id="prob-error-while-retrieving-definition">
 
   <info>
-    <revision pkgversion="3.6" date="2013-03-30" status="review"/>
+    <revision pkgversion="3.6" version="0.1" date="2013-03-30" status="review"/>
     <link type="guide" xref="index#troubleshooting"/>
     <link type="seealso" xref="definitions"/>
     <!--link type="guide" xref=""/-->
