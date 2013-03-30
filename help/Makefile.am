@@ -21,7 +21,7 @@ HELP_FILES = \
 	   sources-edit.page \
 	   sources.page \
 	   sources-select.page \
-	   text-operations.page
+	   text-copy.page
 HELP_MEDIA = \
 	figures/gnome-dictionary-icon.png \
 	figures/gnome-dictionary.png
