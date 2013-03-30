@@ -12,7 +12,7 @@ HELP_FILES = \
 	   legal.xml \
 	   print-font.page \
 	   print.page \
-	   prob-error-while-retrieving-definition.page \
+	   prob-retrieving-definition.page \
 	   save-definition.page \
 	   similar-words.page \
 	   source-add-local.page \

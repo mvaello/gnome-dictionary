@@ -3,52 +3,46 @@
       id="similar-words">
 
   <info>
-    <revision pkgversion="3.6" version="0.1" date="2013-03-28" status="review"/>
+    <revision pkgversion="3.6" version="0.1" date="2013-03-28" status="candidate"/>
     <link type="guide" xref="index#features"/>
     <link type="seealso" xref="sources-guide"/>
-    <!--link type="guide" xref=""/-->
 
     <credit type="author copyright">
       <name>Sindhu S</name>
       <email>sindhus@live.in</email>
       <years>2013</years>
     </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
 
     <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
 
-    <desc>Search dictionaries for similar words.</desc>
+    <desc>View related results in other dictionaries.</desc>
 
   </info>
 
   <title>Similar words</title>
 
-  <p><app>Dictionary</app> searches for terms similar to your
-  searched term from dictionary sources other than the default. To view similar
-  words:</p>
+  <p><app>Dictionary</app> will only display the definition from one your
+  dictionaries. To check if there are search results in other dictionaries:</p>
 
   <steps>
     <item>
       <p><link xref="definition">Look up</link> the desired term.</p>
-    <note style="tip">
-     <p>If the sidebar is not already visible, select
-     <guiseq><gui style="menu">View</gui>
-     <gui style="menuitem">Similar Words</gui></guiseq>.</p>
-    </note>
     </item>
     <item>
-      <p>The <gui>Similar Words</gui> sidebar will now show expressions same as
-      the searched term from other dictionary sources. To view the similar
-      word, double click on the desired entry. The definition will be
-      displayed in <app>Dictionary</app>.</p>
+      <p>If the sidebar is not already visible, select
+      <guiseq><gui style="menu">View</gui>
+      <gui style="menuitem">Similar Words</gui></guiseq>.</p>
     </item>
     <item>
-      <p>To close the <gui>Similar Words</gui> sidebar click the <gui>x</gui>
-      button.</p>
+      <p>The <gui>Similar Words</gui> sidebar will show search results from
+      other dictionaries in your selected dictionary source. To view the
+      similar word, double click on the entry.</p>
     </item>
   </steps>
 
-  <note style="tip">
-    <p>If you are experiencing delays when searching for similar words, press
-    the brush icon below the sidebar to refresh the search.</p>
-  </note>
 </page>

@@ -5,7 +5,7 @@
   <info>
     <revision pkgversion="3.6" version="0.1" date="2013-03-30" status="review"/>
     <link type="guide" xref="sources-guide#guide"/>
-    <link type="seealso" xref="prob-error-while-retrieving-definition"/>
+    <link type="seealso" xref="prob-retrieving-definition"/>
     <!--link type="guide" xref=""/-->
 
     <credit type="author copyright">
