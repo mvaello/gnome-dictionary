@@ -117,7 +117,7 @@
           <attribute name="accel">&lt;Primary&gt;d</attribute>
         </item>
         <item>
-          <attribute name="label" translatable="yes">Available _Databases</attribute>
+          <attribute name="label" translatable="yes">Available _Dictionaries</attribute>
           <attribute name="action">win.view-db</attribute>
           <attribute name="accel">&lt;Primary&gt;b</attribute>
         </item>
