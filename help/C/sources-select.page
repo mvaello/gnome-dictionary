@@ -3,7 +3,7 @@
       id="sources-select">
 
   <info>
-    <revision pkgversion="3.6" version="0.1" date="2013-03-30" status="candidate"/>
+    <revision pkgversion="3.6" version="0.1" date="2013-03-30" status="complete"/>
     <link type="guide" xref="sources#guide"/>
     <link type="seealso" xref="sources-default"/>
     <link type="seealso" xref="dictionary-select"/>
@@ -25,7 +25,7 @@
 
   <title>Select a dictionary source</title>
 
-  <p>You to change the <link xref="sources">dictionary source</link>
+  <p>You can change the <link xref="sources">dictionary source</link>
   that you are currently using without changing your default preferences.</p>
 
   <steps>
