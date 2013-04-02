@@ -3,7 +3,7 @@
       id="sources-edit">
 
   <info>
-    <revision pkgversion="3.6" version="0.1" date="2013-03-30" status="candidate"/>
+    <revision pkgversion="3.6" version="0.1" date="2013-03-30" status="complete"/>
     <link type="guide" xref="sources#guide"/>
 
     <credit type="author copyright">
@@ -24,7 +24,7 @@
   <title>Edit a dictionary source</title>
 
   <p>You can customize a <link xref="sources">dictionary source</link> to
-  update details such as its description, remote address and so on.</p>
+  update details such as its description or remote address.</p>
 
   <steps>
     <title>To edit a dictionary source:</title>
@@ -34,7 +34,7 @@
       <gui style="tab">Source</gui></guiseq>.</p>
     </item>
     <item>
-      <p>Double click on the dictionary source which you want to edit.</p>
+      <p>Double click on the dictionary source you want to edit.</p>
     </item>
     <item>
       <p>You can edit the following fields:</p>
