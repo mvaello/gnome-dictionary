@@ -6,6 +6,7 @@
     <revision pkgversion="3.6" version="0.1" date="2013-03-30" status="complete"/>
     <link type="guide" xref="index#preferences"/>
     <link type="seealso" xref="definition"/>
+    <link type="guide" xref="pref"/>
 
     <credit type="author copyright">
       <name>Sindhu S</name>

@@ -10,6 +10,7 @@ HELP_FILES = \
 	   introduction.page \
 	   keyboard-shortcuts.page \
 	   legal.xml \
+	   pref.page \
 	   print-font.page \
 	   print.page \
 	   prob-retrieving-definition.page \
