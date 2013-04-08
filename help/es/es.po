@@ -10,16 +10,16 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: dictionary.HEAD\n"
-"POT-Creation-Date: 2013-04-03 15:16+0000\n"
-"PO-Revision-Date: 2013-04-07 19:35+0200\n"
+"POT-Creation-Date: 2013-04-07 17:36+0000\n"
+"PO-Revision-Date: 2013-04-08 13:57+0200\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
-"Language-Team: Español; Castellano <gnome-es-list@gnome.org>\n"
+"Language-Team: Español <gnome-es-list@gnome.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Gtranslator 2.91.5\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
@@ -30,7 +30,6 @@ msgstr ""
 "Francisco Javier F. Serrador <serrador@openshine.com> 2006."
 
 #: C/index.page:8(info/title)
-#| msgid "Dictionary"
 msgctxt "text"
 msgid "Dictionary"
 msgstr "Diccionario"
@@ -115,7 +114,6 @@ msgid "Find the definition of a word or term."
 msgstr "Buscar la definición de una palabra o un término"
 
 #: C/definition.page:27(page/title)
-#| msgid "Looking up a word"
 msgid "Look up a word or term"
 msgstr "Buscar una palabra o un término"
 
@@ -148,7 +146,6 @@ msgid ""
 msgstr ""
 
 #: C/dictionary-select.page:25(page/title)
-#| msgid "To Start Dictionary"
 msgid "Select a different dictionary"
 msgstr "Seleccionar otro diccionario"
 
@@ -160,7 +157,6 @@ msgid ""
 msgstr ""
 
 #: C/dictionary-select.page:32(steps/title)
-#| msgid "To Start Dictionary"
 msgid "Select a dictionary"
 msgstr "Seleccionar un diccionario"
 
@@ -233,10 +229,6 @@ msgstr ""
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/introduction.page:38(media)
-#| msgctxt "_"
-#| msgid ""
-#| "external ref='figures/gnome-dictionary-find.png' "
-#| "md5='d8bf0677084e2d9998a7942faaab5379'"
 msgctxt "_"
 msgid ""
 "external ref='figures/gnome-dictionary.png' "
@@ -274,7 +266,6 @@ msgid "Dictionary"
 msgstr "Diccionario"
 
 #: C/introduction.page:39(media/p)
-#| msgid "Shows Dictionary main window."
 msgid "Screenshot showing the <app>Dictionary</app> main window."
 msgstr "Captura de pantalla de la ventana principal de <app>Diccionario</app>."
 
@@ -296,11 +287,10 @@ msgstr ""
 
 #: C/keyboard-shortcuts.page:33(table/title)
 msgid "Navigate around <app>Dictionary</app>"
-msgstr ""
+msgstr "Navegar por <app>Diccionario</app>"
 
 #: C/keyboard-shortcuts.page:36(td/p) C/keyboard-shortcuts.page:68(td/p)
 #: C/keyboard-shortcuts.page:92(td/p) C/keyboard-shortcuts.page:120(td/p)
-#| msgid "Dictionary"
 msgid "Action"
 msgstr "Acción"
 
@@ -310,7 +300,6 @@ msgid "Shortcut"
 msgstr "Atajo de teclado"
 
 #: C/keyboard-shortcuts.page:42(td/p) C/print.page:36(section/title)
-#| msgid "Print Options"
 msgid "Print preview"
 msgstr "Vista previa de impresión"
 
@@ -335,9 +324,6 @@ msgid "<key>F9</key>"
 msgstr "<key>F9</key>"
 
 #: C/keyboard-shortcuts.page:54(td/p)
-#| msgid ""
-#| "Once started, the <application>Dictionary</application> window is "
-#| "displayed:"
 msgid "Open a new <app>Dictionary</app> window"
 msgstr "Abrir una ventana nueva de <application>Diccionario</application>"
 
@@ -362,7 +348,6 @@ msgid "<key>/</key> or <keyseq><key>Ctrl</key><key>F</key></keyseq>"
 msgstr "<key>/</key> o <keyseq><key>Ctrl</key><key>F</key></keyseq>"
 
 #: C/keyboard-shortcuts.page:78(td/p)
-#| msgid "Find Text"
 msgid "Find next"
 msgstr "Buscar siguiente"
 
@@ -380,7 +365,7 @@ msgstr "<keyseq><key>Mayús</key><key>Ctrl</key><key>G</key></keyseq>"
 
 #: C/keyboard-shortcuts.page:89(table/title)
 msgid "Navigate within a definition"
-msgstr ""
+msgstr "Navegar por una definición"
 
 #: C/keyboard-shortcuts.page:98(td/p)
 msgid "Previous definition"
@@ -427,7 +412,6 @@ msgid "<keyseq><key>Ctrl</key><key>T</key></keyseq>"
 msgstr "<keyseq><key>Ctrl</key><key>T</key></keyseq>"
 
 #: C/keyboard-shortcuts.page:130(td/p) C/sources.page:28(page/title)
-#| msgid "Dictionary Sources"
 msgid "Dictionary sources"
 msgstr "Fuentes de diccionario"
 
@@ -477,10 +461,9 @@ msgstr "Preferencias de <app>Diccionario</app>"
 
 #: C/print-font.page:23(info/desc)
 msgid "Select the font for printing definitions."
-msgstr ""
+msgstr "Seleccione la tipografía para imprimir las definiciones."
 
 #: C/print-font.page:27(page/title)
-#| msgid "Print Options"
 msgid "Print font"
 msgstr "Tipografía de impresión"
 
@@ -498,7 +481,7 @@ msgstr ""
 
 #: C/print-font.page:33(steps/title)
 msgid "Change the font"
-msgstr ""
+msgstr "Cambiar la tipografía"
 
 #: C/print-font.page:35(item/p)
 msgid ""
@@ -510,10 +493,9 @@ msgstr ""
 
 #: C/print-font.page:40(item/p)
 msgid "Click font selector button."
-msgstr ""
+msgstr "Pulse el botón de selección de tipografías."
 
 #: C/print-font.page:43(item/p)
-#| msgid "Select the font and size you wish to use"
 msgid "Select the font that you wish to use."
 msgstr "Seleccione la tipografía que quiere usar"
 
@@ -527,6 +509,8 @@ msgstr ""
 #: C/print-font.page:52(item/p)
 msgid "Click <gui style=\"button\">Select</gui> to save your font settings."
 msgstr ""
+"Pulse <gui style=\"button\">Seleccionar</gui> para guardar su configuración "
+"de la tipografía."
 
 #: C/print-font.page:56(page/p)
 msgid ""
@@ -536,10 +520,9 @@ msgstr ""
 
 #: C/print.page:24(info/desc)
 msgid "Print preview and print definitions."
-msgstr ""
+msgstr "Vista previa de impresión e imprimir definiciones."
 
 #: C/print.page:28(page/title)
-#| msgid "Print Options"
 msgid "Print a definition"
 msgstr "Imprimir una definición"
 
@@ -572,6 +555,8 @@ msgid ""
 "Click the <gui style=\"button\">Print this document</gui> to print the "
 "definition or close the window to end the preview."
 msgstr ""
+"Pulse <gui style=\"button\">Imprimir este documento</gui> para imprimir la "
+"definición o cierre la ventana para terminar la vista previa."
 
 #: C/print.page:58(note/p)
 msgid ""
@@ -610,11 +595,11 @@ msgstr ""
 
 #: C/prob-retrieving-definition.page:23(info/desc)
 msgid "<sys>Error while retrieving definitions</sys>."
-msgstr ""
+msgstr "<sys>Error al obtener definiciones</sys>."
 
 #: C/prob-retrieving-definition.page:27(page/title)
 msgid "Cannot find definitions"
-msgstr ""
+msgstr "No se pudieron encontrar definiciones"
 
 #: C/prob-retrieving-definition.page:29(page/p)
 msgid ""
@@ -640,7 +625,7 @@ msgstr ""
 
 #: C/save-definition.page:22(info/desc)
 msgid "Save a copy of a definition to a text file."
-msgstr ""
+msgstr "Guardar una copia de una definición en un archivo de texto."
 
 #: C/save-definition.page:26(page/title)
 msgid "Save a definition"
@@ -661,6 +646,8 @@ msgid ""
 "Select <guiseq><gui style=\"menu\">File</gui> <gui style=\"menuitem\">Save a "
 "Copy…</gui></guiseq>."
 msgstr ""
+"Seleccione <guiseq><gui style=\"menu\">Archivo</gui> <gui style=\"menuitem"
+"\">Guardar una copia…</gui></guiseq>."
 
 #: C/save-definition.page:38(item/p)
 msgid ""
@@ -671,11 +658,11 @@ msgstr ""
 
 #: C/save-definition.page:43(item/p)
 msgid "Press <gui style=\"button\">Save</gui> to save the definition."
-msgstr ""
+msgstr "Pulse <gui style=\"button\">guardar</gui> para guardar la definición."
 
 #: C/similar-words.page:23(info/desc)
 msgid "View related results in other dictionaries."
-msgstr ""
+msgstr "Ver resultados relacionados en otros diccionarios."
 
 #: C/similar-words.page:29(page/p)
 msgid ""
@@ -707,10 +694,9 @@ msgid "Add local dictionary sources"
 msgstr "Fuentes de diccionario"
 
 #: C/sources-default.page:24(page/title)
-#, fuzzy
 #| msgid "Dictionary Sources"
 msgid "Set a default dictionary source"
-msgstr "Fuentes de diccionario"
+msgstr "Establecer una fuente de diccionarios predeterminada"
 
 #: C/sources-default.page:26(page/p)
 msgid ""
@@ -739,10 +725,9 @@ msgid "Your change will be saved automatically."
 msgstr ""
 
 #: C/sources-delete.page:25(page/title)
-#, fuzzy
 #| msgid "Dictionary Sources"
 msgid "Delete a dictionary source"
-msgstr "Fuentes de diccionario"
+msgstr "Eliminar una fuente de diccionario"
 
 #: C/sources-delete.page:27(page/p)
 msgid ""
@@ -751,10 +736,9 @@ msgid ""
 msgstr ""
 
 #: C/sources-delete.page:32(steps/title)
-#, fuzzy
 #| msgid "Dictionary Sources"
 msgid "Delete a dictionary source:"
-msgstr "Fuentes de diccionario"
+msgstr "Eliminar una fuente de diccionario:"
 
 #: C/sources-delete.page:34(item/p)
 msgid ""
@@ -766,14 +750,13 @@ msgstr ""
 "guiseq>."
 
 #: C/sources-delete.page:39(item/p)
-#, fuzzy
 #| msgid "Select the source you wish to remove"
 msgid "Select the dictionary source that you want to delete."
-msgstr "Seleccione la fuente que quiere quitar"
+msgstr "Seleccione la fuente de diccionarios que quiere eliminar."
 
 #: C/sources-delete.page:42(item/p)
 msgid "Press <gui style=\"button\">Remove</gui>."
-msgstr ""
+msgstr "Pulse <gui style=\"button\">Quitar</gui>."
 
 #: C/sources-delete.page:45(item/p)
 msgid ""
@@ -782,10 +765,9 @@ msgid ""
 msgstr ""
 
 #: C/sources-edit.page:24(page/title)
-#, fuzzy
 #| msgid "Dictionary Sources"
 msgid "Edit a dictionary source"
-msgstr "Fuentes de diccionario"
+msgstr "Editar una fuente de diccionario"
 
 #: C/sources-edit.page:26(page/p)
 msgid ""
@@ -794,16 +776,17 @@ msgid ""
 msgstr ""
 
 #: C/sources-edit.page:30(steps/title)
-#, fuzzy
 #| msgid "Dictionary Sources"
 msgid "To edit a dictionary source:"
-msgstr "Fuentes de diccionario"
+msgstr "Para editar una fuente de diccionario:"
 
 #: C/sources-edit.page:32(item/p)
 msgid ""
 "Select <guiseq><gui style=\"menu\">Dictionary</gui> <gui style=\"menuitem"
 "\">Preferences</gui> <gui style=\"tab\">Source</gui></guiseq>."
 msgstr ""
+"Seleccione <guiseq><gui style=\"menu\">Diccionario</gui> <gui style="
+"\"menuitem\">Preferencias</gui> <gui style=\"tab\">Fuente</gui></guiseq>."
 
 #: C/sources-edit.page:37(item/p)
 msgid "Double click on the dictionary source you want to edit."
@@ -811,23 +794,24 @@ msgstr ""
 
 #: C/sources-edit.page:40(item/p)
 msgid "You can edit the following fields:"
-msgstr ""
+msgstr "Puede editar los siguientes campos:"
 
 #: C/sources-edit.page:43(item/p)
 msgid ""
 "<gui>Description</gui> is the name of the source as it will be displayed to "
 "you."
-msgstr ""
+msgstr "<gui>Descripción</gui> es el nombre de la fuente que se mostrará."
 
 #: C/sources-edit.page:47(item/p)
 msgid "<gui>Transport</gui> is the type of server."
-msgstr ""
+msgstr "<gui>Transporte</gui> es el tipo de servidor."
 
 #: C/sources-edit.page:50(item/p)
-#, fuzzy
 #| msgid "Hostname: the hostname of the dictionary server"
 msgid "<gui>Hostname</gui> is the location of the dictionary source."
-msgstr "Nombre del host: El nombre del host del servidor de diccionarios"
+msgstr ""
+"<gui>Nombre del servidor</gui>: el nombre del equipo del servidor de "
+"diccionarios."
 
 #: C/sources-edit.page:55(item/p)
 msgid "<gui>Port</gui>."
@@ -842,12 +826,12 @@ msgstr ""
 #: C/sources-edit.page:64(item/p)
 msgid "Press <gui style=\"button\">Close</gui> to save the settings."
 msgstr ""
+"Pulse <gui style=\"button\">Cerrar</gui> para guardar la configuración."
 
 #: C/sources.page:24(info/desc)
-#, fuzzy
 #| msgid "Dictionary Sources"
 msgid "Manage various dictionary sources."
-msgstr "Fuentes de diccionario"
+msgstr "Gestionar varias fuentes de diccionarios."
 
 #: C/sources.page:30(page/p)
 msgid ""
@@ -858,16 +842,14 @@ msgid ""
 msgstr ""
 
 #: C/sources.page:36(section/title)
-#, fuzzy
 #| msgid "Dictionary Sources"
 msgid "Manage your dictionary sources"
-msgstr "Fuentes de diccionario"
+msgstr "Gestionar sus fuentes de diccionarios."
 
 #: C/sources-select.page:26(page/title)
-#, fuzzy
 #| msgid "Dictionary Sources"
 msgid "Select a dictionary source"
-msgstr "Fuentes de diccionario"
+msgstr "Seleccionar una fuente de diccionario"
 
 #: C/sources-select.page:28(page/p)
 msgid ""
@@ -886,6 +868,8 @@ msgid ""
 "Select <guiseq><gui style=\"menu\">View</gui> <gui style=\"menuitem"
 "\">Dictionary Sources</gui></guiseq>."
 msgstr ""
+"Seleccione <guiseq><gui style=\"menu\">Ver</gui> <gui style=\"menuitem"
+"\">Fuentes de diccionario</gui></guiseq>."
 
 #: C/sources-select.page:38(item/p)
 msgid "Double click on the dictionary source that you want to use."
