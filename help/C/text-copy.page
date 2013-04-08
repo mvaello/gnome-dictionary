@@ -20,7 +20,7 @@
 
     <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
 
-    <desc>Select and copy a defintion to another application.</desc>
+    <desc>Select and copy a definition to another application.</desc>
 
   </info>
 
