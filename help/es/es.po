@@ -10,8 +10,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: dictionary.HEAD\n"
-"POT-Creation-Date: 2013-04-07 17:36+0000\n"
-"PO-Revision-Date: 2013-04-08 13:57+0200\n"
+"POT-Creation-Date: 2013-04-08 12:02+0000\n"
+"PO-Revision-Date: 2013-04-08 18:30+0200\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
 "Language-Team: Español <gnome-es-list@gnome.org>\n"
 "Language: \n"
@@ -124,16 +124,22 @@ msgid ""
 "such as <input>chopping board</input>. The search result may also show you "
 "the origin, importance and usage of a word. To look up a term:"
 msgstr ""
+"Puede usar <app>Diccionario</app> para buscar el significado de un "
+"<em>término</em>. Un término puede ser una única palabra, por ejemplo "
+"<input>manzana</input> o una palabra compuesta como <input>tabla de cortar</"
+"input>. El resultado de la búsqueda también puede mostrar el origen, la "
+"importancia y el uso de una palabra. Para buscar un término:"
 
 #: C/definition.page:37(item/p)
 msgid ""
 "Type in the term that you want to search for next to <gui>Look up</gui>."
-msgstr ""
+msgstr "Escriba el término que quiere buscar en <gui>Buscar</gui>."
 
 #: C/definition.page:41(item/p)
 msgid ""
 "Press <key>Return</key> or <gui style=\"button\">Look up:</gui> to search."
 msgstr ""
+"Pulse <key>Intro</key> o <gui style=\"button\">Buscar:</gui> para buscar."
 
 #: C/definition.page:46(page/p)
 msgid ""
@@ -144,6 +150,12 @@ msgid ""
 "\"menuitem\">Similar Words</gui></guiseq></link> to pop up a sidebar that "
 "shows all the results."
 msgstr ""
+"<app>Diccionario</app> buscará la fuente de diccionarios que seleccione y le "
+"mostrará el resultado del primer diccionario en la fuente. Para ver los "
+"resultados de otros diccionarios que estén en la misma fuente, seleccione "
+"<link xref=\"similar-words\"><guiseq><gui style=\"menu\">Ver</gui> <gui "
+"style=\"menuitem\">Palabras similares</gui></guiseq></link> para mostrar una "
+"barra lateral que muestre los resultados."
 
 #: C/dictionary-select.page:25(page/title)
 msgid "Select a different dictionary"
@@ -152,9 +164,10 @@ msgstr "Seleccionar otro diccionario"
 #: C/dictionary-select.page:27(page/p)
 msgid ""
 "A single <link xref=\"sources\">dictionary source</link> may have many "
-"dictionaries different dictionaries. You can search any of these "
-"dictionaries."
+"different dictionaries. You can search any of these dictionaries."
 msgstr ""
+"Una única <link xref=\"sources\">fuente de diccionarios</link> puede tener "
+"varios diccionarios diferentes. Puede buscar cualquiera de ellos."
 
 #: C/dictionary-select.page:32(steps/title)
 msgid "Select a dictionary"
@@ -166,6 +179,10 @@ msgid ""
 "\">Available Databases</gui></guiseq>. A sidebar listing the available "
 "dictionaries for your currently selected dictionary source will open."
 msgstr ""
+"Seleccione <guiseq><gui style=\"menu\">Ver</gui> <gui style=\"menuitem"
+"\">Bases de datos disponibles</gui></guiseq>. Se abrirá una barra lateral "
+"mostrando los diccionarios disponibles para la fuente de diccionarios "
+"seleccionada actualmente."
 
 #: C/dictionary-select.page:40(item/p)
 msgid "Click twice on the dictionary that you want to use."
@@ -176,12 +193,16 @@ msgid ""
 "The next term that you <link xref=\"definition\">look up</link> will show "
 "the result only from the selected dictionary."
 msgstr ""
+"El siguiente término que <link xref=\"definition\">busque</link> mostrará el "
+"resultado sólo para el diccionario seleccionado."
 
 #: C/dictionary-select.page:48(note/p)
 msgid ""
 "Your dictionary selection will not be remembered next time you use "
 "<app>Dictionary</app>."
 msgstr ""
+"El diccionario que elija no se recordará la próxima vez que use "
+"<app>Diccionario</app>."
 
 #: C/find.page:22(info/desc)
 msgid "Find text in a definition."
@@ -196,6 +217,9 @@ msgid ""
 "Some dictionary entires can be very long and can contain many results, so "
 "you may wish to search them to find the section that is relevant to you."
 msgstr ""
+"Algunas entradas de diccionarios puede ser muy largas y pueden contener "
+"muchos resultados, por lo que es posible que quiera buscarlos para encontrar "
+"la sección que le interesa."
 
 #: C/find.page:32(steps/title)
 msgid "To find definitions:"
@@ -215,6 +239,9 @@ msgid ""
 "app> window. Type in your search term to search within the definition that "
 "is currently displayed."
 msgstr ""
+"La barra de <gui>Búsqueda</gui> aparecerá en la parte inferior de la ventana "
+"de <app>Diccionario</app>. Escriba el término que buscar con la definición "
+"mostrada actualmente."
 
 #: C/find.page:43(item/p)
 msgid ""
@@ -223,6 +250,11 @@ msgid ""
 "other words, it will not go to the top of the page when you are on the last "
 "result and click <gui style=\"button\">Next</gui>."
 msgstr ""
+"Pulse <gui style=\"button\">Anterior</gui> o <gui style=\"button"
+"\">Siguiente</gui> para desplazarse por los resultados. La búsqueda no "
+"volverá al principio, es decir, no volverá a la parte superior de la página "
+"cuando llegue al último resultado y pulse <gui style=\"button\">Siguiente</"
+"gui>."
 
 #. This is a reference to an external file such as an image or video. When
 #. the file changes, the md5 hash will change to let you know you need to
@@ -252,6 +284,10 @@ msgid ""
 "<app>DICT</app> server is at <sys href=\"http://dict.org\">http://dict.org</"
 "sys>."
 msgstr ""
+"<app>Diccionario</app> es una aplicación para buscar definiciones de "
+"términos. Busca definiciones usando un servidor <app>DICT</app> en línea. El "
+"servidor <app>DICT</app> predeterminado es <sys href=\"http://dict.org"
+"\">http://dict.org</sys>."
 
 #: C/introduction.page:33(page/p)
 msgid ""
@@ -274,6 +310,8 @@ msgid ""
 "You can use keyboard shortcuts to navigate around <app>Dictionary</app> more "
 "efficiently."
 msgstr ""
+"Puede usar los atajos del teclado para moverse por <app>Diccionario</app> "
+"más eficientemente."
 
 #: C/keyboard-shortcuts.page:27(page/title)
 msgid "Keyboard shortcuts"
@@ -284,6 +322,8 @@ msgid ""
 "Keyboard shortcuts are combinations of keys that you can use instead of "
 "navigating through the menu. The following shortcuts are available:"
 msgstr ""
+"Los atajos del teclado son combinaciones de teclas que puede usar en lugar "
+"navegar por los menús. Están disponibles los siguientes atajos:"
 
 #: C/keyboard-shortcuts.page:33(table/title)
 msgid "Navigate around <app>Dictionary</app>"
@@ -401,7 +441,7 @@ msgstr "<keyseq><key>Ctrl</key><key>Fin</key></keyseq>"
 
 #: C/keyboard-shortcuts.page:117(table/title)
 msgid "<app>Dictionary</app> definitions shortcuts:"
-msgstr ""
+msgstr "Atajos de definiciones de <app>Diccionario</app>:"
 
 #: C/keyboard-shortcuts.page:126(td/p) C/similar-words.page:27(page/title)
 msgid "Similar words"
@@ -468,7 +508,6 @@ msgid "Print font"
 msgstr "Tipografía de impresión"
 
 #: C/print-font.page:29(page/p)
-#, fuzzy
 #| msgid ""
 #| "If you want to change the font name and size used when printing, perform "
 #| "the following steps:"
@@ -476,8 +515,8 @@ msgid ""
 "You can change the default font face and size that are used for printing the "
 "definitions."
 msgstr ""
-"Si quiere cambiar el nombre de la tipografía y el tamaño usado al imprimir, "
-"realice los siguientes pasos:"
+"Puede cambiar el nombre de la tipografía y el tamaño usado para imprimir las "
+"definiciones."
 
 #: C/print-font.page:33(steps/title)
 msgid "Change the font"
@@ -505,6 +544,10 @@ msgid ""
 "it. Alternatively, you can type in the font size in the text box, or use the "
 "<gui>-</gui> and <gui>+</gui> buttons to decrease and increase the font size."
 msgstr ""
+"Arrastre el deslizador a la derecha para aumentar el tamaño de la tipografía "
+"o a la izquierda para reducirlo. Alternativamente, puede escribir el tamaño "
+"en la caja de texto o usar los botones <gui>-</gui> and <gui>+</gui> para "
+"aumentar o disminuir el tamaño de la tipografía."
 
 #: C/print-font.page:52(item/p)
 msgid "Click <gui style=\"button\">Select</gui> to save your font settings."
@@ -517,6 +560,8 @@ msgid ""
 "The definition is not reflowed for printing, so if you choose a large font "
 "size, some of the text may be cut off."
 msgstr ""
+"La definición no se redimensiona para imprimirla, por lo que si elige una "
+"tipografía muy grande, es posible que se pierda algo de texto."
 
 #: C/print.page:24(info/desc)
 msgid "Print preview and print definitions."
@@ -533,22 +578,32 @@ msgid ""
 "onto the page, especially if you have changed the <link xref=\"print-font"
 "\">print font</link> size."
 msgstr ""
+"Puede imprimir una definición en papel o a un archivo. Antes de imprimir, "
+"debe previsualizar la definición para comprobar que al imprimirla el texto "
+"cabe en la página, especialmente si ha cambiado el tamaño de la <link xref="
+"\"print-font\">tipografía de impresión</link>"
 
 #: C/print.page:40(item/p)
 msgid ""
 "Select <guiseq><gui style=\"menu\">File</gui> <gui style=\"menuitem"
 "\">Preview</gui></guiseq>."
 msgstr ""
+"Seleccione <guiseq><gui style=\"menu\">Archivo</gui> <gui style=\"menuitem"
+"\">Vista previa</gui></guiseq>."
 
 #: C/print.page:44(item/p)
 msgid ""
 "A print preview window will open which will show you the definition exactly "
 "as it will be printed."
 msgstr ""
+"Se abrirá una ventana de vista previa que mostrará la definición tal como se "
+"imprimirá."
 
 #: C/print.page:48(item/p)
 msgid "Use the toolbar to browse pages, adjust zoom level and page width."
 msgstr ""
+"Use la barra de herramientas para examinar páginas, ajustar el nivel de "
+"ampliación y la anchura de la página."
 
 #: C/print.page:52(item/p)
 msgid ""
@@ -564,34 +619,47 @@ msgid ""
 "you, close the window and select <guiseq><gui style=\"menu\">File</gui> <gui "
 "style=\"menuitem\">Print</gui></guiseq>."
 msgstr ""
+"El botón de imprimir de la barra de herramientas no siempre funciona. Si no "
+"le funciona, cierre la ventana y seleccione <guiseq><gui style=\"menu"
+"\">Archivo</gui> <gui style=\"menuitem\">Imprimir</gui></guiseq>."
 
 #: C/print.page:69(section/p)
 msgid ""
 "You need to <link href=\"help:gnome-help/printing\">have a printer set up</"
 "link> to be able to print to paper."
 msgstr ""
+"Necesita <link href=\"help:gnome-help/printing\">tener una impresora "
+"configurada</link> para poder imprimir en papel."
 
 #: C/print.page:74(item/p)
 msgid ""
 "Select <guiseq><gui style=\"menu\">File</gui> <gui style=\"menuitem\">Print</"
 "gui> <gui style=\"tab\">General</gui></guiseq>."
 msgstr ""
+"Seleccione <guiseq><gui style=\"menu\">Archivo</gui> <gui style=\"menuitem"
+"\">Imprimir</gui> <gui style=\"tab\">General</gui></guiseq>."
 
 #: C/print.page:79(item/p)
 msgid ""
 "Select the printer that you want to use from the list of printers or select "
 "<gui href=\"help:gnome-help/print-to-file\">Print to File</gui>."
 msgstr ""
+"Seleccione la impresora que quiere usar de la lista de impresoras o "
+"seleccione <gui href=\"help:gnome-help/print-to-file\">Imprimir a un "
+"archivo</gui>."
 
 #: C/print.page:84(item/p)
 msgid ""
 "Chose your <link href=\"help:gnome-help/printing#paper\">printing settings</"
 "link>."
 msgstr ""
+"Elija la <link href=\"help:gnome-help/printing#paper\">configuración de "
+"impresión</link>."
 
 #: C/print.page:88(item/p)
 msgid "Press <gui style=\"button\">Print</gui> to print the definition."
 msgstr ""
+"Pulse <gui style=\"button\">Imprimir</gui> para imprimir la definición."
 
 #: C/prob-retrieving-definition.page:23(info/desc)
 msgid "<sys>Error while retrieving definitions</sys>."
@@ -608,6 +676,10 @@ msgid ""
 "\">selected dictionaries</link>, the problem is more likely one of the "
 "following:"
 msgstr ""
+"Si ve el mensaje de error <sys>Error al obtener definiciones</sys> al buscar "
+"una definición de cualquiera de los <link xref=\"sources-select"
+"\">diccionarios seleccionados</link>, el problema es seguramente uno lo de "
+"los siguientes:"
 
 #: C/prob-retrieving-definition.page:36(item/p)
 msgid ""
@@ -615,6 +687,9 @@ msgid ""
 "definitions may not be working. You can try waiting a while before <link "
 "xref=\"definition\">looking up</link> the definition again."
 msgstr ""
+"Uono o más servidores <app>DICT</app> seleccionados usados para buscar "
+"definiciones pueden no estar funcionando correctamente. Puede esperar un "
+"poco antes de <link xref=\"definition\">buscar</link> la definición otra vez."
 
 #: C/prob-retrieving-definition.page:42(item/p)
 msgid ""
@@ -622,6 +697,10 @@ msgid ""
 "look up terms, your computer <link href=\"help:gnome-help/net\">must be able "
 "to connect</link> to <sys href=\"http://dict.org\">dict.org</sys>."
 msgstr ""
+"Es posible que su conexión a Internet no funcione. Para que "
+"<app>Diccionario</app>pueda buscar términos, su equipo <link href=\"help:"
+"gnome-help/net\">debe poder conectarse</link> a <sys href=\"http://dict.org"
+"\">dict.org</sys>."
 
 #: C/save-definition.page:22(info/desc)
 msgid "Save a copy of a definition to a text file."
@@ -636,6 +715,8 @@ msgid ""
 "You can save a definition to a text file. This may be useful if you want to "
 "use it outside of <app>Dictionary</app>."
 msgstr ""
+"Puede guardar una definición en un archivo de texto. Esto es útil si quiere "
+"usarla fuera de <app>Diccionario</app>."
 
 #: C/save-definition.page:32(steps/title)
 msgid "To save a definition:"
@@ -652,9 +733,11 @@ msgstr ""
 #: C/save-definition.page:38(item/p)
 msgid ""
 "Chose where you want to save the definition to and a name for the file. You "
-"may want to add a <file>.txt</file> file extention to the end of the file "
+"may want to add a <file>.txt</file> file extension to the end of the file "
 "name."
 msgstr ""
+"Elija dónde quiere guardar la definición y el nombre del archivo. Puede "
+"querer añadir la extensión <file>.txt</file>al archivo al final del nombre."
 
 #: C/save-definition.page:43(item/p)
 msgid "Press <gui style=\"button\">Save</gui> to save the definition."
@@ -669,16 +752,20 @@ msgid ""
 "<app>Dictionary</app> will only display the definition from one your "
 "dictionaries. To check if there are search results in other dictionaries:"
 msgstr ""
+"<app>Diccionario</app> sólo mostrará la definición de uno de sus "
+"diccionarios. Para comprobar si hay resultados en otros diccionarios:"
 
 #: C/similar-words.page:34(item/p)
 msgid "<link xref=\"definition\">Look up</link> the desired term."
-msgstr ""
+msgstr "<link xref=\"definition\">Busque</link> el término que quiere."
 
 #: C/similar-words.page:37(item/p)
 msgid ""
 "If the sidebar is not already visible, select <guiseq><gui style=\"menu"
 "\">View</gui> <gui style=\"menuitem\">Similar Words</gui></guiseq>."
 msgstr ""
+"Si la barra latera no está visible todavía, seleccione <guiseq><gui style="
+"\"menu\">Ver</gui> <gui style=\"menuitem\">Palabras similares</gui></guiseq>."
 
 #: C/similar-words.page:42(item/p)
 msgid ""
@@ -686,15 +773,16 @@ msgid ""
 "dictionaries in your selected dictionary source. To view the similar word, "
 "double click on the entry."
 msgstr ""
+"La barra lateral de <gui>Palabras similares</gui> mostrará resultados de "
+"búsqueda para otros diccionarios en la fuente de diccionarios seleccionada. "
+"Para ver la palabra similar, pulse dos veces en la entrada."
 
 #: C/source-add-local.page:20(page/title)
-#, fuzzy
 #| msgid "Dictionary Sources"
 msgid "Add local dictionary sources"
-msgstr "Fuentes de diccionario"
+msgstr "Añadir una fuente de diccionarios local"
 
 #: C/sources-default.page:24(page/title)
-#| msgid "Dictionary Sources"
 msgid "Set a default dictionary source"
 msgstr "Establecer una fuente de diccionarios predeterminada"
 
@@ -705,27 +793,33 @@ msgid ""
 "\"sources\">dictionary source</link> to one that you would prefer to use "
 "instead."
 msgstr ""
+"Cuando use <app>Diccionario</app> por primera vez, debería tener algunos "
+"diccionarios preinstalados que puede usar. Puede cambiar la <link xref="
+"\"sources\">fuente de diccionarios</link> a otra que prefiera usar en su "
+"lugar."
 
 #: C/sources-default.page:32(steps/title)
 msgid "Change the default dictionary source:"
-msgstr ""
+msgstr "Cambiar la fuente de diccionarios predeterminada:"
 
 #: C/sources-default.page:34(item/p)
 msgid ""
 "Select <guiseq><gui><app>Dictionary</app></gui> <gui style=\"menu"
 "\">Preferences</gui> <gui style=\"tab\">Source</gui></guiseq>."
 msgstr ""
+"Seleccione <guiseq><gui><app>Diccionario</app></gui> <gui style=\"menu"
+"\">Preferencias</gui> <gui style=\"tab\">Fuente</gui></guiseq>."
 
 #: C/sources-default.page:39(item/p)
 msgid "Select the dictionary source that you want to set as the default."
 msgstr ""
+"Seleccione la fuente de diccionarios que quiere usar como predeterminada."
 
 #: C/sources-default.page:42(item/p)
 msgid "Your change will be saved automatically."
-msgstr ""
+msgstr "Sus cambios se guardarán automáticamente."
 
 #: C/sources-delete.page:25(page/title)
-#| msgid "Dictionary Sources"
 msgid "Delete a dictionary source"
 msgstr "Eliminar una fuente de diccionario"
 
@@ -734,9 +828,10 @@ msgid ""
 "If you no longer need a specific <link xref=\"sources\">dictionary source</"
 "link> or if one stops working for you, you may want to delete it."
 msgstr ""
+"Si ya no necesita una <link xref=\"sources\">fuente de diccionarios</link> "
+"específica, o si deja de funcionarle, puede querer eliminarla."
 
 #: C/sources-delete.page:32(steps/title)
-#| msgid "Dictionary Sources"
 msgid "Delete a dictionary source:"
 msgstr "Eliminar una fuente de diccionario:"
 
@@ -750,7 +845,6 @@ msgstr ""
 "guiseq>."
 
 #: C/sources-delete.page:39(item/p)
-#| msgid "Select the source you wish to remove"
 msgid "Select the dictionary source that you want to delete."
 msgstr "Seleccione la fuente de diccionarios que quiere eliminar."
 
@@ -763,9 +857,11 @@ msgid ""
 "A dialog will pop up asking you to confirm that you wish to permanently "
 "delete the selected source. Once you confirm, the source will be deleted."
 msgstr ""
+"Aparecerá un diálogo pidiéndole que confirme si quiere eliminar "
+"permanentemente la fuente seleccionada. Una vez que lo confirme, la fuente "
+"se eliminará."
 
 #: C/sources-edit.page:24(page/title)
-#| msgid "Dictionary Sources"
 msgid "Edit a dictionary source"
 msgstr "Editar una fuente de diccionario"
 
@@ -774,9 +870,10 @@ msgid ""
 "You can customize a <link xref=\"sources\">dictionary source</link> to "
 "update details such as its description or remote address."
 msgstr ""
+"Puede personalizar una <link xref=\"sources\">fuente de diccionarios</link> "
+"para actualizar detalles como su descripción o su dirección remota."
 
 #: C/sources-edit.page:30(steps/title)
-#| msgid "Dictionary Sources"
 msgid "To edit a dictionary source:"
 msgstr "Para editar una fuente de diccionario:"
 
@@ -790,7 +887,7 @@ msgstr ""
 
 #: C/sources-edit.page:37(item/p)
 msgid "Double click on the dictionary source you want to edit."
-msgstr ""
+msgstr "Pulse dos veces en la fuente de diccionarios que quiere editar."
 
 #: C/sources-edit.page:40(item/p)
 msgid "You can edit the following fields:"
@@ -807,7 +904,6 @@ msgid "<gui>Transport</gui> is the type of server."
 msgstr "<gui>Transporte</gui> es el tipo de servidor."
 
 #: C/sources-edit.page:50(item/p)
-#| msgid "Hostname: the hostname of the dictionary server"
 msgid "<gui>Hostname</gui> is the location of the dictionary source."
 msgstr ""
 "<gui>Nombre del servidor</gui>: el nombre del equipo del servidor de "
@@ -822,6 +918,8 @@ msgid ""
 "View the dictionaries that are available in the dictionary source by "
 "selecting the <gui style=\"tab\">Dictionaries</gui> tab."
 msgstr ""
+"Vea los diccionarios que hay disponibles en la fuente de diccionarios "
+"seleccionando la pestaña <gui style=\"tab\">Diccionarios</gui>."
 
 #: C/sources-edit.page:64(item/p)
 msgid "Press <gui style=\"button\">Close</gui> to save the settings."
@@ -829,7 +927,6 @@ msgstr ""
 "Pulse <gui style=\"button\">Cerrar</gui> para guardar la configuración."
 
 #: C/sources.page:24(info/desc)
-#| msgid "Dictionary Sources"
 msgid "Manage various dictionary sources."
 msgstr "Gestionar varias fuentes de diccionarios."
 
@@ -840,14 +937,16 @@ msgid ""
 "databases which are usually online, but can be installed on your machine as "
 "well."
 msgstr ""
+"<app>Diccionario</app> usa <em>fuentes de diccionarios</em> para buscar las "
+"palabras que el usuario busca. Las fuentes de Diccionario son colecciones de "
+"una o más bases de datos de diccionarios generalmente en línea, pero que "
+"también se pueden instalar en su equipo local."
 
 #: C/sources.page:36(section/title)
-#| msgid "Dictionary Sources"
 msgid "Manage your dictionary sources"
 msgstr "Gestionar sus fuentes de diccionarios."
 
 #: C/sources-select.page:26(page/title)
-#| msgid "Dictionary Sources"
 msgid "Select a dictionary source"
 msgstr "Seleccionar una fuente de diccionario"
 
@@ -856,12 +955,13 @@ msgid ""
 "You can change the <link xref=\"sources\">dictionary source</link> that you "
 "are currently using without changing your default preferences."
 msgstr ""
+"Puede cambiar la <link xref=\"sources\">fuente de diccionarios</link> que "
+"está usando actualmente sin cambiar sus preferencias predeterminadas."
 
 #: C/sources-select.page:32(steps/title)
-#, fuzzy
 #| msgid "Port: the port of the dictionary server"
 msgid "Temporarily change the dictionary source:"
-msgstr "Puerto: El puerto del servidor de diccionarios"
+msgstr "Cambiar temporalmente la fuente de diccionarios:"
 
 #: C/sources-select.page:34(item/p)
 msgid ""
@@ -873,11 +973,12 @@ msgstr ""
 
 #: C/sources-select.page:38(item/p)
 msgid "Double click on the dictionary source that you want to use."
-msgstr ""
+msgstr "Pulse dos veces sobre el diccionario que quiere usar."
 
 #: C/text-copy.page:23(info/desc)
-msgid "Select and copy a defintion to another application."
-msgstr ""
+#| msgid "Save a copy of a definition to a text file."
+msgid "Select and copy a definition to another application."
+msgstr "Seleccionar y copiar una definición a otra aplicación."
 
 #: C/text-copy.page:27(page/title)
 msgid "Copy definition"
@@ -888,6 +989,8 @@ msgid ""
 "You can copy and paste definitions from <app>Dictionary</app> to another "
 "application."
 msgstr ""
+"Puede copiar y pegar definiciones de <app>Diccionario</app> a otra "
+"aplicación."
 
 #: C/text-copy.page:33(steps/title)
 msgid "Copy a definition"
@@ -899,12 +1002,18 @@ msgid ""
 "Alternatively, you can select the whole definition using <guiseq><gui style="
 "\"menu\">Edit</gui> <gui style=\"menuitem\">Select All</gui></guiseq>."
 msgstr ""
+"Seleccione el texto que quiere copiar en <app>Diccionario</app>. "
+"Alternativamente, puede seleccionar la definición completa usando "
+"<guiseq><gui style=\"menu\">Editar</gui> <gui style=\"menuitem\">Seleccionar "
+"todo</gui></guiseq>."
 
 #: C/text-copy.page:41(item/p)
 msgid ""
 "Select <guiseq><gui style=\"menu\">Edit</gui> <gui style=\"menuitem\">Copy</"
 "gui></guiseq>."
 msgstr ""
+"Seleccione <guiseq><gui style=\"menu\">Editar</gui> <gui style=\"menuitem"
+"\">Copiar</gui></guiseq>."
 
 #: C/text-copy.page:45(item/p)
 msgid ""
@@ -912,6 +1021,9 @@ msgid ""
 "<keyseq><key>Ctrl</key><key>P</key></keyseq> keyboard shortcut or through "
 "one of the menus."
 msgstr ""
+"Pegue el texto en otra aplicación. Generalmente, esto se puede hacer usando "
+"el atajo de teclado <keyseq><key>Ctrl</key><key>P</key></keyseq> o mediante "
+"uno de los menús."
 
 #~ msgctxt "_"
 #~ msgid ""
