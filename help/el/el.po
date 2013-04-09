@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: el-gnome-dictionary-help 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-04-03 15:16+0000\n"
-"PO-Revision-Date: 2013-04-05 17:22+0300\n"
+"POT-Creation-Date: 2013-04-08 16:23+0000\n"
+"PO-Revision-Date: 2013-04-09 09:50+0300\n"
 "Last-Translator: Dimitris Spingos (Δημήτρης Σπίγγος) <dmtrs32@gmail.com>\n"
 "Language-Team: team@gnome.gr\n"
 "Language: el\n"
@@ -28,7 +28,6 @@ msgstr ""
 "Για περισσότερα δείτε http://www.gnome.gr/"
 
 #: C/index.page:8(info/title)
-#| msgid "Dictionary"
 msgctxt "text"
 msgid "Dictionary"
 msgstr "Λεξικό"
@@ -113,7 +112,6 @@ msgid "Find the definition of a word or term."
 msgstr "Εύρεση του ορισμού μιας λέξης ή όρου."
 
 #: C/definition.page:27(page/title)
-#| msgid "Looking up a word"
 msgid "Look up a word or term"
 msgstr "Αναζήτηση μίας λέξης ή όρου"
 
@@ -134,15 +132,15 @@ msgstr ""
 msgid ""
 "Type in the term that you want to search for next to <gui>Look up</gui>."
 msgstr ""
-"Πληκτρολογήστε τον όρο που θέλετε να αναζητήσετε δίπλα στο "
-"<gui>Αναζήτηση</gui>."
+"Πληκτρολογήστε τον όρο που θέλετε να αναζητήσετε δίπλα στο <gui>Αναζήτηση</"
+"gui>."
 
 #: C/definition.page:41(item/p)
 msgid ""
 "Press <key>Return</key> or <gui style=\"button\">Look up:</gui> to search."
 msgstr ""
-"Πατήστε το πλήκτρο <key>Επιστροφή</key> ή <gui "
-"style=\"button\">Αναζήτηση:</gui> για να ψάξετε."
+"Πατήστε το πλήκτρο <key>Επιστροφή</key> ή <gui style=\"button\">Αναζήτηση:</"
+"gui> για να ψάξετε."
 
 #: C/definition.page:46(page/p)
 msgid ""
@@ -156,26 +154,27 @@ msgstr ""
 "Το <app>Λεξικό</app> θα ψάξει την επιλεγμένη πηγή του λεξικού σας και θα "
 "εμφανίσει το αποτέλεσμα από το πρώτο λεξικό στην πηγή. Για την προβολή "
 "αποτελεσμάτων από τα άλλα λεξικά που είναι στην ίδια πηγή, επιλέξτε <link "
-"xref=\"similar-words\"><guiseq><gui style=\"menu\">Προβολή</gui> <gui "
-"style=\"menuitem\">Παρόμοιες λέξεις</gui></guiseq></link> για ανάδυση μιας "
+"xref=\"similar-words\"><guiseq><gui style=\"menu\">Προβολή</gui> <gui style="
+"\"menuitem\">Παρόμοιες λέξεις</gui></guiseq></link> για ανάδυση μιας "
 "πλευρικής στήλης που εμφανίζει όλα τα αποτελέσματα."
 
 #: C/dictionary-select.page:25(page/title)
-#| msgid "To Start Dictionary"
 msgid "Select a different dictionary"
 msgstr "Επιλέξτε ένα διαφορετικό λεξικό"
 
 #: C/dictionary-select.page:27(page/p)
+#| msgid ""
+#| "A single <link xref=\"sources\">dictionary source</link> may have many "
+#| "dictionaries different dictionaries. You can search any of these "
+#| "dictionaries."
 msgid ""
 "A single <link xref=\"sources\">dictionary source</link> may have many "
-"dictionaries different dictionaries. You can search any of these "
-"dictionaries."
+"different dictionaries. You can search any of these dictionaries."
 msgstr ""
 "Μια ενιαία <link xref=\"sources\">πηγή λεξικού</link> μπορεί να έχει πολλά "
 "διαφορετικά λεξικά. Μπορείτε να αναζητήσετε οποιοδήποτε από αυτά τα λεξικά."
 
 #: C/dictionary-select.page:32(steps/title)
-#| msgid "To Start Dictionary"
 msgid "Select a dictionary"
 msgstr "Επιλέξτε ένα λεξικό"
 
@@ -185,10 +184,9 @@ msgid ""
 "\">Available Databases</gui></guiseq>. A sidebar listing the available "
 "dictionaries for your currently selected dictionary source will open."
 msgstr ""
-"Επιλέξτε <guiseq><gui style=\"menu\">Προβολή</gui> <gui "
-"style=\"menuitem\">Διαθέσιμες βάσεις δεδομένων</gui></guiseq>. Μια πλευρική "
-"στήλη που δίνει τα διαθέσιμα λεξικά για την τρέχουσα επιλεγμένη πηγή λεξικών "
-"θα ανοίξει."
+"Επιλέξτε <guiseq><gui style=\"menu\">Προβολή</gui> <gui style=\"menuitem"
+"\">Διαθέσιμες βάσεις δεδομένων</gui></guiseq>. Μια πλευρική στήλη που δίνει "
+"τα διαθέσιμα λεξικά για την τρέχουσα επιλεγμένη πηγή λεξικών θα ανοίξει."
 
 #: C/dictionary-select.page:40(item/p)
 msgid "Click twice on the dictionary that you want to use."
@@ -199,8 +197,8 @@ msgid ""
 "The next term that you <link xref=\"definition\">look up</link> will show "
 "the result only from the selected dictionary."
 msgstr ""
-"Ο επόμενος όρος που <link xref=\"definition\">αναζητάτε</link> θα εμφανίσει το "
-"αποτέλεσμα μόνο από το επιλεγμένο λεξικό."
+"Ο επόμενος όρος που <link xref=\"definition\">αναζητάτε</link> θα εμφανίσει "
+"το αποτέλεσμα μόνο από το επιλεγμένο λεξικό."
 
 #: C/dictionary-select.page:48(note/p)
 msgid ""
@@ -236,8 +234,8 @@ msgid ""
 "Select <guiseq><gui style=\"menu\">Edit</gui> <gui style=\"menitem\">Find</"
 "gui></guiseq>."
 msgstr ""
-"Επιλέξτε <guiseq><gui style=\"menu\">Επεξεργασία</gui> <gui "
-"style=\"menitem\">Εύρεση</gui></guiseq>."
+"Επιλέξτε <guiseq><gui style=\"menu\">Επεξεργασία</gui> <gui style=\"menitem"
+"\">Εύρεση</gui></guiseq>."
 
 #: C/find.page:38(item/p)
 msgid ""
@@ -256,21 +254,16 @@ msgid ""
 "other words, it will not go to the top of the page when you are on the last "
 "result and click <gui style=\"button\">Next</gui>."
 msgstr ""
-"Πατήστε <gui style=\"button\">προηγούμενο</gui> ή <gui "
-"style=\"button\">επόμενο</gui> για να περιηγηθείτε στα αποτελέσματα. Η "
-"αναζήτηση δεν θα αναδιπλωθεί: με άλλα λόγια, δεν θα πάει στην κορυφή της "
-"σελίδας όταν είσαστε στο τελευταίο αποτέλεσμα και πατήσετε <gui "
-"style=\"button\">επόμενο</gui>."
+"Πατήστε <gui style=\"button\">προηγούμενο</gui> ή <gui style=\"button"
+"\">επόμενο</gui> για να περιηγηθείτε στα αποτελέσματα. Η αναζήτηση δεν θα "
+"αναδιπλωθεί: με άλλα λόγια, δεν θα πάει στην κορυφή της σελίδας όταν είσαστε "
+"στο τελευταίο αποτέλεσμα και πατήσετε <gui style=\"button\">επόμενο</gui>."
 
 #. This is a reference to an external file such as an image or video. When
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/introduction.page:38(media)
-#| msgctxt "_"
-#| msgid ""
-#| "external ref='figures/gnome-dictionary-find.png' "
-#| "md5='d8bf0677084e2d9998a7942faaab5379'"
 msgctxt "_"
 msgid ""
 "external ref='figures/gnome-dictionary.png' "
@@ -296,25 +289,25 @@ msgid ""
 msgstr ""
 "Το <app>Λεξικό</app> είναι μια εφαρμογή για αναζήτηση ορισμών όρων. Αναζητά "
 "ορισμούς χρησιμοποιώντας έναν δικτυακό εξυπηρετητή <app>DICT</app>. Ο "
-"προεπιλεγμένος εξυπηρετητής <app>DICT</app> είναι στο <sys "
-"href=\"http://dict.org\">http://dict.org</sys>."
+"προεπιλεγμένος εξυπηρετητής <app>DICT</app> είναι στο <sys href=\"http://"
+"dict.org\">http://dict.org</sys>."
 
 #: C/introduction.page:33(page/p)
 msgid ""
 "Start using <app>Dictionary</app> by <link xref=\"definition\">looking up a "
 "definition</link>!"
 msgstr ""
-"Αρχίστε χρησιμοποιώντας το <app>Λεξικό</app> <link "
-"xref=\"definition\">αναζητώντας έναν ορισμό</link>!"
+"Αρχίστε χρησιμοποιώντας το <app>Λεξικό</app> <link xref=\"definition"
+"\">αναζητώντας έναν ορισμό</link>!"
 
 #: C/introduction.page:37(figure/title)
 msgid "Dictionary"
 msgstr "Λεξικό"
 
 #: C/introduction.page:39(media/p)
-#| msgid "Shows Dictionary main window."
 msgid "Screenshot showing the <app>Dictionary</app> main window."
-msgstr "Ένα στιγμιότυπο που εμφανίζει το κύριο παράθυρο του <app>Λεξικού</app>."
+msgstr ""
+"Ένα στιγμιότυπο που εμφανίζει το κύριο παράθυρο του <app>Λεξικού</app>."
 
 #: C/keyboard-shortcuts.page:23(info/desc)
 msgid ""
@@ -343,7 +336,6 @@ msgstr "Περιήγηση στο <app>Λεξικό</app>"
 
 #: C/keyboard-shortcuts.page:36(td/p) C/keyboard-shortcuts.page:68(td/p)
 #: C/keyboard-shortcuts.page:92(td/p) C/keyboard-shortcuts.page:120(td/p)
-#| msgid "Dictionary"
 msgid "Action"
 msgstr "Ενέργεια"
 
@@ -353,7 +345,6 @@ msgid "Shortcut"
 msgstr "Συντόμευση"
 
 #: C/keyboard-shortcuts.page:42(td/p) C/print.page:36(section/title)
-#| msgid "Print Options"
 msgid "Print preview"
 msgstr "Προεπισκόπηση εκτύπωσης"
 
@@ -378,9 +369,6 @@ msgid "<key>F9</key>"
 msgstr "<key>F9</key>"
 
 #: C/keyboard-shortcuts.page:54(td/p)
-#| msgid ""
-#| "Once started, the <application>Dictionary</application> window is "
-#| "displayed:"
 msgid "Open a new <app>Dictionary</app> window"
 msgstr "Άνοιγμα νέου παραθύρου του <app>Λεξικού</app>"
 
@@ -405,7 +393,6 @@ msgid "<key>/</key> or <keyseq><key>Ctrl</key><key>F</key></keyseq>"
 msgstr "<key>/</key> ή <keyseq><key>Ctrl</key><key>F</key></keyseq>"
 
 #: C/keyboard-shortcuts.page:78(td/p)
-#| msgid "Find Text"
 msgid "Find next"
 msgstr "Εύρεση επομένου"
 
@@ -470,7 +457,6 @@ msgid "<keyseq><key>Ctrl</key><key>T</key></keyseq>"
 msgstr "<keyseq><key>Ctrl</key><key>T</key></keyseq>"
 
 #: C/keyboard-shortcuts.page:130(td/p) C/sources.page:28(page/title)
-#| msgid "Dictionary Sources"
 msgid "Dictionary sources"
 msgstr "Πηγές λεξικού"
 
@@ -505,10 +491,10 @@ msgid ""
 "a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, "
 "California, 94041, USA."
 msgstr ""
-"Αυτή η εργασία αδειοδοτείται κάτω από την άδεια Creative Commons "
-"Attribution-ShareAlike 3.0 Unported. Για να δείτε ένα αντίγραφο αυτής της "
-"άδειας, επισκεφτείτε <_:link-1/> ή στείλτε ένα γράμμα στο Creative Commons, "
-"444 Castro Street, Suite 900, Mountain View, California, 94041, USA."
+"Αυτή η εργασία αδειοδοτείται κάτω από την άδεια Creative Commons Attribution-"
+"ShareAlike 3.0 Unported. Για να δείτε ένα αντίγραφο αυτής της άδειας, "
+"επισκεφτείτε <_:link-1/> ή στείλτε ένα γράμμα στο Creative Commons, 444 "
+"Castro Street, Suite 900, Mountain View, California, 94041, USA."
 
 #: C/pref.page:15(info/desc)
 msgid "Manage your preferences."
@@ -523,14 +509,10 @@ msgid "Select the font for printing definitions."
 msgstr "Επιλέξτε τη γραμματοσειρά για εκτύπωση ορισμών."
 
 #: C/print-font.page:27(page/title)
-#| msgid "Print Options"
 msgid "Print font"
 msgstr "Γραμματοσειρά εκτύπωσης"
 
 #: C/print-font.page:29(page/p)
-#| msgid ""
-#| "If you want to change the font name and size used when printing, perform "
-#| "the following steps:"
 msgid ""
 "You can change the default font face and size that are used for printing the "
 "definitions."
@@ -547,15 +529,14 @@ msgid ""
 "Select <guiseq><gui style=\"menu\">Dictionary</gui> <gui style=\"menuitem"
 "\">Preferences</gui> <gui style=\"tab\">Print</gui></guiseq>."
 msgstr ""
-"Επιλέξτε <guiseq><gui style=\"menu\">Λεξικό</gui> <gui "
-"style=\"menuitem\">Προτιμήσεις</gui> <gui style=\"tab\">Εκτύπωση</gui></guiseq>."
+"Επιλέξτε <guiseq><gui style=\"menu\">Λεξικό</gui> <gui style=\"menuitem"
+"\">Προτιμήσεις</gui> <gui style=\"tab\">Εκτύπωση</gui></guiseq>."
 
 #: C/print-font.page:40(item/p)
 msgid "Click font selector button."
 msgstr "Πατήστε στο κουμπί επιλογέα γραμματοσειράς."
 
 #: C/print-font.page:43(item/p)
-#| msgid "Select the font and size you wish to use"
 msgid "Select the font that you wish to use."
 msgstr "Επιλέξτε τη γραμματοσειρά που θέλετε να χρησιμοποιηθεί."
 
@@ -590,7 +571,6 @@ msgid "Print preview and print definitions."
 msgstr "Προεπισκόπηση εκτύπωσης και ορισμοί εκτύπωσης."
 
 #: C/print.page:28(page/title)
-#| msgid "Print Options"
 msgid "Print a definition"
 msgstr "Εκτύπωση ορισμού"
 
@@ -611,8 +591,8 @@ msgid ""
 "Select <guiseq><gui style=\"menu\">File</gui> <gui style=\"menuitem"
 "\">Preview</gui></guiseq>."
 msgstr ""
-"Επιλέξτε <guiseq><gui style=\"menu\">Αρχείο</gui> <gui "
-"style=\"menuitem\">Προεπισκόπηση</gui></guiseq>."
+"Επιλέξτε <guiseq><gui style=\"menu\">Αρχείο</gui> <gui style=\"menuitem"
+"\">Προεπισκόπηση</gui></guiseq>."
 
 #: C/print.page:44(item/p)
 msgid ""
@@ -644,24 +624,24 @@ msgid ""
 "style=\"menuitem\">Print</gui></guiseq>."
 msgstr ""
 "Το κουμπί εκτύπωσης στην εργαλειοθήκη μπορεί να μην δουλεύει πάντα. Αν δεν "
-"δουλέψει για σας, κλείστε το παράθυρο και επιλέξτε <guiseq><gui "
-"style=\"menu\">Αρχείο</gui> <gui style=\"menuitem\">Εκτύπωση</gui></guiseq>."
+"δουλέψει για σας, κλείστε το παράθυρο και επιλέξτε <guiseq><gui style=\"menu"
+"\">Αρχείο</gui> <gui style=\"menuitem\">Εκτύπωση</gui></guiseq>."
 
 #: C/print.page:69(section/p)
 msgid ""
 "You need to <link href=\"help:gnome-help/printing\">have a printer set up</"
 "link> to be able to print to paper."
 msgstr ""
-"Χρειάζεται να <link href=\"help:gnome-help/printing\">έχετε έναν εγκατεστημένο "
-"εκτυπωτή</link> για να μπορέσετε να εκτυπώσετε σε χαρτί."
+"Χρειάζεται να <link href=\"help:gnome-help/printing\">έχετε έναν "
+"εγκατεστημένο εκτυπωτή</link> για να μπορέσετε να εκτυπώσετε σε χαρτί."
 
 #: C/print.page:74(item/p)
 msgid ""
 "Select <guiseq><gui style=\"menu\">File</gui> <gui style=\"menuitem\">Print</"
 "gui> <gui style=\"tab\">General</gui></guiseq>."
 msgstr ""
-"Επιλέξτε <guiseq><gui style=\"menu\">Αρχείο</gui> <gui "
-"style=\"menuitem\">Εκτύπωση</gui> <gui style=\"tab\">Γενικά</gui></guiseq>."
+"Επιλέξτε <guiseq><gui style=\"menu\">Αρχείο</gui> <gui style=\"menuitem"
+"\">Εκτύπωση</gui> <gui style=\"tab\">Γενικά</gui></guiseq>."
 
 #: C/print.page:79(item/p)
 msgid ""
@@ -682,7 +662,8 @@ msgstr ""
 #: C/print.page:88(item/p)
 msgid "Press <gui style=\"button\">Print</gui> to print the definition."
 msgstr ""
-"Πατήστε στο <gui style=\"button\">Εκτύπωση</gui> για να εκτυπώσετε τον ορισμό."
+"Πατήστε στο <gui style=\"button\">Εκτύπωση</gui> για να εκτυπώσετε τον "
+"ορισμό."
 
 #: C/prob-retrieving-definition.page:23(info/desc)
 msgid "<sys>Error while retrieving definitions</sys>."
@@ -700,9 +681,9 @@ msgid ""
 "following:"
 msgstr ""
 "Αν δείτε το μήνυμα σφάλματος <sys>Σφάλμα κατά την ανάκτηση ορισμού</sys> "
-"όταν αναζητάτε έναν ορισμό από οποιοδήποτε <link xref=\"sources-"
-"select\">επιλεγμένο λεξικό</link>, το πρόβλημα είναι πιο πιθανό να είναι ένα "
-"από τα παρακάτω:"
+"όταν αναζητάτε έναν ορισμό από οποιοδήποτε <link xref=\"sources-select"
+"\">επιλεγμένο λεξικό</link>, το πρόβλημα είναι πιο πιθανό να είναι ένα από "
+"τα παρακάτω:"
 
 #: C/prob-retrieving-definition.page:36(item/p)
 msgid ""
@@ -712,8 +693,8 @@ msgid ""
 msgstr ""
 "Ένας ή περισσότεροι από τους επιλεγμένους εξυπηρετητές του <app>DICT</app> "
 "που χρησιμοποιούνται για αναζήτηση ορισμών μπορεί να μην δουλεύει. Μπορείτε "
-"να δοκιμάσετε αφού περιμένετε κάμποσο πριν να <link "
-"xref=\"definition\">αναζητήσετε</link> τον ορισμό πάλι."
+"να δοκιμάσετε αφού περιμένετε κάμποσο πριν να <link xref=\"definition"
+"\">αναζητήσετε</link> τον ορισμό πάλι."
 
 #: C/prob-retrieving-definition.page:42(item/p)
 msgid ""
@@ -722,9 +703,9 @@ msgid ""
 "to connect</link> to <sys href=\"http://dict.org\">dict.org</sys>."
 msgstr ""
 "Μπορεί να μην έχετε μια σύνδεση διαδικτύου που να λειτουργεί. Για να "
-"αναζητήσει όρους το <app>Λεξικό</app>, ο υπολογιστής σας <link href=\"help"
-":gnome-help/net\">πρέπει να μπορεί να συνδεθεί</link> με το <sys "
-"href=\"http://dict.org\">dict.org</sys>."
+"αναζητήσει όρους το <app>Λεξικό</app>, ο υπολογιστής σας <link href=\"help:"
+"gnome-help/net\">πρέπει να μπορεί να συνδεθεί</link> με το <sys href="
+"\"http://dict.org\">dict.org</sys>."
 
 #: C/save-definition.page:22(info/desc)
 msgid "Save a copy of a definition to a text file."
@@ -751,13 +732,17 @@ msgid ""
 "Select <guiseq><gui style=\"menu\">File</gui> <gui style=\"menuitem\">Save a "
 "Copy…</gui></guiseq>."
 msgstr ""
-"Επιλέξτε <guiseq><gui style=\"menu\">Αρχείο</gui> <gui "
-"style=\"menuitem\">Αποθήκευση ενός αντιγράφου…</gui></guiseq>."
+"Επιλέξτε <guiseq><gui style=\"menu\">Αρχείο</gui> <gui style=\"menuitem"
+"\">Αποθήκευση ενός αντιγράφου…</gui></guiseq>."
 
 #: C/save-definition.page:38(item/p)
+#| msgid ""
+#| "Chose where you want to save the definition to and a name for the file. "
+#| "You may want to add a <file>.txt</file> file extention to the end of the "
+#| "file name."
 msgid ""
 "Chose where you want to save the definition to and a name for the file. You "
-"may want to add a <file>.txt</file> file extention to the end of the file "
+"may want to add a <file>.txt</file> file extension to the end of the file "
 "name."
 msgstr ""
 "Επιλέξτε πού θέλετε να αποθηκεύσετε τον ορισμό και ονομάστε το αρχείο. "
@@ -791,9 +776,8 @@ msgid ""
 "If the sidebar is not already visible, select <guiseq><gui style=\"menu"
 "\">View</gui> <gui style=\"menuitem\">Similar Words</gui></guiseq>."
 msgstr ""
-"Αν η πλευρική στήλη δεν είναι ήδη ορατή, επιλέξτε <guiseq><gui "
-"style=\"menu\">Προβολή</gui> <gui style=\"menuitem\">Παρόμοιες "
-"λέξεις</gui></guiseq>."
+"Αν η πλευρική στήλη δεν είναι ήδη ορατή, επιλέξτε <guiseq><gui style=\"menu"
+"\">Προβολή</gui> <gui style=\"menuitem\">Παρόμοιες λέξεις</gui></guiseq>."
 
 #: C/similar-words.page:42(item/p)
 msgid ""
@@ -806,12 +790,10 @@ msgstr ""
 "της παρόμοιας λέξης, διπλοπατήστε στην καταχώριση."
 
 #: C/source-add-local.page:20(page/title)
-#| msgid "Dictionary Sources"
 msgid "Add local dictionary sources"
 msgstr "Προσθέστε τοπικές πηγές λεξικού"
 
 #: C/sources-default.page:24(page/title)
-#| msgid "Dictionary Sources"
 msgid "Set a default dictionary source"
 msgstr "Ορίστε μια προεπιλεγμένη πηγή λεξικού"
 
@@ -824,8 +806,8 @@ msgid ""
 msgstr ""
 "Όταν χρησιμοποιήσετε για πρώτη φορά το <app>Λεξικό</app>, θα πρέπει να έχει "
 "κάποια προεγκατεστημένα λεξικά που μπορείτε να χρησιμοποιήσετε. Μπορείτε να "
-"αλλάξετε την προεπιλογή <link xref=\"sources\">πηγή λεξικού</link> σε μια άλλη "
-"που θα προτιμούσατε να χρησιμοποιήσετε στη θέση της."
+"αλλάξετε την προεπιλογή <link xref=\"sources\">πηγή λεξικού</link> σε μια "
+"άλλη που θα προτιμούσατε να χρησιμοποιήσετε στη θέση της."
 
 #: C/sources-default.page:32(steps/title)
 msgid "Change the default dictionary source:"
@@ -836,8 +818,8 @@ msgid ""
 "Select <guiseq><gui><app>Dictionary</app></gui> <gui style=\"menu"
 "\">Preferences</gui> <gui style=\"tab\">Source</gui></guiseq>."
 msgstr ""
-"Επιλέξτε <guiseq><gui><app>Λεξικό</app></gui> <gui "
-"style=\"menu\">Προτιμήσεις</gui> <gui style=\"tab\">Πηγή</gui></guiseq>."
+"Επιλέξτε <guiseq><gui><app>Λεξικό</app></gui> <gui style=\"menu"
+"\">Προτιμήσεις</gui> <gui style=\"tab\">Πηγή</gui></guiseq>."
 
 #: C/sources-default.page:39(item/p)
 msgid "Select the dictionary source that you want to set as the default."
@@ -848,7 +830,6 @@ msgid "Your change will be saved automatically."
 msgstr "Η αλλαγή σας θα αποθηκευτεί αυτόματα."
 
 #: C/sources-delete.page:25(page/title)
-#| msgid "Dictionary Sources"
 msgid "Delete a dictionary source"
 msgstr "Διαγραφή προέλευσης λεξικού"
 
@@ -862,7 +843,6 @@ msgstr ""
 "διαγράψετε."
 
 #: C/sources-delete.page:32(steps/title)
-#| msgid "Dictionary Sources"
 msgid "Delete a dictionary source:"
 msgstr "Διαγραφή πηγής λεξικού:"
 
@@ -871,11 +851,10 @@ msgid ""
 "Select <guiseq><gui style=\"menu\"><app>Dictionary</app></gui> <gui style="
 "\"menuitem\">Preferences</gui> <gui style=\"tab\">Source</gui></guiseq>."
 msgstr ""
-"Επιλέξτε <guiseq><gui style=\"menu\"><app>Λεξικό</app></gui> <gui "
-"style=\"menuitem\">Προτιμήσεις</gui> <gui style=\"tab\">Πηγή</gui></guiseq>."
+"Επιλέξτε <guiseq><gui style=\"menu\"><app>Λεξικό</app></gui> <gui style="
+"\"menuitem\">Προτιμήσεις</gui> <gui style=\"tab\">Πηγή</gui></guiseq>."
 
 #: C/sources-delete.page:39(item/p)
-#| msgid "Select the source you wish to remove"
 msgid "Select the dictionary source that you want to delete."
 msgstr "Επιλέξτε την πηγή λεξικού που θέλετε να διαγράψετε."
 
@@ -893,7 +872,6 @@ msgstr ""
 "διαγραφεί."
 
 #: C/sources-edit.page:24(page/title)
-#| msgid "Dictionary Sources"
 msgid "Edit a dictionary source"
 msgstr "Επεξεργασία πηγής λεξικού"
 
@@ -902,12 +880,11 @@ msgid ""
 "You can customize a <link xref=\"sources\">dictionary source</link> to "
 "update details such as its description or remote address."
 msgstr ""
-"Μπορείτε να προσαρμόσετε μια <link xref=\"sources\">πηγή λεξικού</link> για να "
-"ενημερώσετε λεπτομέρειες όπως την περιγραφή του ή την απομακρυσμένη "
+"Μπορείτε να προσαρμόσετε μια <link xref=\"sources\">πηγή λεξικού</link> για "
+"να ενημερώσετε λεπτομέρειες όπως την περιγραφή του ή την απομακρυσμένη "
 "διεύθυνση."
 
 #: C/sources-edit.page:30(steps/title)
-#| msgid "Dictionary Sources"
 msgid "To edit a dictionary source:"
 msgstr "Για επεξεργασία πηγής λεξικού:"
 
@@ -916,8 +893,8 @@ msgid ""
 "Select <guiseq><gui style=\"menu\">Dictionary</gui> <gui style=\"menuitem"
 "\">Preferences</gui> <gui style=\"tab\">Source</gui></guiseq>."
 msgstr ""
-"Επιλέξτε <guiseq><gui style=\"menu\">Λεξικό</gui> <gui "
-"style=\"menuitem\">Προτιμήσεις</gui> <gui style=\"tab\">Πηγή</gui></guiseq>."
+"Επιλέξτε <guiseq><gui style=\"menu\">Λεξικό</gui> <gui style=\"menuitem"
+"\">Προτιμήσεις</gui> <gui style=\"tab\">Πηγή</gui></guiseq>."
 
 #: C/sources-edit.page:37(item/p)
 msgid "Double click on the dictionary source you want to edit."
@@ -939,7 +916,6 @@ msgid "<gui>Transport</gui> is the type of server."
 msgstr "<gui>Μεταφορά</gui> είναι ο τύπος του εξυπηρετητή."
 
 #: C/sources-edit.page:50(item/p)
-#| msgid "Hostname: the hostname of the dictionary server"
 msgid "<gui>Hostname</gui> is the location of the dictionary source."
 msgstr "<gui>Οικοδεσπότης</gui> είναι η τοποθεσία της πηγής λεξικού."
 
@@ -962,7 +938,6 @@ msgstr ""
 "ρυθμίσεις."
 
 #: C/sources.page:24(info/desc)
-#| msgid "Dictionary Sources"
 msgid "Manage various dictionary sources."
 msgstr "Διαχείριση ποικίλων πηγών λεξικού."
 
@@ -979,12 +954,10 @@ msgstr ""
 "στο μηχάνημά σας επίσης."
 
 #: C/sources.page:36(section/title)
-#| msgid "Dictionary Sources"
 msgid "Manage your dictionary sources"
 msgstr "Διαχείριση των πηγών λεξικού σας"
 
 #: C/sources-select.page:26(page/title)
-#| msgid "Dictionary Sources"
 msgid "Select a dictionary source"
 msgstr "Επιλέξτε μια πηγή λεξικού"
 
@@ -997,7 +970,6 @@ msgstr ""
 "χρησιμοποιείτε χωρίς αλλαγή των προεπιλεγμένων προτιμήσεών σας."
 
 #: C/sources-select.page:32(steps/title)
-#| msgid "Port: the port of the dictionary server"
 msgid "Temporarily change the dictionary source:"
 msgstr "Προσωρινή αλλαγή της πηγής λεξικού:"
 
@@ -1006,15 +978,16 @@ msgid ""
 "Select <guiseq><gui style=\"menu\">View</gui> <gui style=\"menuitem"
 "\">Dictionary Sources</gui></guiseq>."
 msgstr ""
-"Επιλέξτε <guiseq><gui style=\"menu\">Προβολή</gui> <gui style=\"menuitem\">Πηγές "
-"λεξικού</gui></guiseq>."
+"Επιλέξτε <guiseq><gui style=\"menu\">Προβολή</gui> <gui style=\"menuitem"
+"\">Πηγές λεξικού</gui></guiseq>."
 
 #: C/sources-select.page:38(item/p)
 msgid "Double click on the dictionary source that you want to use."
 msgstr "Διπλοπατήστε στην πηγή λεξικού που θέλετε να χρησιμοποιήσετε."
 
 #: C/text-copy.page:23(info/desc)
-msgid "Select and copy a defintion to another application."
+#| msgid "Select and copy a defintion to another application."
+msgid "Select and copy a definition to another application."
 msgstr "Επιλογή και αντιγραφή ενός ορισμού σε άλλη εφαρμογή."
 
 #: C/text-copy.page:27(page/title)
@@ -1026,8 +999,8 @@ msgid ""
 "You can copy and paste definitions from <app>Dictionary</app> to another "
 "application."
 msgstr ""
-"Μπορείτε να αντιγράψετε και να επικολλήσετε ορισμούς από το "
-"<app>Λεξικό</app> σε μια άλλη εφαρμογή."
+"Μπορείτε να αντιγράψετε και να επικολλήσετε ορισμούς από το <app>Λεξικό</"
+"app> σε μια άλλη εφαρμογή."
 
 #: C/text-copy.page:33(steps/title)
 msgid "Copy a definition"
@@ -1041,16 +1014,16 @@ msgid ""
 msgstr ""
 "Επιλέξτε το κείμενο που θέλετε να αντιγράψετε στο <app>Λεξικό</app>. "
 "Εναλλακτικά, μπορείτε να επιλέξετε τον πλήρη ορισμό χρησιμοποιώντας "
-"<guiseq><gui style=\"menu\">Επεξεργασία</gui> <gui style=\"menuitem\">Επιλογή "
-"όλων</gui></guiseq>."
+"<guiseq><gui style=\"menu\">Επεξεργασία</gui> <gui style=\"menuitem"
+"\">Επιλογή όλων</gui></guiseq>."
 
 #: C/text-copy.page:41(item/p)
 msgid ""
 "Select <guiseq><gui style=\"menu\">Edit</gui> <gui style=\"menuitem\">Copy</"
 "gui></guiseq>."
 msgstr ""
-"Επιλέξτε <guiseq><gui style=\"menu\">Επεξεργασία</gui> <gui "
-"style=\"menuitem\">Αντιγραφή</gui></guiseq>."
+"Επιλέξτε <guiseq><gui style=\"menu\">Επεξεργασία</gui> <gui style=\"menuitem"
+"\">Αντιγραφή</gui></guiseq>."
 
 #: C/text-copy.page:45(item/p)
 msgid ""
@@ -1059,8 +1032,8 @@ msgid ""
 "one of the menus."
 msgstr ""
 "Επικολλήστε το κείμενο σε μια άλλη εφαρμογή. Αυτό μπορεί συνήθως να γίνει "
-"χρησιμοποιώντας τη συντόμευση πληκτρολογίου "
-"<keyseq><key>Ctrl</key><key>P</key></keyseq> ή μέσα από ένα από τα μενού."
+"χρησιμοποιώντας τη συντόμευση πληκτρολογίου <keyseq><key>Ctrl</key><key>P</"
+"key></keyseq> ή μέσα από ένα από τα μενού."
 
 #~ msgctxt "_"
 #~ msgid ""
