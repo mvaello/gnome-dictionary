@@ -4,7 +4,7 @@
 # Softcatalà <tradgnome@softcatala.org>, 2000, 2002.
 # Jordi Mallach <jordi@sindominio.net>, 2002, 2003, 2004, 2005.
 # Josep Puigdemont <josep.puigdemont@gmail.com>, 2005, 2006, 2007.
-# Gil Forcada <gilforcada@guifi.net>, 2006, 2008.
+# Gil Forcada <gilforcada@guifi.net>, 2006, 2008, 2013.
 # Joan Duran <jodufi@gmail.com>, 2008-2011.
 #
 msgid ""
@@ -12,8 +12,8 @@ msgstr ""
 "Project-Id-Version: gnome-utils\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "dictionary&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2012-11-14 18:34+0000\n"
-"PO-Revision-Date: 2012-12-31 02:33+0100\n"
+"POT-Creation-Date: 2013-07-06 16:31+0000\n"
+"PO-Revision-Date: 2013-07-06 22:22+0200\n"
 "Last-Translator: Joan Duran <jodufi@gmail.com>\n"
 "Language-Team: Catalan <tradgnome@softcatala.org>\n"
 "Language: ca\n"
@@ -125,8 +125,8 @@ msgid "Dictionary Sources"
 msgstr "Fonts de diccionari"
 
 #: ../data/gnome-dictionary-menus.ui.h:22
-msgid "Available _Databases"
-msgstr "Bases de _dades disponibles"
+msgid "Available _Dictionaries"
+msgstr "Diccionaris _disponibles"
 
 #: ../data/gnome-dictionary-menus.ui.h:23
 msgid "Available St_rategies"
@@ -833,6 +833,9 @@ msgstr "Estratègies disponibles"
 #: ../src/gdict-window.c:1737
 msgid "Dictionary sources"
 msgstr "Fonts de diccionaris"
+
+#~ msgid "Available _Databases"
+#~ msgstr "Bases de _dades disponibles"
 
 #~ msgid "New look up"
 #~ msgstr "Nova cerca"
