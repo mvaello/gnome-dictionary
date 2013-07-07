@@ -1,9 +1,8 @@
-# Indonesian translation of gnome-dictionary
 # Copyright (C) 2003 THE gnome-dictionary'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the gnome-utils package.
 #
 # Mohammad DAMT <mdamt@bisnisweb.com>, 2003-2005.
-# Andika Triwidada <andika@gmail.com>, 2010-2012.
+# Andika Triwidada <andika@gmail.com>, 2010-2013.
 # Dirgita <dirgitadevina@yahoo.co.id>, 2011.
 # Bonaventura Aditya Perdana <bonaditya@about.me>, 2012.
 msgid ""
@@ -11,9 +10,9 @@ msgstr ""
 "Project-Id-Version: gnome-dictionary master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "dictionary&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2012-11-14 21:38+0000\n"
-"PO-Revision-Date: 2012-11-15 08:53+0700\n"
-"Last-Translator: Bonaventura Aditya Perdana <bonaditya@about.me>\n"
+"POT-Creation-Date: 2013-07-06 16:31+0000\n"
+"PO-Revision-Date: 2013-07-07 07:52+0700\n"
+"Last-Translator: Andika Triwidada <andika@gmail.com>\n"
 "Language-Team: GNOME Indonesian Translation Team <gnome@i15n.org>\n"
 "Language: id_ID\n"
 "MIME-Version: 1.0\n"
@@ -21,7 +20,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Generator: KBabel 1.11.4\n"
+"X-Generator: Poedit 1.5.7\n"
 
 #: ../data/default.desktop.in.h:1
 msgid "Default Dictionary Server"
@@ -125,8 +124,8 @@ msgid "Dictionary Sources"
 msgstr "Sumber Kamus"
 
 #: ../data/gnome-dictionary-menus.ui.h:22
-msgid "Available _Databases"
-msgstr "Basis _Data Tersedia"
+msgid "Available _Dictionaries"
+msgstr "Kamus Yang Terse_dia"
 
 #: ../data/gnome-dictionary-menus.ui.h:23
 msgid "Available St_rategies"
@@ -605,7 +604,7 @@ msgid "translator-credits"
 msgstr ""
 "Ahmad Riza H Nst <rizahnst@gnome.org>\n"
 "Mohammad DAMT <mdamt@bisnisweb.com>, 2003-2005\n"
-"Andika Triwidada <andika@gmail.com>, 2010-2012\n"
+"Andika Triwidada <andika@gmail.com>, 2010-2013\n"
 "Dirgita <dirgitadevina@yahoo.co.id>, 2011\n"
 "Bonaventura Aditya Perdana <bonaditya@about.me>, 2012"
 
