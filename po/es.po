@@ -10,15 +10,15 @@
 # Pablo Saratxaga <srtxg@chanae.alphanet.ch> 1999.
 # Manuel de Vega Barreiro <barreiro@arrakis.es> 2000-2001.
 # Jorge González <jorgegonz@svn.gnome.org>, 2007, 2008, 2009, 2010, 2011.
-# Daniel Mustieles <daniel.mustieles@gmail.com>, 2011, 2012.
+# Daniel Mustieles <daniel.mustieles@gmail.com>, 2011, 2012, 2013.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-utils.master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "dictionary&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2012-11-14 18:34+0000\n"
-"PO-Revision-Date: 2012-11-16 18:12+0100\n"
+"POT-Creation-Date: 2013-07-06 16:31+0000\n"
+"PO-Revision-Date: 2013-07-08 12:44+0200\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
 "Language-Team: Español <gnome-es-list@gnome.org>\n"
 "Language: \n"
@@ -131,8 +131,9 @@ msgid "Dictionary Sources"
 msgstr "Fuentes de diccionario"
 
 #: ../data/gnome-dictionary-menus.ui.h:22
-msgid "Available _Databases"
-msgstr "_Bases de datos disponibles"
+#| msgid "Available dictionaries"
+msgid "Available _Dictionaries"
+msgstr "_Diccionarios disponibles"
 
 #: ../data/gnome-dictionary-menus.ui.h:23
 msgid "Available St_rategies"
@@ -842,6 +843,9 @@ msgstr "Estrategias disponibles"
 #: ../src/gdict-window.c:1737
 msgid "Dictionary sources"
 msgstr "Fuentes de diccionario"
+
+#~ msgid "Available _Databases"
+#~ msgstr "_Bases de datos disponibles"
 
 #~ msgid "French Dictionaries from Wikipedia"
 #~ msgstr "Diccionarios de francés de la Wikipedia"
