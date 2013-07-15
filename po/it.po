@@ -12,8 +12,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-dictionary\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-01-25 15:58+0100\n"
-"PO-Revision-Date: 2013-01-25 15:59+0100\n"
+"POT-Creation-Date: 2013-07-15 10:15+0200\n"
+"PO-Revision-Date: 2013-07-15 10:15+0200\n"
 "Last-Translator: Milo Casagrande <milo@ubuntu.com>\n"
 "Language-Team: Italian <tp@lists.linux.it>\n"
 "Language: it\n"
@@ -21,6 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8-bit\n"
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Generator: Gtranslator 2.91.6\n"
 
 #: ../data/default.desktop.in.h:1
 msgid "Default Dictionary Server"
@@ -124,8 +125,8 @@ msgid "Dictionary Sources"
 msgstr "Sorgenti dizionario"
 
 #: ../data/gnome-dictionary-menus.ui.h:22
-msgid "Available _Databases"
-msgstr "_Database disponibili"
+msgid "Available _Dictionaries"
+msgstr "Dizionari _disponibili"
 
 #: ../data/gnome-dictionary-menus.ui.h:23
 msgid "Available St_rategies"
