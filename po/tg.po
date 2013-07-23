@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: Tajik Gnome\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "dictionary&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2013-01-09 05:49+0000\n"
-"PO-Revision-Date: 2013-07-23 14:27+0500\n"
+"POT-Creation-Date: 2013-07-23 09:30+0000\n"
+"PO-Revision-Date: 2013-07-23 14:31+0500\n"
 "Last-Translator: Victor Ibragimov <victor.ibragimov@gmail.com>\n"
 "Language-Team: \n"
 "Language: Tajik\n"
@@ -121,8 +121,9 @@ msgid "Dictionary Sources"
 msgstr "Манбаҳои луғат"
 
 #: ../data/gnome-dictionary-menus.ui.h:22
-msgid "Available _Databases"
-msgstr "Пойгоҳҳои иттилотии _дастрас"
+#| msgid "Available dictionaries"
+msgid "Available _Dictionaries"
+msgstr "Луғатҳои _дастрас"
 
 #: ../data/gnome-dictionary-menus.ui.h:23
 msgid "Available St_rategies"
@@ -818,3 +819,6 @@ msgstr "Стратегияҳои дастрас"
 #: ../src/gdict-window.c:1737
 msgid "Dictionary sources"
 msgstr "Манбаҳои дастрас"
+
+#~ msgid "Available _Databases"
+#~ msgstr "Пойгоҳҳои иттилотии _дастрас"
