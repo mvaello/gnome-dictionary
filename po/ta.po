@@ -9,22 +9,23 @@
 # Dr.T.Vasudevan <agnihot3@gmail.com>, 2007, 2008, 2009, 2011.
 # I. Felix <ifelix@redhat.com>, 2009.
 # Dr,T,Vasudevan <agnihot3@gmail.com>, 2010, 2011.
-# Shantha kumar <shkumar@redhat.com>, 2012.
+# Shantha kumar <shkumar@redhat.com>, 2012, 2013.
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-utils.master.ta\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "dictionary&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2012-11-26 21:54+0000\n"
-"PO-Revision-Date: 2012-11-28 13:39+0530\n"
+"POT-Creation-Date: 2013-07-21 20:17+0000\n"
+"PO-Revision-Date: 2013-07-24 14:50+0000\n"
 "Last-Translator: Shantha kumar <shkumar@redhat.com>\n"
 "Language-Team: American English <>\n"
-"Language: \n"
+"Language: en_US\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 1.0\n"
-"Plural-Forms: nplurals=2; plural=(n!=1);\\n\n"
+"X-Generator: Lokalize 1.5\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\\n"
+"\n"
 "\n"
 "\n"
 "\n"
@@ -135,8 +136,9 @@ msgid "Dictionary Sources"
 msgstr "அகராதி வளங்கள்"
 
 #: ../data/gnome-dictionary-menus.ui.h:22
-msgid "Available _Databases"
-msgstr "இருக்கும் தரவுத்தளங்கள் (_D)"
+#| msgid "Available dictionaries"
+msgid "Available _Dictionaries"
+msgstr "இருக்கும் அகராதிகள் (_D)"
 
 #: ../data/gnome-dictionary-menus.ui.h:23
 msgid "Available St_rategies"
@@ -217,8 +219,10 @@ msgid ""
 "dictionary source. An exclamation mark (\"!\") means that all the databases "
 "present in a dictionary source should be searched"
 msgstr ""
-"அகராதி மூலத்தில் பயன்படுத்த வேண்டிய முன்னிருப்பு தரவுத்தளத்தின் அல்லது மெடா தரவுத்தளத்தின் "
-"பட்டியல். வியப்புக்குறி (\"!\") என்பது அகராதி மூலத்தில் உள்ள அனைத்து தரவுத்தளங்களையும் "
+"அகராதி மூலத்தில் பயன்படுத்த வேண்டிய முன்னிருப்பு தரவுத்தளத்தின் அல்லது மெடா "
+"தரவுத்தளத்தின் "
+"பட்டியல். வியப்புக்குறி (\"!\") என்பது அகராதி மூலத்தில் உள்ள அனைத்து "
+"தரவுத்தளங்களையும் "
 "தேட வேண்டும் எனக்குறிக்கிறது."
 
 #: ../data/org.gnome.dictionary.gschema.xml.in.in.h:3
@@ -230,7 +234,8 @@ msgid ""
 "The name of the default search strategy to use on a dictionary source, if "
 "available. The default strategy is 'exact', that is match exact words."
 msgstr ""
-"இருப்பில் இருந்தால் அகராதி மூலத்துக்கு முுன்னிருப்ப தேடல் திட்டம். ு முன்னிருப்பு'சரியான' "
+"இருப்பில் இருந்தால் அகராதி மூலத்துக்கு முுன்னிருப்ப தேடல் திட்டம். ு "
+"முன்னிருப்பு'சரியான' "
 "அதாவது  பொருத்ம் மிகச் சரியாக இருக்க வேண்டும்.."
 
 #: ../data/org.gnome.dictionary.gschema.xml.in.in.h:5
@@ -316,7 +321,8 @@ msgid ""
 "Unable to connect to the dictionary server at '%s:%d'. The server replied "
 "with code %d (server down)"
 msgstr ""
-"அகராதி சேவையகத்துடன் ('%s:%d'.  இல்) இணைக்க முடியவில்லை. சேவையகம் குறி  %d என பதில் "
+"அகராதி சேவையகத்துடன் ('%s:%d'.  இல்) இணைக்க முடியவில்லை. சேவையகம் குறி  %d என "
+"பதில் "
 "தந்தது. (சேவயகம் செய்லில் இல்லை)"
 
 #: ../libgdict/gdict-client-context.c:1195
@@ -826,6 +832,9 @@ msgstr "இருக்கும் திட்டங்கள்"
 #: ../src/gdict-window.c:1737
 msgid "Dictionary sources"
 msgstr "அகராதியை மூலங்கள் "
+
+#~ msgid "Available _Databases"
+#~ msgstr "இருக்கும் தரவுத்தளங்கள் (_D)"
 
 #~ msgid "New look up"
 #~ msgstr "புதிய தேடுதல்"
