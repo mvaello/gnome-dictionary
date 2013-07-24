@@ -10,8 +10,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: dictionary.HEAD\n"
-"POT-Creation-Date: 2013-04-08 12:02+0000\n"
-"PO-Revision-Date: 2013-04-08 18:30+0200\n"
+"POT-Creation-Date: 2013-07-23 09:30+0000\n"
+"PO-Revision-Date: 2013-07-24 10:21+0200\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
 "Language-Team: Español <gnome-es-list@gnome.org>\n"
 "Language: \n"
@@ -28,6 +28,28 @@ msgstr ""
 "Daniel Mustieles <daniel.mustieles@gmail.com>, 2012-2013\n"
 "Jorge González <jorgegonz@svn.gnome.org>, 2005, 2007-2008.\n"
 "Francisco Javier F. Serrador <serrador@openshine.com> 2006."
+
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#.
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/index.page:22(media)
+#| msgctxt "_"
+#| msgid ""
+#| "external ref='figures/gnome-dictionary-application.png' "
+#| "md5='fb48a9e5863bfb2b3811df2e28489eb7'"
+msgctxt "_"
+msgid ""
+"external ref='figures/gnome-dictionary-icon.png' "
+"md5='2f50c3a71e57be0b41efd43c2f7fae60'"
+msgstr ""
+"external ref='figures/gnome-dictionary-icon.png' "
+"md5='2f50c3a71e57be0b41efd43c2f7fae60'"
 
 #: C/index.page:8(info/title)
 msgctxt "text"
@@ -508,9 +530,6 @@ msgid "Print font"
 msgstr "Tipografía de impresión"
 
 #: C/print-font.page:29(page/p)
-#| msgid ""
-#| "If you want to change the font name and size used when printing, perform "
-#| "the following steps:"
 msgid ""
 "You can change the default font face and size that are used for printing the "
 "definitions."
@@ -778,7 +797,6 @@ msgstr ""
 "Para ver la palabra similar, pulse dos veces en la entrada."
 
 #: C/source-add-local.page:20(page/title)
-#| msgid "Dictionary Sources"
 msgid "Add local dictionary sources"
 msgstr "Añadir una fuente de diccionarios local"
 
@@ -959,7 +977,6 @@ msgstr ""
 "está usando actualmente sin cambiar sus preferencias predeterminadas."
 
 #: C/sources-select.page:32(steps/title)
-#| msgid "Port: the port of the dictionary server"
 msgid "Temporarily change the dictionary source:"
 msgstr "Cambiar temporalmente la fuente de diccionarios:"
 
@@ -976,7 +993,6 @@ msgid "Double click on the dictionary source that you want to use."
 msgstr "Pulse dos veces sobre el diccionario que quiere usar."
 
 #: C/text-copy.page:23(info/desc)
-#| msgid "Save a copy of a definition to a text file."
 msgid "Select and copy a definition to another application."
 msgstr "Seleccionar y copiar una definición a otra aplicación."
 
@@ -1024,14 +1040,6 @@ msgstr ""
 "Pegue el texto en otra aplicación. Generalmente, esto se puede hacer usando "
 "el atajo de teclado <keyseq><key>Ctrl</key><key>P</key></keyseq> o mediante "
 "uno de los menús."
-
-#~ msgctxt "_"
-#~ msgid ""
-#~ "external ref='figures/gnome-dictionary-application.png' "
-#~ "md5='fb48a9e5863bfb2b3811df2e28489eb7'"
-#~ msgstr ""
-#~ "external ref='figures/gnome-dictionary-application.png' "
-#~ "md5='fb48a9e5863bfb2b3811df2e28489eb7'"
 
 #~ msgctxt "_"
 #~ msgid ""
