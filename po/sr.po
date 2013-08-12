@@ -1,12 +1,12 @@
 # Милош Поповић <gpopac@gmail.com>, 2011.
-# Мирослав Николић <miroslavnikolic@rocketmail.com>, 2011, 2012.
+# Мирослав Николић <miroslavnikolic@rocketmail.com>, 2011, 2012, 2013.
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-utils-2.0\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "dictionary&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2012-11-14 18:34+0000\n"
-"PO-Revision-Date: 2012-11-17 12:06+0200\n"
+"POT-Creation-Date: 2013-07-21 20:17+0000\n"
+"PO-Revision-Date: 2013-08-12 21:56+0200\n"
 "Last-Translator: Мирослав Николић <miroslavnikolic@rocketmail.com>\n"
 "Language-Team: Serbian <gnom@prevod.org>\n"
 "Language: sr\n"
@@ -32,7 +32,7 @@ msgstr "Проверите значења речи и срицања у речн
 
 #: ../data/gnome-dictionary.desktop.in.in.h:3
 msgid "word;synonym;definition;spelling;"
-msgstr "реч;синоним;одредница;дефиниција;срицање;"
+msgstr "реч;синоним;одредница;одредница;срицање;"
 
 #: ../data/gnome-dictionary-menus.ui.h:1
 msgid "Preferences"
@@ -119,8 +119,9 @@ msgid "Dictionary Sources"
 msgstr "Извори речника"
 
 #: ../data/gnome-dictionary-menus.ui.h:22
-msgid "Available _Databases"
-msgstr "Доступне _базе података"
+#| msgid "Available dictionaries"
+msgid "Available _Dictionaries"
+msgstr "Доступни _речници"
 
 #: ../data/gnome-dictionary-menus.ui.h:23
 msgid "Available St_rategies"
@@ -132,19 +133,19 @@ msgstr "_Иди"
 
 #: ../data/gnome-dictionary-menus.ui.h:25
 msgid "_Previous Definition"
-msgstr "_Претходна дефиниција"
+msgstr "_Претходна одредница"
 
 #: ../data/gnome-dictionary-menus.ui.h:26
 msgid "_Next Definition"
-msgstr "_Следећа дефиниција"
+msgstr "_Следећа одредница"
 
 #: ../data/gnome-dictionary-menus.ui.h:27
 msgid "_First Definition"
-msgstr "_Прва дефиниција"
+msgstr "_Прва одредница"
 
 #: ../data/gnome-dictionary-menus.ui.h:28
 msgid "_Last Definition"
-msgstr "Пос_ледња дефиниција"
+msgstr "Пос_ледња одредница"
 
 #: ../data/gnome-dictionary-preferences.ui.h:1
 msgid "_Select a dictionary source for looking up words:"
@@ -301,8 +302,8 @@ msgid ""
 "Unable to connect to the dictionary server at '%s:%d'. The server replied "
 "with code %d (server down)"
 msgstr ""
-"Не могу да се повежем на сервер речника „%s:%d“. Сервер је одговорио кодом %"
-"d (сервер је оборен)"
+"Не могу да се повежем на сервер речника „%s:%d“. Сервер је одговорио кодом "
+"%d (сервер је оборен)"
 
 #: ../libgdict/gdict-client-context.c:1195
 #, c-format
@@ -719,9 +720,9 @@ msgstr "Нисам пронашао ниједну одредницу"
 #, c-format
 msgid "A definition found"
 msgid_plural "%d definitions found"
-msgstr[0] "Пронађох %d дефиницију"
-msgstr[1] "Пронађох %d дефиниције"
-msgstr[2] "Пронађох %d дефиниција"
+msgstr[0] "Пронађох %d одредницу"
+msgstr[1] "Пронађох %d одреднице"
+msgstr[2] "Пронађох %d одредница"
 msgstr[3] "Пронађена је једна дефиниција"
 
 #: ../src/gdict-window.c:458
@@ -819,6 +820,9 @@ msgstr "Доступне стратегије"
 #: ../src/gdict-window.c:1737
 msgid "Dictionary sources"
 msgstr "Извори речника"
+
+#~ msgid "Available _Databases"
+#~ msgstr "Доступне _базе података"
 
 #~ msgid "New look up"
 #~ msgstr "Нова претрага"
