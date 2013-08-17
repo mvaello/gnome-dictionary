@@ -4,15 +4,15 @@
 #
 # Andraž Tori <andraz.tori1@guest.arnes.si>, 2000.
 # Matic Žgur <mr.zgur@gmail.com>, 2006.
-# Matej Urbančič <mateju@svn.gnome.org>, 2007 - 2011.
+# Matej Urbančič <mateju@svn.gnome.org>, 2007-2013.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-utils master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "dictionary&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2012-11-14 18:46+0000\n"
-"PO-Revision-Date: 2012-11-14 19:52+0100\n"
+"POT-Creation-Date: 2013-08-06 11:46+0000\n"
+"PO-Revision-Date: 2013-08-17 15:58+0100\n"
 "Last-Translator: Matej Urbančič <mateju@svn.gnome.org>\n"
 "Language-Team: Slovenian GNOME Translation Team <gnome-si@googlegroups.com>\n"
 "Language: sl_SI\n"
@@ -126,8 +126,8 @@ msgid "Dictionary Sources"
 msgstr "Viri slovarja"
 
 #: ../data/gnome-dictionary-menus.ui.h:22
-msgid "Available _Databases"
-msgstr "Razpoložljive _zbirke podatkov"
+msgid "Available _Dictionaries"
+msgstr "_Razpoložljivi slovarji"
 
 #: ../data/gnome-dictionary-menus.ui.h:23
 msgid "Available St_rategies"
@@ -824,3 +824,6 @@ msgstr "Razpoložljive strategije"
 #: ../src/gdict-window.c:1737
 msgid "Dictionary sources"
 msgstr "Viri slovarja"
+
+#~ msgid "Available _Databases"
+#~ msgstr "Razpoložljive _zbirke podatkov"
