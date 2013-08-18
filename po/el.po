@@ -27,14 +27,14 @@
 # Nikos: 19Feb2004 update translation
 # Kostas: 14Jan2006 update for 2.14
 # Simos Xenitellis <simos.lists@googlemail.com>, 2010.
-# Dimitris Spingos (Δημήτρης Σπίγγος) <dmtrs32@gmail.com>, 2012.
+# Dimitris Spingos (Δημήτρης Σπίγγος) <dmtrs32@gmail.com>, 2012, 2013.
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-utils.gnome-2-26\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "dictionary&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2012-11-14 18:34+0000\n"
-"PO-Revision-Date: 2012-12-24 21:18+0300\n"
+"POT-Creation-Date: 2013-07-21 20:17+0000\n"
+"PO-Revision-Date: 2013-08-18 08:36+0300\n"
 "Last-Translator: Dimitris Spingos (Δημήτρης Σπίγγος) <dmtrs32@gmail.com>\n"
 "Language-Team: team@gnome.gr\n"
 "Language: el\n"
@@ -147,8 +147,9 @@ msgid "Dictionary Sources"
 msgstr "Πηγές λεξικού"
 
 #: ../data/gnome-dictionary-menus.ui.h:22
-msgid "Available _Databases"
-msgstr "Διαθέσιμες _βάσεις δεδομένων"
+#| msgid "Available dictionaries"
+msgid "Available _Dictionaries"
+msgstr "Διαθέσιμα _λεξικά"
 
 #: ../data/gnome-dictionary-menus.ui.h:23
 msgid "Available St_rategies"
@@ -853,6 +854,9 @@ msgstr "Διαθέσιμες στρατηγικές"
 #: ../src/gdict-window.c:1737
 msgid "Dictionary sources"
 msgstr "Πηγές λεξικού"
+
+#~ msgid "Available _Databases"
+#~ msgstr "Διαθέσιμες _βάσεις δεδομένων"
 
 #~ msgid "New look up"
 #~ msgstr "Νέα αναζήτηση"
