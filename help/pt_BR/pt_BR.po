@@ -6,8 +6,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-dictionary master\n"
-"POT-Creation-Date: 2013-04-10 21:37+0000\n"
-"PO-Revision-Date: 2013-05-06 21:18-0300\n"
+"POT-Creation-Date: 2013-08-02 11:23+0000\n"
+"PO-Revision-Date: 2013-08-07 08:08-0300\n"
 "Last-Translator: Rafael Ferreira <rafael.f.f1@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <gnome-pt_br-list@gnome.org>\n"
 "Language: pt_BR\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Poedit 1.5.5\n"
+"X-Generator: Poedit 1.5.7\n"
 "X-Project-Style: gnome\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
@@ -24,6 +24,24 @@ msgid "translator-credits"
 msgstr ""
 "Gabriel Barreto <gabrieljbl@gmail.com>, 2013\n"
 "Rafael Ferreira <rafael.f.f1@gmail.com>, 2013"
+
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#.
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/index.page:22(media)
+msgctxt "_"
+msgid ""
+"external ref='figures/gnome-dictionary-icon.png' "
+"md5='2f50c3a71e57be0b41efd43c2f7fae60'"
+msgstr ""
+"external ref='figures/gnome-dictionary-icon.png' "
+"md5='2f50c3a71e57be0b41efd43c2f7fae60'"
 
 #: C/index.page:8(info/title)
 msgctxt "text"
@@ -201,8 +219,8 @@ msgid ""
 "Your dictionary selection will not be remembered next time you use "
 "<app>Dictionary</app>."
 msgstr ""
-"A seleção de dicionário não será lembrado na próxima vez que você usar o"
-"<app>Dicionário</app>."
+"A seleção de dicionário não será lembrado na próxima vez que você usar "
+"o<app>Dicionário</app>."
 
 #: C/find.page:22(info/desc)
 msgid "Find text in a definition."
@@ -1017,14 +1035,6 @@ msgstr ""
 "Cola o texto em outro aplicativo. Isso normalmente pode ser feito usando o "
 "atalho de teclado <keyseq><key>Ctrl</key><key>P</key></keyseq> ou por meio "
 "de um dos menus."
-
-#~ msgctxt "_"
-#~ msgid ""
-#~ "external ref='figures/gnome-dictionary-application.png' "
-#~ "md5='fb48a9e5863bfb2b3811df2e28489eb7'"
-#~ msgstr ""
-#~ "external ref='figures/gnome-dictionary-application.png' "
-#~ "md5='ac4c3b2128523a69618e7bfd8985304d'"
 
 #~ msgctxt "_"
 #~ msgid ""
