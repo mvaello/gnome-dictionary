@@ -21,5 +21,12 @@
       <gnome:userid>ebassi</gnome:userid>
     </foaf:Person>
   </maintainer>
+  <maintainer>
+    <foaf:Person>
+      <foaf:name>Sindhu S</foaf:name>
+      <foaf:mbox rdf:resource="mailto:sindhus@live.in" />
+      <gnome:userid>sindhus</gnome:userid>
+    </foaf:Person>
+  </maintainer>
 
 </Project>
