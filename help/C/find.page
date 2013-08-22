@@ -32,7 +32,7 @@
     <title>To find definitions:</title>
     <item>
       <p>Select <guiseq><gui style="menu">Edit</gui>
-      <gui style="menitem">Find</gui></guiseq>.</p>
+      <gui style="menuitem">Find</gui></guiseq>.</p>
     </item>
     <item>
       <p>The <gui>Find</gui> bar will appear at the bottom of the
