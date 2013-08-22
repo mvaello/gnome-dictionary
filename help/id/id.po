@@ -8,8 +8,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-dictionary master\n"
-"POT-Creation-Date: 2013-07-23 09:30+0000\n"
-"PO-Revision-Date: 2013-08-22 20:04+0700\n"
+"POT-Creation-Date: 2013-08-22 13:08+0000\n"
+"PO-Revision-Date: 2013-08-22 20:10+0700\n"
 "Last-Translator: Andika Triwidada <andika@gmail.com>\n"
 "Language-Team: Indonesian <gnome@i15n.org>\n"
 "Language: id\n"
@@ -239,7 +239,7 @@ msgstr "Untuk mencari definisi:"
 
 #: C/find.page:34(item/p)
 msgid ""
-"Select <guiseq><gui style=\"menu\">Edit</gui> <gui style=\"menitem\">Find</"
+"Select <guiseq><gui style=\"menu\">Edit</gui> <gui style=\"menuitem\">Find</"
 "gui></guiseq>."
 msgstr ""
 "Pilih <guiseq><gui style=\"menu\">Sunting</gui> <gui style=\"menuitem>Cari</"
@@ -750,7 +750,7 @@ msgstr "Lihat hasil terkait di kamus lain."
 
 #: C/similar-words.page:29(page/p)
 msgid ""
-"<app>Dictionary</app> will only display the definition from one your "
+"<app>Dictionary</app> will only display the definition from one of your "
 "dictionaries. To check if there are search results in other dictionaries:"
 msgstr ""
 "<app>Kamus</app> hanya akan menampilkan definisi dari salah satu kamus Anda. "
