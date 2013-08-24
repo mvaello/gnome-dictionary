@@ -22,8 +22,8 @@ msgstr ""
 "Project-Id-Version: gnome-utils HEAD\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "dictionary&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2012-11-14 18:34+0000\n"
-"PO-Revision-Date: 2013-01-23 12:18+0100\n"
+"POT-Creation-Date: 2013-07-18 11:41+0000\n"
+"PO-Revision-Date: 2013-08-24 17:12+0200\n"
 "Last-Translator: Bruno Brouard <annoa.b@gmail.com>\n"
 "Language-Team: GNOME French Team <gnomefr@traduc.org>\n"
 "Language: \n"
@@ -136,8 +136,8 @@ msgid "Dictionary Sources"
 msgstr "Sources de Dictionnaire"
 
 #: ../data/gnome-dictionary-menus.ui.h:22
-msgid "Available _Databases"
-msgstr "_Bases de données disponibles"
+msgid "Available _Dictionaries"
+msgstr "_Dictionnaires disponibles"
 
 #: ../data/gnome-dictionary-menus.ui.h:23
 msgid "Available St_rategies"
@@ -847,3 +847,6 @@ msgstr "Stratégies disponibles"
 #: ../src/gdict-window.c:1737
 msgid "Dictionary sources"
 msgstr "Sources de Dictionnaire"
+
+#~ msgid "Available _Databases"
+#~ msgstr "_Bases de données disponibles"

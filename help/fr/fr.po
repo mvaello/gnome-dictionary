@@ -5,13 +5,13 @@
 #
 # Jonathan Ernst <jonathan@ernstfamily.ch>, 2006.
 # Claude Paroz <paroz@email.ch>, 2006.
-# Mickael Albertus <mickael.albertus@gmail.com>, 2012.
+# Mickael Albertus <mickael.albertus@gmail.com>, 2012, 2013.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-utils-dictionary documentation\n"
-"POT-Creation-Date: 2012-09-15 15:05+0000\n"
-"PO-Revision-Date: 2012-09-15 21:37+0200\n"
+"POT-Creation-Date: 2013-08-24 13:57+0000\n"
+"PO-Revision-Date: 2013-08-24 17:09+0200\n"
 "Last-Translator: Mickael Albertus <mickael.albertus@gmail.com>\n"
 "Language-Team: français <gnomefr@traduc.org>\n"
 "Language: \n"
@@ -28,7 +28,7 @@ msgid "translator-credits"
 msgstr ""
 "Jonathan Ernst <jonathan@ernstfamily.ch>, 2006\n"
 "Claude Paroz <paroz@email.ch>, 2006\n"
-"Mickael Albertus <mickael.albertus@gmail.com>, 2012"
+"Mickael Albertus <mickael.albertus@gmail.com>, 2012-2013"
 
 #. This is a reference to an external file such as an image or video. When
 #. the file changes, the md5 hash will change to let you know you need to
@@ -39,830 +39,1316 @@ msgstr ""
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
-#: C/index.docbook:150(imagedata)
+#: C/index.page:22(media)
 msgctxt "_"
 msgid ""
-"external ref='figures/gnome-dictionary-application.png' "
-"md5='fb48a9e5863bfb2b3811df2e28489eb7'"
+"external ref='figures/gnome-dictionary-icon.png' "
+"md5='2f50c3a71e57be0b41efd43c2f7fae60'"
 msgstr ""
-"external ref='figures/gnome-dictionary-application.png' "
-"md5='fb48a9e5863bfb2b3811df2e28489eb7'"
+"external ref='figures/gnome-dictionary-icon.png' "
+"md5='2f50c3a71e57be0b41efd43c2f7fae60'"
 
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#.
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/index.docbook:179(imagedata)
-msgctxt "_"
-msgid ""
-"external ref='figures/gnome-dictionary-lookup.png' "
-"md5='c41c96af4de54f457a2081aad009a8d0'"
-msgstr ""
-"external ref='figures/gnome-dictionary-lookup.png' "
-"md5='c41c96af4de54f457a2081aad009a8d0'"
+#: C/index.page:8(info/title)
+msgctxt "text"
+msgid "Dictionary"
+msgstr "Dictionnaire"
 
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#.
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/index.docbook:221(imagedata)
-msgctxt "_"
-msgid ""
-"external ref='figures/gnome-dictionary-find.png' "
-"md5='d8bf0677084e2d9998a7942faaab5379'"
-msgstr ""
-"external ref='figures/gnome-dictionary-find.png' "
-"md5='d8bf0677084e2d9998a7942faaab5379'"
+#: C/index.page:11(credit/name) C/definition.page:11(credit/name)
+#: C/dictionary-select.page:11(credit/name) C/find.page:10(credit/name)
+#: C/introduction.page:10(credit/name)
+#: C/keyboard-shortcuts.page:11(credit/name) C/pref.page:9(credit/name)
+#: C/print-font.page:11(credit/name) C/print.page:12(credit/name)
+#: C/prob-retrieving-definition.page:11(credit/name)
+#: C/save-definition.page:10(credit/name) C/similar-words.page:11(credit/name)
+#: C/source-add-local.page:11(credit/name)
+#: C/sources-default.page:10(credit/name)
+#: C/sources-delete.page:11(credit/name) C/sources-edit.page:10(credit/name)
+#: C/sources.page:12(credit/name) C/sources-select.page:12(credit/name)
+#: C/text-copy.page:11(credit/name)
+msgid "Sindhu S"
+msgstr "Sindhu S"
 
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#.
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/index.docbook:262(imagedata)
-msgctxt "_"
-msgid ""
-"external ref='figures/gnome-dictionary-preferences-source.png' "
-"md5='5470b15e64e66924477f150c4f47e96d'"
-msgstr ""
-"external ref='figures/gnome-dictionary-preferences-source.png' "
-"md5='5470b15e64e66924477f150c4f47e96d'"
+#: C/index.page:13(credit/years) C/definition.page:13(credit/years)
+#: C/definition.page:18(credit/years)
+#: C/dictionary-select.page:13(credit/years)
+#: C/dictionary-select.page:18(credit/years) C/find.page:12(credit/years)
+#: C/find.page:17(credit/years) C/introduction.page:12(credit/years)
+#: C/introduction.page:17(credit/years)
+#: C/keyboard-shortcuts.page:13(credit/years)
+#: C/keyboard-shortcuts.page:18(credit/years)
+#: C/print-font.page:13(credit/years) C/print-font.page:18(credit/years)
+#: C/print.page:14(credit/years) C/print.page:19(credit/years)
+#: C/prob-retrieving-definition.page:13(credit/years)
+#: C/prob-retrieving-definition.page:18(credit/years)
+#: C/save-definition.page:12(credit/years)
+#: C/save-definition.page:17(credit/years)
+#: C/similar-words.page:13(credit/years) C/similar-words.page:18(credit/years)
+#: C/source-add-local.page:13(credit/years)
+#: C/sources-default.page:12(credit/years)
+#: C/sources-default.page:17(credit/years)
+#: C/sources-delete.page:13(credit/years)
+#: C/sources-delete.page:18(credit/years) C/sources-edit.page:12(credit/years)
+#: C/sources-edit.page:17(credit/years) C/sources.page:14(credit/years)
+#: C/sources.page:19(credit/years) C/sources-select.page:14(credit/years)
+#: C/sources-select.page:19(credit/years) C/text-copy.page:13(credit/years)
+#: C/text-copy.page:18(credit/years)
+msgid "2013"
+msgstr "2013"
 
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#.
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/index.docbook:282(imagedata)
-msgctxt "_"
-msgid ""
-"external ref='figures/gnome-dictionary-add-source.png' "
-"md5='d059507fee77bb176fce53373951756b'"
-msgstr ""
-"external ref='figures/gnome-dictionary-add-source.png' "
-"md5='d059507fee77bb176fce53373951756b'"
+#: C/index.page:18(info/desc)
+msgid "Look up word definitions in <app>Dictionary</app>."
+msgstr "Rechercher des définitions de mots avec <app>Dictionnaire</app>."
 
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#.
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/index.docbook:351(imagedata)
-msgctxt "_"
-msgid ""
-"external ref='figures/gnome-dictionary-preferences-print.png' "
-"md5='12a65f07cb333db4c7ba743d1d12a00f'"
-msgstr ""
-"external ref='figures/gnome-dictionary-preferences-print.png' "
-"md5='12a65f07cb333db4c7ba743d1d12a00f'"
+#: C/index.page:21(page/title)
+msgid "<_:media-1/> Dictionary Help"
+msgstr "<_:media-1/> Manuel du Dictionnaire"
 
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#.
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/index.docbook:385(imagedata)
-msgctxt "_"
-msgid ""
-"external ref='figures/gnome-dictionary-applet.png' "
-"md5='538c7fa191540f99dd964963a1079677'"
-msgstr ""
-"external ref='figures/gnome-dictionary-applet.png' "
-"md5='538c7fa191540f99dd964963a1079677'"
+#: C/index.page:26(section/title)
+msgid "Features"
+msgstr "Fonctionnalités"
 
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#.
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/index.docbook:421(imagedata)
-msgctxt "_"
-msgid ""
-"external ref='figures/gnome-dictionary-applet-window.png' "
-"md5='e26ac4847d2e7b53c6bba7d8e1a519c4'"
-msgstr ""
-"external ref='figures/gnome-dictionary-applet-window.png' "
-"md5='e26ac4847d2e7b53c6bba7d8e1a519c4'"
-
-#: C/index.docbook:24(articleinfo/title)
-msgid "Dictionary Manual"
-msgstr "Manuel du dictionnaire"
-
-#: C/index.docbook:27(abstract/para)
-msgid ""
-"Dictionary enables you to look up definitions and correct spellings of words."
-msgstr ""
-"Le Dictionnaire permet de consulter des définitions et de corriger "
-"l'orthographe."
-
-#: C/index.docbook:33(articleinfo/copyright)
-msgid "<year>2005</year> <holder>Emmanuele Bassi</holder>"
-msgstr "<year>2005</year> <holder>Emmanuele Bassi</holder>"
-
-#: C/index.docbook:48(publisher/publishername)
-#: C/index.docbook:83(revdescription/para)
-msgid "GNOME Documentation Project"
-msgstr "Le projet de documentation GNOME"
-
-#: C/index.docbook:2(legalnotice/para)
-msgid ""
-"Permission is granted to copy, distribute and/or modify this document under "
-"the terms of the GNU Free Documentation License (GFDL), Version 1.1 or any "
-"later version published by the Free Software Foundation with no Invariant "
-"Sections, no Front-Cover Texts, and no Back-Cover Texts. You can find a copy "
-"of the GFDL at this <ulink type=\"help\" url=\"help:fdl\">link</ulink> or in "
-"the file COPYING-DOCS distributed with this manual."
-msgstr ""
-"Permission vous est donnée de copier, distribuer et/ou modifier ce document "
-"selon les termes de la Licence GNU Free Documentation License, Version 1.1 "
-"ou ultérieure publiée par la Free Software Foundation sans section "
-"inaltérable, sans texte de première page de couverture ni texte de dernière "
-"page de couverture. Vous trouverez un exemplaire de cette licence en suivant "
-"ce <ulink type=\"help\" url=\"help:fdl\">lien</ulink> ou dans le fichier "
-"COPYING-DOCS fourni avec le présent manuel."
-
-#: C/index.docbook:12(legalnotice/para) C/legal.xml:12(legalnotice/para)
-msgid ""
-"This manual is part of a collection of GNOME manuals distributed under the "
-"GFDL. If you want to distribute this manual separately from the collection, "
-"you can do so by adding a copy of the license to the manual, as described in "
-"section 6 of the license."
-msgstr ""
-"Ce manuel fait partie de la collection de manuels GNOME distribués selon les "
-"termes de la licence de documentation libre GNU. Si vous souhaitez "
-"distribuer ce manuel indépendamment de la collection, vous devez joindre un "
-"exemplaire de la licence au document, comme indiqué dans la section 6 de "
-"celle-ci."
-
-#: C/index.docbook:19(legalnotice/para) C/legal.xml:19(legalnotice/para)
-msgid ""
-"Many of the names used by companies to distinguish their products and "
-"services are claimed as trademarks. Where those names appear in any GNOME "
-"documentation, and the members of the GNOME Documentation Project are made "
-"aware of those trademarks, then the names are in capital letters or initial "
-"capital letters."
-msgstr ""
-"La plupart des noms utilisés par les entreprises pour distinguer leurs "
-"produits et services sont des marques déposées. Lorsque ces noms "
-"apparaissent dans la documentation GNOME et que les membres du projet de "
-"Documentation GNOME sont informés de l'existence de ces marques déposées, "
-"soit ces noms entiers, soit leur première lettre est en majuscule."
-
-#: C/index.docbook:35(listitem/para) C/legal.xml:35(listitem/para)
-msgid ""
-"DOCUMENT IS PROVIDED ON AN \"AS IS\" BASIS, WITHOUT WARRANTY OF ANY KIND, "
-"EITHER EXPRESSED OR IMPLIED, INCLUDING, WITHOUT LIMITATION, WARRANTIES THAT "
-"THE DOCUMENT OR MODIFIED VERSION OF THE DOCUMENT IS FREE OF DEFECTS "
-"MERCHANTABLE, FIT FOR A PARTICULAR PURPOSE OR NON-INFRINGING. THE ENTIRE "
-"RISK AS TO THE QUALITY, ACCURACY, AND PERFORMANCE OF THE DOCUMENT OR "
-"MODIFIED VERSION OF THE DOCUMENT IS WITH YOU. SHOULD ANY DOCUMENT OR "
-"MODIFIED VERSION PROVE DEFECTIVE IN ANY RESPECT, YOU (NOT THE INITIAL "
-"WRITER, AUTHOR OR ANY CONTRIBUTOR) ASSUME THE COST OF ANY NECESSARY "
-"SERVICING, REPAIR OR CORRECTION. THIS DISCLAIMER OF WARRANTY CONSTITUTES AN "
-"ESSENTIAL PART OF THIS LICENSE. NO USE OF ANY DOCUMENT OR MODIFIED VERSION "
-"OF THE DOCUMENT IS AUTHORIZED HEREUNDER EXCEPT UNDER THIS DISCLAIMER; AND"
-msgstr ""
-"LE PRÉSENT DOCUMENT EST FOURNI « TEL QUEL », SANS AUCUNE GARANTIE, EXPRESSE "
-"OU IMPLICITE, Y COMPRIS, ET SANS LIMITATION, LES GARANTIES DE BONNE QUALITÉ "
-"MARCHANDE OU D'APTITUDE À UN EMPLOI PARTICULIER OU AUTORISÉ DU DOCUMENT OU "
-"DE SA VERSION MODIFIÉE. L'UTILISATEUR ASSUME TOUT RISQUE RELATIF À LA "
-"QUALITÉ, À LA PERTINENCE ET À LA PERFORMANCE DU DOCUMENT OU DE SA VERSION DE "
-"MISE À JOUR. SI LE DOCUMENT OU SA VERSION MODIFIÉE S'AVÉRAIT DÉFECTUEUSE, "
-"L'UTILISATEUR (ET NON LE RÉDACTEUR INITIAL, L'AUTEUR, NI TOUT AUTRE "
-"PARTICIPANT) ENDOSSERA LES COÛTS DE TOUTE INTERVENTION, RÉPARATION OU "
-"CORRECTION NÉCESSAIRE. CETTE DÉNÉGATION DE RESPONSABILITÉ CONSTITUE UNE "
-"PARTIE ESSENTIELLE DE CETTE LICENCE. AUCUNE UTILISATION DE CE DOCUMENT OU DE "
-"SA VERSION MODIFIÉE N'EST AUTORISÉE AUX TERMES DU PRÉSENT ACCORD, EXCEPTÉ "
-"SOUS CETTE DÉNÉGATION DE RESPONSABILITÉ ; "
-
-#: C/index.docbook:55(listitem/para) C/legal.xml:55(listitem/para)
-msgid ""
-"UNDER NO CIRCUMSTANCES AND UNDER NO LEGAL THEORY, WHETHER IN TORT (INCLUDING "
-"NEGLIGENCE), CONTRACT, OR OTHERWISE, SHALL THE AUTHOR, INITIAL WRITER, ANY "
-"CONTRIBUTOR, OR ANY DISTRIBUTOR OF THE DOCUMENT OR MODIFIED VERSION OF THE "
-"DOCUMENT, OR ANY SUPPLIER OF ANY OF SUCH PARTIES, BE LIABLE TO ANY PERSON "
-"FOR ANY DIRECT, INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES OF "
-"ANY CHARACTER INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOSS OF GOODWILL, "
-"WORK STOPPAGE, COMPUTER FAILURE OR MALFUNCTION, OR ANY AND ALL OTHER DAMAGES "
-"OR LOSSES ARISING OUT OF OR RELATING TO USE OF THE DOCUMENT AND MODIFIED "
-"VERSIONS OF THE DOCUMENT, EVEN IF SUCH PARTY SHALL HAVE BEEN INFORMED OF THE "
-"POSSIBILITY OF SUCH DAMAGES."
-msgstr ""
-"EN AUCUNE CIRCONSTANCE ET SOUS AUCUNE INTERPRÉTATION DE LA LOI, QU'IL "
-"S'AGISSE DE RESPONSABILITÉ CIVILE (Y COMPRIS LA NÉGLIGENCE), CONTRACTUELLE "
-"OU AUTRE, L'AUTEUR, LE RÉDACTEUR INITIAL, TOUT PARTICIPANT ET TOUT "
-"DISTRIBUTEUR DE CE DOCUMENTOU DE SA VERSION DE MISE À JOUR AINSI QUE TOUT "
-"FOURNISSEUR DE QUELQUE PARTIE QUE CE SOIT NE POURRONT ÊTRE TENUS "
-"RESPONSABLES À L'ÉGARD DE QUICONQUE POUR TOUT DOMMAGE DIRECT, INDIRECT, "
-"PARTICULIER OU ACCIDENTEL DE TOUT TYPE Y COMPRIS, SANS LIMITATION, LES "
-"DOMMAGES LIÉS À LA PERTE DE CLIENTÈLE, AUX ARRÊTS DE TRAVAIL, AUX "
-"DÉFAILLANCES ET AUX DYSFONCTIONNEMENTS INFORMATIQUES OU TOUT AUTRE DOMMAGE "
-"OU PERTE LIÉE À L'UTILISATION DU PRÉSENT DOCUMENT ET DE SES VERSIONS DE MISE "
-"À JOUR, ET CE MÊME SI CES PARTIES ONT ÉTÉ INFORMÉES DE LA POSSIBILITÉ DE "
-"TELS DOMMAGES."
-
-#: C/index.docbook:28(legalnotice/para) C/legal.xml:28(legalnotice/para)
-msgid ""
-"DOCUMENT AND MODIFIED VERSIONS OF THE DOCUMENT ARE PROVIDED UNDER THE TERMS "
-"OF THE GNU FREE DOCUMENTATION LICENSE WITH THE FURTHER UNDERSTANDING THAT: "
-"<_:orderedlist-1/>"
-msgstr ""
-"LE PRÉSENT DOCUMENT ET SES VERSIONS MODIFIÉES SONT FOURNIS SELON LES TERMES "
-"DE LA LICENCE DE DOCUMENTATION LIBRE GNU SACHANT QUE : <_:orderedlist-1/>"
-
-#: C/index.docbook:54(authorgroup/author)
-msgid ""
-"<firstname>Emmanuele</firstname> <surname>Bassi</surname> <affiliation> "
-"<address><email>ebassi@gmail.com</email></address> </affiliation>"
-msgstr ""
-"<firstname>Emmanuele</firstname> <surname>Bassi</surname> <affiliation> "
-"<address><email>ebassi@gmail.com</email></address> </affiliation>"
-
-#: C/index.docbook:82(revdescription/para)
-msgid "Emmanuele Bassi"
-msgstr "Emmanuele Bassi"
-
-#: C/index.docbook:78(revhistory/revision)
-msgid ""
-"<revnumber>Dictionary Manual V1.0.0</revnumber> <date>January 2005</date> <_:"
-"revdescription-1/>"
-msgstr ""
-"<revnumber>Manuel de Dictionnaire V1.0.0</revnumber> <date>Janvier 2005</"
-"date> <_:revdescription-1/>"
-
-#: C/index.docbook:88(articleinfo/releaseinfo)
-msgid "This manual describes version 2.14.0 of Dictionary."
-msgstr "Ce manuel décrit la version 2.14.0 du dictionnaire"
-
-#: C/index.docbook:90(legalnotice/title)
-msgid "Feedback"
-msgstr "Votre avis"
-
-#: C/index.docbook:91(legalnotice/para)
-msgid ""
-"To report a bug or make a suggestion regarding the Dictionary application or "
-"this manual, follow the directions in the <ulink url=\"help:gnome-feedback\" "
-"type=\"help\">GNOME Feedback Page</ulink>."
-msgstr ""
-"Pour rapporter une anomalie ou émettre une suggestion concernant le "
-"Dictionnaire ou ce manuel, procédez comme indiqué sur la <ulink url=\"help:"
-"gnome-feedback\" type=\"help\">page de réactions sur GNOME</ulink>."
-
-#: C/index.docbook:100(article/indexterm)
-msgid "<primary>Dictionary</primary>"
-msgstr "<primary>Dictionnaire</primary>"
-
-#: C/index.docbook:107(sect1/title)
-msgid "Introduction"
-msgstr "Introduction"
-
-#: C/index.docbook:109(sect1/para)
-msgid ""
-"The <application>Dictionary</application> application enables you to search "
-"words and terms on a dictionary source."
-msgstr ""
-"Le <application>Dictionnaire</application> permet de rechercher des "
-"définitions de mots et de termes à partir d'un dictionnaire source."
-
-#: C/index.docbook:116(sect1/title)
-msgid "Getting Started"
-msgstr "Premiers pas"
-
-#: C/index.docbook:120(sect2/title)
-msgid "To Start Dictionary"
-msgstr "Démarrage du Dictionnaire"
-
-#: C/index.docbook:122(sect2/para)
-msgid ""
-"You can start <application>Dictionary</application> in the following ways:"
-msgstr ""
-"Le <application>Dictionnaire</application> peut être lancé de plusieurs "
-"manières :"
-
-#: C/index.docbook:127(varlistentry/term)
-msgid "<guimenu>Applications</guimenu> menu"
-msgstr "Menu <guimenu>Applications</guimenu>"
-
-#: C/index.docbook:129(listitem/para)
-msgid ""
-"Choose <menuchoice><guisubmenu>Accessories</guisubmenu> "
-"<guimenuitem>Dictionary</guimenuitem></menuchoice>."
-msgstr ""
-"Choisissez <menuchoice><guisubmenu>Accessoires</"
-"guisubmenu><guimenuitem>Dictionnaire</guimenuitem></menuchoice>."
-
-#: C/index.docbook:135(varlistentry/term)
-msgid "Command line"
-msgstr "Ligne de commande"
-
-#: C/index.docbook:137(listitem/para)
-msgid "Execute the following command: <command>gnome-dictionary</command>"
-msgstr "Exécutez la commande suivante : <command>gnome-dictionary</command>"
-
-#: C/index.docbook:142(sect2/para)
-msgid ""
-"Once started, the <application>Dictionary</application> window is displayed:"
-msgstr ""
-"La fenêtre suivante est affichée au lancement du <application>Dictionnaire</"
-"application> :"
-
-#: C/index.docbook:146(figure/title) C/index.docbook:175(figure/title)
-#: C/index.docbook:217(figure/title) C/index.docbook:258(figure/title)
-#: C/index.docbook:278(figure/title) C/index.docbook:347(figure/title)
-msgid "Dictionary Window"
-msgstr "Fenêtre du Dictionnaire"
-
-#: C/index.docbook:148(screenshot/mediaobject)
-msgid ""
-"<imageobject> <imagedata fileref=\"figures/gnome-dictionary-application.png"
-"\" format=\"PNG\"/> </imageobject> <textobject><phrase>Shows Dictionary main "
-"window.</phrase></textobject>"
-msgstr ""
-"<imageobject> <imagedata fileref=\"figures/gnome-dictionary-application.png"
-"\" format=\"PNG\"/> </imageobject> <textobject><phrase>Affiche la fenêtre "
-"principale du Dictionnaire.</phrase></textobject>"
-
-#: C/index.docbook:163(sect1/title)
-msgid "Usage"
-msgstr "Utilisation"
-
-#: C/index.docbook:166(sect2/title)
-msgid "Looking up a word"
-msgstr "Recherche d'un mot"
-
-#: C/index.docbook:168(sect2/para)
-msgid ""
-"To look up a word, type it into the <guilabel>entry field</guilabel> and "
-"press <keycap>Enter</keycap>."
-msgstr ""
-"Pour rechercher un mot, saisissez-le dans la <guilabel>zone de recherche</"
-"guilabel> et appuyez sur <keycap>Entrée</keycap>."
-
-#: C/index.docbook:171(sect2/para)
-msgid ""
-"If some definition for the word is found, it will appear inside the main "
-"window area:"
-msgstr ""
-"Si une définition du mot est trouvée, elle apparaît dans la zone principale "
-"de la fenêtre :"
-
-#: C/index.docbook:177(screenshot/mediaobject)
-msgid ""
-"<imageobject> <imagedata fileref=\"figures/gnome-dictionary-lookup.png\" "
-"format=\"PNG\"/> </imageobject> <textobject><phrase>Shows a definition "
-"inside the Dictionary main window.</phrase></textobject>"
-msgstr ""
-"<imageobject> <imagedata fileref=\"figures/gnome-dictionary-lookup.png\" "
-"format=\"PNG\"/> </imageobject> <textobject><phrase>Affiche une définition à "
-"l'intérieur de la fenêtre principale du Dictionnaire.</phrase></textobject>"
-
-#: C/index.docbook:186(sect2/para)
-msgid ""
-"Otherwise, an error dialog will appear, with a message explaining the nature "
-"of the error."
-msgstr "Dans le cas contraire, un message d'erreur explicatif apparaîtra."
-
-#: C/index.docbook:192(sect2/title)
-msgid "Save look up results"
-msgstr "Enregistrement des résultats d'une recherche"
-
-#: C/index.docbook:194(sect2/para)
-msgid ""
-"To save the results of a look up, choose <menuchoice><guimenu>File</"
-"guimenu><guimenuitem>Save a Copy</guimenuitem></menuchoice>. Enter a name "
-"for the file in the <guilabel>Save a Copy</guilabel> dialog, then click "
-"<guibutton>Save</guibutton>."
-msgstr ""
-"Pour enregistrer les résultats d'une recherche, choisissez "
-"<menuchoice><guimenu>Fichier</guimenu><guimenuitem>Enregistrer une copie</"
-"guimenuitem></menuchoice>. Saisissez un nom de fichier dans la boîte de "
-"dialogue <guilabel>Enregistrer une copie</guilabel>, puis cliquez sur "
-"<guibutton>Enregistrer</guibutton>."
-
-#: C/index.docbook:199(sect2/title)
-msgid "Print look up results"
-msgstr "Impression des résultats d'une recherche"
-
-#: C/index.docbook:201(sect2/para)
-msgid ""
-"To print the results of a look up, choose <menuchoice><guimenu>File</"
-"guimenu><guimenuitem>Print</guimenuitem></menuchoice>."
-msgstr ""
-"Pour imprimer les résultats d'une recherche, choisissez "
-"<menuchoice><guimenu>Fichier</guimenu><guimenuitem>Imprimer</guimenuitem></"
-"menuchoice>."
-
-#: C/index.docbook:203(sect2/para)
-msgid ""
-"Inside the <guilabel>Print</guilabel> dialog you can select the printer to "
-"use, the paper format, the number of copies."
-msgstr ""
-"Dans la boîte de dialogue <guilabel>Imprimer</guilabel>, il est possible de "
-"choisir l'imprimante, le format du papier et le nombre de copies."
-
-#: C/index.docbook:206(sect2/para)
-msgid ""
-"To see a preview of what will be printed, click <guibutton>Preview</"
-"guibutton>."
-msgstr ""
-"Pour prévisualiser l'impression, cliquez sur <guibutton>Aperçu avant "
-"impression</guibutton>."
-
-#: C/index.docbook:209(sect2/para)
-msgid "To print, click <guibutton>Print</guibutton>."
-msgstr "Pour imprimer, cliquez sur <guibutton>Imprimer</guibutton>."
-
-#: C/index.docbook:214(sect2/title)
-msgid "Find Text"
-msgstr "Recherche de texte"
-
-#: C/index.docbook:219(screenshot/mediaobject)
-msgid ""
-"<imageobject> <imagedata fileref=\"figures/gnome-dictionary-find.png\" "
-"format=\"PNG\"/> </imageobject> <textobject><phrase>Shows the Dictionary "
-"Find pane inside the main window.</phrase></textobject>"
-msgstr ""
-"<imageobject> <imagedata fileref=\"figures/gnome-dictionary-find.png\" "
-"format=\"PNG\"/> </imageobject> <textobject><phrase>Affiche le volet de "
-"recherche à l'intérieur de la fenêtre principale du Dictionnaire.</phrase></"
-"textobject>"
-
-#: C/index.docbook:229(sect2/para)
-msgid ""
-"To find text inside the results of a look up, perform the following steps:"
-msgstr ""
-"Pour rechercher du texte à l'intérieur des résultats d'une requête, "
-"effectuez les opérations suivantes :"
-
-#: C/index.docbook:233(listitem/para)
-msgid ""
-"Choose <menuchoice> <guimenu>Edit</guimenu> <guimenuitem>Find</guimenuitem> "
-"</menuchoice> to display the <guilabel>Find</guilabel> pane."
-msgstr ""
-"Choisissez <menuchoice><guimenu>Édition</guimenu><guimenuitem>Rechercher</"
-"guimenuitem></menuchoice> afin d'afficher le volet <guilabel>Rechercher</"
-"guilabel>."
-
-#: C/index.docbook:235(listitem/para)
-msgid ""
-"Type the text you want to find inside the <guilabel>Search</guilabel> entry."
-msgstr ""
-"Saisissez le texte souhaité dans le champ <guilabel>Rechercher</guilabel>."
-
-#: C/index.docbook:237(listitem/para)
-msgid ""
-"To find the next occurrence of the text, click <guibutton>Next</guibutton>. "
-"To find the previous occurrence of the text, click <guibutton>Previous</"
-"guibutton>."
-msgstr ""
-"Pour rechercher la prochaine occurrence du texte, cliquez sur le bouton "
-"<guibutton>Suivant</guibutton>. Pour rechercher l'occurrence précédente, "
-"cliquez sur <guibutton>Précédent</guibutton>."
-
-#: C/index.docbook:248(sect1/title) C/index.docbook:438(sect2/title)
+#: C/index.page:30(section/title)
 msgid "Preferences"
 msgstr "Préférences"
 
-#: C/index.docbook:250(sect1/para)
-msgid ""
-"To change the <application>Dictionary</application> application preferences, "
-"choose <menuchoice><guimenu>Edit</guimenu><guimenuitem>Preferences</"
-"guimenuitem></menuchoice>."
-msgstr ""
-"Pour modifier les préférences de l'application <application>Dictionnaire</"
-"application>, choisissez <menuchoice><guimenu>Édition</"
-"guimenu><guimenuitem>Préférences</guimenuitem></menuchoice>."
+#: C/index.page:34(section/title)
+msgid "Common problems and solutions"
+msgstr "Problèmes courants et solutions"
 
-#: C/index.docbook:255(sect2/title)
-msgid "Dictionary Sources"
+#: C/definition.page:16(credit/name) C/dictionary-select.page:16(credit/name)
+#: C/find.page:15(credit/name) C/introduction.page:15(credit/name)
+#: C/keyboard-shortcuts.page:16(credit/name) C/print-font.page:16(credit/name)
+#: C/print.page:17(credit/name)
+#: C/prob-retrieving-definition.page:16(credit/name)
+#: C/save-definition.page:15(credit/name) C/similar-words.page:16(credit/name)
+#: C/sources-default.page:15(credit/name)
+#: C/sources-delete.page:16(credit/name) C/sources-edit.page:15(credit/name)
+#: C/sources.page:17(credit/name) C/sources-select.page:17(credit/name)
+#: C/text-copy.page:16(credit/name)
+msgid "Ekaterina Gerasimova"
+msgstr "Ekaterina Gerasimova"
+
+#: C/definition.page:23(info/desc)
+msgid "Find the definition of a word or term."
+msgstr "Trouver la définition d'un mot ou d'un terme."
+
+#: C/definition.page:27(page/title)
+msgid "Look up a word or term"
+msgstr "Recherche d'un mot ou d'un terme"
+
+#: C/definition.page:29(page/p)
+msgid ""
+"You can use <app>Dictionary</app> to look up the meaning of a <em>term</em>. "
+"A term can be a single word such as <input>apple</input> or a compound word "
+"such as <input>chopping board</input>. The search result may also show you "
+"the origin, importance and usage of a word. To look up a term:"
+msgstr ""
+"Vous pouvez utiliser <app>Dictionnaire</app> pour chercher le sens d'un "
+"<em>mot</em>. Cela peut aussi bien être un simple mot comme <input>pomme</"
+"input> ou un mot composé tel que <input>conseil d'administration</input>. Le "
+"résultat de la recherche peut également vous préciser l'origine, "
+"l'importance et l'usage d'un mot. Pour rechercher un mot :"
+
+#: C/definition.page:37(item/p)
+msgid ""
+"Type in the term that you want to search for next to <gui>Look up</gui>."
+msgstr ""
+"Tapez le mot que vous voulez rechercher à côté de <gui>Rechercher</gui>."
+
+#: C/definition.page:41(item/p)
+msgid ""
+"Press <key>Return</key> or <gui style=\"button\">Look up:</gui> to search."
+msgstr ""
+"Appuyez sur <key>Entrée</key> ou <gui style=\"button\">Rechercher :</gui> "
+"afin d'effectuer une recherche."
+
+#: C/definition.page:46(page/p)
+msgid ""
+"<app>Dictionary</app> will search your selected dictionary source and show "
+"you the result from the first dictionary in the source. To view results from "
+"the other dictionaries that are in the same source, select <link xref="
+"\"similar-words\"><guiseq><gui style=\"menu\">View</gui> <gui style="
+"\"menuitem\">Similar Words</gui></guiseq></link> to pop up a sidebar that "
+"shows all the results."
+msgstr ""
+"<app>Dictionnaire</app> recherche dans la source de dictionnaires que vous avez "
+"sélectionné et affiche le résultat du premier dictionnaire de cette source. "
+"Pour afficher les résultats des autres dictionnaires qui appartiennent à la "
+"même source, sélectionnez <link xref=\"similar-words\"><guiseq><gui style="
+"\"menu\">Affichage</gui> <gui style=\"menuitem\">Mots similaires</gui></"
+"guiseq></link> afin de faire apparaître une barre latérale qui montre tous "
+"les résultats."
+
+#: C/dictionary-select.page:25(page/title)
+msgid "Select a different dictionary"
+msgstr "Sélection d'un dictionnaire différent"
+
+#: C/dictionary-select.page:27(page/p)
+msgid ""
+"A single <link xref=\"sources\">dictionary source</link> may have many "
+"different dictionaries. You can search any of these dictionaries."
+msgstr ""
+"Une seule <link xref=\"sources\">source de dictionnaire</link> peut contenir "
+"plusieurs dictionnaires. Vous pouvez chercher dans celui que vous voulez."
+
+#: C/dictionary-select.page:32(steps/title)
+msgid "Select a dictionary"
+msgstr "Sélection d'un dictionnaire"
+
+#: C/dictionary-select.page:34(item/p)
+msgid ""
+"Select <guiseq><gui style=\"menu\">View</gui> <gui style=\"menuitem"
+"\">Available Databases</gui></guiseq>. A sidebar listing the available "
+"dictionaries for your currently selected dictionary source will open."
+msgstr ""
+"Sélectionnez <guiseq><gui style=\"menu\">Affichage</gui> <gui style="
+"\"menuitem\">Bases de données disponibles</gui></guiseq>. Une barre latérale "
+"liste les dictionnaires disponibles par rapport à la source de dictionnaires "
+"actuellement choisie s'affichera."
+
+#: C/dictionary-select.page:40(item/p)
+msgid "Click twice on the dictionary that you want to use."
+msgstr "Double-cliquez sur le dictionnaire que vous souhaitez utiliser."
+
+#: C/dictionary-select.page:44(page/p)
+msgid ""
+"The next term that you <link xref=\"definition\">look up</link> will show "
+"the result only from the selected dictionary."
+msgstr ""
+"Le mot suivant que vous <link xref=\"definition\">recherchez</link> affiche "
+"le résultat uniquement à partir du dictionnaire sélectionné."
+
+#: C/dictionary-select.page:48(note/p)
+msgid ""
+"Your dictionary selection will not be remembered next time you use "
+"<app>Dictionary</app>."
+msgstr ""
+"Le choix du dictionnaire ne sera pas mémorisé la prochaine fois que vous "
+"utiliserez <app>Dictionnaire</app>."
+
+#: C/find.page:22(info/desc)
+msgid "Find text in a definition."
+msgstr "Rechercher un texte dans une définition."
+
+#: C/find.page:26(page/title) C/keyboard-shortcuts.page:74(td/p)
+msgid "Search within a definition"
+msgstr "Recherche dans une définition"
+
+#: C/find.page:28(page/p)
+msgid ""
+"Some dictionary entries can be very long and can contain many results, so "
+"you may wish to search them to find the section that is relevant to you."
+msgstr ""
+"Certaines définitions du dictionnaire peuvent être très longues et peuvent "
+"contenir plusieurs résultats, donc vous devriez utiliser l'outil de "
+"recherche pour trouver la section qui vous intéresse."
+
+#: C/find.page:32(steps/title)
+msgid "To find definitions:"
+msgstr "Pour trouver une définition :"
+
+#: C/find.page:34(item/p)
+msgid ""
+"Select <guiseq><gui style=\"menu\">Edit</gui> <gui style=\"menuitem\">Find</"
+"gui></guiseq>."
+msgstr ""
+"Sélectionnez <guiseq><gui style=\"menu\">Édition</gui> <gui style=\"menuitem"
+"\">Rechercher</gui></guiseq>."
+
+#: C/find.page:38(item/p)
+msgid ""
+"The <gui>Find</gui> bar will appear at the bottom of the <app>Dictionary</"
+"app> window. Type in your search term to search within the definition that "
+"is currently displayed."
+msgstr ""
+"La barre de <gui>recherche</gui> apparaît en bas de la fenêtre de "
+"<app>Dictionnaire</app>. Tapez-y votre mot pour faire une recherche dans la "
+"définition actuellement affichée."
+
+#: C/find.page:43(item/p)
+msgid ""
+"Click <gui style=\"button\">Previous</gui> or <gui style=\"button\">Next</"
+"gui> to scroll through the results. The search will not wrap around: in "
+"other words, it will not go to the top of the page when you are on the last "
+"result and click <gui style=\"button\">Next</gui>."
+msgstr ""
+"Cliquez sur <gui style=\"button\">Précédent</gui> ou <gui style=\"button"
+"\">Suivant</gui> pour faire défiler les résultats. Le recherche ne "
+"s'effectue pas en boucle : en d'autres mots, la recherche ne repart pas en "
+"haut de la page quand vous êtes au dernier résultat et que vous appuyez sur "
+"<gui style=\"button\">Suivant</gui>."
+
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/introduction.page:38(media)
+msgctxt "_"
+msgid ""
+"external ref='figures/gnome-dictionary.png' "
+"md5='80df283344ecd9b03b88309f8ee9912d'"
+msgstr ""
+"external ref='figures/gnome-dictionary.png' "
+"md5='80df283344ecd9b03b88309f8ee9912d'"
+
+#: C/introduction.page:22(info/desc)
+msgid "What is <app>Dictionary</app>?"
+msgstr "Présentation du <app>Dictionnaire</app>"
+
+#: C/introduction.page:26(page/title)
+msgid "Introduction"
+msgstr "Introduction"
+
+#: C/introduction.page:28(page/p)
+msgid ""
+"<app>Dictionary</app> is an application for looking up term definitions. It "
+"searches for definitions using an online <app>DICT</app> server. The default "
+"<app>DICT</app> server is at <sys href=\"http://dict.org\">http://dict.org</"
+"sys>."
+msgstr ""
+"<app>Dictionnaire</app> est une application permettant de rechercher des "
+"définitions de mot. Celle-ci recherche les définitions via un serveur "
+"<app>DICT</app> en ligne. Le serveur <app>DICT</app> par défaut est <sys "
+"href=\"http://dict.org\">http://dict.org</sys>."
+
+#: C/introduction.page:33(page/p)
+msgid ""
+"Start using <app>Dictionary</app> by <link xref=\"definition\">looking up a "
+"definition</link>!"
+msgstr ""
+"Commencez à utiliser <app>Dictionnaire</app> en <link xref=\"definition"
+"\">recherchant une définition</link> !"
+
+#: C/introduction.page:37(figure/title)
+msgid "Dictionary"
+msgstr "Dictionnaire"
+
+#: C/introduction.page:39(media/p)
+msgid "Screenshot showing the <app>Dictionary</app> main window."
+msgstr ""
+"Capture d'écran montrant la fenêtre principal du <app>Dictionnaire</app>."
+
+#: C/keyboard-shortcuts.page:23(info/desc)
+msgid ""
+"You can use keyboard shortcuts to navigate around <app>Dictionary</app> more "
+"efficiently."
+msgstr ""
+"Vous pouvez utiliser des raccourcis clavier pour naviguer dans "
+"<app>Dictionnaire</app> plus efficacement."
+
+#: C/keyboard-shortcuts.page:27(page/title)
+msgid "Keyboard shortcuts"
+msgstr "Raccourcis clavier"
+
+#: C/keyboard-shortcuts.page:29(page/p)
+msgid ""
+"Keyboard shortcuts are combinations of keys that you can use instead of "
+"navigating through the menu. The following shortcuts are available:"
+msgstr ""
+"Les raccourcis clavier sont des combinaisons de touche qui peuvent être "
+"utilisées au lieu d'utiliser les menus. Les raccourcis clavier suivants sont "
+"disponibles :"
+
+#: C/keyboard-shortcuts.page:33(table/title)
+msgid "Navigate around <app>Dictionary</app>"
+msgstr "Naviguer dans <app>Dictionnaire</app>"
+
+#: C/keyboard-shortcuts.page:36(td/p) C/keyboard-shortcuts.page:68(td/p)
+#: C/keyboard-shortcuts.page:92(td/p) C/keyboard-shortcuts.page:120(td/p)
+msgid "Action"
+msgstr "Action"
+
+#: C/keyboard-shortcuts.page:37(td/p) C/keyboard-shortcuts.page:69(td/p)
+#: C/keyboard-shortcuts.page:93(td/p) C/keyboard-shortcuts.page:121(td/p)
+msgid "Shortcut"
+msgstr "Raccourci"
+
+#: C/keyboard-shortcuts.page:42(td/p) C/print.page:36(section/title)
+msgid "Print preview"
+msgstr "Aperçu avant impression"
+
+#: C/keyboard-shortcuts.page:43(td/p)
+msgid "<keyseq><key>Shift</key><key>Ctrl</key><key>P</key></keyseq>"
+msgstr "<keyseq><key>Majuscule</key><key>Ctrl</key><key>P</key></keyseq>"
+
+#: C/keyboard-shortcuts.page:46(td/p) C/print.page:67(section/title)
+msgid "Print"
+msgstr "Impression"
+
+#: C/keyboard-shortcuts.page:47(td/p)
+msgid "<keyseq><key>Ctrl</key><key>P</key></keyseq>"
+msgstr "<keyseq><key>Ctrl</key><key>P</key></keyseq>"
+
+#: C/keyboard-shortcuts.page:50(td/p)
+msgid "View sidebar"
+msgstr "Afficher la barre latérale"
+
+#: C/keyboard-shortcuts.page:51(td/p)
+msgid "<key>F9</key>"
+msgstr "<key>F9</key>"
+
+#: C/keyboard-shortcuts.page:54(td/p)
+msgid "Open a new <app>Dictionary</app> window"
+msgstr "Ouvrir une nouvelle fenêtre de <app>Dictionnaire</app>"
+
+#: C/keyboard-shortcuts.page:55(td/p)
+msgid "<keyseq><key>Ctrl</key><key>N</key></keyseq>"
+msgstr "<keyseq><key>Ctrl</key><key>N</key></keyseq>"
+
+#: C/keyboard-shortcuts.page:58(td/p)
+msgid "Close current <app>Dictionary</app> window"
+msgstr "Fermer la fenêtre de <app>Dictionnaire</app> actuelle"
+
+#: C/keyboard-shortcuts.page:59(td/p)
+msgid "<keyseq><key>Ctrl</key><key>W</key></keyseq>"
+msgstr "<keyseq><key>Ctrl</key><key>W</key></keyseq>"
+
+#: C/keyboard-shortcuts.page:65(table/title)
+msgid "Search shortcuts"
+msgstr "Raccourcis de recherche"
+
+#: C/keyboard-shortcuts.page:75(td/p)
+msgid "<key>/</key> or <keyseq><key>Ctrl</key><key>F</key></keyseq>"
+msgstr "<key>/</key> ou <keyseq><key>Ctrl</key><key>F</key></keyseq>"
+
+#: C/keyboard-shortcuts.page:78(td/p)
+msgid "Find next"
+msgstr "Rechercher le suivant"
+
+#: C/keyboard-shortcuts.page:79(td/p)
+msgid "<keyseq><key>Ctrl</key><key>G</key></keyseq>"
+msgstr "<keyseq><key>Ctrl</key><key>G</key></keyseq>"
+
+#: C/keyboard-shortcuts.page:82(td/p)
+msgid "Find previous"
+msgstr "Rechercher le précédent"
+
+#: C/keyboard-shortcuts.page:83(td/p)
+msgid "<keyseq><key>Shift</key><key>Ctrl</key><key>G</key></keyseq>"
+msgstr "<keyseq><key>Majuscule</key><key>Ctrl</key><key>G</key></keyseq>"
+
+#: C/keyboard-shortcuts.page:89(table/title)
+msgid "Navigate within a definition"
+msgstr "Naviguer dans une définition"
+
+#: C/keyboard-shortcuts.page:98(td/p)
+msgid "Previous definition"
+msgstr "Définition précédente"
+
+#: C/keyboard-shortcuts.page:99(td/p)
+msgid "<keyseq><key>Ctrl</key><key>Page Up</key></keyseq>"
+msgstr "<keyseq><key>Ctrl</key><key>Page haut</key></keyseq>"
+
+#: C/keyboard-shortcuts.page:102(td/p)
+msgid "Next definition"
+msgstr "Définition suivante"
+
+#: C/keyboard-shortcuts.page:103(td/p)
+msgid "<keyseq><key>Ctrl</key><key>Page Down</key></keyseq>"
+msgstr "<keyseq><key>Ctrl</key><key>Page bas</key></keyseq>"
+
+#: C/keyboard-shortcuts.page:106(td/p)
+msgid "First definition"
+msgstr "Première définition"
+
+#: C/keyboard-shortcuts.page:107(td/p)
+msgid "<keyseq><key>Ctrl</key><key>Home</key></keyseq>"
+msgstr "<keyseq><key>Ctrl</key><key>Origine</key></keyseq>"
+
+#: C/keyboard-shortcuts.page:110(td/p)
+msgid "Last definition"
+msgstr "Dernière définition"
+
+#: C/keyboard-shortcuts.page:111(td/p)
+msgid "<keyseq><key>Ctrl</key><key>End</key></keyseq>"
+msgstr "<keyseq><key>Ctrl</key><key>Fin</key></keyseq>"
+
+#: C/keyboard-shortcuts.page:117(table/title)
+msgid "<app>Dictionary</app> definitions shortcuts:"
+msgstr "Raccourcis des définitions du <app>Dictionnaire</app> :"
+
+#: C/keyboard-shortcuts.page:126(td/p) C/similar-words.page:27(page/title)
+msgid "Similar words"
+msgstr "Mots similaires"
+
+#: C/keyboard-shortcuts.page:127(td/p)
+msgid "<keyseq><key>Ctrl</key><key>T</key></keyseq>"
+msgstr "<keyseq><key>Ctrl</key><key>T</key></keyseq>"
+
+#: C/keyboard-shortcuts.page:130(td/p) C/sources.page:28(page/title)
+msgid "Dictionary sources"
 msgstr "Sources de dictionnaires"
 
-#: C/index.docbook:260(screenshot/mediaobject)
+#: C/keyboard-shortcuts.page:131(td/p)
+msgid "<keyseq><key>Ctrl</key><key>D</key></keyseq>"
+msgstr "<keyseq><key>Ctrl</key><key>D</key></keyseq>"
+
+#: C/keyboard-shortcuts.page:134(td/p)
+msgid "Available databases"
+msgstr "Bases de données disponibles"
+
+#: C/keyboard-shortcuts.page:135(td/p)
+msgid "<keyseq><key>Ctrl</key><key>B</key></keyseq>"
+msgstr "<keyseq><key>Ctrl</key><key>B</key></keyseq>"
+
+#: C/keyboard-shortcuts.page:138(td/p)
+msgid "Available strategies"
+msgstr "Stratégies disponibles"
+
+#: C/keyboard-shortcuts.page:139(td/p)
+msgid "<keyseq><key>Ctrl</key><key>R</key></keyseq>"
+msgstr "<keyseq><key>Ctrl</key><key>R</key></keyseq>"
+
+#: C/legal.xml:3(p/link)
+msgid "http://creativecommons.org/licenses/by-sa/3.0/"
+msgstr "http://creativecommons.org/licenses/by-sa/3.0/"
+
+#: C/legal.xml:3(license/p)
 msgid ""
-"<imageobject> <imagedata fileref=\"figures/gnome-dictionary-preferences-"
-"source.png\" format=\"PNG\"/> </imageobject> <textobject><phrase>Shows the "
-"Source tab of the Preferences dialog.</phrase></textobject>"
+"This work is licensed under the Creative Commons Attribution-ShareAlike 3.0 "
+"Unported License. To view a copy of this license, visit <_:link-1/> or send "
+"a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, "
+"California, 94041, USA."
 msgstr ""
-"<imageobject> <imagedata fileref=\"figures/gnome-dictionary-preferences-"
-"source.png\" format=\"PNG\"/> </imageobject> <textobject><phrase>Affiche "
-"l'onglet des sources de la fenêtre des préférences.</phrase></textobject>"
+"Cette œuvre est distribuée sous <link href=\\\"http://creativecommons.org/"
+"licenses/by-sa/3.0/deed.fr\\\">licence Creative Commons Paternité-Partage "
+"des Conditions Initiales à l'Identique 3.0 Unported</link>. Pour prendre "
+"connaissance du texte complet de la licence, consultez <_:link-1/> "
+"ou envoyez une lettre à Creative Commons, 444 Castro Street, Suite 900, "
+"Mountain View, California, 94041, USA."
 
-#: C/index.docbook:269(sect2/para)
+#: C/pref.page:15(info/desc)
+msgid "Manage your preferences."
+msgstr "Gérer vos préférences."
+
+#: C/pref.page:18(page/title)
+msgid "<app>Dictionary</app> preferences"
+msgstr "Préférences du <app>Dictionnaire</app>"
+
+#: C/print-font.page:23(info/desc)
+msgid "Select the font for printing definitions."
+msgstr "Sélectionner la police pour l'impression des définitions."
+
+#: C/print-font.page:27(page/title)
+msgid "Print font"
+msgstr "Police d'impression"
+
+#: C/print-font.page:29(page/p)
 msgid ""
-"To change the dictionary source used to look up words, select the desired "
-"source from the list."
+"You can change the default font face and size that are used for printing the "
+"definitions."
 msgstr ""
-"Pour modifier la source du dictionnaire utilisé pour rechercher des mots, "
-"sélectionnez la source souhaitée dans la liste."
+"Vous pouvez modifier le nom de la police et la taille utilisée pour "
+"l'impression des définitions."
 
-#: C/index.docbook:275(sect2/title)
-msgid "Adding a new source"
-msgstr "Ajout d'une nouvelle source de dictionnaire"
+#: C/print-font.page:33(steps/title)
+msgid "Change the font"
+msgstr "Modifier la police"
 
-#: C/index.docbook:280(screenshot/mediaobject)
+#: C/print-font.page:35(item/p)
 msgid ""
-"<imageobject> <imagedata fileref=\"figures/gnome-dictionary-add-source.png\" "
-"format=\"PNG\"/> </imageobject> <textobject><phrase>Shows the Add Source "
-"dialog.</phrase></textobject>"
+"Select <guiseq><gui style=\"menu\">Dictionary</gui> <gui style=\"menuitem"
+"\">Preferences</gui> <gui style=\"tab\">Print</gui></guiseq>."
 msgstr ""
-"<imageobject> <imagedata fileref=\"figures/gnome-dictionary-add-source.png\" "
-"format=\"PNG\"/> </imageobject> <textobject><phrase>Affiche la fenêtre de "
-"dialogue d'ajouts de sources.</phrase></textobject>"
+"Sélectionnez <guiseq><gui style=\"menu\">Dictionnaire</gui> <gui style="
+"\"menuitem\">Préférences</gui> <gui style=\"tab\">Imprimer</gui></guiseq>."
 
-#: C/index.docbook:289(sect2/para)
-msgid "To add a new dictionary source, perform the following steps:"
-msgstr ""
-"Pour ajouter une nouvelle source de dictionnaire, effectuez les opérations "
-"suivantes :"
+#: C/print-font.page:40(item/p)
+msgid "Click font selector button."
+msgstr "Cliquez sur le bouton de sélection de police."
 
-#: C/index.docbook:292(listitem/para)
-msgid "Click on the <guibutton>Add</guibutton> button"
-msgstr "Cliquez sur le bouton <guibutton>Ajouter</guibutton>."
+#: C/print-font.page:43(item/p)
+msgid "Select the font that you wish to use."
+msgstr "Sélectionnez la police que vous souhaitez utiliser."
 
-#: C/index.docbook:293(listitem/para)
+#: C/print-font.page:46(item/p)
 msgid ""
-"Edit the name of the new source inside the <guilabel>Description</guilabel> "
-"entry"
+"Drag the slider to the right to increase the font size or left to decrease "
+"it. Alternatively, you can type in the font size in the text box, or use the "
+"<gui>-</gui> and <gui>+</gui> buttons to decrease and increase the font size."
 msgstr ""
-"Saisissez le nom de la nouvelle source dans le champ <guilabel>Description</"
-"guilabel>."
+"Faites glisser le curseur vers la droite pour augmenter la taille de la "
+"police ou la gauche pour la diminuer. À la place, vous pouvez taper la "
+"taille de la police dans la zone de texte, ou utilisez les boutons <gui>-</"
+"gui> et <gui>+</gui> afin de diminuer et augmenter la taille de la police."
 
-#: C/index.docbook:294(listitem/para)
+#: C/print-font.page:52(item/p)
+msgid "Click <gui style=\"button\">Select</gui> to save your font settings."
+msgstr ""
+"Cliquez sur <gui style=\"button\">Sélectionner</gui> pour enregistrer vos "
+"paramètres de police."
+
+#: C/print-font.page:56(page/p)
 msgid ""
-"Change the transport type of the new source using the <guilabel>Transport</"
-"guilabel> combo box"
+"The definition is not reflowed for printing, so if you choose a large font "
+"size, some of the text may be cut off."
 msgstr ""
-"Modifiez le type de transport de la nouvelle source dans la liste déroulante "
-"<guilabel>Transport</guilabel>."
+"La définition n'est pas adaptée pour l'impression, donc si vous choisissez "
+"une taille de police assez large, une partie du texte risque d'être coupée."
 
-#: C/index.docbook:295(listitem/para)
-msgid "Edit the attributes of the new source"
-msgstr "Modifiez les attributs de la nouvelle source."
+#: C/print.page:24(info/desc)
+msgid "Print preview and print definitions."
+msgstr "Aperçu avant impression et impression des définitions."
 
-#: C/index.docbook:296(listitem/para)
-msgid "Click <guibutton>Add</guibutton>"
-msgstr "Cliquez sur <guibutton>Ajouter</guibutton>."
+#: C/print.page:28(page/title)
+msgid "Print a definition"
+msgstr "Impression d'une définition"
 
-#: C/index.docbook:299(sect2/para)
+#: C/print.page:30(page/p)
 msgid ""
-"Different source transport types uses different attributes. This is the list "
-"of available attributes per transport type:"
+"You can print a definition to paper or a file. Before printing, you should "
+"preview the definition as it would be printed to check that the text fits "
+"onto the page, especially if you have changed the <link xref=\"print-font"
+"\">print font</link> size."
 msgstr ""
-"Différents types de transport de source utilisent des attributs différents. "
-"Voici la liste des attributs disponibles pour chaque type de transport :"
+"Vous pouvez imprimer une définition sur papier ou dans un fichier. Avant "
+"l'impression, vous devriez prévisualiser la définition telle qu'elle sera "
+"imprimée afin de vérifier que le texte tienne sur la page, surtout si vous "
+"avez changé la taille de la <link xref=\"print-font\">police d'impression</"
+"link>."
 
-#: C/index.docbook:306(entry/para)
-msgid "Transport"
-msgstr "Transport"
-
-#: C/index.docbook:307(entry/para)
-msgid "Attributes"
-msgstr "Attributs"
-
-#: C/index.docbook:312(entry/para)
-msgid "Dictionary Server"
-msgstr "Serveur de dictionnaire"
-
-#: C/index.docbook:314(entry/para)
-msgid "Hostname: the hostname of the dictionary server"
-msgstr "Nom d'hôte : le nom d'hôte du serveur de dictionnaire"
-
-#: C/index.docbook:315(entry/para)
-msgid "Port: the port of the dictionary server"
-msgstr "Port : le port du serveur de dictionnaire"
-
-#: C/index.docbook:326(sect2/title)
-msgid "Removing a source"
-msgstr "Suppression d'une source"
-
-#: C/index.docbook:328(sect2/para)
-msgid "To remove a dictionary source, perform the following steps:"
-msgstr ""
-"Pour supprimer une source de dictionnaire, effectuez les opérations "
-"suivantes :"
-
-#: C/index.docbook:331(listitem/para)
-msgid "Select the source you wish to remove"
-msgstr "Sélectionnez la source à supprimer."
-
-#: C/index.docbook:332(listitem/para)
-msgid "Click the <guibutton>Remove</guibutton> button"
-msgstr "Cliquez sur le bouton <guibutton>Enlever</guibutton>."
-
-#: C/index.docbook:335(warning/para)
+#: C/print.page:40(item/p)
 msgid ""
-"If you remove a dictionary source it will be permanently deleted from the "
-"list of available sources. Also, as some sources might be defined system-"
-"wide you may actually not be able to remove them unless you have the right "
-"ownership privileges."
+"Select <guiseq><gui style=\"menu\">File</gui> <gui style=\"menuitem"
+"\">Preview</gui></guiseq>."
 msgstr ""
-"Si vous enlevez une source de dictionnaire, elle sera définitivement "
-"supprimée de la liste des ressources disponibles. D'autre part, comme "
-"certaines sources sont définies au niveau du système, il est possible que "
-"vous ne puissiez pas l'enlever si vous ne disposez pas des privilèges "
-"nécessaires."
+"Sélectionnez <guiseq><gui style=\"menu\">Fichier</gui> <gui style=\"menuitem"
+"\">Aperçu</gui></guiseq>."
 
-#: C/index.docbook:344(sect2/title)
-msgid "Print Options"
-msgstr "Options d'impression"
-
-#: C/index.docbook:349(screenshot/mediaobject)
+#: C/print.page:44(item/p)
 msgid ""
-"<imageobject> <imagedata fileref=\"figures/gnome-dictionary-preferences-"
-"print.png\" format=\"PNG\"/> </imageobject> <textobject><phrase>Shows the "
-"Print tab inside the Preferences dialog.</phrase></textobject>"
+"A print preview window will open which will show you the definition exactly "
+"as it will be printed."
 msgstr ""
-"<imageobject> <imagedata fileref=\"figures/gnome-dictionary-preferences-"
-"print.png\" format=\"PNG\"/> </imageobject> <textobject><phrase>Affiche "
-"l'onglet d'impression à l'intérieur de la fenêtre de préférences.</phrase></"
-"textobject>"
+"Une fenêtre d'aperçu avant impression vous affichera la définition "
+"exactement telle qu'elle sera imprimée."
 
-#: C/index.docbook:358(sect2/para)
+#: C/print.page:48(item/p)
+msgid "Use the toolbar to browse pages, adjust zoom level and page width."
+msgstr ""
+"Utilisez la barre d'outils pour naviguer à travers les pages, régler le "
+"niveau de zoom et la largeur de la page."
+
+#: C/print.page:52(item/p)
 msgid ""
-"If you want to change the font name and size used when printing, perform the "
-"following steps:"
+"Click the <gui style=\"button\">Print this document</gui> to print the "
+"definition or close the window to end the preview."
 msgstr ""
-"Si vous désirez modifier le nom de la police et la taille utilisée pour "
-"l'impression, effectuez les opérations suivantes :"
+"Cliquez sur <gui style=\"button\">Imprimer ce document</gui> pour imprimer "
+"la définition ou bien fermez la fenêtre pour arrêter la prévisualisation."
 
-#: C/index.docbook:362(listitem/para)
-msgid "Click on the <guilabel>Print Font</guilabel> button"
-msgstr "Cliquez sur le bouton <guilabel>Police d'impression</guilabel>."
-
-#: C/index.docbook:363(listitem/para)
-msgid "Select the font and size you wish to use"
-msgstr "Sélectionnez la police et la taille de caractères de votre choix."
-
-#: C/index.docbook:364(listitem/para)
-msgid "Click <guibutton>Ok</guibutton>"
-msgstr "Cliquez sur <guibutton>Valider</guibutton>."
-
-#: C/index.docbook:373(sect1/title)
-msgid "The Dictionary Applet"
-msgstr "L'applet Dictionnaire"
-
-#: C/index.docbook:375(sect1/para)
+#: C/print.page:58(note/p)
 msgid ""
-"The <application>Dictionary</application> application comes with a panel "
-"applet, the <application>Dictionary Applet</application>. You can add the "
-"<application>Dictionary Applet</application> applet to a panel and look up "
-"words in dictionaries."
+"The print button in the toolbar may not always work. If it does not work for "
+"you, close the window and select <guiseq><gui style=\"menu\">File</gui> <gui "
+"style=\"menuitem\">Print</gui></guiseq>."
 msgstr ""
-"L'application <application>Dictionnaire</application> est fournie avec une "
-"applet de tableau de bord, l'<application>applet Dictionnaire</application>. "
-"Vous pouvez ajouter l'applet <application>Dictionnaire</application> à un "
-"tableau de bord et rechercher des mots dans des dictionnaires."
+"Le bouton d'impression dans la barre d'outils ne fonctionne pas toujours. Si "
+"cela ne fonctionne pas pour vous, fermez la fenêtre et sélectionnez "
+"<guiseq><gui style=\"menu\">Fichier</gui> <gui style=\"menuitem\">Imprimer</"
+"gui></guiseq>."
 
-#: C/index.docbook:381(figure/title) C/index.docbook:417(figure/title)
-msgid "Dictionary Applet Window"
-msgstr "Fenêtre de l'applet Dictionnaire"
-
-#: C/index.docbook:383(screenshot/mediaobject)
+#: C/print.page:69(section/p)
 msgid ""
-"<imageobject> <imagedata fileref=\"figures/gnome-dictionary-applet.png\" "
-"format=\"PNG\"/> </imageobject> <textobject><phrase>Shows Dictionary Applet."
-"</phrase></textobject>"
+"You need to <link href=\"help:gnome-help/printing\">have a printer set up</"
+"link> to be able to print to paper."
 msgstr ""
-"<imageobject> <imagedata fileref=\"figures/gnome-dictionary-applet.png\" "
-"format=\"PNG\"/> </imageobject> <textobject><phrase>Affiche l'applet du "
-"Dictionnaire.</phrase></textobject>"
+"Vous devez <link href=\"help:gnome-help/printing\">avoir une imprimante "
+"configurée</link> pour être en mesure d'imprimer sur papier."
 
-#: C/index.docbook:395(sect2/title)
-msgid "To Start Dictionary Applet"
-msgstr "Démarrage de l'applet Dictionnaire"
-
-#: C/index.docbook:397(sect2/para)
+#: C/print.page:74(item/p)
 msgid ""
-"To add <application>Dictionary Applet</application> to a panel, right-click "
-"on the panel, then choose <guimenuitem>Add to Panel</guimenuitem>. Select "
-"Dictionary Applet in the <application>Add to the panel</application> dialog, "
-"then click <guibutton>OK</guibutton>."
+"Select <guiseq><gui style=\"menu\">File</gui> <gui style=\"menuitem\">Print</"
+"gui> <gui style=\"tab\">General</gui></guiseq>."
 msgstr ""
-"Pour ajouter l'applet <application>Dictionnaire</application> à un tableau "
-"de bord, cliquez avec le bouton droit de la souris sur un tableau de bord, "
-"puis choisissez <guimenuitem>Ajouter au tableau de bord</guimenuitem>. "
-"Sélectionnez l'applet Dictionnaire dans la boîte de dialogue "
-"<application>Ajouter au tableau de bord</application>, puis cliquez sur "
-"<guibutton>Ajouter</guibutton>."
+"Sélectionnez <guiseq><gui style=\"menu\">Fichier</gui> <gui style=\"menuitem"
+"\">Imprimer</gui> <gui style=\"tab\">Général</gui></guiseq>."
 
-#: C/index.docbook:406(sect2/title)
-msgid "Using the Dictionary Applet"
-msgstr "Utilisation de l'applet Dictionnaire"
-
-#: C/index.docbook:408(sect2/para)
+#: C/print.page:79(item/p)
 msgid ""
-"To look up a word, type it into the <guilabel>entry field</guilabel>, and "
-"press <keycap>Enter</keycap> or right-click on the dictionary icon and then "
-"choose <guimenuitem>Look up</guimenuitem>."
+"Select the printer that you want to use from the list of printers or select "
+"<gui href=\"help:gnome-help/print-to-file\">Print to File</gui>."
 msgstr ""
-"Pour rechercher un mot, saisissez-le dans la <guilabel>zone de texte</"
-"guilabel>, puis appuyez sur <keycap>Entrée</keycap> ou cliquez avec le "
-"bouton droit sur l'icône du dictionnaire et choisissez "
-"<guimenuitem>Rechercher le texte sélectionné</guimenuitem>."
+"Sélectionnez l'imprimante que vous souhaitez utiliser à partir de la liste "
+"des imprimantes ou sélectionnez <gui href=\"help:gnome-help/print-to-file"
+"\">Imprimer dans un fichier</gui>."
 
-#: C/index.docbook:413(sect2/para)
+#: C/print.page:84(item/p)
 msgid ""
-"If some definition for the word was found, a window will appear, with the "
-"text of the definitions:"
+"Chose your <link href=\"help:gnome-help/printing#paper\">printing settings</"
+"link>."
 msgstr ""
-"Si une définition du mot est trouvée, une fenêtre contenant le texte de la "
-"définition apparaît :"
+"Choisissez vos <link href=\"help:gnome-help/printing#paper\">paramètres "
+"d'impression</link>."
 
-#: C/index.docbook:419(screenshot/mediaobject)
+#: C/print.page:88(item/p)
+msgid "Press <gui style=\"button\">Print</gui> to print the definition."
+msgstr ""
+"Appuyez sur <gui style=\"button\">Imprimer</gui> afin d'imprimer la "
+"définition."
+
+#: C/prob-retrieving-definition.page:23(info/desc)
+msgid "<sys>Error while retrieving definitions</sys>."
+msgstr "<sys>Erreur lors de la récupération des définitions</sys>."
+
+#: C/prob-retrieving-definition.page:27(page/title)
+msgid "Cannot find definitions"
+msgstr "Définitions introuvables"
+
+#: C/prob-retrieving-definition.page:29(page/p)
 msgid ""
-"<imageobject> <imagedata fileref=\"figures/gnome-dictionary-applet-window.png"
-"\" format=\"PNG\"/> </imageobject> <textobject><phrase>Shows Dictionary "
-"Applet main window.</phrase></textobject>"
+"If you see the error message <sys>Error while retrieving definition</sys> "
+"when looking up a definition from any of the <link xref=\"sources-select"
+"\">selected dictionaries</link>, the problem is more likely one of the "
+"following:"
 msgstr ""
-"<imageobject> <imagedata fileref=\"figures/gnome-dictionary-applet-window.png"
-"\" format=\"PNG\"/> </imageobject> <textobject><phrase>Affiche la fenêtre "
-"principale de l'applet du Dictionnaire.</phrase></textobject>"
+"Si vous voyez le message d'erreur <sys>Erreur lors de la récupération de la "
+"définition</sys> pendant la recherche d'une définition à partir de l'un "
+"des <link xref=\"sources-select\">dictionnaires utilisés</link>, le problème "
+"est susceptible d'être l'un de ceux qui suivent :"
 
-#: C/index.docbook:428(sect2/para)
+#: C/prob-retrieving-definition.page:36(item/p)
 msgid ""
-"Click <guibutton>Save</guibutton> to save the definitions to a text file. "
-"Click <guibutton>Print</guibutton> to print the definitions. Click "
-"<guibutton>Clear</guibutton> to clear the definitions."
+"One or more of the selected <app>DICT</app> servers that are used to look up "
+"definitions may not be working. You can try waiting a while before <link "
+"xref=\"definition\">looking up</link> the definition again."
 msgstr ""
-"Cliquez sur <guibutton>Enregistrer</guibutton> pour enregistrer les "
-"définitions dans un fichier texte. Cliquez sur <guibutton>Imprimer</"
-"guibutton> pour imprimer les définitions. Cliquez sur <guibutton>Effacer</"
-"guibutton> pour effacer les définitions."
+"Un ou plusieurs des serveurs <app>DICT</app> sélectionnés qui sont utilisés "
+"pour rechercher des définitions peuvent ne pas fonctionner. Vous pouvez "
+"attendre un petit peu avant de <link xref=\"definition\">rechercher</link> "
+"la définition à nouveau."
 
-#: C/index.docbook:432(sect2/para)
+#: C/prob-retrieving-definition.page:42(item/p)
 msgid ""
-"You can make the window disappear by left-clicking on the dictionary icon or "
-"by pressing <keycap>Esc</keycap>."
+"You may not have a working Internet connection. For <app>Dictionary</app> to "
+"look up terms, your computer <link href=\"help:gnome-help/net\">must be able "
+"to connect</link> to <sys href=\"http://dict.org\">dict.org</sys>."
 msgstr ""
-"Vous pouvez faire disparaître la fenêtre en cliquant avec le bouton gauche "
-"sur l'icône du Dictionnaire ou en appuyant sur <keycap>Échap</keycap>."
+"Vous n'avez peut-être pas de connexion Internet. Afin que le "
+"<app>Dictionnaire</app> puisse rechercher des définitions, votre ordinateur "
+"<link href=\"help:gnome-help/net\">doit être capable de se connecter</link> "
+"à <sys href=\"http://dict.org\">dict.org</sys>."
 
-#: C/index.docbook:440(sect2/para)
+#: C/save-definition.page:22(info/desc)
+msgid "Save a copy of a definition to a text file."
+msgstr "Enregistrer une copie d'une définition dans un fichier texte."
+
+#: C/save-definition.page:26(page/title)
+msgid "Save a definition"
+msgstr "Enregistrement d'une définition"
+
+#: C/save-definition.page:28(page/p)
 msgid ""
-"To configure the <application>Dictionary Applet</application>, right-click "
-"on the dictionary icon, then choose <guimenuitem>Preferences</guimenuitem>."
+"You can save a definition to a text file. This may be useful if you want to "
+"use it outside of <app>Dictionary</app>."
 msgstr ""
-"Pour configurer l'applet <application>Dictionnaire</application>, cliquez "
-"avec le bouton droit sur l'icône du dictionnaire et choisissez "
-"<guimenuitem>Préférences</guimenuitem>."
+"Vous pouvez enregistrer une définition dans un fichier texte. Cela peut être "
+"utile si vous voulez l'utiliser en dehors du <app>Dictionnaire</app>."
 
-#: C/index.docbook:443(sect2/para)
+#: C/save-definition.page:32(steps/title)
+msgid "To save a definition:"
+msgstr "Pour enregistrer une définition :"
+
+#: C/save-definition.page:34(item/p)
 msgid ""
-"The <guilabel>Preferences</guilabel> dialog is the same used by the "
-"<application>Dictionary</application> application, so refer to <xref linkend="
-"\"gnome-dictionary-preferences\"/>"
+"Select <guiseq><gui style=\"menu\">File</gui> <gui style=\"menuitem\">Save a "
+"Copy…</gui></guiseq>."
 msgstr ""
-"La boîte de dialogue <guilabel>Préférences</guilabel> est la même que celle "
-"de l'application <application>Dictionnaire</application>, veuillez donc vous "
-"référer à <xref linkend=\"gnome-dictionary-preferences\"/>."
+"Sélectionnez <guiseq><gui style=\"menu\">Fichier</gui> <gui style=\"menuitem"
+"\">Enregistrer une copie…</gui></guiseq>."
 
-#: C/legal.xml:9(para/ulink)
-msgid "link"
-msgstr "lien"
-
-#: C/legal.xml:2(legalnotice/para)
+#: C/save-definition.page:38(item/p)
 msgid ""
-"Permission is granted to copy, distribute and/or modify this document under "
-"the terms of the GNU Free Documentation License (GFDL), Version 1.1 or any "
-"later version published by the Free Software Foundation with no Invariant "
-"Sections, no Front-Cover Texts, and no Back-Cover Texts. You can find a copy "
-"of the GFDL at this <_:ulink-1/> or in the file COPYING-DOCS distributed "
-"with this manual."
+"Chose where you want to save the definition to and a name for the file. You "
+"may want to add a <file>.txt</file> file extension to the end of the file "
+"name."
 msgstr ""
-"Permission vous est donnée de copier, distribuer et/ou modifier ce document "
-"selon les termes de la Licence GNU Free Documentation License, Version 1.1 "
-"ou ultérieure publiée par la Free Software Foundation sans section "
-"inaltérable, sans texte de première page de couverture ni texte de dernière "
-"page de couverture. Vous trouverez un exemplaire de cette licence en suivant "
-"ce <_:ulink-1/> ou dans le fichier COPYING-DOCS fourni avec le présent "
-"manuel."
+"Choisissez l'endroit où vous souhaitez enregistrer la définition et un nom "
+"pour le fichier. Vous pouvez aussi ajouter l'extension de fichier <file>."
+"txt</file> à la fin du nom de fichier."
+
+#: C/save-definition.page:43(item/p)
+msgid "Press <gui style=\"button\">Save</gui> to save the definition."
+msgstr ""
+"Appuyez sur <gui style=\"button\">Enregistrer</gui> pour sauvegarder la "
+"définition."
+
+#: C/similar-words.page:23(info/desc)
+msgid "View related results in other dictionaries."
+msgstr "Voir les résultats connexes dans les autres dictionnaires."
+
+#: C/similar-words.page:29(page/p)
+msgid ""
+"<app>Dictionary</app> will only display the definition from one of your "
+"dictionaries. To check if there are search results in other dictionaries:"
+msgstr ""
+"<app>Dictionnaire</app> affiche uniquement la définition à partir d'un de "
+"vos dictionnaires. Pour vérifier s'il y a des résultats dans d'autres "
+"dictionnaires :"
+
+#: C/similar-words.page:34(item/p)
+msgid "<link xref=\"definition\">Look up</link> the desired term."
+msgstr "<link xref=\"definition\">Rechercher</link> le mot souhaité."
+
+#: C/similar-words.page:37(item/p)
+msgid ""
+"If the sidebar is not already visible, select <guiseq><gui style=\"menu"
+"\">View</gui> <gui style=\"menuitem\">Similar Words</gui></guiseq>."
+msgstr ""
+"Si la barre latérale n'est pas visible, sélectionnez <guiseq><gui style="
+"\"menu\">Affichage</gui> <gui style=\"menuitem\">Mots similaires</gui></"
+"guiseq>."
+
+#: C/similar-words.page:42(item/p)
+msgid ""
+"The <gui>Similar Words</gui> sidebar will show search results from other "
+"dictionaries in your selected dictionary source. To view the similar word, "
+"double click on the entry."
+msgstr ""
+"La barre latérale <gui>Mots similaires</gui> affiche les résultats de "
+"recherche des autres dictionnaires à partir de la source de dictionnaires "
+"sélectionnée. Pour afficher le mot similaire, double-cliquez sur celui-ci."
+
+#: C/source-add-local.page:20(page/title)
+msgid "Add local dictionary sources"
+msgstr "Ajout de sources de dictionnaires locales"
+
+#: C/sources-default.page:24(page/title)
+msgid "Set a default dictionary source"
+msgstr "Définition d'une source de dictionnaires par défaut"
+
+#: C/sources-default.page:26(page/p)
+msgid ""
+"When you first use <app>Dictionary</app>, it should have some pre-installed "
+"dictionaries that you can use. You can change the default <link xref="
+"\"sources\">dictionary source</link> to one that you would prefer to use "
+"instead."
+msgstr ""
+"Lorsque vous utilisez <app>Dictionnaire</app> pour la première fois, il "
+"devrait y avoir des dictionnaires pré-installés que vous pouvez utiliser. "
+"Vous pouvez modifier la <link xref=\"sources\">source de dictionnaire</link> "
+"par défaut pour celui que vous préférez utiliser à la place."
+
+#: C/sources-default.page:32(steps/title)
+msgid "Change the default dictionary source:"
+msgstr "Modifier la source de dictionnaires par défaut :"
+
+#: C/sources-default.page:34(item/p)
+msgid ""
+"Select <guiseq><gui><app>Dictionary</app></gui> <gui style=\"menu"
+"\">Preferences</gui> <gui style=\"tab\">Source</gui></guiseq>."
+msgstr ""
+"Sélectionnez <guiseq><gui><app>Dictionnaire</app></gui> <gui style=\"menu"
+"\">Préférences</gui> <gui style=\"tab\">Source</gui></guiseq>."
+
+#: C/sources-default.page:39(item/p)
+msgid "Select the dictionary source that you want to set as the default."
+msgstr ""
+"Sélectionnez la source de dictionnaires que vous souhaitez utiliser par "
+"défaut."
+
+#: C/sources-default.page:42(item/p)
+msgid "Your change will be saved automatically."
+msgstr "Vos modifications seront enregistrées automatiquement."
+
+#: C/sources-delete.page:25(page/title)
+msgid "Delete a dictionary source"
+msgstr "Suppression d'une source de dictionnaires"
+
+#: C/sources-delete.page:27(page/p)
+msgid ""
+"If you no longer need a specific <link xref=\"sources\">dictionary source</"
+"link> or if one stops working for you, you may want to delete it."
+msgstr ""
+"Si vous n'avez plus besoin d'une <link xref=\"sources\">source de "
+"dictionnaires</link> spécifique ou si celle-ci a arrêté de fonctionner, vous "
+"pouvez la supprimer."
+
+#: C/sources-delete.page:32(steps/title)
+msgid "Delete a dictionary source:"
+msgstr "Supprimer une source de dictionnaires :"
+
+#: C/sources-delete.page:34(item/p)
+msgid ""
+"Select <guiseq><gui style=\"menu\"><app>Dictionary</app></gui> <gui style="
+"\"menuitem\">Preferences</gui> <gui style=\"tab\">Source</gui></guiseq>."
+msgstr ""
+"Sélectionnez <guiseq><gui style=\"menu\"><app>Dictionnaire</app></gui> <gui "
+"style=\"menuitem\">Préférences</gui> <gui style=\"tab\">Source</gui></"
+"guiseq>."
+
+#: C/sources-delete.page:39(item/p)
+msgid "Select the dictionary source that you want to delete."
+msgstr "Sélectionnez la source de dictionnaires à supprimer."
+
+#: C/sources-delete.page:42(item/p)
+msgid "Press <gui style=\"button\">Remove</gui>."
+msgstr "Appuyez sur <gui style=\"button\">Enlever</gui>."
+
+#: C/sources-delete.page:45(item/p)
+msgid ""
+"A dialog will pop up asking you to confirm that you wish to permanently "
+"delete the selected source. Once you confirm, the source will be deleted."
+msgstr ""
+"Une boîte de dialogue apparaîtra vous demandant de confirmer que vous "
+"souhaitez supprimer définitivement la source sélectionnée. Une fois "
+"confirmé, la source de dictionnaires sera supprimée."
+
+#: C/sources-edit.page:24(page/title)
+msgid "Edit a dictionary source"
+msgstr "Modification d'une source de dictionnaires"
+
+#: C/sources-edit.page:26(page/p)
+msgid ""
+"You can customize a <link xref=\"sources\">dictionary source</link> to "
+"update details such as its description or remote address."
+msgstr ""
+"Vous pouvez personnaliser une <link xref=\"sources\">source de "
+"dictionnaires</link> pour mettre à jour les informations telles que la "
+"description ou les adresses distantes."
+
+#: C/sources-edit.page:30(steps/title)
+msgid "To edit a dictionary source:"
+msgstr "Pour modifier une source de dictionnaires :"
+
+#: C/sources-edit.page:32(item/p)
+msgid ""
+"Select <guiseq><gui style=\"menu\">Dictionary</gui> <gui style=\"menuitem"
+"\">Preferences</gui> <gui style=\"tab\">Source</gui></guiseq>."
+msgstr ""
+"Sélectionnez <guiseq><gui style=\"menu\">Dictionnaire</gui> <gui style="
+"\"menuitem\">Préférences</gui> <gui style=\"tab\">Source</gui></guiseq>."
+
+#: C/sources-edit.page:37(item/p)
+msgid "Double click on the dictionary source you want to edit."
+msgstr ""
+"Double-cliquez sur la source de dictionnaires que vous souhaitez modifier."
+
+#: C/sources-edit.page:40(item/p)
+msgid "You can edit the following fields:"
+msgstr "Vous pouvez modifier les champs suivants :"
+
+#: C/sources-edit.page:43(item/p)
+msgid ""
+"<gui>Description</gui> is the name of the source as it will be displayed to "
+"you."
+msgstr ""
+"<gui>Description</gui> : le nom de la source telle qu'elle sera affichée "
+"pour vous."
+
+#: C/sources-edit.page:47(item/p)
+msgid "<gui>Transport</gui> is the type of server."
+msgstr "<gui>Transport</gui> est le type de serveur."
+
+#: C/sources-edit.page:50(item/p)
+msgid "<gui>Hostname</gui> is the location of the dictionary source."
+msgstr "<gui>Nom d'hôte</gui> est le nom d'hôte du serveur de dictionnaire"
+
+#: C/sources-edit.page:55(item/p)
+msgid "<gui>Port</gui>."
+msgstr "<gui>Port</gui>."
+
+#: C/sources-edit.page:60(item/p)
+msgid ""
+"View the dictionaries that are available in the dictionary source by "
+"selecting the <gui style=\"tab\">Dictionaries</gui> tab."
+msgstr ""
+"Visualisez les dictionnaires qui sont disponibles avec la source de "
+"dictionnaires en sélectionnant l'onglet <gui style=\"tab\">Dictionnaires</"
+"gui>"
+
+#: C/sources-edit.page:64(item/p)
+msgid "Press <gui style=\"button\">Close</gui> to save the settings."
+msgstr ""
+"Appuyez sur <gui style=\"button\">Fermer</gui> pour enregistrer les "
+"paramètres."
+
+#: C/sources.page:24(info/desc)
+msgid "Manage various dictionary sources."
+msgstr "Gérer les différentes sources de dictionnaires."
+
+#: C/sources.page:30(page/p)
+msgid ""
+"<app>Dictionary</app> uses <em>dictionary sources</em> to look up words that "
+"you search for. Dictionary sources are collections of one or more dictionary "
+"databases which are usually online, but can be installed on your machine as "
+"well."
+msgstr ""
+"<app>Dictionnaire</app> utilise des <em>sources de dictionnaires</em> pour "
+"rechercher les définitions des mots. Les sources de dictionnaires sont des "
+"collections d'une ou plusieurs bases de données de dictionnaire. Elles sont "
+"pour la plupart en ligne, mais peuvent être installées sur votre machines."
+
+#: C/sources.page:36(section/title)
+msgid "Manage your dictionary sources"
+msgstr "Gestion de vos sources de dictionnaires"
+
+#: C/sources-select.page:26(page/title)
+msgid "Select a dictionary source"
+msgstr "Sélection d'une source de dictionnaires"
+
+#: C/sources-select.page:28(page/p)
+msgid ""
+"You can change the <link xref=\"sources\">dictionary source</link> that you "
+"are currently using without changing your default preferences."
+msgstr ""
+"Vous pouvez modifier la <link xref=\"sources\">source de dictionnaires</"
+"link> que vous utilisez actuellement sans changer vos préférences par défaut."
+
+#: C/sources-select.page:32(steps/title)
+msgid "Temporarily change the dictionary source:"
+msgstr "Modifier temporairement la source de dictionnaires :"
+
+#: C/sources-select.page:34(item/p)
+msgid ""
+"Select <guiseq><gui style=\"menu\">View</gui> <gui style=\"menuitem"
+"\">Dictionary Sources</gui></guiseq>."
+msgstr ""
+"Sélectionnez <guiseq><gui style=\"menu\">Affichage</gui> <gui style="
+"\"menuitem\">Sources de dictionnaires</gui></guiseq>."
+
+#: C/sources-select.page:38(item/p)
+msgid "Double click on the dictionary source that you want to use."
+msgstr ""
+"Double-cliquez sur la source de dictionnaires que vous souhaitez utiliser."
+
+#: C/text-copy.page:23(info/desc)
+msgid "Select and copy a definition to another application."
+msgstr "Sélectionner et copier une définition vers une autre application."
+
+#: C/text-copy.page:27(page/title)
+msgid "Copy definition"
+msgstr "Copie d'une définition"
+
+#: C/text-copy.page:29(page/p)
+msgid ""
+"You can copy and paste definitions from <app>Dictionary</app> to another "
+"application."
+msgstr ""
+"Vous pouvez copier et coller des définitions à partir de <app>Dictionnaire</"
+"app> vers d'autres applications."
+
+#: C/text-copy.page:33(steps/title)
+msgid "Copy a definition"
+msgstr "Copier une définition"
+
+#: C/text-copy.page:35(item/p)
+msgid ""
+"Select the text that you want to copy in <app>Dictionary</app>. "
+"Alternatively, you can select the whole definition using <guiseq><gui style="
+"\"menu\">Edit</gui> <gui style=\"menuitem\">Select All</gui></guiseq>."
+msgstr ""
+"Sélectionnez le texte que vous souhaitez copier dans <app>Dictionnaire</"
+"app>. À la place, vous pouvez sélectionner la définition en entière en "
+"utilisant <guiseq><gui style=\"menu\">Édition</gui> <gui style=\"menuitem"
+"\">Tout sélectionner</gui></guiseq>."
+
+#: C/text-copy.page:41(item/p)
+msgid ""
+"Select <guiseq><gui style=\"menu\">Edit</gui> <gui style=\"menuitem\">Copy</"
+"gui></guiseq>."
+msgstr ""
+"Sélectionnez <guiseq><gui style=\"menu\">Édition</gui> <gui style=\"menuitem"
+"\">Copier</gui></guiseq>."
+
+#: C/text-copy.page:45(item/p)
+msgid ""
+"Paste the text into another application. This can usually be done using the "
+"<keyseq><key>Ctrl</key><key>P</key></keyseq> keyboard shortcut or through "
+"one of the menus."
+msgstr ""
+"Collez le texte dans une autre application. Ceci peut être fait en utilisant "
+"le raccourci clavier <keyseq><key>Ctrl</key><key>V</key></keyseq> ou via "
+"l'un des menus."
+
+#~ msgid ""
+#~ "To report a bug or make a suggestion regarding the Dictionary application "
+#~ "or this manual, follow the directions in the <ulink url=\"help:gnome-"
+#~ "feedback\" type=\"help\">GNOME Feedback Page</ulink>."
+#~ msgstr ""
+#~ "Pour rapporter une anomalie ou émettre une suggestion concernant le "
+#~ "Dictionnaire ou ce manuel, procédez comme indiqué sur la <ulink url="
+#~ "\"help:gnome-feedback\" type=\"help\">page de réactions sur GNOME</ulink>."
+
+#~ msgid ""
+#~ "The <application>Dictionary</application> application enables you to "
+#~ "search words and terms on a dictionary source."
+#~ msgstr ""
+#~ "Le <application>Dictionnaire</application> permet de rechercher des "
+#~ "définitions de mots et de termes à partir d'un dictionnaire source."
+
+#~ msgid ""
+#~ "You can start <application>Dictionary</application> in the following ways:"
+#~ msgstr ""
+#~ "Le <application>Dictionnaire</application> peut être lancé de plusieurs "
+#~ "manières :"
+
+#~ msgid ""
+#~ "To look up a word, type it into the <guilabel>entry field</guilabel> and "
+#~ "press <keycap>Enter</keycap>."
+#~ msgstr ""
+#~ "Pour rechercher un mot, saisissez-le dans la <guilabel>zone de recherche</"
+#~ "guilabel> et appuyez sur <keycap>Entrée</keycap>."
+
+#~ msgid ""
+#~ "If some definition for the word is found, it will appear inside the main "
+#~ "window area:"
+#~ msgstr ""
+#~ "Si une définition du mot est trouvée, elle apparaît dans la zone "
+#~ "principale de la fenêtre :"
+
+#~ msgid ""
+#~ "<imageobject> <imagedata fileref=\"figures/gnome-dictionary-lookup.png\" "
+#~ "format=\"PNG\"/> </imageobject> <textobject><phrase>Shows a definition "
+#~ "inside the Dictionary main window.</phrase></textobject>"
+#~ msgstr ""
+#~ "<imageobject> <imagedata fileref=\"figures/gnome-dictionary-lookup.png\" "
+#~ "format=\"PNG\"/> </imageobject> <textobject><phrase>Affiche une "
+#~ "définition à l'intérieur de la fenêtre principale du Dictionnaire.</"
+#~ "phrase></textobject>"
+
+#~ msgid ""
+#~ "Otherwise, an error dialog will appear, with a message explaining the "
+#~ "nature of the error."
+#~ msgstr "Dans le cas contraire, un message d'erreur explicatif apparaîtra."
+
+#~ msgid "Save look up results"
+#~ msgstr "Enregistrement des résultats d'une recherche"
+
+#~ msgid ""
+#~ "To save the results of a look up, choose <menuchoice><guimenu>File</"
+#~ "guimenu><guimenuitem>Save a Copy</guimenuitem></menuchoice>. Enter a name "
+#~ "for the file in the <guilabel>Save a Copy</guilabel> dialog, then click "
+#~ "<guibutton>Save</guibutton>."
+#~ msgstr ""
+#~ "Pour enregistrer les résultats d'une recherche, choisissez "
+#~ "<menuchoice><guimenu>Fichier</guimenu><guimenuitem>Enregistrer une copie</"
+#~ "guimenuitem></menuchoice>. Saisissez un nom de fichier dans la boîte de "
+#~ "dialogue <guilabel>Enregistrer une copie</guilabel>, puis cliquez sur "
+#~ "<guibutton>Enregistrer</guibutton>."
+
+#~ msgid ""
+#~ "To print the results of a look up, choose <menuchoice><guimenu>File</"
+#~ "guimenu><guimenuitem>Print</guimenuitem></menuchoice>."
+#~ msgstr ""
+#~ "Pour imprimer les résultats d'une recherche, choisissez "
+#~ "<menuchoice><guimenu>Fichier</guimenu><guimenuitem>Imprimer</"
+#~ "guimenuitem></menuchoice>."
+
+#~ msgid ""
+#~ "Inside the <guilabel>Print</guilabel> dialog you can select the printer "
+#~ "to use, the paper format, the number of copies."
+#~ msgstr ""
+#~ "Dans la boîte de dialogue <guilabel>Imprimer</guilabel>, il est possible "
+#~ "de choisir l'imprimante, le format du papier et le nombre de copies."
+
+#~ msgid ""
+#~ "To see a preview of what will be printed, click <guibutton>Preview</"
+#~ "guibutton>."
+#~ msgstr ""
+#~ "Pour prévisualiser l'impression, cliquez sur <guibutton>Aperçu avant "
+#~ "impression</guibutton>."
+
+#~ msgid "To print, click <guibutton>Print</guibutton>."
+#~ msgstr "Pour imprimer, cliquez sur <guibutton>Imprimer</guibutton>."
+
+#~ msgid ""
+#~ "<imageobject> <imagedata fileref=\"figures/gnome-dictionary-find.png\" "
+#~ "format=\"PNG\"/> </imageobject> <textobject><phrase>Shows the Dictionary "
+#~ "Find pane inside the main window.</phrase></textobject>"
+#~ msgstr ""
+#~ "<imageobject> <imagedata fileref=\"figures/gnome-dictionary-find.png\" "
+#~ "format=\"PNG\"/> </imageobject> <textobject><phrase>Affiche le volet de "
+#~ "recherche à l'intérieur de la fenêtre principale du Dictionnaire.</"
+#~ "phrase></textobject>"
+
+#~ msgid ""
+#~ "To find text inside the results of a look up, perform the following steps:"
+#~ msgstr ""
+#~ "Pour rechercher du texte à l'intérieur des résultats d'une requête, "
+#~ "effectuez les opérations suivantes :"
+
+#~ msgid ""
+#~ "Choose <menuchoice> <guimenu>Edit</guimenu> <guimenuitem>Find</"
+#~ "guimenuitem> </menuchoice> to display the <guilabel>Find</guilabel> pane."
+#~ msgstr ""
+#~ "Choisissez <menuchoice><guimenu>Édition</guimenu><guimenuitem>Rechercher</"
+#~ "guimenuitem></menuchoice> afin d'afficher le volet <guilabel>Rechercher</"
+#~ "guilabel>."
+
+#~ msgid ""
+#~ "Type the text you want to find inside the <guilabel>Search</guilabel> "
+#~ "entry."
+#~ msgstr ""
+#~ "Saisissez le texte souhaité dans le champ <guilabel>Rechercher</guilabel>."
+
+#~ msgid ""
+#~ "To find the next occurrence of the text, click <guibutton>Next</"
+#~ "guibutton>. To find the previous occurrence of the text, click "
+#~ "<guibutton>Previous</guibutton>."
+#~ msgstr ""
+#~ "Pour rechercher la prochaine occurrence du texte, cliquez sur le bouton "
+#~ "<guibutton>Suivant</guibutton>. Pour rechercher l'occurrence précédente, "
+#~ "cliquez sur <guibutton>Précédent</guibutton>."
+
+#~ msgid ""
+#~ "To change the <application>Dictionary</application> application "
+#~ "preferences, choose <menuchoice><guimenu>Edit</"
+#~ "guimenu><guimenuitem>Preferences</guimenuitem></menuchoice>."
+#~ msgstr ""
+#~ "Pour modifier les préférences de l'application <application>Dictionnaire</"
+#~ "application>, choisissez <menuchoice><guimenu>Édition</"
+#~ "guimenu><guimenuitem>Préférences</guimenuitem></menuchoice>."
+
+#~ msgid ""
+#~ "<imageobject> <imagedata fileref=\"figures/gnome-dictionary-preferences-"
+#~ "source.png\" format=\"PNG\"/> </imageobject> <textobject><phrase>Shows "
+#~ "the Source tab of the Preferences dialog.</phrase></textobject>"
+#~ msgstr ""
+#~ "<imageobject> <imagedata fileref=\"figures/gnome-dictionary-preferences-"
+#~ "source.png\" format=\"PNG\"/> </imageobject> <textobject><phrase>Affiche "
+#~ "l'onglet des sources de la fenêtre des préférences.</phrase></textobject>"
+
+#~ msgid ""
+#~ "To change the dictionary source used to look up words, select the desired "
+#~ "source from the list."
+#~ msgstr ""
+#~ "Pour modifier la source du dictionnaire utilisé pour rechercher des mots, "
+#~ "sélectionnez la source souhaitée dans la liste."
+
+#~ msgid ""
+#~ "<imageobject> <imagedata fileref=\"figures/gnome-dictionary-add-source.png"
+#~ "\" format=\"PNG\"/> </imageobject> <textobject><phrase>Shows the Add "
+#~ "Source dialog.</phrase></textobject>"
+#~ msgstr ""
+#~ "<imageobject> <imagedata fileref=\"figures/gnome-dictionary-add-source.png"
+#~ "\" format=\"PNG\"/> </imageobject> <textobject><phrase>Affiche la fenêtre "
+#~ "de dialogue d'ajouts de sources.</phrase></textobject>"
+
+#~ msgid "To add a new dictionary source, perform the following steps:"
+#~ msgstr ""
+#~ "Pour ajouter une nouvelle source de dictionnaire, effectuez les "
+#~ "opérations suivantes :"
+
+#~ msgid ""
+#~ "Edit the name of the new source inside the <guilabel>Description</"
+#~ "guilabel> entry"
+#~ msgstr ""
+#~ "Saisissez le nom de la nouvelle source dans le champ "
+#~ "<guilabel>Description</guilabel>."
+
+#~ msgid ""
+#~ "Change the transport type of the new source using the "
+#~ "<guilabel>Transport</guilabel> combo box"
+#~ msgstr ""
+#~ "Modifiez le type de transport de la nouvelle source dans la liste "
+#~ "déroulante <guilabel>Transport</guilabel>."
+
+#~ msgid ""
+#~ "Different source transport types uses different attributes. This is the "
+#~ "list of available attributes per transport type:"
+#~ msgstr ""
+#~ "Différents types de transport de source utilisent des attributs "
+#~ "différents. Voici la liste des attributs disponibles pour chaque type de "
+#~ "transport :"
+
+#~ msgid ""
+#~ "If you remove a dictionary source it will be permanently deleted from the "
+#~ "list of available sources. Also, as some sources might be defined system-"
+#~ "wide you may actually not be able to remove them unless you have the "
+#~ "right ownership privileges."
+#~ msgstr ""
+#~ "Si vous enlevez une source de dictionnaire, elle sera définitivement "
+#~ "supprimée de la liste des ressources disponibles. D'autre part, comme "
+#~ "certaines sources sont définies au niveau du système, il est possible que "
+#~ "vous ne puissiez pas l'enlever si vous ne disposez pas des privilèges "
+#~ "nécessaires."
+
+#~ msgid ""
+#~ "<imageobject> <imagedata fileref=\"figures/gnome-dictionary-preferences-"
+#~ "print.png\" format=\"PNG\"/> </imageobject> <textobject><phrase>Shows the "
+#~ "Print tab inside the Preferences dialog.</phrase></textobject>"
+#~ msgstr ""
+#~ "<imageobject> <imagedata fileref=\"figures/gnome-dictionary-preferences-"
+#~ "print.png\" format=\"PNG\"/> </imageobject> <textobject><phrase>Affiche "
+#~ "l'onglet d'impression à l'intérieur de la fenêtre de préférences.</"
+#~ "phrase></textobject>"
+
+#~ msgid ""
+#~ "The <application>Dictionary</application> application comes with a panel "
+#~ "applet, the <application>Dictionary Applet</application>. You can add the "
+#~ "<application>Dictionary Applet</application> applet to a panel and look "
+#~ "up words in dictionaries."
+#~ msgstr ""
+#~ "L'application <application>Dictionnaire</application> est fournie avec "
+#~ "une applet de tableau de bord, l'<application>applet Dictionnaire</"
+#~ "application>. Vous pouvez ajouter l'applet <application>Dictionnaire</"
+#~ "application> à un tableau de bord et rechercher des mots dans des "
+#~ "dictionnaires."
+
+#~ msgid ""
+#~ "To add <application>Dictionary Applet</application> to a panel, right-"
+#~ "click on the panel, then choose <guimenuitem>Add to Panel</guimenuitem>. "
+#~ "Select Dictionary Applet in the <application>Add to the panel</"
+#~ "application> dialog, then click <guibutton>OK</guibutton>."
+#~ msgstr ""
+#~ "Pour ajouter l'applet <application>Dictionnaire</application> à un "
+#~ "tableau de bord, cliquez avec le bouton droit de la souris sur un tableau "
+#~ "de bord, puis choisissez <guimenuitem>Ajouter au tableau de bord</"
+#~ "guimenuitem>. Sélectionnez l'applet Dictionnaire dans la boîte de "
+#~ "dialogue <application>Ajouter au tableau de bord</application>, puis "
+#~ "cliquez sur <guibutton>Ajouter</guibutton>."
+
+#~ msgid ""
+#~ "To look up a word, type it into the <guilabel>entry field</guilabel>, and "
+#~ "press <keycap>Enter</keycap> or right-click on the dictionary icon and "
+#~ "then choose <guimenuitem>Look up</guimenuitem>."
+#~ msgstr ""
+#~ "Pour rechercher un mot, saisissez-le dans la <guilabel>zone de texte</"
+#~ "guilabel>, puis appuyez sur <keycap>Entrée</keycap> ou cliquez avec le "
+#~ "bouton droit sur l'icône du dictionnaire et choisissez "
+#~ "<guimenuitem>Rechercher le texte sélectionné</guimenuitem>."
+
+#~ msgid ""
+#~ "If some definition for the word was found, a window will appear, with the "
+#~ "text of the definitions:"
+#~ msgstr ""
+#~ "Si une définition du mot est trouvée, une fenêtre contenant le texte de "
+#~ "la définition apparaît :"
+
+#~ msgid ""
+#~ "Click <guibutton>Save</guibutton> to save the definitions to a text file. "
+#~ "Click <guibutton>Print</guibutton> to print the definitions. Click "
+#~ "<guibutton>Clear</guibutton> to clear the definitions."
+#~ msgstr ""
+#~ "Cliquez sur <guibutton>Enregistrer</guibutton> pour enregistrer les "
+#~ "définitions dans un fichier texte. Cliquez sur <guibutton>Imprimer</"
+#~ "guibutton> pour imprimer les définitions. Cliquez sur <guibutton>Effacer</"
+#~ "guibutton> pour effacer les définitions."
+
+#~ msgid ""
+#~ "You can make the window disappear by left-clicking on the dictionary icon "
+#~ "or by pressing <keycap>Esc</keycap>."
+#~ msgstr ""
+#~ "Vous pouvez faire disparaître la fenêtre en cliquant avec le bouton "
+#~ "gauche sur l'icône du Dictionnaire ou en appuyant sur <keycap>Échap</"
+#~ "keycap>."
+
+#~ msgid ""
+#~ "To configure the <application>Dictionary Applet</application>, right-"
+#~ "click on the dictionary icon, then choose <guimenuitem>Preferences</"
+#~ "guimenuitem>."
+#~ msgstr ""
+#~ "Pour configurer l'applet <application>Dictionnaire</application>, cliquez "
+#~ "avec le bouton droit sur l'icône du dictionnaire et choisissez "
+#~ "<guimenuitem>Préférences</guimenuitem>."
+
+#~ msgid ""
+#~ "The <guilabel>Preferences</guilabel> dialog is the same used by the "
+#~ "<application>Dictionary</application> application, so refer to <xref "
+#~ "linkend=\"gnome-dictionary-preferences\"/>"
+#~ msgstr ""
+#~ "La boîte de dialogue <guilabel>Préférences</guilabel> est la même que "
+#~ "celle de l'application <application>Dictionnaire</application>, veuillez "
+#~ "donc vous référer à <xref linkend=\"gnome-dictionary-preferences\"/>."
+
