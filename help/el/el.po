@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: el-gnome-dictionary-help 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-04-08 16:23+0000\n"
-"PO-Revision-Date: 2013-04-09 09:50+0300\n"
+"POT-Creation-Date: 2013-07-21 20:18+0000\n"
+"PO-Revision-Date: 2013-08-25 16:23+0300\n"
 "Last-Translator: Dimitris Spingos (Δημήτρης Σπίγγος) <dmtrs32@gmail.com>\n"
 "Language-Team: team@gnome.gr\n"
 "Language: el\n"
@@ -26,6 +26,28 @@ msgstr ""
 " Δημήτρης Σπίγγος <dmtrs32@gmail.com>, 2013\n"
 "\n"
 "Για περισσότερα δείτε http://www.gnome.gr/"
+
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#.
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/index.page:22(media)
+#| msgctxt "_"
+#| msgid ""
+#| "external ref='figures/gnome-dictionary-application.png' "
+#| "md5='fb48a9e5863bfb2b3811df2e28489eb7'"
+msgctxt "_"
+msgid ""
+"external ref='figures/gnome-dictionary-icon.png' "
+"md5='2f50c3a71e57be0b41efd43c2f7fae60'"
+msgstr ""
+"external ref='figures/gnome-dictionary-icon.png' "
+"md5='2f50c3a71e57be0b41efd43c2f7fae60'"
 
 #: C/index.page:8(info/title)
 msgctxt "text"
@@ -163,10 +185,6 @@ msgid "Select a different dictionary"
 msgstr "Επιλέξτε ένα διαφορετικό λεξικό"
 
 #: C/dictionary-select.page:27(page/p)
-#| msgid ""
-#| "A single <link xref=\"sources\">dictionary source</link> may have many "
-#| "dictionaries different dictionaries. You can search any of these "
-#| "dictionaries."
 msgid ""
 "A single <link xref=\"sources\">dictionary source</link> may have many "
 "different dictionaries. You can search any of these dictionaries."
@@ -736,10 +754,6 @@ msgstr ""
 "\">Αποθήκευση ενός αντιγράφου…</gui></guiseq>."
 
 #: C/save-definition.page:38(item/p)
-#| msgid ""
-#| "Chose where you want to save the definition to and a name for the file. "
-#| "You may want to add a <file>.txt</file> file extention to the end of the "
-#| "file name."
 msgid ""
 "Chose where you want to save the definition to and a name for the file. You "
 "may want to add a <file>.txt</file> file extension to the end of the file "
@@ -986,7 +1000,6 @@ msgid "Double click on the dictionary source that you want to use."
 msgstr "Διπλοπατήστε στην πηγή λεξικού που θέλετε να χρησιμοποιήσετε."
 
 #: C/text-copy.page:23(info/desc)
-#| msgid "Select and copy a defintion to another application."
 msgid "Select and copy a definition to another application."
 msgstr "Επιλογή και αντιγραφή ενός ορισμού σε άλλη εφαρμογή."
 
@@ -1034,14 +1047,6 @@ msgstr ""
 "Επικολλήστε το κείμενο σε μια άλλη εφαρμογή. Αυτό μπορεί συνήθως να γίνει "
 "χρησιμοποιώντας τη συντόμευση πληκτρολογίου <keyseq><key>Ctrl</key><key>P</"
 "key></keyseq> ή μέσα από ένα από τα μενού."
-
-#~ msgctxt "_"
-#~ msgid ""
-#~ "external ref='figures/gnome-dictionary-application.png' "
-#~ "md5='fb48a9e5863bfb2b3811df2e28489eb7'"
-#~ msgstr ""
-#~ "external ref='figures/gnome-dictionary-application.png' "
-#~ "md5='fb48a9e5863bfb2b3811df2e28489eb7'"
 
 #~ msgctxt "_"
 #~ msgid ""
