@@ -1,5 +1,7 @@
 SUBDIRS = libgdict src data docs help po
 
+ACLOCAL_AMFLAGS = -I m4 ${ACLOCAL_FLAGS}
+
 EXTRA_DIST = TODO README AUTHORS COPYING.docs COPYING.libs
 
 DISTCHECK_CONFIGURE_FLAGS = --enable-gtk-doc
