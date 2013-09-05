@@ -1,12 +1,12 @@
 # Милош Поповић <gpopac@gmail.com>, 2011.
-# Мирослав Николић <miroslavnikolic@rocketmail.com>, 2011, 2012.
+# Мирослав Николић <miroslavnikolic@rocketmail.com>, 2011, 2012, 2013.
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-utils-2.0\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "dictionary&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2012-11-14 18:34+0000\n"
-"PO-Revision-Date: 2012-11-17 12:06+0200\n"
+"POT-Creation-Date: 2013-08-27 14:44+0000\n"
+"PO-Revision-Date: 2013-09-05 09:35+0200\n"
 "Last-Translator: Мирослав Николић <miroslavnikolic@rocketmail.com>\n"
 "Language-Team: Serbian <gnom@prevod.org>\n"
 "Language: sr\n"
@@ -119,8 +119,9 @@ msgid "Dictionary Sources"
 msgstr "Извори речника"
 
 #: ../data/gnome-dictionary-menus.ui.h:22
-msgid "Available _Databases"
-msgstr "Доступне _базе података"
+#| msgid "Available dictionaries"
+msgid "Available _Dictionaries"
+msgstr "Доступни _речници"
 
 #: ../data/gnome-dictionary-menus.ui.h:23
 msgid "Available St_rategies"
@@ -301,8 +302,8 @@ msgid ""
 "Unable to connect to the dictionary server at '%s:%d'. The server replied "
 "with code %d (server down)"
 msgstr ""
-"Не могу да се повежем на сервер речника „%s:%d“. Сервер је одговорио кодом %"
-"d (сервер је оборен)"
+"Не могу да се повежем на сервер речника „%s:%d“. Сервер је одговорио кодом "
+"%d (сервер је оборен)"
 
 #: ../libgdict/gdict-client-context.c:1195
 #, c-format
@@ -819,36 +820,3 @@ msgstr "Доступне стратегије"
 #: ../src/gdict-window.c:1737
 msgid "Dictionary sources"
 msgstr "Извори речника"
-
-#~ msgid "New look up"
-#~ msgstr "Нова претрага"
-
-#~ msgid "Preview this document"
-#~ msgstr "Преглед документа"
-
-#~ msgid "_Print..."
-#~ msgstr "_Штампај..."
-
-#~ msgid "Print this document"
-#~ msgstr "Штампај овај документ"
-
-#~ msgid "Find a word or phrase in the document"
-#~ msgstr "Пронађи реч или фразу у документу"
-
-#~ msgid "Go to the previous definition"
-#~ msgstr "Иди на претходну дефиницију"
-
-#~ msgid "Go to the next definition"
-#~ msgstr "Иди на следећу дефиницију"
-
-#~ msgid "Go to the first definition"
-#~ msgstr "Иди на прву дефиницију"
-
-#~ msgid "Go to the last definition"
-#~ msgstr "Иди на последњу дефиницију"
-
-#~ msgid "_Contents"
-#~ msgstr "_Садржај"
-
-#~ msgid "_About"
-#~ msgstr "_О програму"
