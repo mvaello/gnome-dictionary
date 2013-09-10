@@ -1,13 +1,13 @@
 # Vital Khilko <dojlid@mova.org>, 2003.
 # Ales Nyakhaychyk <nab@mail.by>, 2003, 2004.
-# Ihar Hrachyshka <ihar.hrachyshka@gmail.com>, 2011.
+# Ihar Hrachyshka <ihar.hrachyshka@gmail.com>, 2011, 2013.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-utils.master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "dictionary&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2012-11-14 18:34+0000\n"
+"POT-Creation-Date: 2013-07-18 11:41+0000\n"
 "PO-Revision-Date: 2012-05-10 20:18+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian <i18n-bel-gnome@googlegroups.com>\n"
@@ -120,8 +120,8 @@ msgid "Dictionary Sources"
 msgstr "Крыніцы слоўнікаў"
 
 #: ../data/gnome-dictionary-menus.ui.h:22
-msgid "Available _Databases"
-msgstr "Наяўныя _базы даных"
+msgid "Available _Dictionaries"
+msgstr "Наяўныя _слоўнікі"
 
 #: ../data/gnome-dictionary-menus.ui.h:23
 msgid "Available St_rategies"
@@ -820,3 +820,4 @@ msgstr "Наяўныя стратэгіі пошуку"
 #: ../src/gdict-window.c:1737
 msgid "Dictionary sources"
 msgstr "Крыніцы слоўнікаў"
+
