@@ -1,7 +1,6 @@
-# Indonesian translation for gnome-dictionary user guide
-# Copyright (C) 2011 gnome-dictionary's COPYRIGHT HOLDER
-# This file is distributed under the same license as the gnome-dictionary user guide.
-#
+# Indonesian translation for gnome-utils dictionary manual.
+# Copyright (C) 2011 gnome-utils's COPYRIGHT HOLDER
+# This file is distributed under the same license as the gnome-utils package.
 # Paula <aninditapaula@yahoo.com>, 2011
 # Andika Triwidada <andika@gmail.com>, 2012, 2013
 #
@@ -242,7 +241,7 @@ msgid ""
 "Select <guiseq><gui style=\"menu\">Edit</gui> <gui style=\"menuitem\">Find</"
 "gui></guiseq>."
 msgstr ""
-"Pilih <guiseq><gui style=\"menu\">Sunting</gui> <gui style=\"menuitem>Cari</"
+"Pilih <guiseq><gui style=\"menu\">Sunting</gui> <gui style=\"menuitem\">Cari</"
 "gui></guiseq>."
 
 #: C/find.page:38(item/p)
@@ -261,7 +260,7 @@ msgid ""
 "other words, it will not go to the top of the page when you are on the last "
 "result and click <gui style=\"button\">Next</gui>."
 msgstr ""
-"Klik <gui style=\"button\">Sebelumnya</gui> atau <gui style\"button"
+"Klik <gui style=\"button\">Sebelumnya</gui> atau <gui style=\"button"
 "\">Selanjutnya</gui> untuk menelusuri hasil. Pencarian tidak akan melipat: "
 "dengan kata lain, tidak akan kembali ke puncak halaman ketika Anda berada "
 "pada hasil terakhir dan mengklik <gui style=\"button\">Selanjutnya</gui>."
