@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-dictionary master\n"
 "POT-Creation-Date: 2013-09-02 16:09+0000\n"
-"PO-Revision-Date: 2013-09-02 21:46+0200\n"
+"PO-Revision-Date: 2013-09-10 23:50+0200\n"
 "Last-Translator: Fran Dieguez <frandieguez@gnome.org>\n"
 "Language-Team: gnome-l10n-gl@gnome.org\n"
 "Language: gl\n"
@@ -680,7 +680,7 @@ msgid ""
 "\">Preview</gui></guiseq>."
 msgstr ""
 "Seleccione <guiseq><gui style=\"menu\">Ficheiro</gui> <gui "
-"style=\"menuitem\">Previsualizar</gui><guiseq>."
+"style=\"menuitem\">Previsualizar</gui></guiseq>."
 
 #. (itstool) path: item/p
 #: C/print.page:44
@@ -1166,7 +1166,7 @@ msgstr ""
 "Seleccione o texto que quere copiar en <app>Dicionario</app>. De forma "
 "alternativa, pode seleccionar toda a definición usando <guiseq><gui "
 "style=\"menu\">Editar</gui> <gui style=\"menuitem\">Seleccionar "
-"todo</gui></gui>."
+"todo</gui></guiseq>."
 
 #. (itstool) path: item/p
 #: C/text-copy.page:41
