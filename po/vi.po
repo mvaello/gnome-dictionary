@@ -41,7 +41,7 @@ msgstr ""
 
 #: ../data/gnome-dictionary-menus.ui.h:1
 msgid "Preferences"
-msgstr "_Cá nhân hóa"
+msgstr "_Tuỳ thích"
 
 #: ../data/gnome-dictionary-menus.ui.h:2
 msgid "Help"
@@ -57,7 +57,7 @@ msgstr "Thoát"
 
 #: ../data/gnome-dictionary-menus.ui.h:5
 msgid "_File"
-msgstr "_Chính"
+msgstr "_Tập tin"
 
 #: ../data/gnome-dictionary-menus.ui.h:6
 msgid "_New"
