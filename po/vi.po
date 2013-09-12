@@ -1,17 +1,18 @@
 # Vietnamese Translation for GNOME Utils.
-# Copyright © 2009 GNOME i18n Project for Vietnamese.
+# Copyright © 2013 GNOME i18n Project for Vietnamese.
 # Nguyễn Thái Ngọc Duy <pclouds@gmail.com>, 2002,2007,2011-2012.
 # Clytie Siddall <clytie@riverland.net.au>, 2005-2009.
+# Trần Ngọc Quân <vnwildman@gmail.com>, 2013.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-utils GNOME TRUNK\n"
+"Project-Id-Version: gnome-dictionary GNOME TRUNK\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "dictionary&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2013-07-18 11:41+0000\n"
+"POT-Creation-Date: 2013-08-27 14:44+0000\n"
 "PO-Revision-Date: 2013-09-12 11:00+0700\n"
-"Last-Translator: Nguyễn Thái Ngọc Duy <pclouds@gmail.com>\n"
-"Language-Team: Vietnamese <vi-VN@googlegroups.com>\n"
+"Last-Translator: Trần Ngọc Quân <vnwildman@gmail.com>\n"
+"Language-Team: Vietnamese <translation-team-vi@lists.sourceforge.net>\n"
 "Language: vi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -35,10 +36,12 @@ msgstr "Tìm từ trong từ điển trực tuyến để kiểm tra chính tả
 #: ../data/gnome-dictionary.desktop.in.in.h:3
 msgid "word;synonym;definition;spelling;"
 msgstr ""
+"word;từ;tu;điển;dien;synonym;đồng;dong;definition;định;nghĩa;dinh;nghia;"
+"spelling;chính;tả;chinh;ta;"
 
 #: ../data/gnome-dictionary-menus.ui.h:1
 msgid "Preferences"
-msgstr "_Tuỳ thích"
+msgstr "_Cá nhân hóa"
 
 #: ../data/gnome-dictionary-menus.ui.h:2
 msgid "Help"
@@ -46,7 +49,7 @@ msgstr "Trợ giúp"
 
 #: ../data/gnome-dictionary-menus.ui.h:3
 msgid "About Dictionary"
-msgstr "Giới thiệu Từ điển"
+msgstr "Giới thiệu về từ điển"
 
 #: ../data/gnome-dictionary-menus.ui.h:4
 msgid "Quit"
@@ -54,7 +57,7 @@ msgstr "Thoát"
 
 #: ../data/gnome-dictionary-menus.ui.h:5
 msgid "_File"
-msgstr "_Tập tin"
+msgstr "_Chính"
 
 #: ../data/gnome-dictionary-menus.ui.h:6
 msgid "_New"
@@ -121,10 +124,8 @@ msgid "Dictionary Sources"
 msgstr "Nguồn từ điển"
 
 #: ../data/gnome-dictionary-menus.ui.h:22
-#, fuzzy
-#| msgid "Available dictionaries"
 msgid "Available _Dictionaries"
-msgstr "Từ điển sẵn sàng"
+msgstr "Từ điển _sẵn có"
 
 #: ../data/gnome-dictionary-menus.ui.h:23
 msgid "Available St_rategies"
@@ -206,7 +207,7 @@ msgid ""
 "present in a dictionary source should be searched"
 msgstr ""
 "Tên cơ sở dữ liệu riêng mặc định hay siêu cơ sở dữ liệu cần dùng với nguồn "
-"từ điển. Dấu « ! » có nghĩa là mọi cơ sở dữ liệu trên nguồn từ điển đó nên "
+"từ điển. Dấu “!” có nghĩa là mọi cơ sở dữ liệu trên nguồn từ điển đó nên "
 "được tìm kiếm"
 
 #: ../data/org.gnome.dictionary.gschema.xml.in.in.h:3
@@ -219,7 +220,7 @@ msgid ""
 "available. The default strategy is 'exact', that is match exact words."
 msgstr ""
 "Tên của chiến lược tìm kiếm mặc định cần dùng với nguồn từ điển, nếu có. "
-"Chiến lược là « exact » (chính xác), tức là phải khớp chỉ từ một cách chính "
+"Chiến lược là “exact” (chính xác), tức là phải khớp chỉ từ một cách chính "
 "xác."
 
 #: ../data/org.gnome.dictionary.gschema.xml.in.in.h:5
@@ -282,22 +283,22 @@ msgstr "Mã trạng thãi được trả lời bởi máy phục vụ từ đi�
 #: ../libgdict/gdict-client-context.c:776
 #, c-format
 msgid "No connection to the dictionary server at '%s:%d'"
-msgstr "Không có kết nối đến máy phục vụ từ điển tại « %s:%d »"
+msgstr "Không có kết nối đến máy phục vụ từ điển tại “%s:%d”"
 
 #: ../libgdict/gdict-client-context.c:1059
 #, c-format
 msgid "Lookup failed for hostname '%s': no suitable resources found"
-msgstr "Lỗi tra tìm với tên máy « %s »: không tìm thấy tài nguyên thích hợp"
+msgstr "Lỗi tra tìm với tên máy “%s”: không tìm thấy tài nguyên thích hợp"
 
 #: ../libgdict/gdict-client-context.c:1090
 #, c-format
 msgid "Lookup failed for host '%s': %s"
-msgstr "Lỗi tra tìm với tên máy « %s »: %s"
+msgstr "Lỗi tra tìm với tên máy “%s”: %s"
 
 #: ../libgdict/gdict-client-context.c:1124
 #, c-format
 msgid "Lookup failed for host '%s': host not found"
-msgstr "Lỗi tra tìm với tên máy « %s »: không tìm thấy máy"
+msgstr "Lỗi tra tìm với tên máy “%s”: không tìm thấy máy"
 
 #: ../libgdict/gdict-client-context.c:1176
 #, c-format
@@ -305,7 +306,7 @@ msgid ""
 "Unable to connect to the dictionary server at '%s:%d'. The server replied "
 "with code %d (server down)"
 msgstr ""
-"Không thể kết nối đến máy phục vụ từ điển tại « %s:%d ». Máy phục vụ đã trả "
+"Không thể kết nối đến máy phục vụ từ điển tại “%s:%d”. Máy phục vụ đã trả "
 "lời mã %d (máy phục vụ không trực tuyến)"
 
 #: ../libgdict/gdict-client-context.c:1195
@@ -314,48 +315,48 @@ msgid ""
 "Unable to parse the dictionary server reply\n"
 ": '%s'"
 msgstr ""
-"Không thể phân tách trả lời của máy phục vụ từ điển\n"
-": '%s'"
+"Không thể phân tích trả lời của máy phục vụ từ điển\n"
+": “%s”"
 
 #: ../libgdict/gdict-client-context.c:1224
 #, c-format
 msgid "No definitions found for '%s'"
-msgstr "Không tìm thấy lời định nghĩa cho « %s »"
+msgstr "Không tìm thấy lời định nghĩa cho “%s”"
 
 #: ../libgdict/gdict-client-context.c:1239
 #, c-format
 msgid "Invalid database '%s'"
-msgstr "Cơ sở dữ liệu không hợp lệ « %s »"
+msgstr "Cơ sở dữ liệu không hợp lệ “%s”"
 
 #: ../libgdict/gdict-client-context.c:1254
 #, c-format
 msgid "Invalid strategy '%s'"
-msgstr "Chiến lược không hợp lệ « %s »"
+msgstr "Chiến lược không hợp lệ “%s”"
 
 #: ../libgdict/gdict-client-context.c:1269
 #, c-format
 msgid "Bad command '%s'"
-msgstr "Lệnh sai « %s »"
+msgstr "Lệnh sai “%s”"
 
 #: ../libgdict/gdict-client-context.c:1284
 #, c-format
 msgid "Bad parameters for command '%s'"
-msgstr "Tham số sai cho lệnh « %s »"
+msgstr "Tham số sai cho lệnh “%s”"
 
 #: ../libgdict/gdict-client-context.c:1299
 #, c-format
 msgid "No databases found on dictionary server at '%s'"
-msgstr "Không tìm thấy cơ sở dữ liệu trên máy phục vụ từ điển tại « %s »"
+msgstr "Không tìm thấy cơ sở dữ liệu trên máy phục vụ từ điển tại “%s”"
 
 #: ../libgdict/gdict-client-context.c:1314
 #, c-format
 msgid "No strategies found on dictionary server at '%s'"
-msgstr "Không tìm thấy chiến lược trên máy phục vụ từ điển tại « %s »"
+msgstr "Không tìm thấy chiến lược trên máy phục vụ từ điển tại “%s”"
 
 #: ../libgdict/gdict-client-context.c:1747
 #, c-format
 msgid "Connection failed to the dictionary server at %s:%d"
-msgstr "Lỗi kết nối đến máy phục vụ từ điển tại « %s:%d »"
+msgstr "Lỗi kết nối đến máy phục vụ từ điển tại “%s:%d”"
 
 #: ../libgdict/gdict-client-context.c:1786
 #, c-format
@@ -369,7 +370,7 @@ msgstr ""
 #: ../libgdict/gdict-client-context.c:1859
 #, c-format
 msgid "Connection timeout for the dictionary server at '%s:%d'"
-msgstr "Quá hạn kết nối đến máy phục vụ từ điển tại '%s:%d'"
+msgstr "Quá hạn kết nối đến máy phục vụ từ điển tại “%s:%d”"
 
 #: ../libgdict/gdict-client-context.c:1893
 #, c-format
@@ -390,7 +391,7 @@ msgstr "Không thể lập kênh có kiểu không làm trở ngại: %s"
 #: ../libgdict/gdict-client-context.c:1985
 #, c-format
 msgid "Unable to connect to the dictionary server at '%s:%d'"
-msgstr "Không thể kết nối đến máy phục vụ từ điển tại « %s:%d »"
+msgstr "Không thể kết nối đến máy phục vụ từ điển tại “%s:%d”"
 
 #: ../libgdict/gdict-context.c:217
 msgid "Local Only"
@@ -444,7 +445,7 @@ msgstr "Hãy đợi đến khi việc tìm kiếm hiện thời đã kết thúc
 
 #: ../libgdict/gdict-defbox.c:2595
 msgid "Error while retrieving the definition"
-msgstr "Gặp lỗi khi lấy lời định nghĩa"
+msgstr "Gặp lỗi khi lấy phần định nghĩa"
 
 #: ../libgdict/gdict-source.c:231
 msgid "Filename"
@@ -460,7 +461,7 @@ msgstr "Tên"
 
 #: ../libgdict/gdict-source.c:246
 msgid "The display name of this dictionary source"
-msgstr "Hhiện tên nguồn từ điển này"
+msgstr "Hiện tên nguồn từ điển này"
 
 #: ../libgdict/gdict-source.c:259
 msgid "Description"
@@ -505,24 +506,24 @@ msgstr "Đối tượng GdictContext được buộc với nguồn này"
 #: ../libgdict/gdict-source.c:412
 #, c-format
 msgid "Invalid transport type '%d'"
-msgstr "Kiểu chuyên chở không hợp lệ « %d »"
+msgstr "Kiểu chuyên chở không hợp lệ “%d”"
 
 #: ../libgdict/gdict-source.c:440
 #, c-format
 msgid "No '%s' group found inside the dictionary source definition"
-msgstr "Không tìm thấy nhóm « %s » ở trong lời định nghĩa nguồn từ điển"
+msgstr "Không tìm thấy nhóm “%s” ở trong lời định nghĩa nguồn từ điển"
 
 #: ../libgdict/gdict-source.c:456 ../libgdict/gdict-source.c:480
 #: ../libgdict/gdict-source.c:504 ../libgdict/gdict-source.c:529
 #, c-format
 msgid "Unable to get the '%s' key inside the dictionary source definition: %s"
-msgstr "Không thể lấy khóa « %s » ở trong lời định nghĩa nguồn từ điển: %s"
+msgstr "Không thể lấy khóa “%s” ở trong lời định nghĩa nguồn từ điển: %s"
 
 #: ../libgdict/gdict-source.c:554
 #, c-format
 msgid ""
 "Unable to get the '%s' key inside the dictionary source definition file: %s"
-msgstr "Không thể lấy khóa « %s » ở trong tập tin định nghĩa nguồn từ điển: %s"
+msgstr "Không thể lấy khóa “%s” ở trong tập tin định nghĩa nguồn từ điển: %s"
 
 #: ../libgdict/gdict-source.c:740
 #, c-format
@@ -532,7 +533,7 @@ msgstr "Lời định nghĩa từ điển chưa có tên"
 #: ../libgdict/gdict-source.c:749
 #, c-format
 msgid "Dictionary source '%s' has invalid transport '%s'"
-msgstr "Nguồn từ điển « %s » có chuyên chở không hợp lệ « %s »"
+msgstr "Nguồn từ điển “%s” có chuyên chở không hợp lệ “%s”"
 
 #: ../libgdict/gdict-source-chooser.c:294
 msgid "Reload the list of available sources"
@@ -600,7 +601,7 @@ msgstr "Hiện các tùy chọn về Từ điển GNOME"
 
 #: ../src/gdict-about.c:53
 msgid "translator-credits"
-msgstr "Nhóm Việt hoá GNOME (http://gnomevi.sourceforge.net)"
+msgstr "Nhóm Việt hoá GNOME <https://wiki.gnome.org/GnomeVi>"
 
 #: ../src/gdict-about.c:55
 msgid "Look up words in dictionaries"
@@ -664,7 +665,7 @@ msgstr "Thêm nguồn từ điển"
 #: ../src/gdict-pref-dialog.c:348
 #, c-format
 msgid "Remove \"%s\"?"
-msgstr "Gỡ bỏ « %s » không?"
+msgstr "Gỡ bỏ “%s” không?"
 
 #: ../src/gdict-pref-dialog.c:350
 msgid "This will permanently remove the dictionary source from the list."
@@ -673,7 +674,7 @@ msgstr "Làm như thế sẽ gỡ bỏ hoàn toàn nguồn từ điển ra danh 
 #: ../src/gdict-pref-dialog.c:380
 #, c-format
 msgid "Unable to remove source '%s'"
-msgstr "Không thể gỡ bỏ nguồn « %s »"
+msgstr "Không thể gỡ bỏ nguồn “%s”"
 
 #: ../src/gdict-pref-dialog.c:641
 msgid "Add a new dictionary source"
@@ -707,22 +708,22 @@ msgstr "Không thể lưu tập tin nguồn"
 #: ../src/gdict-window.c:253
 #, c-format
 msgid "Searching for '%s'..."
-msgstr "Đang tìm kiếm « %s »..."
+msgstr "Đang tìm kiếm “%s”..."
 
 #: ../src/gdict-window.c:285 ../src/gdict-window.c:342
 msgid "No definitions found"
-msgstr "Không tìm thấy lời định nghĩa"
+msgstr "Không tìm thấy phần định nghĩa"
 
 #: ../src/gdict-window.c:287
 #, c-format
 msgid "A definition found"
 msgid_plural "%d definitions found"
-msgstr[0] "Tìm thấy %d lời định nghĩa"
+msgstr[0] "Tìm thấy %d phần định nghĩa"
 
 #: ../src/gdict-window.c:458
 #, c-format
 msgid "No dictionary source available with name '%s'"
-msgstr "Không có nguồn từ điển với tên « %s »"
+msgstr "Không có nguồn từ điển với tên “%s”"
 
 #: ../src/gdict-window.c:462
 msgid "Unable to find dictionary source"
@@ -731,7 +732,7 @@ msgstr "Không tìm thấy nguồn từ điển"
 #: ../src/gdict-window.c:478
 #, c-format
 msgid "No context available for source '%s'"
-msgstr "Không có ngữ cảnh cho nguồn « %s »"
+msgstr "Không có ngữ cảnh cho nguồn “%s”"
 
 #: ../src/gdict-window.c:482
 msgid "Unable to create a context"
@@ -753,32 +754,32 @@ msgstr "Tài liệu không tên"
 #: ../src/gdict-window.c:941
 #, c-format
 msgid "Error while writing to '%s'"
-msgstr "Gặp lỗi khi ghi vào « %s »"
+msgstr "Gặp lỗi khi ghi vào “%s”"
 
 #: ../src/gdict-window.c:1359
 #, c-format
 msgid "Dictionary source `%s' selected"
-msgstr "Nguồn từ điển « %s » đã chọn"
+msgstr "Nguồn từ điển “%s” đã chọn"
 
 #: ../src/gdict-window.c:1380
 #, c-format
 msgid "Strategy `%s' selected"
-msgstr "Chiến lược '%s' được chọn"
+msgstr "Chiến lược “%s” được chọn"
 
 #: ../src/gdict-window.c:1400
 #, c-format
 msgid "Database `%s' selected"
-msgstr "Cơ sở dữ liệu « %s » đã chọn"
+msgstr "Cơ sở dữ liệu “%s” đã chọn"
 
 #: ../src/gdict-window.c:1420
 #, c-format
 msgid "Word `%s' selected"
-msgstr "Từ « %s » đã chọn"
+msgstr "Từ “%s” đã chọn"
 
 #. speller
 #: ../src/gdict-window.c:1445
 msgid "Double-click on the word to look up"
-msgstr "Nhấn đôi vào từ cần tra tìm"
+msgstr "Nhấn đúp vào từ cần tra tìm"
 
 #. strat-chooser
 #: ../src/gdict-window.c:1451
@@ -788,12 +789,12 @@ msgstr "Nhấp đúp chiến lược tìm cần dùng"
 #. source-chooser
 #: ../src/gdict-window.c:1456
 msgid "Double-click on the source to use"
-msgstr "Nhấn đôi vào nguồn cần dùng"
+msgstr "Nhấn đúp vào nguồn cần dùng"
 
 #. db-chooser
 #: ../src/gdict-window.c:1465
 msgid "Double-click on the database to use"
-msgstr "Nhấn đôi vào cơ sở dữ liệu cần dùng"
+msgstr "Nhấn đúp vào cơ sở dữ liệu cần dùng"
 
 #: ../src/gdict-window.c:1615
 msgid "Look _up:"
@@ -805,7 +806,7 @@ msgstr "Từ tương tự"
 
 #: ../src/gdict-window.c:1703
 msgid "Available dictionaries"
-msgstr "Từ điển sẵn sàng"
+msgstr "Từ điển sẵn có"
 
 #: ../src/gdict-window.c:1721
 msgid "Available strategies"
