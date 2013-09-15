@@ -22,8 +22,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-utils\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-03-12 23:36+0100\n"
-"PO-Revision-Date: 2013-03-12 22:38+0100\n"
+"POT-Creation-Date: 2013-09-16 00:41+0200\n"
+"PO-Revision-Date: 2013-09-14 15:43+0200\n"
 "Last-Translator: Kenneth Nielsen <k.nielsen81@gmail.com>\n"
 "Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
 "Language: da\n"
@@ -134,8 +134,8 @@ msgid "Dictionary Sources"
 msgstr "Ordbogskilder"
 
 #: ../data/gnome-dictionary-menus.ui.h:22
-msgid "Available _Databases"
-msgstr "Tilgængelige _databaser"
+msgid "Available _Dictionaries"
+msgstr "Tilgængelige ord_bøger"
 
 #: ../data/gnome-dictionary-menus.ui.h:23
 msgid "Available St_rategies"
@@ -842,6 +842,9 @@ msgstr "Tilgængelige strategier"
 #: ../src/gdict-window.c:1737
 msgid "Dictionary sources"
 msgstr "Ordbogskilder"
+
+#~ msgid "Available _Databases"
+#~ msgstr "Tilgængelige _databaser"
 
 #~ msgid "New look up"
 #~ msgstr "Nyt opslag"
