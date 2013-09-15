@@ -298,7 +298,7 @@ msgstr "Wörterbuch"
 #: C/introduction.page:39(media/p)
 msgid "Screenshot showing the <app>Dictionary</app> main window."
 msgstr ""
-"Ein Bildschirmfoto, welches das Hauptfenster von <app>Wörterbuch<app> zeigt."
+"Ein Bildschirmfoto, welches das Hauptfenster von <app>Wörterbuch</app> zeigt."
 
 #: C/keyboard-shortcuts.page:23(info/desc)
 msgid ""
@@ -714,7 +714,7 @@ msgid ""
 "use it outside of <app>Dictionary</app>."
 msgstr ""
 "Sie können eine Definition in eine Textdatei abspeichern. Dies kann "
-"praktisch sein, wenn Sie diese außerhalb von <app> Wörterbuch <app/> nutzen "
+"praktisch sein, wenn Sie diese außerhalb von <app> Wörterbuch </app> nutzen "
 "möchten."
 
 #: C/save-definition.page:32(steps/title)
@@ -736,7 +736,7 @@ msgid ""
 "name."
 msgstr ""
 "Wählen Sie den Speicherort und einen Namen für die Datei. Sie möchten "
-"womöglich die <file>.txt</txt> Dateiendung hinzufügen."
+"womöglich die <file>.txt</file> Dateiendung hinzufügen."
 
 #: C/save-definition.page:43(item/p)
 msgid "Press <gui style=\"button\">Save</gui> to save the definition."
