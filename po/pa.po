@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: gnome-utils.HEAD\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "dictionary&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2012-11-14 18:34+0000\n"
-"PO-Revision-Date: 2013-02-22 14:57+0000\n"
+"POT-Creation-Date: 2013-07-18 11:41+0000\n"
+"PO-Revision-Date: 2013-09-17 22:29-0500\n"
 "Last-Translator: A S Alam <aalam@users.sf.net>\n"
 "Language-Team: Punjabi/Panjabi <kde-i18n-doc@kde.org>\n"
 "Language: pa\n"
@@ -124,8 +124,9 @@ msgid "Dictionary Sources"
 msgstr "ਡਿਕਸ਼ਨਰੀ ਸਰੋਤ"
 
 #: ../data/gnome-dictionary-menus.ui.h:22
-msgid "Available _Databases"
-msgstr "ਉਪਲੱਬਧ ਡਾਟਾਬੇਸ(_D)"
+#| msgid "Available dictionaries"
+msgid "Available _Dictionaries"
+msgstr "ਉਪਲੱਬਧ ਡਿਕਸ਼ਨਰੀਆਂ(_D)"
 
 #: ../data/gnome-dictionary-menus.ui.h:23
 msgid "Available St_rategies"
@@ -821,6 +822,9 @@ msgstr "ਉਪਲੱਬਧ ਨੀਤੀਆਂ"
 #: ../src/gdict-window.c:1737
 msgid "Dictionary sources"
 msgstr "ਡਿਕਸ਼ਨਰੀ ਸਰੋਤ"
+
+#~ msgid "Available _Databases"
+#~ msgstr "ਉਪਲੱਬਧ ਡਾਟਾਬੇਸ(_D)"
 
 #~ msgid "New look up"
 #~ msgstr "ਨਵੀਂ ਖੋਜ"
