@@ -17,8 +17,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-dictionary master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-dictionary&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2013-06-12 17:06+0000\n"
-"PO-Revision-Date: 2013-06-19 01:41+0900\n"
+"POT-Creation-Date: 2013-09-18 03:30+0000\n"
+"PO-Revision-Date: 2013-09-19 12:26+0900\n"
 "Last-Translator: Jiro Matsuzawa <jmatsuzawa@gnome.org>\n"
 "Language-Team: Japanese <gnome-translation@gnome.gr.jp>\n"
 "Language: ja\n"
@@ -129,12 +129,12 @@ msgid "Dictionary Sources"
 msgstr "辞書ソース"
 
 #: ../data/gnome-dictionary-menus.ui.h:22
-msgid "Available _Databases"
-msgstr "利用可能な辞書の一覧(_D)"
+msgid "Available _Dictionaries"
+msgstr "利用可能な辞書(_D)"
 
 #: ../data/gnome-dictionary-menus.ui.h:23
 msgid "Available St_rategies"
-msgstr "利用可能な検索ルールの一覧(_R)"
+msgstr "利用可能な検索ルール(_R)"
 
 #: ../data/gnome-dictionary-menus.ui.h:24
 msgid "_Go"
@@ -392,11 +392,11 @@ msgstr "コンテキストをローカルの辞書でのみ使用するかどう
 
 #: ../libgdict/gdict-database-chooser.c:378
 msgid "Reload the list of available databases"
-msgstr "利用可能なデータベースの一覧を更新します"
+msgstr "利用可能なデータベースを更新します"
 
 #: ../libgdict/gdict-database-chooser.c:390
 msgid "Clear the list of available databases"
-msgstr "利用可能なデータベースの一覧をクリアします"
+msgstr "利用可能なデータベースをクリアします"
 
 #: ../libgdict/gdict-database-chooser.c:837 ../libgdict/gdict-speller.c:777
 #: ../libgdict/gdict-strategy-chooser.c:785
@@ -525,7 +525,7 @@ msgstr "辞書ソース '%s' の変換方法 '%s' が間違っています"
 
 #: ../libgdict/gdict-source-chooser.c:294
 msgid "Reload the list of available sources"
-msgstr "利用可能な辞書の一覧を更新します"
+msgstr "利用可能な辞書を更新します"
 
 #: ../libgdict/gdict-source-loader.c:170
 msgid "Paths"
@@ -561,11 +561,11 @@ msgstr "GdictContext に問い合わせる際に使用する検索ルールで�
 
 #: ../libgdict/gdict-strategy-chooser.c:361
 msgid "Reload the list of available strategies"
-msgstr "利用可能な検索ルールの一覧を更新します"
+msgstr "利用可能な検索ルールを更新します"
 
 #: ../libgdict/gdict-strategy-chooser.c:373
 msgid "Clear the list of available strategies"
-msgstr "利用可能な検索ルールの一覧をクリアします"
+msgstr "利用可能な検索ルールをクリアします"
 
 #: ../libgdict/gdict-utils.c:96
 msgid "GDict debugging flags to set"
@@ -804,7 +804,7 @@ msgstr "類似語"
 
 #: ../src/gdict-window.c:1703
 msgid "Available dictionaries"
-msgstr "利用可能な辞書の一覧"
+msgstr "利用可能な辞書"
 
 #: ../src/gdict-window.c:1721
 msgid "Available strategies"
@@ -813,33 +813,3 @@ msgstr "利用可能な検索ルール"
 #: ../src/gdict-window.c:1737
 msgid "Dictionary sources"
 msgstr "辞書ソース"
-
-#~ msgid "New look up"
-#~ msgstr "新しい検索"
-
-#~ msgid "Preview this document"
-#~ msgstr "このドキュメントをプレビュー表示します"
-
-#~ msgid "_Print..."
-#~ msgstr "印刷(_P)..."
-
-#~ msgid "Print this document"
-#~ msgstr "このドキュメントを印刷します"
-
-#~ msgid "Find a word or phrase in the document"
-#~ msgstr "ドキュメントから単語または語句を検索します"
-
-#~ msgid "Go to the previous definition"
-#~ msgstr "前の意味にジャンプします"
-
-#~ msgid "Go to the next definition"
-#~ msgstr "次の意味へジャンプします"
-
-#~ msgid "Go to the first definition"
-#~ msgstr "先頭の意味へジャンプします"
-
-#~ msgid "Go to the last definition"
-#~ msgstr "最後の意味へジャンプします"
-
-#~ msgid "_Contents"
-#~ msgstr "目次(_C)"
