@@ -11,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-utils\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-03-26 15:04+0200\n"
-"PO-Revision-Date: 2013-03-26 15:05+0300\n"
+"POT-Creation-Date: 2013-09-21 12:59+0300\n"
+"PO-Revision-Date: 2013-09-21 12:59+0300\n"
 "Last-Translator: Daniel Korostil <ted.korostiled@gmail.com>\n"
 "Language-Team: linux.org.ua\n"
 "Language: uk\n"
@@ -126,8 +126,8 @@ msgid "Dictionary Sources"
 msgstr "Додати джерела"
 
 #: ../data/gnome-dictionary-menus.ui.h:22
-msgid "Available _Databases"
-msgstr "Доступні _бази даних"
+msgid "Available _Dictionaries"
+msgstr "Доступні _словники"
 
 #: ../data/gnome-dictionary-menus.ui.h:23
 msgid "Available St_rategies"
@@ -822,6 +822,9 @@ msgstr "Доступні стратегії"
 #: ../src/gdict-window.c:1737
 msgid "Dictionary sources"
 msgstr "Джерела словників"
+
+#~ msgid "Available _Databases"
+#~ msgstr "Доступні _бази даних"
 
 #~ msgid "New look up"
 #~ msgstr "Новий пошук"
