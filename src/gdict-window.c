@@ -1612,11 +1612,12 @@ gdict_window_constructor (GType                  type,
   gtk_box_pack_start (GTK_BOX (vbox), hbox, FALSE, FALSE, 0);
   gtk_widget_show (hbox);
   
-  button = gtk_button_new_with_mnemonic (_("Look _up"));
+  button = gtk_button_new_with_mnemonic (_("Look _up:"));
   g_signal_connect_swapped (button, "clicked",
                             G_CALLBACK (lookup_word),
                             window);
-  gtk_box_pack_end (GTK_BOX (hbox), button, FALSE, FALSE, 0);
+  gtk_button_set_relief (GTK_BUTTON (button), GTK_RELIEF_NONE);
+  gtk_box_pack_start (GTK_BOX (hbox), button, FALSE, FALSE, 0);
   gtk_widget_show (button);
 
   window->completion_model = gtk_list_store_new (COMPLETION_N_COLUMNS,
