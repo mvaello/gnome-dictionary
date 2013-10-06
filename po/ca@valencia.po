@@ -4,15 +4,15 @@
 # Softcatalà <tradgnome@softcatala.org>, 2000, 2002.
 # Jordi Mallach <jordi@sindominio.net>, 2002, 2003, 2004, 2005.
 # Josep Puigdemont <josep.puigdemont@gmail.com>, 2005, 2006, 2007.
-# Gil Forcada <gilforcada@guifi.net>, 2006, 2008.
+# Gil Forcada <gilforcada@guifi.net>, 2006, 2008, 2013.
 # Joan Duran <jodufi@gmail.com>, 2008-2011.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-utils\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-12-31 02:33+0100\n"
-"PO-Revision-Date: 2012-12-31 02:33+0100\n"
+"POT-Creation-Date: 2013-10-06 22:14+0200\n"
+"PO-Revision-Date: 2013-07-06 22:22+0200\n"
 "Last-Translator: Joan Duran <jodufi@gmail.com>\n"
 "Language-Team: Catalan <tradgnome@softcatala.org>\n"
 "Language: ca-XV\n"
@@ -26,7 +26,7 @@ msgid "Default Dictionary Server"
 msgstr "Servidor de diccionari predeterminat"
 
 #: ../data/gnome-dictionary.desktop.in.in.h:1 ../src/gdict-about.c:60
-#: ../src/gdict-app.c:347 ../src/gdict-window.c:543 ../src/gdict-window.c:1805
+#: ../src/gdict-app.c:347 ../src/gdict-window.c:543 ../src/gdict-window.c:1810
 msgid "Dictionary"
 msgstr "Diccionari"
 
@@ -124,8 +124,8 @@ msgid "Dictionary Sources"
 msgstr "Fonts de diccionari"
 
 #: ../data/gnome-dictionary-menus.ui.h:22
-msgid "Available _Databases"
-msgstr "Bases de _dades disponibles"
+msgid "Available _Dictionaries"
+msgstr "Diccionaris _disponibles"
 
 #: ../data/gnome-dictionary-menus.ui.h:23
 msgid "Available St_rategies"
@@ -719,7 +719,7 @@ msgstr "No s'ha pogut crear un fitxer font"
 
 #: ../src/gdict-source-dialog.c:356 ../src/gdict-source-dialog.c:448
 msgid "Unable to save source file"
-msgstr "No s'ha pogut alçar un fitxer font"
+msgstr "No s'ha pogut guardar un fitxer font"
 
 #: ../src/gdict-window.c:253
 #, c-format
@@ -762,7 +762,7 @@ msgstr "%s - Diccionari"
 
 #: ../src/gdict-window.c:910
 msgid "Save a Copy"
-msgstr "Alça una còpia"
+msgstr "Guarda una còpia"
 
 #: ../src/gdict-window.c:920
 msgid "Untitled document"
@@ -773,65 +773,69 @@ msgstr "Document sense títol"
 msgid "Error while writing to '%s'"
 msgstr "S'ha produït un error en escriure a «%s»"
 
-#: ../src/gdict-window.c:1359
+#: ../src/gdict-window.c:1365
 #, c-format
 msgid "Dictionary source `%s' selected"
 msgstr "S'ha seleccionat la font de diccionari «%s»"
 
-#: ../src/gdict-window.c:1380
+#: ../src/gdict-window.c:1386
 #, c-format
 msgid "Strategy `%s' selected"
 msgstr "S'ha seleccionat l'estratègia «%s»"
 
-#: ../src/gdict-window.c:1400
+#: ../src/gdict-window.c:1406
 #, c-format
 msgid "Database `%s' selected"
 msgstr "S'ha seleccionat la base de dades «%s»"
 
-#: ../src/gdict-window.c:1420
+#: ../src/gdict-window.c:1426
 #, c-format
 msgid "Word `%s' selected"
 msgstr "S'ha seleccionat la paraula «%s»"
 
 #. speller
-#: ../src/gdict-window.c:1445
+#: ../src/gdict-window.c:1451
 msgid "Double-click on the word to look up"
 msgstr "Feu un doble clic a la paraula per cercar-la"
 
 #. strat-chooser
-#: ../src/gdict-window.c:1451
+#: ../src/gdict-window.c:1457
 msgid "Double-click on the matching strategy to use"
 msgstr "Feu un doble clic a l'estratègia de coincidència a emprar"
 
 #. source-chooser
-#: ../src/gdict-window.c:1456
+#: ../src/gdict-window.c:1462
 msgid "Double-click on the source to use"
 msgstr "Feu un doble clic a la font a utilitzar"
 
 #. db-chooser
-#: ../src/gdict-window.c:1465
+#: ../src/gdict-window.c:1471
 msgid "Double-click on the database to use"
 msgstr "Feu doble clic a la base de dades que vulgueu emprar"
 
-#: ../src/gdict-window.c:1615
-msgid "Look _up:"
+#: ../src/gdict-window.c:1621
+#, fuzzy
+msgid "Look _up"
 msgstr "_Cerca:"
 
-#: ../src/gdict-window.c:1690
+#: ../src/gdict-window.c:1695
 msgid "Similar words"
 msgstr "Paraules semblants"
 
-#: ../src/gdict-window.c:1703
+#: ../src/gdict-window.c:1708
 msgid "Available dictionaries"
 msgstr "Diccionaris disponibles"
 
-#: ../src/gdict-window.c:1721
+#: ../src/gdict-window.c:1726
 msgid "Available strategies"
 msgstr "Estratègies disponibles"
 
-#: ../src/gdict-window.c:1737
+#: ../src/gdict-window.c:1742
 msgid "Dictionary sources"
 msgstr "Fonts de diccionaris"
+
+#~ msgid "Available _Databases"
+#~ msgstr "Bases de _dades disponibles"
 
 #~ msgid "New look up"
 #~ msgstr "Nova cerca"
