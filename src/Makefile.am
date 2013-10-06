@@ -46,3 +46,5 @@ gnome_dictionary_LDADD = \
 	$(GDICT_LIBS)		\
 	$(NULL)
 
+
+-include $(top_srcdir)/git.mk
