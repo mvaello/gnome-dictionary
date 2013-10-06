@@ -1,3 +1,36 @@
+GNOME Dictionary 3.10.0						     2013-10-06
+================================================================================
+  • Code fixes:
+
+Alexandre Franke: Fix typo
+Andika Triwidada:
+      Fix #706556, tag typo
+      Fixed typo in string
+Antono Vasiljev: Fix bugzilla product in .desktop file
+Florian Müllner: sidebar: Do not select unrealized menu items
+Nguyễn Thái Ngọc Duy:
+      po/vi.po: import from Damned Lies
+      po/vi.po: revert two strings, committed by accident previously
+Piotr Drąg: Fix broken tags in German help translation
+Robert Roth: Fix Ctrl+A and Ctrl+C in the search field
+Seán de Búrca:Fix autogen and configure
+
+  • Translation updates:
+
+Many thanks to our translators: 
+
+Andika Triwidada, Alexnadre Franke, A S Alam,
+Aman, António Lima, Balázs Úr, Changwoo Ryu, Daniel Korostil, Daniel Mustieles,
+Enrico Nicoletto, Fabio Tomat, Fran Diéguez, Ihar Hrachyshka, Inaki Larranaga
+Murgoitio, Jiro Matsuzawa, Kenneth Nielsen, Mattias Põldaru, Pavol Klačanský,
+Rūdolfs Mazurs, Seán de Búrca, Timo Jyrinki, Trần Ngọc Quân, Мирослав Николић
+
+for adding/updating translations in:
+
+Indonesian, French, Punjabi, Portuguese, Hungarian, Korean, Ukrainian, Spanish,
+Brazilian Portuguese, Friulian, Galician, Belarusian, Basque, Japanese, Danish,
+Estonian, Slovak, Latvian, Irish, Finnish, Vietnamese and Serbian.
+
 GNOME Dictionary 3.9.0                                                2013-08-21
 ================================================================================
 
