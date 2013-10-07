@@ -12,10 +12,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-utils HEAD\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
-"dictionary&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2012-11-14 18:34+0000\n"
-"PO-Revision-Date: 2013-03-21 08:28+0330\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-dictionary&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2013-10-06 01:22+0000\n"
+"PO-Revision-Date: 2013-10-07 17:59+0330\n"
 "Last-Translator: Arash Mousavi <mousavi.arash@gmail.com>\n"
 "Language-Team: Persian\n"
 "Language: fa\n"
@@ -24,7 +23,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Generator: Poedit 1.5.4\n"
+"X-Generator: Poedit 1.5.7\n"
 
 #: ../data/default.desktop.in.h:1
 msgid "Default Dictionary Server"
@@ -128,8 +127,9 @@ msgid "Dictionary Sources"
 msgstr "منابع لغت‌نامه"
 
 #: ../data/gnome-dictionary-menus.ui.h:22
-msgid "Available _Databases"
-msgstr "_پایگاه‌داده‌های موجود"
+#| msgid "Available dictionaries"
+msgid "Available _Dictionaries"
+msgstr "_لغت‌نامه‌های موجود"
 
 #: ../data/gnome-dictionary-menus.ui.h:23
 msgid "Available St_rategies"
@@ -205,27 +205,16 @@ msgid "The default database to use"
 msgstr "پایگاه داده‌ی مورد استفاده در حالت پیش‌فرض"
 
 #: ../data/org.gnome.dictionary.gschema.xml.in.in.h:2
-msgid ""
-"The name of the default individual database or meta-database to use on a "
-"dictionary source. An exclamation mark (\"!\") means that all the databases "
-"present in a dictionary source should be searched"
-msgstr ""
-"نام پایگاه‌داده یا پایگاه فراداده‌ی پیش‌فرض که در منبع لغت‌نامه استفاده می‌شود. "
-"علامت تعجب «!» به این معنی است که همه‌ٔ پایگاه‌های داده‌ی موجود در منبع لغت‌نامه "
-"باید جستجو شوند"
+msgid "The name of the default individual database or meta-database to use on a dictionary source. An exclamation mark (\"!\") means that all the databases present in a dictionary source should be searched"
+msgstr "نام پایگاه‌داده یا پایگاه فراداده‌ی پیش‌فرض که در منبع لغت‌نامه استفاده می‌شود. علامت تعجب «!» به این معنی است که همه‌ٔ پایگاه‌های داده‌ی موجود در منبع لغت‌نامه باید جستجو شوند"
 
 #: ../data/org.gnome.dictionary.gschema.xml.in.in.h:3
 msgid "The default search strategy to use"
 msgstr "راهکار جستجوی مورد استفاده در حالت پیش‌فرض"
 
 #: ../data/org.gnome.dictionary.gschema.xml.in.in.h:4
-msgid ""
-"The name of the default search strategy to use on a dictionary source, if "
-"available. The default strategy is 'exact', that is match exact words."
-msgstr ""
-" نام راهکار جستجو به طور پیش‌فرض در صورت موجود بودن، برای استفاده در منبع "
-"لغت‌نامه. راهکار پیش‌فرض «دقیق» است، که به معنی تطبیق با فقط همان کلمات وارد "
-"شده است."
+msgid "The name of the default search strategy to use on a dictionary source, if available. The default strategy is 'exact', that is match exact words."
+msgstr " نام راهکار جستجو به طور پیش‌فرض در صورت موجود بودن، برای استفاده در منبع لغت‌نامه. راهکار پیش‌فرض «دقیق» است، که به معنی تطبیق با فقط همان کلمات وارد شده است."
 
 #: ../data/org.gnome.dictionary.gschema.xml.in.in.h:5
 msgid "The font to be used when printing"
@@ -240,8 +229,7 @@ msgid "The name of the dictionary source used"
 msgstr "نام منبع لغت‌نامه‌ی استفاده شده"
 
 #: ../data/org.gnome.dictionary.gschema.xml.in.in.h:8
-msgid ""
-"The name of the dictionary source used to retrieve the definitions of words."
+msgid "The name of the dictionary source used to retrieve the definitions of words."
 msgstr "نام منبع لغت‌نامه‌ی استفاده شده برای دریافت معانی کلمات."
 
 #: ../data/spanish.desktop.in.h:1
@@ -306,12 +294,8 @@ msgstr "جستجو برای میزبان «%s» شکست خورد: میزبان 
 
 #: ../libgdict/gdict-client-context.c:1176
 #, c-format
-msgid ""
-"Unable to connect to the dictionary server at '%s:%d'. The server replied "
-"with code %d (server down)"
-msgstr ""
-"اتصال به کارگزار لغت‌نامه در «%s:%d» ممکن نیست. کارگزار کد %d را برگردانده "
-"است (کارگزار خراب است)"
+msgid "Unable to connect to the dictionary server at '%s:%d'. The server replied with code %d (server down)"
+msgstr "اتصال به کارگزار لغت‌نامه در «%s:%d» ممکن نیست. کارگزار کد %d را برگردانده است (کارگزار خراب است)"
 
 #: ../libgdict/gdict-client-context.c:1195
 #, c-format
@@ -525,8 +509,7 @@ msgstr "گرفتن کلید «%s» درون منبع معنی لغت‌نامه 
 
 #: ../libgdict/gdict-source.c:554
 #, c-format
-msgid ""
-"Unable to get the '%s' key inside the dictionary source definition file: %s"
+msgid "Unable to get the '%s' key inside the dictionary source definition file: %s"
 msgstr "گرفتن کلید «%s» درون پرونده‌ی معنی منبع لغت‌نامه ممکن نیست: %s"
 
 #: ../libgdict/gdict-source.c:740
@@ -825,6 +808,9 @@ msgstr "راه‌کارهای موجود"
 #: ../src/gdict-window.c:1737
 msgid "Dictionary sources"
 msgstr "منابع لغت‌نامه"
+
+#~ msgid "Available _Databases"
+#~ msgstr "_پایگاه‌داده‌های موجود"
 
 #~ msgid "New look up"
 #~ msgstr "جستجوی جدید"
