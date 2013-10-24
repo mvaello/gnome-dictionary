@@ -1,6 +1,6 @@
 # Slovenian translations for gnome-utils.
 # Copyright (C) 2000-2006 Free Software Foundation, Inc.
-# This file is distributed under the same license as the gnome-utils package.
+# This file is distributed under the same license as the gnome-dictionary package.
 #
 # Andraž Tori <andraz.tori1@guest.arnes.si>, 2000.
 # Matic Žgur <mr.zgur@gmail.com>, 2006.
@@ -8,11 +8,11 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-utils master\n"
+"Project-Id-Version: gnome-dictionary master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "dictionary&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2013-08-06 11:46+0000\n"
-"PO-Revision-Date: 2013-08-17 15:58+0100\n"
+"POT-Creation-Date: 2013-10-07 14:40+0000\n"
+"PO-Revision-Date: 2013-10-24 20:34+0100\n"
 "Last-Translator: Matej Urbančič <mateju@svn.gnome.org>\n"
 "Language-Team: Slovenian GNOME Translation Team <gnome-si@googlegroups.com>\n"
 "Language: sl_SI\n"
@@ -29,7 +29,7 @@ msgid "Default Dictionary Server"
 msgstr "Privzeti strežnik slovarja"
 
 #: ../data/gnome-dictionary.desktop.in.in.h:1 ../src/gdict-about.c:60
-#: ../src/gdict-app.c:347 ../src/gdict-window.c:543 ../src/gdict-window.c:1805
+#: ../src/gdict-app.c:347 ../src/gdict-window.c:543 ../src/gdict-window.c:1810
 msgid "Dictionary"
 msgstr "Slovar"
 
@@ -765,63 +765,63 @@ msgstr "Neimenovan dokument"
 msgid "Error while writing to '%s'"
 msgstr "Napaka med pisanjem v '%s'"
 
-#: ../src/gdict-window.c:1359
+#: ../src/gdict-window.c:1365
 #, c-format
 msgid "Dictionary source `%s' selected"
 msgstr "Izbran slovarski vir `%s'"
 
-#: ../src/gdict-window.c:1380
+#: ../src/gdict-window.c:1386
 #, c-format
 msgid "Strategy `%s' selected"
 msgstr "Izbrana strategija '%s'"
 
-#: ../src/gdict-window.c:1400
+#: ../src/gdict-window.c:1406
 #, c-format
 msgid "Database `%s' selected"
 msgstr "Izbrana podatkovna zbirka `%s'"
 
-#: ../src/gdict-window.c:1420
+#: ../src/gdict-window.c:1426
 #, c-format
 msgid "Word `%s' selected"
 msgstr "Izbrana beseda '%s'"
 
 #. speller
-#: ../src/gdict-window.c:1445
+#: ../src/gdict-window.c:1451
 msgid "Double-click on the word to look up"
 msgstr "Z dvojnim klikom na besedo se prikažejo druge možnosti"
 
 #. strat-chooser
-#: ../src/gdict-window.c:1451
+#: ../src/gdict-window.c:1457
 msgid "Double-click on the matching strategy to use"
 msgstr "Z dvojnim klikom na strategijo, ki jo želite uporabiti"
 
 #. source-chooser
-#: ../src/gdict-window.c:1456
+#: ../src/gdict-window.c:1462
 msgid "Double-click on the source to use"
 msgstr "Z dvojnim klikom se izbere vir"
 
 #. db-chooser
-#: ../src/gdict-window.c:1465
+#: ../src/gdict-window.c:1471
 msgid "Double-click on the database to use"
 msgstr "Z dvojnim klikom se izbere podatkovna zbirka"
 
-#: ../src/gdict-window.c:1615
-msgid "Look _up:"
-msgstr "_Poišči:"
+#: ../src/gdict-window.c:1621
+msgid "Look _up"
+msgstr "_Poišči"
 
-#: ../src/gdict-window.c:1690
+#: ../src/gdict-window.c:1695
 msgid "Similar words"
 msgstr "Podobne besede"
 
-#: ../src/gdict-window.c:1703
+#: ../src/gdict-window.c:1708
 msgid "Available dictionaries"
 msgstr "Slovarji na voljo"
 
-#: ../src/gdict-window.c:1721
+#: ../src/gdict-window.c:1726
 msgid "Available strategies"
 msgstr "Razpoložljive strategije"
 
-#: ../src/gdict-window.c:1737
+#: ../src/gdict-window.c:1742
 msgid "Dictionary sources"
 msgstr "Viri slovarja"
 
