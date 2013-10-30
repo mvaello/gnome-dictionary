@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: Tajik Gnome\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "dictionary&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2013-07-23 09:30+0000\n"
-"PO-Revision-Date: 2013-07-23 14:31+0500\n"
+"POT-Creation-Date: 2013-10-06 01:29+0000\n"
+"PO-Revision-Date: 2013-10-30 23:50+0500\n"
 "Last-Translator: Victor Ibragimov <victor.ibragimov@gmail.com>\n"
 "Language-Team: \n"
 "Language: Tajik\n"
@@ -17,14 +17,14 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=1;\n"
-"X-Generator: Poedit 1.5.4\n"
+"X-Generator: Poedit 1.5.7\n"
 
 #: ../data/default.desktop.in.h:1
 msgid "Default Dictionary Server"
 msgstr "Сервери луғати пешфарз"
 
 #: ../data/gnome-dictionary.desktop.in.in.h:1 ../src/gdict-about.c:60
-#: ../src/gdict-app.c:347 ../src/gdict-window.c:543 ../src/gdict-window.c:1805
+#: ../src/gdict-app.c:347 ../src/gdict-window.c:543 ../src/gdict-window.c:1804
 msgid "Dictionary"
 msgstr "Луғат"
 
@@ -121,7 +121,6 @@ msgid "Dictionary Sources"
 msgstr "Манбаҳои луғат"
 
 #: ../data/gnome-dictionary-menus.ui.h:22
-#| msgid "Available dictionaries"
 msgid "Available _Dictionaries"
 msgstr "Луғатҳои _дастрас"
 
@@ -801,22 +800,23 @@ msgid "Double-click on the database to use"
 msgstr "Барои истифода ба рӯи пойгоҳи иттилот ду бор зер кунед"
 
 #: ../src/gdict-window.c:1615
-msgid "Look _up:"
-msgstr "Ҷусту _ҷӯ:"
+#| msgid "Look _up:"
+msgid "Look _up"
+msgstr "Ҷуст_уҷӯ"
 
-#: ../src/gdict-window.c:1690
+#: ../src/gdict-window.c:1689
 msgid "Similar words"
 msgstr "Калимаҳои монанд"
 
-#: ../src/gdict-window.c:1703
+#: ../src/gdict-window.c:1702
 msgid "Available dictionaries"
 msgstr "Луғатҳои дастрас"
 
-#: ../src/gdict-window.c:1721
+#: ../src/gdict-window.c:1720
 msgid "Available strategies"
 msgstr "Стратегияҳои дастрас"
 
-#: ../src/gdict-window.c:1737
+#: ../src/gdict-window.c:1736
 msgid "Dictionary sources"
 msgstr "Манбаҳои дастрас"
 
