@@ -17,7 +17,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-dictionary master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-dictionary&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2013-06-12 17:06+0000\n"
+"POT-Creation-Date: 2013-10-28 17:11+0000\n"
 "PO-Revision-Date: 2013-06-19 01:41+0900\n"
 "Last-Translator: Jiro Matsuzawa <jmatsuzawa@gnome.org>\n"
 "Language-Team: Japanese <gnome-translation@gnome.gr.jp>\n"
@@ -129,8 +129,8 @@ msgid "Dictionary Sources"
 msgstr "辞書ソース"
 
 #: ../data/gnome-dictionary-menus.ui.h:22
-msgid "Available _Databases"
-msgstr "利用可能な辞書の一覧(_D)"
+msgid "Available _Dictionaries"
+msgstr "利用可能な辞書(_D)"
 
 #: ../data/gnome-dictionary-menus.ui.h:23
 msgid "Available St_rategies"
@@ -813,6 +813,9 @@ msgstr "利用可能な検索ルール"
 #: ../src/gdict-window.c:1737
 msgid "Dictionary sources"
 msgstr "辞書ソース"
+
+#~ msgid "Available _Databases"
+#~ msgstr "利用可能な辞書の一覧(_D)"
 
 #~ msgid "New look up"
 #~ msgstr "新しい検索"
