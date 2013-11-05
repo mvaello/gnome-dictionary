@@ -15,14 +15,15 @@
 # Timo Jyrinki <timo.jyrinki@iki.fi>, 2008.
 # Tommi Vainikainen <thv@iki.fi>, 2009-2011.
 # Jiri Grönroos <jiri.gronroos@iki.fi>, 2012, 2013.
+# Lasse Liehu <lasse.liehu@gmail.com>, 2013.
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-utils\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "dictionary&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2013-03-07 18:52+0000\n"
-"PO-Revision-Date: 2013-03-26 20:13+0200\n"
-"Last-Translator: Jiri Grönroos <jiri.gronroos+l10n@iki.fi>\n"
+"POT-Creation-Date: 2013-07-21 20:17+0000\n"
+"PO-Revision-Date: 2013-10-28 15:13+0200\n"
+"Last-Translator: Lasse Liehu <lasse.liehu@gmail.com>\n"
 "Language-Team: Finnish <gnome-fi-laatu@lists.sourceforge.net>\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
@@ -136,8 +137,9 @@ msgid "Dictionary Sources"
 msgstr "Sanakirjalähteet"
 
 #: ../data/gnome-dictionary-menus.ui.h:22
-msgid "Available _Databases"
-msgstr "Saatavilla olevat tieto_kannat"
+#| msgid "Available dictionaries"
+msgid "Available _Dictionaries"
+msgstr "_Käytettävissä olevat sanakirjat"
 
 #: ../data/gnome-dictionary-menus.ui.h:23
 msgid "Available St_rategies"
@@ -839,6 +841,9 @@ msgstr "Käytettävissä olevat hakutavat"
 #: ../src/gdict-window.c:1737
 msgid "Dictionary sources"
 msgstr "Sanakirjalähteet"
+
+#~ msgid "Available _Databases"
+#~ msgstr "Saatavilla olevat tieto_kannat"
 
 #~ msgid "New look up"
 #~ msgstr "Uusi haku"
