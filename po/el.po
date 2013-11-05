@@ -27,14 +27,15 @@
 # Nikos: 19Feb2004 update translation
 # Kostas: 14Jan2006 update for 2.14
 # Simos Xenitellis <simos.lists@googlemail.com>, 2010.
-# Dimitris Spingos (Δημήτρης Σπίγγος) <dmtrs32@gmail.com>, 2012.
+# Dimitris Spingos (Δημήτρης Σπίγγος) <dmtrs32@gmail.com>, 2012, 2013.
+# Efstathios Iosifidis <iosifidis@opensuse.org>, 2013.
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-utils.gnome-2-26\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "dictionary&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2012-11-14 18:34+0000\n"
-"PO-Revision-Date: 2012-12-24 21:18+0300\n"
+"POT-Creation-Date: 2013-10-25 14:42+0000\n"
+"PO-Revision-Date: 2013-11-05 22:49+0300\n"
 "Last-Translator: Dimitris Spingos (Δημήτρης Σπίγγος) <dmtrs32@gmail.com>\n"
 "Language-Team: team@gnome.gr\n"
 "Language: el\n"
@@ -50,7 +51,7 @@ msgid "Default Dictionary Server"
 msgstr "Προεπιλεγμένος εξυπηρετητής λεξικού"
 
 #: ../data/gnome-dictionary.desktop.in.in.h:1 ../src/gdict-about.c:60
-#: ../src/gdict-app.c:347 ../src/gdict-window.c:543 ../src/gdict-window.c:1805
+#: ../src/gdict-app.c:347 ../src/gdict-window.c:543 ../src/gdict-window.c:1810
 msgid "Dictionary"
 msgstr "Λεξικό"
 
@@ -147,8 +148,8 @@ msgid "Dictionary Sources"
 msgstr "Πηγές λεξικού"
 
 #: ../data/gnome-dictionary-menus.ui.h:22
-msgid "Available _Databases"
-msgstr "Διαθέσιμες _βάσεις δεδομένων"
+msgid "Available _Dictionaries"
+msgstr "Διαθέσιμα _Λεξικά"
 
 #: ../data/gnome-dictionary-menus.ui.h:23
 msgid "Available St_rategies"
@@ -637,7 +638,8 @@ msgstr ""
 "Σπύρος Παπαδημητρίου <spapadim+@cs.cmu.edu>\n"
 "Συμεών (σίμος) Ξενιτέλλης <simos@hellug.gr>\n"
 "Κώστας Παπαδήμας <pkst@gnome.org>\n"
-"Νίκος Χαρωνιτάκης <nikosx@gmail.com>"
+"Νίκος Χαρωνιτάκης <nikosx@gmail.com>\n"
+"Ευστάθιος Ιωσηφίδης <iosifidis@opensuse.org>"
 
 #: ../src/gdict-about.c:55
 msgid "Look up words in dictionaries"
@@ -794,65 +796,68 @@ msgstr "Ανώνυμο έγγραφο"
 msgid "Error while writing to '%s'"
 msgstr "Σφάλμα κατά την εγγραφή στο '%s'"
 
-#: ../src/gdict-window.c:1359
+#: ../src/gdict-window.c:1365
 #, c-format
 msgid "Dictionary source `%s' selected"
 msgstr "Επιλέχθηκε`%s' πηγή λεξικού"
 
-#: ../src/gdict-window.c:1380
+#: ../src/gdict-window.c:1386
 #, c-format
 msgid "Strategy `%s' selected"
 msgstr "Επιλέχθηκε η στρατηγική `%s' "
 
-#: ../src/gdict-window.c:1400
+#: ../src/gdict-window.c:1406
 #, c-format
 msgid "Database `%s' selected"
 msgstr "Επιλέχθηκε η βάση δεδομένων %s'"
 
-#: ../src/gdict-window.c:1420
+#: ../src/gdict-window.c:1426
 #, c-format
 msgid "Word `%s' selected"
 msgstr "Επιλέχθηκε η λέξη `%s'"
 
 #. speller
-#: ../src/gdict-window.c:1445
+#: ../src/gdict-window.c:1451
 msgid "Double-click on the word to look up"
 msgstr "Διπλό κλικ στη λέξη που θέλετε να αναζητήσετε"
 
 #. strat-chooser
-#: ../src/gdict-window.c:1451
+#: ../src/gdict-window.c:1457
 msgid "Double-click on the matching strategy to use"
 msgstr "Διπλό κλικ στη στρατηγική που θα χρησιμοποιηθεί"
 
 #. source-chooser
-#: ../src/gdict-window.c:1456
+#: ../src/gdict-window.c:1462
 msgid "Double-click on the source to use"
 msgstr "Διπλό κλικ στην πηγή που θα χρησιμοποιηθεί"
 
 #. db-chooser
-#: ../src/gdict-window.c:1465
+#: ../src/gdict-window.c:1471
 msgid "Double-click on the database to use"
 msgstr "Διπλό κλικ στη βάση δεδομένων που θα χρησιμοποιηθεί"
 
-#: ../src/gdict-window.c:1615
-msgid "Look _up:"
-msgstr "_Αναζήτηση:"
+#: ../src/gdict-window.c:1621
+msgid "Look _up"
+msgstr "_Αναζήτηση"
 
-#: ../src/gdict-window.c:1690
+#: ../src/gdict-window.c:1695
 msgid "Similar words"
 msgstr "Παρόμοιες λέξεις"
 
-#: ../src/gdict-window.c:1703
+#: ../src/gdict-window.c:1708
 msgid "Available dictionaries"
 msgstr "Διαθέσιμα λεξικά"
 
-#: ../src/gdict-window.c:1721
+#: ../src/gdict-window.c:1726
 msgid "Available strategies"
 msgstr "Διαθέσιμες στρατηγικές"
 
-#: ../src/gdict-window.c:1737
+#: ../src/gdict-window.c:1742
 msgid "Dictionary sources"
 msgstr "Πηγές λεξικού"
+
+#~ msgid "Available _Databases"
+#~ msgstr "Διαθέσιμες _βάσεις δεδομένων"
 
 #~ msgid "New look up"
 #~ msgstr "Νέα αναζήτηση"
