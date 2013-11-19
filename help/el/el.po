@@ -4,16 +4,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: el-gnome-dictionary-help 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-04-08 16:23+0000\n"
-"PO-Revision-Date: 2013-04-09 09:50+0300\n"
+"POT-Creation-Date: 2013-11-05 20:52+0000\n"
+"PO-Revision-Date: 2013-11-19 09:09+0300\n"
 "Last-Translator: Dimitris Spingos (Δημήτρης Σπίγγος) <dmtrs32@gmail.com>\n"
-"Language-Team: team@gnome.gr\n"
+"Language-Team: team@lists.gnome.gr\n"
 "Language: el\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Virtaal 0.7.1\n"
+"X-Generator: Virtaal 0.7.0\n"
 "X-Project-Style: gnome\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
@@ -24,98 +24,89 @@ msgstr ""
 " Νίκος Χαρωνιτάκης <team@gnome.gr>, 2006\n"
 " Φώτης Τσάμης <ftsamis@gmail.com>, 2009\n"
 " Δημήτρης Σπίγγος <dmtrs32@gmail.com>, 2013\n"
-"\n"
 "Για περισσότερα δείτε http://www.gnome.gr/"
 
-#: C/index.page:8(info/title)
+#. (itstool) path: info/title
+#: C/index.page:8
 msgctxt "text"
 msgid "Dictionary"
 msgstr "Λεξικό"
 
-#: C/index.page:11(credit/name) C/definition.page:11(credit/name)
-#: C/dictionary-select.page:11(credit/name) C/find.page:10(credit/name)
-#: C/introduction.page:10(credit/name)
-#: C/keyboard-shortcuts.page:11(credit/name) C/pref.page:9(credit/name)
-#: C/print-font.page:11(credit/name) C/print.page:12(credit/name)
-#: C/prob-retrieving-definition.page:11(credit/name)
-#: C/save-definition.page:10(credit/name) C/similar-words.page:11(credit/name)
-#: C/source-add-local.page:11(credit/name)
-#: C/sources-default.page:10(credit/name)
-#: C/sources-delete.page:11(credit/name) C/sources-edit.page:10(credit/name)
-#: C/sources.page:12(credit/name) C/sources-select.page:12(credit/name)
-#: C/text-copy.page:11(credit/name)
+#. (itstool) path: credit/name
+#: C/index.page:11 C/definition.page:11 C/dictionary-select.page:11
+#: C/find.page:10 C/introduction.page:10 C/keyboard-shortcuts.page:11
+#: C/pref.page:9 C/print-font.page:11 C/print.page:12
+#: C/prob-retrieving-definition.page:11 C/save-definition.page:10
+#: C/similar-words.page:11 C/source-add-local.page:11
+#: C/sources-default.page:10 C/sources-delete.page:11 C/sources-edit.page:10
+#: C/sources.page:12 C/sources-select.page:12 C/text-copy.page:11
 msgid "Sindhu S"
 msgstr "Sindhu S"
 
-#: C/index.page:13(credit/years) C/definition.page:13(credit/years)
-#: C/definition.page:18(credit/years)
-#: C/dictionary-select.page:13(credit/years)
-#: C/dictionary-select.page:18(credit/years) C/find.page:12(credit/years)
-#: C/find.page:17(credit/years) C/introduction.page:12(credit/years)
-#: C/introduction.page:17(credit/years)
-#: C/keyboard-shortcuts.page:13(credit/years)
-#: C/keyboard-shortcuts.page:18(credit/years)
-#: C/print-font.page:13(credit/years) C/print-font.page:18(credit/years)
-#: C/print.page:14(credit/years) C/print.page:19(credit/years)
-#: C/prob-retrieving-definition.page:13(credit/years)
-#: C/prob-retrieving-definition.page:18(credit/years)
-#: C/save-definition.page:12(credit/years)
-#: C/save-definition.page:17(credit/years)
-#: C/similar-words.page:13(credit/years) C/similar-words.page:18(credit/years)
-#: C/source-add-local.page:13(credit/years)
-#: C/sources-default.page:12(credit/years)
-#: C/sources-default.page:17(credit/years)
-#: C/sources-delete.page:13(credit/years)
-#: C/sources-delete.page:18(credit/years) C/sources-edit.page:12(credit/years)
-#: C/sources-edit.page:17(credit/years) C/sources.page:14(credit/years)
-#: C/sources.page:19(credit/years) C/sources-select.page:14(credit/years)
-#: C/sources-select.page:19(credit/years) C/text-copy.page:13(credit/years)
-#: C/text-copy.page:18(credit/years)
+#. (itstool) path: credit/years
+#: C/index.page:13 C/definition.page:13 C/definition.page:18
+#: C/dictionary-select.page:13 C/dictionary-select.page:18 C/find.page:12
+#: C/find.page:17 C/introduction.page:12 C/introduction.page:17
+#: C/keyboard-shortcuts.page:13 C/keyboard-shortcuts.page:18
+#: C/print-font.page:13 C/print-font.page:18 C/print.page:14 C/print.page:19
+#: C/prob-retrieving-definition.page:13 C/prob-retrieving-definition.page:18
+#: C/save-definition.page:12 C/save-definition.page:17 C/similar-words.page:13
+#: C/similar-words.page:18 C/source-add-local.page:13
+#: C/sources-default.page:12 C/sources-default.page:17
+#: C/sources-delete.page:13 C/sources-delete.page:18 C/sources-edit.page:12
+#: C/sources-edit.page:17 C/sources.page:14 C/sources.page:19
+#: C/sources-select.page:14 C/sources-select.page:19 C/text-copy.page:13
+#: C/text-copy.page:18
 msgid "2013"
 msgstr "2013"
 
-#: C/index.page:18(info/desc)
+#. (itstool) path: info/desc
+#: C/index.page:18
 msgid "Look up word definitions in <app>Dictionary</app>."
 msgstr "Αναζήτηση ορισμών λέξεων στο <app>Λεξικό</app>."
 
-#: C/index.page:21(page/title)
+#. (itstool) path: page/title
+#: C/index.page:21
 msgid "<_:media-1/> Dictionary Help"
 msgstr "<_:media-1/> Βοήθεια λεξικού"
 
-#: C/index.page:26(section/title)
+#. (itstool) path: section/title
+#: C/index.page:26
 msgid "Features"
 msgstr "Χαρακτηριστικά"
 
-#: C/index.page:30(section/title)
+#. (itstool) path: section/title
+#: C/index.page:30
 msgid "Preferences"
 msgstr "Προτιμήσεις"
 
-#: C/index.page:34(section/title)
+#. (itstool) path: section/title
+#: C/index.page:34
 msgid "Common problems and solutions"
 msgstr "Συχνά προβλήματα και λύσεις"
 
-#: C/definition.page:16(credit/name) C/dictionary-select.page:16(credit/name)
-#: C/find.page:15(credit/name) C/introduction.page:15(credit/name)
-#: C/keyboard-shortcuts.page:16(credit/name) C/print-font.page:16(credit/name)
-#: C/print.page:17(credit/name)
-#: C/prob-retrieving-definition.page:16(credit/name)
-#: C/save-definition.page:15(credit/name) C/similar-words.page:16(credit/name)
-#: C/sources-default.page:15(credit/name)
-#: C/sources-delete.page:16(credit/name) C/sources-edit.page:15(credit/name)
-#: C/sources.page:17(credit/name) C/sources-select.page:17(credit/name)
-#: C/text-copy.page:16(credit/name)
+#. (itstool) path: credit/name
+#: C/definition.page:16 C/dictionary-select.page:16 C/find.page:15
+#: C/introduction.page:15 C/keyboard-shortcuts.page:16 C/print-font.page:16
+#: C/print.page:17 C/prob-retrieving-definition.page:16
+#: C/save-definition.page:15 C/similar-words.page:16 C/sources-default.page:15
+#: C/sources-delete.page:16 C/sources-edit.page:15 C/sources.page:17
+#: C/sources-select.page:17 C/text-copy.page:16
 msgid "Ekaterina Gerasimova"
 msgstr "Ekaterina Gerasimova"
 
-#: C/definition.page:23(info/desc)
+#. (itstool) path: info/desc
+#: C/definition.page:23
 msgid "Find the definition of a word or term."
 msgstr "Εύρεση του ορισμού μιας λέξης ή όρου."
 
-#: C/definition.page:27(page/title)
+#. (itstool) path: page/title
+#: C/definition.page:27
 msgid "Look up a word or term"
 msgstr "Αναζήτηση μίας λέξης ή όρου"
 
-#: C/definition.page:29(page/p)
+#. (itstool) path: page/p
+#: C/definition.page:29
 msgid ""
 "You can use <app>Dictionary</app> to look up the meaning of a <em>term</em>. "
 "A term can be a single word such as <input>apple</input> or a compound word "
@@ -128,21 +119,24 @@ msgstr ""
 "αποτέλεσμα της αναζήτησης μπορεί επίσης να σας εμφανίσει το πρωτότυπο, τη "
 "σημασία και τη χρήση μιας λέξης. Για αναζήτηση ενός όρου:"
 
-#: C/definition.page:37(item/p)
+#. (itstool) path: item/p
+#: C/definition.page:37
 msgid ""
 "Type in the term that you want to search for next to <gui>Look up</gui>."
 msgstr ""
 "Πληκτρολογήστε τον όρο που θέλετε να αναζητήσετε δίπλα στο <gui>Αναζήτηση</"
 "gui>."
 
-#: C/definition.page:41(item/p)
+#. (itstool) path: item/p
+#: C/definition.page:41
 msgid ""
 "Press <key>Return</key> or <gui style=\"button\">Look up:</gui> to search."
 msgstr ""
 "Πατήστε το πλήκτρο <key>Επιστροφή</key> ή <gui style=\"button\">Αναζήτηση:</"
 "gui> για να ψάξετε."
 
-#: C/definition.page:46(page/p)
+#. (itstool) path: page/p
+#: C/definition.page:46
 msgid ""
 "<app>Dictionary</app> will search your selected dictionary source and show "
 "you the result from the first dictionary in the source. To view results from "
@@ -158,15 +152,13 @@ msgstr ""
 "\"menuitem\">Παρόμοιες λέξεις</gui></guiseq></link> για ανάδυση μιας "
 "πλευρικής στήλης που εμφανίζει όλα τα αποτελέσματα."
 
-#: C/dictionary-select.page:25(page/title)
+#. (itstool) path: page/title
+#: C/dictionary-select.page:25
 msgid "Select a different dictionary"
 msgstr "Επιλέξτε ένα διαφορετικό λεξικό"
 
-#: C/dictionary-select.page:27(page/p)
-#| msgid ""
-#| "A single <link xref=\"sources\">dictionary source</link> may have many "
-#| "dictionaries different dictionaries. You can search any of these "
-#| "dictionaries."
+#. (itstool) path: page/p
+#: C/dictionary-select.page:27
 msgid ""
 "A single <link xref=\"sources\">dictionary source</link> may have many "
 "different dictionaries. You can search any of these dictionaries."
@@ -174,11 +166,13 @@ msgstr ""
 "Μια ενιαία <link xref=\"sources\">πηγή λεξικού</link> μπορεί να έχει πολλά "
 "διαφορετικά λεξικά. Μπορείτε να αναζητήσετε οποιοδήποτε από αυτά τα λεξικά."
 
-#: C/dictionary-select.page:32(steps/title)
+#. (itstool) path: steps/title
+#: C/dictionary-select.page:32
 msgid "Select a dictionary"
 msgstr "Επιλέξτε ένα λεξικό"
 
-#: C/dictionary-select.page:34(item/p)
+#. (itstool) path: item/p
+#: C/dictionary-select.page:34
 msgid ""
 "Select <guiseq><gui style=\"menu\">View</gui> <gui style=\"menuitem"
 "\">Available Databases</gui></guiseq>. A sidebar listing the available "
@@ -188,11 +182,13 @@ msgstr ""
 "\">Διαθέσιμες βάσεις δεδομένων</gui></guiseq>. Μια πλευρική στήλη που δίνει "
 "τα διαθέσιμα λεξικά για την τρέχουσα επιλεγμένη πηγή λεξικών θα ανοίξει."
 
-#: C/dictionary-select.page:40(item/p)
+#. (itstool) path: item/p
+#: C/dictionary-select.page:40
 msgid "Click twice on the dictionary that you want to use."
 msgstr "Πατήστε δυο φορές στο λεξικό που θέλετε να χρησιμοποιήσετε."
 
-#: C/dictionary-select.page:44(page/p)
+#. (itstool) path: page/p
+#: C/dictionary-select.page:44
 msgid ""
 "The next term that you <link xref=\"definition\">look up</link> will show "
 "the result only from the selected dictionary."
@@ -200,7 +196,8 @@ msgstr ""
 "Ο επόμενος όρος που <link xref=\"definition\">αναζητάτε</link> θα εμφανίσει "
 "το αποτέλεσμα μόνο από το επιλεγμένο λεξικό."
 
-#: C/dictionary-select.page:48(note/p)
+#. (itstool) path: note/p
+#: C/dictionary-select.page:48
 msgid ""
 "Your dictionary selection will not be remembered next time you use "
 "<app>Dictionary</app>."
@@ -208,36 +205,43 @@ msgstr ""
 "Το <app>Λεξικό</app> δεν θα θυμάται την επιλογή του λεξικού την επόμενη φορά "
 "που θα το χρησιμοποιήσετε."
 
-#: C/find.page:22(info/desc)
+#. (itstool) path: info/desc
+#: C/find.page:22
 msgid "Find text in a definition."
 msgstr "Εύρεση κειμένου σε έναν ορισμό."
 
-#: C/find.page:26(page/title) C/keyboard-shortcuts.page:74(td/p)
+#. (itstool) path: page/title
+#. (itstool) path: td/p
+#: C/find.page:26 C/keyboard-shortcuts.page:74
 msgid "Search within a definition"
 msgstr "Αναζήτηση σε έναν ορισμό"
 
-#: C/find.page:28(page/p)
+#. (itstool) path: page/p
+#: C/find.page:28
 msgid ""
-"Some dictionary entires can be very long and can contain many results, so "
+"Some dictionary entries can be very long and can contain many results, so "
 "you may wish to search them to find the section that is relevant to you."
 msgstr ""
 "Μερικά λεξικά μπορεί να είναι πολύ μεγάλα και μπορούν να περιέχουν πολλά "
 "αποτελέσματα, έτσι ίσως θελήσετε να τα αναζητήσετε για να βρείτε την ενότητα "
 "που είναι σχετική με σας."
 
-#: C/find.page:32(steps/title)
+#. (itstool) path: steps/title
+#: C/find.page:32
 msgid "To find definitions:"
 msgstr "Για να βρείτε ορισμούς:"
 
-#: C/find.page:34(item/p)
+#. (itstool) path: item/p
+#: C/find.page:34
 msgid ""
-"Select <guiseq><gui style=\"menu\">Edit</gui> <gui style=\"menitem\">Find</"
+"Select <guiseq><gui style=\"menu\">Edit</gui> <gui style=\"menuitem\">Find</"
 "gui></guiseq>."
 msgstr ""
-"Επιλέξτε <guiseq><gui style=\"menu\">Επεξεργασία</gui> <gui style=\"menitem"
+"Επιλέξτε <guiseq><gui style=\"menu\">Επεξεργασία</gui> <gui style=\"menuitem"
 "\">Εύρεση</gui></guiseq>."
 
-#: C/find.page:38(item/p)
+#. (itstool) path: item/p
+#: C/find.page:38
 msgid ""
 "The <gui>Find</gui> bar will appear at the bottom of the <app>Dictionary</"
 "app> window. Type in your search term to search within the definition that "
@@ -247,7 +251,8 @@ msgstr ""
 "<app>Λεξικό</app>. Πληκτρολογήστε τον όρο αναζήτησης για να ψάξετε τον "
 "ορισμό που εμφανίζεται προς το παρόν."
 
-#: C/find.page:43(item/p)
+#. (itstool) path: item/p
+#: C/find.page:43
 msgid ""
 "Click <gui style=\"button\">Previous</gui> or <gui style=\"button\">Next</"
 "gui> to scroll through the results. The search will not wrap around: in "
@@ -259,11 +264,12 @@ msgstr ""
 "αναδιπλωθεί: με άλλα λόγια, δεν θα πάει στην κορυφή της σελίδας όταν είσαστε "
 "στο τελευταίο αποτέλεσμα και πατήσετε <gui style=\"button\">επόμενο</gui>."
 
+#. (itstool) path: media
 #. This is a reference to an external file such as an image or video. When
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
-#: C/introduction.page:38(media)
+#: C/introduction.page:38
 msgctxt "_"
 msgid ""
 "external ref='figures/gnome-dictionary.png' "
@@ -272,15 +278,18 @@ msgstr ""
 "external ref='figures/gnome-dictionary.png' "
 "md5='80df283344ecd9b03b88309f8ee9912d'"
 
-#: C/introduction.page:22(info/desc)
+#. (itstool) path: info/desc
+#: C/introduction.page:22
 msgid "What is <app>Dictionary</app>?"
 msgstr "Τι είναι το <app>Λεξικό</app>;"
 
-#: C/introduction.page:26(page/title)
+#. (itstool) path: page/title
+#: C/introduction.page:26
 msgid "Introduction"
 msgstr "Εισαγωγή"
 
-#: C/introduction.page:28(page/p)
+#. (itstool) path: page/p
+#: C/introduction.page:28
 msgid ""
 "<app>Dictionary</app> is an application for looking up term definitions. It "
 "searches for definitions using an online <app>DICT</app> server. The default "
@@ -292,7 +301,8 @@ msgstr ""
 "προεπιλεγμένος εξυπηρετητής <app>DICT</app> είναι στο <sys href=\"http://"
 "dict.org\">http://dict.org</sys>."
 
-#: C/introduction.page:33(page/p)
+#. (itstool) path: page/p
+#: C/introduction.page:33
 msgid ""
 "Start using <app>Dictionary</app> by <link xref=\"definition\">looking up a "
 "definition</link>!"
@@ -300,16 +310,19 @@ msgstr ""
 "Αρχίστε χρησιμοποιώντας το <app>Λεξικό</app> <link xref=\"definition"
 "\">αναζητώντας έναν ορισμό</link>!"
 
-#: C/introduction.page:37(figure/title)
+#. (itstool) path: figure/title
+#: C/introduction.page:37
 msgid "Dictionary"
 msgstr "Λεξικό"
 
-#: C/introduction.page:39(media/p)
+#. (itstool) path: media/p
+#: C/introduction.page:39
 msgid "Screenshot showing the <app>Dictionary</app> main window."
 msgstr ""
 "Ένα στιγμιότυπο που εμφανίζει το κύριο παράθυρο του <app>Λεξικού</app>."
 
-#: C/keyboard-shortcuts.page:23(info/desc)
+#. (itstool) path: info/desc
+#: C/keyboard-shortcuts.page:23
 msgid ""
 "You can use keyboard shortcuts to navigate around <app>Dictionary</app> more "
 "efficiently."
@@ -317,11 +330,13 @@ msgstr ""
 "Μπορείτε να χρησιμοποιήσετε συντομεύσεις πληκτρολογίου για πιο "
 "αποτελεσματική περιήγηση στο <app>Λεξικό</app>."
 
-#: C/keyboard-shortcuts.page:27(page/title)
+#. (itstool) path: page/title
+#: C/keyboard-shortcuts.page:27
 msgid "Keyboard shortcuts"
 msgstr "Συντομεύσεις πληκτρολογίου"
 
-#: C/keyboard-shortcuts.page:29(page/p)
+#. (itstool) path: page/p
+#: C/keyboard-shortcuts.page:29
 msgid ""
 "Keyboard shortcuts are combinations of keys that you can use instead of "
 "navigating through the menu. The following shortcuts are available:"
@@ -330,161 +345,204 @@ msgstr ""
 "χρησιμοποιήσετε για περιήγηση μέσα από το μενού. Οι παρακάτω συντομεύσεις "
 "είναι διαθέσιμες:"
 
-#: C/keyboard-shortcuts.page:33(table/title)
+#. (itstool) path: table/title
+#: C/keyboard-shortcuts.page:33
 msgid "Navigate around <app>Dictionary</app>"
 msgstr "Περιήγηση στο <app>Λεξικό</app>"
 
-#: C/keyboard-shortcuts.page:36(td/p) C/keyboard-shortcuts.page:68(td/p)
-#: C/keyboard-shortcuts.page:92(td/p) C/keyboard-shortcuts.page:120(td/p)
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:36 C/keyboard-shortcuts.page:68
+#: C/keyboard-shortcuts.page:92 C/keyboard-shortcuts.page:120
 msgid "Action"
 msgstr "Ενέργεια"
 
-#: C/keyboard-shortcuts.page:37(td/p) C/keyboard-shortcuts.page:69(td/p)
-#: C/keyboard-shortcuts.page:93(td/p) C/keyboard-shortcuts.page:121(td/p)
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:37 C/keyboard-shortcuts.page:69
+#: C/keyboard-shortcuts.page:93 C/keyboard-shortcuts.page:121
 msgid "Shortcut"
 msgstr "Συντόμευση"
 
-#: C/keyboard-shortcuts.page:42(td/p) C/print.page:36(section/title)
+#. (itstool) path: td/p
+#. (itstool) path: section/title
+#: C/keyboard-shortcuts.page:42 C/print.page:36
 msgid "Print preview"
 msgstr "Προεπισκόπηση εκτύπωσης"
 
-#: C/keyboard-shortcuts.page:43(td/p)
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:43
 msgid "<keyseq><key>Shift</key><key>Ctrl</key><key>P</key></keyseq>"
 msgstr "<keyseq><key>Shift</key><key>Ctrl</key><key>P</key></keyseq>"
 
-#: C/keyboard-shortcuts.page:46(td/p) C/print.page:67(section/title)
+#. (itstool) path: td/p
+#. (itstool) path: section/title
+#: C/keyboard-shortcuts.page:46 C/print.page:67
 msgid "Print"
 msgstr "Εκτύπωση"
 
-#: C/keyboard-shortcuts.page:47(td/p)
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:47
 msgid "<keyseq><key>Ctrl</key><key>P</key></keyseq>"
 msgstr "<keyseq><key>Ctrl</key><key>P</key></keyseq>"
 
-#: C/keyboard-shortcuts.page:50(td/p)
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:50
 msgid "View sidebar"
 msgstr "Προβολή πλευρικής στήλης"
 
-#: C/keyboard-shortcuts.page:51(td/p)
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:51
 msgid "<key>F9</key>"
 msgstr "<key>F9</key>"
 
-#: C/keyboard-shortcuts.page:54(td/p)
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:54
 msgid "Open a new <app>Dictionary</app> window"
 msgstr "Άνοιγμα νέου παραθύρου του <app>Λεξικού</app>"
 
-#: C/keyboard-shortcuts.page:55(td/p)
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:55
 msgid "<keyseq><key>Ctrl</key><key>N</key></keyseq>"
 msgstr "<keyseq><key>Ctrl</key><key>N</key></keyseq>"
 
-#: C/keyboard-shortcuts.page:58(td/p)
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:58
 msgid "Close current <app>Dictionary</app> window"
 msgstr "Κλείσιμο τρέχοντος παραθύρου του <app>Λεξικού</app>"
 
-#: C/keyboard-shortcuts.page:59(td/p)
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:59
 msgid "<keyseq><key>Ctrl</key><key>W</key></keyseq>"
 msgstr "<keyseq><key>Ctrl</key><key>W</key></keyseq>"
 
-#: C/keyboard-shortcuts.page:65(table/title)
+#. (itstool) path: table/title
+#: C/keyboard-shortcuts.page:65
 msgid "Search shortcuts"
 msgstr "Αναζήτηση συντομεύσεων"
 
-#: C/keyboard-shortcuts.page:75(td/p)
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:75
 msgid "<key>/</key> or <keyseq><key>Ctrl</key><key>F</key></keyseq>"
 msgstr "<key>/</key> ή <keyseq><key>Ctrl</key><key>F</key></keyseq>"
 
-#: C/keyboard-shortcuts.page:78(td/p)
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:78
 msgid "Find next"
 msgstr "Εύρεση επομένου"
 
-#: C/keyboard-shortcuts.page:79(td/p)
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:79
 msgid "<keyseq><key>Ctrl</key><key>G</key></keyseq>"
 msgstr "<keyseq><key>Ctrl</key><key>G</key></keyseq>"
 
-#: C/keyboard-shortcuts.page:82(td/p)
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:82
 msgid "Find previous"
 msgstr "Εύρεση προηγούμενου"
 
-#: C/keyboard-shortcuts.page:83(td/p)
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:83
 msgid "<keyseq><key>Shift</key><key>Ctrl</key><key>G</key></keyseq>"
 msgstr "<keyseq><key>Shift</key><key>Ctrl</key><key>G</key></keyseq>"
 
-#: C/keyboard-shortcuts.page:89(table/title)
+#. (itstool) path: table/title
+#: C/keyboard-shortcuts.page:89
 msgid "Navigate within a definition"
 msgstr "Περιήγηση στον ορισμό"
 
-#: C/keyboard-shortcuts.page:98(td/p)
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:98
 msgid "Previous definition"
 msgstr "Προηγούμενος ορισμός"
 
-#: C/keyboard-shortcuts.page:99(td/p)
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:99
 msgid "<keyseq><key>Ctrl</key><key>Page Up</key></keyseq>"
 msgstr "<keyseq><key>Ctrl</key><key>Page Up</key></keyseq>"
 
-#: C/keyboard-shortcuts.page:102(td/p)
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:102
 msgid "Next definition"
 msgstr "Επόμενος ορισμός"
 
-#: C/keyboard-shortcuts.page:103(td/p)
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:103
 msgid "<keyseq><key>Ctrl</key><key>Page Down</key></keyseq>"
 msgstr "<keyseq><key>Ctrl</key><key>Page Down</key></keyseq>"
 
-#: C/keyboard-shortcuts.page:106(td/p)
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:106
 msgid "First definition"
 msgstr "Πρώτος ορισμός"
 
-#: C/keyboard-shortcuts.page:107(td/p)
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:107
 msgid "<keyseq><key>Ctrl</key><key>Home</key></keyseq>"
 msgstr "<keyseq><key>Ctrl</key><key>Home</key></keyseq>"
 
-#: C/keyboard-shortcuts.page:110(td/p)
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:110
 msgid "Last definition"
 msgstr "Τελευταίος ορισμός"
 
-#: C/keyboard-shortcuts.page:111(td/p)
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:111
 msgid "<keyseq><key>Ctrl</key><key>End</key></keyseq>"
 msgstr "<keyseq><key>Ctrl</key><key>End</key></keyseq>"
 
-#: C/keyboard-shortcuts.page:117(table/title)
+#. (itstool) path: table/title
+#: C/keyboard-shortcuts.page:117
 msgid "<app>Dictionary</app> definitions shortcuts:"
 msgstr "Οι συντομεύσεις ορισμών του <app>Λεξικού</app>:"
 
-#: C/keyboard-shortcuts.page:126(td/p) C/similar-words.page:27(page/title)
+#. (itstool) path: td/p
+#. (itstool) path: page/title
+#: C/keyboard-shortcuts.page:126 C/similar-words.page:27
 msgid "Similar words"
 msgstr "Παρόμοιες λέξεις"
 
-#: C/keyboard-shortcuts.page:127(td/p)
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:127
 msgid "<keyseq><key>Ctrl</key><key>T</key></keyseq>"
 msgstr "<keyseq><key>Ctrl</key><key>T</key></keyseq>"
 
-#: C/keyboard-shortcuts.page:130(td/p) C/sources.page:28(page/title)
+#. (itstool) path: td/p
+#. (itstool) path: page/title
+#: C/keyboard-shortcuts.page:130 C/sources.page:28
 msgid "Dictionary sources"
 msgstr "Πηγές λεξικού"
 
-#: C/keyboard-shortcuts.page:131(td/p)
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:131
 msgid "<keyseq><key>Ctrl</key><key>D</key></keyseq>"
 msgstr "<keyseq><key>Ctrl</key><key>D</key></keyseq>"
 
-#: C/keyboard-shortcuts.page:134(td/p)
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:134
 msgid "Available databases"
 msgstr "Διαθέσιμες βάσεις δεδομένων"
 
-#: C/keyboard-shortcuts.page:135(td/p)
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:135
 msgid "<keyseq><key>Ctrl</key><key>B</key></keyseq>"
 msgstr "<keyseq><key>Ctrl</key><key>B</key></keyseq>"
 
-#: C/keyboard-shortcuts.page:138(td/p)
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:138
 msgid "Available strategies"
 msgstr "Διαθέσιμες στρατηγικές"
 
-#: C/keyboard-shortcuts.page:139(td/p)
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:139
 msgid "<keyseq><key>Ctrl</key><key>R</key></keyseq>"
 msgstr "<keyseq><key>Ctrl</key><key>R</key></keyseq>"
 
-#: C/legal.xml:3(p/link)
+#. (itstool) path: p/link
+#: C/legal.xml:3
 msgid "http://creativecommons.org/licenses/by-sa/3.0/"
 msgstr "http://creativecommons.org/licenses/by-sa/3.0/"
 
-#: C/legal.xml:3(license/p)
+#. (itstool) path: license/p
+#: C/legal.xml:3
 msgid ""
 "This work is licensed under the Creative Commons Attribution-ShareAlike 3.0 "
 "Unported License. To view a copy of this license, visit <_:link-1/> or send "
@@ -496,23 +554,28 @@ msgstr ""
 "επισκεφτείτε <_:link-1/> ή στείλτε ένα γράμμα στο Creative Commons, 444 "
 "Castro Street, Suite 900, Mountain View, California, 94041, USA."
 
-#: C/pref.page:15(info/desc)
+#. (itstool) path: info/desc
+#: C/pref.page:15
 msgid "Manage your preferences."
 msgstr "Διαχείριση των προτιμήσεων σας."
 
-#: C/pref.page:18(page/title)
+#. (itstool) path: page/title
+#: C/pref.page:18
 msgid "<app>Dictionary</app> preferences"
 msgstr "Προτιμήσεις του <app>Λεξικού</app>"
 
-#: C/print-font.page:23(info/desc)
+#. (itstool) path: info/desc
+#: C/print-font.page:23
 msgid "Select the font for printing definitions."
 msgstr "Επιλέξτε τη γραμματοσειρά για εκτύπωση ορισμών."
 
-#: C/print-font.page:27(page/title)
+#. (itstool) path: page/title
+#: C/print-font.page:27
 msgid "Print font"
 msgstr "Γραμματοσειρά εκτύπωσης"
 
-#: C/print-font.page:29(page/p)
+#. (itstool) path: page/p
+#: C/print-font.page:29
 msgid ""
 "You can change the default font face and size that are used for printing the "
 "definitions."
@@ -520,11 +583,13 @@ msgstr ""
 "Μπορείτε να αλλάξετε την προεπιλεγμένη γραμματοσειρά και το μέγεθος που "
 "χρησιμοποιούνται για εκτύπωση των ορισμών."
 
-#: C/print-font.page:33(steps/title)
+#. (itstool) path: steps/title
+#: C/print-font.page:33
 msgid "Change the font"
 msgstr "Αλλαγή της γραμματοσειράς"
 
-#: C/print-font.page:35(item/p)
+#. (itstool) path: item/p
+#: C/print-font.page:35
 msgid ""
 "Select <guiseq><gui style=\"menu\">Dictionary</gui> <gui style=\"menuitem"
 "\">Preferences</gui> <gui style=\"tab\">Print</gui></guiseq>."
@@ -532,15 +597,18 @@ msgstr ""
 "Επιλέξτε <guiseq><gui style=\"menu\">Λεξικό</gui> <gui style=\"menuitem"
 "\">Προτιμήσεις</gui> <gui style=\"tab\">Εκτύπωση</gui></guiseq>."
 
-#: C/print-font.page:40(item/p)
+#. (itstool) path: item/p
+#: C/print-font.page:40
 msgid "Click font selector button."
 msgstr "Πατήστε στο κουμπί επιλογέα γραμματοσειράς."
 
-#: C/print-font.page:43(item/p)
+#. (itstool) path: item/p
+#: C/print-font.page:43
 msgid "Select the font that you wish to use."
 msgstr "Επιλέξτε τη γραμματοσειρά που θέλετε να χρησιμοποιηθεί."
 
-#: C/print-font.page:46(item/p)
+#. (itstool) path: item/p
+#: C/print-font.page:46
 msgid ""
 "Drag the slider to the right to increase the font size or left to decrease "
 "it. Alternatively, you can type in the font size in the text box, or use the "
@@ -552,13 +620,15 @@ msgstr ""
 "κουμπιά <gui>-</gui> και <gui>+</gui> για μείωση και αύξηση του μεγέθους της "
 "γραμματοσειράς."
 
-#: C/print-font.page:52(item/p)
+#. (itstool) path: item/p
+#: C/print-font.page:52
 msgid "Click <gui style=\"button\">Select</gui> to save your font settings."
 msgstr ""
 "Πατήστε <gui style=\"button\">Επιλογή</gui> για αποθήκευση των ρυθμίσεων της "
 "γραμματοσειράς σας."
 
-#: C/print-font.page:56(page/p)
+#. (itstool) path: page/p
+#: C/print-font.page:56
 msgid ""
 "The definition is not reflowed for printing, so if you choose a large font "
 "size, some of the text may be cut off."
@@ -566,15 +636,18 @@ msgstr ""
 "Ο ορισμός δεν επιστρέφεται για εκτύπωση, έτσι εάν διαλέξετε μια "
 "γραμματοσειρά μεγάλου μεγέθους, μπορεί να αποκοπεί μέρος του κειμένου."
 
-#: C/print.page:24(info/desc)
+#. (itstool) path: info/desc
+#: C/print.page:24
 msgid "Print preview and print definitions."
 msgstr "Προεπισκόπηση εκτύπωσης και ορισμοί εκτύπωσης."
 
-#: C/print.page:28(page/title)
+#. (itstool) path: page/title
+#: C/print.page:28
 msgid "Print a definition"
 msgstr "Εκτύπωση ορισμού"
 
-#: C/print.page:30(page/p)
+#. (itstool) path: page/p
+#: C/print.page:30
 msgid ""
 "You can print a definition to paper or a file. Before printing, you should "
 "preview the definition as it would be printed to check that the text fits "
@@ -586,7 +659,8 @@ msgstr ""
 "το κείμενο ταιριάζει στη σελίδα, ειδικά αν έχετε αλλάξει το μέγεθος της "
 "<link xref=\"print-font\">γραμματοσειράς εκτύπωσης</link>."
 
-#: C/print.page:40(item/p)
+#. (itstool) path: item/p
+#: C/print.page:40
 msgid ""
 "Select <guiseq><gui style=\"menu\">File</gui> <gui style=\"menuitem"
 "\">Preview</gui></guiseq>."
@@ -594,7 +668,8 @@ msgstr ""
 "Επιλέξτε <guiseq><gui style=\"menu\">Αρχείο</gui> <gui style=\"menuitem"
 "\">Προεπισκόπηση</gui></guiseq>."
 
-#: C/print.page:44(item/p)
+#. (itstool) path: item/p
+#: C/print.page:44
 msgid ""
 "A print preview window will open which will show you the definition exactly "
 "as it will be printed."
@@ -602,13 +677,15 @@ msgstr ""
 "Ένα παράθυρο προεπισκόπησης εκτύπωσης θα ανοίξει που θα εμφανίσει τον ορισμό "
 "ακριβώς όπως θα τυπωθεί."
 
-#: C/print.page:48(item/p)
+#. (itstool) path: item/p
+#: C/print.page:48
 msgid "Use the toolbar to browse pages, adjust zoom level and page width."
 msgstr ""
 "Χρησιμοποιήστε την εργαλειοθήκη για περιήγηση των σελίδων, ρυθμίστε το "
 "επίπεδο εστίασης και το πλάτος της σελίδας."
 
-#: C/print.page:52(item/p)
+#. (itstool) path: item/p
+#: C/print.page:52
 msgid ""
 "Click the <gui style=\"button\">Print this document</gui> to print the "
 "definition or close the window to end the preview."
@@ -617,7 +694,8 @@ msgstr ""
 "εκτυπώσετε τον ορισμό ή να κλείσετε το παράθυρο για να τελειώσετε την "
 "προεπισκόπηση."
 
-#: C/print.page:58(note/p)
+#. (itstool) path: note/p
+#: C/print.page:58
 msgid ""
 "The print button in the toolbar may not always work. If it does not work for "
 "you, close the window and select <guiseq><gui style=\"menu\">File</gui> <gui "
@@ -627,7 +705,8 @@ msgstr ""
 "δουλέψει για σας, κλείστε το παράθυρο και επιλέξτε <guiseq><gui style=\"menu"
 "\">Αρχείο</gui> <gui style=\"menuitem\">Εκτύπωση</gui></guiseq>."
 
-#: C/print.page:69(section/p)
+#. (itstool) path: section/p
+#: C/print.page:69
 msgid ""
 "You need to <link href=\"help:gnome-help/printing\">have a printer set up</"
 "link> to be able to print to paper."
@@ -635,7 +714,8 @@ msgstr ""
 "Χρειάζεται να <link href=\"help:gnome-help/printing\">έχετε έναν "
 "εγκατεστημένο εκτυπωτή</link> για να μπορέσετε να εκτυπώσετε σε χαρτί."
 
-#: C/print.page:74(item/p)
+#. (itstool) path: item/p
+#: C/print.page:74
 msgid ""
 "Select <guiseq><gui style=\"menu\">File</gui> <gui style=\"menuitem\">Print</"
 "gui> <gui style=\"tab\">General</gui></guiseq>."
@@ -643,7 +723,8 @@ msgstr ""
 "Επιλέξτε <guiseq><gui style=\"menu\">Αρχείο</gui> <gui style=\"menuitem"
 "\">Εκτύπωση</gui> <gui style=\"tab\">Γενικά</gui></guiseq>."
 
-#: C/print.page:79(item/p)
+#. (itstool) path: item/p
+#: C/print.page:79
 msgid ""
 "Select the printer that you want to use from the list of printers or select "
 "<gui href=\"help:gnome-help/print-to-file\">Print to File</gui>."
@@ -651,7 +732,8 @@ msgstr ""
 "Επιλέξτε τον επιθυμητό εκτυπωτή από τη λίστα των εκτυπωτών ή επιλέξτε <gui "
 "href=\"help:gnome-help/print-to-file\">Εκτύπωση σε αρχείο</gui>."
 
-#: C/print.page:84(item/p)
+#. (itstool) path: item/p
+#: C/print.page:84
 msgid ""
 "Chose your <link href=\"help:gnome-help/printing#paper\">printing settings</"
 "link>."
@@ -659,21 +741,25 @@ msgstr ""
 "Επιλέξτε τις <link href=\"help:gnome-help/printing#paper\">ρυθμίσεις "
 "εκτύπωσης</link>."
 
-#: C/print.page:88(item/p)
+#. (itstool) path: item/p
+#: C/print.page:88
 msgid "Press <gui style=\"button\">Print</gui> to print the definition."
 msgstr ""
 "Πατήστε στο <gui style=\"button\">Εκτύπωση</gui> για να εκτυπώσετε τον "
 "ορισμό."
 
-#: C/prob-retrieving-definition.page:23(info/desc)
+#. (itstool) path: info/desc
+#: C/prob-retrieving-definition.page:23
 msgid "<sys>Error while retrieving definitions</sys>."
 msgstr "<sys>Σφάλμα κατά την ανάκτηση ορισμών</sys>."
 
-#: C/prob-retrieving-definition.page:27(page/title)
+#. (itstool) path: page/title
+#: C/prob-retrieving-definition.page:27
 msgid "Cannot find definitions"
 msgstr "Αδύνατη η εύρεση ορισμών"
 
-#: C/prob-retrieving-definition.page:29(page/p)
+#. (itstool) path: page/p
+#: C/prob-retrieving-definition.page:29
 msgid ""
 "If you see the error message <sys>Error while retrieving definition</sys> "
 "when looking up a definition from any of the <link xref=\"sources-select"
@@ -685,7 +771,8 @@ msgstr ""
 "\">επιλεγμένο λεξικό</link>, το πρόβλημα είναι πιο πιθανό να είναι ένα από "
 "τα παρακάτω:"
 
-#: C/prob-retrieving-definition.page:36(item/p)
+#. (itstool) path: item/p
+#: C/prob-retrieving-definition.page:36
 msgid ""
 "One or more of the selected <app>DICT</app> servers that are used to look up "
 "definitions may not be working. You can try waiting a while before <link "
@@ -696,7 +783,8 @@ msgstr ""
 "να δοκιμάσετε αφού περιμένετε κάμποσο πριν να <link xref=\"definition"
 "\">αναζητήσετε</link> τον ορισμό πάλι."
 
-#: C/prob-retrieving-definition.page:42(item/p)
+#. (itstool) path: item/p
+#: C/prob-retrieving-definition.page:42
 msgid ""
 "You may not have a working Internet connection. For <app>Dictionary</app> to "
 "look up terms, your computer <link href=\"help:gnome-help/net\">must be able "
@@ -707,15 +795,18 @@ msgstr ""
 "gnome-help/net\">πρέπει να μπορεί να συνδεθεί</link> με το <sys href="
 "\"http://dict.org\">dict.org</sys>."
 
-#: C/save-definition.page:22(info/desc)
+#. (itstool) path: info/desc
+#: C/save-definition.page:22
 msgid "Save a copy of a definition to a text file."
 msgstr "Αποθηκεύστε ένα αντίγραφο ενός ορισμού σε ένα αρχείο κειμένου."
 
-#: C/save-definition.page:26(page/title)
+#. (itstool) path: page/title
+#: C/save-definition.page:26
 msgid "Save a definition"
 msgstr "Αποθηκεύστε έναν ορισμό"
 
-#: C/save-definition.page:28(page/p)
+#. (itstool) path: page/p
+#: C/save-definition.page:28
 msgid ""
 "You can save a definition to a text file. This may be useful if you want to "
 "use it outside of <app>Dictionary</app>."
@@ -723,11 +814,13 @@ msgstr ""
 "Μπορείτε να αποθηκεύσετε έναν ορισμό σε ένα αρχείο κειμένου. Αυτό μπορεί να "
 "είναι χρήσιμο αν θέλετε να το χρησιμοποιήσετε έξω από το <app>Λεξικό</app>."
 
-#: C/save-definition.page:32(steps/title)
+#. (itstool) path: steps/title
+#: C/save-definition.page:32
 msgid "To save a definition:"
 msgstr "Για αποθήκευση ενός ορισμού:"
 
-#: C/save-definition.page:34(item/p)
+#. (itstool) path: item/p
+#: C/save-definition.page:34
 msgid ""
 "Select <guiseq><gui style=\"menu\">File</gui> <gui style=\"menuitem\">Save a "
 "Copy…</gui></guiseq>."
@@ -735,11 +828,8 @@ msgstr ""
 "Επιλέξτε <guiseq><gui style=\"menu\">Αρχείο</gui> <gui style=\"menuitem"
 "\">Αποθήκευση ενός αντιγράφου…</gui></guiseq>."
 
-#: C/save-definition.page:38(item/p)
-#| msgid ""
-#| "Chose where you want to save the definition to and a name for the file. "
-#| "You may want to add a <file>.txt</file> file extention to the end of the "
-#| "file name."
+#. (itstool) path: item/p
+#: C/save-definition.page:38
 msgid ""
 "Chose where you want to save the definition to and a name for the file. You "
 "may want to add a <file>.txt</file> file extension to the end of the file "
@@ -749,29 +839,34 @@ msgstr ""
 "Μπορεί να θελήσετε να προσθέσετε μία επέκταση αρχείου <file>.txt</file> στο "
 "τέλος του ονόματος του αρχείου."
 
-#: C/save-definition.page:43(item/p)
+#. (itstool) path: item/p
+#: C/save-definition.page:43
 msgid "Press <gui style=\"button\">Save</gui> to save the definition."
 msgstr ""
 "Πατήστε στο <gui style=\"button\">Αποθήκευση</gui> για να αποθηκεύσετε τον "
 "ορισμό."
 
-#: C/similar-words.page:23(info/desc)
+#. (itstool) path: info/desc
+#: C/similar-words.page:23
 msgid "View related results in other dictionaries."
 msgstr "Προβάλετε σχετικά αποτελέσματα σε άλλα λεξικά."
 
-#: C/similar-words.page:29(page/p)
+#. (itstool) path: page/p
+#: C/similar-words.page:29
 msgid ""
-"<app>Dictionary</app> will only display the definition from one your "
+"<app>Dictionary</app> will only display the definition from one of your "
 "dictionaries. To check if there are search results in other dictionaries:"
 msgstr ""
 "Το <app>Λεξικό</app> θα εμφανίσει μόνο τον ορισμό από ένα από τα λεξικά σας. "
 "Για να ελέγξετε αν υπάρχουν αποτελέσματα αναζήτησης σε άλλα λεξικά:"
 
-#: C/similar-words.page:34(item/p)
+#. (itstool) path: item/p
+#: C/similar-words.page:34
 msgid "<link xref=\"definition\">Look up</link> the desired term."
 msgstr "<link xref=\"definition\">αναζητήστε</link> τον επιθυμητό όρο."
 
-#: C/similar-words.page:37(item/p)
+#. (itstool) path: item/p
+#: C/similar-words.page:37
 msgid ""
 "If the sidebar is not already visible, select <guiseq><gui style=\"menu"
 "\">View</gui> <gui style=\"menuitem\">Similar Words</gui></guiseq>."
@@ -779,7 +874,8 @@ msgstr ""
 "Αν η πλευρική στήλη δεν είναι ήδη ορατή, επιλέξτε <guiseq><gui style=\"menu"
 "\">Προβολή</gui> <gui style=\"menuitem\">Παρόμοιες λέξεις</gui></guiseq>."
 
-#: C/similar-words.page:42(item/p)
+#. (itstool) path: item/p
+#: C/similar-words.page:42
 msgid ""
 "The <gui>Similar Words</gui> sidebar will show search results from other "
 "dictionaries in your selected dictionary source. To view the similar word, "
@@ -789,15 +885,18 @@ msgstr ""
 "της αναζήτησης από άλλα λεξικά στην επιλεγμένη πηγή λεξικού. Για την προβολή "
 "της παρόμοιας λέξης, διπλοπατήστε στην καταχώριση."
 
-#: C/source-add-local.page:20(page/title)
+#. (itstool) path: page/title
+#: C/source-add-local.page:20
 msgid "Add local dictionary sources"
 msgstr "Προσθέστε τοπικές πηγές λεξικού"
 
-#: C/sources-default.page:24(page/title)
+#. (itstool) path: page/title
+#: C/sources-default.page:24
 msgid "Set a default dictionary source"
 msgstr "Ορίστε μια προεπιλεγμένη πηγή λεξικού"
 
-#: C/sources-default.page:26(page/p)
+#. (itstool) path: page/p
+#: C/sources-default.page:26
 msgid ""
 "When you first use <app>Dictionary</app>, it should have some pre-installed "
 "dictionaries that you can use. You can change the default <link xref="
@@ -809,11 +908,13 @@ msgstr ""
 "αλλάξετε την προεπιλογή <link xref=\"sources\">πηγή λεξικού</link> σε μια "
 "άλλη που θα προτιμούσατε να χρησιμοποιήσετε στη θέση της."
 
-#: C/sources-default.page:32(steps/title)
+#. (itstool) path: steps/title
+#: C/sources-default.page:32
 msgid "Change the default dictionary source:"
 msgstr "Αλλαγή της προεπιλεγμένης πηγής λεξικού:"
 
-#: C/sources-default.page:34(item/p)
+#. (itstool) path: item/p
+#: C/sources-default.page:34
 msgid ""
 "Select <guiseq><gui><app>Dictionary</app></gui> <gui style=\"menu"
 "\">Preferences</gui> <gui style=\"tab\">Source</gui></guiseq>."
@@ -821,19 +922,23 @@ msgstr ""
 "Επιλέξτε <guiseq><gui><app>Λεξικό</app></gui> <gui style=\"menu"
 "\">Προτιμήσεις</gui> <gui style=\"tab\">Πηγή</gui></guiseq>."
 
-#: C/sources-default.page:39(item/p)
+#. (itstool) path: item/p
+#: C/sources-default.page:39
 msgid "Select the dictionary source that you want to set as the default."
 msgstr "Επιλέξτε την πηγή λεξικού που θέλετε να ορίσετε ως προεπιλογή."
 
-#: C/sources-default.page:42(item/p)
+#. (itstool) path: item/p
+#: C/sources-default.page:42
 msgid "Your change will be saved automatically."
 msgstr "Η αλλαγή σας θα αποθηκευτεί αυτόματα."
 
-#: C/sources-delete.page:25(page/title)
+#. (itstool) path: page/title
+#: C/sources-delete.page:25
 msgid "Delete a dictionary source"
 msgstr "Διαγραφή προέλευσης λεξικού"
 
-#: C/sources-delete.page:27(page/p)
+#. (itstool) path: page/p
+#: C/sources-delete.page:27
 msgid ""
 "If you no longer need a specific <link xref=\"sources\">dictionary source</"
 "link> or if one stops working for you, you may want to delete it."
@@ -842,11 +947,13 @@ msgstr ""
 "λεξικού</link> ή αν κάποιο σταματά να δουλεύει για σας, ίσως θελήσετε να το "
 "διαγράψετε."
 
-#: C/sources-delete.page:32(steps/title)
+#. (itstool) path: steps/title
+#: C/sources-delete.page:32
 msgid "Delete a dictionary source:"
 msgstr "Διαγραφή πηγής λεξικού:"
 
-#: C/sources-delete.page:34(item/p)
+#. (itstool) path: item/p
+#: C/sources-delete.page:34
 msgid ""
 "Select <guiseq><gui style=\"menu\"><app>Dictionary</app></gui> <gui style="
 "\"menuitem\">Preferences</gui> <gui style=\"tab\">Source</gui></guiseq>."
@@ -854,15 +961,18 @@ msgstr ""
 "Επιλέξτε <guiseq><gui style=\"menu\"><app>Λεξικό</app></gui> <gui style="
 "\"menuitem\">Προτιμήσεις</gui> <gui style=\"tab\">Πηγή</gui></guiseq>."
 
-#: C/sources-delete.page:39(item/p)
+#. (itstool) path: item/p
+#: C/sources-delete.page:39
 msgid "Select the dictionary source that you want to delete."
 msgstr "Επιλέξτε την πηγή λεξικού που θέλετε να διαγράψετε."
 
-#: C/sources-delete.page:42(item/p)
+#. (itstool) path: item/p
+#: C/sources-delete.page:42
 msgid "Press <gui style=\"button\">Remove</gui>."
 msgstr "Πατήστε στο <gui style=\"button\">Αφαίρεση</gui>."
 
-#: C/sources-delete.page:45(item/p)
+#. (itstool) path: item/p
+#: C/sources-delete.page:45
 msgid ""
 "A dialog will pop up asking you to confirm that you wish to permanently "
 "delete the selected source. Once you confirm, the source will be deleted."
@@ -871,11 +981,13 @@ msgstr ""
 "διαγράψετε μόνιμα την επιλεγμένη πηγή. Μόλις επιβεβαιώσετε, η πηγή θα "
 "διαγραφεί."
 
-#: C/sources-edit.page:24(page/title)
+#. (itstool) path: page/title
+#: C/sources-edit.page:24
 msgid "Edit a dictionary source"
 msgstr "Επεξεργασία πηγής λεξικού"
 
-#: C/sources-edit.page:26(page/p)
+#. (itstool) path: page/p
+#: C/sources-edit.page:26
 msgid ""
 "You can customize a <link xref=\"sources\">dictionary source</link> to "
 "update details such as its description or remote address."
@@ -884,11 +996,13 @@ msgstr ""
 "να ενημερώσετε λεπτομέρειες όπως την περιγραφή του ή την απομακρυσμένη "
 "διεύθυνση."
 
-#: C/sources-edit.page:30(steps/title)
+#. (itstool) path: steps/title
+#: C/sources-edit.page:30
 msgid "To edit a dictionary source:"
 msgstr "Για επεξεργασία πηγής λεξικού:"
 
-#: C/sources-edit.page:32(item/p)
+#. (itstool) path: item/p
+#: C/sources-edit.page:32
 msgid ""
 "Select <guiseq><gui style=\"menu\">Dictionary</gui> <gui style=\"menuitem"
 "\">Preferences</gui> <gui style=\"tab\">Source</gui></guiseq>."
@@ -896,34 +1010,41 @@ msgstr ""
 "Επιλέξτε <guiseq><gui style=\"menu\">Λεξικό</gui> <gui style=\"menuitem"
 "\">Προτιμήσεις</gui> <gui style=\"tab\">Πηγή</gui></guiseq>."
 
-#: C/sources-edit.page:37(item/p)
+#. (itstool) path: item/p
+#: C/sources-edit.page:37
 msgid "Double click on the dictionary source you want to edit."
 msgstr "Διπλοπατήστε στην πηγή λεξικού που θέλετε να επεξεργαστείτε."
 
-#: C/sources-edit.page:40(item/p)
+#. (itstool) path: item/p
+#: C/sources-edit.page:40
 msgid "You can edit the following fields:"
 msgstr "Μπορείτε να επεξεργαστείτε τα παρακάτω πεδία:"
 
-#: C/sources-edit.page:43(item/p)
+#. (itstool) path: item/p
+#: C/sources-edit.page:43
 msgid ""
 "<gui>Description</gui> is the name of the source as it will be displayed to "
 "you."
 msgstr ""
 "<gui>Περιγραφή</gui> είναι το όνομα της πηγής όπως θα εμφανιστεί σε σας."
 
-#: C/sources-edit.page:47(item/p)
+#. (itstool) path: item/p
+#: C/sources-edit.page:47
 msgid "<gui>Transport</gui> is the type of server."
 msgstr "<gui>Μεταφορά</gui> είναι ο τύπος του εξυπηρετητή."
 
-#: C/sources-edit.page:50(item/p)
+#. (itstool) path: item/p
+#: C/sources-edit.page:50
 msgid "<gui>Hostname</gui> is the location of the dictionary source."
 msgstr "<gui>Οικοδεσπότης</gui> είναι η τοποθεσία της πηγής λεξικού."
 
-#: C/sources-edit.page:55(item/p)
+#. (itstool) path: item/p
+#: C/sources-edit.page:55
 msgid "<gui>Port</gui>."
 msgstr "<gui>Θύρα</gui>."
 
-#: C/sources-edit.page:60(item/p)
+#. (itstool) path: item/p
+#: C/sources-edit.page:60
 msgid ""
 "View the dictionaries that are available in the dictionary source by "
 "selecting the <gui style=\"tab\">Dictionaries</gui> tab."
@@ -931,17 +1052,20 @@ msgstr ""
 "Προβάλετε τα λεξικά που είναι διαθέσιμα στην πηγή του λεξικού επιλέγοντας "
 "την καρτέλα <gui style=\"tab\">Λεξικά</gui>."
 
-#: C/sources-edit.page:64(item/p)
+#. (itstool) path: item/p
+#: C/sources-edit.page:64
 msgid "Press <gui style=\"button\">Close</gui> to save the settings."
 msgstr ""
 "Πατήστε στο <gui style=\"button\">Κλείσιμο</gui> για να αποθηκεύσετε τις "
 "ρυθμίσεις."
 
-#: C/sources.page:24(info/desc)
+#. (itstool) path: info/desc
+#: C/sources.page:24
 msgid "Manage various dictionary sources."
 msgstr "Διαχείριση ποικίλων πηγών λεξικού."
 
-#: C/sources.page:30(page/p)
+#. (itstool) path: page/p
+#: C/sources.page:30
 msgid ""
 "<app>Dictionary</app> uses <em>dictionary sources</em> to look up words that "
 "you search for. Dictionary sources are collections of one or more dictionary "
@@ -953,15 +1077,18 @@ msgstr ""
 "βάσεων δεδομένων που είναι συνήθως δικτυακές, αλλά μπορεί να εγκατασταθούν "
 "στο μηχάνημά σας επίσης."
 
-#: C/sources.page:36(section/title)
+#. (itstool) path: section/title
+#: C/sources.page:36
 msgid "Manage your dictionary sources"
 msgstr "Διαχείριση των πηγών λεξικού σας"
 
-#: C/sources-select.page:26(page/title)
+#. (itstool) path: page/title
+#: C/sources-select.page:26
 msgid "Select a dictionary source"
 msgstr "Επιλέξτε μια πηγή λεξικού"
 
-#: C/sources-select.page:28(page/p)
+#. (itstool) path: page/p
+#: C/sources-select.page:28
 msgid ""
 "You can change the <link xref=\"sources\">dictionary source</link> that you "
 "are currently using without changing your default preferences."
@@ -969,11 +1096,13 @@ msgstr ""
 "Μπορείτε να αλλάξετε την <link xref=\"sources\">πηγή λεξικού</link> που "
 "χρησιμοποιείτε χωρίς αλλαγή των προεπιλεγμένων προτιμήσεών σας."
 
-#: C/sources-select.page:32(steps/title)
+#. (itstool) path: steps/title
+#: C/sources-select.page:32
 msgid "Temporarily change the dictionary source:"
 msgstr "Προσωρινή αλλαγή της πηγής λεξικού:"
 
-#: C/sources-select.page:34(item/p)
+#. (itstool) path: item/p
+#: C/sources-select.page:34
 msgid ""
 "Select <guiseq><gui style=\"menu\">View</gui> <gui style=\"menuitem"
 "\">Dictionary Sources</gui></guiseq>."
@@ -981,20 +1110,23 @@ msgstr ""
 "Επιλέξτε <guiseq><gui style=\"menu\">Προβολή</gui> <gui style=\"menuitem"
 "\">Πηγές λεξικού</gui></guiseq>."
 
-#: C/sources-select.page:38(item/p)
+#. (itstool) path: item/p
+#: C/sources-select.page:38
 msgid "Double click on the dictionary source that you want to use."
 msgstr "Διπλοπατήστε στην πηγή λεξικού που θέλετε να χρησιμοποιήσετε."
 
-#: C/text-copy.page:23(info/desc)
-#| msgid "Select and copy a defintion to another application."
+#. (itstool) path: info/desc
+#: C/text-copy.page:23
 msgid "Select and copy a definition to another application."
 msgstr "Επιλογή και αντιγραφή ενός ορισμού σε άλλη εφαρμογή."
 
-#: C/text-copy.page:27(page/title)
+#. (itstool) path: page/title
+#: C/text-copy.page:27
 msgid "Copy definition"
 msgstr "Αντιγραφή ορισμού"
 
-#: C/text-copy.page:29(page/p)
+#. (itstool) path: page/p
+#: C/text-copy.page:29
 msgid ""
 "You can copy and paste definitions from <app>Dictionary</app> to another "
 "application."
@@ -1002,11 +1134,13 @@ msgstr ""
 "Μπορείτε να αντιγράψετε και να επικολλήσετε ορισμούς από το <app>Λεξικό</"
 "app> σε μια άλλη εφαρμογή."
 
-#: C/text-copy.page:33(steps/title)
+#. (itstool) path: steps/title
+#: C/text-copy.page:33
 msgid "Copy a definition"
 msgstr "Αντιγραφή ορισμού"
 
-#: C/text-copy.page:35(item/p)
+#. (itstool) path: item/p
+#: C/text-copy.page:35
 msgid ""
 "Select the text that you want to copy in <app>Dictionary</app>. "
 "Alternatively, you can select the whole definition using <guiseq><gui style="
@@ -1017,7 +1151,8 @@ msgstr ""
 "<guiseq><gui style=\"menu\">Επεξεργασία</gui> <gui style=\"menuitem"
 "\">Επιλογή όλων</gui></guiseq>."
 
-#: C/text-copy.page:41(item/p)
+#. (itstool) path: item/p
+#: C/text-copy.page:41
 msgid ""
 "Select <guiseq><gui style=\"menu\">Edit</gui> <gui style=\"menuitem\">Copy</"
 "gui></guiseq>."
@@ -1025,7 +1160,8 @@ msgstr ""
 "Επιλέξτε <guiseq><gui style=\"menu\">Επεξεργασία</gui> <gui style=\"menuitem"
 "\">Αντιγραφή</gui></guiseq>."
 
-#: C/text-copy.page:45(item/p)
+#. (itstool) path: item/p
+#: C/text-copy.page:45
 msgid ""
 "Paste the text into another application. This can usually be done using the "
 "<keyseq><key>Ctrl</key><key>P</key></keyseq> keyboard shortcut or through "
