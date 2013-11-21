@@ -6,10 +6,10 @@
 # Torstein Adolf Winterseth <kvikende@fsfe.org>, 2010.
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-utils 3.9.x\n"
+"Project-Id-Version: gnome-utils 3.11.x\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-07-18 13:40+0200\n"
-"PO-Revision-Date: 2013-07-18 13:40+0200\n"
+"POT-Creation-Date: 2013-11-21 21:22+0100\n"
+"PO-Revision-Date: 2013-11-21 21:22+0100\n"
 "Last-Translator: Kjartan Maraas <kmaraas@gnome.org>\n"
 "Language-Team: Norwegian bokmål <i18n-nb@lister.ping.uio.no>\n"
 "Language: \n"
@@ -23,7 +23,7 @@ msgid "Default Dictionary Server"
 msgstr "Forvalgt ordboktjener"
 
 #: ../data/gnome-dictionary.desktop.in.in.h:1 ../src/gdict-about.c:60
-#: ../src/gdict-app.c:347 ../src/gdict-window.c:543 ../src/gdict-window.c:1805
+#: ../src/gdict-app.c:347 ../src/gdict-window.c:543 ../src/gdict-window.c:1810
 msgid "Dictionary"
 msgstr "Ordbok"
 
@@ -755,62 +755,62 @@ msgstr "Dokument uten tittel"
 msgid "Error while writing to '%s'"
 msgstr "Feil ved skriving til «%s»"
 
-#: ../src/gdict-window.c:1359
+#: ../src/gdict-window.c:1365
 #, c-format
 msgid "Dictionary source `%s' selected"
 msgstr "Ordbokkilden «%s» er valgt"
 
-#: ../src/gdict-window.c:1380
+#: ../src/gdict-window.c:1386
 #, c-format
 msgid "Strategy `%s' selected"
 msgstr "Strategi «%s» valgt"
 
-#: ../src/gdict-window.c:1400
+#: ../src/gdict-window.c:1406
 #, c-format
 msgid "Database `%s' selected"
 msgstr "Database «%s» valgt"
 
-#: ../src/gdict-window.c:1420
+#: ../src/gdict-window.c:1426
 #, c-format
 msgid "Word `%s' selected"
 msgstr "Ord «%s» valgt"
 
 #. speller
-#: ../src/gdict-window.c:1445
+#: ../src/gdict-window.c:1451
 msgid "Double-click on the word to look up"
 msgstr "Dobbeltklikk på ordet du ønsker å slå opp"
 
 #. strat-chooser
-#: ../src/gdict-window.c:1451
+#: ../src/gdict-window.c:1457
 msgid "Double-click on the matching strategy to use"
 msgstr "Dobbeltklikk på strategien som skal brukes"
 
 #. source-chooser
-#: ../src/gdict-window.c:1456
+#: ../src/gdict-window.c:1462
 msgid "Double-click on the source to use"
 msgstr "Dobbeltklikk på kilden som skal brukes"
 
 #. db-chooser
-#: ../src/gdict-window.c:1465
+#: ../src/gdict-window.c:1471
 msgid "Double-click on the database to use"
 msgstr "Dobbeltklikk på databasen som skal brukes"
 
-#: ../src/gdict-window.c:1615
-msgid "Look _up:"
-msgstr "Slå _opp:"
+#: ../src/gdict-window.c:1621
+msgid "Look _up"
+msgstr "Slå _opp"
 
-#: ../src/gdict-window.c:1690
+#: ../src/gdict-window.c:1695
 msgid "Similar words"
 msgstr "Lignende ord"
 
-#: ../src/gdict-window.c:1703
+#: ../src/gdict-window.c:1708
 msgid "Available dictionaries"
 msgstr "Tilgjengelige ordbøker"
 
-#: ../src/gdict-window.c:1721
+#: ../src/gdict-window.c:1726
 msgid "Available strategies"
 msgstr "Tilgjengelige strategier"
 
-#: ../src/gdict-window.c:1737
+#: ../src/gdict-window.c:1742
 msgid "Dictionary sources"
 msgstr "Ordbokkilder"
