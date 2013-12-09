@@ -13,7 +13,7 @@
         <attribute name="accel">F1</attribute>
       </item>
       <item>
-        <attribute name="label" translatable="yes">About Dictionary</attribute>
+        <attribute name="label" translatable="yes">About</attribute>
         <attribute name="action">app.about</attribute>
       </item>
       <item>
