@@ -8,13 +8,14 @@
 # Krishna Babu K <kkrothap@redhat.com>, 2007, 2009, 2010, 2012, 2013.
 # Sasi Bhushan Boddepalli <sasi@swecha.net>, 2012.
 # Hari Krishna <hari@swecha.net>, 2012.
+# kkrothap <kkrothap@redhat.com>, 2013. #zanata.
 msgid ""
 msgstr ""
 "Project-Id-Version: te\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "dictionary&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2012-11-14 18:34+0000\n"
-"PO-Revision-Date: 2013-03-25 13:58+0530\n"
+"POT-Creation-Date: 2013-12-10 12:03+0000\n"
+"PO-Revision-Date: 2013-12-12 17:56+0630\n"
 "Last-Translator: Krishnababu Krothapalli <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <Fedora-trans-te@redhat.com>\n"
 "Language: te\n"
@@ -33,7 +34,7 @@ msgid "Default Dictionary Server"
 msgstr "సేవిక అప్రమేయ నిఘంటువు"
 
 #: ../data/gnome-dictionary.desktop.in.in.h:1 ../src/gdict-about.c:60
-#: ../src/gdict-app.c:347 ../src/gdict-window.c:543 ../src/gdict-window.c:1805
+#: ../src/gdict-app.c:347 ../src/gdict-window.c:543 ../src/gdict-window.c:1810
 msgid "Dictionary"
 msgstr "నిఘంటువు"
 
@@ -54,8 +55,8 @@ msgid "Help"
 msgstr "సహాయము"
 
 #: ../data/gnome-dictionary-menus.ui.h:3
-msgid "About Dictionary"
-msgstr "నిఘంటువు గురించి"
+msgid "About"
+msgstr "గురించి"
 
 #: ../data/gnome-dictionary-menus.ui.h:4
 msgid "Quit"
@@ -130,8 +131,8 @@ msgid "Dictionary Sources"
 msgstr "నిఘంటువు వనరులు"
 
 #: ../data/gnome-dictionary-menus.ui.h:22
-msgid "Available _Databases"
-msgstr "లభించు దత్తాంశ స్థానములు(_D)"
+msgid "Available _Dictionaries"
+msgstr "అందుబాటులోని నిఘంటువులు (_D)"
 
 #: ../data/gnome-dictionary-menus.ui.h:23
 msgid "Available St_rategies"
@@ -768,95 +769,65 @@ msgstr "పత్రము"
 msgid "Error while writing to '%s'"
 msgstr "'%s' కు వ్రాయునప్పుడు దోషము"
 
-#: ../src/gdict-window.c:1359
+#: ../src/gdict-window.c:1365
 #, c-format
 msgid "Dictionary source `%s' selected"
 msgstr "నిఘంటువు వనరు `%s' ఎంపికచేయబడింది"
 
-#: ../src/gdict-window.c:1380
+#: ../src/gdict-window.c:1386
 #, c-format
 msgid "Strategy `%s' selected"
 msgstr "ఎత్తుగడ `%s' ఎంచుకొనబడినది"
 
-#: ../src/gdict-window.c:1400
+#: ../src/gdict-window.c:1406
 #, c-format
 msgid "Database `%s' selected"
 msgstr "దత్తాంశ స్థానము `%s' ఎంచుకొనబడినది"
 
-#: ../src/gdict-window.c:1420
+#: ../src/gdict-window.c:1426
 #, c-format
 msgid "Word `%s' selected"
 msgstr "పదము `%s' ఎంచుకొనబడినది"
 
 #. speller
-#: ../src/gdict-window.c:1445
+#: ../src/gdict-window.c:1451
 msgid "Double-click on the word to look up"
 msgstr "ఏ పదముకై వెతుకుతున్నావో దానిపై రెండుసార్లు నొక్కుము"
 
 #. strat-chooser
-#: ../src/gdict-window.c:1451
+#: ../src/gdict-window.c:1457
 msgid "Double-click on the matching strategy to use"
 msgstr "ఉపమించు ఎత్తుగడను వాడుటకు దానిపై రెండుసార్లు నొక్కుము"
 
 #. source-chooser
-#: ../src/gdict-window.c:1456
+#: ../src/gdict-window.c:1462
 msgid "Double-click on the source to use"
 msgstr "ఉపయోగించుటకు వనరు పైన రెండుసార్లు నొక్కండి"
 
 #. db-chooser
-#: ../src/gdict-window.c:1465
+#: ../src/gdict-window.c:1471
 msgid "Double-click on the database to use"
 msgstr "దత్తాంశ స్థానమును వాడుటకు దానిపై రెండుసార్లు నొక్కుము"
 
-#: ../src/gdict-window.c:1615
-msgid "Look _up:"
-msgstr "వెతుకు(_u):"
+#: ../src/gdict-window.c:1621
+msgid "Look _up"
+msgstr "వెతుకు (_u)"
 
-#: ../src/gdict-window.c:1690
+#: ../src/gdict-window.c:1695
 msgid "Similar words"
 msgstr "పోలిక కల్గిన పదములు"
 
-#: ../src/gdict-window.c:1703
+#: ../src/gdict-window.c:1708
 msgid "Available dictionaries"
 msgstr "లభ్యత కల నిఘంటువులు"
 
-#: ../src/gdict-window.c:1721
+#: ../src/gdict-window.c:1726
 msgid "Available strategies"
 msgstr "లభ్యత కల ఎత్తుగడలు"
 
-#: ../src/gdict-window.c:1737
+#: ../src/gdict-window.c:1742
 msgid "Dictionary sources"
 msgstr "నిఘంటువు వనరులు"
 
-#~ msgid "New look up"
-#~ msgstr "కొత్తగా చూచుటకు"
-
-#~ msgid "Preview this document"
-#~ msgstr "ఈ పత్రమును ఉపదర్శనం చేయుము"
-
-#~ msgid "_Print..."
-#~ msgstr "ముద్రించు(_P)..."
-
-#~ msgid "Print this document"
-#~ msgstr "ఈ పత్రమును ముద్రించు"
-
-#~ msgid "Find a word or phrase in the document"
-#~ msgstr "పత్రములో పదము లేదా పద సముదాయమును కనుగొనుము"
-
-#~ msgid "Go to the previous definition"
-#~ msgstr "గత నిర్వచనం నకు వెళ్ళుము"
-
-#~ msgid "Go to the next definition"
-#~ msgstr "తర్వాతి నిర్వచనం నకు వెళ్ళుము"
-
-#~ msgid "Go to the first definition"
-#~ msgstr "మొదటి నిర్వచనంకు వెళ్ళు"
-
-#~ msgid "Go to the last definition"
-#~ msgstr "చివరి నిర్వచనం కు వెళ్ళు"
-
-#~ msgid "_Contents"
-#~ msgstr "విషయాలు(_C)"
-
-#~ msgid "_About"
-#~ msgstr "గురించి(_A)"
+#~ msgid "About Dictionary"
+#~ msgstr "నిఘంటువు గురించి"
