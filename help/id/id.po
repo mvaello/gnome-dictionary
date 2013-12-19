@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-dictionary master\n"
-"POT-Creation-Date: 2013-09-10 15:35+0000\n"
-"PO-Revision-Date: 2013-09-18 09:39+0700\n"
+"POT-Creation-Date: 2013-12-18 20:36+0000\n"
+"PO-Revision-Date: 2013-12-19 12:55+0700\n"
 "Last-Translator: Andika Triwidada <andika@gmail.com>\n"
 "Language-Team: Indonesian <gnome@i15n.org>\n"
 "Language: id\n"
@@ -25,87 +25,115 @@ msgstr ""
 "Paula <aninditapaula@yahoo.com>, 2011.\n"
 "Andika Triwidada <andika@gmail.com>, 2012, 2013"
 
-#. (itstool) path: info/title
-#: C/index.page:8
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#.
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/index.page:22(media)
+#| msgctxt "_"
+#| msgid ""
+#| "external ref='figures/gnome-dictionary.png' "
+#| "md5='80df283344ecd9b03b88309f8ee9912d'"
+msgctxt "_"
+msgid ""
+"external ref='figures/gnome-dictionary-icon.png' "
+"md5='2f50c3a71e57be0b41efd43c2f7fae60'"
+msgstr "-"
+
+#: C/index.page:8(info/title)
 msgctxt "text"
 msgid "Dictionary"
 msgstr "Kamus"
 
-#. (itstool) path: credit/name
-#: C/index.page:11 C/definition.page:11 C/dictionary-select.page:11
-#: C/find.page:10 C/introduction.page:10 C/keyboard-shortcuts.page:11
-#: C/pref.page:9 C/print-font.page:11 C/print.page:12
-#: C/prob-retrieving-definition.page:11 C/save-definition.page:10
-#: C/similar-words.page:11 C/source-add-local.page:11
-#: C/sources-default.page:10 C/sources-delete.page:11 C/sources-edit.page:10
-#: C/sources.page:12 C/sources-select.page:12 C/text-copy.page:11
+#: C/index.page:11(credit/name) C/definition.page:11(credit/name)
+#: C/dictionary-select.page:11(credit/name) C/find.page:10(credit/name)
+#: C/introduction.page:10(credit/name)
+#: C/keyboard-shortcuts.page:11(credit/name) C/pref.page:9(credit/name)
+#: C/print-font.page:11(credit/name) C/print.page:12(credit/name)
+#: C/prob-retrieving-definition.page:11(credit/name)
+#: C/save-definition.page:10(credit/name) C/similar-words.page:11(credit/name)
+#: C/source-add-local.page:11(credit/name)
+#: C/sources-default.page:10(credit/name)
+#: C/sources-delete.page:11(credit/name) C/sources-edit.page:10(credit/name)
+#: C/sources.page:12(credit/name) C/sources-select.page:12(credit/name)
+#: C/text-copy.page:11(credit/name)
 msgid "Sindhu S"
 msgstr "Sindhu S"
 
-#. (itstool) path: credit/years
-#: C/index.page:13 C/definition.page:13 C/definition.page:18
-#: C/dictionary-select.page:13 C/dictionary-select.page:18 C/find.page:12
-#: C/find.page:17 C/introduction.page:12 C/introduction.page:17
-#: C/keyboard-shortcuts.page:13 C/keyboard-shortcuts.page:18
-#: C/print-font.page:13 C/print-font.page:18 C/print.page:14 C/print.page:19
-#: C/prob-retrieving-definition.page:13 C/prob-retrieving-definition.page:18
-#: C/save-definition.page:12 C/save-definition.page:17 C/similar-words.page:13
-#: C/similar-words.page:18 C/source-add-local.page:13
-#: C/sources-default.page:12 C/sources-default.page:17
-#: C/sources-delete.page:13 C/sources-delete.page:18 C/sources-edit.page:12
-#: C/sources-edit.page:17 C/sources.page:14 C/sources.page:19
-#: C/sources-select.page:14 C/sources-select.page:19 C/text-copy.page:13
-#: C/text-copy.page:18
+#: C/index.page:13(credit/years) C/definition.page:13(credit/years)
+#: C/definition.page:18(credit/years)
+#: C/dictionary-select.page:13(credit/years)
+#: C/dictionary-select.page:18(credit/years) C/find.page:12(credit/years)
+#: C/find.page:17(credit/years) C/introduction.page:12(credit/years)
+#: C/introduction.page:17(credit/years)
+#: C/keyboard-shortcuts.page:13(credit/years)
+#: C/keyboard-shortcuts.page:18(credit/years)
+#: C/print-font.page:13(credit/years) C/print-font.page:18(credit/years)
+#: C/print.page:14(credit/years) C/print.page:19(credit/years)
+#: C/prob-retrieving-definition.page:13(credit/years)
+#: C/prob-retrieving-definition.page:18(credit/years)
+#: C/save-definition.page:12(credit/years)
+#: C/save-definition.page:17(credit/years)
+#: C/similar-words.page:13(credit/years) C/similar-words.page:18(credit/years)
+#: C/source-add-local.page:13(credit/years)
+#: C/sources-default.page:12(credit/years)
+#: C/sources-default.page:17(credit/years)
+#: C/sources-delete.page:13(credit/years)
+#: C/sources-delete.page:18(credit/years) C/sources-edit.page:12(credit/years)
+#: C/sources-edit.page:17(credit/years) C/sources.page:14(credit/years)
+#: C/sources.page:19(credit/years) C/sources-select.page:14(credit/years)
+#: C/sources-select.page:19(credit/years) C/text-copy.page:13(credit/years)
+#: C/text-copy.page:18(credit/years)
 msgid "2013"
 msgstr "2013"
 
-#. (itstool) path: info/desc
-#: C/index.page:18
+#: C/index.page:18(info/desc)
 msgid "Look up word definitions in <app>Dictionary</app>."
 msgstr "Cari definisi kata dalam <app>Kamus</app>."
 
-#. (itstool) path: page/title
-#: C/index.page:21
+#: C/index.page:21(page/title)
 msgid "<_:media-1/> Dictionary Help"
 msgstr "<_:media-1/> Bantuan Kamus"
 
-#. (itstool) path: section/title
-#: C/index.page:26
+#: C/index.page:26(section/title)
 msgid "Features"
 msgstr "Fitur"
 
-#. (itstool) path: section/title
-#: C/index.page:30
+#: C/index.page:30(section/title)
 msgid "Preferences"
 msgstr "Preferensi"
 
-#. (itstool) path: section/title
-#: C/index.page:34
+#: C/index.page:34(section/title)
 msgid "Common problems and solutions"
 msgstr "Masalah umum dan solusinya"
 
-#. (itstool) path: credit/name
-#: C/definition.page:16 C/dictionary-select.page:16 C/find.page:15
-#: C/introduction.page:15 C/keyboard-shortcuts.page:16 C/print-font.page:16
-#: C/print.page:17 C/prob-retrieving-definition.page:16
-#: C/save-definition.page:15 C/similar-words.page:16 C/sources-default.page:15
-#: C/sources-delete.page:16 C/sources-edit.page:15 C/sources.page:17
-#: C/sources-select.page:17 C/text-copy.page:16
+#: C/definition.page:16(credit/name) C/dictionary-select.page:16(credit/name)
+#: C/find.page:15(credit/name) C/introduction.page:15(credit/name)
+#: C/keyboard-shortcuts.page:16(credit/name) C/print-font.page:16(credit/name)
+#: C/print.page:17(credit/name)
+#: C/prob-retrieving-definition.page:16(credit/name)
+#: C/save-definition.page:15(credit/name) C/similar-words.page:16(credit/name)
+#: C/sources-default.page:15(credit/name)
+#: C/sources-delete.page:16(credit/name) C/sources-edit.page:15(credit/name)
+#: C/sources.page:17(credit/name) C/sources-select.page:17(credit/name)
+#: C/text-copy.page:16(credit/name)
 msgid "Ekaterina Gerasimova"
 msgstr "Ekaterina Gerasimova"
 
-#. (itstool) path: info/desc
-#: C/definition.page:23
+#: C/definition.page:23(info/desc)
 msgid "Find the definition of a word or term."
 msgstr "Cari definisi dari suatu kata atau istilah."
 
-#. (itstool) path: page/title
-#: C/definition.page:27
+#: C/definition.page:27(page/title)
 msgid "Look up a word or term"
 msgstr "Mencari suatu kata atau istilah"
 
-#. (itstool) path: page/p
-#: C/definition.page:29
+#: C/definition.page:29(page/p)
 msgid ""
 "You can use <app>Dictionary</app> to look up the meaning of a <em>term</em>. "
 "A term can be a single word such as <input>apple</input> or a compound word "
@@ -118,21 +146,18 @@ msgstr ""
 "board</input>. Hasil pencarian mungkin juga menunjukkan asal, kepentingan, "
 "dan pemakaian dari suatu kata. Untuk mencari suatu istilah:"
 
-#. (itstool) path: item/p
-#: C/definition.page:37
+#: C/definition.page:37(item/p)
 msgid ""
 "Type in the term that you want to search for next to <gui>Look up</gui>."
 msgstr "Ketikkan istilah yang ingin Anda cari di sebelah <gui>Cari</gui>."
 
-#. (itstool) path: item/p
-#: C/definition.page:41
+#: C/definition.page:41(item/p)
 msgid ""
 "Press <key>Return</key> or <gui style=\"button\">Look up:</gui> to search."
 msgstr ""
 "Tekan <key>Return</key> atau <gui style=\"button\">Cari:</gui> untuk mencari."
 
-#. (itstool) path: page/p
-#: C/definition.page:46
+#: C/definition.page:46(page/p)
 msgid ""
 "<app>Dictionary</app> will search your selected dictionary source and show "
 "you the result from the first dictionary in the source. To view results from "
@@ -148,13 +173,11 @@ msgstr ""
 "Serupa</gui></guiseq></link> untuk memunculkan suatu bilah sisi yang "
 "menampilkan semua hasil."
 
-#. (itstool) path: page/title
-#: C/dictionary-select.page:25
+#: C/dictionary-select.page:25(page/title)
 msgid "Select a different dictionary"
 msgstr "Pilih kamus lain"
 
-#. (itstool) path: page/p
-#: C/dictionary-select.page:27
+#: C/dictionary-select.page:27(page/p)
 msgid ""
 "A single <link xref=\"sources\">dictionary source</link> may have many "
 "different dictionaries. You can search any of these dictionaries."
@@ -162,13 +185,11 @@ msgstr ""
 "Suatu <link xref=\"sources\">sumber kamus</link> mungkin memiliki kamus "
 "lain. Anda dapat mencari dari sebarang kamus ini."
 
-#. (itstool) path: steps/title
-#: C/dictionary-select.page:32
+#: C/dictionary-select.page:32(steps/title)
 msgid "Select a dictionary"
 msgstr "Pilih suatu kamus"
 
-#. (itstool) path: item/p
-#: C/dictionary-select.page:34
+#: C/dictionary-select.page:34(item/p)
 msgid ""
 "Select <guiseq><gui style=\"menu\">View</gui> <gui style=\"menuitem"
 "\">Available Databases</gui></guiseq>. A sidebar listing the available "
@@ -179,13 +200,11 @@ msgstr ""
 "menampilkan daftar kamus yang tersedia bagi sumber kamus yang kini dipilih "
 "akan terbuka."
 
-#. (itstool) path: item/p
-#: C/dictionary-select.page:40
+#: C/dictionary-select.page:40(item/p)
 msgid "Click twice on the dictionary that you want to use."
 msgstr "Klik dua kali pada kamus yang ingin Anda pakai."
 
-#. (itstool) path: page/p
-#: C/dictionary-select.page:44
+#: C/dictionary-select.page:44(page/p)
 msgid ""
 "The next term that you <link xref=\"definition\">look up</link> will show "
 "the result only from the selected dictionary."
@@ -193,8 +212,7 @@ msgstr ""
 "Istilah selanjutnya yang Anda <link xref=\"definition\">cari</link> akan "
 "menampilkan hasil hanya dari kamus yang dipilih."
 
-#. (itstool) path: note/p
-#: C/dictionary-select.page:48
+#: C/dictionary-select.page:48(note/p)
 msgid ""
 "Your dictionary selection will not be remembered next time you use "
 "<app>Dictionary</app>."
@@ -202,19 +220,15 @@ msgstr ""
 "Pilihan kamus Anda tak akan diingat kali berikutnya Anda memakai <app>Kamus</"
 "app>."
 
-#. (itstool) path: info/desc
-#: C/find.page:22
+#: C/find.page:22(info/desc)
 msgid "Find text in a definition."
 msgstr "Cari teks dalam suatu definisi."
 
-#. (itstool) path: page/title
-#. (itstool) path: td/p
-#: C/find.page:26 C/keyboard-shortcuts.page:74
+#: C/find.page:26(page/title) C/keyboard-shortcuts.page:74(td/p)
 msgid "Search within a definition"
 msgstr "Mencari di dalam suatu definisi"
 
-#. (itstool) path: page/p
-#: C/find.page:28
+#: C/find.page:28(page/p)
 msgid ""
 "Some dictionary entries can be very long and can contain many results, so "
 "you may wish to search them to find the section that is relevant to you."
@@ -222,13 +236,11 @@ msgstr ""
 "Beberapa entri kamus bisa sangat panjang dan bisa memuat banyak hasil, "
 "sehingga Anda mungkin ingin mencari di dalamnya seksi yang relevan bagi Anda."
 
-#. (itstool) path: steps/title
-#: C/find.page:32
+#: C/find.page:32(steps/title)
 msgid "To find definitions:"
 msgstr "Untuk mencari definisi:"
 
-#. (itstool) path: item/p
-#: C/find.page:34
+#: C/find.page:34(item/p)
 msgid ""
 "Select <guiseq><gui style=\"menu\">Edit</gui> <gui style=\"menuitem\">Find</"
 "gui></guiseq>."
@@ -236,8 +248,7 @@ msgstr ""
 "Pilih <guiseq><gui style=\"menu\">Sunting</gui> <gui style=\"menuitem"
 "\">Cari</gui></guiseq>."
 
-#. (itstool) path: item/p
-#: C/find.page:38
+#: C/find.page:38(item/p)
 msgid ""
 "The <gui>Find</gui> bar will appear at the bottom of the <app>Dictionary</"
 "app> window. Type in your search term to search within the definition that "
@@ -246,8 +257,7 @@ msgstr ""
 "Bilah <gui>Cari</gui> akan muncul di dasar jendela <app>Kamus</app>. "
 "Ketikkan istilah yang akan dicari dalam definisi yang sedang ditampilkan."
 
-#. (itstool) path: item/p
-#: C/find.page:43
+#: C/find.page:43(item/p)
 msgid ""
 "Click <gui style=\"button\">Previous</gui> or <gui style=\"button\">Next</"
 "gui> to scroll through the results. The search will not wrap around: in "
@@ -259,30 +269,26 @@ msgstr ""
 "dengan kata lain, tidak akan kembali ke puncak halaman ketika Anda berada "
 "pada hasil terakhir dan mengklik <gui style=\"button\">Selanjutnya</gui>."
 
-#. (itstool) path: media
 #. This is a reference to an external file such as an image or video. When
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
-#: C/introduction.page:38
+#: C/introduction.page:38(media)
 msgctxt "_"
 msgid ""
 "external ref='figures/gnome-dictionary.png' "
 "md5='80df283344ecd9b03b88309f8ee9912d'"
 msgstr "-"
 
-#. (itstool) path: info/desc
-#: C/introduction.page:22
+#: C/introduction.page:22(info/desc)
 msgid "What is <app>Dictionary</app>?"
 msgstr "Apa itu <app>Kamus</app>?"
 
-#. (itstool) path: page/title
-#: C/introduction.page:26
+#: C/introduction.page:26(page/title)
 msgid "Introduction"
 msgstr "Pengantar"
 
-#. (itstool) path: page/p
-#: C/introduction.page:28
+#: C/introduction.page:28(page/p)
 msgid ""
 "<app>Dictionary</app> is an application for looking up term definitions. It "
 "searches for definitions using an online <app>DICT</app> server. The default "
@@ -293,8 +299,7 @@ msgstr ""
 "mencari definisi memakai server <app>DICT</app> daring. Server <app>DICT</"
 "app> bawaan adalah di <sys href=\"http://dict.org\">http://dict.org</sys>."
 
-#. (itstool) path: page/p
-#: C/introduction.page:33
+#: C/introduction.page:33(page/p)
 msgid ""
 "Start using <app>Dictionary</app> by <link xref=\"definition\">looking up a "
 "definition</link>!"
@@ -302,18 +307,15 @@ msgstr ""
 "Mulailah memakai <app>Kamus</app> dengan <link xref=\"definition\">mencari "
 "suatu definisi</link>!"
 
-#. (itstool) path: figure/title
-#: C/introduction.page:37
+#: C/introduction.page:37(figure/title)
 msgid "Dictionary"
 msgstr "Kamus"
 
-#. (itstool) path: media/p
-#: C/introduction.page:39
+#: C/introduction.page:39(media/p)
 msgid "Screenshot showing the <app>Dictionary</app> main window."
 msgstr "Cuplikan layar yang menampilkan jendela utama <app>Kamus</app>."
 
-#. (itstool) path: info/desc
-#: C/keyboard-shortcuts.page:23
+#: C/keyboard-shortcuts.page:23(info/desc)
 msgid ""
 "You can use keyboard shortcuts to navigate around <app>Dictionary</app> more "
 "efficiently."
@@ -321,13 +323,11 @@ msgstr ""
 "Anda dapat memakai pintasan papan tik untuk menavigasi <app>Kamus</app> "
 "secara lebih efisien."
 
-#. (itstool) path: page/title
-#: C/keyboard-shortcuts.page:27
+#: C/keyboard-shortcuts.page:27(page/title)
 msgid "Keyboard shortcuts"
 msgstr "Pintasan papan tik"
 
-#. (itstool) path: page/p
-#: C/keyboard-shortcuts.page:29
+#: C/keyboard-shortcuts.page:29(page/p)
 msgid ""
 "Keyboard shortcuts are combinations of keys that you can use instead of "
 "navigating through the menu. The following shortcuts are available:"
@@ -335,204 +335,161 @@ msgstr ""
 "Pintasan papan tik adalah kombinasi tombol yang dapat Anda pakai sebagai "
 "pengganti dari navigasi melalui menu. Pintasan papan tik berikut tersedia:"
 
-#. (itstool) path: table/title
-#: C/keyboard-shortcuts.page:33
+#: C/keyboard-shortcuts.page:33(table/title)
 msgid "Navigate around <app>Dictionary</app>"
 msgstr "Menavigasi <app>Kamus</app>"
 
-#. (itstool) path: td/p
-#: C/keyboard-shortcuts.page:36 C/keyboard-shortcuts.page:68
-#: C/keyboard-shortcuts.page:92 C/keyboard-shortcuts.page:120
+#: C/keyboard-shortcuts.page:36(td/p) C/keyboard-shortcuts.page:68(td/p)
+#: C/keyboard-shortcuts.page:92(td/p) C/keyboard-shortcuts.page:120(td/p)
 msgid "Action"
 msgstr "Aksi"
 
-#. (itstool) path: td/p
-#: C/keyboard-shortcuts.page:37 C/keyboard-shortcuts.page:69
-#: C/keyboard-shortcuts.page:93 C/keyboard-shortcuts.page:121
+#: C/keyboard-shortcuts.page:37(td/p) C/keyboard-shortcuts.page:69(td/p)
+#: C/keyboard-shortcuts.page:93(td/p) C/keyboard-shortcuts.page:121(td/p)
 msgid "Shortcut"
 msgstr "Pintasan"
 
-#. (itstool) path: td/p
-#. (itstool) path: section/title
-#: C/keyboard-shortcuts.page:42 C/print.page:36
+#: C/keyboard-shortcuts.page:42(td/p) C/print.page:36(section/title)
 msgid "Print preview"
 msgstr "Pratinjau cetak"
 
-#. (itstool) path: td/p
-#: C/keyboard-shortcuts.page:43
+#: C/keyboard-shortcuts.page:43(td/p)
 msgid "<keyseq><key>Shift</key><key>Ctrl</key><key>P</key></keyseq>"
 msgstr "<keyseq><key>Shift</key><key>Ctrl</key><key>P</key></keyseq>"
 
-#. (itstool) path: td/p
-#. (itstool) path: section/title
-#: C/keyboard-shortcuts.page:46 C/print.page:67
+#: C/keyboard-shortcuts.page:46(td/p) C/print.page:67(section/title)
 msgid "Print"
 msgstr "Cetak"
 
-#. (itstool) path: td/p
-#: C/keyboard-shortcuts.page:47
+#: C/keyboard-shortcuts.page:47(td/p)
 msgid "<keyseq><key>Ctrl</key><key>P</key></keyseq>"
 msgstr "<keyseq><key>Ctrl</key><key>P</key></keyseq>"
 
-#. (itstool) path: td/p
-#: C/keyboard-shortcuts.page:50
+#: C/keyboard-shortcuts.page:50(td/p)
 msgid "View sidebar"
 msgstr "Lihat bilah sisi"
 
-#. (itstool) path: td/p
-#: C/keyboard-shortcuts.page:51
+#: C/keyboard-shortcuts.page:51(td/p)
 msgid "<key>F9</key>"
 msgstr "<key>F9</key>"
 
-#. (itstool) path: td/p
-#: C/keyboard-shortcuts.page:54
+#: C/keyboard-shortcuts.page:54(td/p)
 msgid "Open a new <app>Dictionary</app> window"
 msgstr "Membuka jendela <app>Kamus</app> baru"
 
-#. (itstool) path: td/p
-#: C/keyboard-shortcuts.page:55
+#: C/keyboard-shortcuts.page:55(td/p)
 msgid "<keyseq><key>Ctrl</key><key>N</key></keyseq>"
 msgstr "<keyseq><key>Ctrl</key><key>N</key></keyseq>"
 
-#. (itstool) path: td/p
-#: C/keyboard-shortcuts.page:58
+#: C/keyboard-shortcuts.page:58(td/p)
 msgid "Close current <app>Dictionary</app> window"
 msgstr "Tutup jendela <app>Kamus</app> saat ini"
 
-#. (itstool) path: td/p
-#: C/keyboard-shortcuts.page:59
+#: C/keyboard-shortcuts.page:59(td/p)
 msgid "<keyseq><key>Ctrl</key><key>W</key></keyseq>"
 msgstr "<keyseq><key>Ctrl</key><key>W</key></keyseq>"
 
-#. (itstool) path: table/title
-#: C/keyboard-shortcuts.page:65
+#: C/keyboard-shortcuts.page:65(table/title)
 msgid "Search shortcuts"
 msgstr "Pintasan pencarian"
 
-#. (itstool) path: td/p
-#: C/keyboard-shortcuts.page:75
+#: C/keyboard-shortcuts.page:75(td/p)
 msgid "<key>/</key> or <keyseq><key>Ctrl</key><key>F</key></keyseq>"
 msgstr "<key>/</key> atau <keyseq><key>Ctrl</key><key>F</key></keyseq>"
 
-#. (itstool) path: td/p
-#: C/keyboard-shortcuts.page:78
+#: C/keyboard-shortcuts.page:78(td/p)
 msgid "Find next"
 msgstr "Cari selanjutnya"
 
-#. (itstool) path: td/p
-#: C/keyboard-shortcuts.page:79
+#: C/keyboard-shortcuts.page:79(td/p)
 msgid "<keyseq><key>Ctrl</key><key>G</key></keyseq>"
 msgstr "<keyseq><key>Ctrl</key><key>G</key></keyseq>"
 
-#. (itstool) path: td/p
-#: C/keyboard-shortcuts.page:82
+#: C/keyboard-shortcuts.page:82(td/p)
 msgid "Find previous"
 msgstr "Cari sebelumnya"
 
-#. (itstool) path: td/p
-#: C/keyboard-shortcuts.page:83
+#: C/keyboard-shortcuts.page:83(td/p)
 msgid "<keyseq><key>Shift</key><key>Ctrl</key><key>G</key></keyseq>"
 msgstr "<keyseq><key>Shift</key><key>Ctrl</key><key>G</key></keyseq>"
 
-#. (itstool) path: table/title
-#: C/keyboard-shortcuts.page:89
+#: C/keyboard-shortcuts.page:89(table/title)
 msgid "Navigate within a definition"
 msgstr "Menavigasi dalam suatu definisi"
 
-#. (itstool) path: td/p
-#: C/keyboard-shortcuts.page:98
+#: C/keyboard-shortcuts.page:98(td/p)
 msgid "Previous definition"
 msgstr "Definisi sebelumnya"
 
-#. (itstool) path: td/p
-#: C/keyboard-shortcuts.page:99
+#: C/keyboard-shortcuts.page:99(td/p)
 msgid "<keyseq><key>Ctrl</key><key>Page Up</key></keyseq>"
 msgstr "<keyseq><key>Ctrl</key><key>Page Up</key></keyseq>"
 
-#. (itstool) path: td/p
-#: C/keyboard-shortcuts.page:102
+#: C/keyboard-shortcuts.page:102(td/p)
 msgid "Next definition"
 msgstr "Definisi selanjutnya"
 
-#. (itstool) path: td/p
-#: C/keyboard-shortcuts.page:103
+#: C/keyboard-shortcuts.page:103(td/p)
 msgid "<keyseq><key>Ctrl</key><key>Page Down</key></keyseq>"
 msgstr "<keyseq><key>Ctrl</key><key>Page Down</key></keyseq>"
 
-#. (itstool) path: td/p
-#: C/keyboard-shortcuts.page:106
+#: C/keyboard-shortcuts.page:106(td/p)
 msgid "First definition"
 msgstr "Definisi pertama"
 
-#. (itstool) path: td/p
-#: C/keyboard-shortcuts.page:107
+#: C/keyboard-shortcuts.page:107(td/p)
 msgid "<keyseq><key>Ctrl</key><key>Home</key></keyseq>"
 msgstr "<keyseq><key>Ctrl</key><key>Home</key></keyseq>"
 
-#. (itstool) path: td/p
-#: C/keyboard-shortcuts.page:110
+#: C/keyboard-shortcuts.page:110(td/p)
 msgid "Last definition"
 msgstr "Definisi terakhir"
 
-#. (itstool) path: td/p
-#: C/keyboard-shortcuts.page:111
+#: C/keyboard-shortcuts.page:111(td/p)
 msgid "<keyseq><key>Ctrl</key><key>End</key></keyseq>"
 msgstr "<keyseq><key>Ctrl</key><key>End</key></keyseq>"
 
-#. (itstool) path: table/title
-#: C/keyboard-shortcuts.page:117
+#: C/keyboard-shortcuts.page:117(table/title)
 msgid "<app>Dictionary</app> definitions shortcuts:"
 msgstr "Pintasan definisi <app>Kamus</app>:"
 
-#. (itstool) path: td/p
-#. (itstool) path: page/title
-#: C/keyboard-shortcuts.page:126 C/similar-words.page:27
+#: C/keyboard-shortcuts.page:126(td/p) C/similar-words.page:27(page/title)
 msgid "Similar words"
 msgstr "Kata serupa"
 
-#. (itstool) path: td/p
-#: C/keyboard-shortcuts.page:127
+#: C/keyboard-shortcuts.page:127(td/p)
 msgid "<keyseq><key>Ctrl</key><key>T</key></keyseq>"
 msgstr "<keyseq><key>Ctrl</key><key>T</key></keyseq>"
 
-#. (itstool) path: td/p
-#. (itstool) path: page/title
-#: C/keyboard-shortcuts.page:130 C/sources.page:28
+#: C/keyboard-shortcuts.page:130(td/p) C/sources.page:28(page/title)
 msgid "Dictionary sources"
 msgstr "Sumber-Sumber kamus"
 
-#. (itstool) path: td/p
-#: C/keyboard-shortcuts.page:131
+#: C/keyboard-shortcuts.page:131(td/p)
 msgid "<keyseq><key>Ctrl</key><key>D</key></keyseq>"
 msgstr "<keyseq><key>Ctrl</key><key>D</key></keyseq>"
 
-#. (itstool) path: td/p
-#: C/keyboard-shortcuts.page:134
+#: C/keyboard-shortcuts.page:134(td/p)
 msgid "Available databases"
 msgstr "Basis data yang tersedia"
 
-#. (itstool) path: td/p
-#: C/keyboard-shortcuts.page:135
+#: C/keyboard-shortcuts.page:135(td/p)
 msgid "<keyseq><key>Ctrl</key><key>B</key></keyseq>"
 msgstr "<keyseq><key>Ctrl</key><key>B</key></keyseq>"
 
-#. (itstool) path: td/p
-#: C/keyboard-shortcuts.page:138
+#: C/keyboard-shortcuts.page:138(td/p)
 msgid "Available strategies"
 msgstr "Strategi yang tersedia"
 
-#. (itstool) path: td/p
-#: C/keyboard-shortcuts.page:139
+#: C/keyboard-shortcuts.page:139(td/p)
 msgid "<keyseq><key>Ctrl</key><key>R</key></keyseq>"
 msgstr "<keyseq><key>Ctrl</key><key>R</key></keyseq>"
 
-#. (itstool) path: p/link
-#: C/legal.xml:3
+#: C/legal.xml:3(p/link)
 msgid "http://creativecommons.org/licenses/by-sa/3.0/"
 msgstr "http://creativecommons.org/licenses/by-sa/3.0/"
 
-#. (itstool) path: license/p
-#: C/legal.xml:3
+#: C/legal.xml:3(license/p)
 msgid ""
 "This work is licensed under the Creative Commons Attribution-ShareAlike 3.0 "
 "Unported License. To view a copy of this license, visit <_:link-1/> or send "
@@ -544,28 +501,23 @@ msgstr ""
 "link-1/> atau kirimlah surat ke Creative Commons, 444 Castro Street, Suite "
 "900, Mountain View, California, 94041, USA."
 
-#. (itstool) path: info/desc
-#: C/pref.page:15
+#: C/pref.page:15(info/desc)
 msgid "Manage your preferences."
 msgstr "Kelola preferensi Anda."
 
-#. (itstool) path: page/title
-#: C/pref.page:18
+#: C/pref.page:18(page/title)
 msgid "<app>Dictionary</app> preferences"
 msgstr "Preferensi <app>Kamus</app>"
 
-#. (itstool) path: info/desc
-#: C/print-font.page:23
+#: C/print-font.page:23(info/desc)
 msgid "Select the font for printing definitions."
 msgstr "Pilih fonta untuk mencetak definisi."
 
-#. (itstool) path: page/title
-#: C/print-font.page:27
+#: C/print-font.page:27(page/title)
 msgid "Print font"
 msgstr "Fonta cetak"
 
-#. (itstool) path: page/p
-#: C/print-font.page:29
+#: C/print-font.page:29(page/p)
 msgid ""
 "You can change the default font face and size that are used for printing the "
 "definitions."
@@ -573,13 +525,11 @@ msgstr ""
 "Anda dapat mengubah muka dan ukuran fonta baku yang dipakai ketika mencetak "
 "definisi."
 
-#. (itstool) path: steps/title
-#: C/print-font.page:33
+#: C/print-font.page:33(steps/title)
 msgid "Change the font"
 msgstr "Mengubah fonta"
 
-#. (itstool) path: item/p
-#: C/print-font.page:35
+#: C/print-font.page:35(item/p)
 msgid ""
 "Select <guiseq><gui style=\"menu\">Dictionary</gui> <gui style=\"menuitem"
 "\">Preferences</gui> <gui style=\"tab\">Print</gui></guiseq>."
@@ -587,18 +537,15 @@ msgstr ""
 "Pilih <guiseq><gui style=\"menu\">Kamus</gui> <gui style=\"menuitem"
 "\">Preferensi</gui> <gui style=\"tab\">Cetak</gui></guiseq>."
 
-#. (itstool) path: item/p
-#: C/print-font.page:40
+#: C/print-font.page:40(item/p)
 msgid "Click font selector button."
 msgstr "Klik tombol pemilih fonta."
 
-#. (itstool) path: item/p
-#: C/print-font.page:43
+#: C/print-font.page:43(item/p)
 msgid "Select the font that you wish to use."
 msgstr "Pilih fonta yang ingin Anda pakai."
 
-#. (itstool) path: item/p
-#: C/print-font.page:46
+#: C/print-font.page:46(item/p)
 msgid ""
 "Drag the slider to the right to increase the font size or left to decrease "
 "it. Alternatively, you can type in the font size in the text box, or use the "
@@ -609,14 +556,12 @@ msgstr ""
 "dalam kotak teks, atau memakai tombol <gui>-</gui> dan <gui>+</gui> untuk "
 "mengurangi dan meningkatkan ukuran fonta."
 
-#. (itstool) path: item/p
-#: C/print-font.page:52
+#: C/print-font.page:52(item/p)
 msgid "Click <gui style=\"button\">Select</gui> to save your font settings."
 msgstr ""
 "Klik <gui style=\"button\">Pilih</gui> untuk menyimpan pengaturan fonta Anda."
 
-#. (itstool) path: page/p
-#: C/print-font.page:56
+#: C/print-font.page:56(page/p)
 msgid ""
 "The definition is not reflowed for printing, so if you choose a large font "
 "size, some of the text may be cut off."
@@ -624,18 +569,15 @@ msgstr ""
 "Definisi tak ditata ulang untuk pencetakan, sehingga bila Anda memilih suatu "
 "ukuran fonta yang besar, sebagian teks mungkin terpotong."
 
-#. (itstool) path: info/desc
-#: C/print.page:24
+#: C/print.page:24(info/desc)
 msgid "Print preview and print definitions."
 msgstr "Pratinjau cetak dan cetak definisi."
 
-#. (itstool) path: page/title
-#: C/print.page:28
+#: C/print.page:28(page/title)
 msgid "Print a definition"
 msgstr "Mencetak suatu definisi"
 
-#. (itstool) path: page/p
-#: C/print.page:30
+#: C/print.page:30(page/p)
 msgid ""
 "You can print a definition to paper or a file. Before printing, you should "
 "preview the definition as it would be printed to check that the text fits "
@@ -647,8 +589,7 @@ msgstr ""
 "memeriksa bahwa teks cukup termuat pada halaman, khususnya bila Anda telah "
 "mengubah ukuran <link xref=\"print-font\">fonta cetak</link>."
 
-#. (itstool) path: item/p
-#: C/print.page:40
+#: C/print.page:40(item/p)
 msgid ""
 "Select <guiseq><gui style=\"menu\">File</gui> <gui style=\"menuitem"
 "\">Preview</gui></guiseq>."
@@ -656,8 +597,7 @@ msgstr ""
 "Pilih <guiseq><gui style=\"menu\">Berkas</gui> <gui style=\"menuitem"
 "\">Pratinjau</gui></guiseq>."
 
-#. (itstool) path: item/p
-#: C/print.page:44
+#: C/print.page:44(item/p)
 msgid ""
 "A print preview window will open which will show you the definition exactly "
 "as it will be printed."
@@ -665,15 +605,13 @@ msgstr ""
 "Suatu jendela pratinjau cetak akan terbuka yang menunjukkan definisi akan "
 "dicetak tepat seperti apa."
 
-#. (itstool) path: item/p
-#: C/print.page:48
+#: C/print.page:48(item/p)
 msgid "Use the toolbar to browse pages, adjust zoom level and page width."
 msgstr ""
 "Gunakan bilah alat untuk meramban halaman, menyesuaikan tingkat zum, dan "
 "lebar halaman."
 
-#. (itstool) path: item/p
-#: C/print.page:52
+#: C/print.page:52(item/p)
 msgid ""
 "Click the <gui style=\"button\">Print this document</gui> to print the "
 "definition or close the window to end the preview."
@@ -681,8 +619,7 @@ msgstr ""
 "Klik <gui style=\"button\">Cetak dokumen ini</gui> untuk mencetak definisi "
 "atau tutup jendela untuk mengakhiri pratinjau."
 
-#. (itstool) path: note/p
-#: C/print.page:58
+#: C/print.page:58(note/p)
 msgid ""
 "The print button in the toolbar may not always work. If it does not work for "
 "you, close the window and select <guiseq><gui style=\"menu\">File</gui> <gui "
@@ -692,8 +629,7 @@ msgstr ""
 "bekerja bagi Anda, tutup jendela dan pilih <guiseq><gui style=\"menu"
 "\">Berkas</gui> <gui style=\"menuitem\">Cetak</gui></guiseq>."
 
-#. (itstool) path: section/p
-#: C/print.page:69
+#: C/print.page:69(section/p)
 msgid ""
 "You need to <link href=\"help:gnome-help/printing\">have a printer set up</"
 "link> to be able to print to paper."
@@ -701,8 +637,7 @@ msgstr ""
 "Anda perlu <link href=\"help:gnome-help/printing\">pencetak yang telah "
 "disiapkan</link> untuk bisa mencetak ke kertas."
 
-#. (itstool) path: item/p
-#: C/print.page:74
+#: C/print.page:74(item/p)
 msgid ""
 "Select <guiseq><gui style=\"menu\">File</gui> <gui style=\"menuitem\">Print</"
 "gui> <gui style=\"tab\">General</gui></guiseq>."
@@ -710,8 +645,7 @@ msgstr ""
 "Pilih <guiseq><gui style=\"menu\">Berkas</gui> <gui style=\"menuitem"
 "\">Cetak</gui> <gui style=\"tab\">Umum</gui></guiseq>."
 
-#. (itstool) path: item/p
-#: C/print.page:79
+#: C/print.page:79(item/p)
 msgid ""
 "Select the printer that you want to use from the list of printers or select "
 "<gui href=\"help:gnome-help/print-to-file\">Print to File</gui>."
@@ -719,8 +653,7 @@ msgstr ""
 "Pilih pencetak yang ingin Anda pakai dari daftar pencetak atau pilih <gui "
 "href=\"help:gnome-help/print-to-file\">Cetak ke Berkas</gui>."
 
-#. (itstool) path: item/p
-#: C/print.page:84
+#: C/print.page:84(item/p)
 msgid ""
 "Chose your <link href=\"help:gnome-help/printing#paper\">printing settings</"
 "link>."
@@ -728,23 +661,19 @@ msgstr ""
 "Pilih <link href=\"help:gnome-help/printing#paper\">pengaturan pencetak</"
 "link> Anda."
 
-#. (itstool) path: item/p
-#: C/print.page:88
+#: C/print.page:88(item/p)
 msgid "Press <gui style=\"button\">Print</gui> to print the definition."
 msgstr "Tekan <gui style=\"button\">Cetak</gui> untuk mencetak definisi."
 
-#. (itstool) path: info/desc
-#: C/prob-retrieving-definition.page:23
+#: C/prob-retrieving-definition.page:23(info/desc)
 msgid "<sys>Error while retrieving definitions</sys>."
 msgstr "<sys>Galat ketika mengambil definisi</sys>."
 
-#. (itstool) path: page/title
-#: C/prob-retrieving-definition.page:27
+#: C/prob-retrieving-definition.page:27(page/title)
 msgid "Cannot find definitions"
 msgstr "Tak bisa temukan definisi"
 
-#. (itstool) path: page/p
-#: C/prob-retrieving-definition.page:29
+#: C/prob-retrieving-definition.page:29(page/p)
 msgid ""
 "If you see the error message <sys>Error while retrieving definition</sys> "
 "when looking up a definition from any of the <link xref=\"sources-select"
@@ -756,8 +685,7 @@ msgstr ""
 "\">kamus yang dipilih</link>, masalahnya sangat mungkin satu dari yang "
 "berikut:"
 
-#. (itstool) path: item/p
-#: C/prob-retrieving-definition.page:36
+#: C/prob-retrieving-definition.page:36(item/p)
 msgid ""
 "One or more of the selected <app>DICT</app> servers that are used to look up "
 "definitions may not be working. You can try waiting a while before <link "
@@ -767,8 +695,7 @@ msgstr ""
 "mencari definisi mungkin tak bekerja. Anda dapat mencoba menunggu sebentar "
 "sebelum <link xref=\"definition\">mencari</link> definisi lagi."
 
-#. (itstool) path: item/p
-#: C/prob-retrieving-definition.page:42
+#: C/prob-retrieving-definition.page:42(item/p)
 msgid ""
 "You may not have a working Internet connection. For <app>Dictionary</app> to "
 "look up terms, your computer <link href=\"help:gnome-help/net\">must be able "
@@ -778,18 +705,15 @@ msgstr ""
 "istilah Anda, komputer Anda <link href=\"help:gnome-help/net\">harus bisa "
 "menyambung</link> ke <sys href=\"http://dict.org\">dict.org</sys>."
 
-#. (itstool) path: info/desc
-#: C/save-definition.page:22
+#: C/save-definition.page:22(info/desc)
 msgid "Save a copy of a definition to a text file."
 msgstr "Simpan suatu salinan definisi ke suatu berkas teks."
 
-#. (itstool) path: page/title
-#: C/save-definition.page:26
+#: C/save-definition.page:26(page/title)
 msgid "Save a definition"
 msgstr "Simpan suatu definisi"
 
-#. (itstool) path: page/p
-#: C/save-definition.page:28
+#: C/save-definition.page:28(page/p)
 msgid ""
 "You can save a definition to a text file. This may be useful if you want to "
 "use it outside of <app>Dictionary</app>."
@@ -797,13 +721,11 @@ msgstr ""
 "Anda dapat menyimpan suatu definisi ke suatu berkas teks. Ini mungkin "
 "berguna bila Anda ingin memakainya di luar <app>Kamus</app>."
 
-#. (itstool) path: steps/title
-#: C/save-definition.page:32
+#: C/save-definition.page:32(steps/title)
 msgid "To save a definition:"
 msgstr "Untuk menyimpan definisi:"
 
-#. (itstool) path: item/p
-#: C/save-definition.page:34
+#: C/save-definition.page:34(item/p)
 msgid ""
 "Select <guiseq><gui style=\"menu\">File</gui> <gui style=\"menuitem\">Save a "
 "Copy…</gui></guiseq>."
@@ -811,8 +733,7 @@ msgstr ""
 "Pilih <guiseq><gui style=\"menu\">Berkas</gui> <gui style=\"menuitem"
 "\">Simpan suatu Salinan…</gui></guiseq>."
 
-#. (itstool) path: item/p
-#: C/save-definition.page:38
+#: C/save-definition.page:38(item/p)
 msgid ""
 "Chose where you want to save the definition to and a name for the file. You "
 "may want to add a <file>.txt</file> file extension to the end of the file "
@@ -822,18 +743,15 @@ msgstr ""
 "berkas. Anda mungkin ingin menambahkan ekstensi berkas <file>.txt</file> di "
 "akhir nama berkas."
 
-#. (itstool) path: item/p
-#: C/save-definition.page:43
+#: C/save-definition.page:43(item/p)
 msgid "Press <gui style=\"button\">Save</gui> to save the definition."
 msgstr "Tekan <gui style=\"button\">Simpan</gui> untuk menyimpan definisi."
 
-#. (itstool) path: info/desc
-#: C/similar-words.page:23
+#: C/similar-words.page:23(info/desc)
 msgid "View related results in other dictionaries."
 msgstr "Lihat hasil terkait di kamus lain."
 
-#. (itstool) path: page/p
-#: C/similar-words.page:29
+#: C/similar-words.page:29(page/p)
 msgid ""
 "<app>Dictionary</app> will only display the definition from one of your "
 "dictionaries. To check if there are search results in other dictionaries:"
@@ -841,13 +759,11 @@ msgstr ""
 "<app>Kamus</app> hanya akan menampilkan definisi dari salah satu kamus Anda. "
 "Untuk memeriksa apakah ada hasil pencarian di kamus lain:"
 
-#. (itstool) path: item/p
-#: C/similar-words.page:34
+#: C/similar-words.page:34(item/p)
 msgid "<link xref=\"definition\">Look up</link> the desired term."
 msgstr "<link xref=\"definition\">Cari</link> butir yang diinginkan."
 
-#. (itstool) path: item/p
-#: C/similar-words.page:37
+#: C/similar-words.page:37(item/p)
 msgid ""
 "If the sidebar is not already visible, select <guiseq><gui style=\"menu"
 "\">View</gui> <gui style=\"menuitem\">Similar Words</gui></guiseq>."
@@ -855,8 +771,7 @@ msgstr ""
 "Bila bilah sisi belum nampak, pilih <guiseq><gui style=\"menu\">Tilikan</"
 "gui> <gui style=\"menuitem\">Kata Serupa</gui></guiseq>."
 
-#. (itstool) path: item/p
-#: C/similar-words.page:42
+#: C/similar-words.page:42(item/p)
 msgid ""
 "The <gui>Similar Words</gui> sidebar will show search results from other "
 "dictionaries in your selected dictionary source. To view the similar word, "
@@ -866,18 +781,15 @@ msgstr ""
 "kamus lain dalam sumber kamus yang dipilih. Untuk melihat kata yang serupa, "
 "klik ganda pada entri."
 
-#. (itstool) path: page/title
-#: C/source-add-local.page:20
+#: C/source-add-local.page:20(page/title)
 msgid "Add local dictionary sources"
 msgstr "Menambah sumber kamus lokal"
 
-#. (itstool) path: page/title
-#: C/sources-default.page:24
+#: C/sources-default.page:24(page/title)
 msgid "Set a default dictionary source"
 msgstr "Menata sumber kamus baku"
 
-#. (itstool) path: page/p
-#: C/sources-default.page:26
+#: C/sources-default.page:26(page/p)
 msgid ""
 "When you first use <app>Dictionary</app>, it should have some pre-installed "
 "dictionaries that you can use. You can change the default <link xref="
@@ -888,13 +800,11 @@ msgstr ""
 "kamus terprapasang yang dapat Anda pakai. Anda dapat mengubah <link xref="
 "\"sources\">sumber kamus</link> yang baku ke lainnya yang lebih Anda sukai."
 
-#. (itstool) path: steps/title
-#: C/sources-default.page:32
+#: C/sources-default.page:32(steps/title)
 msgid "Change the default dictionary source:"
 msgstr "Mengubah sumber kamus baku:"
 
-#. (itstool) path: item/p
-#: C/sources-default.page:34
+#: C/sources-default.page:34(item/p)
 msgid ""
 "Select <guiseq><gui><app>Dictionary</app></gui> <gui style=\"menu"
 "\">Preferences</gui> <gui style=\"tab\">Source</gui></guiseq>."
@@ -902,23 +812,19 @@ msgstr ""
 "Pilih <guiseq><gui><app>Kamus</app></gui> <gui style=\"menu\">Preferensi</"
 "gui> <gui style=\"tab\">Sumber</gui></guiseq>."
 
-#. (itstool) path: item/p
-#: C/sources-default.page:39
+#: C/sources-default.page:39(item/p)
 msgid "Select the dictionary source that you want to set as the default."
 msgstr "Pilih sumber kamus yang ingin Anda tata sebagai baku."
 
-#. (itstool) path: item/p
-#: C/sources-default.page:42
+#: C/sources-default.page:42(item/p)
 msgid "Your change will be saved automatically."
 msgstr "Perubahan Anda akan disimpan secara otomatis."
 
-#. (itstool) path: page/title
-#: C/sources-delete.page:25
+#: C/sources-delete.page:25(page/title)
 msgid "Delete a dictionary source"
 msgstr "Menghapus suatu sumber kamus"
 
-#. (itstool) path: page/p
-#: C/sources-delete.page:27
+#: C/sources-delete.page:27(page/p)
 msgid ""
 "If you no longer need a specific <link xref=\"sources\">dictionary source</"
 "link> or if one stops working for you, you may want to delete it."
@@ -926,13 +832,11 @@ msgstr ""
 "Bila Anda tak memerlukan lagi suatu <link xref=\"sources\">sumber kamus</"
 "link> atau bila ada yang tak berkerja lagi, Anda mungkin ingin menghapusnya."
 
-#. (itstool) path: steps/title
-#: C/sources-delete.page:32
+#: C/sources-delete.page:32(steps/title)
 msgid "Delete a dictionary source:"
 msgstr "Menghapus suatu sumber kamus:"
 
-#. (itstool) path: item/p
-#: C/sources-delete.page:34
+#: C/sources-delete.page:34(item/p)
 msgid ""
 "Select <guiseq><gui style=\"menu\"><app>Dictionary</app></gui> <gui style="
 "\"menuitem\">Preferences</gui> <gui style=\"tab\">Source</gui></guiseq>."
@@ -940,18 +844,15 @@ msgstr ""
 "Pilih <guiseq><gui style=\"menu\"><app>Kamus</app></gui> <gui style="
 "\"menuitem\">Preferensi</gui> <gui style=\"tab\">Sumber</gui></guiseq>."
 
-#. (itstool) path: item/p
-#: C/sources-delete.page:39
+#: C/sources-delete.page:39(item/p)
 msgid "Select the dictionary source that you want to delete."
 msgstr "Pilih sumber kamus yang Anda ingin hapus."
 
-#. (itstool) path: item/p
-#: C/sources-delete.page:42
+#: C/sources-delete.page:42(item/p)
 msgid "Press <gui style=\"button\">Remove</gui>."
 msgstr "Tekan <gui style=\"button\">Hapus</gui>."
 
-#. (itstool) path: item/p
-#: C/sources-delete.page:45
+#: C/sources-delete.page:45(item/p)
 msgid ""
 "A dialog will pop up asking you to confirm that you wish to permanently "
 "delete the selected source. Once you confirm, the source will be deleted."
@@ -960,13 +861,11 @@ msgstr ""
 "secara permanen sumber yang dipilih. Setelah Anda mengkonfirmasi, sumber "
 "akan dihapus."
 
-#. (itstool) path: page/title
-#: C/sources-edit.page:24
+#: C/sources-edit.page:24(page/title)
 msgid "Edit a dictionary source"
 msgstr "Menyunting suatu sumber kamus"
 
-#. (itstool) path: page/p
-#: C/sources-edit.page:26
+#: C/sources-edit.page:26(page/p)
 msgid ""
 "You can customize a <link xref=\"sources\">dictionary source</link> to "
 "update details such as its description or remote address."
@@ -974,13 +873,11 @@ msgstr ""
 "Anda dapat menggubah suatu <link xref=\"sources\">sumber kamus</link> untuk "
 "memutakhirkan rincian seperti keterangannya atau alamatnya."
 
-#. (itstool) path: steps/title
-#: C/sources-edit.page:30
+#: C/sources-edit.page:30(steps/title)
 msgid "To edit a dictionary source:"
 msgstr "Untuk menyunting suatu sumber kamus:"
 
-#. (itstool) path: item/p
-#: C/sources-edit.page:32
+#: C/sources-edit.page:32(item/p)
 msgid ""
 "Select <guiseq><gui style=\"menu\">Dictionary</gui> <gui style=\"menuitem"
 "\">Preferences</gui> <gui style=\"tab\">Source</gui></guiseq>."
@@ -988,41 +885,34 @@ msgstr ""
 "Pilih <guiseq><gui style=\"menu\">Kamus</gui> <gui style=\"menuitem"
 "\">Preferensi</gui> <gui style=\"tab\">Sumber</gui></guiseq>."
 
-#. (itstool) path: item/p
-#: C/sources-edit.page:37
+#: C/sources-edit.page:37(item/p)
 msgid "Double click on the dictionary source you want to edit."
 msgstr "Klik ganda pada sumber kamus yang ingin Anda sunting."
 
-#. (itstool) path: item/p
-#: C/sources-edit.page:40
+#: C/sources-edit.page:40(item/p)
 msgid "You can edit the following fields:"
 msgstr "Anda dapat menyunting ruas berikut:"
 
-#. (itstool) path: item/p
-#: C/sources-edit.page:43
+#: C/sources-edit.page:43(item/p)
 msgid ""
 "<gui>Description</gui> is the name of the source as it will be displayed to "
 "you."
 msgstr ""
 "<gui>Deskripsi</gui> adalah nama sumber sebagaimana akan ditampilkan ke Anda."
 
-#. (itstool) path: item/p
-#: C/sources-edit.page:47
+#: C/sources-edit.page:47(item/p)
 msgid "<gui>Transport</gui> is the type of server."
 msgstr "<gui>Transport</gui> adalah tipe server."
 
-#. (itstool) path: item/p
-#: C/sources-edit.page:50
+#: C/sources-edit.page:50(item/p)
 msgid "<gui>Hostname</gui> is the location of the dictionary source."
 msgstr "<gui>Nama host</gui> adalah lokasi dari sumber kamus."
 
-#. (itstool) path: item/p
-#: C/sources-edit.page:55
+#: C/sources-edit.page:55(item/p)
 msgid "<gui>Port</gui>."
 msgstr "<gui>Port</gui>."
 
-#. (itstool) path: item/p
-#: C/sources-edit.page:60
+#: C/sources-edit.page:60(item/p)
 msgid ""
 "View the dictionaries that are available in the dictionary source by "
 "selecting the <gui style=\"tab\">Dictionaries</gui> tab."
@@ -1030,18 +920,15 @@ msgstr ""
 "Lihat kamus yang tersedia dalam sumber kamus dengan memilih tab <gui style="
 "\"tab\">Kamus</gui>."
 
-#. (itstool) path: item/p
-#: C/sources-edit.page:64
+#: C/sources-edit.page:64(item/p)
 msgid "Press <gui style=\"button\">Close</gui> to save the settings."
 msgstr "Tekan <gui style=\"button\">Tutup</gui> untuk menyimpan pengaturan."
 
-#. (itstool) path: info/desc
-#: C/sources.page:24
+#: C/sources.page:24(info/desc)
 msgid "Manage various dictionary sources."
 msgstr "Mengelola berbagai sumber kamus."
 
-#. (itstool) path: page/p
-#: C/sources.page:30
+#: C/sources.page:30(page/p)
 msgid ""
 "<app>Dictionary</app> uses <em>dictionary sources</em> to look up words that "
 "you search for. Dictionary sources are collections of one or more dictionary "
@@ -1052,18 +939,15 @@ msgstr ""
 "Anda cari. Sumber kamus adalah koleksi dari satu atau lebih basis data kamus "
 "yang biasanya daring, tapi dapat juga dipasang pada mesin Anda."
 
-#. (itstool) path: section/title
-#: C/sources.page:36
+#: C/sources.page:36(section/title)
 msgid "Manage your dictionary sources"
 msgstr "Mengelola sumber-sumber kamus Anda"
 
-#. (itstool) path: page/title
-#: C/sources-select.page:26
+#: C/sources-select.page:26(page/title)
 msgid "Select a dictionary source"
 msgstr "Pilih suatu sumber kamus"
 
-#. (itstool) path: page/p
-#: C/sources-select.page:28
+#: C/sources-select.page:28(page/p)
 msgid ""
 "You can change the <link xref=\"sources\">dictionary source</link> that you "
 "are currently using without changing your default preferences."
@@ -1071,13 +955,11 @@ msgstr ""
 "Anda dapat mengubah <link xref=\"sources\">sumber kamus</link> yang sedang "
 "Anda pakai tanpa mengubah preferensi baku Anda."
 
-#. (itstool) path: steps/title
-#: C/sources-select.page:32
+#: C/sources-select.page:32(steps/title)
 msgid "Temporarily change the dictionary source:"
 msgstr "Mengubah sementara sumber kamus:"
 
-#. (itstool) path: item/p
-#: C/sources-select.page:34
+#: C/sources-select.page:34(item/p)
 msgid ""
 "Select <guiseq><gui style=\"menu\">View</gui> <gui style=\"menuitem"
 "\">Dictionary Sources</gui></guiseq>."
@@ -1085,23 +967,19 @@ msgstr ""
 "Pilih <guiseq><gui style=\"menu\">Tilikan</gui> <gui style=\"menuitem"
 "\">Sumber Kamus</gui></guiseq>."
 
-#. (itstool) path: item/p
-#: C/sources-select.page:38
+#: C/sources-select.page:38(item/p)
 msgid "Double click on the dictionary source that you want to use."
 msgstr "Klik ganda pada sumber kamus yang ingin Anda pakai."
 
-#. (itstool) path: info/desc
-#: C/text-copy.page:23
+#: C/text-copy.page:23(info/desc)
 msgid "Select and copy a definition to another application."
 msgstr "Pilih dan salin suatu definisi ke aplikasi lain."
 
-#. (itstool) path: page/title
-#: C/text-copy.page:27
+#: C/text-copy.page:27(page/title)
 msgid "Copy definition"
 msgstr "Salin definisi"
 
-#. (itstool) path: page/p
-#: C/text-copy.page:29
+#: C/text-copy.page:29(page/p)
 msgid ""
 "You can copy and paste definitions from <app>Dictionary</app> to another "
 "application."
@@ -1109,13 +987,11 @@ msgstr ""
 "Anda dapat menyalin dan menempel definisi dari <app>Kamus</app> ke aplikasi "
 "lain."
 
-#. (itstool) path: steps/title
-#: C/text-copy.page:33
+#: C/text-copy.page:33(steps/title)
 msgid "Copy a definition"
 msgstr "Menyalin suatu definisi"
 
-#. (itstool) path: item/p
-#: C/text-copy.page:35
+#: C/text-copy.page:35(item/p)
 msgid ""
 "Select the text that you want to copy in <app>Dictionary</app>. "
 "Alternatively, you can select the whole definition using <guiseq><gui style="
@@ -1125,8 +1001,7 @@ msgstr ""
 "Anda dapat memilih seluruh definisi memakai <guiseq><gui style=\"menu"
 "\">Sunting</gui> <gui style=\"menuitem\">Pilih Semua</gui></guiseq>."
 
-#. (itstool) path: item/p
-#: C/text-copy.page:41
+#: C/text-copy.page:41(item/p)
 msgid ""
 "Select <guiseq><gui style=\"menu\">Edit</gui> <gui style=\"menuitem\">Copy</"
 "gui></guiseq>."
@@ -1134,8 +1009,7 @@ msgstr ""
 "Pilih <guiseq><gui style=\"menu\">Sunting</gui> <gui style=\"menuitem"
 "\">Salin</gui></guiseq>."
 
-#. (itstool) path: item/p
-#: C/text-copy.page:45
+#: C/text-copy.page:45(item/p)
 msgid ""
 "Paste the text into another application. This can usually be done using the "
 "<keyseq><key>Ctrl</key><key>P</key></keyseq> keyboard shortcut or through "
@@ -1144,4 +1018,3 @@ msgstr ""
 "Tempelkan teks ke dalam aplikasi lain. Ini biasanya dapat dilakukan memakai "
 "pintasan papan tik<keyseq><key>Ctrl</key><key>P</key></keyseq> atau melalui "
 "satu dari menu."
-
