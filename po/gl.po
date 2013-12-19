@@ -18,8 +18,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-utils-master-po-gl-14799\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-11-01 13:37+0100\n"
-"PO-Revision-Date: 2013-11-01 13:37+0200\n"
+"POT-Creation-Date: 2013-12-19 01:19+0100\n"
+"PO-Revision-Date: 2013-12-19 01:19+0200\n"
 "Last-Translator: Fran Dieguez <frandieguez@gnome.org>\n"
 "Language-Team: gnome-l10n-gl@gnome.org\n"
 "Language: gl\n"
@@ -56,8 +56,8 @@ msgid "Help"
 msgstr "Axuda"
 
 #: ../data/gnome-dictionary-menus.ui.h:3
-msgid "About Dictionary"
-msgstr "Sobre Dicionario"
+msgid "About"
+msgstr "Sobre"
 
 #: ../data/gnome-dictionary-menus.ui.h:4
 msgid "Quit"
@@ -847,6 +847,9 @@ msgstr "Estratexias dispoñíbeis"
 msgid "Dictionary sources"
 msgstr "orixes de dicionarios"
 
+#~ msgid "About Dictionary"
+#~ msgstr "Sobre Dicionario"
+
 #~ msgid "Available _Databases"
 #~ msgstr "_Bases de datos dispoñíbeis"
 
@@ -879,6 +882,3 @@ msgstr "orixes de dicionarios"
 
 #~ msgid "_Contents"
 #~ msgstr "_Contidos"
-
-#~ msgid "_About"
-#~ msgstr "_Sobre"
