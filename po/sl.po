@@ -1,4 +1,4 @@
-# Slovenian translations for gnome-utils.
+# Slovenian translations for gnome-dictionary.
 # Copyright (C) 2000-2006 Free Software Foundation, Inc.
 # This file is distributed under the same license as the gnome-dictionary package.
 #
@@ -11,16 +11,15 @@ msgstr ""
 "Project-Id-Version: gnome-dictionary master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "dictionary&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2013-10-07 14:40+0000\n"
-"PO-Revision-Date: 2013-10-24 20:34+0100\n"
+"POT-Creation-Date: 2013-12-22 12:43+0000\n"
+"PO-Revision-Date: 2013-12-23 19:53+0100\n"
 "Last-Translator: Matej Urbančič <mateju@svn.gnome.org>\n"
 "Language-Team: Slovenian GNOME Translation Team <gnome-si@googlegroups.com>\n"
 "Language: sl_SI\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || n"
-"%100==4 ? 3 : 0);\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || n%100==4 ? 3 : 0);\n"
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Generator: Poedit 1.5.4\n"
 
@@ -50,8 +49,8 @@ msgid "Help"
 msgstr "Pomoč"
 
 #: ../data/gnome-dictionary-menus.ui.h:3
-msgid "About Dictionary"
-msgstr "O slovarju"
+msgid "About"
+msgstr "O programu"
 
 #: ../data/gnome-dictionary-menus.ui.h:4
 msgid "Quit"
@@ -824,6 +823,9 @@ msgstr "Razpoložljive strategije"
 #: ../src/gdict-window.c:1742
 msgid "Dictionary sources"
 msgstr "Viri slovarja"
+
+#~ msgid "About Dictionary"
+#~ msgstr "O slovarju"
 
 #~ msgid "Available _Databases"
 #~ msgstr "Razpoložljive _zbirke podatkov"
