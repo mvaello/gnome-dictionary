@@ -1,4 +1,4 @@
-# Italian traslation of gnome-utils
+# Italian traslation of gnome-dictionary
 # Released under the terms of GPL-2.1 license
 # Copyright (C) 1998-2011, 2012, 2013 Free Software Foundation, Inc.
 # Alessio Frusciante <algol@firenze.linux.it>, 2003, 2005.
@@ -12,8 +12,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-dictionary\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-07-15 10:15+0200\n"
-"PO-Revision-Date: 2013-07-15 10:15+0200\n"
+"POT-Creation-Date: 2013-12-24 09:33+0100\n"
+"PO-Revision-Date: 2013-12-24 09:34+0100\n"
 "Last-Translator: Milo Casagrande <milo@ubuntu.com>\n"
 "Language-Team: Italian <tp@lists.linux.it>\n"
 "Language: it\n"
@@ -28,7 +28,7 @@ msgid "Default Dictionary Server"
 msgstr "Server di dizionario predefinito"
 
 #: ../data/gnome-dictionary.desktop.in.in.h:1 ../src/gdict-about.c:60
-#: ../src/gdict-app.c:347 ../src/gdict-window.c:543 ../src/gdict-window.c:1805
+#: ../src/gdict-app.c:347 ../src/gdict-window.c:543 ../src/gdict-window.c:1810
 msgid "Dictionary"
 msgstr "Dizionario"
 
@@ -49,8 +49,8 @@ msgid "Help"
 msgstr "Aiuto"
 
 #: ../data/gnome-dictionary-menus.ui.h:3
-msgid "About Dictionary"
-msgstr "Informazioni su Dizionario"
+msgid "About"
+msgstr "Informazioni"
 
 #: ../data/gnome-dictionary-menus.ui.h:4
 msgid "Quit"
@@ -775,62 +775,62 @@ msgstr "Documento senza titolo"
 msgid "Error while writing to '%s'"
 msgstr "Errore durante la scrittura di «%s»"
 
-#: ../src/gdict-window.c:1359
+#: ../src/gdict-window.c:1365
 #, c-format
 msgid "Dictionary source `%s' selected"
 msgstr "Selezionata sorgente dizionario «%s»"
 
-#: ../src/gdict-window.c:1380
+#: ../src/gdict-window.c:1386
 #, c-format
 msgid "Strategy `%s' selected"
 msgstr "Selezionata strategia «%s»"
 
-#: ../src/gdict-window.c:1400
+#: ../src/gdict-window.c:1406
 #, c-format
 msgid "Database `%s' selected"
 msgstr "Selezionato database «%s»"
 
-#: ../src/gdict-window.c:1420
+#: ../src/gdict-window.c:1426
 #, c-format
 msgid "Word `%s' selected"
 msgstr "Selezionata parola «%s»"
 
 #. speller
-#: ../src/gdict-window.c:1445
+#: ../src/gdict-window.c:1451
 msgid "Double-click on the word to look up"
 msgstr "Fare doppio clic sulla parola da cercare"
 
 #. strat-chooser
-#: ../src/gdict-window.c:1451
+#: ../src/gdict-window.c:1457
 msgid "Double-click on the matching strategy to use"
 msgstr "Fare doppio clic sulla strategia di confronto da utilizzare"
 
 #. source-chooser
-#: ../src/gdict-window.c:1456
+#: ../src/gdict-window.c:1462
 msgid "Double-click on the source to use"
 msgstr "Fare doppio clic sulla sorgente da utilizzare"
 
 #. db-chooser
-#: ../src/gdict-window.c:1465
+#: ../src/gdict-window.c:1471
 msgid "Double-click on the database to use"
 msgstr "Fare doppio clic sul database da utilizzare"
 
-#: ../src/gdict-window.c:1615
-msgid "Look _up:"
-msgstr "_Cerca:"
+#: ../src/gdict-window.c:1621
+msgid "Look _up"
+msgstr "_Cerca"
 
-#: ../src/gdict-window.c:1690
+#: ../src/gdict-window.c:1695
 msgid "Similar words"
 msgstr "Parole simili"
 
-#: ../src/gdict-window.c:1703
+#: ../src/gdict-window.c:1708
 msgid "Available dictionaries"
 msgstr "Dizionari disponibili"
 
-#: ../src/gdict-window.c:1721
+#: ../src/gdict-window.c:1726
 msgid "Available strategies"
 msgstr "Strategie disponibili"
 
-#: ../src/gdict-window.c:1737
+#: ../src/gdict-window.c:1742
 msgid "Dictionary sources"
 msgstr "Sorgenti dizionario"
