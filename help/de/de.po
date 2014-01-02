@@ -2,13 +2,14 @@
 # Mario Blättermann <mario.blaettermann@gmail.com>, 2008, 2012.
 # Tobias Endrigkeit <tobiasendrigkeit@googlemail.com>, 2013.
 # Christian Kirbach <christian.kirbach@gmail.com>, 2013.
+# Simon Linden <xhi2018@gmail.com>, 2014.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: dictionary\n"
-"POT-Creation-Date: 2013-06-12 17:06+0000\n"
-"PO-Revision-Date: 2013-06-19 09:34+0200\n"
-"Last-Translator: Christian Kirbach <christian.kirbach@gmail.com>\n"
+"POT-Creation-Date: 2014-01-02 06:52+0000\n"
+"PO-Revision-Date: 2014-01-01 23:15+0100\n"
+"Last-Translator: Simon Linden <xhi2018@gmail.com>\n"
 "Language-Team: Deutsch <gnome-de@gnome.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -24,95 +25,87 @@ msgstr ""
 "Mario Blättermann <mario.blaettermann@gmail.com>, 2008, 2012\n"
 "Tobias Endrigkeit <tobiasendrigkeit@googlemail.com>, 2013"
 
-#: C/index.page:8(info/title)
+#. (itstool) path: info/title
+#: C/index.page:8
 msgctxt "text"
 msgid "Dictionary"
 msgstr "Wörterbuch"
 
-#: C/index.page:11(credit/name) C/definition.page:11(credit/name)
-#: C/dictionary-select.page:11(credit/name) C/find.page:10(credit/name)
-#: C/introduction.page:10(credit/name)
-#: C/keyboard-shortcuts.page:11(credit/name) C/pref.page:9(credit/name)
-#: C/print-font.page:11(credit/name) C/print.page:12(credit/name)
-#: C/prob-retrieving-definition.page:11(credit/name)
-#: C/save-definition.page:10(credit/name) C/similar-words.page:11(credit/name)
-#: C/source-add-local.page:11(credit/name)
-#: C/sources-default.page:10(credit/name)
-#: C/sources-delete.page:11(credit/name) C/sources-edit.page:10(credit/name)
-#: C/sources.page:12(credit/name) C/sources-select.page:12(credit/name)
-#: C/text-copy.page:11(credit/name)
+#. (itstool) path: credit/name
+#: C/index.page:11 C/definition.page:11 C/dictionary-select.page:11
+#: C/find.page:10 C/introduction.page:10 C/keyboard-shortcuts.page:11
+#: C/pref.page:9 C/print-font.page:11 C/print.page:12
+#: C/prob-retrieving-definition.page:11 C/save-definition.page:10
+#: C/similar-words.page:11 C/source-add-local.page:11
+#: C/sources-default.page:10 C/sources-delete.page:11 C/sources-edit.page:10
+#: C/sources.page:12 C/sources-select.page:12 C/text-copy.page:11
 msgid "Sindhu S"
 msgstr "Sindhu S"
 
-#: C/index.page:13(credit/years) C/definition.page:13(credit/years)
-#: C/definition.page:18(credit/years)
-#: C/dictionary-select.page:13(credit/years)
-#: C/dictionary-select.page:18(credit/years) C/find.page:12(credit/years)
-#: C/find.page:17(credit/years) C/introduction.page:12(credit/years)
-#: C/introduction.page:17(credit/years)
-#: C/keyboard-shortcuts.page:13(credit/years)
-#: C/keyboard-shortcuts.page:18(credit/years)
-#: C/print-font.page:13(credit/years) C/print-font.page:18(credit/years)
-#: C/print.page:14(credit/years) C/print.page:19(credit/years)
-#: C/prob-retrieving-definition.page:13(credit/years)
-#: C/prob-retrieving-definition.page:18(credit/years)
-#: C/save-definition.page:12(credit/years)
-#: C/save-definition.page:17(credit/years)
-#: C/similar-words.page:13(credit/years) C/similar-words.page:18(credit/years)
-#: C/source-add-local.page:13(credit/years)
-#: C/sources-default.page:12(credit/years)
-#: C/sources-default.page:17(credit/years)
-#: C/sources-delete.page:13(credit/years)
-#: C/sources-delete.page:18(credit/years) C/sources-edit.page:12(credit/years)
-#: C/sources-edit.page:17(credit/years) C/sources.page:14(credit/years)
-#: C/sources.page:19(credit/years) C/sources-select.page:14(credit/years)
-#: C/sources-select.page:19(credit/years) C/text-copy.page:13(credit/years)
-#: C/text-copy.page:18(credit/years)
+#. (itstool) path: credit/years
+#: C/index.page:13 C/definition.page:13 C/definition.page:18
+#: C/dictionary-select.page:13 C/dictionary-select.page:18 C/find.page:12
+#: C/find.page:17 C/introduction.page:12 C/introduction.page:17
+#: C/keyboard-shortcuts.page:13 C/keyboard-shortcuts.page:18
+#: C/print-font.page:13 C/print-font.page:18 C/print.page:14 C/print.page:19
+#: C/prob-retrieving-definition.page:13 C/prob-retrieving-definition.page:18
+#: C/save-definition.page:12 C/save-definition.page:17 C/similar-words.page:13
+#: C/similar-words.page:18 C/source-add-local.page:13
+#: C/sources-default.page:12 C/sources-default.page:17
+#: C/sources-delete.page:13 C/sources-delete.page:18 C/sources-edit.page:12
+#: C/sources-edit.page:17 C/sources.page:14 C/sources.page:19
+#: C/sources-select.page:14 C/sources-select.page:19 C/text-copy.page:13
+#: C/text-copy.page:18
 msgid "2013"
 msgstr "2013"
 
-#: C/index.page:18(info/desc)
+#. (itstool) path: info/desc
+#: C/index.page:18
 msgid "Look up word definitions in <app>Dictionary</app>."
 msgstr "Wortbedeutungen in <app>Wörterbuch</app> nachschlagen."
 
-#: C/index.page:21(page/title)
+#. (itstool) path: page/title
+#: C/index.page:21
 msgid "<_:media-1/> Dictionary Help"
 msgstr "<_:media-1/> Wörterbuch-Hilfe"
 
-#: C/index.page:26(section/title)
+#. (itstool) path: section/title
+#: C/index.page:26
 msgid "Features"
 msgstr "Funktionen"
 
-#: C/index.page:30(section/title)
+#. (itstool) path: section/title
+#: C/index.page:30
 msgid "Preferences"
 msgstr "Einstellungen"
 
-#: C/index.page:34(section/title)
+#. (itstool) path: section/title
+#: C/index.page:34
 msgid "Common problems and solutions"
 msgstr "Typische Probleme und Lösungen"
 
-#: C/definition.page:16(credit/name) C/dictionary-select.page:16(credit/name)
-#: C/find.page:15(credit/name) C/introduction.page:15(credit/name)
-#: C/keyboard-shortcuts.page:16(credit/name) C/print-font.page:16(credit/name)
-#: C/print.page:17(credit/name)
-#: C/prob-retrieving-definition.page:16(credit/name)
-#: C/save-definition.page:15(credit/name) C/similar-words.page:16(credit/name)
-#: C/sources-default.page:15(credit/name)
-#: C/sources-delete.page:16(credit/name) C/sources-edit.page:15(credit/name)
-#: C/sources.page:17(credit/name) C/sources-select.page:17(credit/name)
-#: C/text-copy.page:16(credit/name)
+#. (itstool) path: credit/name
+#: C/definition.page:16 C/dictionary-select.page:16 C/find.page:15
+#: C/introduction.page:15 C/keyboard-shortcuts.page:16 C/print-font.page:16
+#: C/print.page:17 C/prob-retrieving-definition.page:16
+#: C/save-definition.page:15 C/similar-words.page:16 C/sources-default.page:15
+#: C/sources-delete.page:16 C/sources-edit.page:15 C/sources.page:17
+#: C/sources-select.page:17 C/text-copy.page:16
 msgid "Ekaterina Gerasimova"
 msgstr "Ekaterina Gerasimova"
 
-#: C/definition.page:23(info/desc)
+#. (itstool) path: info/desc
+#: C/definition.page:23
 msgid "Find the definition of a word or term."
 msgstr "Die Bedeutung eines Wortes oder eines Begriff finden."
 
-#: C/definition.page:27(page/title)
+#. (itstool) path: page/title
+#: C/definition.page:27
 msgid "Look up a word or term"
 msgstr "Ein Wort oder einen Begriff nachschlagen"
 
-#: C/definition.page:29(page/p)
+#. (itstool) path: page/p
+#: C/definition.page:29
 msgid ""
 "You can use <app>Dictionary</app> to look up the meaning of a <em>term</em>. "
 "A term can be a single word such as <input>apple</input> or a compound word "
@@ -125,19 +118,22 @@ msgstr ""
 "input> sein. Das Suchergebnis zeigt Ihnen auch die Quelle, Wichtigkeit und "
 "die Nutzung eines Wortes an. Um einen Begriff zu suchen:"
 
-#: C/definition.page:37(item/p)
+#. (itstool) path: item/p
+#: C/definition.page:37
 msgid ""
 "Type in the term that you want to search for next to <gui>Look up</gui>."
 msgstr "Tippen Sie einen Begriff, den Sie suchen, neben <gui>Suchen</gui>."
 
-#: C/definition.page:41(item/p)
+#. (itstool) path: item/p
+#: C/definition.page:41
 msgid ""
 "Press <key>Return</key> or <gui style=\"button\">Look up:</gui> to search."
 msgstr ""
 "Drücken Sie die <key>Eingabetaste</key> oder <gui style=\"bottom"
 "\">Nachschlagen:</gui>, um die Suche zu starten."
 
-#: C/definition.page:46(page/p)
+#. (itstool) path: page/p
+#: C/definition.page:46
 msgid ""
 "<app>Dictionary</app> will search your selected dictionary source and show "
 "you the result from the first dictionary in the source. To view results from "
@@ -153,11 +149,13 @@ msgstr ""
 "style=\"menu\">Ansicht</gui> <gui style=\"menuitem\">Ähnliche Wörter</gui></"
 "guiseq></link>, um diese anzuzeigen."
 
-#: C/dictionary-select.page:25(page/title)
+#. (itstool) path: page/title
+#: C/dictionary-select.page:25
 msgid "Select a different dictionary"
 msgstr "Ein anderes Wörterbuch wählen"
 
-#: C/dictionary-select.page:27(page/p)
+#. (itstool) path: page/p
+#: C/dictionary-select.page:27
 msgid ""
 "A single <link xref=\"sources\">dictionary source</link> may have many "
 "different dictionaries. You can search any of these dictionaries."
@@ -166,11 +164,13 @@ msgstr ""
 "verschiedene Wörterbücher besitzen. Sie können jedes dieser Wörterbücher "
 "durchsuchen."
 
-#: C/dictionary-select.page:32(steps/title)
+#. (itstool) path: steps/title
+#: C/dictionary-select.page:32
 msgid "Select a dictionary"
 msgstr "Ein Wörterbuch wählen"
 
-#: C/dictionary-select.page:34(item/p)
+#. (itstool) path: item/p
+#: C/dictionary-select.page:34
 msgid ""
 "Select <guiseq><gui style=\"menu\">View</gui> <gui style=\"menuitem"
 "\">Available Databases</gui></guiseq>. A sidebar listing the available "
@@ -181,11 +181,13 @@ msgstr ""
 "die alle verfügbaren Wörterbücher Ihrer aktuell gewählten Wörterbuchquelle "
 "auflistet."
 
-#: C/dictionary-select.page:40(item/p)
+#. (itstool) path: item/p
+#: C/dictionary-select.page:40
 msgid "Click twice on the dictionary that you want to use."
 msgstr "Klicken Sie zweimal auf das Wörterbuch, das Sie durchsuchen möchten."
 
-#: C/dictionary-select.page:44(page/p)
+#. (itstool) path: page/p
+#: C/dictionary-select.page:44
 msgid ""
 "The next term that you <link xref=\"definition\">look up</link> will show "
 "the result only from the selected dictionary."
@@ -193,7 +195,8 @@ msgstr ""
 "Der nächste Begriff, den Sie <link xref=\"definition\">nachschlagen</link>, "
 "wird das Ergebnis nur aus dem gewählten Wörterbuch anzeigen."
 
-#: C/dictionary-select.page:48(note/p)
+#. (itstool) path: note/p
+#: C/dictionary-select.page:48
 msgid ""
 "Your dictionary selection will not be remembered next time you use "
 "<app>Dictionary</app>."
@@ -201,36 +204,43 @@ msgstr ""
 "Ihre Wörterbuchauswahl wird nicht für die nächste Nutzung des "
 "<app>Wörterbuchs</app> gespeichert."
 
-#: C/find.page:22(info/desc)
+#. (itstool) path: info/desc
+#: C/find.page:22
 msgid "Find text in a definition."
 msgstr "Text in einer Definition suchen."
 
-#: C/find.page:26(page/title) C/keyboard-shortcuts.page:74(td/p)
+#. (itstool) path: page/title
+#. (itstool) path: td/p
+#: C/find.page:26 C/keyboard-shortcuts.page:74
 msgid "Search within a definition"
 msgstr "Innerhalb einer Definition suchen"
 
-#: C/find.page:28(page/p)
+#. (itstool) path: page/p
+#: C/find.page:28
 msgid ""
-"Some dictionary entires can be very long and can contain many results, so "
+"Some dictionary entries can be very long and can contain many results, so "
 "you may wish to search them to find the section that is relevant to you."
 msgstr ""
-"Manche Wörterbücher sind sehr groß und enthalten viele Ergebnisse. Es bietet "
-"sich an sie zu durchsuchen, um den Abschnitt zu finden, der für Sie relevant "
-"ist."
+"Manche Wörterbücher können sehr umfangreich sein und enthalten viele "
+"Ergebnisse. Hier bietet es sich an die Ergebnisse zu durchsuchen, um den für "
+"Sie relevanten Abschnitt zu finden."
 
-#: C/find.page:32(steps/title)
+#. (itstool) path: steps/title
+#: C/find.page:32
 msgid "To find definitions:"
 msgstr "So finden Sie eine Definition:"
 
-#: C/find.page:34(item/p)
+#. (itstool) path: item/p
+#: C/find.page:34
 msgid ""
-"Select <guiseq><gui style=\"menu\">Edit</gui> <gui style=\"menitem\">Find</"
+"Select <guiseq><gui style=\"menu\">Edit</gui> <gui style=\"menuitem\">Find</"
 "gui></guiseq>."
 msgstr ""
 "Wählen Sie <guiseq><gui style=\"menu\">Bearbeiten</gui> <gui style=\"menitem"
 "\">Suchen</gui></guiseq>."
 
-#: C/find.page:38(item/p)
+#. (itstool) path: item/p
+#: C/find.page:38
 msgid ""
 "The <gui>Find</gui> bar will appear at the bottom of the <app>Dictionary</"
 "app> window. Type in your search term to search within the definition that "
@@ -240,7 +250,8 @@ msgstr ""
 "Fensters erscheinen. Tippen Sie Ihren gesuchten Begriff, um innerhalb der "
 "Definition, die angezeigt wird, zu suchen."
 
-#: C/find.page:43(item/p)
+#. (itstool) path: item/p
+#: C/find.page:43
 msgid ""
 "Click <gui style=\"button\">Previous</gui> or <gui style=\"button\">Next</"
 "gui> to scroll through the results. The search will not wrap around: in "
@@ -252,26 +263,32 @@ msgstr ""
 "springt dabei nicht automatisch beim Erreichen der letzten Definition wieder "
 "an den Anfang, wenn man <gui style=\"button\">Nächstes</gui> drückt."
 
+#. (itstool) path: media
 #. This is a reference to an external file such as an image or video. When
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
-#: C/introduction.page:38(media)
+#: C/introduction.page:38
 msgctxt "_"
 msgid ""
 "external ref='figures/gnome-dictionary.png' "
 "md5='80df283344ecd9b03b88309f8ee9912d'"
-msgstr "translated"
+msgstr ""
+"external ref='figures/gnome-dictionary.png' "
+"md5='80df283344ecd9b03b88309f8ee9912d'"
 
-#: C/introduction.page:22(info/desc)
+#. (itstool) path: info/desc
+#: C/introduction.page:22
 msgid "What is <app>Dictionary</app>?"
 msgstr "Was ist <app>Wörterbuch</app>?"
 
-#: C/introduction.page:26(page/title)
+#. (itstool) path: page/title
+#: C/introduction.page:26
 msgid "Introduction"
 msgstr "Einführung"
 
-#: C/introduction.page:28(page/p)
+#. (itstool) path: page/p
+#: C/introduction.page:28
 msgid ""
 "<app>Dictionary</app> is an application for looking up term definitions. It "
 "searches for definitions using an online <app>DICT</app> server. The default "
@@ -283,7 +300,8 @@ msgstr ""
 "Server. Der voreingestellte <app>DICT</app>-Server ist <sys href=\"http://"
 "dict.org\">http://dict.org</sys>."
 
-#: C/introduction.page:33(page/p)
+#. (itstool) path: page/p
+#: C/introduction.page:33
 msgid ""
 "Start using <app>Dictionary</app> by <link xref=\"definition\">looking up a "
 "definition</link>!"
@@ -291,16 +309,19 @@ msgstr ""
 "Beginnen Sie <app>Wörterbuch</app> zu nutzen, indem Sie <link xref="
 "\"definition\">eine Definition nachschlagen</link>!"
 
-#: C/introduction.page:37(figure/title)
+#. (itstool) path: figure/title
+#: C/introduction.page:37
 msgid "Dictionary"
 msgstr "Wörterbuch"
 
-#: C/introduction.page:39(media/p)
+#. (itstool) path: media/p
+#: C/introduction.page:39
 msgid "Screenshot showing the <app>Dictionary</app> main window."
 msgstr ""
 "Ein Bildschirmfoto, welches das Hauptfenster von <app>Wörterbuch</app> zeigt."
 
-#: C/keyboard-shortcuts.page:23(info/desc)
+#. (itstool) path: info/desc
+#: C/keyboard-shortcuts.page:23
 msgid ""
 "You can use keyboard shortcuts to navigate around <app>Dictionary</app> more "
 "efficiently."
@@ -308,11 +329,13 @@ msgstr ""
 "Sie können Tastenkombinationen einsetzen, um <app>Wörterbuch</app> "
 "effizienter zu nutzen."
 
-#: C/keyboard-shortcuts.page:27(page/title)
+#. (itstool) path: page/title
+#: C/keyboard-shortcuts.page:27
 msgid "Keyboard shortcuts"
 msgstr "Tastenkombinationen"
 
-#: C/keyboard-shortcuts.page:29(page/p)
+#. (itstool) path: page/p
+#: C/keyboard-shortcuts.page:29
 msgid ""
 "Keyboard shortcuts are combinations of keys that you can use instead of "
 "navigating through the menu. The following shortcuts are available:"
@@ -320,163 +343,206 @@ msgstr ""
 "Sie können Tastenkombinationen anstelle der Navigation durch die Menüs "
 "nutzen. Die folgenden Tastenkombinationen sind verfügbar:"
 
-#: C/keyboard-shortcuts.page:33(table/title)
+#. (itstool) path: table/title
+#: C/keyboard-shortcuts.page:33
 msgid "Navigate around <app>Dictionary</app>"
 msgstr "Navigieren innerhalb von <app>Wörterbuch</app>"
 
-#: C/keyboard-shortcuts.page:36(td/p) C/keyboard-shortcuts.page:68(td/p)
-#: C/keyboard-shortcuts.page:92(td/p) C/keyboard-shortcuts.page:120(td/p)
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:36 C/keyboard-shortcuts.page:68
+#: C/keyboard-shortcuts.page:92 C/keyboard-shortcuts.page:120
 msgid "Action"
 msgstr "Aktion"
 
-#: C/keyboard-shortcuts.page:37(td/p) C/keyboard-shortcuts.page:69(td/p)
-#: C/keyboard-shortcuts.page:93(td/p) C/keyboard-shortcuts.page:121(td/p)
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:37 C/keyboard-shortcuts.page:69
+#: C/keyboard-shortcuts.page:93 C/keyboard-shortcuts.page:121
 msgid "Shortcut"
 msgstr "Tastenkombination"
 
-#: C/keyboard-shortcuts.page:42(td/p) C/print.page:36(section/title)
+#. (itstool) path: td/p
+#. (itstool) path: section/title
+#: C/keyboard-shortcuts.page:42 C/print.page:36
 msgid "Print preview"
 msgstr "Druckvorschau"
 
-#: C/keyboard-shortcuts.page:43(td/p)
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:43
 msgid "<keyseq><key>Shift</key><key>Ctrl</key><key>P</key></keyseq>"
 msgstr "<keyseq><key>Umschalttaste</key><key>Strg</key><key>P</key></keyseq>"
 
-#: C/keyboard-shortcuts.page:46(td/p) C/print.page:67(section/title)
+#. (itstool) path: td/p
+#. (itstool) path: section/title
+#: C/keyboard-shortcuts.page:46 C/print.page:67
 msgid "Print"
 msgstr "Drucken"
 
-#: C/keyboard-shortcuts.page:47(td/p)
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:47
 msgid "<keyseq><key>Ctrl</key><key>P</key></keyseq>"
 msgstr "<keyseq><key>Strg</key><key>P</key></keyseq>"
 
-#: C/keyboard-shortcuts.page:50(td/p)
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:50
 msgid "View sidebar"
 msgstr "Seitenleiste anzeigen"
 
-#: C/keyboard-shortcuts.page:51(td/p)
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:51
 msgid "<key>F9</key>"
 msgstr "<key>F9</key>"
 
-#: C/keyboard-shortcuts.page:54(td/p)
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:54
 msgid "Open a new <app>Dictionary</app> window"
 msgstr "Ein neues Fenster von <app>Wörterbuch</app> öffnen"
 
-#: C/keyboard-shortcuts.page:55(td/p)
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:55
 msgid "<keyseq><key>Ctrl</key><key>N</key></keyseq>"
 msgstr "<keyseq><key>Strg</key><key>N</key></keyseq>"
 
-#: C/keyboard-shortcuts.page:58(td/p)
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:58
 msgid "Close current <app>Dictionary</app> window"
 msgstr "Aktuelles <app>Wörterbuch</app>-Fenster schließen"
 
-#: C/keyboard-shortcuts.page:59(td/p)
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:59
 msgid "<keyseq><key>Ctrl</key><key>W</key></keyseq>"
 msgstr "<keyseq><key>Strg</key><key>W</key></keyseq>"
 
-#: C/keyboard-shortcuts.page:65(table/title)
+#. (itstool) path: table/title
+#: C/keyboard-shortcuts.page:65
 msgid "Search shortcuts"
 msgstr "Tastenkombinationen durchsuchen"
 
-#: C/keyboard-shortcuts.page:75(td/p)
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:75
 msgid "<key>/</key> or <keyseq><key>Ctrl</key><key>F</key></keyseq>"
 msgstr "<key>/</key> oder <keyseq><key>Strg</key><key>F</key></keyseq>"
 
 # Bezieht sich auf das Durchsuchen von Tastenkombinationen
-#: C/keyboard-shortcuts.page:78(td/p)
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:78
 msgid "Find next"
 msgstr "Nächste finden"
 
-#: C/keyboard-shortcuts.page:79(td/p)
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:79
 msgid "<keyseq><key>Ctrl</key><key>G</key></keyseq>"
 msgstr "<keyseq><key>Strg</key><key>G</key></keyseq>"
 
 # bezieht sich auf Durchsuchen v Tastenkombinationen
-#: C/keyboard-shortcuts.page:82(td/p)
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:82
 msgid "Find previous"
 msgstr "Vorherige finden"
 
-#: C/keyboard-shortcuts.page:83(td/p)
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:83
 msgid "<keyseq><key>Shift</key><key>Ctrl</key><key>G</key></keyseq>"
 msgstr "<keyseq><key>Umschalttaste</key><key>StrG</key><key>G</key></keyseq>"
 
-#: C/keyboard-shortcuts.page:89(table/title)
+#. (itstool) path: table/title
+#: C/keyboard-shortcuts.page:89
 msgid "Navigate within a definition"
 msgstr "Innerhalb von Definition navigieren"
 
-#: C/keyboard-shortcuts.page:98(td/p)
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:98
 msgid "Previous definition"
 msgstr "Vorherige Definition"
 
-#: C/keyboard-shortcuts.page:99(td/p)
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:99
 msgid "<keyseq><key>Ctrl</key><key>Page Up</key></keyseq>"
 msgstr "<keyseq><key>Strg</key><key>Bild↑-Taste</key></keyseq>"
 
-#: C/keyboard-shortcuts.page:102(td/p)
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:102
 msgid "Next definition"
 msgstr "Nächste Definition"
 
-#: C/keyboard-shortcuts.page:103(td/p)
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:103
 msgid "<keyseq><key>Ctrl</key><key>Page Down</key></keyseq>"
 msgstr "<keyseq><key>Strg</key><key>Bild↓-Taste</key></keyseq>"
 
-#: C/keyboard-shortcuts.page:106(td/p)
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:106
 msgid "First definition"
 msgstr "Erste Definition"
 
-#: C/keyboard-shortcuts.page:107(td/p)
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:107
 msgid "<keyseq><key>Ctrl</key><key>Home</key></keyseq>"
 msgstr "<keyseq><key>Strg</key><key>Pos1</key></keyseq>"
 
-#: C/keyboard-shortcuts.page:110(td/p)
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:110
 msgid "Last definition"
 msgstr "Letzte Definition"
 
-#: C/keyboard-shortcuts.page:111(td/p)
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:111
 msgid "<keyseq><key>Ctrl</key><key>End</key></keyseq>"
 msgstr "<keyseq><key>Strg</key><key>Ende</key></keyseq>"
 
-#: C/keyboard-shortcuts.page:117(table/title)
+#. (itstool) path: table/title
+#: C/keyboard-shortcuts.page:117
 msgid "<app>Dictionary</app> definitions shortcuts:"
 msgstr "Die Tastenkombinationen in <app>Wörterbuch</app> für Definitionen:"
 
-#: C/keyboard-shortcuts.page:126(td/p) C/similar-words.page:27(page/title)
+#. (itstool) path: td/p
+#. (itstool) path: page/title
+#: C/keyboard-shortcuts.page:126 C/similar-words.page:27
 msgid "Similar words"
 msgstr "Identische Wörter"
 
-#: C/keyboard-shortcuts.page:127(td/p)
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:127
 msgid "<keyseq><key>Ctrl</key><key>T</key></keyseq>"
 msgstr "<keyseq><key>Strg</key><key>T</key></keyseq>"
 
-#: C/keyboard-shortcuts.page:130(td/p) C/sources.page:28(page/title)
+#. (itstool) path: td/p
+#. (itstool) path: page/title
+#: C/keyboard-shortcuts.page:130 C/sources.page:28
 msgid "Dictionary sources"
 msgstr "Wörterbuchquellen"
 
-#: C/keyboard-shortcuts.page:131(td/p)
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:131
 msgid "<keyseq><key>Ctrl</key><key>D</key></keyseq>"
 msgstr "<keyseq><key>Strg</key><key>D</key></keyseq>"
 
-#: C/keyboard-shortcuts.page:134(td/p)
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:134
 msgid "Available databases"
 msgstr "Verfügbare Datenbanken"
 
-#: C/keyboard-shortcuts.page:135(td/p)
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:135
 msgid "<keyseq><key>Ctrl</key><key>B</key></keyseq>"
 msgstr "<keyseq><key>Strg</key><key>B</key></keyseq>"
 
-#: C/keyboard-shortcuts.page:138(td/p)
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:138
 msgid "Available strategies"
 msgstr "Verfügbare Methoden"
 
-#: C/keyboard-shortcuts.page:139(td/p)
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:139
 msgid "<keyseq><key>Ctrl</key><key>R</key></keyseq>"
 msgstr "<keyseq><key>Strg</key><key>R</key></keyseq>"
 
-#: C/legal.xml:3(p/link)
+#. (itstool) path: p/link
+#: C/legal.xml:3
 msgid "http://creativecommons.org/licenses/by-sa/3.0/"
 msgstr "http://creativecommons.org/licenses/by-sa/3.0/"
 
-#: C/legal.xml:3(license/p)
+#. (itstool) path: license/p
+#: C/legal.xml:3
 msgid ""
 "This work is licensed under the Creative Commons Attribution-ShareAlike 3.0 "
 "Unported License. To view a copy of this license, visit <_:link-1/> or send "
@@ -488,23 +554,28 @@ msgstr ""
 "einzusehen, oder senden Sie einen Brief an: Creative Commons, 444 Castro "
 "Street, Suite 900, Mountain View, California, 94041, USA."
 
-#: C/pref.page:15(info/desc)
+#. (itstool) path: info/desc
+#: C/pref.page:15
 msgid "Manage your preferences."
 msgstr "Verwalten Sie  Ihre Einstellungen."
 
-#: C/pref.page:18(page/title)
+#. (itstool) path: page/title
+#: C/pref.page:18
 msgid "<app>Dictionary</app> preferences"
 msgstr "<app>Wörterbuch</app>-Einstellungen"
 
-#: C/print-font.page:23(info/desc)
+#. (itstool) path: info/desc
+#: C/print-font.page:23
 msgid "Select the font for printing definitions."
 msgstr "Wählen Sie die Schrift, mit der Sie die Definitionen drucken möchten."
 
-#: C/print-font.page:27(page/title)
+#. (itstool) path: page/title
+#: C/print-font.page:27
 msgid "Print font"
 msgstr "Druckschrift"
 
-#: C/print-font.page:29(page/p)
+#. (itstool) path: page/p
+#: C/print-font.page:29
 msgid ""
 "You can change the default font face and size that are used for printing the "
 "definitions."
@@ -513,11 +584,13 @@ msgstr ""
 "wird, um Definitionen zu suchen."
 
 # Im Original ungeschickt.
-#: C/print-font.page:33(steps/title)
+#. (itstool) path: steps/title
+#: C/print-font.page:33
 msgid "Change the font"
 msgstr "So ändern Sie die Schrift"
 
-#: C/print-font.page:35(item/p)
+#. (itstool) path: item/p
+#: C/print-font.page:35
 msgid ""
 "Select <guiseq><gui style=\"menu\">Dictionary</gui> <gui style=\"menuitem"
 "\">Preferences</gui> <gui style=\"tab\">Print</gui></guiseq>."
@@ -525,15 +598,18 @@ msgstr ""
 "Wählen Sie <guiseq><gui style=\"menu\">Wörterbuch</gui> <gui style=\"menuitem"
 "\">Einstellungen</gui> <gui style=\"tab\">Drucken</gui></guiseq>."
 
-#: C/print-font.page:40(item/p)
+#. (itstool) path: item/p
+#: C/print-font.page:40
 msgid "Click font selector button."
 msgstr "Klicken Sie auf den Knopf zum Wechseln der Schrift"
 
-#: C/print-font.page:43(item/p)
+#. (itstool) path: item/p
+#: C/print-font.page:43
 msgid "Select the font that you wish to use."
 msgstr "Wählen Sie die Schrift, die Sie benutzen möchten."
 
-#: C/print-font.page:46(item/p)
+#. (itstool) path: item/p
+#: C/print-font.page:46
 msgid ""
 "Drag the slider to the right to increase the font size or left to decrease "
 "it. Alternatively, you can type in the font size in the text box, or use the "
@@ -544,13 +620,15 @@ msgstr ""
 "Schriftgröße in das Textfeld eingeben, oder nutzen Sie die Knöpfe <gui>-</"
 "gui> und <gui>+</gui>, um die Schriftgröße zu vergrößern oder zu verkleinern."
 
-#: C/print-font.page:52(item/p)
+#. (itstool) path: item/p
+#: C/print-font.page:52
 msgid "Click <gui style=\"button\">Select</gui> to save your font settings."
 msgstr ""
 "Klicken Sie auf <gui style=\"button\">Auswählen</gui>, um die "
 "Schrifteinstellungen zu speichern."
 
-#: C/print-font.page:56(page/p)
+#. (itstool) path: page/p
+#: C/print-font.page:56
 msgid ""
 "The definition is not reflowed for printing, so if you choose a large font "
 "size, some of the text may be cut off."
@@ -558,15 +636,18 @@ msgstr ""
 "Die Definition ist nicht fürs Drucken angepasst, so dass ein Teil des Textes "
 "abgeschnitten werden könnte, falls Sie eine große Schriftgröße wählen"
 
-#: C/print.page:24(info/desc)
+#. (itstool) path: info/desc
+#: C/print.page:24
 msgid "Print preview and print definitions."
 msgstr "Druckvorschau und Definitionen drucken."
 
-#: C/print.page:28(page/title)
+#. (itstool) path: page/title
+#: C/print.page:28
 msgid "Print a definition"
 msgstr "Eine Definition drucken"
 
-#: C/print.page:30(page/p)
+#. (itstool) path: page/p
+#: C/print.page:30
 msgid ""
 "You can print a definition to paper or a file. Before printing, you should "
 "preview the definition as it would be printed to check that the text fits "
@@ -578,7 +659,8 @@ msgstr ""
 "prüfen, ob der Text auf die Seite passt, insbesondere wenn Sie die Größe der "
 "<link xref=\"print-font\">Druckschrift</link> verändert haben."
 
-#: C/print.page:40(item/p)
+#. (itstool) path: item/p
+#: C/print.page:40
 msgid ""
 "Select <guiseq><gui style=\"menu\">File</gui> <gui style=\"menuitem"
 "\">Preview</gui></guiseq>."
@@ -586,7 +668,8 @@ msgstr ""
 "Wählen Sie <guiseq><gui style=\"menu\">Datei</gui> <gui style=\"menuitem"
 "\">Vorschau</gui></guiseq>."
 
-#: C/print.page:44(item/p)
+#. (itstool) path: item/p
+#: C/print.page:44
 msgid ""
 "A print preview window will open which will show you the definition exactly "
 "as it will be printed."
@@ -594,13 +677,15 @@ msgstr ""
 "Ein Fenster der Druckvorschau erscheint, welches die Definition exakt so "
 "anzeigt, wie diese gedruckt werden wird."
 
-#: C/print.page:48(item/p)
+#. (itstool) path: item/p
+#: C/print.page:48
 msgid "Use the toolbar to browse pages, adjust zoom level and page width."
 msgstr ""
 "Benutzen Sie die Werkzeugleiste, um Seiten durchzusehen sowie die Ansicht "
 "und Seitenhöhe anzupassen."
 
-#: C/print.page:52(item/p)
+#. (itstool) path: item/p
+#: C/print.page:52
 msgid ""
 "Click the <gui style=\"button\">Print this document</gui> to print the "
 "definition or close the window to end the preview."
@@ -609,7 +694,8 @@ msgstr ""
 "Definition zu drucken oder schließen Sie das Fenster, um die Vorschau zu "
 "beenden."
 
-#: C/print.page:58(note/p)
+#. (itstool) path: note/p
+#: C/print.page:58
 msgid ""
 "The print button in the toolbar may not always work. If it does not work for "
 "you, close the window and select <guiseq><gui style=\"menu\">File</gui> <gui "
@@ -620,7 +706,8 @@ msgstr ""
 "<guiseq><gui style=\"menu\">Datei</gui> <gui style=\"menuitem\">Drucken</"
 "gui></guiseq> aus."
 
-#: C/print.page:69(section/p)
+#. (itstool) path: section/p
+#: C/print.page:69
 msgid ""
 "You need to <link href=\"help:gnome-help/printing\">have a printer set up</"
 "link> to be able to print to paper."
@@ -628,7 +715,8 @@ msgstr ""
 "Sie müssen <link href=\"help:gnome-help/printing\">einen Drucker "
 "konfiguriert haben</link>, um auf Papier drucken zu können."
 
-#: C/print.page:74(item/p)
+#. (itstool) path: item/p
+#: C/print.page:74
 msgid ""
 "Select <guiseq><gui style=\"menu\">File</gui> <gui style=\"menuitem\">Print</"
 "gui> <gui style=\"tab\">General</gui></guiseq>."
@@ -636,7 +724,8 @@ msgstr ""
 "Wählen Sie <guiseq><gui style=\"menu\">Datei</gui> <gui style=\"menuitem"
 "\">Drucken</gui> <gui style=\"tab\">Allgemein</gui></guiseq> aus."
 
-#: C/print.page:79(item/p)
+#. (itstool) path: item/p
+#: C/print.page:79
 msgid ""
 "Select the printer that you want to use from the list of printers or select "
 "<gui href=\"help:gnome-help/print-to-file\">Print to File</gui>."
@@ -644,7 +733,8 @@ msgstr ""
 "Wählen Sie den Drucker aus der Liste aus, den Sie nutzen möchten oder wählen "
 "Sie <gui href=\"help:gnome-help/print-to-file\">Eine Datei drucken</gui>."
 
-#: C/print.page:84(item/p)
+#. (itstool) path: item/p
+#: C/print.page:84
 msgid ""
 "Chose your <link href=\"help:gnome-help/printing#paper\">printing settings</"
 "link>."
@@ -652,21 +742,25 @@ msgstr ""
 "Wählen Sie Ihre <link href=\"help:gnome-help/printing#paper"
 "\">Druckeinstellungen</link>."
 
-#: C/print.page:88(item/p)
+#. (itstool) path: item/p
+#: C/print.page:88
 msgid "Press <gui style=\"button\">Print</gui> to print the definition."
 msgstr ""
 "Drücken Sie <gui style=\"button\">Drucken</gui>, um eine Definition zu "
 "drucken."
 
-#: C/prob-retrieving-definition.page:23(info/desc)
+#. (itstool) path: info/desc
+#: C/prob-retrieving-definition.page:23
 msgid "<sys>Error while retrieving definitions</sys>."
 msgstr "<sys>Fehler beim Erhalten der Definitionen</sys>."
 
-#: C/prob-retrieving-definition.page:27(page/title)
+#. (itstool) path: page/title
+#: C/prob-retrieving-definition.page:27
 msgid "Cannot find definitions"
 msgstr "Die Definitionen können nicht gefunden werden."
 
-#: C/prob-retrieving-definition.page:29(page/p)
+#. (itstool) path: page/p
+#: C/prob-retrieving-definition.page:29
 msgid ""
 "If you see the error message <sys>Error while retrieving definition</sys> "
 "when looking up a definition from any of the <link xref=\"sources-select"
@@ -678,7 +772,8 @@ msgstr ""
 "\">gewählten Wörterbücher</link> erhalten, so ist das Problem vermutlich "
 "eines der folgenden:"
 
-#: C/prob-retrieving-definition.page:36(item/p)
+#. (itstool) path: item/p
+#: C/prob-retrieving-definition.page:36
 msgid ""
 "One or more of the selected <app>DICT</app> servers that are used to look up "
 "definitions may not be working. You can try waiting a while before <link "
@@ -689,7 +784,8 @@ msgstr ""
 "sollen einen Moment warten bevor Sie wieder die Definition <link xref="
 "\"definition\">nachschlagen</link>."
 
-#: C/prob-retrieving-definition.page:42(item/p)
+#. (itstool) path: item/p
+#: C/prob-retrieving-definition.page:42
 msgid ""
 "You may not have a working Internet connection. For <app>Dictionary</app> to "
 "look up terms, your computer <link href=\"help:gnome-help/net\">must be able "
@@ -700,15 +796,18 @@ msgstr ""
 "\"help:gnome-help/net\">Hilfe: Internetverbindungen</link>) verbunden sein "
 "und sich mit <sys href=\"http://dict.org\">dict.org</sys> verbinden können."
 
-#: C/save-definition.page:22(info/desc)
+#. (itstool) path: info/desc
+#: C/save-definition.page:22
 msgid "Save a copy of a definition to a text file."
 msgstr "Eine Kopie einer Definition in eine Textdatei speichern."
 
-#: C/save-definition.page:26(page/title)
+#. (itstool) path: page/title
+#: C/save-definition.page:26
 msgid "Save a definition"
 msgstr "Eine Definition speichern"
 
-#: C/save-definition.page:28(page/p)
+#. (itstool) path: page/p
+#: C/save-definition.page:28
 msgid ""
 "You can save a definition to a text file. This may be useful if you want to "
 "use it outside of <app>Dictionary</app>."
@@ -717,11 +816,13 @@ msgstr ""
 "praktisch sein, wenn Sie diese außerhalb von <app> Wörterbuch </app> nutzen "
 "möchten."
 
-#: C/save-definition.page:32(steps/title)
+#. (itstool) path: steps/title
+#: C/save-definition.page:32
 msgid "To save a definition:"
 msgstr "Um eine Definition zu speichern:"
 
-#: C/save-definition.page:34(item/p)
+#. (itstool) path: item/p
+#: C/save-definition.page:34
 msgid ""
 "Select <guiseq><gui style=\"menu\">File</gui> <gui style=\"menuitem\">Save a "
 "Copy…</gui></guiseq>."
@@ -729,7 +830,8 @@ msgstr ""
 "Wählen Sie <guiseq><gui style=\"menu\">Datei</gui> <gui style=\"menuitem"
 "\">Eine Kopie speichern</gui></guiseq> aus."
 
-#: C/save-definition.page:38(item/p)
+#. (itstool) path: item/p
+#: C/save-definition.page:38
 msgid ""
 "Chose where you want to save the definition to and a name for the file. You "
 "may want to add a <file>.txt</file> file extension to the end of the file "
@@ -738,30 +840,35 @@ msgstr ""
 "Wählen Sie den Speicherort und einen Namen für die Datei. Sie möchten "
 "womöglich die <file>.txt</file> Dateiendung hinzufügen."
 
-#: C/save-definition.page:43(item/p)
+#. (itstool) path: item/p
+#: C/save-definition.page:43
 msgid "Press <gui style=\"button\">Save</gui> to save the definition."
 msgstr ""
 "Drücken Sie <gui style=\"button\">Speichern</gui>, um die Definition "
 "abzuspeichern."
 
-#: C/similar-words.page:23(info/desc)
+#. (itstool) path: info/desc
+#: C/similar-words.page:23
 msgid "View related results in other dictionaries."
 msgstr "Ähnliche Ergebnisse aus anderen Wörterbüchern betrachten."
 
-#: C/similar-words.page:29(page/p)
+#. (itstool) path: page/p
+#: C/similar-words.page:29
 msgid ""
-"<app>Dictionary</app> will only display the definition from one your "
+"<app>Dictionary</app> will only display the definition from one of your "
 "dictionaries. To check if there are search results in other dictionaries:"
 msgstr ""
 "<app>Wörterbuch</app> zeigt nur eine Definition aus Ihren Wörterbüchern an. "
 "So prüfen Sie die Suchergebnisse aus anderen Wörterbüchern:"
 
-#: C/similar-words.page:34(item/p)
+#. (itstool) path: item/p
+#: C/similar-words.page:34
 msgid "<link xref=\"definition\">Look up</link> the desired term."
 msgstr ""
 "Einen gewünschten Begriff <link xref=\"definition\">nachschlagen</link>."
 
-#: C/similar-words.page:37(item/p)
+#. (itstool) path: item/p
+#: C/similar-words.page:37
 msgid ""
 "If the sidebar is not already visible, select <guiseq><gui style=\"menu"
 "\">View</gui> <gui style=\"menuitem\">Similar Words</gui></guiseq>."
@@ -770,7 +877,8 @@ msgstr ""
 "style=\"menu\">Ansicht</gui> <gui style=\"menuitem\">Ähnliche Wörter</gui></"
 "guiseq> aus."
 
-#: C/similar-words.page:42(item/p)
+#. (itstool) path: item/p
+#: C/similar-words.page:42
 msgid ""
 "The <gui>Similar Words</gui> sidebar will show search results from other "
 "dictionaries in your selected dictionary source. To view the similar word, "
@@ -780,15 +888,18 @@ msgstr ""
 "aus anderen Wörterbüchern aus Ihrer Wörterbuchquelle an. Um ähnliche Wörter "
 "zu betrachten, klicken Sie auf den Eintrag doppelt."
 
-#: C/source-add-local.page:20(page/title)
+#. (itstool) path: page/title
+#: C/source-add-local.page:20
 msgid "Add local dictionary sources"
 msgstr "Lokale Wörterbuchquellen hinzufügen"
 
-#: C/sources-default.page:24(page/title)
+#. (itstool) path: page/title
+#: C/sources-default.page:24
 msgid "Set a default dictionary source"
 msgstr "Eine Standardwörterbuchquelle einrichten"
 
-#: C/sources-default.page:26(page/p)
+#. (itstool) path: page/p
+#: C/sources-default.page:26
 msgid ""
 "When you first use <app>Dictionary</app>, it should have some pre-installed "
 "dictionaries that you can use. You can change the default <link xref="
@@ -800,11 +911,13 @@ msgstr ""
 "können die Standard-<link xref=\"sources\">Wörterbuchquelle</link> auf eine "
 "andere umstellen, die Sie verwenden möchten."
 
-#: C/sources-default.page:32(steps/title)
+#. (itstool) path: steps/title
+#: C/sources-default.page:32
 msgid "Change the default dictionary source:"
 msgstr "Ändern der Standard-Wörterbuchquelle:"
 
-#: C/sources-default.page:34(item/p)
+#. (itstool) path: item/p
+#: C/sources-default.page:34
 msgid ""
 "Select <guiseq><gui><app>Dictionary</app></gui> <gui style=\"menu"
 "\">Preferences</gui> <gui style=\"tab\">Source</gui></guiseq>."
@@ -812,20 +925,24 @@ msgstr ""
 "Wählen Sie <guiseq><gui><app>Wörterbuch</app></gui> <gui style=\"menu"
 "\">Einstellungen</gui> <gui style=\"tab\">Quelle</gui></guiseq> aus."
 
-#: C/sources-default.page:39(item/p)
+#. (itstool) path: item/p
+#: C/sources-default.page:39
 msgid "Select the dictionary source that you want to set as the default."
 msgstr ""
 "Wählen Sie die Wörterbuchquelle aus, die Sie als Standard einstellen möchten."
 
-#: C/sources-default.page:42(item/p)
+#. (itstool) path: item/p
+#: C/sources-default.page:42
 msgid "Your change will be saved automatically."
 msgstr "Ihre Änderungen werden automatisch gespeichert."
 
-#: C/sources-delete.page:25(page/title)
+#. (itstool) path: page/title
+#: C/sources-delete.page:25
 msgid "Delete a dictionary source"
 msgstr "Eine Wörterbuchquelle entfernen"
 
-#: C/sources-delete.page:27(page/p)
+#. (itstool) path: page/p
+#: C/sources-delete.page:27
 msgid ""
 "If you no longer need a specific <link xref=\"sources\">dictionary source</"
 "link> or if one stops working for you, you may want to delete it."
@@ -834,11 +951,13 @@ msgstr ""
 "länger benötigen oder wenn eine für Sie nicht mehr funktioniert, möchten Sie "
 "diese womöglich entfernen."
 
-#: C/sources-delete.page:32(steps/title)
+#. (itstool) path: steps/title
+#: C/sources-delete.page:32
 msgid "Delete a dictionary source:"
 msgstr "So entfernen Sie eine Wörterbuchquelle:"
 
-#: C/sources-delete.page:34(item/p)
+#. (itstool) path: item/p
+#: C/sources-delete.page:34
 msgid ""
 "Select <guiseq><gui style=\"menu\"><app>Dictionary</app></gui> <gui style="
 "\"menuitem\">Preferences</gui> <gui style=\"tab\">Source</gui></guiseq>."
@@ -847,15 +966,18 @@ msgstr ""
 "style=\"menuitem\">Einstellung</gui> <gui style=\"tab\">Quelle</gui></"
 "guiseq> aus."
 
-#: C/sources-delete.page:39(item/p)
+#. (itstool) path: item/p
+#: C/sources-delete.page:39
 msgid "Select the dictionary source that you want to delete."
 msgstr "Wählen Sie die zu entfernende Quelle aus."
 
-#: C/sources-delete.page:42(item/p)
+#. (itstool) path: item/p
+#: C/sources-delete.page:42
 msgid "Press <gui style=\"button\">Remove</gui>."
 msgstr "Klicken Sie auf <gui style=\"button\">Entfernen</gui>."
 
-#: C/sources-delete.page:45(item/p)
+#. (itstool) path: item/p
+#: C/sources-delete.page:45
 msgid ""
 "A dialog will pop up asking you to confirm that you wish to permanently "
 "delete the selected source. Once you confirm, the source will be deleted."
@@ -864,11 +986,13 @@ msgstr ""
 "Wörterbuchquelle dauerhaft löschen wollen. Wenn Sie einmal bestätigt haben, "
 "wird die Quelle gelöscht."
 
-#: C/sources-edit.page:24(page/title)
+#. (itstool) path: page/title
+#: C/sources-edit.page:24
 msgid "Edit a dictionary source"
 msgstr "Eine Wörterbuchquelle bearbeiten"
 
-#: C/sources-edit.page:26(page/p)
+#. (itstool) path: page/p
+#: C/sources-edit.page:26
 msgid ""
 "You can customize a <link xref=\"sources\">dictionary source</link> to "
 "update details such as its description or remote address."
@@ -877,11 +1001,13 @@ msgstr ""
 "um Details, wie die Beschreibung oder die Adresse für den Fernzugriff, zu "
 "aktualisieren."
 
-#: C/sources-edit.page:30(steps/title)
+#. (itstool) path: steps/title
+#: C/sources-edit.page:30
 msgid "To edit a dictionary source:"
 msgstr "So bearbeiten Sie eine Wörterbuchquelle:"
 
-#: C/sources-edit.page:32(item/p)
+#. (itstool) path: item/p
+#: C/sources-edit.page:32
 msgid ""
 "Select <guiseq><gui style=\"menu\">Dictionary</gui> <gui style=\"menuitem"
 "\">Preferences</gui> <gui style=\"tab\">Source</gui></guiseq>."
@@ -889,16 +1015,19 @@ msgstr ""
 "Wählen Sie <guiseq><gui style=\"menu\">Wörterbuch</gui> <gui style=\"menuitem"
 "\">Einstellungen</gui> <gui style=\"tab\">Quelle</gui></guiseq> aus."
 
-#: C/sources-edit.page:37(item/p)
+#. (itstool) path: item/p
+#: C/sources-edit.page:37
 msgid "Double click on the dictionary source you want to edit."
 msgstr ""
 "Klicken Sie auf eine Wörterbuchquelle, die Sie bearbeiten möchten, doppelt."
 
-#: C/sources-edit.page:40(item/p)
+#. (itstool) path: item/p
+#: C/sources-edit.page:40
 msgid "You can edit the following fields:"
 msgstr "Sie können die folgenden Felder bearbeiten:"
 
-#: C/sources-edit.page:43(item/p)
+#. (itstool) path: item/p
+#: C/sources-edit.page:43
 msgid ""
 "<gui>Description</gui> is the name of the source as it will be displayed to "
 "you."
@@ -906,19 +1035,23 @@ msgstr ""
 "<gui>Beschreibung</gui> ist der Name der Quelle, wie sie Ihnen angezeigt "
 "wird."
 
-#: C/sources-edit.page:47(item/p)
+#. (itstool) path: item/p
+#: C/sources-edit.page:47
 msgid "<gui>Transport</gui> is the type of server."
 msgstr "<gui>Transport</gui> ist der Typ des Servers."
 
-#: C/sources-edit.page:50(item/p)
+#. (itstool) path: item/p
+#: C/sources-edit.page:50
 msgid "<gui>Hostname</gui> is the location of the dictionary source."
 msgstr "Der <gui>Rechnername</gui> der zu verwendenen Wörterbuchquelle."
 
-#: C/sources-edit.page:55(item/p)
+#. (itstool) path: item/p
+#: C/sources-edit.page:55
 msgid "<gui>Port</gui>."
 msgstr "<gui>Port</gui>."
 
-#: C/sources-edit.page:60(item/p)
+#. (itstool) path: item/p
+#: C/sources-edit.page:60
 msgid ""
 "View the dictionaries that are available in the dictionary source by "
 "selecting the <gui style=\"tab\">Dictionaries</gui> tab."
@@ -926,17 +1059,20 @@ msgstr ""
 "Betrachten Sie die Wörterbücher, die in der Wörterbuchquelle verfügbar sind, "
 "indem Sie den Reiter <gui style=\"tab\">Wörterbücher</gui> auswählen."
 
-#: C/sources-edit.page:64(item/p)
+#. (itstool) path: item/p
+#: C/sources-edit.page:64
 msgid "Press <gui style=\"button\">Close</gui> to save the settings."
 msgstr ""
 "Klicken Sie auf <gui style=\"button\">Schließen</gui>, um die Einstellungen "
 "zu speichern."
 
-#: C/sources.page:24(info/desc)
+#. (itstool) path: info/desc
+#: C/sources.page:24
 msgid "Manage various dictionary sources."
 msgstr "Mehrere Wörterbuchquellen verwalten."
 
-#: C/sources.page:30(page/p)
+#. (itstool) path: page/p
+#: C/sources.page:30
 msgid ""
 "<app>Dictionary</app> uses <em>dictionary sources</em> to look up words that "
 "you search for. Dictionary sources are collections of one or more dictionary "
@@ -948,15 +1084,18 @@ msgstr ""
 "mehrerer Wörterbuch-Datenbanken, die in der Regel online sind. Sie können "
 "aber diese auf Ihren lokalen Rechner abspeichern."
 
-#: C/sources.page:36(section/title)
+#. (itstool) path: section/title
+#: C/sources.page:36
 msgid "Manage your dictionary sources"
 msgstr "Verwalten Sie Ihre Wörterbuchquellen"
 
-#: C/sources-select.page:26(page/title)
+#. (itstool) path: page/title
+#: C/sources-select.page:26
 msgid "Select a dictionary source"
 msgstr "Eine Wörterbuchquelle auwählen"
 
-#: C/sources-select.page:28(page/p)
+#. (itstool) path: page/p
+#: C/sources-select.page:28
 msgid ""
 "You can change the <link xref=\"sources\">dictionary source</link> that you "
 "are currently using without changing your default preferences."
@@ -964,11 +1103,13 @@ msgstr ""
 "Sie können die <link xref=\"sources\">Wörterbuchquelle</link>, welche Sie "
 "aktuell benutzen, ändern, ohne dabei Ihre Standardeinstellungen zu verändern."
 
-#: C/sources-select.page:32(steps/title)
+#. (itstool) path: steps/title
+#: C/sources-select.page:32
 msgid "Temporarily change the dictionary source:"
 msgstr "Die Wörterbuchquelle temporär ändern:"
 
-#: C/sources-select.page:34(item/p)
+#. (itstool) path: item/p
+#: C/sources-select.page:34
 msgid ""
 "Select <guiseq><gui style=\"menu\">View</gui> <gui style=\"menuitem"
 "\">Dictionary Sources</gui></guiseq>."
@@ -976,20 +1117,24 @@ msgstr ""
 "Wählen Sie <guiseq><gui style=\"menu\">Ansicht</gui> <gui style=\"menuitem"
 "\">Wörterbuchquellen</gui></guiseq> aus."
 
-#: C/sources-select.page:38(item/p)
+#. (itstool) path: item/p
+#: C/sources-select.page:38
 msgid "Double click on the dictionary source that you want to use."
 msgstr ""
 "Klicken Sie auf eine Wörterbuchquelle, die Sie nutzen möchten, doppelt."
 
-#: C/text-copy.page:23(info/desc)
+#. (itstool) path: info/desc
+#: C/text-copy.page:23
 msgid "Select and copy a definition to another application."
 msgstr "Wählen und kopieren Sie eine Definition in eine andere Anwendung."
 
-#: C/text-copy.page:27(page/title)
+#. (itstool) path: page/title
+#: C/text-copy.page:27
 msgid "Copy definition"
 msgstr "Definition kopieren"
 
-#: C/text-copy.page:29(page/p)
+#. (itstool) path: page/p
+#: C/text-copy.page:29
 msgid ""
 "You can copy and paste definitions from <app>Dictionary</app> to another "
 "application."
@@ -997,11 +1142,13 @@ msgstr ""
 "Sie können Definitionen aus <app>Wörterbuch</app> kopieren und in eine "
 "andere Anwendung einfügen."
 
-#: C/text-copy.page:33(steps/title)
+#. (itstool) path: steps/title
+#: C/text-copy.page:33
 msgid "Copy a definition"
 msgstr "Eine Definition kopieren"
 
-#: C/text-copy.page:35(item/p)
+#. (itstool) path: item/p
+#: C/text-copy.page:35
 msgid ""
 "Select the text that you want to copy in <app>Dictionary</app>. "
 "Alternatively, you can select the whole definition using <guiseq><gui style="
@@ -1012,7 +1159,8 @@ msgstr ""
 "<guiseq><gui style=\"menu\">Bearbeiten</gui> <gui style=\"menuitem\">Alles "
 "auswählen</gui></guiseq> nutzen."
 
-#: C/text-copy.page:41(item/p)
+#. (itstool) path: item/p
+#: C/text-copy.page:41
 msgid ""
 "Select <guiseq><gui style=\"menu\">Edit</gui> <gui style=\"menuitem\">Copy</"
 "gui></guiseq>."
@@ -1020,7 +1168,8 @@ msgstr ""
 "Wählen Sie <guiseq><gui style=\"menu\">Bearbeiten</gui> <gui style=\"menuitem"
 "\">Kopieren</gui></guiseq> aus."
 
-#: C/text-copy.page:45(item/p)
+#. (itstool) path: item/p
+#: C/text-copy.page:45
 msgid ""
 "Paste the text into another application. This can usually be done using the "
 "<keyseq><key>Ctrl</key><key>P</key></keyseq> keyboard shortcut or through "
@@ -1033,9 +1182,11 @@ msgstr ""
 
 #~ msgctxt "_"
 #~ msgid ""
-#~ "external ref='figures/gnome-dictionary-application.png' "
-#~ "md5='fb48a9e5863bfb2b3811df2e28489eb7'"
-#~ msgstr "translated"
+#~ "external ref='figures/gnome-dictionary-icon.png' "
+#~ "md5='2f50c3a71e57be0b41efd43c2f7fae60'"
+#~ msgstr ""
+#~ "external ref='figures/gnome-dictionary-icon.png' "
+#~ "md5='2f50c3a71e57be0b41efd43c2f7fae60'"
 
 #~ msgctxt "_"
 #~ msgid ""
