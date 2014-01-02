@@ -1,6 +1,6 @@
-# Brazilian Portuguese translation of GNOME Utils.
-# Copyright (C) 1999-2013 the GNOME Utils authors.
-# This file is distributed under the same license as the gnome-utils package.
+# Brazilian Portuguese translation of gnome-dictionary
+# Copyright (C) 1999-2014 the gnome-dictionary authors.
+# This file is distributed under the same license as the gnome-dictionary package.
 # Alexandre Hautequest <hquest@fesppr.br>, 1999.
 # Ariel Bressan da Silva <ariel@conectiva.com.br>, 2000.
 # Francisco Petrúcio Cavalcante Junior <fpcj@impa.br>, 2001.
@@ -19,15 +19,15 @@
 # Rodrigo Padula de Oliveira <contato@rodrigopadula.com>, 2011.
 # André Gondim <andregondim@ubuntu.com>, 2011.
 # Enrico Nicoletto <liverig@gmail.com>, 2013.
-# Rafael Ferreira <rafael.f.f1@gmail.com>, 2013.
+# Rafael Ferreira <rafael.f.f1@gmail.com>, 2013, 2014.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-utils\n"
+"Project-Id-Version: gnome-dictionary\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "dictionary&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2013-11-21 20:23+0000\n"
-"PO-Revision-Date: 2013-11-28 20:13-0300\n"
+"POT-Creation-Date: 2013-12-18 20:36+0000\n"
+"PO-Revision-Date: 2014-01-02 04:50-0300\n"
 "Last-Translator: Rafael Ferreira <rafael.f.f1@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <gnome-pt_br-list@gnome.org>\n"
 "Language: pt_BR\n"
@@ -35,7 +35,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Poedit 1.5.7\n"
+"X-Generator: Poedit 1.6.3\n"
 
 #: ../data/default.desktop.in.h:1
 msgid "Default Dictionary Server"
@@ -63,8 +63,8 @@ msgid "Help"
 msgstr "Ajuda"
 
 #: ../data/gnome-dictionary-menus.ui.h:3
-msgid "About Dictionary"
-msgstr "Sobre o Dicionário"
+msgid "About"
+msgstr "Sobre"
 
 #: ../data/gnome-dictionary-menus.ui.h:4
 msgid "Quit"
@@ -856,6 +856,9 @@ msgstr "Estratégias disponíveis"
 msgid "Dictionary sources"
 msgstr "Fontes de dicionário"
 
+#~ msgid "About Dictionary"
+#~ msgstr "Sobre o Dicionário"
+
 #~ msgid "Available _Databases"
 #~ msgstr "Bancos de _dados disponíveis"
 
@@ -891,6 +894,3 @@ msgstr "Fontes de dicionário"
 
 #~ msgid "_Contents"
 #~ msgstr "Su_mário"
-
-#~ msgid "_About"
-#~ msgstr "_Sobre"
