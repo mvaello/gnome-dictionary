@@ -14,15 +14,15 @@
 # Ilkka Tuohela <hile@iki.fi>, 2005-2009.
 # Timo Jyrinki <timo.jyrinki@iki.fi>, 2008.
 # Tommi Vainikainen <thv@iki.fi>, 2009-2011.
-# Jiri Grönroos <jiri.gronroos+l10n@iki.fi>, 2012, 2013.
+# Jiri Grönroos <jiri.gronroos+l10n@iki.fi>, 2012, 2013, 2014.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-utils\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "dictionary&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2013-07-18 11:41+0000\n"
-"PO-Revision-Date: 2013-09-02 23:09+0300\n"
+"POT-Creation-Date: 2013-12-18 20:36+0000\n"
+"PO-Revision-Date: 2014-01-05 19:15+0200\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos+l10n@iki.fi>\n"
 "Language-Team: suomi <gnome-fi-laatu@lists.sourceforge.net>\n"
 "Language: fi\n"
@@ -38,7 +38,7 @@ msgid "Default Dictionary Server"
 msgstr "Oletussanakirjapalvelin"
 
 #: ../data/gnome-dictionary.desktop.in.in.h:1 ../src/gdict-about.c:60
-#: ../src/gdict-app.c:347 ../src/gdict-window.c:543 ../src/gdict-window.c:1805
+#: ../src/gdict-app.c:347 ../src/gdict-window.c:543 ../src/gdict-window.c:1810
 msgid "Dictionary"
 msgstr "Sanakirja"
 
@@ -61,8 +61,9 @@ msgid "Help"
 msgstr "Ohje"
 
 #: ../data/gnome-dictionary-menus.ui.h:3
-msgid "About Dictionary"
-msgstr "Tietoja - Sanakirja"
+#| msgid "_About"
+msgid "About"
+msgstr "Tietoja"
 
 #: ../data/gnome-dictionary-menus.ui.h:4
 msgid "Quit"
@@ -137,7 +138,6 @@ msgid "Dictionary Sources"
 msgstr "Sanakirjalähteet"
 
 #: ../data/gnome-dictionary-menus.ui.h:22
-#| msgid "Available dictionaries"
 msgid "Available _Dictionaries"
 msgstr "_Käytettävissä olevat sanakirjat"
 
@@ -782,65 +782,69 @@ msgstr "Nimeämätön asiakirja"
 msgid "Error while writing to '%s'"
 msgstr "Tiedostoon ”%s” kirjoittaminen epäonnistui"
 
-#: ../src/gdict-window.c:1359
+#: ../src/gdict-window.c:1365
 #, c-format
 msgid "Dictionary source `%s' selected"
 msgstr "Sanakirjalähde ”%s” valittu"
 
-#: ../src/gdict-window.c:1380
+#: ../src/gdict-window.c:1386
 #, c-format
 msgid "Strategy `%s' selected"
 msgstr "Hakutapa ”%s” valittu"
 
-#: ../src/gdict-window.c:1400
+#: ../src/gdict-window.c:1406
 #, c-format
 msgid "Database `%s' selected"
 msgstr "Tietokanta ”%s” valittu"
 
-#: ../src/gdict-window.c:1420
+#: ../src/gdict-window.c:1426
 #, c-format
 msgid "Word `%s' selected"
 msgstr "Sana ”%s” valittu"
 
 #. speller
-#: ../src/gdict-window.c:1445
+#: ../src/gdict-window.c:1451
 msgid "Double-click on the word to look up"
 msgstr "Hae sanan määritelmä kaksoisnapsauttamalla sitä"
 
 #. strat-chooser
-#: ../src/gdict-window.c:1451
+#: ../src/gdict-window.c:1457
 msgid "Double-click on the matching strategy to use"
 msgstr "Kaksoisnapsauta täsmäystapaa, jota haluat käyttää"
 
 #. source-chooser
-#: ../src/gdict-window.c:1456
+#: ../src/gdict-window.c:1462
 msgid "Double-click on the source to use"
 msgstr "Kaksoisnapsauta lähdettä, jota haluat käyttää"
 
 #. db-chooser
-#: ../src/gdict-window.c:1465
+#: ../src/gdict-window.c:1471
 msgid "Double-click on the database to use"
 msgstr "Kaksoisnapsauta tietokantaa, jota haluat käyttää"
 
-#: ../src/gdict-window.c:1615
-msgid "Look _up:"
-msgstr "_Etsi sanaa:"
+#: ../src/gdict-window.c:1621
+#| msgid "Look _up:"
+msgid "Look _up"
+msgstr "_Etsi sanaa"
 
-#: ../src/gdict-window.c:1690
+#: ../src/gdict-window.c:1695
 msgid "Similar words"
 msgstr "Samankaltaiset sanat"
 
-#: ../src/gdict-window.c:1703
+#: ../src/gdict-window.c:1708
 msgid "Available dictionaries"
 msgstr "Saatavilla olevat sanakirjat"
 
-#: ../src/gdict-window.c:1721
+#: ../src/gdict-window.c:1726
 msgid "Available strategies"
 msgstr "Käytettävissä olevat hakutavat"
 
-#: ../src/gdict-window.c:1737
+#: ../src/gdict-window.c:1742
 msgid "Dictionary sources"
 msgstr "Sanakirjalähteet"
+
+#~ msgid "About Dictionary"
+#~ msgstr "Tietoja - Sanakirja"
 
 #~ msgid "Available _Databases"
 #~ msgstr "Saatavilla olevat tieto_kannat"
@@ -874,6 +878,3 @@ msgstr "Sanakirjalähteet"
 
 #~ msgid "_Contents"
 #~ msgstr "_Sisältö"
-
-#~ msgid "_About"
-#~ msgstr "_Tietoja"
