@@ -16,6 +16,12 @@ $(gdictapp_in_files): $(gdictapp_in_files:.desktop.in=.desktop.in.in)
 
 @INTLTOOL_DESKTOP_RULE@
 
+@INTLTOOL_XML_RULE@
+appdatadir = $(datadir)/appdata
+appdata_DATA = $(appdata_in_files:.xml.in=.xml)
+appdata_in_files = gnome-dictionary.appdata.xml.in
+EXTRA_DIST += $(appdata_in_files)
+
 # dictionary sources definitions
 dictsourcedir = $(datadir)/gdict-1.0/sources
 dictsource_in_files = \
@@ -43,9 +49,9 @@ gsettings_SCHEMAS = org.gnome.dictionary.gschema.xml
 CLEANFILES += $(gsettings_SCHEMAS) \
 	$(dictsource_DATA) \
 	$(gdictapp_in_files) \
-	$(gdictapp_DATA)
+	$(gdictapp_DATA) \
+	$(appdata_in_files)
 	
-@INTLTOOL_XML_NOMERGE_RULE@
 @GSETTINGS_RULES@
 
 -include $(top_srcdir)/git.mk
