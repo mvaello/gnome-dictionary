@@ -1,15 +1,15 @@
 # Norwegian bokmål translation of gnome-dictionary.
 # Copyright (C) 1999-2005 Free Software Foundation, Inc.
 #
-# Kjartan Maraas <kmaraas@gnome.org>, 1999-2013.
+# Kjartan Maraas <kmaraas@gnome.org>, 1999-2014.
 # Terance Edward Sola <terance@lyse.net>, 2005.
 # Torstein Adolf Winterseth <kvikende@fsfe.org>, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-utils 3.11.x\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-11-21 21:22+0100\n"
-"PO-Revision-Date: 2013-11-21 21:22+0100\n"
+"POT-Creation-Date: 2014-01-21 20:22+0100\n"
+"PO-Revision-Date: 2014-01-21 20:22+0100\n"
 "Last-Translator: Kjartan Maraas <kmaraas@gnome.org>\n"
 "Language-Team: Norwegian bokmål <i18n-nb@lister.ping.uio.no>\n"
 "Language: \n"
@@ -44,8 +44,8 @@ msgid "Help"
 msgstr "Hjelp"
 
 #: ../data/gnome-dictionary-menus.ui.h:3
-msgid "About Dictionary"
-msgstr "Om Ordbok"
+msgid "About"
+msgstr "Om"
 
 #: ../data/gnome-dictionary-menus.ui.h:4
 msgid "Quit"
