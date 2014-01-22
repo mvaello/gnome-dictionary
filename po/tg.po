@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: Tajik Gnome\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "dictionary&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2013-12-09 18:03+0000\n"
-"PO-Revision-Date: 2013-12-10 16:08+0500\n"
+"POT-Creation-Date: 2014-01-22 11:56+0000\n"
+"PO-Revision-Date: 2014-01-22 21:12+0500\n"
 "Last-Translator: Victor Ibragimov <victor.ibragimov@gmail.com>\n"
 "Language-Team: \n"
 "Language: tg\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 1.6.1\n"
+"X-Generator: Poedit 1.6.3\n"
 
 #: ../data/default.desktop.in.h:1
 msgid "Default Dictionary Server"
@@ -35,6 +35,19 @@ msgstr "Санҷиши таърифҳо ва талаффузҳои калима
 #: ../data/gnome-dictionary.desktop.in.in.h:3
 msgid "word;synonym;definition;spelling;"
 msgstr "калима;синоним;таъриф;талаффуз;"
+
+#: ../data/gnome-dictionary.appdata.xml.in.h:1
+msgid ""
+"GNOME Dictionary is a simple dictionary application that looks up "
+"definitions of words online. Though it looks up English definitions by "
+"default, you can easily switch to Spanish or add other online dictionaries "
+"using the DICT protocol to suit your needs."
+msgstr ""
+"Луғати GNOME - ин барномаи оддиест, ки таърифҳои калимаҳоро дар онлайн "
+"ҷустуҷӯ мекунад. Ин барнома ба сурати пешфарз таърифҳои калимаҳои англисиро "
+"ҷустуҷӯ мекунад, вале шумо метавонед забони англисиро ба забони испанӣ ба "
+"осонӣ иваз кунед ё луғати онлайни наверо тавассути протоколи DICT илова "
+"кунед."
 
 #: ../data/gnome-dictionary-menus.ui.h:1
 msgid "Preferences"
