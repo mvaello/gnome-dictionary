@@ -4,14 +4,14 @@
 #
 # Amitakhya Phukan <aphukan@redhat.com>, 2008.
 # Amitakhya Phukan <amitakhya@svn.gnome.org>, 2008, 2009.
-# Nilamdyuti Goswami <ngoswami@redhat.com>, 2011, 2012, 2013.
+# Nilamdyuti Goswami <ngoswami@redhat.com>, 2011, 2012, 2013, 2014.
 msgid ""
 msgstr ""
 "Project-Id-Version: as\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "dictionary&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2013-07-06 16:31+0000\n"
-"PO-Revision-Date: 2013-07-09 11:19+0530\n"
+"POT-Creation-Date: 2014-01-22 11:56+0000\n"
+"PO-Revision-Date: 2014-01-23 13:36+0630\n"
 "Last-Translator: Nilamdyuti Goswami <ngoswami@redhat.com>\n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
 "Language: as\n"
@@ -26,7 +26,7 @@ msgid "Default Dictionary Server"
 msgstr "অবিকল্পিত অভিধানৰ চাৰ্ভাৰ"
 
 #: ../data/gnome-dictionary.desktop.in.in.h:1 ../src/gdict-about.c:60
-#: ../src/gdict-app.c:347 ../src/gdict-window.c:543 ../src/gdict-window.c:1805
+#: ../src/gdict-app.c:347 ../src/gdict-window.c:543 ../src/gdict-window.c:1810
 msgid "Dictionary"
 msgstr "অভিধান"
 
@@ -38,6 +38,19 @@ msgstr "অনলাইন অভিধানত শব্দৰ বিৱৰণ
 msgid "word;synonym;definition;spelling;"
 msgstr "শব্দ;প্ৰতিশব্দ;বিৱৰণ;বানান;"
 
+#: ../data/gnome-dictionary.appdata.xml.in.h:1
+msgid ""
+"GNOME Dictionary is a simple dictionary application that looks up "
+"definitions of words online. Though it looks up English definitions by "
+"default, you can easily switch to Spanish or add other online dictionaries "
+"using the DICT protocol to suit your needs."
+msgstr ""
+"GNOME অভিধান এটা সাধাৰণ অভিধান যি শব্দবোৰৰ অৰ্থ অনলাইন সন্ধান কৰে। যদিও ই "
+"অবিকল্পভাৱে "
+"ইংৰাজী বিৱৰণসমূহ সন্ধান কৰে, আপুনি আপোনাৰ প্ৰয়োজন সাপেক্ষে DICT প্ৰটোকল "
+"ব্যৱহাৰ কৰি "
+"স্পেনিচ অথবা অন্য অনলাইন অভিধান সহজতে যোগ কৰিব পাৰিব।"
+
 #: ../data/gnome-dictionary-menus.ui.h:1
 msgid "Preferences"
 msgstr "পছন্দসমূহ"
@@ -47,8 +60,9 @@ msgid "Help"
 msgstr "সহায়"
 
 #: ../data/gnome-dictionary-menus.ui.h:3
-msgid "About Dictionary"
-msgstr "অভিধানৰ বিষয়ে"
+#| msgid "_About"
+msgid "About"
+msgstr "বিষয়ে"
 
 #: ../data/gnome-dictionary-menus.ui.h:4
 msgid "Quit"
@@ -123,7 +137,6 @@ msgid "Dictionary Sources"
 msgstr "অভিধান উৎসসমূহ"
 
 #: ../data/gnome-dictionary-menus.ui.h:22
-#| msgid "Available dictionaries"
 msgid "Available _Dictionaries"
 msgstr "উপলব্ধ অভিধানসমূহ (_D)"
 
@@ -758,65 +771,69 @@ msgstr "নামবিহীন দস্তাবেজ"
 msgid "Error while writing to '%s'"
 msgstr "'%s' ত লিখিবলৈ ত্ৰুটি"
 
-#: ../src/gdict-window.c:1359
+#: ../src/gdict-window.c:1365
 #, c-format
 msgid "Dictionary source `%s' selected"
 msgstr "অভিধানৰ উৎস `%s' নিৰ্বাচন কৰা হৈছে"
 
-#: ../src/gdict-window.c:1380
+#: ../src/gdict-window.c:1386
 #, c-format
 msgid "Strategy `%s' selected"
 msgstr "কৌশল `%s' নিৰ্বাচিত"
 
-#: ../src/gdict-window.c:1400
+#: ../src/gdict-window.c:1406
 #, c-format
 msgid "Database `%s' selected"
 msgstr "ডাটাবেইচ `%s' নিৰ্বাচন কৰা হৈছে"
 
-#: ../src/gdict-window.c:1420
+#: ../src/gdict-window.c:1426
 #, c-format
 msgid "Word `%s' selected"
 msgstr "শব্দ `%s' নিৰ্বাচন কৰা হৈছে"
 
 #. speller
-#: ../src/gdict-window.c:1445
+#: ../src/gdict-window.c:1451
 msgid "Double-click on the word to look up"
 msgstr "সন্ধানৰ বাবে চিহ্নিত শব্দত দুবাৰ ক্লিক কৰক"
 
 #. strat-chooser
-#: ../src/gdict-window.c:1451
+#: ../src/gdict-window.c:1457
 msgid "Double-click on the matching strategy to use"
 msgstr "ব্যৱহাৰ কৰিব লগিয়া মিল খোৱা কৌশলত দুবাৰ ক্লিক কৰক"
 
 #. source-chooser
-#: ../src/gdict-window.c:1456
+#: ../src/gdict-window.c:1462
 msgid "Double-click on the source to use"
 msgstr "ব্যৱহাৰ কৰিব লগিয়া উৎসত দুবাৰ ক্লিক কৰক"
 
 #. db-chooser
-#: ../src/gdict-window.c:1465
+#: ../src/gdict-window.c:1471
 msgid "Double-click on the database to use"
 msgstr "ব্যৱহাৰৰ বাবে চিহ্নিত ডাটাবেইচৰ উপৰ দুবাৰ ক্লিক কৰক"
 
-#: ../src/gdict-window.c:1615
-msgid "Look _up:"
-msgstr "সন্ধান কৰক (_u):"
+#: ../src/gdict-window.c:1621
+#| msgid "Look _up:"
+msgid "Look _up"
+msgstr "সন্ধান কৰক (_u)"
 
-#: ../src/gdict-window.c:1690
+#: ../src/gdict-window.c:1695
 msgid "Similar words"
 msgstr "সমতুল্য শব্দ"
 
-#: ../src/gdict-window.c:1703
+#: ../src/gdict-window.c:1708
 msgid "Available dictionaries"
 msgstr "উপলব্ধ অভিধান"
 
-#: ../src/gdict-window.c:1721
+#: ../src/gdict-window.c:1726
 msgid "Available strategies"
 msgstr "উপলব্ধ কৌশলসমূহ"
 
-#: ../src/gdict-window.c:1737
+#: ../src/gdict-window.c:1742
 msgid "Dictionary sources"
 msgstr "অভিধানৰ উৎসসমূহ"
+
+#~ msgid "About Dictionary"
+#~ msgstr "অভিধানৰ বিষয়ে"
 
 #~ msgid "Available _Databases"
 #~ msgstr "উপলব্ধ ডাটাবেইচ (_D)"
@@ -850,6 +867,3 @@ msgstr "অভিধানৰ উৎসসমূহ"
 
 #~ msgid "_Contents"
 #~ msgstr "সমল (_C)"
-
-#~ msgid "_About"
-#~ msgstr "বিষয়ে (_A)"
