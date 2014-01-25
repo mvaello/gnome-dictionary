@@ -7,15 +7,15 @@
 # Žygimantas Beručka <zygis@gnome.org>, 2003-2006, 2009, 2010.
 # Gintautas Miliauskas <gintas@akl.lt>, 2006, 2007, 2008.
 # Algimantas Margevičius <gymka@mail.ru>, 2011.
-# Aurimas Černius <aurisc4@gmail.com>, 2013.
+# Aurimas Černius <aurisc4@gmail.com>, 2013, 2014.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: lt\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "dictionary&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2013-07-06 16:31+0000\n"
-"PO-Revision-Date: 2013-07-13 17:30+0300\n"
+"POT-Creation-Date: 2014-01-22 11:56+0000\n"
+"PO-Revision-Date: 2014-01-25 22:32+0200\n"
 "Last-Translator: Aurimas Černius <aurisc4@gmail.com>\n"
 "Language-Team: Lietuvių <gnome-lt@lists.akl.lt>\n"
 "Language: lt\n"
@@ -31,7 +31,7 @@ msgid "Default Dictionary Server"
 msgstr "Numatytasis žodyno serveris"
 
 #: ../data/gnome-dictionary.desktop.in.in.h:1 ../src/gdict-about.c:60
-#: ../src/gdict-app.c:347 ../src/gdict-window.c:543 ../src/gdict-window.c:1805
+#: ../src/gdict-app.c:347 ../src/gdict-window.c:543 ../src/gdict-window.c:1810
 msgid "Dictionary"
 msgstr "Žodynas"
 
@@ -43,6 +43,18 @@ msgstr "Pasitikrinkite žodžių apibrėžimus ir rašybą internetiniame žodyn
 msgid "word;synonym;definition;spelling;"
 msgstr "žodis;sinonimas;apibrėžimas;rašyba;"
 
+#: ../data/gnome-dictionary.appdata.xml.in.h:1
+msgid ""
+"GNOME Dictionary is a simple dictionary application that looks up "
+"definitions of words online. Though it looks up English definitions by "
+"default, you can easily switch to Spanish or add other online dictionaries "
+"using the DICT protocol to suit your needs."
+msgstr ""
+"GNOME žodynas yra paprasta žodyno programa, kurie ieško internete žodžių "
+"apibrėžimų. Nors numatytai ji ieško angliškų apibrėžimų, galite lengvai "
+"pakeisti į ispanų ar kitus internetinius žodynus, naudojančius DICT "
+"protokolą, ir taip pritaikyti savo reikmėms."
+
 #: ../data/gnome-dictionary-menus.ui.h:1
 msgid "Preferences"
 msgstr "Nustatymai"
@@ -52,8 +64,8 @@ msgid "Help"
 msgstr "Žinynas"
 
 #: ../data/gnome-dictionary-menus.ui.h:3
-msgid "About Dictionary"
-msgstr "Apie žodyną"
+msgid "About"
+msgstr "Apie"
 
 #: ../data/gnome-dictionary-menus.ui.h:4
 msgid "Quit"
@@ -128,7 +140,6 @@ msgid "Dictionary Sources"
 msgstr "Žodyno šaltiniai"
 
 #: ../data/gnome-dictionary-menus.ui.h:22
-#| msgid "Available dictionaries"
 msgid "Available _Dictionaries"
 msgstr "Prieinami žo_dynai"
 
@@ -771,65 +782,64 @@ msgstr "Bevardis dokumentas"
 msgid "Error while writing to '%s'"
 msgstr "Klaida rašant į „%s“"
 
-#: ../src/gdict-window.c:1359
+#: ../src/gdict-window.c:1365
 #, c-format
 msgid "Dictionary source `%s' selected"
 msgstr "Pasirinktas žodyno šaltinis „%s“"
 
-#: ../src/gdict-window.c:1380
+#: ../src/gdict-window.c:1386
 #, c-format
 msgid "Strategy `%s' selected"
 msgstr "Pasirinkta strategija „%s“"
 
-#: ../src/gdict-window.c:1400
+#: ../src/gdict-window.c:1406
 #, c-format
 msgid "Database `%s' selected"
 msgstr "Pasirinkta duomenų bazė „%s“"
 
-#: ../src/gdict-window.c:1420
+#: ../src/gdict-window.c:1426
 #, c-format
 msgid "Word `%s' selected"
 msgstr "Pasirinktas žodis „%s“"
 
 #. speller
-#: ../src/gdict-window.c:1445
+#: ../src/gdict-window.c:1451
 msgid "Double-click on the word to look up"
 msgstr "Du kartus spragtelėkite ieškotiną žodį"
 
 #. strat-chooser
-#: ../src/gdict-window.c:1451
+#: ../src/gdict-window.c:1457
 msgid "Double-click on the matching strategy to use"
 msgstr "Du kartus spragtelėkite naudotiną strategiją"
 
 #. source-chooser
-#: ../src/gdict-window.c:1456
+#: ../src/gdict-window.c:1462
 msgid "Double-click on the source to use"
 msgstr "Dukart spragtelėkite naudotiną šaltinį"
 
 #. db-chooser
-#: ../src/gdict-window.c:1465
+#: ../src/gdict-window.c:1471
 msgid "Double-click on the database to use"
 msgstr "Du kartus spragtelėkite naudotiną duomenų bazę"
 
-#: ../src/gdict-window.c:1615
-msgid "Look _up:"
-msgstr "_Ieškoti:"
+#: ../src/gdict-window.c:1621
+#| msgid "Look _up:"
+msgid "Look _up"
+msgstr "_Ieškoti"
 
-#: ../src/gdict-window.c:1690
+#: ../src/gdict-window.c:1695
 msgid "Similar words"
 msgstr "Panašūs žodžiai"
 
-#: ../src/gdict-window.c:1703
+#: ../src/gdict-window.c:1708
 msgid "Available dictionaries"
 msgstr "Prieinami žodynai"
 
-#: ../src/gdict-window.c:1721
+#: ../src/gdict-window.c:1726
 msgid "Available strategies"
 msgstr "Prieinamos strategijos"
 
-#: ../src/gdict-window.c:1737
+#: ../src/gdict-window.c:1742
 msgid "Dictionary sources"
 msgstr "Žodyno šaltiniai"
 
-#~ msgid "Available _Databases"
-#~ msgstr "Prieinamos _duomenų bazės"
