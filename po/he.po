@@ -12,14 +12,14 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
 # Gil 'Dolfin' Osher <dolfin@rpg.org.il>, 2003, 2005.
 # Yuval Tanny, 2005.
-# Yosef Or Boczko <yoseforb@gmail.com>, 2013.
+# Yosef Or Boczko <yoseforb@gmail.com>, 2013, 2014.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-utils.HEAD.he\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-12-22 13:08+0200\n"
-"PO-Revision-Date: 2013-12-22 13:09+0200\n"
+"POT-Creation-Date: 2014-01-25 23:11+0200\n"
+"PO-Revision-Date: 2014-01-25 23:16+0200\n"
 "Last-Translator: Yosef Or Boczko <yoseforb@gmail.com>\n"
 "Language-Team: עברית <>\n"
 "Language: he\n"
@@ -45,6 +45,17 @@ msgstr "חיפוש הגדרה ואיות של מילים במילון מקוון
 #: ../data/gnome-dictionary.desktop.in.in.h:3
 msgid "word;synonym;definition;spelling;"
 msgstr "מילה;מילה נרדפת;הגדרה;איות;"
+
+#: ../data/gnome-dictionary.appdata.xml.in.h:1
+msgid ""
+"GNOME Dictionary is a simple dictionary application that looks up "
+"definitions of words online. Though it looks up English definitions by "
+"default, you can easily switch to Spanish or add other online dictionaries "
+"using the DICT protocol to suit your needs."
+msgstr ""
+"מילון GNOME הוא יישום מילון פשוט המחפש הגדרות של מילים באופן מקוון. למרות "
+"שהוא מחפש הגדרות באנגלית כבררת מחדל, ניתן בקלות להחליף לספרדית או להוסיף "
+"מילונים מקוונים נוספים באמצעות פרוטוקול DICT כדי להתאים לצרכים שלך."
 
 #: ../data/gnome-dictionary-menus.ui.h:1
 msgid "Preferences"
@@ -112,7 +123,7 @@ msgstr "חיפוש ה_קודם"
 
 #: ../data/gnome-dictionary-menus.ui.h:17
 msgid "_View"
-msgstr "תצוגה"
+msgstr "_תצוגה"
 
 #: ../data/gnome-dictionary-menus.ui.h:18
 msgid "_Sidebar"
@@ -614,7 +625,7 @@ msgstr ""
 "מארק קרפיבנר <mark125@gmail.com>\n"
 "יאיר הרשקוביץ <yairhr@gmail.com>\n"
 "ירון שהרבני <sh.yaron@gmail.com>\n"
-"יוסף אור בוצ׳קו <yoseforb@gmail.com>\n"
+"יוסף אור בוצ׳קו <yoseforb@gnome.org>\n"
 "\n"
 "מיזם תרגום GNOME לעברית:\n"
 "‏http://gnome-il.berlios.de"
