@@ -6,8 +6,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: dictionary\n"
-"POT-Creation-Date: 2013-06-12 17:06+0000\n"
-"PO-Revision-Date: 2013-06-19 09:34+0200\n"
+"POT-Creation-Date: 2013-12-28 09:11+0000\n"
+"PO-Revision-Date: 2014-01-26 15:27+0100\n"
 "Last-Translator: Christian Kirbach <christian.kirbach@gmail.com>\n"
 "Language-Team: Deutsch <gnome-de@gnome.org>\n"
 "Language: de\n"
@@ -15,14 +15,31 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Gtranslator 2.91.6\n"
+"X-Generator: Poedit 1.5.4\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
 msgid "translator-credits"
 msgstr ""
 "Mario Blättermann <mario.blaettermann@gmail.com>, 2008, 2012\n"
-"Tobias Endrigkeit <tobiasendrigkeit@googlemail.com>, 2013"
+"Tobias Endrigkeit <tobiasendrigkeit@googlemail.com>, 2013\n"
+"Chrsitian Kirbach <christian.kirbach@gmail.com>, 2014"
+
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#.
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/index.page:22(media)
+msgctxt "_"
+msgid ""
+"external ref='figures/gnome-dictionary-icon.png' "
+"md5='2f50c3a71e57be0b41efd43c2f7fae60'"
+msgstr "translated"
 
 #: C/index.page:8(info/title)
 msgctxt "text"
@@ -211,12 +228,12 @@ msgstr "Innerhalb einer Definition suchen"
 
 #: C/find.page:28(page/p)
 msgid ""
-"Some dictionary entires can be very long and can contain many results, so "
+"Some dictionary entries can be very long and can contain many results, so "
 "you may wish to search them to find the section that is relevant to you."
 msgstr ""
-"Manche Wörterbücher sind sehr groß und enthalten viele Ergebnisse. Es bietet "
-"sich an sie zu durchsuchen, um den Abschnitt zu finden, der für Sie relevant "
-"ist."
+"Manche Wörterbucheinträge sind sehr groß und enthalten viele Ergebnisse. Es "
+"bietet sich an sie zu durchsuchen, um den Abschnitt zu finden, der für Sie "
+"relevant ist."
 
 #: C/find.page:32(steps/title)
 msgid "To find definitions:"
@@ -224,7 +241,7 @@ msgstr "So finden Sie eine Definition:"
 
 #: C/find.page:34(item/p)
 msgid ""
-"Select <guiseq><gui style=\"menu\">Edit</gui> <gui style=\"menitem\">Find</"
+"Select <guiseq><gui style=\"menu\">Edit</gui> <gui style=\"menuitem\">Find</"
 "gui></guiseq>."
 msgstr ""
 "Wählen Sie <guiseq><gui style=\"menu\">Bearbeiten</gui> <gui style=\"menitem"
@@ -750,11 +767,11 @@ msgstr "Ähnliche Ergebnisse aus anderen Wörterbüchern betrachten."
 
 #: C/similar-words.page:29(page/p)
 msgid ""
-"<app>Dictionary</app> will only display the definition from one your "
+"<app>Dictionary</app> will only display the definition from one of your "
 "dictionaries. To check if there are search results in other dictionaries:"
 msgstr ""
 "<app>Wörterbuch</app> zeigt nur eine Definition aus Ihren Wörterbüchern an. "
-"So prüfen Sie die Suchergebnisse aus anderen Wörterbüchern:"
+"So prüfen Sie, ob es Suchergebnisse in anderen Wörterbüchern gibt:"
 
 #: C/similar-words.page:34(item/p)
 msgid "<link xref=\"definition\">Look up</link> the desired term."
@@ -1030,12 +1047,6 @@ msgstr ""
 "normalerweise durchführen, indem Sie die Tastenkombination "
 "<keyseq><key>Strg</key><key>P</key></keyseq> drücken oder durch eines der "
 "Menüs."
-
-#~ msgctxt "_"
-#~ msgid ""
-#~ "external ref='figures/gnome-dictionary-application.png' "
-#~ "md5='fb48a9e5863bfb2b3811df2e28489eb7'"
-#~ msgstr "translated"
 
 #~ msgctxt "_"
 #~ msgid ""
