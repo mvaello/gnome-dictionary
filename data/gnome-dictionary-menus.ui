@@ -78,7 +78,6 @@
           <attribute name="label" translatable="yes">_Find</attribute>
           <attribute name="action">win.find</attribute>
           <attribute name="accel">&lt;Primary&gt;f</attribute>
-          <attribute name="accel">slash</attribute>
         </item>
         <item>
           <attribute name="label" translatable="yes">Find Ne_xt</attribute>
