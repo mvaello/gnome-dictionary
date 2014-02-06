@@ -13,13 +13,13 @@
 # Antón Méixome <meixome@mancomun.org>, 2009.
 # Fran Diéguez <frandieguez@gnome.org>, 2009, 2010, 2011, 2012.
 # Leandro Regueiro <leandro.regueiro@gmail.com>, 2012.
-# Fran Dieguez <frandieguez@gnome.org>, 2012, 2013.
+# Fran Dieguez <frandieguez@gnome.org>, 2012, 2013, 2014.
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-utils-master-po-gl-14799\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-12-19 01:19+0100\n"
-"PO-Revision-Date: 2013-12-19 01:19+0200\n"
+"POT-Creation-Date: 2014-02-07 00:14+0100\n"
+"PO-Revision-Date: 2014-02-07 00:16+0200\n"
 "Last-Translator: Fran Dieguez <frandieguez@gnome.org>\n"
 "Language-Team: gnome-l10n-gl@gnome.org\n"
 "Language: gl\n"
@@ -46,6 +46,18 @@ msgstr "Verificar definicións de palabras e ortografía nun dicionario en liña
 #: ../data/gnome-dictionary.desktop.in.in.h:3
 msgid "word;synonym;definition;spelling;"
 msgstr "palabra;sinónimo;definición;deletrear;"
+
+#: ../data/gnome-dictionary.appdata.xml.in.h:1
+msgid ""
+"GNOME Dictionary is a simple dictionary application that looks up "
+"definitions of words online. Though it looks up English definitions by "
+"default, you can easily switch to Spanish or add other online dictionaries "
+"using the DICT protocol to suit your needs."
+msgstr ""
+"Dicionario de GNOME é un aplicativo simple de dicionarios que lle permite "
+"buscar definicións de palabras en liña. Aínda que por omisión busca por "
+"definicións en Inglés, pode cambialo a Español e engadir outros dicionarios "
+"usando o protocolo DICT que se axeiten ás súas necesidades."
 
 #: ../data/gnome-dictionary-menus.ui.h:1
 msgid "Preferences"
