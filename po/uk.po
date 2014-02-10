@@ -6,13 +6,14 @@
 # int_ua <xintx.ua@gmail.com>, 2010.
 # Korostil Daniel <ted.korostiled@gmail.com>, 2011, 2012.
 # Re. <ted.korostiled@gmail.com>, 2012.
-# Daniel Korostil <ted.korostiled@gmail.com>, 2013.
+# Daniel Korostil <ted.korostiled@gmail.com>, 2013, 2014.
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-utils\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-09-21 12:59+0300\n"
-"PO-Revision-Date: 2013-09-21 12:59+0300\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
+"dictionary&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2014-02-10 07:39+0000\n"
+"PO-Revision-Date: 2014-02-10 12:22+0300\n"
 "Last-Translator: Daniel Korostil <ted.korostiled@gmail.com>\n"
 "Language-Team: linux.org.ua\n"
 "Language: uk\n"
@@ -29,7 +30,7 @@ msgid "Default Dictionary Server"
 msgstr "Типовий словниковий сервер"
 
 #: ../data/gnome-dictionary.desktop.in.in.h:1 ../src/gdict-about.c:60
-#: ../src/gdict-app.c:347 ../src/gdict-window.c:543 ../src/gdict-window.c:1805
+#: ../src/gdict-app.c:347 ../src/gdict-window.c:543 ../src/gdict-window.c:1810
 msgid "Dictionary"
 msgstr "Словник"
 
@@ -41,6 +42,18 @@ msgstr "Пошук слів та їх написання у інтерактив
 msgid "word;synonym;definition;spelling;"
 msgstr "слово;синонім;значення;вимова;"
 
+#: ../data/gnome-dictionary.appdata.xml.in.h:1
+msgid ""
+"GNOME Dictionary is a simple dictionary application that looks up "
+"definitions of words online. Though it looks up English definitions by "
+"default, you can easily switch to Spanish or add other online dictionaries "
+"using the DICT protocol to suit your needs."
+msgstr ""
+"Словник — проста програма, яка дозволяє шукати значення слів через мережу. "
+"Хоча типово вона шукає англійські значення, ви можете перемкнутись на "
+"іспанську або додати інші мережеві словники, які використовують протокол "
+"DICT."
+
 #: ../data/gnome-dictionary-menus.ui.h:1
 msgid "Preferences"
 msgstr "Параметри"
@@ -50,8 +63,9 @@ msgid "Help"
 msgstr "Довідка"
 
 #: ../data/gnome-dictionary-menus.ui.h:3
-msgid "About Dictionary"
-msgstr "Про словник"
+#| msgid "_About"
+msgid "About"
+msgstr "Про програму"
 
 #: ../data/gnome-dictionary-menus.ui.h:4
 msgid "Quit"
@@ -763,65 +777,69 @@ msgstr "Документ без заголовка"
 msgid "Error while writing to '%s'"
 msgstr "Помилка при запису у '%s'"
 
-#: ../src/gdict-window.c:1359
+#: ../src/gdict-window.c:1365
 #, c-format
 msgid "Dictionary source `%s' selected"
 msgstr "Виділено джерело словників `%s'"
 
-#: ../src/gdict-window.c:1380
+#: ../src/gdict-window.c:1386
 #, c-format
 msgid "Strategy `%s' selected"
 msgstr "Вибрано стратегію «%s»"
 
-#: ../src/gdict-window.c:1400
+#: ../src/gdict-window.c:1406
 #, c-format
 msgid "Database `%s' selected"
 msgstr "Виділена база даних `%s'"
 
-#: ../src/gdict-window.c:1420
+#: ../src/gdict-window.c:1426
 #, c-format
 msgid "Word `%s' selected"
 msgstr "Виділено слово `%s'"
 
 #. speller
-#: ../src/gdict-window.c:1445
+#: ../src/gdict-window.c:1451
 msgid "Double-click on the word to look up"
 msgstr "Двічі клацніть на слові для пошуку"
 
 #. strat-chooser
-#: ../src/gdict-window.c:1451
+#: ../src/gdict-window.c:1457
 msgid "Double-click on the matching strategy to use"
 msgstr "Двічі клацніть на відповідній стратегії її використання"
 
 #. source-chooser
-#: ../src/gdict-window.c:1456
+#: ../src/gdict-window.c:1462
 msgid "Double-click on the source to use"
 msgstr "Двічі клацніть на джерелі для його вибору"
 
 #. db-chooser
-#: ../src/gdict-window.c:1465
+#: ../src/gdict-window.c:1471
 msgid "Double-click on the database to use"
 msgstr "Двічі клацніть на базі даних для її вибору"
 
-#: ../src/gdict-window.c:1615
-msgid "Look _up:"
+#: ../src/gdict-window.c:1621
+#| msgid "Look _up:"
+msgid "Look _up"
 msgstr "З_найти"
 
-#: ../src/gdict-window.c:1690
+#: ../src/gdict-window.c:1695
 msgid "Similar words"
 msgstr "Подібні слова"
 
-#: ../src/gdict-window.c:1703
+#: ../src/gdict-window.c:1708
 msgid "Available dictionaries"
 msgstr "Доступні словники"
 
-#: ../src/gdict-window.c:1721
+#: ../src/gdict-window.c:1726
 msgid "Available strategies"
 msgstr "Доступні стратегії"
 
-#: ../src/gdict-window.c:1737
+#: ../src/gdict-window.c:1742
 msgid "Dictionary sources"
 msgstr "Джерела словників"
+
+#~ msgid "About Dictionary"
+#~ msgstr "Про словник"
 
 #~ msgid "Available _Databases"
 #~ msgstr "Доступні _бази даних"
@@ -855,6 +873,3 @@ msgstr "Джерела словників"
 
 #~ msgid "_Contents"
 #~ msgstr "_Зміст"
-
-#~ msgid "_About"
-#~ msgstr "_Про програму"
