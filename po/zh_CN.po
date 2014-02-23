@@ -15,8 +15,8 @@ msgstr ""
 "Project-Id-Version: gnome-utils master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "dictionary&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2013-12-19 05:56+0000\n"
-"PO-Revision-Date: 2013-12-28 17:07+0800\n"
+"POT-Creation-Date: 2014-01-22 12:16+0000\n"
+"PO-Revision-Date: 2014-02-23 10:52+0800\n"
 "Last-Translator: Tong Hui <tonghuix@gmail.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -41,6 +41,16 @@ msgstr "在在线字典中查阅单词定义和拼写"
 #: ../data/gnome-dictionary.desktop.in.in.h:3
 msgid "word;synonym;definition;spelling;"
 msgstr "word;synonym;definition;spelling;单词;同义词;定义;拼写;"
+
+#: ../data/gnome-dictionary.appdata.xml.in.h:1
+msgid ""
+"GNOME Dictionary is a simple dictionary application that looks up "
+"definitions of words online. Though it looks up English definitions by "
+"default, you can easily switch to Spanish or add other online dictionaries "
+"using the DICT protocol to suit your needs."
+msgstr ""
+"GNOME 字典是一款简单的在线查询单词解释的字典应用程序。虽然默认是英语释义，但您"
+"可以根据需要，使用 DICT 协议轻松切换到西班牙语或添加其他语种的在线字典。"
 
 #: ../data/gnome-dictionary-menus.ui.h:1
 msgid "Preferences"
@@ -601,7 +611,8 @@ msgid "translator-credits"
 msgstr ""
 "Wang Li <charlesw1234@163.com>\n"
 "Funda Wang <fundawang@linux.net.cn>\n"
-"tuhaihe <1132321739qq@gmail.com>"
+"tuhaihe <1132321739qq@gmail.com>\n"
+"Tong Hui <tonghuix@gmail.com>"
 
 #: ../src/gdict-about.c:55
 msgid "Look up words in dictionaries"
