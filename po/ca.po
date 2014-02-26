@@ -12,9 +12,9 @@ msgstr ""
 "Project-Id-Version: gnome-utils\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "dictionary&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2013-07-06 16:31+0000\n"
-"PO-Revision-Date: 2013-07-06 22:22+0200\n"
-"Last-Translator: Joan Duran <jodufi@gmail.com>\n"
+"POT-Creation-Date: 2014-02-24 19:40+0000\n"
+"PO-Revision-Date: 2014-02-25 08:19+0100\n"
+"Last-Translator: Pau Iranzo <paugnu@gmail.com>\n"
 "Language-Team: Catalan <tradgnome@softcatala.org>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
@@ -27,7 +27,7 @@ msgid "Default Dictionary Server"
 msgstr "Servidor de diccionari predeterminat"
 
 #: ../data/gnome-dictionary.desktop.in.in.h:1 ../src/gdict-about.c:60
-#: ../src/gdict-app.c:347 ../src/gdict-window.c:543 ../src/gdict-window.c:1805
+#: ../src/gdict-app.c:347 ../src/gdict-window.c:543 ../src/gdict-window.c:1810
 msgid "Dictionary"
 msgstr "Diccionari"
 
@@ -40,6 +40,19 @@ msgstr ""
 msgid "word;synonym;definition;spelling;"
 msgstr "paraula;sinònim;definició;ortografia;"
 
+#: ../data/gnome-dictionary.appdata.xml.in.h:1
+msgid ""
+"GNOME Dictionary is a simple dictionary application that looks up "
+"definitions of words online. Though it looks up English definitions by "
+"default, you can easily switch to Spanish or add other online dictionaries "
+"using the DICT protocol to suit your needs."
+msgstr ""
+"El Diccionari del GNOME és una aplicació de diccionari senzilla que cerca "
+"definicions de paraules en línia. Tot i que per defecte cerca les "
+"definicions en anglès, podeu canviar fàcilment al castellà o altres "
+"diccionaris en línia fent servir el protocol DICT per adaptar-se a les "
+"vostres necessitats."
+
 #: ../data/gnome-dictionary-menus.ui.h:1
 msgid "Preferences"
 msgstr "Preferències"
@@ -49,8 +62,8 @@ msgid "Help"
 msgstr "Ajuda"
 
 #: ../data/gnome-dictionary-menus.ui.h:3
-msgid "About Dictionary"
-msgstr "Quant al diccionari"
+msgid "About"
+msgstr "Quant a"
 
 #: ../data/gnome-dictionary-menus.ui.h:4
 msgid "Quit"
@@ -774,65 +787,68 @@ msgstr "Document sense títol"
 msgid "Error while writing to '%s'"
 msgstr "S'ha produït un error en escriure a «%s»"
 
-#: ../src/gdict-window.c:1359
+#: ../src/gdict-window.c:1365
 #, c-format
 msgid "Dictionary source `%s' selected"
 msgstr "S'ha seleccionat la font de diccionari «%s»"
 
-#: ../src/gdict-window.c:1380
+#: ../src/gdict-window.c:1386
 #, c-format
 msgid "Strategy `%s' selected"
 msgstr "S'ha seleccionat l'estratègia «%s»"
 
-#: ../src/gdict-window.c:1400
+#: ../src/gdict-window.c:1406
 #, c-format
 msgid "Database `%s' selected"
 msgstr "S'ha seleccionat la base de dades «%s»"
 
-#: ../src/gdict-window.c:1420
+#: ../src/gdict-window.c:1426
 #, c-format
 msgid "Word `%s' selected"
 msgstr "S'ha seleccionat la paraula «%s»"
 
 #. speller
-#: ../src/gdict-window.c:1445
+#: ../src/gdict-window.c:1451
 msgid "Double-click on the word to look up"
 msgstr "Feu un doble clic a la paraula per cercar-la"
 
 #. strat-chooser
-#: ../src/gdict-window.c:1451
+#: ../src/gdict-window.c:1457
 msgid "Double-click on the matching strategy to use"
 msgstr "Feu un doble clic a l'estratègia de coincidència a emprar"
 
 #. source-chooser
-#: ../src/gdict-window.c:1456
+#: ../src/gdict-window.c:1462
 msgid "Double-click on the source to use"
 msgstr "Feu un doble clic a la font a utilitzar"
 
 #. db-chooser
-#: ../src/gdict-window.c:1465
+#: ../src/gdict-window.c:1471
 msgid "Double-click on the database to use"
 msgstr "Feu doble clic a la base de dades que vulgueu emprar"
 
-#: ../src/gdict-window.c:1615
-msgid "Look _up:"
-msgstr "_Cerca:"
+#: ../src/gdict-window.c:1621
+msgid "Look _up"
+msgstr "_Cerca"
 
-#: ../src/gdict-window.c:1690
+#: ../src/gdict-window.c:1695
 msgid "Similar words"
 msgstr "Paraules semblants"
 
-#: ../src/gdict-window.c:1703
+#: ../src/gdict-window.c:1708
 msgid "Available dictionaries"
 msgstr "Diccionaris disponibles"
 
-#: ../src/gdict-window.c:1721
+#: ../src/gdict-window.c:1726
 msgid "Available strategies"
 msgstr "Estratègies disponibles"
 
-#: ../src/gdict-window.c:1737
+#: ../src/gdict-window.c:1742
 msgid "Dictionary sources"
 msgstr "Fonts de diccionaris"
+
+#~ msgid "About Dictionary"
+#~ msgstr "Quant al diccionari"
 
 #~ msgid "Available _Databases"
 #~ msgstr "Bases de _dades disponibles"
@@ -866,6 +882,3 @@ msgstr "Fonts de diccionaris"
 
 #~ msgid "_Contents"
 #~ msgstr "_Continguts"
-
-#~ msgid "_About"
-#~ msgstr "_Quant a"
