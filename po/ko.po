@@ -6,7 +6,7 @@
 # Changwoo Ryu <cwryu@debian.org>, 1998, 2002-2011.
 #
 # Updated for gnome-dictionary:
-# Changwoo Ryu <cwryu@debian.org>, 2012-2013.
+# Changwoo Ryu <cwryu@debian.org>, 2012-2014.
 #
 #
 # 새로 번역하시는 분은 아래 translator-credits에 추가하세요.
@@ -14,13 +14,12 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-utils\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
-"dictionary&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2013-07-18 11:41+0000\n"
-"PO-Revision-Date: 2013-09-14 05:24+0900\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-dictionary&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2014-03-05 07:38+0000\n"
+"PO-Revision-Date: 2014-03-06 02:17+0900\n"
 "Last-Translator: Changwoo Ryu <cwryu@debian.org>\n"
 "Language-Team: GNOME Korea <gnome-kr@googlegroups.com>\n"
-"Language: \n"
+"Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -31,7 +30,7 @@ msgid "Default Dictionary Server"
 msgstr "기본 사전 서버"
 
 #: ../data/gnome-dictionary.desktop.in.in.h:1 ../src/gdict-about.c:60
-#: ../src/gdict-app.c:347 ../src/gdict-window.c:543 ../src/gdict-window.c:1805
+#: ../src/gdict-app.c:347 ../src/gdict-window.c:543 ../src/gdict-window.c:1810
 msgid "Dictionary"
 msgstr "사전"
 
@@ -43,6 +42,14 @@ msgstr "온라인 사전에서 단어의 의미와 맞춤법을 찾아 봅니다
 msgid "word;synonym;definition;spelling;"
 msgstr "word;단어;synonym;동의어;definition;설명;spelling;맞춤법;"
 
+#: ../data/gnome-dictionary.appdata.xml.in.h:1
+msgid ""
+"GNOME Dictionary is a simple dictionary application that looks up "
+"definitions of words online. Though it looks up English definitions by "
+"default, you can easily switch to Spanish or add other online dictionaries "
+"using the DICT protocol to suit your needs."
+msgstr "그놈 사전은 단어의 설명을 온라인에서 찾아보는 간단한 사전 프로그램입니다. 기본값으로는 영어 단어를 찾아보지만, 필요에 따라 DICT 프로토콜을 사용하는 다른 온라인 사전으로 간단히 바꿀 수 있습니다."
+
 #: ../data/gnome-dictionary-menus.ui.h:1
 msgid "Preferences"
 msgstr "기본 설정"
@@ -52,8 +59,8 @@ msgid "Help"
 msgstr "도움말"
 
 #: ../data/gnome-dictionary-menus.ui.h:3
-msgid "About Dictionary"
-msgstr "사전 정보"
+msgid "About"
+msgstr "정보"
 
 #: ../data/gnome-dictionary-menus.ui.h:4
 msgid "Quit"
@@ -760,62 +767,62 @@ msgstr "제목 없는 문서"
 msgid "Error while writing to '%s'"
 msgstr "'%s'에 쓰는 데 오류가 발생했습니다"
 
-#: ../src/gdict-window.c:1359
+#: ../src/gdict-window.c:1365
 #, c-format
 msgid "Dictionary source `%s' selected"
 msgstr "`%s' 사전 공급원을 선택했습니다"
 
-#: ../src/gdict-window.c:1380
+#: ../src/gdict-window.c:1386
 #, c-format
 msgid "Strategy `%s' selected"
 msgstr "`%s' 찾기 방식을 선택했습니다"
 
-#: ../src/gdict-window.c:1400
+#: ../src/gdict-window.c:1406
 #, c-format
 msgid "Database `%s' selected"
 msgstr "`%s' 데이터베이스를 선택했습니다"
 
-#: ../src/gdict-window.c:1420
+#: ../src/gdict-window.c:1426
 #, c-format
 msgid "Word `%s' selected"
 msgstr "`%s' 단어를 선택했습니다"
 
 #. speller
-#: ../src/gdict-window.c:1445
+#: ../src/gdict-window.c:1451
 msgid "Double-click on the word to look up"
 msgstr "찾아보려는 단어를 두번 누르십시오"
 
 #. strat-chooser
-#: ../src/gdict-window.c:1451
+#: ../src/gdict-window.c:1457
 msgid "Double-click on the matching strategy to use"
 msgstr "사용할 찾기 방식을 두 번 누르십시오"
 
 #. source-chooser
-#: ../src/gdict-window.c:1456
+#: ../src/gdict-window.c:1462
 msgid "Double-click on the source to use"
 msgstr "사용할 공급원을 두 번 누르십시오"
 
 #. db-chooser
-#: ../src/gdict-window.c:1465
+#: ../src/gdict-window.c:1471
 msgid "Double-click on the database to use"
 msgstr "사용할 데이터베이스를 두 번 누르십시오"
 
-#: ../src/gdict-window.c:1615
-msgid "Look _up:"
-msgstr "단어 찾아 보기(_U):"
+#: ../src/gdict-window.c:1621
+msgid "Look _up"
+msgstr "단어 찾아 보기(_U)"
 
-#: ../src/gdict-window.c:1690
+#: ../src/gdict-window.c:1695
 msgid "Similar words"
 msgstr "비슷한 단어"
 
-#: ../src/gdict-window.c:1703
+#: ../src/gdict-window.c:1708
 msgid "Available dictionaries"
 msgstr "사용 가능한 사전"
 
-#: ../src/gdict-window.c:1721
+#: ../src/gdict-window.c:1726
 msgid "Available strategies"
 msgstr "사용 가능한 찾기 방식"
 
-#: ../src/gdict-window.c:1737
+#: ../src/gdict-window.c:1742
 msgid "Dictionary sources"
 msgstr "사전 공급원"
