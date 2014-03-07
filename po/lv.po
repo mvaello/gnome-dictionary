@@ -7,14 +7,14 @@
 # Raivis Dejus <orvils@gmail.com>, 2006, 2007, 2009.
 # Rūdolfs Mazurs <rudolfs.mazurs@gmail.com>, 2010, 2011.
 # Rudolfs <rudolfs.mazurs@gmail.com>, 2011.
-# Rūdofls Mazurs <rudolfs.mazurs@gmail.com>, 2011, 2012, 2013.
+# Rūdofls Mazurs <rudolfs.mazurs@gmail.com>, 2011, 2012, 2013, 2014.
 msgid ""
 msgstr ""
 "Project-Id-Version: lv\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "dictionary&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2013-07-18 11:41+0000\n"
-"PO-Revision-Date: 2013-09-11 16:04+0300\n"
+"POT-Creation-Date: 2014-03-07 07:39+0000\n"
+"PO-Revision-Date: 2014-03-07 22:43+0200\n"
 "Last-Translator: Rūdolfs Mazurs <rudolfs.mazurs@gmail.com>\n"
 "Language-Team: Latvian <lata-l10n@googlegroups.com>\n"
 "Language: lv\n"
@@ -30,7 +30,7 @@ msgid "Default Dictionary Server"
 msgstr "Noklusējuma vārdnīcas serveris"
 
 #: ../data/gnome-dictionary.desktop.in.in.h:1 ../src/gdict-about.c:60
-#: ../src/gdict-app.c:347 ../src/gdict-window.c:543 ../src/gdict-window.c:1805
+#: ../src/gdict-app.c:347 ../src/gdict-window.c:543 ../src/gdict-window.c:1810
 msgid "Dictionary"
 msgstr "Vārdnīca"
 
@@ -42,6 +42,18 @@ msgstr "Pārbauda vārdu skaidrojumus un rakstību interneta vārdnīcā"
 #: ../data/gnome-dictionary.desktop.in.in.h:3
 msgid "word;synonym;definition;spelling;"
 msgstr "vārds;sinonīms;definīcija;pareizrakstība;"
+
+#: ../data/gnome-dictionary.appdata.xml.in.h:1
+msgid ""
+"GNOME Dictionary is a simple dictionary application that looks up "
+"definitions of words online. Though it looks up English definitions by "
+"default, you can easily switch to Spanish or add other online dictionaries "
+"using the DICT protocol to suit your needs."
+msgstr ""
+"GNOME vārdnīca ir vienkārša vārdnīcas lietotne, kas tiešsaistē uzmeklē "
+"vārdus. Pēc noklusējuma tā meklē angļu valodas definīcijas, bet jūs varat "
+"viegli pārslēgties uz spāņu vai citām tiešsaistes vārdnīcām, izmantojot DICT "
+"protokolu."
 
 # gdictsrc/gdict-pref-dialog.c:129 gtt/options.c:518
 # mini-utils/gcolorsel/menus.c:1109 mini-utils/gshutdown/gshutdown.c:314
@@ -55,9 +67,11 @@ msgstr "Iestatījumi"
 msgid "Help"
 msgstr "Palīdzība"
 
+# gdictsrc/gdict-applet.c:130 mini-utils/gcolorsel/menus.c:1098
 #: ../data/gnome-dictionary-menus.ui.h:3
-msgid "About Dictionary"
-msgstr "Par vārdnīcu"
+#| msgid "_About"
+msgid "About"
+msgstr "Par"
 
 #: ../data/gnome-dictionary-menus.ui.h:4
 msgid "Quit"
@@ -136,7 +150,6 @@ msgid "Dictionary Sources"
 msgstr "Vārdnīcas avoti"
 
 #: ../data/gnome-dictionary-menus.ui.h:22
-#| msgid "Available dictionaries"
 msgid "Available _Dictionaries"
 msgstr "Pieejamās vār_dnīcas"
 
@@ -810,72 +823,76 @@ msgstr "Nenosaukts dokuments"
 msgid "Error while writing to '%s'"
 msgstr "Kļūda, rakstot uz “%s”"
 
-#: ../src/gdict-window.c:1359
+#: ../src/gdict-window.c:1365
 #, c-format
 msgid "Dictionary source `%s' selected"
 msgstr "Vārdnīcas avots “%s” ir izvēlēts"
 
 # gdictsrc/gdict-pref-dialog.c:171
-#: ../src/gdict-window.c:1380
+#: ../src/gdict-window.c:1386
 #, c-format
 msgid "Strategy `%s' selected"
 msgstr "Izvēlēta stratēģija “%s”"
 
 # gdictsrc/gdict-pref-dialog.c:171
-#: ../src/gdict-window.c:1400
+#: ../src/gdict-window.c:1406
 #, c-format
 msgid "Database `%s' selected"
 msgstr "Izvēlēta datubāze “%s”"
 
-#: ../src/gdict-window.c:1420
+#: ../src/gdict-window.c:1426
 #, c-format
 msgid "Word `%s' selected"
 msgstr "Izvēlēts vārds “%s”"
 
 #. speller
-#: ../src/gdict-window.c:1445
+#: ../src/gdict-window.c:1451
 msgid "Double-click on the word to look up"
 msgstr "Dubults klikšķis uz vārda, lai to uzmeklētu"
 
 # gdictsrc/gdict-pref-dialog.c:178
 #. strat-chooser
-#: ../src/gdict-window.c:1451
+#: ../src/gdict-window.c:1457
 msgid "Double-click on the matching strategy to use"
 msgstr "Dubults klikšķis uz stratēģijas, lai to izmantotu"
 
 # gdictsrc/gdict-pref-dialog.c:178
 #. source-chooser
-#: ../src/gdict-window.c:1456
+#: ../src/gdict-window.c:1462
 msgid "Double-click on the source to use"
 msgstr "Dubults klikšķis uz avota, lai to izmantotu"
 
 # gdictsrc/gdict-pref-dialog.c:178
 #. db-chooser
-#: ../src/gdict-window.c:1465
+#: ../src/gdict-window.c:1471
 msgid "Double-click on the database to use"
 msgstr "Dubults klikšķis uz datubāzes, lai to izmantotu"
 
 # gdictsrc/gdict-app.c:453 gdictsrc/gdict-app.c:510
 # gdictsrc/gdict-applet.c:153
-#: ../src/gdict-window.c:1615
-msgid "Look _up:"
-msgstr "_Uzmeklēt:"
+#: ../src/gdict-window.c:1621
+#| msgid "Look _up:"
+msgid "Look _up"
+msgstr "_Uzmeklēt"
 
-#: ../src/gdict-window.c:1690
+#: ../src/gdict-window.c:1695
 msgid "Similar words"
 msgstr "Līdzīgie vārdi"
 
-#: ../src/gdict-window.c:1703
+#: ../src/gdict-window.c:1708
 msgid "Available dictionaries"
 msgstr "Pieejamās vārdnīcas"
 
-#: ../src/gdict-window.c:1721
+#: ../src/gdict-window.c:1726
 msgid "Available strategies"
 msgstr "Pieejamās stratēģijas"
 
-#: ../src/gdict-window.c:1737
+#: ../src/gdict-window.c:1742
 msgid "Dictionary sources"
 msgstr "Vārdnīcu avoti"
+
+#~ msgid "About Dictionary"
+#~ msgstr "Par vārdnīcu"
 
 #~ msgid "Available _Databases"
 #~ msgstr "Pieejamās _datubāzes"
@@ -912,7 +929,3 @@ msgstr "Vārdnīcu avoti"
 
 #~ msgid "_Contents"
 #~ msgstr "_Saturs"
-
-# gdictsrc/gdict-applet.c:130 mini-utils/gcolorsel/menus.c:1098
-#~ msgid "_About"
-#~ msgstr "P_ar"
