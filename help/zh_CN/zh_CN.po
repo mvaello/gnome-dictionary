@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: dictionary.gnome-2-26\n"
-"POT-Creation-Date: 2013-10-09 09:31+0000\n"
-"PO-Revision-Date: 2013-12-04 23:13+0800\n"
+"POT-Creation-Date: 2014-03-07 19:41+0000\n"
+"PO-Revision-Date: 2014-03-08 11:03+0800\n"
 "Last-Translator: Yu Zhijingcheng <yuzhijingcheng1996@hotmail.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -20,15 +20,9 @@ msgstr ""
 "Jason Yu <yuzhijingcheng1996@hotmail.com>, 2013\n"
 "Yu Zhijingcheng <yuzhijingcheng1996@hotmail.com>, 2013"
 
-#. (itstool) path: info/title
-#: C/index.page:8
-msgctxt "text"
-msgid "Dictionary"
-msgstr "字典"
-
 #. (itstool) path: credit/name
-#: C/index.page:11 C/definition.page:11 C/dictionary-select.page:11
-#: C/find.page:10 C/introduction.page:10 C/keyboard-shortcuts.page:11
+#: C/definition.page:11 C/dictionary-select.page:11 C/find.page:10
+#: C/index.page:11 C/introduction.page:10 C/keyboard-shortcuts.page:11
 #: C/pref.page:9 C/print-font.page:11 C/print.page:12
 #: C/prob-retrieving-definition.page:11 C/save-definition.page:10
 #: C/similar-words.page:11 C/source-add-local.page:11
@@ -38,46 +32,20 @@ msgid "Sindhu S"
 msgstr "Sinduhu S"
 
 #. (itstool) path: credit/years
-#: C/index.page:13 C/definition.page:13 C/definition.page:18
-#: C/dictionary-select.page:13 C/dictionary-select.page:18 C/find.page:12
-#: C/find.page:17 C/introduction.page:12 C/introduction.page:17
-#: C/keyboard-shortcuts.page:13 C/keyboard-shortcuts.page:18
-#: C/print-font.page:13 C/print-font.page:18 C/print.page:14 C/print.page:19
-#: C/prob-retrieving-definition.page:13 C/prob-retrieving-definition.page:18
-#: C/save-definition.page:12 C/save-definition.page:17 C/similar-words.page:13
-#: C/similar-words.page:18 C/source-add-local.page:13
-#: C/sources-default.page:12 C/sources-default.page:17
-#: C/sources-delete.page:13 C/sources-delete.page:18 C/sources-edit.page:12
-#: C/sources-edit.page:17 C/sources.page:14 C/sources.page:19
-#: C/sources-select.page:14 C/sources-select.page:19 C/text-copy.page:13
-#: C/text-copy.page:18
+#: C/definition.page:13 C/definition.page:18 C/dictionary-select.page:13
+#: C/dictionary-select.page:18 C/find.page:12 C/find.page:17 C/index.page:13
+#: C/introduction.page:12 C/introduction.page:17 C/keyboard-shortcuts.page:13
+#: C/keyboard-shortcuts.page:18 C/print-font.page:13 C/print-font.page:18
+#: C/print.page:14 C/print.page:19 C/prob-retrieving-definition.page:13
+#: C/prob-retrieving-definition.page:18 C/save-definition.page:12
+#: C/save-definition.page:17 C/similar-words.page:13 C/similar-words.page:18
+#: C/source-add-local.page:13 C/sources-default.page:12
+#: C/sources-default.page:17 C/sources-delete.page:13 C/sources-delete.page:18
+#: C/sources-edit.page:12 C/sources-edit.page:17 C/sources.page:14
+#: C/sources.page:19 C/sources-select.page:14 C/sources-select.page:19
+#: C/text-copy.page:13 C/text-copy.page:18
 msgid "2013"
 msgstr "2013"
-
-#. (itstool) path: info/desc
-#: C/index.page:18
-msgid "Look up word definitions in <app>Dictionary</app>."
-msgstr "在 <application>字典</application> 中查找单词释义。"
-
-#. (itstool) path: page/title
-#: C/index.page:21
-msgid "<_:media-1/> Dictionary Help"
-msgstr "<_:media-1/> 字典帮助"
-
-#. (itstool) path: section/title
-#: C/index.page:26
-msgid "Features"
-msgstr "特性"
-
-#. (itstool) path: section/title
-#: C/index.page:30
-msgid "Preferences"
-msgstr "首选项"
-
-#. (itstool) path: section/title
-#: C/index.page:34
-msgid "Common problems and solutions"
-msgstr "常见问题及解决方法"
 
 #. (itstool) path: credit/name
 #: C/definition.page:16 C/dictionary-select.page:16 C/find.page:15
@@ -242,6 +210,37 @@ msgstr ""
 "单击<gui style=\"button\">上一个</gui>或者<gui style=\"button\">下一个</gui>"
 "来浏览结果。查找不会是折回的：换句话说，当您在最后一条结果单击<gui style="
 "\"button\">下一个</gui>时，它不会回到页面的顶部。"
+
+#. (itstool) path: info/title
+#: C/index.page:8
+msgctxt "text"
+msgid "Dictionary"
+msgstr "字典"
+
+#. (itstool) path: info/desc
+#: C/index.page:18
+msgid "Look up word definitions in <app>Dictionary</app>."
+msgstr "在 <application>字典</application> 中查找单词释义。"
+
+#. (itstool) path: page/title
+#: C/index.page:21
+msgid "<_:media-1/> Dictionary Help"
+msgstr "<_:media-1/> 字典帮助"
+
+#. (itstool) path: section/title
+#: C/index.page:26
+msgid "Features"
+msgstr "特性"
+
+#. (itstool) path: section/title
+#: C/index.page:30
+msgid "Preferences"
+msgstr "首选项"
+
+#. (itstool) path: section/title
+#: C/index.page:34
+msgid "Common problems and solutions"
+msgstr "常见问题及解决方法"
 
 #. (itstool) path: media
 #. This is a reference to an external file such as an image or video. When
@@ -1061,7 +1060,7 @@ msgid ""
 "You can copy and paste definitions from <app>Dictionary</app> to another "
 "application."
 msgstr ""
-"您可以从<application>字典</app>中复制释义并将其粘贴至另一个应用程序中。"
+"您可以从<app>字典</app>中复制释义并将其粘贴至另一个应用程序中。"
 
 #. (itstool) path: steps/title
 #: C/text-copy.page:33
