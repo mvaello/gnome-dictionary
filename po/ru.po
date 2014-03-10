@@ -16,9 +16,9 @@ msgstr ""
 "Project-Id-Version: gnome-utils trunk\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "dictionary&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2013-07-07 00:55+0000\n"
-"PO-Revision-Date: 2013-07-07 13:26+0600\n"
-"Last-Translator: Dmitriy S. Seregin <dseregin@59.ru>\n"
+"POT-Creation-Date: 2014-03-10 07:41+0000\n"
+"PO-Revision-Date: 2014-03-10 21:55+0300\n"
+"Last-Translator: Yuri Myasoedov <omerta13@yandex.ru>\n"
 "Language-Team: Russian <gnome-cyr@gnome.org>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
@@ -27,14 +27,14 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "10<=4 && (n%100<10 || n%100>=20) ? 1: 2);\n"
-"X-Generator: Poedit 1.5.7\n"
+"X-Generator: Poedit 1.5.4\n"
 
 #: ../data/default.desktop.in.h:1
 msgid "Default Dictionary Server"
 msgstr "Сервер словаря по умолчанию"
 
 #: ../data/gnome-dictionary.desktop.in.in.h:1 ../src/gdict-about.c:60
-#: ../src/gdict-app.c:347 ../src/gdict-window.c:543 ../src/gdict-window.c:1805
+#: ../src/gdict-app.c:347 ../src/gdict-window.c:543 ../src/gdict-window.c:1810
 msgid "Dictionary"
 msgstr "Словарь"
 
@@ -46,6 +46,18 @@ msgstr "Проверить определение и правописание с
 msgid "word;synonym;definition;spelling;"
 msgstr "слово;синоним;определение;правописание;"
 
+#: ../data/gnome-dictionary.appdata.xml.in.h:1
+msgid ""
+"GNOME Dictionary is a simple dictionary application that looks up "
+"definitions of words online. Though it looks up English definitions by "
+"default, you can easily switch to Spanish or add other online dictionaries "
+"using the DICT protocol to suit your needs."
+msgstr ""
+"Словарь GNOME — это простое приложение, которое ищет определения слов в "
+"сети. Хотя по умолчанию ищутся английские определения, вы легко можете "
+"переключиться на русский язык или добавить другие онлайн-словари, используя "
+"протокол DICT."
+
 #: ../data/gnome-dictionary-menus.ui.h:1
 msgid "Preferences"
 msgstr "Параметры"
@@ -55,8 +67,9 @@ msgid "Help"
 msgstr "Справка"
 
 #: ../data/gnome-dictionary-menus.ui.h:3
-msgid "About Dictionary"
-msgstr "О программе «Словарь»"
+#| msgid "_About"
+msgid "About"
+msgstr "О приложении"
 
 #: ../data/gnome-dictionary-menus.ui.h:4
 msgid "Quit"
@@ -72,7 +85,7 @@ msgstr "_Создать"
 
 #: ../data/gnome-dictionary-menus.ui.h:7
 msgid "_Save a Copy..."
-msgstr "_Сохранить копию..."
+msgstr "_Сохранить копию…"
 
 #: ../data/gnome-dictionary-menus.ui.h:8
 msgid "P_review"
@@ -617,7 +630,8 @@ msgstr ""
 "Дмитрий Мастрюков\n"
 "Андрей Носенко\n"
 "Леонид Кантер\n"
-"Василий Фаронов <qvvx@yandex.ru>"
+"Василий Фаронов <qvvx@yandex.ru>Юрий Мясоедов <ymyasoedov@yandex.ru>, 2013, "
+"2014."
 
 #: ../src/gdict-about.c:55
 msgid "Look up words in dictionaries"
@@ -724,7 +738,7 @@ msgstr "Не удалось сохранить файл источника"
 #: ../src/gdict-window.c:253
 #, c-format
 msgid "Searching for '%s'..."
-msgstr "Идёт поиск «%s»..."
+msgstr "Поиск «%s»…"
 
 #: ../src/gdict-window.c:285 ../src/gdict-window.c:342
 msgid "No definitions found"
@@ -774,65 +788,69 @@ msgstr "Безымянный документ"
 msgid "Error while writing to '%s'"
 msgstr "Произошла ошибка при записи в «%s»"
 
-#: ../src/gdict-window.c:1359
+#: ../src/gdict-window.c:1365
 #, c-format
 msgid "Dictionary source `%s' selected"
 msgstr "Выбран источник словарей «%s»"
 
-#: ../src/gdict-window.c:1380
+#: ../src/gdict-window.c:1386
 #, c-format
 msgid "Strategy `%s' selected"
 msgstr "Выбрана стратегия «%s»"
 
-#: ../src/gdict-window.c:1400
+#: ../src/gdict-window.c:1406
 #, c-format
 msgid "Database `%s' selected"
 msgstr "Выбрана база данных «%s»"
 
-#: ../src/gdict-window.c:1420
+#: ../src/gdict-window.c:1426
 #, c-format
 msgid "Word `%s' selected"
 msgstr "Выделено слово «%s»"
 
 #. speller
-#: ../src/gdict-window.c:1445
+#: ../src/gdict-window.c:1451
 msgid "Double-click on the word to look up"
 msgstr "Дважды щёлкните по слову, которое хотите найти"
 
 #. strat-chooser
-#: ../src/gdict-window.c:1451
+#: ../src/gdict-window.c:1457
 msgid "Double-click on the matching strategy to use"
 msgstr "Дважды щёлкните по стратегии, которую хотите использовать"
 
 #. source-chooser
-#: ../src/gdict-window.c:1456
+#: ../src/gdict-window.c:1462
 msgid "Double-click on the source to use"
 msgstr "Дважды щёлкните по источнику, который хотите использовать"
 
 #. db-chooser
-#: ../src/gdict-window.c:1465
+#: ../src/gdict-window.c:1471
 msgid "Double-click on the database to use"
 msgstr "Дважды щёлкните по базе данных, которую хотите использовать"
 
-#: ../src/gdict-window.c:1615
-msgid "Look _up:"
-msgstr "_Искать:"
+#: ../src/gdict-window.c:1621
+#| msgid "Look _up:"
+msgid "Look _up"
+msgstr "_Найти"
 
-#: ../src/gdict-window.c:1690
+#: ../src/gdict-window.c:1695
 msgid "Similar words"
 msgstr "Похожие слова"
 
-#: ../src/gdict-window.c:1703
+#: ../src/gdict-window.c:1708
 msgid "Available dictionaries"
 msgstr "Доступные словари"
 
-#: ../src/gdict-window.c:1721
+#: ../src/gdict-window.c:1726
 msgid "Available strategies"
 msgstr "Доступные стратегии"
 
-#: ../src/gdict-window.c:1737
+#: ../src/gdict-window.c:1742
 msgid "Dictionary sources"
 msgstr "Источники словарей"
+
+#~ msgid "About Dictionary"
+#~ msgstr "О программе «Словарь»"
 
 #~ msgid "Available _Databases"
 #~ msgstr "_Доступные базы данных"
@@ -866,6 +884,3 @@ msgstr "Источники словарей"
 
 #~ msgid "_Contents"
 #~ msgstr "_Содержание"
-
-#~ msgid "_About"
-#~ msgstr "_О программе..."
