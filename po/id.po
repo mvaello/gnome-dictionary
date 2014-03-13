@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the gnome-utils package.
 #
 # Mohammad DAMT <mdamt@bisnisweb.com>, 2003-2005.
-# Andika Triwidada <andika@gmail.com>, 2010-2013.
+# Andika Triwidada <andika@gmail.com>, 2010-2014.
 # Dirgita <dirgitadevina@yahoo.co.id>, 2011.
 # Bonaventura Aditya Perdana <bonaditya@about.me>, 2012.
 msgid ""
@@ -10,8 +10,8 @@ msgstr ""
 "Project-Id-Version: gnome-dictionary master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "dictionary&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2013-07-06 16:31+0000\n"
-"PO-Revision-Date: 2013-07-07 07:52+0700\n"
+"POT-Creation-Date: 2014-03-12 19:39+0000\n"
+"PO-Revision-Date: 2014-03-13 11:11+0700\n"
 "Last-Translator: Andika Triwidada <andika@gmail.com>\n"
 "Language-Team: GNOME Indonesian Translation Team <gnome@i15n.org>\n"
 "Language: id_ID\n"
@@ -27,7 +27,7 @@ msgid "Default Dictionary Server"
 msgstr "Server Kamus Default"
 
 #: ../data/gnome-dictionary.desktop.in.in.h:1 ../src/gdict-about.c:60
-#: ../src/gdict-app.c:347 ../src/gdict-window.c:543 ../src/gdict-window.c:1805
+#: ../src/gdict-app.c:347 ../src/gdict-window.c:543 ../src/gdict-window.c:1810
 msgid "Dictionary"
 msgstr "Kamus"
 
@@ -39,6 +39,18 @@ msgstr "Cari penjelasan dan pengejaan kata di dalam kamus online"
 msgid "word;synonym;definition;spelling;"
 msgstr "kata;sinonim;definisi;pengejaan;"
 
+#: ../data/gnome-dictionary.appdata.xml.in.h:1
+msgid ""
+"GNOME Dictionary is a simple dictionary application that looks up "
+"definitions of words online. Though it looks up English definitions by "
+"default, you can easily switch to Spanish or add other online dictionaries "
+"using the DICT protocol to suit your needs."
+msgstr ""
+"GNOME Kamus adalam aplikasi kamus sederhana yang mencari definisi dari suatu "
+"kata secara daring. Walaupun ini mencari definisi bahasa Inggris secara "
+"baku, Anda dapat dengan mudah berpindah ke bahasa Spanyol atau menambah "
+"kamus daring lain memakai protokol DICT untuk memenuhi keperluan Anda."
+
 #: ../data/gnome-dictionary-menus.ui.h:1
 msgid "Preferences"
 msgstr "Preferensi"
@@ -48,8 +60,8 @@ msgid "Help"
 msgstr "Bantuan"
 
 #: ../data/gnome-dictionary-menus.ui.h:3
-msgid "About Dictionary"
-msgstr "Tentang Kamus"
+msgid "About"
+msgstr "Tentang"
 
 #: ../data/gnome-dictionary-menus.ui.h:4
 msgid "Quit"
@@ -604,7 +616,7 @@ msgid "translator-credits"
 msgstr ""
 "Ahmad Riza H Nst <rizahnst@gnome.org>\n"
 "Mohammad DAMT <mdamt@bisnisweb.com>, 2003-2005\n"
-"Andika Triwidada <andika@gmail.com>, 2010-2013\n"
+"Andika Triwidada <andika@gmail.com>, 2010-2014\n"
 "Dirgita <dirgitadevina@yahoo.co.id>, 2011\n"
 "Bonaventura Aditya Perdana <bonaditya@about.me>, 2012"
 
@@ -761,62 +773,62 @@ msgstr "Dokumen belum berjudul"
 msgid "Error while writing to '%s'"
 msgstr "Error saat menulis ke: '%s'"
 
-#: ../src/gdict-window.c:1359
+#: ../src/gdict-window.c:1365
 #, c-format
 msgid "Dictionary source `%s' selected"
 msgstr "Sumber kamus '%s' dipilih"
 
-#: ../src/gdict-window.c:1380
+#: ../src/gdict-window.c:1386
 #, c-format
 msgid "Strategy `%s' selected"
 msgstr "Strategi '%s' dipilih"
 
-#: ../src/gdict-window.c:1400
+#: ../src/gdict-window.c:1406
 #, c-format
 msgid "Database `%s' selected"
 msgstr "Basis Data `%s' terpilih"
 
-#: ../src/gdict-window.c:1420
+#: ../src/gdict-window.c:1426
 #, c-format
 msgid "Word `%s' selected"
 msgstr "Kata `%s' terpilih"
 
 #. speller
-#: ../src/gdict-window.c:1445
+#: ../src/gdict-window.c:1451
 msgid "Double-click on the word to look up"
 msgstr "Klik ganda pada kata untuk menemukan"
 
 #. strat-chooser
-#: ../src/gdict-window.c:1451
+#: ../src/gdict-window.c:1457
 msgid "Double-click on the matching strategy to use"
 msgstr "Klik ganda pada strategi yang cocok untuk dipakai"
 
 #. source-chooser
-#: ../src/gdict-window.c:1456
+#: ../src/gdict-window.c:1462
 msgid "Double-click on the source to use"
 msgstr "Klik ganda pada sumber yang akan dipakai"
 
 #. db-chooser
-#: ../src/gdict-window.c:1465
+#: ../src/gdict-window.c:1471
 msgid "Double-click on the database to use"
 msgstr "Klik ganda pada basis data untuk menggunakan"
 
-#: ../src/gdict-window.c:1615
-msgid "Look _up:"
-msgstr "_Cari:"
+#: ../src/gdict-window.c:1621
+msgid "Look _up"
+msgstr "_Cari"
 
-#: ../src/gdict-window.c:1690
+#: ../src/gdict-window.c:1695
 msgid "Similar words"
 msgstr "Kata yang sama"
 
-#: ../src/gdict-window.c:1703
+#: ../src/gdict-window.c:1708
 msgid "Available dictionaries"
 msgstr "Kamus tersedia"
 
-#: ../src/gdict-window.c:1721
+#: ../src/gdict-window.c:1726
 msgid "Available strategies"
 msgstr "Strategi tersedia"
 
-#: ../src/gdict-window.c:1737
+#: ../src/gdict-window.c:1742
 msgid "Dictionary sources"
 msgstr "Sumber kamus"
