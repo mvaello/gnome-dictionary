@@ -10,14 +10,15 @@
 # Tomasz Dominikowski <dominikowski@gmail.com>, 2007-2009.
 # Joanna Mazgaj <jmazgaj@aviary.pl>, 2008.
 # Piotr Drąg <piotrdrag@gmail.com>, 2010-2013.
-# Aviary.pl <gnomepl@aviary.pl>, 2007-2013.
+# Paweł Żołnowski <pawel@zolnowski.name>, 2014.
+# Aviary.pl <gnomepl@aviary.pl>, 2007-2014.
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-dictionary\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-07-06 19:13+0200\n"
-"PO-Revision-Date: 2013-07-06 19:14+0200\n"
-"Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
+"POT-Creation-Date: 2014-03-14 17:05+0100\n"
+"PO-Revision-Date: 2014-03-14 11:28+0100\n"
+"Last-Translator: Paweł Żołnowski <pawel@zolnowski.name>\n"
 "Language-Team: Polish <gnomepl@aviary.pl>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
@@ -33,7 +34,7 @@ msgid "Default Dictionary Server"
 msgstr "Domyślny serwer słownika"
 
 #: ../data/gnome-dictionary.desktop.in.in.h:1 ../src/gdict-about.c:60
-#: ../src/gdict-app.c:347 ../src/gdict-window.c:543 ../src/gdict-window.c:1805
+#: ../src/gdict-app.c:347 ../src/gdict-window.c:543 ../src/gdict-window.c:1810
 msgid "Dictionary"
 msgstr "Słownik"
 
@@ -45,6 +46,18 @@ msgstr "Wyświetlanie definicji i pisowni słów w słowniku sieciowym"
 msgid "word;synonym;definition;spelling;"
 msgstr "słowo;wyraz;synonim;definicja;pisownia;"
 
+#: ../data/gnome-dictionary.appdata.xml.in.h:1
+msgid ""
+"GNOME Dictionary is a simple dictionary application that looks up "
+"definitions of words online. Though it looks up English definitions by "
+"default, you can easily switch to Spanish or add other online dictionaries "
+"using the DICT protocol to suit your needs."
+msgstr ""
+"Słownik GNOME w prosty sposób umożliwia wyszukiwanie definicji słów w "
+"Internecie. Program domyślnie wyszukuje angielskie definicje, ale z "
+"łatwością można zmienić język na hiszpański lub dodać inne słowniki "
+"internetowe za pomocą protokołu DICT, aby dopasować go do swoich potrzeb."
+
 #: ../data/gnome-dictionary-menus.ui.h:1
 msgid "Preferences"
 msgstr "Preferencje"
@@ -54,8 +67,8 @@ msgid "Help"
 msgstr "Pomoc"
 
 #: ../data/gnome-dictionary-menus.ui.h:3
-msgid "About Dictionary"
-msgstr "O słowniku"
+msgid "About"
+msgstr "O programie"
 
 #: ../data/gnome-dictionary-menus.ui.h:4
 msgid "Quit"
@@ -618,7 +631,8 @@ msgstr ""
 "Tomasz Dominikowski <dominikowski@gmail.com>, 2007-2009\n"
 "Joanna Mazgaj <jmazgaj@aviary.pl>, 2008\n"
 "Piotr Drąg <piotrdrag@gmail.com>, 2010-2013\n"
-"Aviary.pl <gnomepl@aviary.pl>, 2007-2013"
+"Paweł Żołnowski <pawel@zolnowski.name>, 2014\n"
+"Aviary.pl <gnomepl@aviary.pl>, 2007-2014"
 
 #: ../src/gdict-about.c:55
 msgid "Look up words in dictionaries"
@@ -775,62 +789,62 @@ msgstr "Dokument bez nazwy"
 msgid "Error while writing to '%s'"
 msgstr "Błąd podczas zapisywania do \"%s\""
 
-#: ../src/gdict-window.c:1359
+#: ../src/gdict-window.c:1365
 #, c-format
 msgid "Dictionary source `%s' selected"
 msgstr "Źródło słownika \"%s\" zaznaczone"
 
-#: ../src/gdict-window.c:1380
+#: ../src/gdict-window.c:1386
 #, c-format
 msgid "Strategy `%s' selected"
 msgstr "Wybrano strategię \"%s\""
 
-#: ../src/gdict-window.c:1400
+#: ../src/gdict-window.c:1406
 #, c-format
 msgid "Database `%s' selected"
 msgstr "Wybrano bazę \"%s\""
 
-#: ../src/gdict-window.c:1420
+#: ../src/gdict-window.c:1426
 #, c-format
 msgid "Word `%s' selected"
 msgstr "Wybrano słowo \"%s\""
 
 #. speller
-#: ../src/gdict-window.c:1445
+#: ../src/gdict-window.c:1451
 msgid "Double-click on the word to look up"
 msgstr "Podwójne kliknięcie uruchamia wyszukiwanie"
 
 #. strat-chooser
-#: ../src/gdict-window.c:1451
+#: ../src/gdict-window.c:1457
 msgid "Double-click on the matching strategy to use"
 msgstr "Podwójne kliknięcie wybiera strategię do użycia"
 
 #. source-chooser
-#: ../src/gdict-window.c:1456
+#: ../src/gdict-window.c:1462
 msgid "Double-click on the source to use"
 msgstr "Podwójne kliknięcie wybiera źródło"
 
 #. db-chooser
-#: ../src/gdict-window.c:1465
+#: ../src/gdict-window.c:1471
 msgid "Double-click on the database to use"
 msgstr "Podwójne kliknięcie wybiera bazę"
 
-#: ../src/gdict-window.c:1615
-msgid "Look _up:"
-msgstr "Wy_szukiwanie:"
+#: ../src/gdict-window.c:1621
+msgid "Look _up"
+msgstr "Wysz_ukaj"
 
-#: ../src/gdict-window.c:1690
+#: ../src/gdict-window.c:1695
 msgid "Similar words"
 msgstr "Podobne słowa"
 
-#: ../src/gdict-window.c:1703
+#: ../src/gdict-window.c:1708
 msgid "Available dictionaries"
 msgstr "Dostępne słowniki"
 
-#: ../src/gdict-window.c:1721
+#: ../src/gdict-window.c:1726
 msgid "Available strategies"
 msgstr "Dostępne strategie"
 
-#: ../src/gdict-window.c:1737
+#: ../src/gdict-window.c:1742
 msgid "Dictionary sources"
 msgstr "Źródła słowników"
