@@ -1,6 +1,6 @@
-# French translation of gnome-utils.
-# Copyright (C) 1998-2012 Free Software Foundation, Inc.
-# This file is distributed under the same license as the gnome-utils package.
+# French translation of gnome-dictionary.
+# Copyright (C) 1998-2014 Free Software Foundation, Inc.
+# This file is distributed under the same license as the gnome-dictionary package.
 #
 # Vincent Renardias <vincent@ldsol.com>, 1998-2000.
 # Thibaut Cousin <cousin@clermont.in2p3.fr>, 1999.
@@ -19,14 +19,14 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-utils HEAD\n"
+"Project-Id-Version: gnome-dictionary master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "dictionary&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2013-07-18 11:41+0000\n"
-"PO-Revision-Date: 2013-08-24 17:12+0200\n"
-"Last-Translator: Bruno Brouard <annoa.b@gmail.com>\n"
+"POT-Creation-Date: 2014-03-15 19:39+0000\n"
+"PO-Revision-Date: 2014-03-15 22:41+0100\n"
+"Last-Translator: Claude Paroz <claude@2xlibre.net>\n"
 "Language-Team: GNOME French Team <gnomefr@traduc.org>\n"
-"Language: \n"
+"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -37,7 +37,7 @@ msgid "Default Dictionary Server"
 msgstr "Serveur de Dictionnaire par défaut"
 
 #: ../data/gnome-dictionary.desktop.in.in.h:1 ../src/gdict-about.c:60
-#: ../src/gdict-app.c:347 ../src/gdict-window.c:543 ../src/gdict-window.c:1805
+#: ../src/gdict-app.c:347 ../src/gdict-window.c:543 ../src/gdict-window.c:1810
 msgid "Dictionary"
 msgstr "Dictionnaire"
 
@@ -51,6 +51,19 @@ msgstr ""
 msgid "word;synonym;definition;spelling;"
 msgstr "mot;synonyme;définition;orthographe;"
 
+#: ../data/gnome-dictionary.appdata.xml.in.h:1
+msgid ""
+"GNOME Dictionary is a simple dictionary application that looks up "
+"definitions of words online. Though it looks up English definitions by "
+"default, you can easily switch to Spanish or add other online dictionaries "
+"using the DICT protocol to suit your needs."
+msgstr ""
+"Le Dictionnaire GNOME est une simple application de dictionnaire permettant "
+"de consulter des définitions de mots en ligne. Même si par défaut, ce sont "
+"les définitions anglaises qui sont recherchées, il est très facile de choisir "
+"une autre langue ou d'ajouter d'autres dictionnaires en ligne se conformant "
+"au protocole DICT afin de répondre à vos propres besoins."
+
 #: ../data/gnome-dictionary-menus.ui.h:1
 msgid "Preferences"
 msgstr "Préférences"
@@ -60,8 +73,8 @@ msgid "Help"
 msgstr "Aide"
 
 #: ../data/gnome-dictionary-menus.ui.h:3
-msgid "About Dictionary"
-msgstr "À propos de Dictionnaire"
+msgid "About"
+msgstr "À propos"
 
 #: ../data/gnome-dictionary-menus.ui.h:4
 msgid "Quit"
@@ -788,65 +801,62 @@ msgstr "Document sans titre"
 msgid "Error while writing to '%s'"
 msgstr "Erreur lors de l'écriture de « %s »"
 
-#: ../src/gdict-window.c:1359
+#: ../src/gdict-window.c:1365
 #, c-format
 msgid "Dictionary source `%s' selected"
 msgstr "Source de Dictionnaire « %s » sélectionnée"
 
-#: ../src/gdict-window.c:1380
+#: ../src/gdict-window.c:1386
 #, c-format
 msgid "Strategy `%s' selected"
 msgstr "Stratégie « %s » sélectionnée"
 
-#: ../src/gdict-window.c:1400
+#: ../src/gdict-window.c:1406
 #, c-format
 msgid "Database `%s' selected"
 msgstr "Base de données « %s » sélectionnée"
 
-#: ../src/gdict-window.c:1420
+#: ../src/gdict-window.c:1426
 #, c-format
 msgid "Word `%s' selected"
 msgstr "Mot « %s » sélectionné"
 
 #. speller
-#: ../src/gdict-window.c:1445
+#: ../src/gdict-window.c:1451
 msgid "Double-click on the word to look up"
 msgstr "Double-cliquez sur le mot pour le rechercher"
 
 #. strat-chooser
-#: ../src/gdict-window.c:1451
+#: ../src/gdict-window.c:1457
 msgid "Double-click on the matching strategy to use"
 msgstr "Double-cliquez sur la stratégie correspondante pour l'utiliser"
 
 #. source-chooser
-#: ../src/gdict-window.c:1456
+#: ../src/gdict-window.c:1462
 msgid "Double-click on the source to use"
 msgstr "Double-cliquez sur la source à utiliser"
 
 #. db-chooser
-#: ../src/gdict-window.c:1465
+#: ../src/gdict-window.c:1471
 msgid "Double-click on the database to use"
 msgstr "Double-cliquez sur la base de données à utiliser"
 
-#: ../src/gdict-window.c:1615
-msgid "Look _up:"
-msgstr "_Rechercher :"
+#: ../src/gdict-window.c:1621
+msgid "Look _up"
+msgstr "_Rechercher"
 
-#: ../src/gdict-window.c:1690
+#: ../src/gdict-window.c:1695
 msgid "Similar words"
 msgstr "Mots similaires"
 
-#: ../src/gdict-window.c:1703
+#: ../src/gdict-window.c:1708
 msgid "Available dictionaries"
 msgstr "Dictionnaires disponibles"
 
-#: ../src/gdict-window.c:1721
+#: ../src/gdict-window.c:1726
 msgid "Available strategies"
 msgstr "Stratégies disponibles"
 
-#: ../src/gdict-window.c:1737
+#: ../src/gdict-window.c:1742
 msgid "Dictionary sources"
 msgstr "Sources de Dictionnaire"
-
-#~ msgid "Available _Databases"
-#~ msgstr "_Bases de données disponibles"
