@@ -50,7 +50,7 @@ CLEANFILES += $(gsettings_SCHEMAS) \
 	$(dictsource_DATA) \
 	$(gdictapp_in_files) \
 	$(gdictapp_DATA) \
-	$(appdata_in_files)
+	$(appdata_DATA)
 	
 @GSETTINGS_RULES@
 
