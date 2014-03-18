@@ -1,6 +1,6 @@
 dnl -*- mode: m4 -*-
 AC_PREREQ(2.63)
-AC_INIT([gnome-dictionary], [3.10.0],
+AC_INIT([gnome-dictionary], [3.11.0],
 	[http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-dictionary],
 	[gnome-dictionary],
 	[http://live.gnome.org/GnomeUtils])
@@ -150,7 +150,7 @@ GTK_DOC_CHECK([1.15], [--flavour no-tmpl])
 
 YELP_HELP_INIT
 
-GLIB_MIN_VERSION=2.28.0
+GLIB_MIN_VERSION=2.39.0
 GTK_MIN_VERSION=3.0.0
 
 PKG_CHECK_MODULES(GDICT,
