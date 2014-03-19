@@ -7,7 +7,7 @@
 # Andras Timar <timar at gnome dot hu>, 2001, 2002, 2003.
 # Gabor Sari <saga at gnome dot hu>, 2003, 2004.
 # Laszlo Dvornik <dvornik at gnome dot hu>, 2004.
-# Gabor Kelemen <kelemeng at gnome dot hu>, 2004, 2006, 2007, 2008, 2009, 2010, 2011, 2012.
+# Gabor Kelemen <kelemeng at gnome dot hu>, 2004, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2014.
 # Mate ORY <orymate at gmail d0t com>, 2006.
 # Balázs Úr <urbalazs at gmail dot com>, 2012, 2013.
 msgid ""
@@ -15,23 +15,23 @@ msgstr ""
 "Project-Id-Version: gnome-utils master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "dictionary&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2013-07-18 11:41+0000\n"
-"PO-Revision-Date: 2013-08-25 20:10+0200\n"
-"Last-Translator: Balázs Úr <urbalazs at gmail dot com>\n"
-"Language-Team: Hungarian <gnome-hu-list at gnome dot org>\n"
+"POT-Creation-Date: 2014-02-28 07:38+0000\n"
+"PO-Revision-Date: 2014-03-19 11:28+0100\n"
+"Last-Translator: Gabor Kelemen <kelemeng at gnome dot hu>\n"
+"Language-Team: Hungarian <openscope at googlegroups dot com>\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms:  nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 1.2\n"
+"X-Generator: Lokalize 1.4\n"
 
 #: ../data/default.desktop.in.h:1
 msgid "Default Dictionary Server"
 msgstr "Alapértelmezett szótárkiszolgáló"
 
 #: ../data/gnome-dictionary.desktop.in.in.h:1 ../src/gdict-about.c:60
-#: ../src/gdict-app.c:347 ../src/gdict-window.c:543 ../src/gdict-window.c:1805
+#: ../src/gdict-app.c:347 ../src/gdict-window.c:543 ../src/gdict-window.c:1810
 msgid "Dictionary"
 msgstr "Szótár"
 
@@ -43,6 +43,18 @@ msgstr "Szavak meghatározásainak és helyesírásának keresése online szót�
 msgid "word;synonym;definition;spelling;"
 msgstr "szó;szinonima;definíció;betűzés;"
 
+#: ../data/gnome-dictionary.appdata.xml.in.h:1
+msgid ""
+"GNOME Dictionary is a simple dictionary application that looks up "
+"definitions of words online. Though it looks up English definitions by "
+"default, you can easily switch to Spanish or add other online dictionaries "
+"using the DICT protocol to suit your needs."
+msgstr ""
+"A GNOME Szótár egy egyszerű szótáralkalmazás, amely szavak definícióit keresi "
+"ki online. Noha alapesetben angol definíciókat keres, egyszerűen át lehet "
+"váltani spanyolra, vagy más online szótárak is felvehetők a DICT protokoll "
+"használatával."
+
 #: ../data/gnome-dictionary-menus.ui.h:1
 msgid "Preferences"
 msgstr "Beállítások"
@@ -52,8 +64,9 @@ msgid "Help"
 msgstr "Súgó"
 
 #: ../data/gnome-dictionary-menus.ui.h:3
-msgid "About Dictionary"
-msgstr "A Szótár névjegye"
+#| msgid "_About"
+msgid "About"
+msgstr "Névjegy"
 
 #: ../data/gnome-dictionary-menus.ui.h:4
 msgid "Quit"
@@ -128,7 +141,6 @@ msgid "Dictionary Sources"
 msgstr "Szótárforrások"
 
 #: ../data/gnome-dictionary-menus.ui.h:22
-#| msgid "Available dictionaries"
 msgid "Available _Dictionaries"
 msgstr "Elérhető _szótárak"
 
@@ -767,65 +779,69 @@ msgstr "Névtelen dokumentum"
 msgid "Error while writing to '%s'"
 msgstr "Hiba történt „%s” írásakor"
 
-#: ../src/gdict-window.c:1359
+#: ../src/gdict-window.c:1365
 #, c-format
 msgid "Dictionary source `%s' selected"
 msgstr "A szótárforrás („%s”) kiválasztva"
 
-#: ../src/gdict-window.c:1380
+#: ../src/gdict-window.c:1386
 #, c-format
 msgid "Strategy `%s' selected"
 msgstr "A(z) „%s” stratégia kiválasztva"
 
-#: ../src/gdict-window.c:1400
+#: ../src/gdict-window.c:1406
 #, c-format
 msgid "Database `%s' selected"
 msgstr "A(z) „%s” adatbázis kiválasztva"
 
-#: ../src/gdict-window.c:1420
+#: ../src/gdict-window.c:1426
 #, c-format
 msgid "Word `%s' selected"
 msgstr "A(z) „%s” szó kiválasztva"
 
 #. speller
-#: ../src/gdict-window.c:1445
+#: ../src/gdict-window.c:1451
 msgid "Double-click on the word to look up"
 msgstr "Kattintson duplán a szó kikereséséhez"
 
 #. strat-chooser
-#: ../src/gdict-window.c:1451
+#: ../src/gdict-window.c:1457
 msgid "Double-click on the matching strategy to use"
 msgstr "Kattintson duplán a használandó keresési stratégiára"
 
 #. source-chooser
-#: ../src/gdict-window.c:1456
+#: ../src/gdict-window.c:1462
 msgid "Double-click on the source to use"
 msgstr "Kattintson duplán a használandó szótáron"
 
 #. db-chooser
-#: ../src/gdict-window.c:1465
+#: ../src/gdict-window.c:1471
 msgid "Double-click on the database to use"
 msgstr "Kattintson duplán a használandó adatbázison"
 
-#: ../src/gdict-window.c:1615
-msgid "Look _up:"
-msgstr "_Keresés:"
+#: ../src/gdict-window.c:1621
+#| msgid "Look _up:"
+msgid "Look _up"
+msgstr "_Keresés"
 
-#: ../src/gdict-window.c:1690
+#: ../src/gdict-window.c:1695
 msgid "Similar words"
 msgstr "Hasonló szavak"
 
-#: ../src/gdict-window.c:1703
+#: ../src/gdict-window.c:1708
 msgid "Available dictionaries"
 msgstr "Elérhető szótárak"
 
-#: ../src/gdict-window.c:1721
+#: ../src/gdict-window.c:1726
 msgid "Available strategies"
 msgstr "Elérhető stratégiák"
 
-#: ../src/gdict-window.c:1737
+#: ../src/gdict-window.c:1742
 msgid "Dictionary sources"
 msgstr "Szótárforrások"
+
+#~ msgid "About Dictionary"
+#~ msgstr "A Szótár névjegye"
 
 #~ msgid "Available _Databases"
 #~ msgstr "_Elérhető adatbázisok"
@@ -859,6 +875,3 @@ msgstr "Szótárforrások"
 
 #~ msgid "_Contents"
 #~ msgstr "_Tartalom"
-
-#~ msgid "_About"
-#~ msgstr "_Névjegy"
