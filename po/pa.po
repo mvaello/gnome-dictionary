@@ -5,14 +5,14 @@
 #
 # Amanpreet Singh Alam <amanlinux@netscape.net>, 2004.
 # A S Alam <aalam@users.sf.net>, 2005, 2006, 2007,2008, 2009, 2010, 2011.
-# Amanpreet Singh Alam <aalam@users.sf.net>, 2009, 2012, 2013.
+# Amanpreet Singh Alam <aalam@users.sf.net>, 2009, 2012, 2013, 2014.
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-utils.HEAD\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "dictionary&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2013-07-18 11:41+0000\n"
-"PO-Revision-Date: 2013-09-17 22:29-0500\n"
+"POT-Creation-Date: 2014-03-19 07:38+0000\n"
+"PO-Revision-Date: 2014-03-19 16:15-0500\n"
 "Last-Translator: A S Alam <aalam@users.sf.net>\n"
 "Language-Team: Punjabi/Panjabi <kde-i18n-doc@kde.org>\n"
 "Language: pa\n"
@@ -27,7 +27,7 @@ msgid "Default Dictionary Server"
 msgstr "ਡਿਫਾਲਟ ਡਿਕਸ਼ਨਰੀ ਸਰਵਰ"
 
 #: ../data/gnome-dictionary.desktop.in.in.h:1 ../src/gdict-about.c:60
-#: ../src/gdict-app.c:347 ../src/gdict-window.c:543 ../src/gdict-window.c:1805
+#: ../src/gdict-app.c:347 ../src/gdict-window.c:543 ../src/gdict-window.c:1810
 msgid "Dictionary"
 msgstr "ਡਿਕਸ਼ਨਰੀ"
 
@@ -39,6 +39,19 @@ msgstr "ਇੱਕ ਆਨਲਾਈਨ ਡਿਕਸ਼ਨਰੀ ਵਿੱਚ ਸ਼�
 msgid "word;synonym;definition;spelling;"
 msgstr "ਸ਼ਬਦ;ਪਰਿਭਾਸ਼ਾ;ਪ੍ਰੀਭਾਸ਼ਾ;ਸ਼ਬਦ-ਜੋੜ;ਸਮਾਨਅਰਥ;word;synonym;definition;spelling;"
 
+#: ../data/gnome-dictionary.appdata.xml.in.h:1
+msgid ""
+"GNOME Dictionary is a simple dictionary application that looks up "
+"definitions of words online. Though it looks up English definitions by "
+"default, you can easily switch to Spanish or add other online dictionaries "
+"using the DICT protocol to suit your needs."
+msgstr ""
+"ਗਨੋਮ ਡਿਕਸ਼ਨਰੀ ਸਧਾਰਨ ਡਿਕਸ਼ਨਰੀ ਐਪਲੀਕੇਸ਼ਨ ਹੈ, ਜੋ ਕਿ ਸ਼ਬਦਾਂ ਦੀ ਪਰਿਭਾਸ਼ਾ ਆਨਲਾਈਨ "
+"ਲੱਭਦੀ ਹੈ। ਹਾਲਾਂਕਿ ਇਹ ਅੰਗਰੇਜ਼ੀ ਪਰਿਭਾਸ਼ਾ ਮੂਲ ਰੂਪ ਵਿੱਚ ਲੱਭਦੀ ਹੈ, ਪਰ ਤੁਸੀਂ ਸੌਖੀ "
+"ਤਰ੍ਹਾਂ ਸਪੇਨੀ "
+"ਲਈ ਬਦਲ ਸਕਦੇ ਹੋ ਜਾਂ ਆਪਣੀਆਂ ਲੋੜਾਂ ਨੂੰ ਪੂਰਾ ਕਰਦੀਆਂ ਹੋਰ ਆਨਲਾਈਨ ਡਿਕਸ਼ਨਰੀਆਂ ਨੂੰ "
+"DICT ਪ੍ਰੋਟੋਕਾਲ ਦੀ ਵਰਤੋਂ ਜੋੜ ਵੀ ਸਕਦੇ ਹੋ।"
+
 #: ../data/gnome-dictionary-menus.ui.h:1
 msgid "Preferences"
 msgstr "ਮੇਰੀ ਪਸੰਦ"
@@ -48,8 +61,9 @@ msgid "Help"
 msgstr "ਮੱਦਦ"
 
 #: ../data/gnome-dictionary-menus.ui.h:3
-msgid "About Dictionary"
-msgstr "ਡਿਕਸ਼ਨਰੀ ਬਾਰੇ"
+#| msgid "_About"
+msgid "About"
+msgstr "ਇਸ ਬਾਰੇ"
 
 #: ../data/gnome-dictionary-menus.ui.h:4
 msgid "Quit"
@@ -124,7 +138,6 @@ msgid "Dictionary Sources"
 msgstr "ਡਿਕਸ਼ਨਰੀ ਸਰੋਤ"
 
 #: ../data/gnome-dictionary-menus.ui.h:22
-#| msgid "Available dictionaries"
 msgid "Available _Dictionaries"
 msgstr "ਉਪਲੱਬਧ ਡਿਕਸ਼ਨਰੀਆਂ(_D)"
 
@@ -763,65 +776,69 @@ msgstr "ਬਿਨਾਂ-ਨਾਂ ਡੌਕੂਮੈਂਟ"
 msgid "Error while writing to '%s'"
 msgstr "'%s' ਲਿਖਣ ਦੌਰਾਨ ਗਲਤੀ"
 
-#: ../src/gdict-window.c:1359
+#: ../src/gdict-window.c:1365
 #, c-format
 msgid "Dictionary source `%s' selected"
 msgstr "ਡਿਕਸ਼ਨਰੀ ਸਰੋਤ '%s' ਚੁਣਿਆ"
 
-#: ../src/gdict-window.c:1380
+#: ../src/gdict-window.c:1386
 #, c-format
 msgid "Strategy `%s' selected"
 msgstr "ਨੀਤੀ `%s' ਚੁਣੀ"
 
-#: ../src/gdict-window.c:1400
+#: ../src/gdict-window.c:1406
 #, c-format
 msgid "Database `%s' selected"
 msgstr "ਡਾਟਾਬੇਸ `%s' ਚੁਣਿਆ"
 
-#: ../src/gdict-window.c:1420
+#: ../src/gdict-window.c:1426
 #, c-format
 msgid "Word `%s' selected"
 msgstr "ਸ਼ਬਦ `%s' ਚੁਣਿਆ"
 
 #. speller
-#: ../src/gdict-window.c:1445
+#: ../src/gdict-window.c:1451
 msgid "Double-click on the word to look up"
 msgstr "ਸ਼ਬਦ ਖੋਜ ਲਈ ਦੋ ਵਾਰ ਦਬਾਓ"
 
 #. strat-chooser
-#: ../src/gdict-window.c:1451
+#: ../src/gdict-window.c:1457
 msgid "Double-click on the matching strategy to use"
 msgstr "ਵਰਤਣ ਲਈ ਰਲਦੀ ਨੀਤੀ ਉੱਤੇ ਦੋ ਵਾਰ ਦਬਾਓ"
 
 #. source-chooser
-#: ../src/gdict-window.c:1456
+#: ../src/gdict-window.c:1462
 msgid "Double-click on the source to use"
 msgstr "ਵਰਤਣ ਲਈ ਸਰੋਤ ਉੱਤੇ ਡਬਲ ਕਲਿੱਕ ਕਰੋ"
 
 #. db-chooser
-#: ../src/gdict-window.c:1465
+#: ../src/gdict-window.c:1471
 msgid "Double-click on the database to use"
 msgstr "ਵਰਤਣ ਲਈ ਡਾਟਾਬੇਸ ਉੱਤੇ ਦੋ ਵਾਰ ਦਬਾਓ"
 
-#: ../src/gdict-window.c:1615
-msgid "Look _up:"
-msgstr "ਖੋਜ(_U):"
+#: ../src/gdict-window.c:1621
+#| msgid "Look _up:"
+msgid "Look _up"
+msgstr "ਖੋਜ(_u)"
 
-#: ../src/gdict-window.c:1690
+#: ../src/gdict-window.c:1695
 msgid "Similar words"
 msgstr "ਰਲਦੇ ਸ਼ਬਦ"
 
-#: ../src/gdict-window.c:1703
+#: ../src/gdict-window.c:1708
 msgid "Available dictionaries"
 msgstr "ਉਪਲੱਬਧ ਡਿਕਸ਼ਨਰੀਆਂ"
 
-#: ../src/gdict-window.c:1721
+#: ../src/gdict-window.c:1726
 msgid "Available strategies"
 msgstr "ਉਪਲੱਬਧ ਨੀਤੀਆਂ"
 
-#: ../src/gdict-window.c:1737
+#: ../src/gdict-window.c:1742
 msgid "Dictionary sources"
 msgstr "ਡਿਕਸ਼ਨਰੀ ਸਰੋਤ"
+
+#~ msgid "About Dictionary"
+#~ msgstr "ਡਿਕਸ਼ਨਰੀ ਬਾਰੇ"
 
 #~ msgid "Available _Databases"
 #~ msgstr "ਉਪਲੱਬਧ ਡਾਟਾਬੇਸ(_D)"
@@ -855,6 +872,3 @@ msgstr "ਡਿਕਸ਼ਨਰੀ ਸਰੋਤ"
 
 #~ msgid "_Contents"
 #~ msgstr "ਸਮੱਗਰੀ(_C)"
-
-#~ msgid "_About"
-#~ msgstr "ਇਸ ਬਾਰੇ(_A)"
