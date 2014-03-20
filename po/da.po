@@ -7,7 +7,7 @@
 # Keld Simonsen <keld@dkuug.dk>, 2000-2001.
 # Ole Laursen <olau@hardworking.dk>, 2001, 02, 03, 04.
 # Martin Willemoes Hansen <mwh@sysrq.dk>, 2004, 05.
-# Kenneth Nielsen <k.nielsen81@gmail.com>, 2008, 2013.
+# Kenneth Nielsen <k.nielsen81@gmail.com>, 2008, 2013-2014.
 # Ask Hjorth Larsen <asklarsen@gmail.com>, 2007, 08, 09, 10, 11.
 # Joe Hansen <joedalton2@yahoo.dk>, 2011.
 #
@@ -22,8 +22,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-utils\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-09-16 00:41+0200\n"
-"PO-Revision-Date: 2013-09-14 15:43+0200\n"
+"POT-Creation-Date: 2014-03-20 22:18+0100\n"
+"PO-Revision-Date: 2014-03-15 12:54+0100\n"
 "Last-Translator: Kenneth Nielsen <k.nielsen81@gmail.com>\n"
 "Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
 "Language: da\n"
@@ -37,7 +37,7 @@ msgid "Default Dictionary Server"
 msgstr "Standardordbogsserver"
 
 #: ../data/gnome-dictionary.desktop.in.in.h:1 ../src/gdict-about.c:60
-#: ../src/gdict-app.c:347 ../src/gdict-window.c:543 ../src/gdict-window.c:1805
+#: ../src/gdict-app.c:347 ../src/gdict-window.c:543 ../src/gdict-window.c:1810
 msgid "Dictionary"
 msgstr "Ordbog"
 
@@ -49,6 +49,18 @@ msgstr "Slå orddefinitioner og stavning op i en ordbog på internettet"
 msgid "word;synonym;definition;spelling;"
 msgstr "ord;synonym;definition;stavning;"
 
+#: ../data/gnome-dictionary.appdata.xml.in.h:1
+msgid ""
+"GNOME Dictionary is a simple dictionary application that looks up "
+"definitions of words online. Though it looks up English definitions by "
+"default, you can easily switch to Spanish or add other online dictionaries "
+"using the DICT protocol to suit your needs."
+msgstr ""
+"GNOME Ordbog er et simplet ordbogsprogram, som slår definitioner for ord op "
+"på nettet. Selv om det som standard er sat op til at slå ord op på engelsk, "
+"er det nemt at skifte til spansk eller tilføje andre ordbøger på nettet, "
+"vha. DICT-protokollen, for at dække dine behov."
+
 #: ../data/gnome-dictionary-menus.ui.h:1
 msgid "Preferences"
 msgstr "Indstillinger"
@@ -58,8 +70,8 @@ msgid "Help"
 msgstr "Hjælp"
 
 #: ../data/gnome-dictionary-menus.ui.h:3
-msgid "About Dictionary"
-msgstr "Om Ordbog"
+msgid "About"
+msgstr "Om"
 
 #: ../data/gnome-dictionary-menus.ui.h:4
 msgid "Quit"
@@ -783,65 +795,68 @@ msgstr "Dokument uden titel"
 msgid "Error while writing to '%s'"
 msgstr "Fejl under skrivning til \"%s\""
 
-#: ../src/gdict-window.c:1359
+#: ../src/gdict-window.c:1365
 #, c-format
 msgid "Dictionary source `%s' selected"
 msgstr "Ordbogskilde \"%s\" valgt"
 
-#: ../src/gdict-window.c:1380
+#: ../src/gdict-window.c:1386
 #, c-format
 msgid "Strategy `%s' selected"
 msgstr "Strategi \"%s\" valgt"
 
-#: ../src/gdict-window.c:1400
+#: ../src/gdict-window.c:1406
 #, c-format
 msgid "Database `%s' selected"
 msgstr "Database \"%s\" valgt"
 
-#: ../src/gdict-window.c:1420
+#: ../src/gdict-window.c:1426
 #, c-format
 msgid "Word `%s' selected"
 msgstr "Ord \"%s\" valgt"
 
 #. speller
-#: ../src/gdict-window.c:1445
+#: ../src/gdict-window.c:1451
 msgid "Double-click on the word to look up"
 msgstr "Dobbeltklik på ordet for at slå det op"
 
 #. strat-chooser
-#: ../src/gdict-window.c:1451
+#: ../src/gdict-window.c:1457
 msgid "Double-click on the matching strategy to use"
 msgstr "Dobbeltklik på søgningsstrategien der skal benyttes"
 
 #. source-chooser
-#: ../src/gdict-window.c:1456
+#: ../src/gdict-window.c:1462
 msgid "Double-click on the source to use"
 msgstr "Dobbeltklik på den kilde som skal benyttes"
 
 #. db-chooser
-#: ../src/gdict-window.c:1465
+#: ../src/gdict-window.c:1471
 msgid "Double-click on the database to use"
 msgstr "Dobbeltklik på databasen der skal benyttes"
 
-#: ../src/gdict-window.c:1615
-msgid "Look _up:"
-msgstr "Slå _op:"
+#: ../src/gdict-window.c:1621
+msgid "Look _up"
+msgstr "Slå _op"
 
-#: ../src/gdict-window.c:1690
+#: ../src/gdict-window.c:1695
 msgid "Similar words"
 msgstr "Lignende ord"
 
-#: ../src/gdict-window.c:1703
+#: ../src/gdict-window.c:1708
 msgid "Available dictionaries"
 msgstr "Tilgængelige ordbøger"
 
-#: ../src/gdict-window.c:1721
+#: ../src/gdict-window.c:1726
 msgid "Available strategies"
 msgstr "Tilgængelige strategier"
 
-#: ../src/gdict-window.c:1737
+#: ../src/gdict-window.c:1742
 msgid "Dictionary sources"
 msgstr "Ordbogskilder"
+
+#~ msgid "About Dictionary"
+#~ msgstr "Om Ordbog"
 
 #~ msgid "Available _Databases"
 #~ msgstr "Tilgængelige _databaser"
@@ -876,6 +891,3 @@ msgstr "Ordbogskilder"
 
 #~ msgid "_Contents"
 #~ msgstr "_Indhold"
-
-#~ msgid "_About"
-#~ msgstr "_Om"
