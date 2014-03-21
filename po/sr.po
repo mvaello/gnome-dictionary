@@ -1,12 +1,12 @@
 # Милош Поповић <gpopac@gmail.com>, 2011.
-# Мирослав Николић <miroslavnikolic@rocketmail.com>, 2011, 2012, 2013.
+# Мирослав Николић <miroslavnikolic@rocketmail.com>, 2011—2014.
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-utils-2.0\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "dictionary&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2013-08-27 14:44+0000\n"
-"PO-Revision-Date: 2013-09-05 09:35+0200\n"
+"POT-Creation-Date: 2014-03-20 19:43+0000\n"
+"PO-Revision-Date: 2014-03-21 17:15+0200\n"
 "Last-Translator: Мирослав Николић <miroslavnikolic@rocketmail.com>\n"
 "Language-Team: Serbian <gnom@prevod.org>\n"
 "Language: sr\n"
@@ -19,10 +19,10 @@ msgstr ""
 
 #: ../data/default.desktop.in.h:1
 msgid "Default Dictionary Server"
-msgstr "Задати сервер речника"
+msgstr "Основни сервер речника"
 
 #: ../data/gnome-dictionary.desktop.in.in.h:1 ../src/gdict-about.c:60
-#: ../src/gdict-app.c:347 ../src/gdict-window.c:543 ../src/gdict-window.c:1805
+#: ../src/gdict-app.c:347 ../src/gdict-window.c:543 ../src/gdict-window.c:1810
 msgid "Dictionary"
 msgstr "Речник"
 
@@ -34,6 +34,18 @@ msgstr "Проверите значења речи и срицања у речн
 msgid "word;synonym;definition;spelling;"
 msgstr "реч;синоним;одредница;дефиниција;срицање;"
 
+#: ../data/gnome-dictionary.appdata.xml.in.h:1
+msgid ""
+"GNOME Dictionary is a simple dictionary application that looks up "
+"definitions of words online. Though it looks up English definitions by "
+"default, you can easily switch to Spanish or add other online dictionaries "
+"using the DICT protocol to suit your needs."
+msgstr ""
+"Гномов речник је једноставан програмски речник који тражи одреднице речи на "
+"мрежи. Иако претражује енглеске одреднице по основи, можете лако да се "
+"пребаците на српски језик или да додате друге речнике на мрежи користећи "
+"„DICT“ протокол како бисте задовољили ваше потребе."
+
 #: ../data/gnome-dictionary-menus.ui.h:1
 msgid "Preferences"
 msgstr "Поставке"
@@ -43,8 +55,8 @@ msgid "Help"
 msgstr "Помоћ"
 
 #: ../data/gnome-dictionary-menus.ui.h:3
-msgid "About Dictionary"
-msgstr "О Речнику"
+msgid "About"
+msgstr "О програму"
 
 #: ../data/gnome-dictionary-menus.ui.h:4
 msgid "Quit"
@@ -119,13 +131,12 @@ msgid "Dictionary Sources"
 msgstr "Извори речника"
 
 #: ../data/gnome-dictionary-menus.ui.h:22
-#| msgid "Available dictionaries"
 msgid "Available _Dictionaries"
 msgstr "Доступни _речници"
 
 #: ../data/gnome-dictionary-menus.ui.h:23
 msgid "Available St_rategies"
-msgstr "Доступне ст_ратегије"
+msgstr "Доступне _стратегије"
 
 #: ../data/gnome-dictionary-menus.ui.h:24
 msgid "_Go"
@@ -178,7 +189,7 @@ msgstr "Назив _домаћина:"
 
 #: ../data/gnome-dictionary-source.ui.h:4
 msgid "_Port:"
-msgstr "_Порт:"
+msgstr "_Прикључник:"
 
 #: ../data/gnome-dictionary-source.ui.h:5
 msgid "Source Name"
@@ -262,11 +273,11 @@ msgstr "Назив домаћина сервера речника на који 
 
 #: ../libgdict/gdict-client-context.c:310
 msgid "Port"
-msgstr "Порт"
+msgstr "Прикључник"
 
 #: ../libgdict/gdict-client-context.c:311
 msgid "The port of the dictionary server to connect to"
-msgstr "Порт сервера речника на који се врши повезивање"
+msgstr "Прикључник сервера речника на који се врши повезивање"
 
 #: ../libgdict/gdict-client-context.c:326
 msgid "Status"
@@ -408,7 +419,7 @@ msgstr "Испразни списак доступних база податак
 #: ../libgdict/gdict-database-chooser.c:837 ../libgdict/gdict-speller.c:777
 #: ../libgdict/gdict-strategy-chooser.c:785
 msgid "Error while matching"
-msgstr "Грешка приликом упаривања"
+msgstr "Грешка приликом поређења"
 
 #: ../libgdict/gdict-defbox.c:1126 ../libgdict/gdict-defbox.c:1220
 #: ../libgdict/gdict-defbox.c:1254
@@ -577,7 +588,7 @@ msgstr "Испразни списак доступних стратегија"
 
 #: ../libgdict/gdict-utils.c:96
 msgid "GDict debugging flags to set"
-msgstr "Опције уклањања грешака Гречника за постављање"
+msgstr "Опције прочишћавања Гречника за постављање"
 
 #: ../libgdict/gdict-utils.c:96 ../libgdict/gdict-utils.c:98
 msgid "FLAGS"
@@ -585,7 +596,7 @@ msgstr "ОПЦИЈЕ"
 
 #: ../libgdict/gdict-utils.c:98
 msgid "GDict debugging flags to unset"
-msgstr "Опције уклањања грешака Гречника за уклањање"
+msgstr "Опције прочишћавања Гречника за уклањање"
 
 #: ../libgdict/gdict-utils.c:156
 msgid "GDict Options"
@@ -602,6 +613,7 @@ msgstr ""
 "Саша Марић <Sasha_Maric@yahoo.com>\n"
 "Данило Шеган <danilo@prevod.org>\n"
 "Слободан Д. Средојевић <slobo@akrep.be>\n"
+"Мирослав Николић <miroslavnikolic@rocketmail.com>\n"
 "\n"
 "Prevod.org — превод на српски језик."
 
@@ -619,7 +631,7 @@ msgstr "РЕЧ"
 
 #: ../src/gdict-app.c:66
 msgid "Words to match"
-msgstr "Речи за упаривање"
+msgstr "Речи за поређење"
 
 #: ../src/gdict-app.c:72
 msgid "Dictionary source to use"
@@ -761,62 +773,66 @@ msgstr "Неименован документ"
 msgid "Error while writing to '%s'"
 msgstr "Грешка приликом уписа на „%s“"
 
-#: ../src/gdict-window.c:1359
+#: ../src/gdict-window.c:1365
 #, c-format
 msgid "Dictionary source `%s' selected"
 msgstr "Изабрана је извор речи „%s“"
 
-#: ../src/gdict-window.c:1380
+#: ../src/gdict-window.c:1386
 #, c-format
 msgid "Strategy `%s' selected"
 msgstr "Изабрана је стратегија „%s“"
 
-#: ../src/gdict-window.c:1400
+#: ../src/gdict-window.c:1406
 #, c-format
 msgid "Database `%s' selected"
 msgstr "Изабрана је база података „%s“"
 
-#: ../src/gdict-window.c:1420
+#: ../src/gdict-window.c:1426
 #, c-format
 msgid "Word `%s' selected"
 msgstr "Изабрана је реч „%s“"
 
 #. speller
-#: ../src/gdict-window.c:1445
+#: ../src/gdict-window.c:1451
 msgid "Double-click on the word to look up"
 msgstr "Двапут кликните на реч коју желите да потражите"
 
 #. strat-chooser
-#: ../src/gdict-window.c:1451
+#: ../src/gdict-window.c:1457
 msgid "Double-click on the matching strategy to use"
 msgstr "Двапут кликните на стратегију поклапања и желите да је користите"
 
 #. source-chooser
-#: ../src/gdict-window.c:1456
+#: ../src/gdict-window.c:1462
 msgid "Double-click on the source to use"
 msgstr "Двапут кликните на извор за коришћење"
 
 #. db-chooser
-#: ../src/gdict-window.c:1465
+#: ../src/gdict-window.c:1471
 msgid "Double-click on the database to use"
 msgstr "Двапут кликните на базу података за коришћење"
 
-#: ../src/gdict-window.c:1615
-msgid "Look _up:"
-msgstr "_Пронађи:"
+#: ../src/gdict-window.c:1621
+#| msgid "Look _up:"
+msgid "Look _up"
+msgstr "_Пронађи"
 
-#: ../src/gdict-window.c:1690
+#: ../src/gdict-window.c:1695
 msgid "Similar words"
 msgstr "Сличне речи"
 
-#: ../src/gdict-window.c:1703
+#: ../src/gdict-window.c:1708
 msgid "Available dictionaries"
 msgstr "Доступни речници"
 
-#: ../src/gdict-window.c:1721
+#: ../src/gdict-window.c:1726
 msgid "Available strategies"
 msgstr "Доступне стратегије"
 
-#: ../src/gdict-window.c:1737
+#: ../src/gdict-window.c:1742
 msgid "Dictionary sources"
 msgstr "Извори речника"
+
+#~ msgid "About Dictionary"
+#~ msgstr "О Речнику"
