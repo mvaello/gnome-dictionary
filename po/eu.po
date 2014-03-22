@@ -2,17 +2,17 @@
 # Copyright (C) 2005, 2006, 2007, 2008, 2009, 2010, 2011 Free Software Foundation, Inc.
 # This file is distributed under the same license as the baobab package.
 #
+#
 # Mikel Olasagasti <hey_neken@mundurat.net>, 2005.
 # Iñaki Larrañaga Murgoitio <dooteo@zundan.com>, 2005, 2006, 2007, 2008, 2009, 2010, 2011.
-# Iñaki Larrañaga Murgoitio <dooteo@zundan.com>, 2012, 2013.
+# Iñaki Larrañaga Murgoitio <dooteo@zundan.com>, 2012, 2013, 2014.
 # Julen Ruiz Aizpuru <julenx@gmail.com>, 2011.
-#
 msgid ""
 msgstr ""
 "Project-Id-Version: eu\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-09-16 21:50+0200\n"
-"PO-Revision-Date: 2013-09-16 21:51+0200\n"
+"POT-Creation-Date: 2014-03-22 10:31+0100\n"
+"PO-Revision-Date: 2014-03-22 10:34+0100\n"
 "Last-Translator: Iñaki Larrañaga Murgoitio <dooteo@zundan.com>\n"
 "Language-Team: Basque <librezale@librezale.org>\n"
 "Language: eu\n"
@@ -28,7 +28,7 @@ msgid "Default Dictionary Server"
 msgstr "Hiztegi-zerbitzari lehenetsia"
 
 #: ../data/gnome-dictionary.desktop.in.in.h:1 ../src/gdict-about.c:60
-#: ../src/gdict-app.c:347 ../src/gdict-window.c:543 ../src/gdict-window.c:1805
+#: ../src/gdict-app.c:347 ../src/gdict-window.c:543 ../src/gdict-window.c:1810
 msgid "Dictionary"
 msgstr "Hiztegia"
 
@@ -40,6 +40,18 @@ msgstr "Bilatu hitzen definizioak eta ortografiak lineako hiztegi batean"
 msgid "word;synonym;definition;spelling;"
 msgstr "hitza;sinonimoa;definizioa;ortografia;"
 
+#: ../data/gnome-dictionary.appdata.xml.in.h:1
+msgid ""
+"GNOME Dictionary is a simple dictionary application that looks up "
+"definitions of words online. Though it looks up English definitions by "
+"default, you can easily switch to Spanish or add other online dictionaries "
+"using the DICT protocol to suit your needs."
+msgstr ""
+"GNOMEren Hiztegia hitzen definizioak linean bilatzeko aplikazio bat da. "
+"Lehenetsi gisa Ingeleseko definizioak bilatzen dituen arren, erraz alda "
+"dezakezu Gaztelerara, edo DICT protokoloa darabilten lineako beste "
+"hiztegiak gehitu zure beharretara egokitzeko."
+
 #: ../data/gnome-dictionary-menus.ui.h:1
 msgid "Preferences"
 msgstr "Hobespenak"
@@ -49,8 +61,8 @@ msgid "Help"
 msgstr "Laguntza"
 
 #: ../data/gnome-dictionary-menus.ui.h:3
-msgid "About Dictionary"
-msgstr "Hiztegiari buruz"
+msgid "About"
+msgstr "Honi _buruz"
 
 #: ../data/gnome-dictionary-menus.ui.h:4
 msgid "Quit"
@@ -811,73 +823,75 @@ msgstr "Izenik gabeko dokumentua"
 msgid "Error while writing to '%s'"
 msgstr "Errorea '%s' fitxategian idaztean"
 
-#: ../src/gdict-window.c:1359
+#: ../src/gdict-window.c:1365
 #, c-format
 msgid "Dictionary source `%s' selected"
 msgstr "'%s' hiztegi-iturburua erabiltzeko"
 
 #
-#: ../src/gdict-window.c:1380
+#: ../src/gdict-window.c:1386
 #, c-format
 msgid "Strategy `%s' selected"
 msgstr "'%s' estrategia hautatuta"
 
 #
-#: ../src/gdict-window.c:1400
+#: ../src/gdict-window.c:1406
 #, c-format
 msgid "Database `%s' selected"
 msgstr "'%s' datu-basea hautatuta"
 
-#: ../src/gdict-window.c:1420
+#: ../src/gdict-window.c:1426
 #, c-format
 msgid "Word `%s' selected"
 msgstr "'%s' hitza hautatuta"
 
 #. speller
-#: ../src/gdict-window.c:1445
+#: ../src/gdict-window.c:1451
 msgid "Double-click on the word to look up"
 msgstr "Egin klik bikoitza hitzan bilaketa egiteko"
 
 #
 #. strat-chooser
-#: ../src/gdict-window.c:1451
+#: ../src/gdict-window.c:1457
 msgid "Double-click on the matching strategy to use"
 msgstr "Egin klik bikoitza estrategian erabiltzeko"
 
 #
 #. source-chooser
-#: ../src/gdict-window.c:1456
+#: ../src/gdict-window.c:1462
 msgid "Double-click on the source to use"
 msgstr "Egin klik bikoitza iturburuan erabiltzeko"
 
 #
 #. db-chooser
-#: ../src/gdict-window.c:1465
+#: ../src/gdict-window.c:1471
 msgid "Double-click on the database to use"
 msgstr "Egin klik bikoitza datu-basean erabiltzeko"
 
-#
-#: ../src/gdict-window.c:1615
-msgid "Look _up:"
-msgstr "_Bilatu:"
+#: ../src/gdict-window.c:1621
+msgid "Look _up"
+msgstr "_Bilatu"
 
-#: ../src/gdict-window.c:1690
+#: ../src/gdict-window.c:1695
 msgid "Similar words"
 msgstr "Antzeko hitzak"
 
 #
-#: ../src/gdict-window.c:1703
+#: ../src/gdict-window.c:1708
 msgid "Available dictionaries"
 msgstr "Hiztegi erabilgarriak"
 
 #
-#: ../src/gdict-window.c:1721
+#: ../src/gdict-window.c:1726
 msgid "Available strategies"
 msgstr "Estrategia erabilgarriak"
 
-#: ../src/gdict-window.c:1737
+#: ../src/gdict-window.c:1742
 msgid "Dictionary sources"
 msgstr "Hiztegiaren iturburuak"
+
+#~ msgid "About Dictionary"
+#~ msgstr "Hiztegiari buruz"
 
 #
 #~ msgid "Available _Databases"
@@ -913,6 +927,3 @@ msgstr "Hiztegiaren iturburuak"
 
 #~ msgid "_Contents"
 #~ msgstr "_Edukia"
-
-#~ msgid "_About"
-#~ msgstr "_Honi buruz"
