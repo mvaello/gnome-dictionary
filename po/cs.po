@@ -189,7 +189,7 @@ msgstr "Písmo pro _tisk:"
 
 #: ../data/gnome-dictionary-preferences.ui.h:4
 msgid "Print"
-msgstr "Vytisknout"
+msgstr "Tisk"
 
 #: ../data/gnome-dictionary-source.ui.h:1
 msgid "_Description:"
