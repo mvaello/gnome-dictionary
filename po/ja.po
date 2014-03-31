@@ -12,14 +12,15 @@
 # Yasumichi Akahoshi <yasumichi@vinelinux.org>, 2010, 2011.
 # Takayoshi OKANO <kano@na.rim.or.jp>, 2011.
 # Jiro Matsuzawa <jmatsuzawa@gnome.org>, 2013.
+# Ikuya Awashiro <ikuya@fruitsbasket.info>, 2014.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-dictionary master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-dictionary&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2013-09-18 03:30+0000\n"
-"PO-Revision-Date: 2013-09-19 12:26+0900\n"
-"Last-Translator: Jiro Matsuzawa <jmatsuzawa@gnome.org>\n"
+"POT-Creation-Date: 2014-03-30 06:59+0000\n"
+"PO-Revision-Date: 2014-03-30 16:49+0900\n"
+"Last-Translator: Ikuya Awashiro <ikuya@fruitsbasket.info>\n"
 "Language-Team: Japanese <gnome-translation@gnome.gr.jp>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
@@ -32,7 +33,7 @@ msgid "Default Dictionary Server"
 msgstr "デフォルトの辞書サーバー"
 
 #: ../data/gnome-dictionary.desktop.in.in.h:1 ../src/gdict-about.c:60
-#: ../src/gdict-app.c:347 ../src/gdict-window.c:543 ../src/gdict-window.c:1805
+#: ../src/gdict-app.c:347 ../src/gdict-window.c:543 ../src/gdict-window.c:1810
 msgid "Dictionary"
 msgstr "辞書"
 
@@ -44,6 +45,10 @@ msgstr "オンライン辞書を使って単語の意味や綴りを調べます
 msgid "word;synonym;definition;spelling;"
 msgstr "word;synonym;definition;spelling;単語;同義語;類義語;定義;意味;スペリング;スペル;つづり;綴り;Dictionary;辞書;辞典;"
 
+#: ../data/gnome-dictionary.appdata.xml.in.h:1
+msgid "GNOME Dictionary is a simple dictionary application that looks up definitions of words online. Though it looks up English definitions by default, you can easily switch to Spanish or add other online dictionaries using the DICT protocol to suit your needs."
+msgstr ""
+
 #: ../data/gnome-dictionary-menus.ui.h:1
 msgid "Preferences"
 msgstr "設定"
@@ -53,7 +58,7 @@ msgid "Help"
 msgstr "ヘルプ"
 
 #: ../data/gnome-dictionary-menus.ui.h:3
-msgid "About Dictionary"
+msgid "About"
 msgstr "このアプリケーションについて"
 
 #: ../data/gnome-dictionary-menus.ui.h:4
@@ -754,62 +759,65 @@ msgstr "編集中のドキュメント"
 msgid "Error while writing to '%s'"
 msgstr "'%s' へ書き込む際にエラーが発生しました"
 
-#: ../src/gdict-window.c:1359
+#: ../src/gdict-window.c:1365
 #, c-format
 msgid "Dictionary source `%s' selected"
 msgstr "'%s' という辞書ソースを選択しました"
 
-#: ../src/gdict-window.c:1380
+#: ../src/gdict-window.c:1386
 #, c-format
 msgid "Strategy `%s' selected"
 msgstr "'%s' という検索ルールを選択しました"
 
-#: ../src/gdict-window.c:1400
+#: ../src/gdict-window.c:1406
 #, c-format
 msgid "Database `%s' selected"
 msgstr "'%s' というデータベースを選択しました"
 
-#: ../src/gdict-window.c:1420
+#: ../src/gdict-window.c:1426
 #, c-format
 msgid "Word `%s' selected"
 msgstr "'%s' という単語を選択しました"
 
 #. speller
-#: ../src/gdict-window.c:1445
+#: ../src/gdict-window.c:1451
 msgid "Double-click on the word to look up"
 msgstr "単語をダブルクリックすると検索します"
 
 #. strat-chooser
-#: ../src/gdict-window.c:1451
+#: ../src/gdict-window.c:1457
 msgid "Double-click on the matching strategy to use"
 msgstr "使用する検索ルールをダブルクリックしてください"
 
 #. source-chooser
-#: ../src/gdict-window.c:1456
+#: ../src/gdict-window.c:1462
 msgid "Double-click on the source to use"
 msgstr "使用する辞書をダブルクリックしてください"
 
 #. db-chooser
-#: ../src/gdict-window.c:1465
+#: ../src/gdict-window.c:1471
 msgid "Double-click on the database to use"
 msgstr "使用するデータベースをダブルクリックしてください"
 
-#: ../src/gdict-window.c:1615
-msgid "Look _up:"
-msgstr "検索(_U):"
+#: ../src/gdict-window.c:1621
+msgid "Look _up"
+msgstr "検索(_U)"
 
-#: ../src/gdict-window.c:1690
+#: ../src/gdict-window.c:1695
 msgid "Similar words"
 msgstr "類似語"
 
-#: ../src/gdict-window.c:1703
+#: ../src/gdict-window.c:1708
 msgid "Available dictionaries"
 msgstr "利用可能な辞書"
 
-#: ../src/gdict-window.c:1721
+#: ../src/gdict-window.c:1726
 msgid "Available strategies"
 msgstr "利用可能な検索ルール"
 
-#: ../src/gdict-window.c:1737
+#: ../src/gdict-window.c:1742
 msgid "Dictionary sources"
 msgstr "辞書ソース"
+
+#~ msgid "About Dictionary"
+#~ msgstr "このアプリケーションについて"
