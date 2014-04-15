@@ -45,47 +45,40 @@ struct _GdictAppClass
 
 G_DEFINE_TYPE (GdictApp, gdict_app, G_TYPE_OBJECT);
 
-static gchar **gdict_lookup_words = NULL;
-static gchar **gdict_match_words = NULL;
-
-static gchar *gdict_source_name = NULL;
-static gchar *gdict_database_name = NULL;
-static gchar *gdict_strategy_name = NULL;
-
 static GOptionEntry gdict_app_goptions[] = {
   {
     "look-up", 0,
     0,
-    G_OPTION_ARG_STRING_ARRAY, &gdict_lookup_words,
+    G_OPTION_ARG_STRING_ARRAY, NULL,
     N_("Words to look up"), N_("WORD")
   },
   {
     "match", 0,
     0,
-    G_OPTION_ARG_STRING_ARRAY, &gdict_match_words,
+    G_OPTION_ARG_STRING_ARRAY, NULL,
     N_("Words to match"), N_("WORD")
   },
   {
     "source", 's',
     0,
-    G_OPTION_ARG_STRING, &gdict_source_name,
+    G_OPTION_ARG_STRING, NULL,
     N_("Dictionary source to use"), N_("NAME")
   },
   {
     "database", 'D',
     0,
-    G_OPTION_ARG_STRING, &gdict_database_name,
+    G_OPTION_ARG_STRING, NULL,
     N_("Database to use"), N_("NAME")
   },
   {
     "strategy", 'S',
     0,
-    G_OPTION_ARG_STRING, &gdict_strategy_name,
+    G_OPTION_ARG_STRING, NULL,
     N_("Strategy to use"), N_("NAME")
   },
   {
     G_OPTION_REMAINING, 0, 0,
-    G_OPTION_ARG_STRING_ARRAY, &gdict_lookup_words,
+    G_OPTION_ARG_STRING_ARRAY, NULL,
     N_("Words to look up"), N_("WORDS")
   },
   { NULL },
@@ -199,38 +192,63 @@ gdict_activate (GApplication *application,
 
 }
 
+gchar **
+strv_concat (gchar **strv1, gchar **strv2)
+{
+  gchar **tmp;
+  guint len1, len2;
+  gint i;
+
+  len1 = g_strv_length (strv1);
+  len2 = g_strv_length (strv2);
+  tmp = g_realloc (strv1, len1 + len2 + 1);
+  for (i = 0; i < len2; i++)
+    tmp[len1 + i] = (gchar *)strv2[i];
+  tmp[len1 + len2] = NULL;
+
+  return tmp;
+}
+
 static int
 gdict_command_line (GApplication *application,
                     GApplicationCommandLine *cmd_line,
                     GdictApp                *gdict_app)
 {
-  GOptionContext *context;
-  GError *error;
   GSList *l;
   gsize words_len, i;
-  gint argc;
-  char **argv;
+  GVariantDict *options;
+  gchar **gdict_lookup_words = NULL;
+  gchar **gdict_match_words = NULL;
+  gchar **remaining = NULL;
+  const gchar *gdict_source_name = NULL;
+  const gchar *gdict_database_name = NULL;
+  const gchar *gdict_strategy_name = NULL;
 
-  argv = g_application_command_line_get_arguments (cmd_line, &argc);
+  options = g_application_command_line_get_options_dict (cmd_line);
 
-  /* create the new option context */
-  context = g_option_context_new (N_(" - Look up words in dictionaries"));
-  
-  g_option_context_set_translation_domain (context, GETTEXT_PACKAGE);
-  g_option_context_add_main_entries (context, gdict_app_goptions, GETTEXT_PACKAGE);
-  g_option_context_add_group (context, gdict_get_option_group ());
-  g_option_context_add_group (context, gtk_get_option_group (FALSE));
+  g_variant_dict_lookup (options, "look-up", "^as", &gdict_lookup_words);
+  g_variant_dict_lookup (options, "match", "^as", &gdict_match_words);
+  g_variant_dict_lookup (options, "source", "&s", &gdict_source_name);
+  g_variant_dict_lookup (options, "database", "&s", &gdict_database_name);
+  g_variant_dict_lookup (options, "strategy", "&s", &gdict_strategy_name);
+  g_variant_dict_lookup (options, G_OPTION_REMAINING, "^as", &remaining);
 
-  error = NULL;
-  if (!g_option_context_parse (context, &argc, &argv, &error))
+  if (remaining != NULL)
     {
-      g_critical ("Failed to parse argument: %s", error->message);
-      g_error_free (error);
-      g_option_context_free (context);
-      return 1;
+      if (gdict_match_words != NULL)
+        {
+          gchar **tmp;
+          tmp = strv_concat (gdict_match_words, remaining);
+          g_strfreev (gdict_match_words);
+          g_strfreev (remaining);
+          gdict_match_words = tmp;
+        }
+      else
+        {
+          gdict_match_words = remaining;
+        }
+      remaining = NULL;
     }
-
-  g_option_context_free (context);
 
   if (gdict_lookup_words == NULL &&
       gdict_match_words == NULL)
@@ -244,7 +262,7 @@ gdict_command_line (GApplication *application,
       gtk_window_set_application (GTK_WINDOW (window), singleton->app);
       gtk_widget_show (window);
 
-      return 0;
+      goto out;
     }
 
   if (gdict_lookup_words != NULL)
@@ -288,6 +306,10 @@ gdict_command_line (GApplication *application,
       gtk_window_set_application (GTK_WINDOW (window), singleton->app);
       gtk_widget_show (window);
     }
+
+out:
+  g_strfreev (gdict_lookup_words);
+  g_strfreev (gdict_match_words);
 
   return 0;
 }
@@ -341,10 +363,6 @@ gdict_main (int    *argc,
   if (!gdict_create_data_dir ())
     exit (1);
 
-  g_type_init ();
-  gtk_init (argc, argv);
-
-  g_set_application_name (_("Dictionary"));
   gtk_window_set_default_icon_name ("accessories-dictionary");
 
   /* the main application instance */
@@ -357,6 +375,7 @@ gdict_main (int    *argc,
   g_free (loader_path);
 
   singleton->app = gtk_application_new ("org.gnome.Dictionary", G_APPLICATION_HANDLES_COMMAND_LINE);
+  g_application_add_main_option_entries (G_APPLICATION (singleton->app), gdict_app_goptions);
   g_signal_connect (singleton->app, "command-line", G_CALLBACK (gdict_command_line), singleton);
   g_signal_connect (singleton->app, "startup", G_CALLBACK (gdict_startup), singleton);
 
