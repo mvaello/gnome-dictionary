@@ -13,3 +13,4 @@ X-GNOME-DocPath=gnome-dictionary/gnome-dictionary.xml
 X-GNOME-Bugzilla-Bugzilla=GNOME
 X-GNOME-Bugzilla-Product=gnome-dictionary
 X-GNOME-Bugzilla-Version=@VERSION@
+DBusActivatable=true

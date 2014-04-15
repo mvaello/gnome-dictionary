@@ -7,14 +7,23 @@ man_MANS = gnome-dictionary.1
 EXTRA_DIST += $(man_MANS)
 
 gdictappdir = $(datadir)/applications
-gdictapp_in_files = gnome-dictionary.desktop.in
+gdictapp_in_files = org.gnome.Dictionary.desktop.in
 gdictapp_DATA = $(gdictapp_in_files:.desktop.in=.desktop)
-EXTRA_DIST += gnome-dictionary.desktop.in.in
+EXTRA_DIST += org.gnome.Dictionary.desktop.in.in
 
 $(gdictapp_in_files): $(gdictapp_in_files:.desktop.in=.desktop.in.in)
 	$(AM_V_GEN)sed -e "s|\@VERSION\@|@VERSION@|" $< > $@
 
 @INTLTOOL_DESKTOP_RULE@
+
+dbusservicedir = $(datadir)/dbus-1/services
+dbusservice_DATA = org.gnome.Dictionary.service
+
+org.gnome.Dictionary.service: Makefile
+	$(AM_V_GEN) (echo '[D-BUS Service]'; \
+		     echo 'Name=org.gnome.Dictionary'; \
+		     echo 'Exec=${bindir}/gnome-dictionary --gapplication-service') > $@.tmp && \
+		     mv $@.tmp $@
 
 @INTLTOOL_XML_RULE@
 appdatadir = $(datadir)/appdata
@@ -50,7 +59,8 @@ CLEANFILES += $(gsettings_SCHEMAS) \
 	$(dictsource_DATA) \
 	$(gdictapp_in_files) \
 	$(gdictapp_DATA) \
-	$(appdata_DATA)
+	$(appdata_DATA) \
+	$(dbusservice_DATA)
 	
 @GSETTINGS_RULES@
 
