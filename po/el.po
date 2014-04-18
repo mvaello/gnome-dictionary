@@ -32,11 +32,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-utils.gnome-2-26\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
-"dictionary&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2014-01-02 16:24+0000\n"
-"PO-Revision-Date: 2014-01-04 10:06+0300\n"
-"Last-Translator: Dimitris Spingos (Δημήτρης Σπίγγος) <dmtrs32@gmail.com>\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-dictionary&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2014-03-06 07:40+0000\n"
+"PO-Revision-Date: 2014-03-13 21:26+0200\n"
+"Last-Translator: maria thukididu <marablack3@gmail.com>\n"
 "Language-Team: team@lists.gnome.gr\n"
 "Language: el\n"
 "MIME-Version: 1.0\n"
@@ -50,8 +49,11 @@ msgstr ""
 msgid "Default Dictionary Server"
 msgstr "Προεπιλεγμένος εξυπηρετητής λεξικού"
 
-#: ../data/gnome-dictionary.desktop.in.in.h:1 ../src/gdict-about.c:60
-#: ../src/gdict-app.c:347 ../src/gdict-window.c:543 ../src/gdict-window.c:1810
+#: ../data/gnome-dictionary.desktop.in.in.h:1
+#: ../src/gdict-about.c:60
+#: ../src/gdict-app.c:347
+#: ../src/gdict-window.c:543
+#: ../src/gdict-window.c:1810
 msgid "Dictionary"
 msgstr "Λεξικό"
 
@@ -62,6 +64,10 @@ msgstr "Έλεγχος ορισμών λέξεων και ορθογραφίας
 #: ../data/gnome-dictionary.desktop.in.in.h:3
 msgid "word;synonym;definition;spelling;"
 msgstr "λέξη;συνώνυμο;ορισμός;ορθογραφία;"
+
+#: ../data/gnome-dictionary.appdata.xml.in.h:1
+msgid "GNOME Dictionary is a simple dictionary application that looks up definitions of words online. Though it looks up English definitions by default, you can easily switch to Spanish or add other online dictionaries using the DICT protocol to suit your needs."
+msgstr "Το λεξικό GNOME είναι μια απλή εφαρμογή λογισμικού που κάνει αναζήτηση για ορισμούς των λέξεων online. Αν και ψάχνει από προεπιλογή ορισμούς στα Αγγλικά, μπορείτε εύκολα να το αλλάξετε στα Ισπανικά ή να προσθέσετε άλλα online λεξικά χρησιμοποιώντας το πρωτόκολλο DICT για να ταιριάξει με τις ανάγκες σας."
 
 #: ../data/gnome-dictionary-menus.ui.h:1
 msgid "Preferences"
@@ -225,27 +231,16 @@ msgid "The default database to use"
 msgstr "Η προεπιλεγμένη βάση δεδομένων που θα χρησιμοποιηθεί"
 
 #: ../data/org.gnome.dictionary.gschema.xml.in.in.h:2
-msgid ""
-"The name of the default individual database or meta-database to use on a "
-"dictionary source. An exclamation mark (\"!\") means that all the databases "
-"present in a dictionary source should be searched"
-msgstr ""
-"Το όνομα της προεπιλεγμένης ανεξάρτητης βάσης δεδομένων για χρήση στο "
-"εξυπηρετητή λεξικού. Ένα θαυμαστικό  (\"!\") καθορίζει ότι το λεξικό του "
-"gnome θα ψάχνει όλες τις βάσεις σε ένα δοσμένο εξυπηρετητή"
+msgid "The name of the default individual database or meta-database to use on a dictionary source. An exclamation mark (\"!\") means that all the databases present in a dictionary source should be searched"
+msgstr "Το όνομα της προεπιλεγμένης αυτόνομης βάσης δεδομένων ή μετα-δεδομένων για χρήση σε μια πηγή λεξικού. Το θαυμαστικό  (\"!\") σημαίνει ότι θα πρέπει να γίνει αναζήτηση σε όλες τις βάσεις δεδομένων που υπάρχουν στην πηγή του λεξικού Gnome."
 
 #: ../data/org.gnome.dictionary.gschema.xml.in.in.h:3
 msgid "The default search strategy to use"
 msgstr "Η προεπιλεγμένη στρατηγική αναζήτησης που θα χρησιμοποιηθεί"
 
 #: ../data/org.gnome.dictionary.gschema.xml.in.in.h:4
-msgid ""
-"The name of the default search strategy to use on a dictionary source, if "
-"available. The default strategy is 'exact', that is match exact words."
-msgstr ""
-"Το όνομα της προεπιλεγμένης στρατηγικής αναζήτησης που θα χρησιμοποιείται σε "
-"μια πηγή λεξικού,αν είναι διαθέσιμη. Η προεπιλεγμένη στρατηγική είναι "
-"'ακριβώς', που σημαίνει ότι θα ταιριάζει τις λέξεις με ακρίβεια."
+msgid "The name of the default search strategy to use on a dictionary source, if available. The default strategy is 'exact', that is match exact words."
+msgstr "Το όνομα της προεπιλεγμένης στρατηγικής αναζήτησης που θα χρησιμοποιείται σε μια πηγή λεξικού, αν είναι διαθέσιμη. Η προεπιλεγμένη στρατηγική είναι 'ακριβώς', που σημαίνει ότι θα ταιριάζει τις λέξεις με ακρίβεια."
 
 #: ../data/org.gnome.dictionary.gschema.xml.in.in.h:5
 msgid "The font to be used when printing"
@@ -260,11 +255,8 @@ msgid "The name of the dictionary source used"
 msgstr "Το όνομα της πηγής λεξικού που χρησιμοποιείται"
 
 #: ../data/org.gnome.dictionary.gschema.xml.in.in.h:8
-msgid ""
-"The name of the dictionary source used to retrieve the definitions of words."
-msgstr ""
-"Το όνομα της προεπιλεγμένης πηγής λεξικού για την ανάκτηση των ορισμών των "
-"λέξεων."
+msgid "The name of the dictionary source used to retrieve the definitions of words."
+msgstr "Το όνομα της προεπιλεγμένης πηγής λεξικού για την ανάκτηση των ορισμών των λέξεων."
 
 #: ../data/spanish.desktop.in.h:1
 msgid "Spanish Dictionaries"
@@ -272,7 +264,7 @@ msgstr "Ισπανικά λεξικά"
 
 #: ../data/thai.desktop.in.h:1
 msgid "Longdo Thai-English Dictionaries"
-msgstr "Λεξικά Longdo Thai-English "
+msgstr "Λεξικά Longdo Ταϊλανδέζικα-Αγγλικά"
 
 #: ../libgdict/gdict-client-context.c:282
 msgid "Client Name"
@@ -288,9 +280,7 @@ msgstr "Όνομα συστήματος"
 
 #: ../libgdict/gdict-client-context.c:297
 msgid "The hostname of the dictionary server to connect to"
-msgstr ""
-"Το όνομα συστήματος που χρησιμοποιείται  για τη σύνδεση στον εξυπηρετητή "
-"λεξικού."
+msgstr "Το όνομα συστήματος του εξυπηρετητή λεξικού με τον οποίο θα γίνει η σύνδεση"
 
 #: ../libgdict/gdict-client-context.c:310
 msgid "Port"
@@ -311,14 +301,12 @@ msgstr "Ο κωδικός κατάστασης που επιστρέφει ο ε
 #: ../libgdict/gdict-client-context.c:776
 #, c-format
 msgid "No connection to the dictionary server at '%s:%d'"
-msgstr "Δεν υπάρχει σύνδεση  για τον εξυπηρετητή λεξικού σε '%s:%d'"
+msgstr "Δεν υπάρχει σύνδεση  με τον εξυπηρετητή λεξικού σε '%s:%d'"
 
 #: ../libgdict/gdict-client-context.c:1059
 #, c-format
 msgid "Lookup failed for hostname '%s': no suitable resources found"
-msgstr ""
-"Η αναζήτηση απέτυχε για το όνομα συστήματος  '%s': δεν βρέθηκε κατάλληλοι "
-"πόροι"
+msgstr "Η αναζήτηση απέτυχε για το όνομα συστήματος  '%s': δεν βρέθηκε κατάλληλοι πόροι"
 
 #: ../libgdict/gdict-client-context.c:1090
 #, c-format
@@ -332,12 +320,8 @@ msgstr "Η αναζήτηση απέτυχε για το σύστημα  '%s': �
 
 #: ../libgdict/gdict-client-context.c:1176
 #, c-format
-msgid ""
-"Unable to connect to the dictionary server at '%s:%d'. The server replied "
-"with code %d (server down)"
-msgstr ""
-"Αδυναμία σύνδεσης με τον εξυπηρετητή λεξικού σε '%s:%d'. Ο εξυπηρετητής "
-"αποκρίθηκε με κωδικό %d (εκτός λειτουργίας)"
+msgid "Unable to connect to the dictionary server at '%s:%d'. The server replied with code %d (server down)"
+msgstr "Αδυναμία σύνδεσης με τον εξυπηρετητή λεξικού σε '%s:%d'. Ο εξυπηρετητής αποκρίθηκε με κωδικό %d (εκτός λειτουργίας)"
 
 #: ../libgdict/gdict-client-context.c:1195
 #, c-format
@@ -439,12 +423,14 @@ msgstr "Επαναφόρτωση της λίστας των διαθέσιμων
 msgid "Clear the list of available databases"
 msgstr "Καθαρισμός της λίστας των διαθέσιμων βάσεων δεδομένων"
 
-#: ../libgdict/gdict-database-chooser.c:837 ../libgdict/gdict-speller.c:777
+#: ../libgdict/gdict-database-chooser.c:837
+#: ../libgdict/gdict-speller.c:777
 #: ../libgdict/gdict-strategy-chooser.c:785
 msgid "Error while matching"
 msgstr "Σφάλμα κατά το ταίριασμα"
 
-#: ../libgdict/gdict-defbox.c:1126 ../libgdict/gdict-defbox.c:1220
+#: ../libgdict/gdict-defbox.c:1126
+#: ../libgdict/gdict-defbox.c:1220
 #: ../libgdict/gdict-defbox.c:1254
 msgid "Not found"
 msgstr "Δε βρέθηκαν"
@@ -465,11 +451,13 @@ msgstr "_Επόμενο"
 msgid "Error while looking up definition"
 msgstr "Σφάλμα κατά την αναζήτηση ορισμού"
 
-#: ../libgdict/gdict-defbox.c:2555 ../libgdict/gdict-speller.c:735
+#: ../libgdict/gdict-defbox.c:2555
+#: ../libgdict/gdict-speller.c:735
 msgid "Another search is in progress"
 msgstr "Μια άλλη αναζήτηση είναι σε εξέλιξη"
 
-#: ../libgdict/gdict-defbox.c:2556 ../libgdict/gdict-speller.c:736
+#: ../libgdict/gdict-defbox.c:2556
+#: ../libgdict/gdict-speller.c:736
 msgid "Please wait until the current search ends."
 msgstr "Παρακαλώ περιμένετε μέχρι να τελειώσει η τρέχουσα αναζήτηση."
 
@@ -501,7 +489,8 @@ msgstr "Περιγραφή"
 msgid "The description of this dictionary source"
 msgstr "Περιγραφή αυτής της πηγής λεξικού"
 
-#: ../libgdict/gdict-source.c:273 ../libgdict/gdict-speller.c:382
+#: ../libgdict/gdict-source.c:273
+#: ../libgdict/gdict-speller.c:382
 msgid "Database"
 msgstr "Βάση δεδομένων"
 
@@ -509,7 +498,8 @@ msgstr "Βάση δεδομένων"
 msgid "The default database of this dictionary source"
 msgstr "Η προεπιλεγμένη βάση δεδομένων αυτής της πηγής λεξικού"
 
-#: ../libgdict/gdict-source.c:287 ../libgdict/gdict-speller.c:389
+#: ../libgdict/gdict-source.c:287
+#: ../libgdict/gdict-speller.c:389
 msgid "Strategy"
 msgstr "Στρατηγική"
 
@@ -525,7 +515,8 @@ msgstr "Μεταφορά"
 msgid "The transport mechanism used by this dictionary source"
 msgstr "Ο μηχανισμός μεταφοράς που χρησιμοποιείται από τη πηγή λεξικού."
 
-#: ../libgdict/gdict-source.c:316 ../libgdict/gdict-speller.c:375
+#: ../libgdict/gdict-source.c:316
+#: ../libgdict/gdict-speller.c:375
 msgid "Context"
 msgstr "Περιεχόμενα"
 
@@ -543,18 +534,18 @@ msgstr "Μη έγκυρος τύπος μεταφοράς '%d'"
 msgid "No '%s' group found inside the dictionary source definition"
 msgstr "Δεν βρέθηκε ομάδα '%s' μέσα στον ορισμό πηγής λεξικού"
 
-#: ../libgdict/gdict-source.c:456 ../libgdict/gdict-source.c:480
-#: ../libgdict/gdict-source.c:504 ../libgdict/gdict-source.c:529
+#: ../libgdict/gdict-source.c:456
+#: ../libgdict/gdict-source.c:480
+#: ../libgdict/gdict-source.c:504
+#: ../libgdict/gdict-source.c:529
 #, c-format
 msgid "Unable to get the '%s' key inside the dictionary source definition: %s"
 msgstr "Αδυναμία λήψης του κλειδιού '%s' μέσα στον ορισμό πηγής λεξικού: %s"
 
 #: ../libgdict/gdict-source.c:554
 #, c-format
-msgid ""
-"Unable to get the '%s' key inside the dictionary source definition file: %s"
-msgstr ""
-"Αδυναμία λήψης του κλειδιού '%s' μέσα στο αρχείο ορισμού πηγής λεξικού: %s"
+msgid "Unable to get the '%s' key inside the dictionary source definition file: %s"
+msgstr "Αδυναμία λήψης του κλειδιού '%s' μέσα στο αρχείο ορισμού πηγής λεξικού: %s"
 
 #: ../libgdict/gdict-source.c:740
 #, c-format
@@ -592,8 +583,7 @@ msgstr "Καθαρισμός λίστας παρόμοιων λέξεων"
 
 #: ../libgdict/gdict-speller.c:376
 msgid "The GdictContext object used to get the word definition"
-msgstr ""
-"Το αντικείμενο GdictContext που χρησιμοποιείται για τη λήψη του ορισμού λέξης"
+msgstr "Το αντικείμενο GdictContext που χρησιμοποιείται για τη λήψη του ορισμού λέξης"
 
 #: ../libgdict/gdict-speller.c:383
 msgid "The database used to query the GdictContext"
@@ -615,7 +605,8 @@ msgstr "Καθαρισμός της λίστας των διαθέσιμων σ�
 msgid "GDict debugging flags to set"
 msgstr "Σημαίες αποσφαλμάτωσης GDict που θα οριστούν"
 
-#: ../libgdict/gdict-utils.c:96 ../libgdict/gdict-utils.c:98
+#: ../libgdict/gdict-utils.c:96
+#: ../libgdict/gdict-utils.c:98
 msgid "FLAGS"
 msgstr "ΣΗΜΑΙΕΣ"
 
@@ -639,17 +630,20 @@ msgstr ""
 "Συμεών (σίμος) Ξενιτέλλης <simos@hellug.gr>\n"
 "Κώστας Παπαδήμας <pkst@gnome.org>\n"
 "Νίκος Χαρωνιτάκης <nikosx@gmail.com>\n"
-"Ευστάθιος Ιωσηφίδης <iosifidis@opensuse.org>"
+"Ευστάθιος Ιωσηφίδης <iosifidis@opensuse.org>\n"
+"Μαρία Θουκυδίδου <marablack3@gmail.com>"
 
 #: ../src/gdict-about.c:55
 msgid "Look up words in dictionaries"
 msgstr "Αναζήτηση λέξεων στα λεξικά"
 
-#: ../src/gdict-app.c:60 ../src/gdict-app.c:89
+#: ../src/gdict-app.c:60
+#: ../src/gdict-app.c:89
 msgid "Words to look up"
 msgstr "Λέξεις για αναζήτηση"
 
-#: ../src/gdict-app.c:60 ../src/gdict-app.c:66
+#: ../src/gdict-app.c:60
+#: ../src/gdict-app.c:66
 msgid "WORD"
 msgstr "ΛΕΞΗ"
 
@@ -661,7 +655,9 @@ msgstr "Λέξεις για ταίριασμα"
 msgid "Dictionary source to use"
 msgstr "Η πηγή λεξικού που θα χρησιμοποιηθεί"
 
-#: ../src/gdict-app.c:72 ../src/gdict-app.c:78 ../src/gdict-app.c:84
+#: ../src/gdict-app.c:72
+#: ../src/gdict-app.c:78
+#: ../src/gdict-app.c:84
 msgid "NAME"
 msgstr "ΟΝΟΜΑ"
 
@@ -681,7 +677,8 @@ msgstr "ΛΕΞΕΙΣ"
 msgid "Dictionary Preferences"
 msgstr "Προτιμήσεις λεξικού"
 
-#: ../src/gdict-app.c:128 ../src/gdict-pref-dialog.c:494
+#: ../src/gdict-app.c:128
+#: ../src/gdict-pref-dialog.c:494
 #: ../src/gdict-source-dialog.c:475
 #, c-format
 msgid "There was an error while displaying help"
@@ -692,7 +689,8 @@ msgstr "Υπήρξε σφάλμα κατά την εμφάνιση της βοή
 msgid " - Look up words in dictionaries"
 msgstr "- Αναζήτηση λέξης στα λεξικά"
 
-#: ../src/gdict-pref-dialog.c:239 ../src/gdict-pref-dialog.c:428
+#: ../src/gdict-pref-dialog.c:239
+#: ../src/gdict-pref-dialog.c:428
 msgid "Edit Dictionary Source"
 msgstr "Επεξεργασία πηγής λεξικού"
 
@@ -731,16 +729,19 @@ msgstr "Επξεργασία της επιλεγμένης πηγής λεξικ
 msgid "Set the font used for printing the definitions"
 msgstr "Ορισμός της γραμματοσειράς εκτύπωσης των ορισμών"
 
-#: ../src/gdict-print.c:239 ../src/gdict-print.c:303
+#: ../src/gdict-print.c:239
+#: ../src/gdict-print.c:303
 #, c-format
 msgid "Unable to display the preview: %s"
 msgstr "Αδύνατη η προβολή της προεπισκόπησης: %s"
 
-#: ../src/gdict-source-dialog.c:340 ../src/gdict-source-dialog.c:432
+#: ../src/gdict-source-dialog.c:340
+#: ../src/gdict-source-dialog.c:432
 msgid "Unable to create a source file"
 msgstr "Αδύνατη η δημιουργία ενός αρχείου πηγής"
 
-#: ../src/gdict-source-dialog.c:356 ../src/gdict-source-dialog.c:448
+#: ../src/gdict-source-dialog.c:356
+#: ../src/gdict-source-dialog.c:448
 msgid "Unable to save source file"
 msgstr "Αδυναμία αποθήκευσης αρχείου πηγής"
 
@@ -749,7 +750,8 @@ msgstr "Αδυναμία αποθήκευσης αρχείου πηγής"
 msgid "Searching for '%s'..."
 msgstr "Αναζήτηση για '%s'..."
 
-#: ../src/gdict-window.c:285 ../src/gdict-window.c:342
+#: ../src/gdict-window.c:285
+#: ../src/gdict-window.c:342
 msgid "No definitions found"
 msgstr "Δε βρέθηκαν ορισμοί"
 
