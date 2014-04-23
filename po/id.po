@@ -3,28 +3,28 @@
 #
 # Mohammad DAMT <mdamt@bisnisweb.com>, 2003-2005.
 # Andika Triwidada <andika@gmail.com>, 2010-2014.
-# Dirgita <dirgitadevina@yahoo.co.id>, 2011.
+# Dirgita <dirgitadevina@yahoo.co.id>, 2011, 2014.
 # Bonaventura Aditya Perdana <bonaditya@about.me>, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-dictionary master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "dictionary&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2014-03-12 19:39+0000\n"
-"PO-Revision-Date: 2014-03-13 11:11+0700\n"
-"Last-Translator: Andika Triwidada <andika@gmail.com>\n"
-"Language-Team: GNOME Indonesian Translation Team <gnome@i15n.org>\n"
+"POT-Creation-Date: 2014-04-05 19:01+0000\n"
+"PO-Revision-Date: 2014-04-09 05:45+0700\n"
+"Last-Translator: Dirgita <dirgitadevina@yahoo.co.id>\n"
+"Language-Team: Indonesian <gnome-l10n-id@googlegroups.com>\n"
 "Language: id_ID\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Generator: Poedit 1.5.7\n"
+"X-Generator: Lokalize 1.5\n"
 
 #: ../data/default.desktop.in.h:1
 msgid "Default Dictionary Server"
-msgstr "Server Kamus Default"
+msgstr "Server Kamus Utama"
 
 #: ../data/gnome-dictionary.desktop.in.in.h:1 ../src/gdict-about.c:60
 #: ../src/gdict-app.c:347 ../src/gdict-window.c:543 ../src/gdict-window.c:1810
@@ -299,8 +299,7 @@ msgstr "Tiada sambungan ke server kamus pada '%s:%d'"
 #: ../libgdict/gdict-client-context.c:1059
 #, c-format
 msgid "Lookup failed for hostname '%s': no suitable resources found"
-msgstr ""
-"Pencarian gagal untuk nama host '%s'. Tidak menemukan sumber yang benar"
+msgstr "Pencarian gagal untuk nama host '%s'. Tak menemukan sumber yang benar"
 
 #: ../libgdict/gdict-client-context.c:1090
 #, c-format
@@ -318,7 +317,7 @@ msgid ""
 "Unable to connect to the dictionary server at '%s:%d'. The server replied "
 "with code %d (server down)"
 msgstr ""
-"Tidak bisa tersambung ke server kamus pada '%s:%d'. Server menjawab dengan "
+"Tak dapat tersambung ke server kamus pada '%s:%d'. Server menjawab dengan "
 "kode %d (server mati)"
 
 #: ../libgdict/gdict-client-context.c:1195
@@ -327,13 +326,13 @@ msgid ""
 "Unable to parse the dictionary server reply\n"
 ": '%s'"
 msgstr ""
-"Tidak bisa memproses balasan server kamus \n"
+"Tak dapat memproses balasan server kamus \n"
 ": '%s'"
 
 #: ../libgdict/gdict-client-context.c:1224
 #, c-format
 msgid "No definitions found for '%s'"
-msgstr "Tidak menemukan penjelasan untuk '%s'"
+msgstr "Tak menemukan penjelasan untuk '%s'"
 
 #: ../libgdict/gdict-client-context.c:1239
 #, c-format
@@ -358,12 +357,12 @@ msgstr "Parameter salah untuk perintah '%s'"
 #: ../libgdict/gdict-client-context.c:1299
 #, c-format
 msgid "No databases found on dictionary server at '%s'"
-msgstr "Tidak menemukan basis data pada server kamus pada '%s'"
+msgstr "Tak menemukan basis data pada server kamus pada '%s'"
 
 #: ../libgdict/gdict-client-context.c:1314
 #, c-format
 msgid "No strategies found on dictionary server at '%s'"
-msgstr "Tidak menemukan strategi pada kamus kata pada '%s'"
+msgstr "Tak menemukan strategi pada kamus kata pada '%s'"
 
 #: ../libgdict/gdict-client-context.c:1747
 #, c-format
@@ -393,17 +392,17 @@ msgstr "Nama host tak didefinisikan untuk server kamus"
 #: ../libgdict/gdict-client-context.c:1944
 #, c-format
 msgid "Unable to create socket"
-msgstr "Tidak dapat membuat soket"
+msgstr "Tak dapat membuat soket"
 
 #: ../libgdict/gdict-client-context.c:1970
 #, c-format
 msgid "Unable to set the channel as non-blocking: %s"
-msgstr "Tidak bisa membuat kanal sebagai tanpa-halangan: %s"
+msgstr "Tak dapat membuat kanal sebagai tanpa-halangan: %s"
 
 #: ../libgdict/gdict-client-context.c:1985
 #, c-format
 msgid "Unable to connect to the dictionary server at '%s:%d'"
-msgstr "Tidak bisa menyambung ke server kamus pada '%s:%d'"
+msgstr "Tak dapat menyambung ke server kamus pada '%s:%d'"
 
 #: ../libgdict/gdict-context.c:217
 msgid "Local Only"
@@ -429,7 +428,7 @@ msgstr "Error saat mencocokkan"
 #: ../libgdict/gdict-defbox.c:1126 ../libgdict/gdict-defbox.c:1220
 #: ../libgdict/gdict-defbox.c:1254
 msgid "Not found"
-msgstr "Tidak ditemukan"
+msgstr "Tak ditemukan"
 
 #: ../libgdict/gdict-defbox.c:1315
 msgid "F_ind:"
@@ -523,7 +522,7 @@ msgstr "Jenis transport salah '%d'"
 #: ../libgdict/gdict-source.c:440
 #, c-format
 msgid "No '%s' group found inside the dictionary source definition"
-msgstr "Tidak ada kelompok '%s' ditemukan dalam penjelasan sumber kamus"
+msgstr "Tak ada kelompok '%s' ditemukan dalam penjelasan sumber kamus"
 
 #: ../libgdict/gdict-source.c:456 ../libgdict/gdict-source.c:480
 #: ../libgdict/gdict-source.c:504 ../libgdict/gdict-source.c:529
@@ -691,7 +690,7 @@ msgstr "Ini akan menghapus sumber kamus dari daftar untuk selamanya."
 #: ../src/gdict-pref-dialog.c:380
 #, c-format
 msgid "Unable to remove source '%s'"
-msgstr "Tidak dapat membuang sumber '%s'"
+msgstr "Tak dapat membuang sumber '%s'"
 
 #: ../src/gdict-pref-dialog.c:641
 msgid "Add a new dictionary source"
@@ -716,11 +715,11 @@ msgstr "Tak bisa menampilkan pratilik: %s"
 
 #: ../src/gdict-source-dialog.c:340 ../src/gdict-source-dialog.c:432
 msgid "Unable to create a source file"
-msgstr "Tidak dapat membuat berkas sumber"
+msgstr "Tak dapat membuat berkas sumber"
 
 #: ../src/gdict-source-dialog.c:356 ../src/gdict-source-dialog.c:448
 msgid "Unable to save source file"
-msgstr "Tidak dapat menyimpan berkas sumber"
+msgstr "Tak dapat menyimpan berkas sumber"
 
 #: ../src/gdict-window.c:253
 #, c-format
@@ -729,7 +728,7 @@ msgstr "Mencari '%s'..."
 
 #: ../src/gdict-window.c:285 ../src/gdict-window.c:342
 msgid "No definitions found"
-msgstr "Tidak menemukan penjelasan"
+msgstr "Tak menemukan penjelasan"
 
 #: ../src/gdict-window.c:287
 #, c-format
@@ -740,7 +739,7 @@ msgstr[0] "%d definisi ditemukan"
 #: ../src/gdict-window.c:458
 #, c-format
 msgid "No dictionary source available with name '%s'"
-msgstr "Tidak ada sumber kamus dengan nama '%s'"
+msgstr "Tak ada sumber kamus dengan nama '%s'"
 
 #: ../src/gdict-window.c:462
 msgid "Unable to find dictionary source"
@@ -749,11 +748,11 @@ msgstr "Gagal menemukan sumber kamus"
 #: ../src/gdict-window.c:478
 #, c-format
 msgid "No context available for source '%s'"
-msgstr "Tidak ada konteks tersedia untuk sumber '%s'"
+msgstr "Tak ada konteks tersedia untuk sumber '%s'"
 
 #: ../src/gdict-window.c:482
 msgid "Unable to create a context"
-msgstr "Tidak dapat membuat konteks"
+msgstr "Tak dapat membuat konteks"
 
 #: ../src/gdict-window.c:541
 #, c-format
@@ -832,3 +831,5 @@ msgstr "Strategi tersedia"
 #: ../src/gdict-window.c:1742
 msgid "Dictionary sources"
 msgstr "Sumber kamus"
+
+
