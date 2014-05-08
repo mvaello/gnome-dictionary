@@ -11,9 +11,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-utils\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-10-06 22:14+0200\n"
-"PO-Revision-Date: 2013-07-06 22:22+0200\n"
-"Last-Translator: Joan Duran <jodufi@gmail.com>\n"
+"POT-Creation-Date: 2014-05-09 00:12+0200\n"
+"PO-Revision-Date: 2014-02-25 08:19+0100\n"
+"Last-Translator: Pau Iranzo <paugnu@gmail.com>\n"
 "Language-Team: Catalan <tradgnome@softcatala.org>\n"
 "Language: ca-XV\n"
 "MIME-Version: 1.0\n"
@@ -39,6 +39,19 @@ msgstr ""
 msgid "word;synonym;definition;spelling;"
 msgstr "paraula;sinònim;definició;ortografia;"
 
+#: ../data/gnome-dictionary.appdata.xml.in.h:1
+msgid ""
+"GNOME Dictionary is a simple dictionary application that looks up "
+"definitions of words online. Though it looks up English definitions by "
+"default, you can easily switch to Spanish or add other online dictionaries "
+"using the DICT protocol to suit your needs."
+msgstr ""
+"El Diccionari del GNOME és una aplicació de diccionari senzilla que cerca "
+"definicions de paraules en línia. Tot i que per defecte cerca les "
+"definicions en anglés, podeu canviar fàcilment al castellà o altres "
+"diccionaris en línia fent servir el protocol DICT per adaptar-se a les "
+"vostres necessitats."
+
 #: ../data/gnome-dictionary-menus.ui.h:1
 msgid "Preferences"
 msgstr "Preferències"
@@ -48,8 +61,8 @@ msgid "Help"
 msgstr "Ajuda"
 
 #: ../data/gnome-dictionary-menus.ui.h:3
-msgid "About Dictionary"
-msgstr "Quant al diccionari"
+msgid "About"
+msgstr "Quant a"
 
 #: ../data/gnome-dictionary-menus.ui.h:4
 msgid "Quit"
@@ -814,9 +827,8 @@ msgid "Double-click on the database to use"
 msgstr "Feu doble clic a la base de dades que vulgueu emprar"
 
 #: ../src/gdict-window.c:1621
-#, fuzzy
 msgid "Look _up"
-msgstr "_Cerca:"
+msgstr "_Cerca"
 
 #: ../src/gdict-window.c:1695
 msgid "Similar words"
@@ -833,6 +845,9 @@ msgstr "Estratègies disponibles"
 #: ../src/gdict-window.c:1742
 msgid "Dictionary sources"
 msgstr "Fonts de diccionaris"
+
+#~ msgid "About Dictionary"
+#~ msgstr "Quant al diccionari"
 
 #~ msgid "Available _Databases"
 #~ msgstr "Bases de _dades disponibles"
@@ -866,6 +881,3 @@ msgstr "Fonts de diccionaris"
 
 #~ msgid "_Contents"
 #~ msgstr "_Continguts"
-
-#~ msgid "_About"
-#~ msgstr "_Quant a"
