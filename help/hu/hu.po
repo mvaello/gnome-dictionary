@@ -1,0 +1,1168 @@
+# Hungarian translation for gnome-dictionary.
+# Copyright (C) 2014 gnome-dictionary's COPYRIGHT HOLDER
+# This file is distributed under the same license as the gnome-dictionary package.
+#
+# Balázs Úr <urbalazs@gmail.com>, 2014.
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-dictionary gnome-3-8\n"
+"POT-Creation-Date: 2014-05-22 18:35+0000\n"
+"PO-Revision-Date: 2014-05-22 22:17+0200\n"
+"Last-Translator: Balázs Úr <urbalazs@gmail.com>\n"
+"Language-Team: Hungarian <gnome-hu-list@gnome.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: hu\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 1.2\n"
+
+#. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
+msgctxt "_"
+msgid "translator-credits"
+msgstr "Úr Balázs <urbalazs at gmail dot com>, 2014."
+
+#. (itstool) path: credit/name
+#: C/definition.page:11 C/dictionary-select.page:11 C/find.page:10
+#: C/index.page:11 C/introduction.page:10 C/keyboard-shortcuts.page:11
+#: C/pref.page:9 C/print-font.page:11 C/print.page:12
+#: C/prob-retrieving-definition.page:11 C/save-definition.page:10
+#: C/similar-words.page:11 C/source-add-local.page:11
+#: C/sources-default.page:10 C/sources-delete.page:11 C/sources-edit.page:10
+#: C/sources.page:12 C/sources-select.page:12 C/text-copy.page:11
+msgid "Sindhu S"
+msgstr "Sindhu S"
+
+#. (itstool) path: credit/years
+#: C/definition.page:13 C/definition.page:18 C/dictionary-select.page:13
+#: C/dictionary-select.page:18 C/find.page:12 C/find.page:17 C/index.page:13
+#: C/introduction.page:12 C/introduction.page:17 C/keyboard-shortcuts.page:13
+#: C/keyboard-shortcuts.page:18 C/print-font.page:13 C/print-font.page:18
+#: C/print.page:14 C/print.page:19 C/prob-retrieving-definition.page:13
+#: C/prob-retrieving-definition.page:18 C/save-definition.page:12
+#: C/save-definition.page:17 C/similar-words.page:13 C/similar-words.page:18
+#: C/source-add-local.page:13 C/sources-default.page:12
+#: C/sources-default.page:17 C/sources-delete.page:13 C/sources-delete.page:18
+#: C/sources-edit.page:12 C/sources-edit.page:17 C/sources.page:14
+#: C/sources.page:19 C/sources-select.page:14 C/sources-select.page:19
+#: C/text-copy.page:13 C/text-copy.page:18
+msgid "2013"
+msgstr "2013"
+
+#. (itstool) path: credit/name
+#: C/definition.page:16 C/dictionary-select.page:16 C/find.page:15
+#: C/introduction.page:15 C/keyboard-shortcuts.page:16 C/print-font.page:16
+#: C/print.page:17 C/prob-retrieving-definition.page:16
+#: C/save-definition.page:15 C/similar-words.page:16 C/sources-default.page:15
+#: C/sources-delete.page:16 C/sources-edit.page:15 C/sources.page:17
+#: C/sources-select.page:17 C/text-copy.page:16
+msgid "Ekaterina Gerasimova"
+msgstr "Ekaterina Gerasimova"
+
+#. (itstool) path: info/desc
+#: C/definition.page:23
+msgid "Find the definition of a word or term."
+msgstr "Egy szó vagy kifejezés meghatározásának keresése."
+
+#. (itstool) path: page/title
+#: C/definition.page:27
+msgid "Look up a word or term"
+msgstr "Egy szó vagy kifejezés keresése"
+
+#. (itstool) path: page/p
+#: C/definition.page:29
+msgid ""
+"You can use <app>Dictionary</app> to look up the meaning of a <em>term</em>. "
+"A term can be a single word such as <input>apple</input> or a compound word "
+"such as <input>chopping board</input>. The search result may also show you "
+"the origin, importance and usage of a word. To look up a term:"
+msgstr ""
+"A <app>Szótár</app> alkalmazást egy <em>kifejezés</em> jelentésének "
+"megkereséséhez használhatja. A kifejezés lehet egyetlen szó, például "
+"<input>apple</input> vagy egy összetett szó, úgymint <input>chopping board</"
+"input>. A keresési eredmény megjelenítheti a szó eredetét, fontosságát és "
+"használatát is. Egy kifejezés kereséséhez:"
+
+#. (itstool) path: item/p
+#: C/definition.page:37
+msgid ""
+"Type in the term that you want to search for next to <gui>Look up</gui>."
+msgstr "Gépelje be a keresendő kifejezést a <gui>Keresés</gui> mezőbe."
+
+#. (itstool) path: item/p
+#: C/definition.page:41
+msgid ""
+"Press <key>Return</key> or <gui style=\"button\">Look up:</gui> to search."
+msgstr ""
+"Nyomja meg az <key>Enter</key> billentyűt vagy a <gui style=\"button"
+"\">Keresés</gui> gombot a kereséshez."
+
+#. (itstool) path: page/p
+#: C/definition.page:46
+msgid ""
+"<app>Dictionary</app> will search your selected dictionary source and show "
+"you the result from the first dictionary in the source. To view results from "
+"the other dictionaries that are in the same source, select <link xref="
+"\"similar-words\"><guiseq><gui style=\"menu\">View</gui> <gui style="
+"\"menuitem\">Similar Words</gui></guiseq></link> to pop up a sidebar that "
+"shows all the results."
+msgstr ""
+"A <app>Szótár</app> elkezdi a keresést a kiválasztott szótárforrásban, és "
+"megjeleníti az eredményt a forrás első szótárából. Az azonos forrásban lévő, "
+"de más szótárakból származó találatok megtekintéséhez válassza a <link xref="
+"\"similar-words\"><guiseq><gui style=\"menu\">Nézet</gui> <gui style="
+"\"menuitem\">Hasonló szavak</gui></guiseq></link> menüpontot egy olyan "
+"oldalsáv megjelenítéséhez, amely minden találatot megjelenít."
+
+#. (itstool) path: page/title
+#: C/dictionary-select.page:25
+msgid "Select a different dictionary"
+msgstr "Másik szótár kiválasztása"
+
+#. (itstool) path: page/p
+#: C/dictionary-select.page:27
+msgid ""
+"A single <link xref=\"sources\">dictionary source</link> may have many "
+"different dictionaries. You can search any of these dictionaries."
+msgstr ""
+"Az egyes <link xref=\"sources\">szótárforrások</link> számos különböző "
+"szótárral rendelkezhetnek. Ezek közül bármelyik szótárban kereshet."
+
+#. (itstool) path: steps/title
+#: C/dictionary-select.page:32
+msgid "Select a dictionary"
+msgstr "Szótár kiválasztása"
+
+#. (itstool) path: item/p
+#: C/dictionary-select.page:34
+msgid ""
+"Select <guiseq><gui style=\"menu\">View</gui> <gui style=\"menuitem"
+"\">Available Databases</gui></guiseq>. A sidebar listing the available "
+"dictionaries for your currently selected dictionary source will open."
+msgstr ""
+"Válassza a <guiseq><gui style=\"menu\">Nézet</gui> <gui style=\"menuitem"
+"\">Elérhető adatbázisok</gui></guiseq> menüpontot. Egy olyan oldalsáv fog "
+"megnyílni, amely az elérhető szótárakat listázza az aktuálisan kiválasztott "
+"szótárforráshoz."
+
+#. (itstool) path: item/p
+#: C/dictionary-select.page:40
+msgid "Click twice on the dictionary that you want to use."
+msgstr "Kattintson kétszer arra a szótárra, amelyet használni szeretne."
+
+#. (itstool) path: page/p
+#: C/dictionary-select.page:44
+msgid ""
+"The next term that you <link xref=\"definition\">look up</link> will show "
+"the result only from the selected dictionary."
+msgstr ""
+"A következő kifejezés, amelyet <link xref=\"definition\">keres</link>, csak "
+"a kiválasztott szótárból fog találatot megjeleníteni."
+
+#. (itstool) path: note/p
+#: C/dictionary-select.page:48
+msgid ""
+"Your dictionary selection will not be remembered next time you use "
+"<app>Dictionary</app>."
+msgstr ""
+"A szótárkiválasztás nem kerül megőrzésre a <app>Szótár</app> következő "
+"használatához."
+
+#. (itstool) path: info/desc
+#: C/find.page:22
+msgid "Find text in a definition."
+msgstr "Szöveg keresése egy meghatározásban."
+
+#. (itstool) path: page/title
+#. (itstool) path: td/p
+#: C/find.page:26 C/keyboard-shortcuts.page:74
+msgid "Search within a definition"
+msgstr "Keresés egy meghatározáson belül"
+
+#. (itstool) path: page/p
+#: C/find.page:28
+msgid ""
+"Some dictionary entires can be very long and can contain many results, so "
+"you may wish to search them to find the section that is relevant to you."
+msgstr ""
+"Néhány szótárbejegyzés nagyon hosszú lehet, és számos találatot tartalmazhat, "
+"ezért érdemes lehet rájuk keresni, hogy megtalálja a releváns szakaszt."
+
+#. (itstool) path: steps/title
+#: C/find.page:32
+msgid "To find definitions:"
+msgstr "A meghatározásokban való kereséshez:"
+
+#. (itstool) path: item/p
+#: C/find.page:34
+msgid ""
+"Select <guiseq><gui style=\"menu\">Edit</gui> <gui style=\"menitem\">Find</"
+"gui></guiseq>."
+msgstr ""
+"Válassza a <guiseq><gui style=\"menu\">Szerkesztés</gui> <gui "
+"style=\"menuitem\">Keresés</gui></guiseq> menüpontot."
+
+#. (itstool) path: item/p
+#: C/find.page:38
+msgid ""
+"The <gui>Find</gui> bar will appear at the bottom of the <app>Dictionary</"
+"app> window. Type in your search term to search within the definition that "
+"is currently displayed."
+msgstr ""
+"Meg fog jelenni a <gui>Keresés</gui> sáv a <app>Szótár</app> ablak alján. "
+"Gépelje be a keresési kifejezést az aktuálisan megjelenített meghatározáson "
+"belüli kereséshez."
+
+#. (itstool) path: item/p
+#: C/find.page:43
+msgid ""
+"Click <gui style=\"button\">Previous</gui> or <gui style=\"button\">Next</"
+"gui> to scroll through the results. The search will not wrap around: in "
+"other words, it will not go to the top of the page when you are on the last "
+"result and click <gui style=\"button\">Next</gui>."
+msgstr ""
+"Kattintson az <gui style=\"button\">Előző</gui> vagy a <gui style=\"button"
+"\">Következő</gui> gombra az eredmények görgetéséhez. A keresés nem fog "
+"körbefordulni: másként fogalmazva nem fog az oldal tetejére ugrani, ha az "
+"utolsó találatnál tart és megnyomja a <gui style=\"button\">Következő</gui> "
+"gombot."
+
+#. (itstool) path: info/title
+#: C/index.page:8
+msgctxt "text"
+msgid "Dictionary"
+msgstr "Szótár"
+
+#. (itstool) path: info/desc
+#: C/index.page:18
+msgid "Look up word definitions in <app>Dictionary</app>."
+msgstr "Szavak meghatározásának keresése a <app>Szótárban</app>."
+
+#. (itstool) path: page/title
+#: C/index.page:21
+msgid "<_:media-1/> Dictionary Help"
+msgstr "<_:media-1/> Szótár súgó"
+
+#. (itstool) path: section/title
+#: C/index.page:26
+msgid "Features"
+msgstr "Szolgáltatások"
+
+#. (itstool) path: section/title
+#: C/index.page:30
+msgid "Preferences"
+msgstr "Beállítások"
+
+#. (itstool) path: section/title
+#: C/index.page:34
+msgid "Common problems and solutions"
+msgstr "Gyakori problémák és megoldások"
+
+#. (itstool) path: media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/introduction.page:38
+msgctxt "_"
+msgid ""
+"external ref='figures/gnome-dictionary.png' "
+"md5='80df283344ecd9b03b88309f8ee9912d'"
+msgstr ""
+"external ref='figures/gnome-dictionary.png' "
+"md5='80df283344ecd9b03b88309f8ee9912d'"
+
+#. (itstool) path: info/desc
+#: C/introduction.page:22
+msgid "What is <app>Dictionary</app>?"
+msgstr "Mi a <app>Szótár</app>?"
+
+#. (itstool) path: page/title
+#: C/introduction.page:26
+msgid "Introduction"
+msgstr "Bevezetés"
+
+#. (itstool) path: page/p
+#: C/introduction.page:28
+msgid ""
+"<app>Dictionary</app> is an application for looking up term definitions. It "
+"searches for definitions using an online <app>DICT</app> server. The default "
+"<app>DICT</app> server is at <sys href=\"http://dict.org\">http://dict.org</"
+"sys>."
+msgstr ""
+"A <app>Szótár</app> kifejezések meghatározásának kereséséhez használható "
+"alkalmazás. A meghatározásokat egy online <app>DICT</app> kiszolgáló "
+"használatával keresi meg. Az alapértelmezett <app>DICT</app> kiszolgáló a "
+"<sys href=\"http://dict.org\">http://dict.org</sys> címen érhető el."
+
+#. (itstool) path: page/p
+#: C/introduction.page:33
+msgid ""
+"Start using <app>Dictionary</app> by <link xref=\"definition\">looking up a "
+"definition</link>!"
+msgstr ""
+"Kezdje a <app>Szótár</app> használatát <link xref=\"definition\">egy "
+"meghatározás keresésével</link>!"
+
+#. (itstool) path: figure/title
+#: C/introduction.page:37
+msgid "Dictionary"
+msgstr "Szótár"
+
+#. (itstool) path: media/p
+#: C/introduction.page:39
+msgid "Screenshot showing the <app>Dictionary</app> main window."
+msgstr "A <app>Szótár</app> főablakát megjelenítő képernyőkép."
+
+#. (itstool) path: info/desc
+#: C/keyboard-shortcuts.page:23
+msgid ""
+"You can use keyboard shortcuts to navigate around <app>Dictionary</app> more "
+"efficiently."
+msgstr ""
+"A <app>Szótár</app> alkalmazásban való hatékonyabb navigációhoz használhat "
+"gyorsbillentyűket is."
+
+#. (itstool) path: page/title
+#: C/keyboard-shortcuts.page:27
+msgid "Keyboard shortcuts"
+msgstr "Gyorsbillentyűk"
+
+#. (itstool) path: page/p
+#: C/keyboard-shortcuts.page:29
+msgid ""
+"Keyboard shortcuts are combinations of keys that you can use instead of "
+"navigating through the menu. The following shortcuts are available:"
+msgstr ""
+"A gyorsbillentyűk a billentyűk olyan kombinációi, amelyeket a menüben való "
+"navigáció helyett használhat. A következő gyorsbillentyűk érhetők el:"
+
+#. (itstool) path: table/title
+#: C/keyboard-shortcuts.page:33
+msgid "Navigate around <app>Dictionary</app>"
+msgstr "Navigáció a <app>Szótár</app> alkalmazásban"
+
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:36 C/keyboard-shortcuts.page:68
+#: C/keyboard-shortcuts.page:92 C/keyboard-shortcuts.page:120
+msgid "Action"
+msgstr "Művelet"
+
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:37 C/keyboard-shortcuts.page:69
+#: C/keyboard-shortcuts.page:93 C/keyboard-shortcuts.page:121
+msgid "Shortcut"
+msgstr "Gyorsbillentyű"
+
+#. (itstool) path: td/p
+#. (itstool) path: section/title
+#: C/keyboard-shortcuts.page:42 C/print.page:36
+msgid "Print preview"
+msgstr "Nyomtatási kép"
+
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:43
+msgid "<keyseq><key>Shift</key><key>Ctrl</key><key>P</key></keyseq>"
+msgstr "<keyseq><key>Shift</key><key>Ctrl</key><key>P</key></keyseq>"
+
+#. (itstool) path: td/p
+#. (itstool) path: section/title
+#: C/keyboard-shortcuts.page:46 C/print.page:67
+msgid "Print"
+msgstr "Nyomtatás"
+
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:47
+msgid "<keyseq><key>Ctrl</key><key>P</key></keyseq>"
+msgstr "<keyseq><key>Ctrl</key><key>P</key></keyseq>"
+
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:50
+msgid "View sidebar"
+msgstr "Oldalsáv megjelenítése"
+
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:51
+msgid "<key>F9</key>"
+msgstr "<key>F9</key>"
+
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:54
+msgid "Open a new <app>Dictionary</app> window"
+msgstr "Egy új <app>Szótár</app> ablak megnyitása"
+
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:55
+msgid "<keyseq><key>Ctrl</key><key>N</key></keyseq>"
+msgstr "<keyseq><key>Ctrl</key><key>N</key></keyseq>"
+
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:58
+msgid "Close current <app>Dictionary</app> window"
+msgstr "Az aktuális <app>Szótár</app> ablak bezárása"
+
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:59
+msgid "<keyseq><key>Ctrl</key><key>W</key></keyseq>"
+msgstr "<keyseq><key>Ctrl</key><key>W</key></keyseq>"
+
+#. (itstool) path: table/title
+#: C/keyboard-shortcuts.page:65
+msgid "Search shortcuts"
+msgstr "Keresési gyorsbillentyűk"
+
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:75
+msgid "<key>/</key> or <keyseq><key>Ctrl</key><key>F</key></keyseq>"
+msgstr "<key>/</key> vagy <keyseq><key>Ctrl</key><key>F</key></keyseq>"
+
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:78
+msgid "Find next"
+msgstr "Következő keresése"
+
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:79
+msgid "<keyseq><key>Ctrl</key><key>G</key></keyseq>"
+msgstr "<keyseq><key>Ctrl</key><key>G</key></keyseq>"
+
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:82
+msgid "Find previous"
+msgstr "Előző keresése"
+
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:83
+msgid "<keyseq><key>Shift</key><key>Ctrl</key><key>G</key></keyseq>"
+msgstr "<keyseq><key>Shift</key><key>Ctrl</key><key>G</key></keyseq>"
+
+#. (itstool) path: table/title
+#: C/keyboard-shortcuts.page:89
+msgid "Navigate within a definition"
+msgstr "Navigáció egy meghatározásban"
+
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:98
+msgid "Previous definition"
+msgstr "Előző meghatározás"
+
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:99
+msgid "<keyseq><key>Ctrl</key><key>Page Up</key></keyseq>"
+msgstr "<keyseq><key>Ctrl</key><key>Page Up</key></keyseq>"
+
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:102
+msgid "Next definition"
+msgstr "Következő meghatározás"
+
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:103
+msgid "<keyseq><key>Ctrl</key><key>Page Down</key></keyseq>"
+msgstr "<keyseq><key>Ctrl</key><key>Page Down</key></keyseq>"
+
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:106
+msgid "First definition"
+msgstr "Első meghatározás"
+
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:107
+msgid "<keyseq><key>Ctrl</key><key>Home</key></keyseq>"
+msgstr "<keyseq><key>Ctrl</key><key>Home</key></keyseq>"
+
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:110
+msgid "Last definition"
+msgstr "Utolsó meghatározás"
+
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:111
+msgid "<keyseq><key>Ctrl</key><key>End</key></keyseq>"
+msgstr "<keyseq><key>Ctrl</key><key>End</key></keyseq>"
+
+#. (itstool) path: table/title
+#: C/keyboard-shortcuts.page:117
+msgid "<app>Dictionary</app> definitions shortcuts:"
+msgstr "<app>Szótár</app> meghatározások gyorsbillentyűi:"
+
+#. (itstool) path: td/p
+#. (itstool) path: page/title
+#: C/keyboard-shortcuts.page:126 C/similar-words.page:27
+msgid "Similar words"
+msgstr "Hasonló szavak"
+
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:127
+msgid "<keyseq><key>Ctrl</key><key>T</key></keyseq>"
+msgstr "<keyseq><key>Ctrl</key><key>T</key></keyseq>"
+
+#. (itstool) path: td/p
+#. (itstool) path: page/title
+#: C/keyboard-shortcuts.page:130 C/sources.page:28
+msgid "Dictionary sources"
+msgstr "Szótárforrások"
+
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:131
+msgid "<keyseq><key>Ctrl</key><key>D</key></keyseq>"
+msgstr "<keyseq><key>Ctrl</key><key>D</key></keyseq>"
+
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:134
+msgid "Available databases"
+msgstr "Elérhető adatbázisok"
+
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:135
+msgid "<keyseq><key>Ctrl</key><key>B</key></keyseq>"
+msgstr "<keyseq><key>Ctrl</key><key>B</key></keyseq>"
+
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:138
+msgid "Available strategies"
+msgstr "Elérhető stratégiák"
+
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:139
+msgid "<keyseq><key>Ctrl</key><key>R</key></keyseq>"
+msgstr "<keyseq><key>Ctrl</key><key>R</key></keyseq>"
+
+#. (itstool) path: p/link
+#: C/legal.xml:3
+msgid "http://creativecommons.org/licenses/by-sa/3.0/"
+msgstr "http://creativecommons.org/licenses/by-sa/3.0/"
+
+#. (itstool) path: license/p
+#: C/legal.xml:3
+msgid ""
+"This work is licensed under the Creative Commons Attribution-ShareAlike 3.0 "
+"Unported License. To view a copy of this license, visit <_:link-1/> or send "
+"a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, "
+"California, 94041, USA."
+msgstr ""
+"Ez a mű a Creative Commons Attribution-ShareAlike 3.0 Unported License "
+"feltételeinek megfelelően felhasználható. A licenc egy példányának "
+"megtekintéséhez látogassa meg a <_:link-1/> oldalt, vagy küldjön egy levelet "
+"a Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, "
+"94041, USA címre."
+
+#. (itstool) path: info/desc
+#: C/pref.page:15
+msgid "Manage your preferences."
+msgstr "Beállítások kezelése."
+
+#. (itstool) path: page/title
+#: C/pref.page:18
+msgid "<app>Dictionary</app> preferences"
+msgstr "A <app>Szótár</app> beállításai"
+
+#. (itstool) path: info/desc
+#: C/print-font.page:23
+msgid "Select the font for printing definitions."
+msgstr "Betűkészlet kiválasztása a meghatározások nyomtatásához."
+
+#. (itstool) path: page/title
+#: C/print-font.page:27
+msgid "Print font"
+msgstr "Nyomtatási betűkészlet"
+
+#. (itstool) path: page/p
+#: C/print-font.page:29
+msgid ""
+"You can change the default font face and size that are used for printing the "
+"definitions."
+msgstr ""
+"Megváltoztathatja a meghatározások nyomtatásához használt alapértelmezett "
+"betűkészletet és -méretet."
+
+#. (itstool) path: steps/title
+#: C/print-font.page:33
+msgid "Change the font"
+msgstr "A betűkészlet megváltoztatása"
+
+#. (itstool) path: item/p
+#: C/print-font.page:35
+msgid ""
+"Select <guiseq><gui style=\"menu\">Dictionary</gui> <gui style=\"menuitem"
+"\">Preferences</gui> <gui style=\"tab\">Print</gui></guiseq>."
+msgstr ""
+"Válassza a <guiseq><gui style=\"menu\">Szótár</gui> <gui style=\"menuitem"
+"\">Beállítások</gui> <gui style=\"tab\">Nyomtatás</gui></guiseq> lapot."
+
+#. (itstool) path: item/p
+#: C/print-font.page:40
+msgid "Click font selector button."
+msgstr "Kattintson a betűkészlet-választó gombra."
+
+#. (itstool) path: item/p
+#: C/print-font.page:43
+msgid "Select the font that you wish to use."
+msgstr "Válassza ki azt a betűkészletet, amelyet használni szeretne."
+
+#. (itstool) path: item/p
+#: C/print-font.page:46
+msgid ""
+"Drag the slider to the right to increase the font size or left to decrease "
+"it. Alternatively, you can type in the font size in the text box, or use the "
+"<gui>-</gui> and <gui>+</gui> buttons to decrease and increase the font size."
+msgstr ""
+"Húzza jobbra a csúszkát a betűméret növeléséhez vagy balra a betűméret "
+"csökkentéséhez. Alternatív megoldásként begépelheti a betűméretet a "
+"szövegdobozba, vagy használhatja a <gui>-</gui> és <gui>+</gui> gombokat a "
+"betűméret csökkentéséhez vagy növeléséhez."
+
+#. (itstool) path: item/p
+#: C/print-font.page:52
+msgid "Click <gui style=\"button\">Select</gui> to save your font settings."
+msgstr ""
+"Kattintson a <gui style=\"button\">Kiválasztás</gui> gombra a betűkészlet-"
+"beállítások mentéséhez."
+
+#. (itstool) path: page/p
+#: C/print-font.page:56
+msgid ""
+"The definition is not reflowed for printing, so if you choose a large font "
+"size, some of the text may be cut off."
+msgstr ""
+"A meghatározások nincsenek újratördelve a nyomtatáshoz, ezért ha nagy "
+"betűkészletet választ, a szöveg egy része levágásra kerülhet."
+
+#. (itstool) path: info/desc
+#: C/print.page:24
+msgid "Print preview and print definitions."
+msgstr "Nyomtatási kép és meghatározások nyomtatása."
+
+#. (itstool) path: page/title
+#: C/print.page:28
+msgid "Print a definition"
+msgstr "Meghatározás nyomtatása"
+
+#. (itstool) path: page/p
+#: C/print.page:30
+msgid ""
+"You can print a definition to paper or a file. Before printing, you should "
+"preview the definition as it would be printed to check that the text fits "
+"onto the page, especially if you have changed the <link xref=\"print-font"
+"\">print font</link> size."
+msgstr ""
+"Kinyomtathat egy meghatározást papírra vagy fájlba. Nyomtatás előtt nézze "
+"meg a meghatározás nyomtatási képét, hogy miként lesz kinyomtatva, hogy "
+"ellenőrizze, ráfér-e a szöveg az oldalra, különösen akkor, ha megváltoztatta "
+"a <link xref=\"print-font\">nyomtatási betűkészlet</link> méretét."
+
+#. (itstool) path: item/p
+#: C/print.page:40
+msgid ""
+"Select <guiseq><gui style=\"menu\">File</gui> <gui style=\"menuitem"
+"\">Preview</gui></guiseq>."
+msgstr ""
+"Válassza a <guiseq><gui style=\"menu\">Fájl</gui> <gui style=\"menuitem"
+"\">Előnézet</gui></guiseq> menüpontot."
+
+#. (itstool) path: item/p
+#: C/print.page:44
+msgid ""
+"A print preview window will open which will show you the definition exactly "
+"as it will be printed."
+msgstr ""
+"Meg fog nyílni a nyomtatási kép ablaka, amely pontosan úgy fogja "
+"megjeleníteni a meghatározást, ahogy az nyomtatva lesz."
+
+#. (itstool) path: item/p
+#: C/print.page:48
+msgid "Use the toolbar to browse pages, adjust zoom level and page width."
+msgstr ""
+"Használja az eszköztárat az oldalak böngészéséhez, a nagyítási szint és az "
+"oldalszélesség beállításához."
+
+#. (itstool) path: item/p
+#: C/print.page:52
+msgid ""
+"Click the <gui style=\"button\">Print this document</gui> to print the "
+"definition or close the window to end the preview."
+msgstr ""
+"Kattintson <gui style=\"button\">A jelenlegi dokumentum nyomtatása</gui> "
+"gombra a meghatározás nyomtatásához, vagy zárja be az ablakot az előnézet "
+"elhagyásához."
+
+#. (itstool) path: note/p
+#: C/print.page:58
+msgid ""
+"The print button in the toolbar may not always work. If it does not work for "
+"you, close the window and select <guiseq><gui style=\"menu\">File</gui> <gui "
+"style=\"menuitem\">Print</gui></guiseq>."
+msgstr ""
+"Az eszköztáron lévő nyomtatás gomb nem mindig működik. Ha nem működik, zárja "
+"be az ablakot, és válassza a <guiseq><gui style=\"menu\">Fájl</gui> <gui "
+"style=\"menuitem\">Nyomtatás</gui></guiseq> menüpontot."
+
+#. (itstool) path: section/p
+#: C/print.page:69
+msgid ""
+"You need to <link href=\"help:gnome-help/printing\">have a printer set up</"
+"link> to be able to print to paper."
+msgstr ""
+"Szüksége van <link href=\"help:gnome-help/printing\">egy beállított "
+"nyomtatóra</link>, hogy képes legyen papírra nyomtatni."
+
+#. (itstool) path: item/p
+#: C/print.page:74
+msgid ""
+"Select <guiseq><gui style=\"menu\">File</gui> <gui style=\"menuitem\">Print</"
+"gui> <gui style=\"tab\">General</gui></guiseq>."
+msgstr ""
+"Válassza a <guiseq><gui style=\"menu\">Fájl</gui> <gui style=\"menuitem"
+"\">Nyomtatás</gui> <gui style=\"tab\">Általános</gui></guiseq> lapot."
+
+#. (itstool) path: item/p
+#: C/print.page:79
+msgid ""
+"Select the printer that you want to use from the list of printers or select "
+"<gui href=\"help:gnome-help/print-to-file\">Print to File</gui>."
+msgstr ""
+"Válassza ki a használni kívánt nyomtatót a nyomtatók listájából, vagy "
+"válassza a <gui href=\"help:gnome-help/print-to-file\">Nyomtatás fájlba</"
+"gui> lehetőséget."
+
+#. (itstool) path: item/p
+#: C/print.page:84
+msgid ""
+"Chose your <link href=\"help:gnome-help/printing#paper\">printing settings</"
+"link>."
+msgstr ""
+"Válassza ki a <link href=\"help:gnome-help/printing#paper\">nyomtatási "
+"beállításokat</link>."
+
+#. (itstool) path: item/p
+#: C/print.page:88
+msgid "Press <gui style=\"button\">Print</gui> to print the definition."
+msgstr ""
+"Nyomja meg a <gui style=\"button\">Nyomtatás</gui> gombot a meghatározás "
+"nyomtatásához."
+
+#. (itstool) path: info/desc
+#: C/prob-retrieving-definition.page:23
+msgid "<sys>Error while retrieving definitions</sys>."
+msgstr "<sys>Hiba a meghatározás letöltése közben</sys>."
+
+#. (itstool) path: page/title
+#: C/prob-retrieving-definition.page:27
+msgid "Cannot find definitions"
+msgstr "Nem találhatók meghatározások"
+
+#. (itstool) path: page/p
+#: C/prob-retrieving-definition.page:29
+msgid ""
+"If you see the error message <sys>Error while retrieving definition</sys> "
+"when looking up a definition from any of the <link xref=\"sources-select"
+"\">selected dictionaries</link>, the problem is more likely one of the "
+"following:"
+msgstr ""
+"Ha a <sys>Hiba a meghatározás letöltése közben</sys> hibaüzenetet látja, "
+"amikor egy meghatározást keres bármely <link xref=\"sources-select"
+"\">kiválasztott szótárban</link>, a probléma leginkább a következők egyike "
+"lehet:"
+
+#. (itstool) path: item/p
+#: C/prob-retrieving-definition.page:36
+msgid ""
+"One or more of the selected <app>DICT</app> servers that are used to look up "
+"definitions may not be working. You can try waiting a while before <link "
+"xref=\"definition\">looking up</link> the definition again."
+msgstr ""
+"A meghatározások kereséséhez használt kiválasztott <app>DICT</app> "
+"kiszolgálók közül egy vagy több nem működik. Megpróbálhat várakozni egy "
+"ideig, mielőtt a meghatározást ismét <link xref=\"definition\">keresné</"
+"link>."
+
+#. (itstool) path: item/p
+#: C/prob-retrieving-definition.page:42
+msgid ""
+"You may not have a working Internet connection. For <app>Dictionary</app> to "
+"look up terms, your computer <link href=\"help:gnome-help/net\">must be able "
+"to connect</link> to <sys href=\"http://dict.org\">dict.org</sys>."
+msgstr ""
+"Nincsen működő internetkapcsolata. A kifejezések <app>Szótárban</app> való "
+"kereséséhez a számítógépének <link href=\"help:gnome-help/net\">képesnek "
+"kell lennie csatlakozni</link> a <sys href=\"http://dict.org\">dict.org</"
+"sys> címhez."
+
+#. (itstool) path: info/desc
+#: C/save-definition.page:22
+msgid "Save a copy of a definition to a text file."
+msgstr "A meghatározás másolatának mentése szövegfájlba."
+
+#. (itstool) path: page/title
+#: C/save-definition.page:26
+msgid "Save a definition"
+msgstr "Meghatározás mentése"
+
+#. (itstool) path: page/p
+#: C/save-definition.page:28
+msgid ""
+"You can save a definition to a text file. This may be useful if you want to "
+"use it outside of <app>Dictionary</app>."
+msgstr ""
+"Elmenthet egy meghatározást szövegfájlba. Ez akkor lehet hasznos, ha a "
+"<app>Szótáron</app> kívül szeretné használni azt."
+
+#. (itstool) path: steps/title
+#: C/save-definition.page:32
+msgid "To save a definition:"
+msgstr "Egy meghatározás mentéséhez:"
+
+#. (itstool) path: item/p
+#: C/save-definition.page:34
+msgid ""
+"Select <guiseq><gui style=\"menu\">File</gui> <gui style=\"menuitem\">Save a "
+"Copy…</gui></guiseq>."
+msgstr ""
+"Válassza a <guiseq><gui style=\"menu\">Fájl</gui> <gui style=\"menuitem"
+"\">Másolat mentése…</gui></guiseq> menüpontot."
+
+#. (itstool) path: item/p
+#: C/save-definition.page:38
+msgid ""
+"Chose where you want to save the definition to and a name for the file. You "
+"may want to add a <file>.txt</file> file extension to the end of the file "
+"name."
+msgstr ""
+"Válassza ki, hogy hová szerné elmenteni a meghatározást, és mi legyen a fájl "
+"neve. Érdemes lehet hozzáadni a <file>.txt</file> fájlkiterjesztést a "
+"fájlnév végéhez."
+
+#. (itstool) path: item/p
+#: C/save-definition.page:43
+msgid "Press <gui style=\"button\">Save</gui> to save the definition."
+msgstr ""
+"Nyomja meg a <gui style=\"button\">Mentés</gui> gombot a meghatározás "
+"mentéséhez."
+
+#. (itstool) path: info/desc
+#: C/similar-words.page:23
+msgid "View related results in other dictionaries."
+msgstr "Kapcsolódó találatok megtekintése más szótárakban."
+
+#. (itstool) path: page/p
+#: C/similar-words.page:29
+msgid ""
+"<app>Dictionary</app> will only display the definition from one your "
+"dictionaries. To check if there are search results in other dictionaries:"
+msgstr ""
+"A <app>Szótár</app> csak a szótárai egyikéből fogja megjeleníteni a "
+"meghatározást. Annak ellenőrzéséhez, hogy vannak-e más szótárakban is "
+"keresési eredmények:"
+
+#. (itstool) path: item/p
+#: C/similar-words.page:34
+msgid "<link xref=\"definition\">Look up</link> the desired term."
+msgstr "<link xref=\"definition\">Keressen rá</link> a kívánt kifejezésre."
+
+#. (itstool) path: item/p
+#: C/similar-words.page:37
+msgid ""
+"If the sidebar is not already visible, select <guiseq><gui style=\"menu"
+"\">View</gui> <gui style=\"menuitem\">Similar Words</gui></guiseq>."
+msgstr ""
+"Ha az oldalsáv még nem látható, válassza a <guiseq><gui style=\"menu"
+"\">Nézet</gui> <gui style=\"menuitem\">Hasonló szavak</gui></guiseq> "
+"menüpontot."
+
+#. (itstool) path: item/p
+#: C/similar-words.page:42
+msgid ""
+"The <gui>Similar Words</gui> sidebar will show search results from other "
+"dictionaries in your selected dictionary source. To view the similar word, "
+"double click on the entry."
+msgstr ""
+"A <gui>Hasonló szavak</gui> oldalsáv meg fogja jeleníteni a találatokat a "
+"kiválasztott szótárforrásokban lévő egyéb szótárakban. A hasonló szó "
+"megtekintéséhez kattintson duplán a bejegyzésre."
+
+#. (itstool) path: page/title
+#: C/source-add-local.page:20
+msgid "Add local dictionary sources"
+msgstr "Helyi szótárforrások hozzáadása"
+
+#. (itstool) path: page/title
+#: C/sources-default.page:24
+msgid "Set a default dictionary source"
+msgstr "Alapértelmezett szótárforrás beállítása"
+
+#. (itstool) path: page/p
+#: C/sources-default.page:26
+msgid ""
+"When you first use <app>Dictionary</app>, it should have some pre-installed "
+"dictionaries that you can use. You can change the default <link xref="
+"\"sources\">dictionary source</link> to one that you would prefer to use "
+"instead."
+msgstr ""
+"Amikor először használja a <app>Szótárat</app>, rendelkeznie kell néhány "
+"előre telepített szótárral, amelyeket használhat. Megváltoztathatja az "
+"alapértelmezett <link xref=\"sources\">szótárforrást</link> egy olyanra, "
+"amelyet szívesebben használna helyette."
+
+#. (itstool) path: steps/title
+#: C/sources-default.page:32
+msgid "Change the default dictionary source:"
+msgstr "Az alapértelmezett szótárforrás megváltoztatása:"
+
+#. (itstool) path: item/p
+#: C/sources-default.page:34
+msgid ""
+"Select <guiseq><gui><app>Dictionary</app></gui> <gui style=\"menu"
+"\">Preferences</gui> <gui style=\"tab\">Source</gui></guiseq>."
+msgstr ""
+"Válassza a <guiseq><gui><app>Szótár</app></gui> <gui style=\"menu"
+"\">Beállítások</gui> <gui style=\"tab\">Forrás</gui></guiseq> lapot."
+
+#. (itstool) path: item/p
+#: C/sources-default.page:39
+msgid "Select the dictionary source that you want to set as the default."
+msgstr ""
+"Válassza ki azt a szótárforrást, amelyet alapértelmezettként szeretne "
+"beállítani."
+
+#. (itstool) path: item/p
+#: C/sources-default.page:42
+msgid "Your change will be saved automatically."
+msgstr "A változtatása automatikusan mentésre kerül."
+
+#. (itstool) path: page/title
+#: C/sources-delete.page:25
+msgid "Delete a dictionary source"
+msgstr "Egy szótárforrás törlése"
+
+#. (itstool) path: page/p
+#: C/sources-delete.page:27
+msgid ""
+"If you no longer need a specific <link xref=\"sources\">dictionary source</"
+"link> or if one stops working for you, you may want to delete it."
+msgstr ""
+"Ha többé nincs szüksége egy adott <link xref=\"sources\">szótárforrásra</"
+"link>, vagy ha valamelyik nem működik többé, érdemes lehet törölni azt."
+
+#. (itstool) path: steps/title
+#: C/sources-delete.page:32
+msgid "Delete a dictionary source:"
+msgstr "Egy szótárforrás törlése:"
+
+#. (itstool) path: item/p
+#: C/sources-delete.page:34
+msgid ""
+"Select <guiseq><gui style=\"menu\"><app>Dictionary</app></gui> <gui style="
+"\"menuitem\">Preferences</gui> <gui style=\"tab\">Source</gui></guiseq>."
+msgstr ""
+"Válassza a <guiseq><gui style=\"menu\"><app>Szótár</app></gui> <gui style="
+"\"menuitem\">Beállítások</gui> <gui style=\"tab\">Forrás</gui></guiseq> "
+"lapot."
+
+#. (itstool) path: item/p
+#: C/sources-delete.page:39
+msgid "Select the dictionary source that you want to delete."
+msgstr "Válassza ki azt a szótárforrást, amelyet törölni szeretne."
+
+#. (itstool) path: item/p
+#: C/sources-delete.page:42
+msgid "Press <gui style=\"button\">Remove</gui>."
+msgstr "Nyomja meg az <gui style=\"button\">Eltávolítás</gui> gombot."
+
+#. (itstool) path: item/p
+#: C/sources-delete.page:45
+msgid ""
+"A dialog will pop up asking you to confirm that you wish to permanently "
+"delete the selected source. Once you confirm, the source will be deleted."
+msgstr ""
+"Egy párbeszédablak fog felugrani azt kérve, hogy erősítse meg a kiválasztott "
+"forrás végleges törlését. Ha megerősítette, a forrás törlésre kerül."
+
+#. (itstool) path: page/title
+#: C/sources-edit.page:24
+msgid "Edit a dictionary source"
+msgstr "Egy szótárforrás szerkesztése"
+
+#. (itstool) path: page/p
+#: C/sources-edit.page:26
+msgid ""
+"You can customize a <link xref=\"sources\">dictionary source</link> to "
+"update details such as its description or remote address."
+msgstr ""
+"Személyre szabhat egy <link xref=\"sources\">szótárforrást</link> olyan "
+"részletek frissítéséhez, mint például a leírása vagy a távoli címe."
+
+#. (itstool) path: steps/title
+#: C/sources-edit.page:30
+msgid "To edit a dictionary source:"
+msgstr "Egy szótárforrás szerkesztéséhez:"
+
+#. (itstool) path: item/p
+#: C/sources-edit.page:32
+msgid ""
+"Select <guiseq><gui style=\"menu\">Dictionary</gui> <gui style=\"menuitem"
+"\">Preferences</gui> <gui style=\"tab\">Source</gui></guiseq>."
+msgstr ""
+"Válassza a <guiseq><gui style=\"menu\">Szótár</gui> <gui style=\"menuitem"
+"\">Beállítások</gui> <gui style=\"tab\">Forrás</gui></guiseq> lapot."
+
+#. (itstool) path: item/p
+#: C/sources-edit.page:37
+msgid "Double click on the dictionary source you want to edit."
+msgstr ""
+"Kattintson duplán arra a szótárforrásra, amelyet szerkeszteni szeretne."
+
+#. (itstool) path: item/p
+#: C/sources-edit.page:40
+msgid "You can edit the following fields:"
+msgstr "A következő mezőket szerkesztheti:"
+
+#. (itstool) path: item/p
+#: C/sources-edit.page:43
+msgid ""
+"<gui>Description</gui> is the name of the source as it will be displayed to "
+"you."
+msgstr "A <gui>Leírás</gui> a forrás neve, ahogy az Önnek meg lesz jelenítve."
+
+#. (itstool) path: item/p
+#: C/sources-edit.page:47
+msgid "<gui>Transport</gui> is the type of server."
+msgstr "Az <gui>Átvitel</gui> a kiszolgáló típusa."
+
+#. (itstool) path: item/p
+#: C/sources-edit.page:50
+msgid "<gui>Hostname</gui> is the location of the dictionary source."
+msgstr "A <gui>Gépnév</gui> a szótárforrás helye."
+
+#. (itstool) path: item/p
+#: C/sources-edit.page:55
+msgid "<gui>Port</gui>."
+msgstr "<gui>Port</gui>."
+
+#. (itstool) path: item/p
+#: C/sources-edit.page:60
+msgid ""
+"View the dictionaries that are available in the dictionary source by "
+"selecting the <gui style=\"tab\">Dictionaries</gui> tab."
+msgstr ""
+"Tekintse meg a szótárforrásban elérhető szótárakat a <gui style=\"tab"
+"\">Szótárak</gui> lap kiválasztásával."
+
+#. (itstool) path: item/p
+#: C/sources-edit.page:64
+msgid "Press <gui style=\"button\">Close</gui> to save the settings."
+msgstr ""
+"Nyomja meg a <gui style=\"button\">Bezárás</gui> gombot a beállítások "
+"mentéséhez."
+
+#. (itstool) path: info/desc
+#: C/sources.page:24
+msgid "Manage various dictionary sources."
+msgstr "Különféle szótárforrások kezelése."
+
+#. (itstool) path: page/p
+#: C/sources.page:30
+msgid ""
+"<app>Dictionary</app> uses <em>dictionary sources</em> to look up words that "
+"you search for. Dictionary sources are collections of one or more dictionary "
+"databases which are usually online, but can be installed on your machine as "
+"well."
+msgstr ""
+"A <app>Szótár</app> <em>szótárforrásokat</em> használ azon szavak "
+"kereséséhez, amelyekre rákeres. A szótárforrások egy vagy több "
+"szótáradatbázis gyűjteményei, amelyek általában az interneten érhetők el, de "
+"telepíthetők a számítógépére is."
+
+#. (itstool) path: section/title
+#: C/sources.page:36
+msgid "Manage your dictionary sources"
+msgstr "A szótárforrások kezelése"
+
+#. (itstool) path: page/title
+#: C/sources-select.page:26
+msgid "Select a dictionary source"
+msgstr "Egy szótárforrás kiválasztása"
+
+#. (itstool) path: page/p
+#: C/sources-select.page:28
+msgid ""
+"You can change the <link xref=\"sources\">dictionary source</link> that you "
+"are currently using without changing your default preferences."
+msgstr ""
+"Megváltoztathatja az aktuálisan használt <link xref=\"sources"
+"\">szótárforrást</link> az alapértelmezett beállítások módosítása nélkül."
+
+#. (itstool) path: steps/title
+#: C/sources-select.page:32
+msgid "Temporarily change the dictionary source:"
+msgstr "A szótárforrás ideiglenes megváltoztatása:"
+
+#. (itstool) path: item/p
+#: C/sources-select.page:34
+msgid ""
+"Select <guiseq><gui style=\"menu\">View</gui> <gui style=\"menuitem"
+"\">Dictionary Sources</gui></guiseq>."
+msgstr ""
+"Válassza a <guiseq><gui style=\"menu\">Nézet</gui> <gui style=\"menuitem"
+"\">Szótárforrások</gui></guiseq> menüpontot."
+
+#. (itstool) path: item/p
+#: C/sources-select.page:38
+msgid "Double click on the dictionary source that you want to use."
+msgstr "Kattintson duplán arra a szótárforrásra, amelyet használni szeretne."
+
+#. (itstool) path: info/desc
+#: C/text-copy.page:23
+msgid "Select and copy a definition to another application."
+msgstr "Meghatározás kijelölése és másolása egy másik alkalmazásba."
+
+#. (itstool) path: page/title
+#: C/text-copy.page:27
+msgid "Copy definition"
+msgstr "Meghatározás másolása"
+
+#. (itstool) path: page/p
+#: C/text-copy.page:29
+msgid ""
+"You can copy and paste definitions from <app>Dictionary</app> to another "
+"application."
+msgstr ""
+"Átmásolhat és beilleszthet meghatározásokat a <app>Szótárból</app> egy másik "
+"alkalmazásba."
+
+#. (itstool) path: steps/title
+#: C/text-copy.page:33
+msgid "Copy a definition"
+msgstr "Meghatározás másolása"
+
+#. (itstool) path: item/p
+#: C/text-copy.page:35
+msgid ""
+"Select the text that you want to copy in <app>Dictionary</app>. "
+"Alternatively, you can select the whole definition using <guiseq><gui style="
+"\"menu\">Edit</gui> <gui style=\"menuitem\">Select All</gui></guiseq>."
+msgstr ""
+"Jelölje ki a másolni kívánt szöveget a <app>Szótárban</app>. Alternatív "
+"megoldásként kijelölheti az egész meghatározást a <guiseq><gui style=\"menu"
+"\">Szerkesztés</gui> <gui style=\"menuitem\">Összes kijelölése</gui></"
+"guiseq> menüpont használatával."
+
+#. (itstool) path: item/p
+#: C/text-copy.page:41
+msgid ""
+"Select <guiseq><gui style=\"menu\">Edit</gui> <gui style=\"menuitem\">Copy</"
+"gui></guiseq>."
+msgstr ""
+"Válassza a <guiseq><gui style=\"menu\">Szerkesztés</gui> <gui style="
+"\"menuitem\">Másolás</gui></guiseq> menüpontot."
+
+#. (itstool) path: item/p
+#: C/text-copy.page:45
+msgid ""
+"Paste the text into another application. This can usually be done using the "
+"<keyseq><key>Ctrl</key><key>P</key></keyseq> keyboard shortcut or through "
+"one of the menus."
+msgstr ""
+"Illessze be a szöveget egy másik alkalmazásba. Ezt általában a "
+"<keyseq><key>Ctrl</key><key>P</key></keyseq> gyorsbillentyű használatával "
+"vagy a menük egyikével teheti meg."
+
