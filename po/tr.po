@@ -8,17 +8,17 @@
 # Deniz Koçak <lenduha@gmail.com>, 2005.
 # Baris Cicek <baris@teamforce.name.tr>, 2004, 2005, 2008, 2009.
 # İlker DAĞLI <ilker@ilkerdagli.info>, 2011.
-# Muhammet Kara <muhammetk@gmail.com>, 2011, 2012, 2013.
+# Muhammet Kara <muhammetk@gmail.com>, 2011, 2012, 2013, 2014.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-utils\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "dictionary&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2012-11-14 18:34+0000\n"
-"PO-Revision-Date: 2013-04-11 00:35+0300\n"
+"POT-Creation-Date: 2014-06-03 18:31+0000\n"
+"PO-Revision-Date: 2014-06-04 01:02+0300\n"
 "Last-Translator: Muhammet Kara <muhammetk@gmail.com>\n"
-"Language-Team: Turkish <gnome-turk@gnome.org>\n"
+"Language-Team: Türkçe <gnome-turk@gnome.org>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -31,7 +31,7 @@ msgid "Default Dictionary Server"
 msgstr "Öntanımlı Sözlük Sunucusu"
 
 #: ../data/gnome-dictionary.desktop.in.in.h:1 ../src/gdict-about.c:60
-#: ../src/gdict-app.c:347 ../src/gdict-window.c:543 ../src/gdict-window.c:1805
+#: ../src/gdict-app.c:347 ../src/gdict-window.c:543 ../src/gdict-window.c:1810
 msgid "Dictionary"
 msgstr "Sözlük"
 
@@ -41,7 +41,19 @@ msgstr "Sözcük tanımlarını ve yazımlarını çevrimiçi bir sözlükte den
 
 #: ../data/gnome-dictionary.desktop.in.in.h:3
 msgid "word;synonym;definition;spelling;"
-msgstr "kelime;eş anlamlı;tanım;heceleme;"
+msgstr "kelime;eş anlamlı;tanım;heceleme;anlam;"
+
+#: ../data/gnome-dictionary.appdata.xml.in.h:1
+msgid ""
+"GNOME Dictionary is a simple dictionary application that looks up "
+"definitions of words online. Though it looks up English definitions by "
+"default, you can easily switch to Spanish or add other online dictionaries "
+"using the DICT protocol to suit your needs."
+msgstr ""
+"GNOME Dictionary, kelimelerin anlamlarını çevrimiçi arayan basit bir sözlük "
+"uygulamasıdır. Öntanımlı olarak İngilizce anlamlarını aramasına rağmen, "
+"kolayca İspanyolcaya geçebilir ya da ihtiyacınıza göre, DICT iletişim "
+"kuralını kullanan diğer çevrimiçi sözlükleri ekleyebilirsiniz."
 
 #: ../data/gnome-dictionary-menus.ui.h:1
 msgid "Preferences"
@@ -52,8 +64,9 @@ msgid "Help"
 msgstr "Yardım"
 
 #: ../data/gnome-dictionary-menus.ui.h:3
-msgid "About Dictionary"
-msgstr "Sözlük Hakkında"
+#| msgid "_About"
+msgid "About"
+msgstr "Hakkında"
 
 #: ../data/gnome-dictionary-menus.ui.h:4
 msgid "Quit"
@@ -128,8 +141,9 @@ msgid "Dictionary Sources"
 msgstr "Sözlük Kaynakları"
 
 #: ../data/gnome-dictionary-menus.ui.h:22
-msgid "Available _Databases"
-msgstr "Ulaşılabilir _Veri tabanları"
+#| msgid "Available dictionaries"
+msgid "Available _Dictionaries"
+msgstr "Kullanılabilir Sözlükler"
 
 #: ../data/gnome-dictionary-menus.ui.h:23
 msgid "Available St_rategies"
@@ -606,7 +620,7 @@ msgstr "GDict Seçeneklerini Göster"
 msgid "translator-credits"
 msgstr ""
 "Barış Çiçek <baris@teamforce.name.tr>\n"
-"Muhammet Kara <muhammetk@acikkaynak.name.tr>"
+"Muhammet Kara <muhammetk@gmail.com>"
 
 #: ../src/gdict-about.c:55
 msgid "Look up words in dictionaries"
@@ -761,65 +775,72 @@ msgstr "İsimsiz döküman"
 msgid "Error while writing to '%s'"
 msgstr "'%s' dosyasına yazılırken hata"
 
-#: ../src/gdict-window.c:1359
+#: ../src/gdict-window.c:1365
 #, c-format
 msgid "Dictionary source `%s' selected"
 msgstr "Sözlük kaynağı `%s' seçildi"
 
-#: ../src/gdict-window.c:1380
+#: ../src/gdict-window.c:1386
 #, c-format
 msgid "Strategy `%s' selected"
 msgstr "Strateji `%s' seçildi"
 
-#: ../src/gdict-window.c:1400
+#: ../src/gdict-window.c:1406
 #, c-format
 msgid "Database `%s' selected"
 msgstr "Veritabanı `%s' seçildi"
 
-#: ../src/gdict-window.c:1420
+#: ../src/gdict-window.c:1426
 #, c-format
 msgid "Word `%s' selected"
 msgstr "`%s' kelimesi seçildi"
 
 #. speller
-#: ../src/gdict-window.c:1445
+#: ../src/gdict-window.c:1451
 msgid "Double-click on the word to look up"
 msgstr "Aranacak kelimenin üzerine çift tıklayın"
 
 #. strat-chooser
-#: ../src/gdict-window.c:1451
+#: ../src/gdict-window.c:1457
 msgid "Double-click on the matching strategy to use"
 msgstr "Kullanılacak eşleşen stratejinin üstüne çift tıklayın"
 
 #. source-chooser
-#: ../src/gdict-window.c:1456
+#: ../src/gdict-window.c:1462
 msgid "Double-click on the source to use"
 msgstr "Kullanmak için kaynağın üzerine çift tıklayın"
 
 #. db-chooser
-#: ../src/gdict-window.c:1465
+#: ../src/gdict-window.c:1471
 msgid "Double-click on the database to use"
 msgstr "Kullanılacak veri tabanının üstüne çift tıklayın"
 
-#: ../src/gdict-window.c:1615
-msgid "Look _up:"
-msgstr "A_ra:"
+#: ../src/gdict-window.c:1621
+#| msgid "Look _up:"
+msgid "Look _up"
+msgstr "A_ra"
 
-#: ../src/gdict-window.c:1690
+#: ../src/gdict-window.c:1695
 msgid "Similar words"
 msgstr "Benzer kelimeler"
 
-#: ../src/gdict-window.c:1703
+#: ../src/gdict-window.c:1708
 msgid "Available dictionaries"
 msgstr "Ulaşılabilir sözlükler"
 
-#: ../src/gdict-window.c:1721
+#: ../src/gdict-window.c:1726
 msgid "Available strategies"
 msgstr "Ulaşılabilir stratejiler"
 
-#: ../src/gdict-window.c:1737
+#: ../src/gdict-window.c:1742
 msgid "Dictionary sources"
 msgstr "Sözlük kaynakları"
+
+#~ msgid "About Dictionary"
+#~ msgstr "Sözlük Hakkında"
+
+#~ msgid "Available _Databases"
+#~ msgstr "Ulaşılabilir _Veri tabanları"
 
 #~ msgid "French Dictionaries from Wikipedia"
 #~ msgstr "Vikipedi'den Fransızca Sözlükler"
@@ -853,6 +874,3 @@ msgstr "Sözlük kaynakları"
 
 #~ msgid "_Contents"
 #~ msgstr "_İçindekiler"
-
-#~ msgid "_About"
-#~ msgstr "_Hakkında"
