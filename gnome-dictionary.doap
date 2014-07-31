@@ -12,6 +12,7 @@
   <bug-database rdf:resource="https://bugzilla.gnome.org/enter_bug.cgi?product=gnome-dictionary"/>
   <license rdf:resource="http://usefulinc.com/doap/licenses/gpl"/>
   <category rdf:resource="http://api.gnome.org/doap-extensions#apps" />
+  <programming-language>C</programming-language>
 
   <maintainer>
     <foaf:Person>
