@@ -16,7 +16,7 @@ msgstr ""
 "Project-Id-Version: gnome-utils\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-dictionary&keywords=I18N+L10N&component=general\n"
 "POT-Creation-Date: 2014-03-05 07:38+0000\n"
-"PO-Revision-Date: 2014-03-06 02:17+0900\n"
+"PO-Revision-Date: 2014-09-06 03:41+0900\n"
 "Last-Translator: Changwoo Ryu <cwryu@debian.org>\n"
 "Language-Team: GNOME Korea <gnome-kr@googlegroups.com>\n"
 "Language: ko\n"
@@ -515,7 +515,7 @@ msgstr "이 공급원에 연결된 GdictContext"
 #: ../libgdict/gdict-source.c:412
 #, c-format
 msgid "Invalid transport type '%d'"
-msgstr "전송 방식이 ('%d') 잘못되었습니다"
+msgstr "전송 방식이('%d') 잘못되었습니다"
 
 #: ../libgdict/gdict-source.c:440
 #, c-format
