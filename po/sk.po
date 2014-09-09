@@ -12,9 +12,9 @@ msgstr ""
 "Project-Id-Version: gnome-dictionary\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "dictionary&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2013-12-09 18:03+0000\n"
-"PO-Revision-Date: 2013-08-09 10:22+0100\n"
-"Last-Translator: Pavol Klačanský <pavolzetor@gmail.com>\n"
+"POT-Creation-Date: 2014-09-09 06:41+0000\n"
+"PO-Revision-Date: 2014-09-09 15:12+0100\n"
+"Last-Translator: Dušan Kazik <prescott66@gmail.com>\n"
 "Language-Team: Slovak <gnome-sk-list@gnome.org>\n"
 "Language: sk\n"
 "MIME-Version: 1.0\n"
@@ -44,6 +44,19 @@ msgstr ""
 msgid "word;synonym;definition;spelling;"
 msgstr "slovo;synonymum;vysvetlenie;definícia;hláskovanie;pravopis;"
 
+#: ../data/gnome-dictionary.appdata.xml.in.h:1
+msgid ""
+"GNOME Dictionary is a simple dictionary application that looks up "
+"definitions of words online. Though it looks up English definitions by "
+"default, you can easily switch to Spanish or add other online dictionaries "
+"using the DICT protocol to suit your needs."
+msgstr ""
+"Slovník prostredia GNOME je jednoduchá aplikácia na prácu so slovníkmi, "
+"ktorá vyhľadá definície slov prostredníctvom internetu. I keď predvoleným "
+"jazykom vyhľadávaných definícií je angličtina, môžete jednoducho podľa "
+"vašich potrieb prepnúť na španielčinu, alebo pridať iné internetové slovníky "
+"použitím protokolu DICT."
+
 #: ../data/gnome-dictionary-menus.ui.h:1
 msgid "Preferences"
 msgstr "Nastavenia"
@@ -54,7 +67,7 @@ msgstr "Pomocník"
 
 #: ../data/gnome-dictionary-menus.ui.h:3
 msgid "About"
-msgstr ""
+msgstr "O programe"
 
 #: ../data/gnome-dictionary-menus.ui.h:4
 msgid "Quit"
@@ -709,7 +722,8 @@ msgstr "Zobrazí voľby knižnice GDict"
 msgid "translator-credits"
 msgstr ""
 "Stanislav Višňovský, Ivan Noris\n"
-"Pavol Klačanský <pavol@klacansky.com>"
+"Pavol Klačanský <pavol@klacansky.com>\n"
+"Dušan Kazik <prescott66@gmail.com>"
 
 #: ../src/gdict-about.c:55
 msgid "Look up words in dictionaries"
@@ -940,7 +954,7 @@ msgstr "Podobné slová"
 msgid "Available dictionaries"
 msgstr "Dostupné slovníky"
 
-# PM: bolo by fajn keby sa názvy tých postupov dali preložiť 
+# PM: bolo by fajn keby sa názvy tých postupov dali preložiť
 # "Match hedword exactly" asi tomu čo nevie anglicky vela nepovie
 #  * https://bugzilla.gnome.org/show_bug.cgi?id=687747
 #: ../src/gdict-window.c:1726
