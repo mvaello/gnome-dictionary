@@ -1,34 +1,31 @@
 # translation of gnome-utils.master.kn.po to Kannada
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# 
-# Shankar Prasad <svenkate@redhat.com>, 2008, 2009, 2012, 2013.
-# Shankar <svenkate@redhat.com>, 2013. #zanata
+#
+# Shankar Prasad <svenkate@redhat.com>, 2008, 2009, 2012, 2013, 2014.
+# Shankar <svenkate@redhat.com>, 2013. #zanata.
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-utils.master.kn\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "dictionary&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2012-11-14 18:34+0000\n"
-"PO-Revision-Date: 2013-10-21 08:39-0400\n"
-"Last-Translator: Shankar <svenkate@redhat.com>\n"
-"Language-Team: Kannada <en@li.org>\n"
+"POT-Creation-Date: 2014-09-02 06:43+0000\n"
+"PO-Revision-Date: 2014-09-14 16:08+0530\n"
+"Last-Translator: Shankar Prasad <svenkate AT redhat Dot com>\n"
+"Language-Team: Kannada <kde-i18n-doc@kde.org>\n"
+"Language: kn\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: kn\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Zanata 3.2.3\n"
+"X-Generator: Lokalize 1.5\n"
 
 #: ../data/default.desktop.in.h:1
 msgid "Default Dictionary Server"
 msgstr "ಪೂರ್ವನಿಯೋಜಿತ ಶಬ್ಧಕೋಶ ಪರಿಚಾರಕ"
 
-#: ../data/gnome-dictionary.desktop.in.in.h:1
-#: ../src/gdict-about.c:60
-#: ../src/gdict-app.c:347
-#: ../src/gdict-window.c:543
-#: ../src/gdict-window.c:1805
+#: ../data/gnome-dictionary.desktop.in.in.h:1 ../src/gdict-about.c:60
+#: ../src/gdict-app.c:347 ../src/gdict-window.c:543 ../src/gdict-window.c:1810
 msgid "Dictionary"
 msgstr "ಶಬ್ಧಕೋಶ"
 
@@ -40,6 +37,19 @@ msgstr "ಒಂದು ಆನ್‌ಲೈನ್‌ ಶಬ್ಧಕೋಶದಲ್�
 msgid "word;synonym;definition;spelling;"
 msgstr "ಪದ;ಪರ್ಯಾಯಪದ;ವಿವರಣೆ;ಕಾಗುಣಿತ;"
 
+#: ../data/gnome-dictionary.appdata.xml.in.h:1
+msgid ""
+"GNOME Dictionary is a simple dictionary application that looks up "
+"definitions of words online. Though it looks up English definitions by "
+"default, you can easily switch to Spanish or add other online dictionaries "
+"using the DICT protocol to suit your needs."
+msgstr ""
+"GNOME ಡಿಕ್ಶನರಿ ಎನ್ನುವುದು ಆನ್‌ಲೈನ್‌ನಲ್ಲಿ ಪದಗಳ ವಿವರಣೆಗಳಿಗಾಗಿ ಹುಡುಕುವ ಒಂದು "
+"ಸರಳವಾದ ಶಬ್ಧಕೋಶ ಅನ್ವಯವಾಗಿದೆ. ಇದು ಪೂರ್ವನಿಯೋಜಿತವಾಗಿ ಇಂಗ್ಲೀಷ್‌ ವಿವರಣೆಯನ್ನು "
+"ಹುಡುಕಿದರೂ ಸಹ, ನೀವು ಬೇಕಿದ್ದಲ್ಲಿ ಸ್ಪಾನಿಶ್‌ ಭಾಷೆಗೆ ಬದಲಾಯಿಸಬಹುದು ಅಥವ DICT "
+"ಪ್ರೊಟೊಕಾಲ್ ಅನ್ನು ಬಳಸಿಕೊಂಡು ನಿಮ್ಮ ಅಗತ್ಯಕ್ಕೆ ತಕ್ಕಂತೆ ಇತರೆ ಆನ್‌ಲೈನ್ "
+"ಶಬ್ಧಕೋಶಗಳನ್ನೂ ಸಹ ಸೇರಿಸಬಹುದು."
+
 #: ../data/gnome-dictionary-menus.ui.h:1
 msgid "Preferences"
 msgstr "ಆದ್ಯತೆಗಳು"
@@ -49,8 +59,8 @@ msgid "Help"
 msgstr "ನೆರವು"
 
 #: ../data/gnome-dictionary-menus.ui.h:3
-msgid "About Dictionary"
-msgstr "ಶಬ್ಧಕೋಶದ ಕುರಿತು"
+msgid "About"
+msgstr "ಕುರಿತು"
 
 #: ../data/gnome-dictionary-menus.ui.h:4
 msgid "Quit"
@@ -58,15 +68,15 @@ msgstr "ನಿರ್ಗಮಿಸು"
 
 #: ../data/gnome-dictionary-menus.ui.h:5
 msgid "_File"
-msgstr "ಕಡತ(_F)"
+msgstr "ಕಡತ (_F)"
 
 #: ../data/gnome-dictionary-menus.ui.h:6
 msgid "_New"
-msgstr "ಹೊಸ(_N)"
+msgstr "ಹೊಸ (_N)"
 
 #: ../data/gnome-dictionary-menus.ui.h:7
 msgid "_Save a Copy..."
-msgstr "ಒಂದು ಪ್ರತಿಯನ್ನು ಉಳಿಸು(_S)..."
+msgstr "ಒಂದು ಪ್ರತಿಯನ್ನು ಉಳಿಸು (_S)..."
 
 #: ../data/gnome-dictionary-menus.ui.h:8
 msgid "P_review"
@@ -90,7 +100,7 @@ msgstr "ಪ್ರತಿ ಮಾಡು (_C)"
 
 #: ../data/gnome-dictionary-menus.ui.h:13
 msgid "Select _All"
-msgstr "ಎಲ್ಲವನ್ನು ಆಯ್ಕೆಮಾಡು(_A)"
+msgstr "ಎಲ್ಲಾ ಆಯ್ಕೆಮಾಡು (_A)"
 
 #: ../data/gnome-dictionary-menus.ui.h:14
 msgid "_Find"
@@ -98,27 +108,27 @@ msgstr "ಪತ್ತೆ ಹಚ್ಚು (_F)..."
 
 #: ../data/gnome-dictionary-menus.ui.h:15
 msgid "Find Ne_xt"
-msgstr "ಮುಂದಕ್ಕೆ ಹುಡುಕು(_x)"
+msgstr "ಮುಂದಕ್ಕೆ ಹುಡುಕು (_x)"
 
 #: ../data/gnome-dictionary-menus.ui.h:16
 msgid "Find Pre_vious"
-msgstr "ಹಿಂದಿನದನ್ನು ಹುಡುಕು(_v)"
+msgstr "ಹಿಂದಿನದನ್ನು ಹುಡುಕು (_v)"
 
 #: ../data/gnome-dictionary-menus.ui.h:17
 msgid "_View"
-msgstr "ನೋಟ(_V)"
+msgstr "ನೋಟ (_V)"
 
 #: ../data/gnome-dictionary-menus.ui.h:18
 msgid "_Sidebar"
-msgstr "ಬದಿಯ ಪಟ್ಟಿ(_S)"
+msgstr "ಬದಿಯ ಪಟ್ಟಿ (_S)"
 
 #: ../data/gnome-dictionary-menus.ui.h:19
 msgid "S_tatusbar"
-msgstr "ಸ್ಥಿತಿ ಪಟ್ಟಿ(_t)"
+msgstr "ಸ್ಥಿತಿ ಪಟ್ಟಿ (_t)"
 
 #: ../data/gnome-dictionary-menus.ui.h:20
 msgid "Similar _Words"
-msgstr "ಒಂದೇ ಬಗೆಯ ಪದಗಳು(_W)"
+msgstr "ಒಂದೇ ಬಗೆಯ ಪದಗಳು (_W)"
 
 #: ../data/gnome-dictionary-menus.ui.h:21
 msgid "Dictionary Sources"
@@ -130,31 +140,31 @@ msgstr "ಲಭ್ಯವಿರುವ ಶಬ್ಧಕೋಶಗಳು (_D)"
 
 #: ../data/gnome-dictionary-menus.ui.h:23
 msgid "Available St_rategies"
-msgstr "ಲಭ್ಯವಿರುವ ತಂತ್ರಗಳು(_r)"
+msgstr "ಲಭ್ಯವಿರುವ ತಂತ್ರಗಳು (_r)"
 
 #: ../data/gnome-dictionary-menus.ui.h:24
 msgid "_Go"
-msgstr "ಹೋಗು(_G)"
+msgstr "ಹೋಗು (_G)"
 
 #: ../data/gnome-dictionary-menus.ui.h:25
 msgid "_Previous Definition"
-msgstr "ಹಿಂದಿನ ವ್ಯಾಖ್ಯೆ(_P)"
+msgstr "ಹಿಂದಿನ ವಿವರಣೆ (_P)"
 
 #: ../data/gnome-dictionary-menus.ui.h:26
 msgid "_Next Definition"
-msgstr "ಮುಂದಿನ ವ್ಯಾಖ್ಯೆ(_N)"
+msgstr "ಮುಂದಿನ ವಿವರಣೆ (_N)"
 
 #: ../data/gnome-dictionary-menus.ui.h:27
 msgid "_First Definition"
-msgstr "ಮೊದಲಿನ ವ್ಯಾಖ್ಯೆ(_F)"
+msgstr "ಮೊದಲಿನ ವಿವರಣೆ (_F)"
 
 #: ../data/gnome-dictionary-menus.ui.h:28
 msgid "_Last Definition"
-msgstr "ಕೊನೆಯ ವ್ಯಾಖ್ಯೆ(_L)"
+msgstr "ಕೊನೆಯ ವಿವರಣೆ (_L)"
 
 #: ../data/gnome-dictionary-preferences.ui.h:1
 msgid "_Select a dictionary source for looking up words:"
-msgstr "ಪದಗಳಿಗಾಗಿ ಹುಡುಕಲು ಒಂದು ಶಬ್ಧಕೋಶ ಆಕರವನ್ನು ಆರಿಸಿ(_S):"
+msgstr "ಪದಗಳಿಗಾಗಿ ಹುಡುಕಲು ಒಂದು ಶಬ್ಧಕೋಶ ಆಕರವನ್ನು ಆರಿಸಿ (_S):"
 
 #: ../data/gnome-dictionary-preferences.ui.h:2
 #: ../data/gnome-dictionary-source.ui.h:6
@@ -163,7 +173,7 @@ msgstr "ಮೂಲ"
 
 #: ../data/gnome-dictionary-preferences.ui.h:3
 msgid "_Print font:"
-msgstr "ಮುದ್ರಣದ ಅಕ್ಷರಶೈಲಿ(_P):"
+msgstr "ಮುದ್ರಣದ ಅಕ್ಷರಶೈಲಿ (_P):"
 
 #: ../data/gnome-dictionary-preferences.ui.h:4
 msgid "Print"
@@ -171,19 +181,19 @@ msgstr "ಮುದ್ರಿಸು"
 
 #: ../data/gnome-dictionary-source.ui.h:1
 msgid "_Description:"
-msgstr "ವಿವರಣೆ(_D):"
+msgstr "ವಿವರಣೆ (_D):"
 
 #: ../data/gnome-dictionary-source.ui.h:2
 msgid "_Transport:"
-msgstr "ವರ್ಗಾವಣೆ(_T):"
+msgstr "ವರ್ಗಾವಣೆ (_T):"
 
 #: ../data/gnome-dictionary-source.ui.h:3
 msgid "H_ostname:"
-msgstr "ಅತಿಥೇಯದ ಹೆಸರು(_o):"
+msgstr "ಅತಿಥೇಯದ ಹೆಸರು (_o):"
 
 #: ../data/gnome-dictionary-source.ui.h:4
 msgid "_Port:"
-msgstr "ಸಂಪರ್ಕಸ್ಥಾನ(_P):"
+msgstr "ಸಂಪರ್ಕಸ್ಥಾನ (_P):"
 
 #: ../data/gnome-dictionary-source.ui.h:5
 msgid "Source Name"
@@ -208,8 +218,10 @@ msgid ""
 "present in a dictionary source should be searched"
 msgstr ""
 "ಶಬ್ಧಕೋಶ ಆಕರದಲ್ಲಿ ಬಳಸಲು ಪೂರ್ವನಿಯೋಜಿತ ಪ್ರತ್ಯೇಕ ದತ್ತಸಂಚಯದ ಅಥವ ಮೆಟಾ-ದತ್ತಸಂಚಯದ "
-"ಹೆಸರು. ಒಂದು ಆಶ್ಚರ್ಯ ಸೂಚಕ ಚಿಹ್ನೆಯು (\"!\") ಶಬ್ಧಕೋಶ ಆಕರದಲ್ಲಿ ನೀಡಲಾದ ಎಲ್ಲಾ "
-"ದತ್ತಸಂಚಯವನ್ನು ಹುಡುಕಬೇಕು ಎನ್ನುವುದನ್ನು ಸೂಚಿಸುತ್ತದೆ"
+"ಹೆಸರು. "
+"ಒಂದು ಆಶ್ಚರ್ಯ ಸೂಚಕ ಚಿಹ್ನೆಯು (\"!\") ಶಬ್ಧಕೋಶ ಆಕರದಲ್ಲಿ ನೀಡಲಾದ ಎಲ್ಲಾ "
+"ದತ್ತಸಂಚಯವನ್ನು "
+"ಹುಡುಕಬೇಕು ಎನ್ನುವುದನ್ನು ಸೂಚಿಸುತ್ತದೆ"
 
 #: ../data/org.gnome.dictionary.gschema.xml.in.in.h:3
 msgid "The default search strategy to use"
@@ -221,8 +233,8 @@ msgid ""
 "available. The default strategy is 'exact', that is match exact words."
 msgstr ""
 "ಒಂದು ಶಬ್ಧಕೋಶ ಆಕರದಲ್ಲಿ ಬಳಸಬೇಕಿರುವ ಹುಡುಕು ತಂತ್ರವು ಲಭ್ಯವಿದ್ದಲ್ಲಿ ಅದರ "
-"ಪೂರ್ವನಿಯೋಜಿತ ಹೆಸರು. ಪದಗಳು ನಿಖರವಾಗಿ ತಾಳೆಯಾದಲ್ಲಿ ಪೂರ್ವನಿಯೋಜಿತ ತಂತ್ರವು 'exact' "
-"ಆಗಿರುತ್ತದೆ."
+"ಪೂರ್ವನಿಯೋಜಿತ "
+"ಹೆಸರು. ಪದಗಳು ನಿಖರವಾಗಿ ತಾಳೆಯಾದಲ್ಲಿ ಪೂರ್ವನಿಯೋಜಿತ ತಂತ್ರವು 'exact' ಆಗಿರುತ್ತದೆ."
 
 #: ../data/org.gnome.dictionary.gschema.xml.in.in.h:5
 msgid "The font to be used when printing"
@@ -314,9 +326,11 @@ msgstr ""
 
 #: ../libgdict/gdict-client-context.c:1195
 #, c-format
-msgid "Unable to parse the dictionary server reply\n"
+msgid ""
+"Unable to parse the dictionary server reply\n"
 ": '%s'"
-msgstr "ಶಬ್ಧಕೋಶ ಪರಿಚಾರಕದ ಪ್ರತ್ಯುತ್ತರವನ್ನು ಪಾರ್ಸ್‌ ಮಾಡಲಾಗಲಿಲ್ಲ\n"
+msgstr ""
+"ಶಬ್ಧಕೋಶ ಪರಿಚಾರಕದ ಪ್ರತ್ಯುತ್ತರವನ್ನು ಪಾರ್ಸ್‌ ಮಾಡಲಾಗಲಿಲ್ಲ\n"
 ": '%s'"
 
 #: ../libgdict/gdict-client-context.c:1224
@@ -361,9 +375,11 @@ msgstr "%s:%d ನಲ್ಲಿನ ಶಬ್ಧಕೋಶ ಪರಿಚಾರಕದ�
 
 #: ../libgdict/gdict-client-context.c:1786
 #, c-format
-msgid "Error while reading reply from server:\n"
+msgid ""
+"Error while reading reply from server:\n"
 "%s"
-msgstr "ಪರಿಚಾರಕದಿಂದ ಬಂದ ಪ್ರತ್ಯುತ್ತರವನ್ನು ಓದುವಲ್ಲಿ ದೋಷ ಉಂಟಾಗಿದೆ:\n"
+msgstr ""
+"ಪರಿಚಾರಕದಿಂದ ಬಂದ ಪ್ರತ್ಯುತ್ತರವನ್ನು ಓದುವಲ್ಲಿ ದೋಷ ಉಂಟಾಗಿದೆ:\n"
 "%s"
 
 #: ../libgdict/gdict-client-context.c:1859
@@ -408,25 +424,23 @@ msgstr "ಲಭ್ಯವಿರುವ ದತ್ತಸಂಚಯಗಳ ಪಟ್ಟ�
 msgid "Clear the list of available databases"
 msgstr "ಲಭ್ಯವಿರುವ ದತ್ತಸಂಚಯಗಳ ಪಟ್ಟಿಯನ್ನು ಅಳಿಸಿ ಹಾಕು"
 
-#: ../libgdict/gdict-database-chooser.c:837
-#: ../libgdict/gdict-speller.c:777
+#: ../libgdict/gdict-database-chooser.c:837 ../libgdict/gdict-speller.c:777
 #: ../libgdict/gdict-strategy-chooser.c:785
 msgid "Error while matching"
 msgstr "ಹೊಂದಿಸುವಾಗ ದೋಷ"
 
-#: ../libgdict/gdict-defbox.c:1126
-#: ../libgdict/gdict-defbox.c:1220
+#: ../libgdict/gdict-defbox.c:1126 ../libgdict/gdict-defbox.c:1220
 #: ../libgdict/gdict-defbox.c:1254
 msgid "Not found"
 msgstr "ಕಂಡು ಬಂದಿಲ್ಲ"
 
 #: ../libgdict/gdict-defbox.c:1315
 msgid "F_ind:"
-msgstr "ಹುಡುಕು(_i):"
+msgstr "ಹುಡುಕು (_i):"
 
 #: ../libgdict/gdict-defbox.c:1328
 msgid "_Previous"
-msgstr "ಹಿಂದಿನ(_P)"
+msgstr "ಹಿಂದಿನ (_P)"
 
 #: ../libgdict/gdict-defbox.c:1336
 msgid "_Next"
@@ -436,13 +450,11 @@ msgstr "ಮುಂದಕ್ಕೆ (_N)"
 msgid "Error while looking up definition"
 msgstr "ವಿವರಗಳಿಗಾಗಿ ನೋಡುವಾಗ ದೋಷ"
 
-#: ../libgdict/gdict-defbox.c:2555
-#: ../libgdict/gdict-speller.c:735
+#: ../libgdict/gdict-defbox.c:2555 ../libgdict/gdict-speller.c:735
 msgid "Another search is in progress"
 msgstr "ಇನ್ನೊಂದು ಹುಡುಕು ನಡೆಯುತ್ತಿದೆ"
 
-#: ../libgdict/gdict-defbox.c:2556
-#: ../libgdict/gdict-speller.c:736
+#: ../libgdict/gdict-defbox.c:2556 ../libgdict/gdict-speller.c:736
 msgid "Please wait until the current search ends."
 msgstr "ಸದ್ಯದ ಹುಡುಕು ಮುಗಿಯುವವರೆಗೆ ದಯವಿಟ್ಟು ಕಾಯಿರಿ."
 
@@ -474,8 +486,7 @@ msgstr "ವಿವರಣೆ"
 msgid "The description of this dictionary source"
 msgstr "ಈ ಶಬ್ಧಕೋಶ ಆಕರದ ವಿವರಣೆ"
 
-#: ../libgdict/gdict-source.c:273
-#: ../libgdict/gdict-speller.c:382
+#: ../libgdict/gdict-source.c:273 ../libgdict/gdict-speller.c:382
 msgid "Database"
 msgstr "ದತ್ತಸಂಚಯ"
 
@@ -483,8 +494,7 @@ msgstr "ದತ್ತಸಂಚಯ"
 msgid "The default database of this dictionary source"
 msgstr "ಈ ಶಬ್ಧಕೋಶ ಆಕರದ ಪೂರ್ವನಿಯೋಜಿತ ದತ್ತಸಂಚಯ"
 
-#: ../libgdict/gdict-source.c:287
-#: ../libgdict/gdict-speller.c:389
+#: ../libgdict/gdict-source.c:287 ../libgdict/gdict-speller.c:389
 msgid "Strategy"
 msgstr "ತಂತ್ರ"
 
@@ -500,8 +510,7 @@ msgstr "ವರ್ಗಾವಣೆ"
 msgid "The transport mechanism used by this dictionary source"
 msgstr "ಈ ಶಬ್ಧಕೋಶ ಆಕರದಿಂದ ಬಳಸಲಾಗುವ ವರ್ಗಾವಣೆ ವಿನ್ಯಾಸ"
 
-#: ../libgdict/gdict-source.c:316
-#: ../libgdict/gdict-speller.c:375
+#: ../libgdict/gdict-source.c:316 ../libgdict/gdict-speller.c:375
 msgid "Context"
 msgstr "ಸಂದರ್ಭ"
 
@@ -519,10 +528,8 @@ msgstr "ಅಮಾನ್ಯವಾದ ವರ್ಗಾವಣೆ ಬಗೆ '%d'"
 msgid "No '%s' group found inside the dictionary source definition"
 msgstr "ಶಬ್ಧಕೋಶ ಆಕರದ ವಿವರಣೆಯಲ್ಲಿ ಯಾವುದೆ '%s' ಗುಂಪು ಕಂಡು ಬಂದಿಲ್ಲ"
 
-#: ../libgdict/gdict-source.c:456
-#: ../libgdict/gdict-source.c:480
-#: ../libgdict/gdict-source.c:504
-#: ../libgdict/gdict-source.c:529
+#: ../libgdict/gdict-source.c:456 ../libgdict/gdict-source.c:480
+#: ../libgdict/gdict-source.c:504 ../libgdict/gdict-source.c:529
 #, c-format
 msgid "Unable to get the '%s' key inside the dictionary source definition: %s"
 msgstr "ಶಬ್ಧಕೋಶ ಆಕರದ ವಿವರಣೆಯಲ್ಲಿ '%s' ಕೀಲಿಯನ್ನು ಪಡೆಯಲು ಸಾಧ್ಯವಾಗಿಲ್ಲ: %s"
@@ -591,8 +598,7 @@ msgstr "ಲಭ್ಯವಿರುವ ತಂತ್ರಗಳ ಪಟ್ಟಿಯನ�
 msgid "GDict debugging flags to set"
 msgstr "ಹೊಂದಿಸಬೇಕಿರುವ GDict ದೋಷ ನಿವಾರಣಾ ಗುರುತುಗಳು"
 
-#: ../libgdict/gdict-utils.c:96
-#: ../libgdict/gdict-utils.c:98
+#: ../libgdict/gdict-utils.c:96 ../libgdict/gdict-utils.c:98
 msgid "FLAGS"
 msgstr "FLAGS"
 
@@ -616,13 +622,11 @@ msgstr "ಶಂಕರ್ ಪ್ರಸಾದ್ <svenkate@redhat.com>"
 msgid "Look up words in dictionaries"
 msgstr "ಶಬ್ಧಕೋಶದಲ್ಲಿ ಪದಗಳಿಗಾಗಿ ಹುಡುಕು"
 
-#: ../src/gdict-app.c:60
-#: ../src/gdict-app.c:89
+#: ../src/gdict-app.c:60 ../src/gdict-app.c:89
 msgid "Words to look up"
 msgstr "ಹುಡುಕಲು ಪದ"
 
-#: ../src/gdict-app.c:60
-#: ../src/gdict-app.c:66
+#: ../src/gdict-app.c:60 ../src/gdict-app.c:66
 msgid "WORD"
 msgstr "WORD"
 
@@ -634,9 +638,7 @@ msgstr "ಹೊಂದಿಸಲು ಪದ"
 msgid "Dictionary source to use"
 msgstr "ಬಳಸಬೇಕಿರುವ ಶಬ್ಧಕೋಶದ ಆಕರ"
 
-#: ../src/gdict-app.c:72
-#: ../src/gdict-app.c:78
-#: ../src/gdict-app.c:84
+#: ../src/gdict-app.c:72 ../src/gdict-app.c:78 ../src/gdict-app.c:84
 msgid "NAME"
 msgstr "NAME"
 
@@ -656,8 +658,7 @@ msgstr "WORDS"
 msgid "Dictionary Preferences"
 msgstr "ಶಬ್ಧಕೋಶದ ಆದ್ಯತೆಗಳು"
 
-#: ../src/gdict-app.c:128
-#: ../src/gdict-pref-dialog.c:494
+#: ../src/gdict-app.c:128 ../src/gdict-pref-dialog.c:494
 #: ../src/gdict-source-dialog.c:475
 #, c-format
 msgid "There was an error while displaying help"
@@ -668,8 +669,7 @@ msgstr "ನೆರವನ್ನು ತೋರಿಸುವಾಗ ಒಂದು ದೋ
 msgid " - Look up words in dictionaries"
 msgstr " - ಪದಗಳಿಗಾಗಿ ಶಬ್ಧಕೋಶದಲ್ಲಿ ನೋಡಿ"
 
-#: ../src/gdict-pref-dialog.c:239
-#: ../src/gdict-pref-dialog.c:428
+#: ../src/gdict-pref-dialog.c:239 ../src/gdict-pref-dialog.c:428
 msgid "Edit Dictionary Source"
 msgstr "ಶಬ್ಧಕೋಶ ಆಕರವನ್ನು ಸಂಪಾದಿಸಿ"
 
@@ -707,19 +707,16 @@ msgstr "ಈಗ ಆಯ್ಕೆ ಮಾಡಲಾದ ಶಬ್ಧಕೋಶ ಆಕ�
 msgid "Set the font used for printing the definitions"
 msgstr "ವಿವರಣೆಗಳನ್ನು ಮುದ್ರಿಸಲು ಬಳಸಲಾಗುವ ಅಕ್ಷರಶೈಲಿಯನ್ನು ಅಣಿಗೊಳಿಸಿ"
 
-#: ../src/gdict-print.c:239
-#: ../src/gdict-print.c:303
+#: ../src/gdict-print.c:239 ../src/gdict-print.c:303
 #, c-format
 msgid "Unable to display the preview: %s"
 msgstr "ಮುನ್ನೋಟವನ್ನು ತೋರಿಸಲು ಸಾಧ್ಯವಾಗಿಲ್ಲ: %s"
 
-#: ../src/gdict-source-dialog.c:340
-#: ../src/gdict-source-dialog.c:432
+#: ../src/gdict-source-dialog.c:340 ../src/gdict-source-dialog.c:432
 msgid "Unable to create a source file"
 msgstr "ಆಕರ ಕಡತವನ್ನು ರಚಿಸಲು ಸಾಧ್ಯವಾಗಿಲ್ಲ"
 
-#: ../src/gdict-source-dialog.c:356
-#: ../src/gdict-source-dialog.c:448
+#: ../src/gdict-source-dialog.c:356 ../src/gdict-source-dialog.c:448
 msgid "Unable to save source file"
 msgstr "ಆಕರ ಕಡತವನ್ನು ಉಳಿಸಲು ಸಾಧ್ಯವಾಗಿಲ್ಲ"
 
@@ -728,8 +725,7 @@ msgstr "ಆಕರ ಕಡತವನ್ನು ಉಳಿಸಲು ಸಾಧ್ಯವ
 msgid "Searching for '%s'..."
 msgstr "'%s' ಗಾಗಿ ಹುಡುಕಲಾಗುತ್ತಿದೆ..."
 
-#: ../src/gdict-window.c:285
-#: ../src/gdict-window.c:342
+#: ../src/gdict-window.c:285 ../src/gdict-window.c:342
 msgid "No definitions found"
 msgstr "ಯಾವುದೆ ವ್ಯಾಖ್ಯೆಗಳು ಕಂಡುಬಂದಿಲ್ಲ"
 
@@ -776,62 +772,66 @@ msgstr "ಹೆಸರಿಲ್ಲದ ದಸ್ತಾವೇಜು"
 msgid "Error while writing to '%s'"
 msgstr "'%s' ಗೆ ಬರೆಯುವಲ್ಲಿ ದೋಷ"
 
-#: ../src/gdict-window.c:1359
+#: ../src/gdict-window.c:1365
 #, c-format
 msgid "Dictionary source `%s' selected"
 msgstr "ಶಬ್ಧಕೋಶದ ಮೂಲ `%s' ಅನ್ನು ಆರಿಸಲಾಗಿದೆ"
 
-#: ../src/gdict-window.c:1380
+#: ../src/gdict-window.c:1386
 #, c-format
 msgid "Strategy `%s' selected"
 msgstr "ತಂತ್ರ `%s' ಅನ್ನು ಆರಿಸಲಾಗಿದೆ"
 
-#: ../src/gdict-window.c:1400
+#: ../src/gdict-window.c:1406
 #, c-format
 msgid "Database `%s' selected"
 msgstr "ದತ್ತಸಂಚಯ `%s' ಅನ್ನು ಆರಿಸಲಾಗಿದೆ"
 
-#: ../src/gdict-window.c:1420
+#: ../src/gdict-window.c:1426
 #, c-format
 msgid "Word `%s' selected"
 msgstr "ಪದ `%s' ಅನ್ನು ಆರಿಸಲಾಗಿದೆ"
 
 #. speller
-#: ../src/gdict-window.c:1445
+#: ../src/gdict-window.c:1451
 msgid "Double-click on the word to look up"
 msgstr "ನೋಡಲು ಪದದ ಮೇಲೆ ಎರಡು ಬಾರಿ ಕ್ಲಿಕ್ಕಿಸಿ"
 
 #. strat-chooser
-#: ../src/gdict-window.c:1451
+#: ../src/gdict-window.c:1457
 msgid "Double-click on the matching strategy to use"
 msgstr "ಬಳಸಬೇಕಿರುವ ತಂತ್ರಕ್ಕೆ ತಾಳೆಯಾಗುವುದರ ಮೇಲೆ ಎರಡು-ಬಾರಿ ಕ್ಲಿಕ್ಕಿಸಿ"
 
 #. source-chooser
-#: ../src/gdict-window.c:1456
+#: ../src/gdict-window.c:1462
 msgid "Double-click on the source to use"
 msgstr "ಆಕರದ ಬಳಕೆಗಾಗಿ ಅದರ ಮೇಲೆ ಎರಡು ಬಾರಿ ಕ್ಲಿಕ್ಕಿಸಿ"
 
 #. db-chooser
-#: ../src/gdict-window.c:1465
+#: ../src/gdict-window.c:1471
 msgid "Double-click on the database to use"
 msgstr "ದತ್ತಸಂಚಯದ ಬಳಕೆಗಾಗಿ ಅದರ ಮೇಲೆ ಎರಡು ಬಾರಿ ಕ್ಲಿಕ್ಕಿಸಿ"
 
-#: ../src/gdict-window.c:1615
-msgid "Look _up:"
-msgstr "ಹುಡುಕಾಟ(_u):"
+#: ../src/gdict-window.c:1621
+#| msgid "Look _up:"
+msgid "Look _up"
+msgstr "ಹುಡುಕಾಟ (_u)"
 
-#: ../src/gdict-window.c:1690
+#: ../src/gdict-window.c:1695
 msgid "Similar words"
 msgstr "ಒಂದೇ ಬಗೆಯ ಪದಗಳು"
 
-#: ../src/gdict-window.c:1703
+#: ../src/gdict-window.c:1708
 msgid "Available dictionaries"
 msgstr "ಲಭ್ಯವಿರುವ ಶಬ್ಧಕೋಶಗಳು"
 
-#: ../src/gdict-window.c:1721
+#: ../src/gdict-window.c:1726
 msgid "Available strategies"
 msgstr "ಲಭ್ಯವಿರುವ ತಂತ್ರಗಳು"
 
-#: ../src/gdict-window.c:1737
+#: ../src/gdict-window.c:1742
 msgid "Dictionary sources"
 msgstr "ಶಬ್ಧಕೋಶದ ಮೂಲಗಳು"
+
+#~ msgid "About Dictionary"
+#~ msgstr "ಶಬ್ಧಕೋಶದ ಕುರಿತು"
