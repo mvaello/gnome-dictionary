@@ -9,16 +9,16 @@
 # Dr.T.Vasudevan <agnihot3@gmail.com>, 2007, 2008, 2009, 2011.
 # I. Felix <ifelix@redhat.com>, 2009.
 # Dr,T,Vasudevan <agnihot3@gmail.com>, 2010, 2011.
-# Shantha kumar <shkumar@redhat.com>, 2012, 2013.
+# Shantha kumar <shkumar@redhat.com>, 2012, 2013, 2014.
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-utils.master.ta\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "dictionary&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2013-11-05 20:52+0000\n"
-"PO-Revision-Date: 2013-11-21 17:12+0530\n"
+"POT-Creation-Date: 2014-09-15 06:40+0000\n"
+"PO-Revision-Date: 2014-09-15 18:54+0630\n"
 "Last-Translator: Shantha kumar <shkumar@redhat.com>\n"
-"Language-Team: American English <>\n"
+"Language-Team: American English <kde-i18n-doc@kde.org>\n"
 "Language: en_US\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -51,6 +51,18 @@ msgstr "ஒரு இணைய அகராதியில் சொற்கள
 msgid "word;synonym;definition;spelling;"
 msgstr "சொல்;பொருள்;வரையறை;எழுத்துக்கூட்டு;"
 
+#: ../data/gnome-dictionary.appdata.xml.in.h:1
+msgid ""
+"GNOME Dictionary is a simple dictionary application that looks up "
+"definitions of words online. Though it looks up English definitions by "
+"default, you can easily switch to Spanish or add other online dictionaries "
+"using the DICT protocol to suit your needs."
+msgstr ""
+"GNOME Dictionary என்பது இணையத்தில் சொற்களின் பொருள் தேட உதவும் எளிய அகராதி "
+"பயன்பாடாகும். முன்னிருப்பாக இது ஆங்கில வரையறைகளையே தேடிக் காண்பிக்கும் "
+"என்றாலும், எளிதாக நீங்கள் இசுபானியத்திற்கு மாறலாம் அல்லது DICT நெறிமுறையைப் "
+"பயன்படுத்தி உங்களுக்குத் தேவைப்படும் இணைய அகராதிகளைச் சேர்த்துக்கொள்ளலாம்."
+
 #: ../data/gnome-dictionary-menus.ui.h:1
 msgid "Preferences"
 msgstr "விருப்பத்தேர்வுகள்"
@@ -60,8 +72,9 @@ msgid "Help"
 msgstr "உதவி"
 
 #: ../data/gnome-dictionary-menus.ui.h:3
-msgid "About Dictionary"
-msgstr "அகராதியைப் பற்றி"
+#| msgid "_About"
+msgid "About"
+msgstr "அறிமுகம்"
 
 #: ../data/gnome-dictionary-menus.ui.h:4
 msgid "Quit"
@@ -813,7 +826,6 @@ msgid "Double-click on the database to use"
 msgstr "தரவுத்தளத்தைப் பயன்படுத்த இருமுறை சொடுக்கவும்"
 
 #: ../src/gdict-window.c:1621
-#| msgid "Look _up:"
 msgid "Look _up"
 msgstr "தேடு (_u)"
 
@@ -832,6 +844,9 @@ msgstr "இருக்கும் திட்டங்கள்"
 #: ../src/gdict-window.c:1742
 msgid "Dictionary sources"
 msgstr "அகராதியை மூலங்கள் "
+
+#~ msgid "About Dictionary"
+#~ msgstr "அகராதியைப் பற்றி"
 
 #~ msgid "Available _Databases"
 #~ msgstr "இருக்கும் தரவுத்தளங்கள் (_D)"
@@ -865,6 +880,3 @@ msgstr "அகராதியை மூலங்கள் "
 
 #~ msgid "_Contents"
 #~ msgstr "உள்ளடக்கம் (_C)"
-
-#~ msgid "_About"
-#~ msgstr "பற்றி...(_A)"
