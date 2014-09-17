@@ -5,16 +5,16 @@
 # Ravishankar Shrivastava <raviratlami@yahoo.com>, 2004.
 # Rajesh Ranjan <rranjan@redhat.com>, 2005, 2006, 2009.
 # Rajesh Ranjan <rajesh672@gmail.com>, 2009.
-# rajesh <rajeshkajha@yahoo.com>, 2012.
+# rajesh <rajeshkajha@yahoo.com>, 2012, 2014.
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-utils.master.hi\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "dictionary&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2012-11-14 18:34+0000\n"
-"PO-Revision-Date: 2012-11-23 14:05+0530\n"
-"Last-Translator: Rajesh Ranjan <rajesh>\n"
-"Language-Team: Hindi <Indlinux>\n"
+"POT-Creation-Date: 2014-09-16 18:43+0000\n"
+"PO-Revision-Date: 2014-09-17 11:40+0630\n"
+"Last-Translator: rajesh <rajesh>\n"
+"Language-Team: Hindi <kde-i18n-doc@kde.org>\n"
 "Language: hi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -35,7 +35,7 @@ msgid "Default Dictionary Server"
 msgstr "तयशुदा शब्दकोश सर्वर"
 
 #: ../data/gnome-dictionary.desktop.in.in.h:1 ../src/gdict-about.c:60
-#: ../src/gdict-app.c:347 ../src/gdict-window.c:543 ../src/gdict-window.c:1805
+#: ../src/gdict-app.c:347 ../src/gdict-window.c:543 ../src/gdict-window.c:1810
 msgid "Dictionary"
 msgstr "शब्दकोश"
 
@@ -47,6 +47,18 @@ msgstr "ऑन लाइन शब्दकोश में परिभाष�
 msgid "word;synonym;definition;spelling;"
 msgstr "word;synonym;definition;spelling;"
 
+#: ../data/gnome-dictionary.appdata.xml.in.h:1
+msgid ""
+"GNOME Dictionary is a simple dictionary application that looks up "
+"definitions of words online. Though it looks up English definitions by "
+"default, you can easily switch to Spanish or add other online dictionaries "
+"using the DICT protocol to suit your needs."
+msgstr ""
+" GNOME Dictionary is a simple dictionary application that looks up "
+"definitions of words online. Though it looks up English definitions by "
+"default, you can easily switch to Spanish or add other online dictionaries "
+"using the DICT protocol to suit your needs."
+
 #: ../data/gnome-dictionary-menus.ui.h:1
 msgid "Preferences"
 msgstr "वरीयताएँ"
@@ -56,8 +68,9 @@ msgid "Help"
 msgstr "मदद"
 
 #: ../data/gnome-dictionary-menus.ui.h:3
-msgid "About Dictionary"
-msgstr "शब्दकोश का परिचय"
+#| msgid "_About"
+msgid "About"
+msgstr "परिचय"
 
 #: ../data/gnome-dictionary-menus.ui.h:4
 msgid "Quit"
@@ -132,8 +145,9 @@ msgid "Dictionary Sources"
 msgstr "शब्दकोश श्रोत"
 
 #: ../data/gnome-dictionary-menus.ui.h:22
-msgid "Available _Databases"
-msgstr "उपलब्ध डाटाबेस (_D)"
+#| msgid "Available dictionaries"
+msgid "Available _Dictionaries"
+msgstr "उपलब्ध शब्दकोश (_D)"
 
 #: ../data/gnome-dictionary-menus.ui.h:23
 msgid "Available St_rategies"
@@ -769,65 +783,72 @@ msgstr "शीर्षक रहित दस्तावेज"
 msgid "Error while writing to '%s'"
 msgstr "'%s' में लिखने में त्रुटि"
 
-#: ../src/gdict-window.c:1359
+#: ../src/gdict-window.c:1365
 #, c-format
 msgid "Dictionary source `%s' selected"
 msgstr "शब्दकोश श्रोत `%s' चुना गया"
 
-#: ../src/gdict-window.c:1380
+#: ../src/gdict-window.c:1386
 #, c-format
 msgid "Strategy `%s' selected"
 msgstr "रणनीति `%s' चयनित"
 
-#: ../src/gdict-window.c:1400
+#: ../src/gdict-window.c:1406
 #, c-format
 msgid "Database `%s' selected"
 msgstr "डाटाबेस `%s' चयनित"
 
-#: ../src/gdict-window.c:1420
+#: ../src/gdict-window.c:1426
 #, c-format
 msgid "Word `%s' selected"
 msgstr "शब्द `%s' चयनित"
 
 #. speller
-#: ../src/gdict-window.c:1445
+#: ../src/gdict-window.c:1451
 msgid "Double-click on the word to look up"
 msgstr "देखने के लिए शब्द पर दोहरा क्लिक"
 
 #. strat-chooser
-#: ../src/gdict-window.c:1451
+#: ../src/gdict-window.c:1457
 msgid "Double-click on the matching strategy to use"
 msgstr "प्रयोग के लिए मेल खाते रणनीति पर दोहरा क्लिक"
 
 #. source-chooser
-#: ../src/gdict-window.c:1456
+#: ../src/gdict-window.c:1462
 msgid "Double-click on the source to use"
 msgstr "प्रयोग के लिए स्रोत पर दोहरा क्लिक"
 
 #. db-chooser
-#: ../src/gdict-window.c:1465
+#: ../src/gdict-window.c:1471
 msgid "Double-click on the database to use"
 msgstr "ढूंढने हेतु योजना उपयोग में"
 
-#: ../src/gdict-window.c:1615
-msgid "Look _up:"
-msgstr "देखें (_u):"
+#: ../src/gdict-window.c:1621
+#| msgid "Look _up:"
+msgid "Look _up"
+msgstr "देखें (_u)"
 
-#: ../src/gdict-window.c:1690
+#: ../src/gdict-window.c:1695
 msgid "Similar words"
 msgstr "समान शब्द"
 
-#: ../src/gdict-window.c:1703
+#: ../src/gdict-window.c:1708
 msgid "Available dictionaries"
 msgstr "उपलब्ध शब्दकोश"
 
-#: ../src/gdict-window.c:1721
+#: ../src/gdict-window.c:1726
 msgid "Available strategies"
 msgstr "उपलब्ध रणनीति"
 
-#: ../src/gdict-window.c:1737
+#: ../src/gdict-window.c:1742
 msgid "Dictionary sources"
 msgstr "शब्दकोश श्रोत"
+
+#~ msgid "About Dictionary"
+#~ msgstr "शब्दकोश का परिचय"
+
+#~ msgid "Available _Databases"
+#~ msgstr "उपलब्ध डाटाबेस (_D)"
 
 #~ msgid "New look up"
 #~ msgstr "नयी खोज"
@@ -858,6 +879,3 @@ msgstr "शब्दकोश श्रोत"
 
 #~ msgid "_Contents"
 #~ msgstr "विषय सूची (_C)"
-
-#~ msgid "_About"
-#~ msgstr "के बारे में (_A)"
