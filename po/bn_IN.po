@@ -2,37 +2,34 @@
 # Bengali India Translation of Gnome-Utils
 # Copyright (C) 2005 Free Software Foundation.
 # This file is distributed under the same license as the gnome-utils package.
-# 
+#
 # Runa Bhattacharjee <runa@bengalinux.org>, 2005.
 # Runa Bhattacharjee <runab@redhat.com>, 2008, 2009, 2010, 2011, 2012.
-# sray <sray@redhat.com>, 2013. #zanata
+# sray <sray@redhat.com>, 2013, 2014. #zanata.
 msgid ""
 msgstr ""
 "Project-Id-Version: bn_IN\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "dictionary&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2012-05-10 17:07+0000\n"
-"PO-Revision-Date: 2013-10-03 02:30-0400\n"
-"Last-Translator: sray <sray@redhat.com>\n"
-"Language-Team: Bengali (India) <anubad@lists.ankur.org.in>\n"
+"POT-Creation-Date: 2014-09-23 18:44+0000\n"
+"PO-Revision-Date: 2014-09-24 11:15+0000\n"
+"Last-Translator: \n"
+"Language-Team: Bengali (India) <kde-i18n-doc@kde.org>\n"
+"Language: bn-IN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: bn-IN\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "\n"
 "\n"
-"X-Generator: Zanata 3.1.2\n"
+"X-Generator: Lokalize 1.5\n"
 
 #: ../data/default.desktop.in.h:1
 msgid "Default Dictionary Server"
 msgstr "ডিফল্ট অভিধানের সার্ভার"
 
-#: ../data/gnome-dictionary.desktop.in.in.h:1
-#: ../src/gdict-about.c:60
-#: ../src/gdict-app.c:347
-#: ../src/gdict-window.c:543
-#: ../src/gdict-window.c:1805
+#: ../data/gnome-dictionary.desktop.in.in.h:1 ../src/gdict-about.c:60
+#: ../src/gdict-app.c:347 ../src/gdict-window.c:543 ../src/gdict-window.c:1810
 msgid "Dictionary"
 msgstr "অভিধান"
 
@@ -44,6 +41,18 @@ msgstr "অনলাইন অভিধানে শব্দের সংজ্
 msgid "word;synonym;definition;spelling;"
 msgstr "শব্দ;প্রতিশব্দ;সংঞ্জা;বানান;"
 
+#: ../data/gnome-dictionary.appdata.xml.in.h:1
+msgid ""
+"GNOME Dictionary is a simple dictionary application that looks up "
+"definitions of words online. Though it looks up English definitions by "
+"default, you can easily switch to Spanish or add other online dictionaries "
+"using the DICT protocol to suit your needs."
+msgstr ""
+"GNOME অভিধান হল একটি সহজ অভিধান অ্যাপ্লিকেশন যা শব্দের অর্থ অনলাইনে খোঁজে। "
+"এটি ডিফল্ট ভাবে ইংরাজি সংজ্ঞা খুঁজলেও, অাপনি সহজেই স্পেনীয়তে পাল্টে নিতে "
+"পারবেন বা অাপনার প্রয়োজন মতো DICT প্রোটোকল ব্যবহার করে অন্য অনলাইন অভিধান "
+"ব্যবহার করতে পারবেন।"
+
 #: ../data/gnome-dictionary-menus.ui.h:1
 msgid "Preferences"
 msgstr "পছন্দ"
@@ -53,8 +62,8 @@ msgid "Help"
 msgstr "সাহায্য"
 
 #: ../data/gnome-dictionary-menus.ui.h:3
-msgid "About Dictionary"
-msgstr "অভিধান পরিচিতি"
+msgid "About"
+msgstr "সম্পর্কে"
 
 #: ../data/gnome-dictionary-menus.ui.h:4
 msgid "Quit"
@@ -214,8 +223,10 @@ msgid ""
 "present in a dictionary source should be searched"
 msgstr ""
 "অভিধান সার্ভারে ব্যবহত স্বতন্ত্র ডাটাবেস অথবা মিটা-ডাটাবেসের নাম। বিস্ময়সূচক "
-"চিহ্নের (\"!\")  সাহায্যে নির্দিষ্ট সার্ভারে উপস্থিত সকল ডাটাবেস অনুসন্ধানের "
-"নির্দেশ দেওয়া হয়।"
+"চিহ্নের "
+"(\"!\")  সাহায্যে নির্দিষ্ট সার্ভারে উপস্থিত সকল ডাটাবেস অনুসন্ধানের নির্দেশ "
+"দেওয়া "
+"হয়।"
 
 #: ../data/org.gnome.dictionary.gschema.xml.in.in.h:3
 msgid "The default search strategy to use"
@@ -227,8 +238,8 @@ msgid ""
 "available. The default strategy is 'exact', that is match exact words."
 msgstr ""
 "অভিধানের উৎস উপলব্ধ থাকলে, ব্যবহারযোগ্য ডিফল্ট অনুসন্ধান নীতির নাম। "
-"ডিফল্টরূপে ব্যবহৃড নীতি হল, 'exact', অর্থাৎ শব্দগুলি সম্পূর্ণরূপে মেলানো "
-"হবে।"
+"ডিফল্টরূপে ব্যবহৃড "
+"নীতি হল, 'exact', অর্থাৎ শব্দগুলি সম্পূর্ণরূপে মেলানো হবে।"
 
 #: ../data/org.gnome.dictionary.gschema.xml.in.in.h:5
 msgid "The font to be used when printing"
@@ -313,14 +324,17 @@ msgid ""
 "Unable to connect to the dictionary server at '%s:%d'. The server replied "
 "with code %d (server down)"
 msgstr ""
-"'%s:%d'-এ উপস্থিত অভিধান সার্ভারের সাথে সংযোগ করতে ব্যর্থ। সার্ভার থেকে কোড "
-"%d প্রাপ্ত হয়েছে (সার্ভার বর্তমানে বন্ধ রয়েছে)"
+"'%s:%d'-এ উপস্থিত অভিধান সার্ভারের সাথে সংযোগ করতে ব্যর্থ। সার্ভার থেকে কোড %"
+"d "
+"প্রাপ্ত হয়েছে (সার্ভার বর্তমানে বন্ধ রয়েছে)"
 
 #: ../libgdict/gdict-client-context.c:1195
 #, c-format
-msgid "Unable to parse the dictionary server reply\n"
+msgid ""
+"Unable to parse the dictionary server reply\n"
 ": '%s'"
-msgstr "অভিধান সার্ভার থেকে প্রাপ্ত উত্তর পার্স করতে ব্যর্থ\n"
+msgstr ""
+"অভিধান সার্ভার থেকে প্রাপ্ত উত্তর পার্স করতে ব্যর্থ\n"
 ": '%s'"
 
 #: ../libgdict/gdict-client-context.c:1224
@@ -365,9 +379,11 @@ msgstr "%s:%d'এ উপস্থিত অভিধান সার্ভার
 
 #: ../libgdict/gdict-client-context.c:1786
 #, c-format
-msgid "Error while reading reply from server:\n"
+msgid ""
+"Error while reading reply from server:\n"
 "%s"
-msgstr "সার্ভার থেকে প্রাপ্ত উত্তর পড়াকালে সমস্যা:\n"
+msgstr ""
+"সার্ভার থেকে প্রাপ্ত উত্তর পড়াকালে সমস্যা:\n"
 "%s"
 
 #: ../libgdict/gdict-client-context.c:1859
@@ -415,14 +431,12 @@ msgid "Clear the list of available databases"
 msgstr "উপলব্ধ ডাটাবেসের তালিকার বিষয়বস্তু মুছে ফেলুন"
 
 # msgstr "সমস্যাযুক্ত ব্লক খোঁজা হচ্ছে...(এতে কিছুটা সময় লাগতে পারে)"
-#: ../libgdict/gdict-database-chooser.c:837
-#: ../libgdict/gdict-speller.c:777
+#: ../libgdict/gdict-database-chooser.c:837 ../libgdict/gdict-speller.c:777
 #: ../libgdict/gdict-strategy-chooser.c:785
 msgid "Error while matching"
 msgstr "মেলানোর সময় সমস্যা"
 
-#: ../libgdict/gdict-defbox.c:1126
-#: ../libgdict/gdict-defbox.c:1220
+#: ../libgdict/gdict-defbox.c:1126 ../libgdict/gdict-defbox.c:1220
 #: ../libgdict/gdict-defbox.c:1254
 msgid "Not found"
 msgstr "পাওয়া যায়নি"
@@ -444,13 +458,11 @@ msgstr "পরবর্তী(_N)"
 msgid "Error while looking up definition"
 msgstr "সংজ্ঞা অনুসন্ধানে সমস্যা"
 
-#: ../libgdict/gdict-defbox.c:2555
-#: ../libgdict/gdict-speller.c:735
+#: ../libgdict/gdict-defbox.c:2555 ../libgdict/gdict-speller.c:735
 msgid "Another search is in progress"
 msgstr "বর্তমানে একটি পৃথক অনুসন্ধান চলছে"
 
-#: ../libgdict/gdict-defbox.c:2556
-#: ../libgdict/gdict-speller.c:736
+#: ../libgdict/gdict-defbox.c:2556 ../libgdict/gdict-speller.c:736
 msgid "Please wait until the current search ends."
 msgstr "বর্তমান অনুসন্ধান সমাপ্ত হওয়া অবধি অনুগ্রহ করে অপেক্ষা করুন।"
 
@@ -483,8 +495,7 @@ msgid "The description of this dictionary source"
 msgstr "অভিধানের উৎসের বিবরণ"
 
 # msgstr "সকল ডাটাবেস খোঁজা হোক"
-#: ../libgdict/gdict-source.c:273
-#: ../libgdict/gdict-speller.c:382
+#: ../libgdict/gdict-source.c:273 ../libgdict/gdict-speller.c:382
 msgid "Database"
 msgstr "ডাটাবেস"
 
@@ -492,8 +503,7 @@ msgstr "ডাটাবেস"
 msgid "The default database of this dictionary source"
 msgstr "অভিধানের উৎসের দ্বারা ব্যবহৃত ডিফল্ট ডাটাবেস"
 
-#: ../libgdict/gdict-source.c:287
-#: ../libgdict/gdict-speller.c:389
+#: ../libgdict/gdict-source.c:287 ../libgdict/gdict-speller.c:389
 msgid "Strategy"
 msgstr "নীতি"
 
@@ -509,8 +519,7 @@ msgstr "পরিবহণ"
 msgid "The transport mechanism used by this dictionary source"
 msgstr "অভিধানের উৎসের দ্বারা ব্যবহৃত পরিবহণ ব্যবস্থা"
 
-#: ../libgdict/gdict-source.c:316
-#: ../libgdict/gdict-speller.c:375
+#: ../libgdict/gdict-source.c:316 ../libgdict/gdict-speller.c:375
 msgid "Context"
 msgstr "কনটেক্সট"
 
@@ -528,10 +537,8 @@ msgstr "অবৈধ পরিবহণের প্রণালী '%d'"
 msgid "No '%s' group found inside the dictionary source definition"
 msgstr "অভিধান উৎসের সংজ্ঞার মধ্যে  '%s' নামক দল পাওয়া যায়নি"
 
-#: ../libgdict/gdict-source.c:456
-#: ../libgdict/gdict-source.c:480
-#: ../libgdict/gdict-source.c:504
-#: ../libgdict/gdict-source.c:529
+#: ../libgdict/gdict-source.c:456 ../libgdict/gdict-source.c:480
+#: ../libgdict/gdict-source.c:504 ../libgdict/gdict-source.c:529
 #, c-format
 msgid "Unable to get the '%s' key inside the dictionary source definition: %s"
 msgstr "অভিধান উৎসের সংজ্ঞার মধ্যে  '%s' কি প্রাপ্ত করতে ব্যর্থ: %s"
@@ -600,8 +607,7 @@ msgstr "উপলব্ধ নীতির তালিকার বিষয়ব
 msgid "GDict debugging flags to set"
 msgstr "নির্ধারণের জন্য চিহ্নিত GDict ডিবাগিং ফ্ল্যাগ"
 
-#: ../libgdict/gdict-utils.c:96
-#: ../libgdict/gdict-utils.c:98
+#: ../libgdict/gdict-utils.c:96 ../libgdict/gdict-utils.c:98
 msgid "FLAGS"
 msgstr "FLAGS"
 
@@ -625,13 +631,11 @@ msgstr "রুণা ভট্টাচার্য্য (runa@bengalinux.org)"
 msgid "Look up words in dictionaries"
 msgstr "অভিধানে শব্দ অনুসন্ধান করুন"
 
-#: ../src/gdict-app.c:60
-#: ../src/gdict-app.c:89
+#: ../src/gdict-app.c:60 ../src/gdict-app.c:89
 msgid "Words to look up"
 msgstr "অনুসন্ধানের জন্য উল্লিখিত শব্দ"
 
-#: ../src/gdict-app.c:60
-#: ../src/gdict-app.c:66
+#: ../src/gdict-app.c:60 ../src/gdict-app.c:66
 msgid "WORD"
 msgstr "WORD"
 
@@ -643,9 +647,7 @@ msgstr "মেলানোর উদ্দেশ্যে শব্দ"
 msgid "Dictionary source to use"
 msgstr "ব্যবহারের জন্য চিহ্নিত অভিধানের উৎস"
 
-#: ../src/gdict-app.c:72
-#: ../src/gdict-app.c:78
-#: ../src/gdict-app.c:84
+#: ../src/gdict-app.c:72 ../src/gdict-app.c:78 ../src/gdict-app.c:84
 msgid "NAME"
 msgstr "NAME"
 
@@ -666,8 +668,7 @@ msgid "Dictionary Preferences"
 msgstr "অভিধান সম্বন্ধীয় পছন্দ"
 
 # msgstr "'%s' ফাইলটিতে কিছু লেখা নেই"
-#: ../src/gdict-app.c:128
-#: ../src/gdict-pref-dialog.c:494
+#: ../src/gdict-app.c:128 ../src/gdict-pref-dialog.c:494
 #: ../src/gdict-source-dialog.c:475
 #, c-format
 msgid "There was an error while displaying help"
@@ -678,8 +679,7 @@ msgstr "সহায়িকা প্রদর্শনে সমস্যা"
 msgid " - Look up words in dictionaries"
 msgstr " - অভিধানে শব্দ সন্ধান করুন"
 
-#: ../src/gdict-pref-dialog.c:239
-#: ../src/gdict-pref-dialog.c:428
+#: ../src/gdict-pref-dialog.c:239 ../src/gdict-pref-dialog.c:428
 msgid "Edit Dictionary Source"
 msgstr "অভিধানের উৎস সম্পাদনা করুন"
 
@@ -717,19 +717,16 @@ msgstr "বর্তমানে নির্বাচিত অভিধান 
 msgid "Set the font used for printing the definitions"
 msgstr "সংজ্ঞা প্রিন্ট করার জন্য ব্যবহৃত ফন্ট নির্ধারণ করুন"
 
-#: ../src/gdict-print.c:239
-#: ../src/gdict-print.c:303
+#: ../src/gdict-print.c:239 ../src/gdict-print.c:303
 #, c-format
 msgid "Unable to display the preview: %s"
 msgstr "পূর্বরূপ প্রদর্শন করতে ব্যর্থ: %s"
 
-#: ../src/gdict-source-dialog.c:340
-#: ../src/gdict-source-dialog.c:432
+#: ../src/gdict-source-dialog.c:340 ../src/gdict-source-dialog.c:432
 msgid "Unable to create a source file"
 msgstr "উৎস ফাইল নির্মাণ করতে ব্যর্থ"
 
-#: ../src/gdict-source-dialog.c:356
-#: ../src/gdict-source-dialog.c:448
+#: ../src/gdict-source-dialog.c:356 ../src/gdict-source-dialog.c:448
 msgid "Unable to save source file"
 msgstr "উৎস ফাইল সংরক্ষণ করতে ব্যর্থ"
 
@@ -738,8 +735,7 @@ msgstr "উৎস ফাইল সংরক্ষণ করতে ব্যর�
 msgid "Searching for '%s'..."
 msgstr "'%s' অনুসন্ধান করা হচ্ছে..."
 
-#: ../src/gdict-window.c:285
-#: ../src/gdict-window.c:342
+#: ../src/gdict-window.c:285 ../src/gdict-window.c:342
 msgid "No definitions found"
 msgstr "সংজ্ঞা পাওয়া যায়নি"
 
@@ -786,62 +782,66 @@ msgstr "নামবিহীন ডকুমেন্ট"
 msgid "Error while writing to '%s'"
 msgstr "'%s'-এ লিখতে সমস্যা"
 
-#: ../src/gdict-window.c:1359
+#: ../src/gdict-window.c:1365
 #, c-format
 msgid "Dictionary source `%s' selected"
 msgstr "`%s'  অভিধানের উৎস নির্বাচন করা হয়েছে"
 
-#: ../src/gdict-window.c:1380
+#: ../src/gdict-window.c:1386
 #, c-format
 msgid "Strategy `%s' selected"
 msgstr "`%s' নীতি নির্বাচন করা হয়েছে"
 
-#: ../src/gdict-window.c:1400
+#: ../src/gdict-window.c:1406
 #, c-format
 msgid "Database `%s' selected"
 msgstr "ডাটাবেস `%s' নির্বাচন করা হয়েছে"
 
-#: ../src/gdict-window.c:1420
+#: ../src/gdict-window.c:1426
 #, c-format
 msgid "Word `%s' selected"
 msgstr "শব্দ `%s' নির্বাচন করা হয়েছে"
 
 #. speller
-#: ../src/gdict-window.c:1445
+#: ../src/gdict-window.c:1451
 msgid "Double-click on the word to look up"
 msgstr "অনুসন্ধানের উদ্দেশ্যে চিহ্নিত শব্দে দুইবার ক্লিক করুন"
 
 #. strat-chooser
-#: ../src/gdict-window.c:1451
+#: ../src/gdict-window.c:1457
 msgid "Double-click on the matching strategy to use"
 msgstr "ব্যবহারের উদ্দেশ্যে চিহ্নিত নীতির উপর দুইবার ক্লিক করুন"
 
 #. source-chooser
-#: ../src/gdict-window.c:1456
+#: ../src/gdict-window.c:1462
 msgid "Double-click on the source to use"
 msgstr "ব্যবহারের উদ্দেশ্যে চিহ্নিত উৎসের উপর দুইবার ক্লিক করুন"
 
 #. db-chooser
-#: ../src/gdict-window.c:1465
+#: ../src/gdict-window.c:1471
 msgid "Double-click on the database to use"
 msgstr "ব্যবহারের উদ্দেশ্যে চিহ্নিত ডাটাবেসের উপর দুইবার ক্লিক করুন"
 
-#: ../src/gdict-window.c:1615
-msgid "Look _up:"
-msgstr "সন্ধান:(_u)"
+#: ../src/gdict-window.c:1621
+#| msgid "Look _up:"
+msgid "Look _up"
+msgstr "সন্ধান (_u)"
 
-#: ../src/gdict-window.c:1690
+#: ../src/gdict-window.c:1695
 msgid "Similar words"
 msgstr "সমতুল্য শব্দ"
 
-#: ../src/gdict-window.c:1703
+#: ../src/gdict-window.c:1708
 msgid "Available dictionaries"
 msgstr "উপলব্ধ অভিধান"
 
-#: ../src/gdict-window.c:1721
+#: ../src/gdict-window.c:1726
 msgid "Available strategies"
 msgstr "উপলব্ধ নীতি"
 
-#: ../src/gdict-window.c:1737
+#: ../src/gdict-window.c:1742
 msgid "Dictionary sources"
 msgstr "অভিধানের উৎস"
+
+#~ msgid "About Dictionary"
+#~ msgstr "অভিধান পরিচিতি"
