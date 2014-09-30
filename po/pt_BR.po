@@ -27,7 +27,7 @@ msgstr ""
 "Project-Id-Version: gnome-dictionary\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "dictionary&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2014-01-22 11:56+0000\n"
+"POT-Creation-Date: 2014-09-30 06:45+0000\n"
 "PO-Revision-Date: 2014-01-21 15:18-0300\n"
 "Last-Translator: Fábio Nogueira <deb-user-ba@ubuntu.com>\n"
 "Language-Team: Brazilian Portuguese <gnome-pt_br-list@gnome.org>\n"
@@ -177,7 +177,7 @@ msgstr "Primeira _definição"
 
 #: ../data/gnome-dictionary-menus.ui.h:28
 msgid "_Last Definition"
-msgstr "Ú_ltima Definição"
+msgstr "Ú_ltima definição"
 
 #: ../data/gnome-dictionary-preferences.ui.h:1
 msgid "_Select a dictionary source for looking up words:"
