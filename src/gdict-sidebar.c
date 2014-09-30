@@ -325,6 +325,8 @@ gdict_sidebar_init (GdictSidebar *sidebar)
   priv->pages = NULL;
   priv->pages_by_id = g_hash_table_new (g_str_hash, g_str_equal);
 
+  gtk_widget_set_vexpand (GTK_WIDGET (sidebar), TRUE);
+
   /* top option menu */
   hbox = gtk_box_new (GTK_ORIENTATION_HORIZONTAL, 0);
   gtk_box_pack_start (GTK_BOX (sidebar), hbox, FALSE, FALSE, 0);
