@@ -157,7 +157,7 @@ msgstr "Dicionários _disponíveis"
 
 #: ../data/gnome-dictionary-menus.ui.h:23
 msgid "Available St_rategies"
-msgstr "Est_ratégias Disponíveis"
+msgstr "Est_ratégias disponíveis"
 
 #: ../data/gnome-dictionary-menus.ui.h:24
 msgid "_Go"
