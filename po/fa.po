@@ -7,30 +7,32 @@
 # Sara Khalatbari <sara@bamdad.org>, 2005.
 # Meelad Zakaria <meelad@farsiweb.info>, 2005, 2006.
 # Sanaz shahrokni <sanaz.shahrokni@gmail.com>, 2006.
-# Arash Mousavi <mousavi.arash@gmail.com>, 2011, 2012, 2013.
+# Arash Mousavi <mousavi.arash@gmail.com>, 2011, 2012, 2013, 2014.
+# Danial Behzadi <dani.behzi@ubuntu.com>, 2014.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-utils HEAD\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-dictionary&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2013-10-06 01:22+0000\n"
-"PO-Revision-Date: 2013-10-07 17:59+0330\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
+"dictionary&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2014-01-23 07:59+0000\n"
+"PO-Revision-Date: 2014-10-10 01:39+0330\n"
 "Last-Translator: Arash Mousavi <mousavi.arash@gmail.com>\n"
-"Language-Team: Persian\n"
+"Language-Team: Persian <>\n"
 "Language: fa\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Generator: Poedit 1.5.7\n"
+"X-Generator: Poedit 1.6.9\n"
 
 #: ../data/default.desktop.in.h:1
 msgid "Default Dictionary Server"
 msgstr "کارگزار لغت‌نامه‌ی پیش‌فرض"
 
 #: ../data/gnome-dictionary.desktop.in.in.h:1 ../src/gdict-about.c:60
-#: ../src/gdict-app.c:347 ../src/gdict-window.c:543 ../src/gdict-window.c:1805
+#: ../src/gdict-app.c:347 ../src/gdict-window.c:543 ../src/gdict-window.c:1810
 msgid "Dictionary"
 msgstr "لغت‌نامه"
 
@@ -42,6 +44,18 @@ msgstr "بررسی معانی و املای کلمات در یک لغت‌نام
 msgid "word;synonym;definition;spelling;"
 msgstr "word;synonym;definition;spelling;کلمه;مترادف;تعریف;املا;"
 
+#: ../data/gnome-dictionary.appdata.xml.in.h:1
+msgid ""
+"GNOME Dictionary is a simple dictionary application that looks up "
+"definitions of words online. Though it looks up English definitions by "
+"default, you can easily switch to Spanish or add other online dictionaries "
+"using the DICT protocol to suit your needs."
+msgstr ""
+"واژه‌نامه‌ی گنوم یک برنامه ی ساده‌ی واژه‌نامه است که معانی کامات را برخط جست‌وجو "
+"می‌کند. با این که به صورت پیش‌فرض تنها معانی انگلیسی را پیدا می‌کند، می‌توانید "
+"به آسانی با استفاده از پروتکی DICT به فارسی یا دیگر دیکشنری‌های برخط دیگر "
+"تعویض کنید تا پاسخ‌گوی نیازهای شما باشد."
+
 #: ../data/gnome-dictionary-menus.ui.h:1
 msgid "Preferences"
 msgstr "ترجیحات"
@@ -51,8 +65,8 @@ msgid "Help"
 msgstr "راهنما"
 
 #: ../data/gnome-dictionary-menus.ui.h:3
-msgid "About Dictionary"
-msgstr "درباره لغت‌نامه"
+msgid "About"
+msgstr "درباره"
 
 #: ../data/gnome-dictionary-menus.ui.h:4
 msgid "Quit"
@@ -127,7 +141,6 @@ msgid "Dictionary Sources"
 msgstr "منابع لغت‌نامه"
 
 #: ../data/gnome-dictionary-menus.ui.h:22
-#| msgid "Available dictionaries"
 msgid "Available _Dictionaries"
 msgstr "_لغت‌نامه‌های موجود"
 
@@ -205,16 +218,27 @@ msgid "The default database to use"
 msgstr "پایگاه داده‌ی مورد استفاده در حالت پیش‌فرض"
 
 #: ../data/org.gnome.dictionary.gschema.xml.in.in.h:2
-msgid "The name of the default individual database or meta-database to use on a dictionary source. An exclamation mark (\"!\") means that all the databases present in a dictionary source should be searched"
-msgstr "نام پایگاه‌داده یا پایگاه فراداده‌ی پیش‌فرض که در منبع لغت‌نامه استفاده می‌شود. علامت تعجب «!» به این معنی است که همه‌ٔ پایگاه‌های داده‌ی موجود در منبع لغت‌نامه باید جستجو شوند"
+msgid ""
+"The name of the default individual database or meta-database to use on a "
+"dictionary source. An exclamation mark (\"!\") means that all the databases "
+"present in a dictionary source should be searched"
+msgstr ""
+"نام پایگاه‌داده یا پایگاه فراداده‌ی پیش‌فرض که در منبع لغت‌نامه استفاده می‌شود. "
+"علامت تعجب «!» به این معنی است که همه‌ٔ پایگاه‌های داده‌ی موجود در منبع لغت‌نامه "
+"باید جستجو شوند"
 
 #: ../data/org.gnome.dictionary.gschema.xml.in.in.h:3
 msgid "The default search strategy to use"
 msgstr "راهکار جستجوی مورد استفاده در حالت پیش‌فرض"
 
 #: ../data/org.gnome.dictionary.gschema.xml.in.in.h:4
-msgid "The name of the default search strategy to use on a dictionary source, if available. The default strategy is 'exact', that is match exact words."
-msgstr " نام راهکار جستجو به طور پیش‌فرض در صورت موجود بودن، برای استفاده در منبع لغت‌نامه. راهکار پیش‌فرض «دقیق» است، که به معنی تطبیق با فقط همان کلمات وارد شده است."
+msgid ""
+"The name of the default search strategy to use on a dictionary source, if "
+"available. The default strategy is 'exact', that is match exact words."
+msgstr ""
+" نام راهکار جستجو به طور پیش‌فرض در صورت موجود بودن، برای استفاده در منبع "
+"لغت‌نامه. راهکار پیش‌فرض «دقیق» است، که به معنی تطبیق با فقط همان کلمات وارد "
+"شده است."
 
 #: ../data/org.gnome.dictionary.gschema.xml.in.in.h:5
 msgid "The font to be used when printing"
@@ -229,7 +253,8 @@ msgid "The name of the dictionary source used"
 msgstr "نام منبع لغت‌نامه‌ی استفاده شده"
 
 #: ../data/org.gnome.dictionary.gschema.xml.in.in.h:8
-msgid "The name of the dictionary source used to retrieve the definitions of words."
+msgid ""
+"The name of the dictionary source used to retrieve the definitions of words."
 msgstr "نام منبع لغت‌نامه‌ی استفاده شده برای دریافت معانی کلمات."
 
 #: ../data/spanish.desktop.in.h:1
@@ -294,8 +319,12 @@ msgstr "جستجو برای میزبان «%s» شکست خورد: میزبان 
 
 #: ../libgdict/gdict-client-context.c:1176
 #, c-format
-msgid "Unable to connect to the dictionary server at '%s:%d'. The server replied with code %d (server down)"
-msgstr "اتصال به کارگزار لغت‌نامه در «%s:%d» ممکن نیست. کارگزار کد %d را برگردانده است (کارگزار خراب است)"
+msgid ""
+"Unable to connect to the dictionary server at '%s:%d'. The server replied "
+"with code %d (server down)"
+msgstr ""
+"اتصال به کارگزار لغت‌نامه در «%s:%d» ممکن نیست. کارگزار کد %d را برگردانده "
+"است (کارگزار خراب است)"
 
 #: ../libgdict/gdict-client-context.c:1195
 #, c-format
@@ -509,7 +538,8 @@ msgstr "گرفتن کلید «%s» درون منبع معنی لغت‌نامه 
 
 #: ../libgdict/gdict-source.c:554
 #, c-format
-msgid "Unable to get the '%s' key inside the dictionary source definition file: %s"
+msgid ""
+"Unable to get the '%s' key inside the dictionary source definition file: %s"
 msgstr "گرفتن کلید «%s» درون پرونده‌ی معنی منبع لغت‌نامه ممکن نیست: %s"
 
 #: ../libgdict/gdict-source.c:740
@@ -749,65 +779,68 @@ msgstr "نوشتار بی‌عنوان "
 msgid "Error while writing to '%s'"
 msgstr "خطا در حین نوشتن در‌ %s"
 
-#: ../src/gdict-window.c:1359
+#: ../src/gdict-window.c:1365
 #, c-format
 msgid "Dictionary source `%s' selected"
 msgstr "منبع لغت‌نامه «%s» انتخاب شد"
 
-#: ../src/gdict-window.c:1380
+#: ../src/gdict-window.c:1386
 #, c-format
 msgid "Strategy `%s' selected"
 msgstr "راه‌کار «%s» انتخاب شد"
 
-#: ../src/gdict-window.c:1400
+#: ../src/gdict-window.c:1406
 #, c-format
 msgid "Database `%s' selected"
 msgstr "پایگاه داده‌ی «%s» انتخاب شد"
 
-#: ../src/gdict-window.c:1420
+#: ../src/gdict-window.c:1426
 #, c-format
 msgid "Word `%s' selected"
 msgstr "کلمه‌ی «%s» انتخاب شد"
 
 #. speller
-#: ../src/gdict-window.c:1445
+#: ../src/gdict-window.c:1451
 msgid "Double-click on the word to look up"
 msgstr "برای جستجوی کلمه، دو بار روی آن کلیک کنید"
 
 #. strat-chooser
-#: ../src/gdict-window.c:1451
+#: ../src/gdict-window.c:1457
 msgid "Double-click on the matching strategy to use"
 msgstr "برای استفاده از راه‌کار، دو بار روی آن کلیک کنید"
 
 #. source-chooser
-#: ../src/gdict-window.c:1456
+#: ../src/gdict-window.c:1462
 msgid "Double-click on the source to use"
 msgstr "برای استفاده از پایگاه داده، دو بار روی آن کلیک کنید"
 
 #. db-chooser
-#: ../src/gdict-window.c:1465
+#: ../src/gdict-window.c:1471
 msgid "Double-click on the database to use"
 msgstr "برای استفاده از پایگاه داده، دو بار روی آن کلیک کنید"
 
-#: ../src/gdict-window.c:1615
-msgid "Look _up:"
-msgstr "_جستجو:"
+#: ../src/gdict-window.c:1621
+msgid "Look _up"
+msgstr "_پیدا کردن"
 
-#: ../src/gdict-window.c:1690
+#: ../src/gdict-window.c:1695
 msgid "Similar words"
 msgstr "کلمات مشابه"
 
-#: ../src/gdict-window.c:1703
+#: ../src/gdict-window.c:1708
 msgid "Available dictionaries"
 msgstr "لغت‌نامه‌های موجود"
 
-#: ../src/gdict-window.c:1721
+#: ../src/gdict-window.c:1726
 msgid "Available strategies"
 msgstr "راه‌کارهای موجود"
 
-#: ../src/gdict-window.c:1737
+#: ../src/gdict-window.c:1742
 msgid "Dictionary sources"
 msgstr "منابع لغت‌نامه"
+
+#~ msgid "About Dictionary"
+#~ msgstr "درباره لغت‌نامه"
 
 #~ msgid "Available _Databases"
 #~ msgstr "_پایگاه‌داده‌های موجود"
@@ -841,6 +874,3 @@ msgstr "منابع لغت‌نامه"
 
 #~ msgid "_Contents"
 #~ msgstr "_مندرجات"
-
-#~ msgid "_About"
-#~ msgstr "_درباره"
