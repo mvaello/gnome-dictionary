@@ -30,5 +30,12 @@ or translation of a word in existing databases over the internet.</description>
       <gnome:userid>sindhus</gnome:userid>
     </foaf:Person>
   </maintainer>
+  <maintainer>
+    <foaf:Person>
+      <foaf:name>Juan R. García Blanco</foaf:name>
+      <foaf:mbox rdf:resource="mailto:juanrgar@gmail.com" />
+      <gnome:userid>juanrgar</gnome:userid>
+    </foaf:Person>
+  </maintainer>
 
 </Project>
