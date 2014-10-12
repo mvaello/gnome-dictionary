@@ -1,3 +1,12 @@
+GNOME Dictionary 3.14.1                                               2014-10-12
+================================================================================
+Application
+ * Fix #737626: expand sidebar (Michael Catanzaro)
+
+Translations
+ * fa (Arash Mousavi), te (Krishnababu Krothapalli), pt_BR (Rafael Ferreira),
+   bn_IN (Saibal Ray)
+
 GNOME Dictionary 3.14.0                                               2014-09-22
 ================================================================================
 
