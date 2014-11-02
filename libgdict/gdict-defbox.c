@@ -1133,7 +1133,7 @@ find_prev_clicked_cb (GtkWidget *widget,
   if (priv->hide_timeout)
     {
       g_source_remove (priv->hide_timeout);
-      priv->hide_timeout = g_timeout_add (5000, hide_find_pane, defbox);
+      priv->hide_timeout = g_timeout_add_seconds (5, hide_find_pane, defbox);
     }
 }
 
@@ -1227,7 +1227,7 @@ find_next_clicked_cb (GtkWidget *widget,
   if (priv->hide_timeout)
     {
       g_source_remove (priv->hide_timeout);
-      priv->hide_timeout = g_timeout_add (5000, hide_find_pane, defbox);
+      priv->hide_timeout = g_timeout_add_seconds (5, hide_find_pane, defbox);
     }
 }
 
@@ -1263,7 +1263,7 @@ find_entry_changed_cb (GtkWidget *widget,
   if (priv->hide_timeout)
     {
       g_source_remove (priv->hide_timeout);
-      priv->hide_timeout = g_timeout_add (5000, hide_find_pane, defbox);
+      priv->hide_timeout = g_timeout_add_seconds (5, hide_find_pane, defbox);
     }
 }
 
@@ -1726,7 +1726,7 @@ gdict_defbox_real_show_find (GdictDefbox *defbox)
   
   gtk_widget_grab_focus (defbox->priv->find_entry);
 
-  defbox->priv->hide_timeout = g_timeout_add (5000, hide_find_pane, defbox);
+  defbox->priv->hide_timeout = g_timeout_add_seconds (5, hide_find_pane, defbox);
 }
 
 static void
@@ -2098,7 +2098,7 @@ gdict_defbox_set_show_find (GdictDefbox *defbox,
       gtk_widget_grab_focus (priv->find_entry);
 
       if (!priv->hide_timeout)
-        priv->hide_timeout = g_timeout_add (5000, hide_find_pane, defbox);
+        priv->hide_timeout = g_timeout_add_seconds (5, hide_find_pane, defbox);
     }
   else
     {
