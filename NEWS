@@ -1,3 +1,11 @@
+GNOME Dictionary 3.14.2                                               2014-11-10
+================================================================================
+Application
+ * Use g_timeout_add_seconds() for multi-second timeouts (Emmanuele Bassi)
+
+Translations
+ * kk (Baurzhan Muftakhidinov)
+
 GNOME Dictionary 3.14.1                                               2014-10-12
 ================================================================================
 Application
