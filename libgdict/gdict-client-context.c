@@ -1394,8 +1394,6 @@ gdict_client_context_parse_line (GdictClientContext *context,
             p = g_utf8_next_char (p);
           
           GDICT_NOTE (DICT, "server replied: %d databases found", atoi (p));
-          
-          g_signal_emit_by_name (context, "lookup-start");
         }
       else if (0 == strcmp (buffer, "."))
         priv->command->state = S_FINISH;
@@ -1446,8 +1444,6 @@ gdict_client_context_parse_line (GdictClientContext *context,
             p = g_utf8_next_char (p);
           
           GDICT_NOTE (DICT, "server replied: %d strategies found", atoi (p));
-          
-          g_signal_emit_by_name (context, "lookup-start");
         }
       else if (0 == strcmp (buffer, "."))
         priv->command->state = S_FINISH;
@@ -1501,8 +1497,6 @@ gdict_client_context_parse_line (GdictClientContext *context,
           
           priv->command->data = def;
           priv->command->data_destroy = (GDestroyNotify) gdict_definition_unref;
-
-          g_signal_emit_by_name (context, "lookup-start");
         }
       else if (priv->status_code == GDICT_STATUS_WORD_DB_NAME)
         {
@@ -1610,8 +1604,6 @@ gdict_client_context_parse_line (GdictClientContext *context,
             p = g_utf8_next_char (p);
           
           GDICT_NOTE (DICT, "server replied: %d matches found", atoi (p));
-
-          g_signal_emit_by_name (context, "lookup-start");
         }
       else if (0 == strcmp (buffer, "."))
         priv->command->state = S_FINISH;
@@ -2044,6 +2036,8 @@ gdict_client_context_get_databases (GdictContext  *context,
   g_return_val_if_fail (GDICT_IS_CLIENT_CONTEXT (context), FALSE);
   
   client_ctx = GDICT_CLIENT_CONTEXT (context);
+
+  g_signal_emit_by_name (context, "lookup-start");
   
   if (!gdict_client_context_is_connected (client_ctx))
     {
@@ -2052,6 +2046,8 @@ gdict_client_context_get_databases (GdictContext  *context,
       gdict_client_context_connect (client_ctx, &connect_error);
       if (connect_error)
         {
+          g_signal_emit_by_name (context, "lookup-end");
+
           g_propagate_error (error, connect_error);
           
           return FALSE;
@@ -2073,6 +2069,8 @@ gdict_client_context_get_strategies (GdictContext  *context,
   g_return_val_if_fail (GDICT_IS_CLIENT_CONTEXT (context), FALSE);
   
   client_ctx = GDICT_CLIENT_CONTEXT (context);
+
+  g_signal_emit_by_name (context, "lookup-start");
   
   if (!gdict_client_context_is_connected (client_ctx))
     {
@@ -2081,6 +2079,8 @@ gdict_client_context_get_strategies (GdictContext  *context,
       gdict_client_context_connect (client_ctx, &connect_error);
       if (connect_error)
         {
+          g_signal_emit_by_name (context, "lookup-end");
+
           g_propagate_error (error, connect_error);
           
           return FALSE;
@@ -2104,6 +2104,8 @@ gdict_client_context_define_word (GdictContext  *context,
   g_return_val_if_fail (GDICT_IS_CLIENT_CONTEXT (context), FALSE);
 
   client_ctx = GDICT_CLIENT_CONTEXT (context);
+
+  g_signal_emit_by_name (context, "lookup-start");
   
   if (!gdict_client_context_is_connected (client_ctx))
     {
@@ -2112,6 +2114,8 @@ gdict_client_context_define_word (GdictContext  *context,
       gdict_client_context_connect (client_ctx, &connect_error);
       if (connect_error)
         {
+          g_signal_emit_by_name (context, "lookup-end");
+
           g_propagate_error (error, connect_error);
           
           return FALSE;
@@ -2138,6 +2142,8 @@ gdict_client_context_match_word (GdictContext  *context,
   g_return_val_if_fail (GDICT_IS_CLIENT_CONTEXT (context), FALSE);
 
   client_ctx = GDICT_CLIENT_CONTEXT (context);
+
+  g_signal_emit_by_name (context, "lookup-start");
   
   if (!gdict_client_context_is_connected (client_ctx))
     {
@@ -2146,6 +2152,8 @@ gdict_client_context_match_word (GdictContext  *context,
       gdict_client_context_connect (client_ctx, &connect_error);
       if (connect_error)
         {
+          g_signal_emit_by_name (context, "lookup-end");
+
           g_propagate_error (error, connect_error);
           
           return FALSE;
