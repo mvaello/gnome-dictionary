@@ -712,7 +712,8 @@ gdict_source_load_from_data (GdictSource  *source,
 /**
  * gdict_source_to_data:
  * @source: a #GdictSource
- * @length: return loaction for the length of the string, or %NULL
+ * @length: (out) (optional): return loaction for the length
+ *     of the string, or %NULL
  * @error: return location for a #GError or %NULL
  *
  * Outputs a dictionary source as a string.
@@ -817,7 +818,7 @@ gdict_source_get_name (GdictSource *source)
 /**
  * gdict_source_set_description:
  * @source: a #GdictSource
- * @description: a UTF-8 encoded description or %NULL
+ * @description: (nullable): a UTF-8 encoded description or %NULL
  *
  * Sets the description of @source.  If @description is %NULL, unsets the
  * currently set description.
@@ -879,7 +880,7 @@ gdict_source_get_description (GdictSource *source)
 /**
  * gdict_source_set_database:
  * @source: a #GdictSource
- * @database: a UTF-8 encoded database name or %NULL
+ * @database: (nullable): a UTF-8 encoded database name or %NULL
  *
  * Sets the default database of @source.  If @database is %NULL, unsets the
  * currently set database.
@@ -941,7 +942,7 @@ gdict_source_get_database (GdictSource *source)
 /**
  * gdict_source_set_strategy:
  * @source: a #GdictSource
- * @strategy: a UTF-8 encoded strategy or %NULL
+ * @strategy: (nullable): a UTF-8 encoded strategy or %NULL
  *
  * Sets the description of @source.  If @strategy is %NULL, unsets the
  * currently set strategy.
@@ -1149,8 +1150,8 @@ gdict_source_get_transport (GdictSource *source)
  *
  * Gets the #GdictContext bound to @source.
  *
- * Return value: a #GdictContext for @source.  Use g_object_unref()
- *   when you don't need it anymore.
+ * Return value: (transfer full): a #GdictContext for @source.
+ *   Use g_object_unref() when you don't need it anymore.
  *
  * Since: 1.0
  */

@@ -502,8 +502,8 @@ gdict_client_context_finalize (GObject *object)
 
 /**
  * gdict_client_context_new:
- * @hostname: the hostname of a dictionary server, or %NULL for the
- *    default server
+ * @hostname: (nullable): the hostname of a dictionary server,
+ *    or %NULL for the default server
  * @port: port to be used when connecting to the dictionary server,
  *    or -1 for the default port
  *
@@ -511,8 +511,7 @@ gdict_client_context_finalize (GObject *object)
  * object to connect and query the dictionary server using the Dictionary
  * Protocol as defined by RFC 2229.
  *
- * Return value: the newly created #GdictClientContext object.  You should
- *   free it using g_object_unref().
+ * Return value: (transfer full): the newly created #GdictClientContext object.
  */
 GdictContext *
 gdict_client_context_new (const gchar *hostname,
@@ -528,7 +527,7 @@ gdict_client_context_new (const gchar *hostname,
 /**
  * gdict_client_context_set_hostname:
  * @context: a #GdictClientContext
- * @hostname: the hostname of a Dictionary server, or %NULL
+ * @hostname: (nullable): the hostname of a Dictionary server, or %NULL
  *
  * Sets @hostname as the hostname of the dictionary server to be used.
  * If @hostname is %NULL, the default dictionary server will be used.
@@ -609,7 +608,7 @@ gdict_client_context_get_port (GdictClientContext *context)
 /**
  * gdict_client_context_set_client:
  * @context: a #GdictClientContext
- * @client: the client name to use, or %NULL
+ * @client: (nullable): the client name to use, or %NULL
  *
  * Sets @client as the client name to be used when advertising ourselves when
  * a connection the the dictionary server has been established.

@@ -444,7 +444,7 @@ gdict_source_chooser_new_with_loader (GdictSourceLoader *loader)
 /**
  * gdict_source_chooser_set_loader:
  * @chooser: a #GdictSourceChooser
- * @loader: a #GdictSourceLoader or %NULL to unset it
+ * @loader: (nullable): a #GdictSourceLoader or %NULL to unset it
  *
  * Sets the #GdictSourceLoader to be used by the source chooser
  * widget.
@@ -483,7 +483,7 @@ gdict_source_chooser_set_loader (GdictSourceChooser *chooser,
  * 
  * Retrieves the #GdictSourceLoader used by @chooser.
  *
- * Return value: a #GdictSourceLoader or %NULL is none is set
+ * Return value: (transfer none): a #GdictSourceLoader or %NULL is none is set
  *
  * Since: 0.12
  */
@@ -743,9 +743,9 @@ gdict_source_chooser_get_current_source (GdictSourceChooser *chooser)
  *
  * Retrieves the names of the available dictionary sources.
  *
- * Return value: a newly allocated, %NULL terminated string vector
- *   containing the names of the available sources. Use g_strfreev()
- *   when done using it.
+ * Return value: (transfer full): a newly allocated, %NULL terminated
+ *   string vector containing the names of the available sources.
+ *   Use g_strfreev() when done using it.
  *
  * Since: 0.12
  */
@@ -883,7 +883,7 @@ gdict_source_chooser_refresh (GdictSourceChooser *chooser)
  * the bottom of @chooser. The @button_text can also be a
  * stock ID.
  *
- * Return value: the newly packed button.
+ * Return value: (transfer none): the newly packed button.
  *
  * Since: 0.12
  */

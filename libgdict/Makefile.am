@@ -101,6 +101,31 @@ EXTRA_DIST = 			\
 
 BUILT_SOURCES = $(gdict_built_files) 
 
+# Introspection
+include $(INTROSPECTION_MAKEFILE)
+INTROSPECTION_GIRS =
+INTROSPECTION_SCANNER_ARGS = --warn-all
+
+if HAVE_INTROSPECTION
+INTROSPECTION_GIRS += Gdict-1.0.gir
+
+Gdict-1.0.gir: libgdict-1.0.la
+Gdict_1_0_gir_NAMESPACE = Gdict
+Gdict_1_0_gir_VERSION = 1.0
+Gdict_1_0_gir_INCLUDES = Gtk-3.0
+Gdict_1_0_gir_CFLAGS = $(INCLUDES)
+Gdict_1_0_gir_LIBS = libgdict-1.0.la
+Gdict_1_0_gir_FILES = $(libgdict_1_0_la_SOURCES)
+
+girdir = $(datadir)/gir-1.0
+gir_DATA = $(INTROSPECTION_GIRS)
+
+typelibdir = $(libdir)/girepository-1.0
+typelib_DATA = $(INTROSPECTION_GIRS:.gir=.typelib)
+
+CLEANFILES += $(gir_DATA) $(typelib_DATA)
+endif
+
 gdict-marshal.h: stamp-gdict-marshal.h
 	@true
 stamp-gdict-marshal.h: gdict-marshal.list $(GLIB_GENMARSHAL) Makefile

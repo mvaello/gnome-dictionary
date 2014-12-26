@@ -295,8 +295,9 @@ gdict_source_loader_add_search_path (GdictSourceLoader *loader,
  * Gets the list of paths used by @loader to search for dictionary source
  * files.
  *
- * Return value: a list containing the paths.  The returned list is owned
- *   by the #GdictSourceLoader object and should never be free or modified.
+ * Return value: (transfer none) (element-type utf8): a list containing the paths.
+ *   The returned list is owned by the #GdictSourceLoader object and should never
+ *   be free or modified.
  *
  * Since: 1.0
  */
@@ -414,13 +415,15 @@ gdict_source_loader_update_sources (GdictSourceLoader *loader)
 /**
  * gdict_source_loader_get_names:
  * @loader: a #GdictSourceLoader
- * @length: return location for the number of source names, or %NULL
+ * @length: (out) (optional): return location for the number of
+ *   source names, or %NULL
  *
  * Retrieves the list of dictionary source names available into the
  * search paths of @loader.
  *
- * Return value: a newly allocated, %NULL terminated array of strings.  You
- *   should free the returned string array with g_strfreev()
+ * Return value: (transfer full): a newly allocated, %NULL terminated
+ *   array of strings.  You should free the returned string array
+ *   with g_strfreev()
  *
  * Since: 1.0
  */
@@ -463,9 +466,9 @@ gdict_source_loader_get_names (GdictSourceLoader *loader,
  * Retrieves the list of dictionary sources available into the search
  * paths of @loader, in form of #GdictSource objects.
  *
- * Return value: a list of #GdictSource objects.  The returned list
- *   is owned by the #GdictSourceLoader object, and should never be
- *   freed or modified.
+ * Return value: (transfer none) (element-type Gdict.Source): a list of
+ *   #GdictSource objects.  The returned list is owned by the #GdictSourceLoader
+ *   object, and should never be freed or modified.
  *
  * Since: 1.0
  */
@@ -489,8 +492,7 @@ gdict_source_loader_get_sources (GdictSourceLoader *loader)
  * #GdictSource object to create the right #GdictContext for that
  * dictionary source.
  *
- * Return value: a referenced #GdictSource object.  You should de-reference
- *   it using g_object_unref() when you finished using it.
+ * Return value: (transfer full): a referenced #GdictSource object. 
  *
  * Since: 1.0
  */

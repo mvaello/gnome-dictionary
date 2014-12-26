@@ -157,6 +157,9 @@ PKG_CHECK_MODULES(GDICT,
                   glib-2.0 >= $GLIB_MIN_VERSION
                   gtk+-3.0 >= $GTK_MIN_VERSION)
 
+# Introspection
+GOBJECT_INTROSPECTION_CHECK([1.42.0])
+
 AC_CONFIG_FILES([
         Makefile
         libgdict/Makefile

@@ -330,9 +330,9 @@ gdict_context_lookup_strategies (GdictContext  *context,
 /**
  * gdict_context_match_word:
  * @context: a #GdictContext
- * @database: a database name to search into, or %NULL for the
+ * @database: (nullable): a database name to search into, or %NULL for the
  *    default database
- * @strategy: a strategy name to use for matching, or %NULL for
+ * @strategy: (nullable): a strategy name to use for matching, or %NULL for
  *    the default strategy
  * @word: the word to match
  * @error: return location for a #GError, or %NULL
@@ -374,7 +374,7 @@ gdict_context_match_word (GdictContext  *context,
 /**
  * gdict_context_define_word:
  * @context: a #GdictContext
- * @database: a database name to search into, or %NULL for the
+ * @database: (nullable): a database name to search into, or %NULL for the
  *    default database
  * @word: the word to search
  * @error: return location for a #GError, or %NULL

@@ -288,7 +288,7 @@ get_toplevel_window (GtkWidget *widget)
  * gdict_show_error_dialog:
  * @widget: the widget that emits the error
  * @title: the primary error message
- * @message: the secondary error message or %NULL
+ * @message: (nullable): the secondary error message or %NULL
  *
  * Creates and shows an error dialog bound to @widget.
  *

@@ -492,7 +492,7 @@ gdict_speller_set_context (GdictSpeller *speller,
  *
  * FIXME
  *
- * Return value: a #GdictContext
+ * Return value: (transfer none): a #GdictContext
  *
  * Since:
  */

@@ -1992,7 +1992,7 @@ gdict_defbox_set_context (GdictDefbox  *defbox,
  *
  * Gets the #GdictContext used by @defbox.
  *
- * Return value: a #GdictContext.
+ * Return value: (transfer none): a #GdictContext.
  *
  * Since: 0.1
  */
@@ -2783,7 +2783,7 @@ gdict_defbox_jump_to_definition (GdictDefbox *defbox,
 /**
  * gdict_defbox_get_text:
  * @defbox: a #GdictDefbox
- * @length: return location for the text length or %NULL
+ * @length: (out) (optional): return location for the text length or %NULL
  *
  * Gets the full contents of @defbox.
  *
@@ -2819,7 +2819,7 @@ gdict_defbox_get_text (GdictDefbox *defbox,
 /**
  * gdict_defbox_set_font_name:
  * @defbox: a #GdictDefbox
- * @font_name: a font description, or %NULL
+ * @font_name: (nullable): a font description, or %NULL
  *
  * Sets @font_name as the font for @defbox. It calls internally
  * pango_font_description_from_string() and gtk_widget_modify_font().

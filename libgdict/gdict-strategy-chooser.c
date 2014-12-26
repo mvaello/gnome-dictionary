@@ -494,7 +494,7 @@ gdict_strategy_chooser_new_with_context (GdictContext *context)
  *
  * Retrieves the #GdictContext used by @chooser.
  *
- * Return value: a #GdictContext
+ * Return value: (transfer none): a #GdictContext
  *
  * Since:
  */
@@ -509,7 +509,7 @@ gdict_strategy_chooser_get_context (GdictStrategyChooser *chooser)
 /**
  * gdict_strategy_chooser_set_context:
  * @chooser: a #GdictStrategyChooser
- * @context: a #GdictContext, or %NULL to unset the context
+ * @context: (nullable): a #GdictContext, or %NULL to unset the context
  *
  * Sets the #GdictContext to be used by @chooser to retrieve the
  * list of matching strategies.
@@ -535,8 +535,9 @@ gdict_strategy_chooser_set_context (GdictStrategyChooser *chooser,
  *
  * Retrieves the list of matching strategies available.
  *
- * Return value: a string vector containing the names of the matching
- *   strategies. Use g_strfreev() to deallocate the memory when done
+ * Return value: (transfer full): a string vector containing the names
+ *   of the matching strategies. Use g_strfreev() to deallocate the memory
+ *   when done
  *
  * Since:0.9
  */
@@ -1060,7 +1061,7 @@ gdict_strategy_chooser_get_current_strategy (GdictStrategyChooser *chooser)
  * Creates a new button and packs it into the #GdictStrategyChooser
  * "action area".
  *
- * Return value: the packed #GtkButton
+ * Return value: (transfer none): the packed #GtkButton
  *
  * Since: 0.10
  */

@@ -547,7 +547,7 @@ gdict_database_chooser_new_with_context (GdictContext *context)
  *
  * Retrieves the #GdictContext used by @chooser.
  *
- * Return value: a #GdictContext or %NULL
+ * Return value: (transfer none): a #GdictContext or %NULL
  *
  * Since: 0.10
  */
@@ -588,7 +588,7 @@ gdict_database_chooser_set_context (GdictDatabaseChooser *chooser,
  *
  * Gets the list of available database names.
  *
- * Return value: a newly allocated, %NULL terminated string vector
+ * Return value: (transfer full): a newly allocated, %NULL terminated string vector
  *   containing database names. Use g_strfreev() to deallocate it.
  *
  * Since: 0.10
@@ -1110,7 +1110,7 @@ gdict_database_chooser_get_current_database (GdictDatabaseChooser *chooser)
  * the bottom of @chooser. The @button_text can also be a
  * stock ID.
  *
- * Return value: the newly packed button.
+ * Return value: (transfer none): the newly packed button.
  *
  * Since: 0.10
  */
