@@ -129,6 +129,37 @@ select_active_source_name (GtkTreeModel *model,
 }
 
 static void
+sources_view_cursor_changed_cb (GtkTreeView       *tree_view,
+				GdictPrefDialog   *dialog)
+{
+  GtkTreeSelection *selection;
+  GtkTreeModel *model;
+  GtkTreeIter iter;
+  GdictSource *source;
+  gboolean is_selected;
+  gchar *name;
+
+  selection = gtk_tree_view_get_selection (GTK_TREE_VIEW (dialog->sources_view));
+  if (!selection)
+    return;
+
+  is_selected = gtk_tree_selection_get_selected (selection, &model, &iter);
+  if (!is_selected)
+    return;
+
+  gtk_tree_model_get (model, &iter, SOURCES_NAME_COLUMN, &name, -1);
+  if (!name)
+    return;
+  else
+    {
+      source = gdict_source_loader_get_source (dialog->loader, name);
+      gtk_widget_set_sensitive (dialog->sources_edit, gdict_source_is_editable (source));
+      gtk_widget_set_sensitive (dialog->sources_remove, gdict_source_is_editable (source));
+      g_object_unref (source);
+    }
+}
+
+static void
 update_sources_view (GdictPrefDialog *dialog)
 {
   const GSList *sources, *l;
@@ -171,6 +202,7 @@ update_sources_view (GdictPrefDialog *dialog)
   gtk_tree_model_foreach (GTK_TREE_MODEL (dialog->sources_list),
   			  select_active_source_name,
   			  dialog);
+  sources_view_cursor_changed_cb (GTK_TREE_VIEW(dialog->sources_view), dialog);
 }
 
 static void
@@ -236,10 +268,10 @@ sources_view_row_activated_cb (GtkTreeView       *tree_view,
     return;
   
   edit_dialog = gdict_source_dialog_new (GTK_WINDOW (dialog),
-  					 _("Edit Dictionary Source"),
-  					 GDICT_SOURCE_DIALOG_EDIT,
-  					 dialog->loader,
-  					 source_name);
+					 _("View Dictionary Source"),
+					 GDICT_SOURCE_DIALOG_VIEW,
+					 dialog->loader,
+					 source_name);
   gtk_dialog_run (GTK_DIALOG (edit_dialog));
 
   gtk_widget_destroy (edit_dialog);
@@ -290,6 +322,9 @@ build_sources_view (GdictPrefDialog *dialog)
 
   g_signal_connect (dialog->sources_view, "row-activated",
 		    G_CALLBACK (sources_view_row_activated_cb),
+		    dialog);
+  g_signal_connect (dialog->sources_view, "cursor-changed",
+		    G_CALLBACK (sources_view_cursor_changed_cb),
 		    dialog);
 }
 
