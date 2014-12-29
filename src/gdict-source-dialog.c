@@ -436,11 +436,15 @@ save_source (GdictSourceDialog *dialog)
       return;
     }
       
-  config_dir = gdict_get_config_dir();
-  name = g_strconcat (gdict_source_get_name (source), ".desktop", NULL);
-  filename = g_build_filename (config_dir, name, NULL);
-  g_free (config_dir);
-  g_free (name);
+  g_object_get (source, "filename", &filename, NULL);
+  if (!filename)
+    {
+      config_dir = gdict_get_config_dir();
+      name = g_strconcat (gdict_source_get_name (source), ".desktop", NULL);
+      filename = g_build_filename (config_dir, name, NULL);
+      g_free (config_dir);
+      g_free (name);
+    }
       
   g_file_set_contents (filename, data, length, &error);
   if (error)
@@ -627,7 +631,6 @@ gdict_source_dialog_constructor (GType                  type,
     {
     case GDICT_SOURCE_DIALOG_VIEW:
       /* disable every editable widget */
-      gtk_editable_set_editable (GTK_EDITABLE (gtk_builder_get_object (dialog->builder, "name_entry")), FALSE);
       gtk_editable_set_editable (GTK_EDITABLE (gtk_builder_get_object (dialog->builder, "description_entry")), FALSE);
       gtk_editable_set_editable (GTK_EDITABLE (gtk_builder_get_object (dialog->builder, "hostname_entry")), FALSE);
       gtk_editable_set_editable (GTK_EDITABLE (gtk_builder_get_object (dialog->builder, "port_entry")), FALSE);
@@ -637,7 +640,7 @@ gdict_source_dialog_constructor (GType                  type,
       /* we just allow closing the dialog */
       dialog->close_button  = gtk_dialog_add_button (GTK_DIALOG (dialog),
       						     GTK_STOCK_CLOSE,
-      						     GTK_RESPONSE_CLOSE);
+      						     GTK_RESPONSE_CANCEL);
       break;
     case GDICT_SOURCE_DIALOG_CREATE:
       dialog->cancel_button = gtk_dialog_add_button (GTK_DIALOG (dialog),
