@@ -90,6 +90,7 @@ const gchar *         gdict_source_get_name        (GdictSource           *sourc
 void                  gdict_source_set_description (GdictSource           *source,
 						    const gchar           *description);
 const gchar *         gdict_source_get_description (GdictSource           *source);
+gboolean              gdict_source_is_editable 	   (GdictSource           *source);
 void                  gdict_source_set_database    (GdictSource           *source,
 						    const gchar           *database);
 const gchar *         gdict_source_get_database    (GdictSource           *source);

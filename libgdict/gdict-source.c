@@ -36,6 +36,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <sys/stat.h>
 
 #include <glib/gi18n-lib.h>
 
@@ -69,6 +70,7 @@ struct _GdictSourcePrivate
   
   gchar *name;
   gchar *description;
+  gboolean editable;
   
   gchar *database;
   gchar *strategy;
@@ -85,6 +87,7 @@ enum
   PROP_FILENAME,
   PROP_NAME,
   PROP_DESCRIPTION,
+  PROP_EDITABLE,
   PROP_DATABASE,
   PROP_STRATEGY,
   PROP_TRANSPORT,
@@ -168,6 +171,9 @@ gdict_source_get_property (GObject    *object,
       break;
     case PROP_DESCRIPTION:
       g_value_set_string (value, priv->description);
+      break;
+    case PROP_EDITABLE:
+      g_value_set_boolean (value, priv->editable);
       break;
     case PROP_DATABASE:
       g_value_set_string (value, priv->database);
@@ -261,6 +267,20 @@ gdict_source_class_init (GdictSourceClass *klass)
   				   			NULL,
   				   			(G_PARAM_READABLE | G_PARAM_WRITABLE)));
   /**
+   * GdictSource:editable
+   *
+   * Whether the dictionary source is editable or not.
+   *
+   * Since: 1.0
+   */
+  g_object_class_install_property (gobject_class,
+  				   PROP_EDITABLE,
+  				   g_param_spec_boolean ("editable",
+  				   			 _("Editable"),
+  				   			 _("Whether the dictionary source is editable or not"),
+  				   			 TRUE,
+  				   			 (G_PARAM_STATIC_STRINGS | G_PARAM_READABLE)));
+  /**
    * GdictSource:database
    *
    * The default database of this dictionary source.
@@ -334,6 +354,7 @@ gdict_source_init (GdictSource *source)
   
   priv->name = NULL;
   priv->description = NULL;
+  priv->editable = TRUE;
   priv->database = NULL;
   priv->strategy = NULL;
   priv->transport = GDICT_SOURCE_TRANSPORT_INVALID;
@@ -607,6 +628,7 @@ gdict_source_load_from_file (GdictSource  *source,
 			     const gchar  *filename,
 			     GError      **error)
 {
+  struct stat stat_buf;
   GdictSourcePrivate *priv;
   GError *read_error;
   GError *parse_error;
@@ -643,6 +665,12 @@ gdict_source_load_from_file (GdictSource  *source,
   g_assert (priv->context != NULL);
   
   priv->filename = g_strdup (filename);
+
+  if (lstat (filename, &stat_buf) < 0)
+    {
+      return FALSE;
+    }
+  priv->editable = (stat_buf.st_mode & S_IWUSR) ? TRUE : FALSE;
   
   return TRUE;
 }
@@ -875,6 +903,24 @@ gdict_source_get_description (GdictSource *source)
   g_return_val_if_fail (GDICT_IS_SOURCE (source), NULL);
   
   return source->priv->description;
+}
+
+/**
+ * gdict_source_is_editable:
+ * @source: a #GdictSource
+ *
+ * Retrieves the is-editable property of @source.
+ *
+ * Return value: %TRUE if @source is editable.
+ *
+ * Since: 1.0
+ */
+gboolean
+gdict_source_is_editable (GdictSource *source)
+{
+  g_return_val_if_fail (GDICT_IS_SOURCE (source), NULL);
+
+  return source->priv->editable;
 }
 
 /**
