@@ -1,6 +1,6 @@
 dnl -*- mode: m4 -*-
 AC_PREREQ(2.63)
-AC_INIT([gnome-dictionary], [3.14.2],
+AC_INIT([gnome-dictionary], [3.15.90],
 	[http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-dictionary],
 	[gnome-dictionary],
 	[http://live.gnome.org/GnomeUtils])
@@ -43,7 +43,7 @@ LT_INIT([disable-static win32-dll])
 ## don't rerun to this point if we abort
 AC_CACHE_SAVE
 
-LIBGDICT_LT_VERSION=6:7:0
+LIBGDICT_LT_VERSION=7:0:1
 AC_SUBST(LIBGDICT_LT_VERSION)
 
 # For each cycle:
@@ -54,7 +54,7 @@ AC_SUBST(LIBGDICT_LT_VERSION)
 # follow the same rules: no ABI breakage (unless unavoidable) and
 # no API breakage past the API freeze.
 m4_define([gdict_major_version], [0])
-m4_define([gdict_minor_version], [11])
+m4_define([gdict_minor_version], [12])
 m4_define([gdict_micro_version], [0])
 m4_define([gdict_version], [gdict_major_version.gdict_minor_version.gdict_micro_version])
 

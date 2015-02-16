@@ -1,3 +1,21 @@
+GNOME Dictionary 3.15.90                                              2015-02-16
+================================================================================
+Application
+ * Convert to new-style commandline option handling (Matthias Clasen)
+ * Make DBus-activatable (Matthias Clasen)
+ * Fix #528956: duplicated dictionary sources (Juan R. García Blanco)
+
+Library
+ * Fix emission of lookup-start (Juan R. García Blanco)
+ * Add GObject introspection support (Stefano Facchini & Juan R. García Blanco)
+
+Translations
+ * cs (Marek Černocký), es (Daniel Mustieles), hu (Balázs Úr),
+   id (Andika Triwidada), nb (Kjartan Maraas), nl (Erwin Poeze),
+   pl (Piotr Drąg), ru (Yuri Myasoedov), sl (Matej Urbančič),
+   vi (Trần Ngọc Quân)
+ * Update POTFILES for org.gnome.Dictionary.desktop.in (Piotr Drąg)
+
 GNOME Dictionary 3.14.2                                               2014-11-10
 ================================================================================
 Application
