@@ -8,9 +8,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-utils 3.11.x\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-02-19 20:06+0100\n"
-"PO-Revision-Date: 2014-02-19 20:07+0100\n"
-"Last-Translator: Kjartan Maraas <kmaraas@gnome.org>\n"
+"POT-Creation-Date: 2015-02-16 18:05+0100\n"
+"PO-Revision-Date: 2015-02-11 07:48+0100\n"
+"Last-Translator: Åka Sikrom <a4NOSPAMPLEASETHANKYOU@hush.com>\n"
 "Language-Team: Norwegian bokmål <i18n-nb@lister.ping.uio.no>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
@@ -22,26 +22,17 @@ msgstr ""
 msgid "Default Dictionary Server"
 msgstr "Forvalgt ordboktjener"
 
-#: ../data/gnome-dictionary.desktop.in.in.h:1 ../src/gdict-about.c:60
-#: ../src/gdict-app.c:347 ../src/gdict-window.c:543 ../src/gdict-window.c:1810
-msgid "Dictionary"
-msgstr "Ordbok"
-
-#: ../data/gnome-dictionary.desktop.in.in.h:2
-msgid "Check word definitions and spellings in an online dictionary"
-msgstr "Sjekk orddefinisjoner og staving i en ordbok på nettet"
-
-#: ../data/gnome-dictionary.desktop.in.in.h:3
-msgid "word;synonym;definition;spelling;"
-msgstr "ord;synonym;definisjon;staving;"
-
 #: ../data/gnome-dictionary.appdata.xml.in.h:1
 msgid ""
 "GNOME Dictionary is a simple dictionary application that looks up "
 "definitions of words online. Though it looks up English definitions by "
 "default, you can easily switch to Spanish or add other online dictionaries "
 "using the DICT protocol to suit your needs."
-msgstr "GNOME ordbokk er et enkelt ordbokprogram som slår opp orddefinisjoner på nettet. Selv om den slår opp engelske definisjoner som forvalg kan du enkelt bytte til spansk eller legge til andre ordbøker på nettet via DICT-protokollen for å tilpasse det til dine behov."
+msgstr ""
+"GNOME ordbok er et enkelt ordbokprogram som slår opp orddefinisjoner på "
+"nett. Selv om engelske definisjoner er standard, kan du enkelt tilpasse "
+"programmet til eget behov ved å bytte til spansk eller hente andre ordbøker "
+"på nett via DICT-protokollen."
 
 #: ../data/gnome-dictionary-menus.ui.h:1
 msgid "Preferences"
@@ -200,6 +191,19 @@ msgstr "Ordbøker"
 msgid "Strategies"
 msgstr "Strategier"
 
+#: ../data/org.gnome.Dictionary.desktop.in.in.h:1 ../src/gdict-about.c:60
+#: ../src/gdict-window.c:543 ../src/gdict-window.c:1810
+msgid "Dictionary"
+msgstr "Ordbok"
+
+#: ../data/org.gnome.Dictionary.desktop.in.in.h:2
+msgid "Check word definitions and spellings in an online dictionary"
+msgstr "Sjekk orddefinisjoner og staving i en ordbok på nett"
+
+#: ../data/org.gnome.Dictionary.desktop.in.in.h:3
+msgid "word;synonym;definition;spelling;"
+msgstr "ord;synonym;definisjon;staving;"
+
 #: ../data/org.gnome.dictionary.gschema.xml.in.in.h:1
 msgid "The default database to use"
 msgstr "Forvalgt database som skal brukes"
@@ -211,7 +215,7 @@ msgid ""
 "present in a dictionary source should be searched"
 msgstr ""
 "Navn på individuell database eller meta-database som skal brukes i "
-"ordboktjeneren. Et utropstegn (!) betyr at programmet skal søke i alle "
+"ordboktjeneren. Utropstegn (!) betyr at programmet skal søke i alle "
 "databaser på en gitt tjener"
 
 #: ../data/org.gnome.dictionary.gschema.xml.in.in.h:3
@@ -283,36 +287,36 @@ msgstr "Status"
 msgid "The status code as returned by the dictionary server"
 msgstr "Statuskode som returneres av ordboktjeneren."
 
-#: ../libgdict/gdict-client-context.c:776
+#: ../libgdict/gdict-client-context.c:775
 #, c-format
 msgid "No connection to the dictionary server at '%s:%d'"
 msgstr "Ingen tilkobling til ordboktjener på «%s:%d»"
 
-#: ../libgdict/gdict-client-context.c:1059
+#: ../libgdict/gdict-client-context.c:1058
 #, c-format
 msgid "Lookup failed for hostname '%s': no suitable resources found"
-msgstr "Oppslag feilet for vertsnavn «%s»: ingen passende ressurser ble funnet"
+msgstr "Oppslag på vertsnavn «%s» mislyktes. Fant ingen passende ressurser"
 
-#: ../libgdict/gdict-client-context.c:1090
+#: ../libgdict/gdict-client-context.c:1089
 #, c-format
 msgid "Lookup failed for host '%s': %s"
-msgstr "Oppslag feilet for vert «%s» : %s"
+msgstr "Oppslag på vert «%s» mislyktes. %s"
 
-#: ../libgdict/gdict-client-context.c:1124
+#: ../libgdict/gdict-client-context.c:1123
 #, c-format
 msgid "Lookup failed for host '%s': host not found"
-msgstr "Oppslag feilet for vert «%s»: vert ikke funnet"
+msgstr "Oppslag på vert «%s» mislyktes. Fant ikke verten"
 
-#: ../libgdict/gdict-client-context.c:1176
+#: ../libgdict/gdict-client-context.c:1175
 #, c-format
 msgid ""
 "Unable to connect to the dictionary server at '%s:%d'. The server replied "
 "with code %d (server down)"
 msgstr ""
-"Kan ikke koble til ordboktjener på «%s:%d». Tjeneren svarte med kode %d "
+"Klarte ikke å koble til ordboktjener på «%s:%d». Tjeneren svarte med kode %d "
 "(tjener nede)"
 
-#: ../libgdict/gdict-client-context.c:1195
+#: ../libgdict/gdict-client-context.c:1194
 #, c-format
 msgid ""
 "Unable to parse the dictionary server reply\n"
@@ -321,47 +325,47 @@ msgstr ""
 "Forstår ikke svar fra ordboktjener:\n"
 " «%s»"
 
-#: ../libgdict/gdict-client-context.c:1224
+#: ../libgdict/gdict-client-context.c:1223
 #, c-format
 msgid "No definitions found for '%s'"
 msgstr "Ingen definisjoner funnet for «%s»"
 
-#: ../libgdict/gdict-client-context.c:1239
+#: ../libgdict/gdict-client-context.c:1238
 #, c-format
 msgid "Invalid database '%s'"
-msgstr "Ugyldig database «%s»"
+msgstr "«%s» er en ugyldig database"
 
-#: ../libgdict/gdict-client-context.c:1254
+#: ../libgdict/gdict-client-context.c:1253
 #, c-format
 msgid "Invalid strategy '%s'"
-msgstr "Ugyldig strategi «%s»"
+msgstr "«%s» er en ugyldig strategi"
 
-#: ../libgdict/gdict-client-context.c:1269
+#: ../libgdict/gdict-client-context.c:1268
 #, c-format
 msgid "Bad command '%s'"
-msgstr "Ugyldig kommando «%s»"
+msgstr "«%s» er en ugyldig kommando"
 
-#: ../libgdict/gdict-client-context.c:1284
+#: ../libgdict/gdict-client-context.c:1283
 #, c-format
 msgid "Bad parameters for command '%s'"
-msgstr "Ugyldige parametere for kommando «%s»"
+msgstr "Kommandoen «%s» har ugyldige parametere"
 
-#: ../libgdict/gdict-client-context.c:1299
+#: ../libgdict/gdict-client-context.c:1298
 #, c-format
 msgid "No databases found on dictionary server at '%s'"
-msgstr "Ingen databaser funnet på ordboktjener «%s»"
+msgstr "Fant ingen databaser på ordboktjener «%s»"
 
-#: ../libgdict/gdict-client-context.c:1314
+#: ../libgdict/gdict-client-context.c:1313
 #, c-format
 msgid "No strategies found on dictionary server at '%s'"
-msgstr "Ingen strategier funnet på ordboktjener «%s»"
+msgstr "Fant ingen strategier på ordboktjener «%s»"
 
-#: ../libgdict/gdict-client-context.c:1747
+#: ../libgdict/gdict-client-context.c:1738
 #, c-format
 msgid "Connection failed to the dictionary server at %s:%d"
-msgstr "Tilkobling feilet for ordboktjener «%s:%d»"
+msgstr "Tilkobling mislyktes for ordboktjener «%s:%d»"
 
-#: ../libgdict/gdict-client-context.c:1786
+#: ../libgdict/gdict-client-context.c:1777
 #, c-format
 msgid ""
 "Error while reading reply from server:\n"
@@ -370,50 +374,50 @@ msgstr ""
 "Feil under lesing av svar fra tjener:\n"
 "%s"
 
-#: ../libgdict/gdict-client-context.c:1859
+#: ../libgdict/gdict-client-context.c:1850
 #, c-format
 msgid "Connection timeout for the dictionary server at '%s:%d'"
 msgstr "Tidsavbrudd for tilkobling til ordboktjener på «%s:%d»"
 
-#: ../libgdict/gdict-client-context.c:1893
+#: ../libgdict/gdict-client-context.c:1884
 #, c-format
 msgid "No hostname defined for the dictionary server"
 msgstr "Ingen vertsnavn definert for ordboktjener"
 
-#: ../libgdict/gdict-client-context.c:1929
-#: ../libgdict/gdict-client-context.c:1944
+#: ../libgdict/gdict-client-context.c:1920
+#: ../libgdict/gdict-client-context.c:1935
 #, c-format
 msgid "Unable to create socket"
-msgstr "Kunne ikke opprette plugg"
+msgstr "Klarte ikke å opprette sokkel"
 
-#: ../libgdict/gdict-client-context.c:1970
+#: ../libgdict/gdict-client-context.c:1961
 #, c-format
 msgid "Unable to set the channel as non-blocking: %s"
-msgstr "Kunne ikke sette kanal som ikke-blokkerende: %s"
+msgstr "Klarte ikke å endre kanal til ikke-blokkerende: %s"
 
-#: ../libgdict/gdict-client-context.c:1985
+#: ../libgdict/gdict-client-context.c:1976
 #, c-format
 msgid "Unable to connect to the dictionary server at '%s:%d'"
-msgstr "Kan ikke koble til ordboktjener «%s:%d»"
+msgstr "Klarte ikke å koble til ordboktjener «%s:%d»"
 
 #: ../libgdict/gdict-context.c:217
 msgid "Local Only"
-msgstr "Kun lokale"
+msgstr "Bare lokale"
 
 #: ../libgdict/gdict-context.c:218
 msgid "Whether the context uses only local dictionaries or not"
-msgstr "Om kontekst kun bruker lokale ordbøker eller ikke"
+msgstr "Om konteksten bare skal bruke lokale ordbøker"
 
 #: ../libgdict/gdict-database-chooser.c:378
 msgid "Reload the list of available databases"
-msgstr "Last listen med tilgjengelige databaser på nytt"
+msgstr "Åpne liste med tilgjengelige databaser på nytt"
 
 #: ../libgdict/gdict-database-chooser.c:390
 msgid "Clear the list of available databases"
 msgstr "Tøm listen med tilgjengelige databaser"
 
 #: ../libgdict/gdict-database-chooser.c:837 ../libgdict/gdict-speller.c:777
-#: ../libgdict/gdict-strategy-chooser.c:785
+#: ../libgdict/gdict-strategy-chooser.c:786
 msgid "Error while matching"
 msgstr "Feil med treff"
 
@@ -444,103 +448,111 @@ msgstr "Et annet søk kjører"
 
 #: ../libgdict/gdict-defbox.c:2556 ../libgdict/gdict-speller.c:736
 msgid "Please wait until the current search ends."
-msgstr "Vennligst vent til aktivt søk avslutter."
+msgstr "Vent til aktivt søk er ferdig."
 
 #: ../libgdict/gdict-defbox.c:2595
 msgid "Error while retrieving the definition"
 msgstr "Feil under henting av definisjonen"
 
-#: ../libgdict/gdict-source.c:231
+#: ../libgdict/gdict-source.c:237
 msgid "Filename"
 msgstr "Filnavn"
 
-#: ../libgdict/gdict-source.c:232
+#: ../libgdict/gdict-source.c:238
 msgid "The filename used by this dictionary source"
 msgstr "Filnavn som brukes av denne ordbokkilden"
 
-#: ../libgdict/gdict-source.c:245
+#: ../libgdict/gdict-source.c:251
 msgid "Name"
 msgstr "Navn"
 
-#: ../libgdict/gdict-source.c:246
+#: ../libgdict/gdict-source.c:252
 msgid "The display name of this dictionary source"
 msgstr "Visningsnavnet for denne ordbokkilden"
 
-#: ../libgdict/gdict-source.c:259
+#: ../libgdict/gdict-source.c:265
 msgid "Description"
 msgstr "Beskrivelse"
 
-#: ../libgdict/gdict-source.c:260
+#: ../libgdict/gdict-source.c:266
 msgid "The description of this dictionary source"
 msgstr "Beskrivelse av denne ordbokkilden"
 
-#: ../libgdict/gdict-source.c:273 ../libgdict/gdict-speller.c:382
+#: ../libgdict/gdict-source.c:279
+msgid "Editable"
+msgstr "Redigerbar"
+
+#: ../libgdict/gdict-source.c:280
+msgid "Whether the dictionary source is editable or not"
+msgstr "Om ordbokkilden kan redigeres"
+
+#: ../libgdict/gdict-source.c:293 ../libgdict/gdict-speller.c:382
 msgid "Database"
 msgstr "Database"
 
-#: ../libgdict/gdict-source.c:274
+#: ../libgdict/gdict-source.c:294
 msgid "The default database of this dictionary source"
 msgstr "Forvalgt database for denne ordbokkilden"
 
-#: ../libgdict/gdict-source.c:287 ../libgdict/gdict-speller.c:389
+#: ../libgdict/gdict-source.c:307 ../libgdict/gdict-speller.c:389
 msgid "Strategy"
 msgstr "Strategi"
 
-#: ../libgdict/gdict-source.c:288
+#: ../libgdict/gdict-source.c:308
 msgid "The default strategy of this dictionary source"
 msgstr "Forvalgt strategi for denne ordbokkilden"
 
-#: ../libgdict/gdict-source.c:301
+#: ../libgdict/gdict-source.c:321
 msgid "Transport"
 msgstr "Transport"
 
-#: ../libgdict/gdict-source.c:302
+#: ../libgdict/gdict-source.c:322
 msgid "The transport mechanism used by this dictionary source"
 msgstr "Transportmekanisme som brukes av denne ordbokkilden"
 
-#: ../libgdict/gdict-source.c:316 ../libgdict/gdict-speller.c:375
+#: ../libgdict/gdict-source.c:336 ../libgdict/gdict-speller.c:375
 msgid "Context"
 msgstr "Sammenheng"
 
-#: ../libgdict/gdict-source.c:317
+#: ../libgdict/gdict-source.c:337
 msgid "The GdictContext bound to this source"
 msgstr "GdictContext er koblet til denne kilden"
 
-#: ../libgdict/gdict-source.c:412
+#: ../libgdict/gdict-source.c:433
 #, c-format
 msgid "Invalid transport type '%d'"
-msgstr "Ugyldig transporttype «%d»"
+msgstr "«%d» er en ugyldig transporttype"
 
-#: ../libgdict/gdict-source.c:440
+#: ../libgdict/gdict-source.c:461
 #, c-format
 msgid "No '%s' group found inside the dictionary source definition"
-msgstr "Ingen gruppe \"%s\" funnet i ordbokkildens definisjon"
+msgstr "Fant ikke gruppen «%s» i definisjon av ordbokkilde"
 
-#: ../libgdict/gdict-source.c:456 ../libgdict/gdict-source.c:480
-#: ../libgdict/gdict-source.c:504 ../libgdict/gdict-source.c:529
+#: ../libgdict/gdict-source.c:477 ../libgdict/gdict-source.c:501
+#: ../libgdict/gdict-source.c:525 ../libgdict/gdict-source.c:550
 #, c-format
 msgid "Unable to get the '%s' key inside the dictionary source definition: %s"
-msgstr "Kunne ikke finne nøkkelen «%s» i kildedefinisjonen for ordbok: %s"
+msgstr "Fant ikke nøkkelen «%s» i kildedefinisjon for ordbok: %s"
 
-#: ../libgdict/gdict-source.c:554
+#: ../libgdict/gdict-source.c:575
 #, c-format
 msgid ""
 "Unable to get the '%s' key inside the dictionary source definition file: %s"
-msgstr "Kan ikke finne nøkkelen «%s» i definisjonsfilen for ordbokkilde: %s"
+msgstr "Fant ikke nøkkelen «%s» i definisjonsfil for ordbokkilde: %s"
 
-#: ../libgdict/gdict-source.c:740
+#: ../libgdict/gdict-source.c:769
 #, c-format
 msgid "Dictionary source does not have name"
-msgstr "Ordbokkilde har ikke et navn"
+msgstr "Ordbokkilde mangler navn"
 
-#: ../libgdict/gdict-source.c:749
+#: ../libgdict/gdict-source.c:778
 #, c-format
 msgid "Dictionary source '%s' has invalid transport '%s'"
 msgstr "Ordbokkilde «%s» har ugyldig transport «%s»"
 
 #: ../libgdict/gdict-source-chooser.c:294
 msgid "Reload the list of available sources"
-msgstr "Last listen med tilgjengelige kilder på nytt"
+msgstr "Åpne liste med tilgjengelige kilder på nytt"
 
 #: ../libgdict/gdict-source-loader.c:170
 msgid "Paths"
@@ -556,15 +568,15 @@ msgstr "Kilder"
 
 #: ../libgdict/gdict-source-loader.c:184
 msgid "Dictionary sources found"
-msgstr "Ordbokkilder funnet"
+msgstr "Fant ordbokkilder"
 
 #: ../libgdict/gdict-speller.c:352
 msgid "Clear the list of similar words"
-msgstr "Tøm listen med lignende ord"
+msgstr "Tøm liste med lignende ord"
 
 #: ../libgdict/gdict-speller.c:376
 msgid "The GdictContext object used to get the word definition"
-msgstr "GdictContext-objektet som ble brukt til å finne orddefinisjonen"
+msgstr "GdictContext-objekt som ble brukt til å finne orddefinisjonen"
 
 #: ../libgdict/gdict-speller.c:383
 msgid "The database used to query the GdictContext"
@@ -576,15 +588,15 @@ msgstr "Database som brukes for spørring mot GdictContext"
 
 #: ../libgdict/gdict-strategy-chooser.c:361
 msgid "Reload the list of available strategies"
-msgstr "Last listen med tilgjengelige strategier på nytt"
+msgstr "Åpne liste med tilgjengelige strategier på nytt"
 
 #: ../libgdict/gdict-strategy-chooser.c:373
 msgid "Clear the list of available strategies"
-msgstr "Tøm listen med tilgjengelige strategier"
+msgstr "Tøm liste med tilgjengelige strategier"
 
 #: ../libgdict/gdict-utils.c:96
 msgid "GDict debugging flags to set"
-msgstr "GDict-feilsøkingsflagg som skal settes"
+msgstr "GDict-feilsøkingsvalg som skal justeres"
 
 #: ../libgdict/gdict-utils.c:96 ../libgdict/gdict-utils.c:98
 msgid "FLAGS"
@@ -592,15 +604,15 @@ msgstr "FLAGG"
 
 #: ../libgdict/gdict-utils.c:98
 msgid "GDict debugging flags to unset"
-msgstr "GDict feilsøkingsflagg som skal slås av"
+msgstr "GDict-feilsøkingsvalg som skal slås av"
 
 #: ../libgdict/gdict-utils.c:156
 msgid "GDict Options"
-msgstr "GDict-alternativer"
+msgstr "GDict-valg"
 
 #: ../libgdict/gdict-utils.c:157
 msgid "Show GDict Options"
-msgstr "Vis GDict-alternativene"
+msgstr "Vis GDict-valg"
 
 #: ../src/gdict-about.c:53
 msgid "translator-credits"
@@ -613,103 +625,102 @@ msgstr ""
 msgid "Look up words in dictionaries"
 msgstr "Slå opp ord i ordbøker"
 
-#: ../src/gdict-app.c:60 ../src/gdict-app.c:89
+#: ../src/gdict-app.c:53 ../src/gdict-app.c:82
 msgid "Words to look up"
 msgstr "Ord som skal slås opp"
 
-#: ../src/gdict-app.c:60 ../src/gdict-app.c:66
+#: ../src/gdict-app.c:53 ../src/gdict-app.c:59
 msgid "WORD"
 msgstr "ORD"
 
-#: ../src/gdict-app.c:66
+#: ../src/gdict-app.c:59
 msgid "Words to match"
 msgstr "Ord som skal slås opp"
 
-#: ../src/gdict-app.c:72
+#: ../src/gdict-app.c:65
 msgid "Dictionary source to use"
 msgstr "Ordbokkilde som skal brukes"
 
-#: ../src/gdict-app.c:72 ../src/gdict-app.c:78 ../src/gdict-app.c:84
+#: ../src/gdict-app.c:65 ../src/gdict-app.c:71 ../src/gdict-app.c:77
 msgid "NAME"
 msgstr "NAVN"
 
-#: ../src/gdict-app.c:78
+#: ../src/gdict-app.c:71
 msgid "Database to use"
 msgstr "Database som skal brukes"
 
-#: ../src/gdict-app.c:84
+#: ../src/gdict-app.c:77
 msgid "Strategy to use"
 msgstr "Strategi som skal brukes"
 
-#: ../src/gdict-app.c:89
+#: ../src/gdict-app.c:82
 msgid "WORDS"
 msgstr "ORD"
 
-#: ../src/gdict-app.c:106
+#: ../src/gdict-app.c:99
 msgid "Dictionary Preferences"
 msgstr "Brukervalg for ordbok"
 
-#: ../src/gdict-app.c:128 ../src/gdict-pref-dialog.c:494
-#: ../src/gdict-source-dialog.c:475
+#: ../src/gdict-app.c:121 ../src/gdict-pref-dialog.c:529
+#: ../src/gdict-source-dialog.c:479
 #, c-format
 msgid "There was an error while displaying help"
 msgstr "Det oppstod en feil under visning av hjelp."
 
-#. create the new option context
-#: ../src/gdict-app.c:217
-msgid " - Look up words in dictionaries"
-msgstr " - Slå opp ord i ordbøker"
+#: ../src/gdict-pref-dialog.c:271
+msgid "View Dictionary Source"
+msgstr "Vis ordbokkilde"
 
-#: ../src/gdict-pref-dialog.c:239 ../src/gdict-pref-dialog.c:428
-msgid "Edit Dictionary Source"
-msgstr "Rediger ordbokkilde"
-
-#: ../src/gdict-pref-dialog.c:303
+#: ../src/gdict-pref-dialog.c:338
 msgid "Add Dictionary Source"
 msgstr "Legg til ordbokkilde"
 
-#: ../src/gdict-pref-dialog.c:348
+#: ../src/gdict-pref-dialog.c:383
 #, c-format
 msgid "Remove \"%s\"?"
-msgstr "Fjern «%s»?"
+msgstr "Vil du fjerne «%s»?"
 
-#: ../src/gdict-pref-dialog.c:350
+#: ../src/gdict-pref-dialog.c:385
 msgid "This will permanently remove the dictionary source from the list."
 msgstr "Dette vil fjerne ordbokkilden fra listen permanent."
 
-#: ../src/gdict-pref-dialog.c:380
+#: ../src/gdict-pref-dialog.c:415
 #, c-format
 msgid "Unable to remove source '%s'"
-msgstr "Kan ikke fjerne kilde «%s»"
+msgstr "Klarte ikke å fjerne kilde «%s»"
 
-#: ../src/gdict-pref-dialog.c:641
+#: ../src/gdict-pref-dialog.c:463
+msgid "Edit Dictionary Source"
+msgstr "Rediger ordbokkilde"
+
+#: ../src/gdict-pref-dialog.c:676
 msgid "Add a new dictionary source"
 msgstr "Legg til ny ordbokkilde"
 
-#: ../src/gdict-pref-dialog.c:647
+#: ../src/gdict-pref-dialog.c:682
 msgid "Remove the currently selected dictionary source"
 msgstr "Fjern valgt ordbokkilde"
 
-#: ../src/gdict-pref-dialog.c:653
+#: ../src/gdict-pref-dialog.c:688
 msgid "Edit the currently selected dictionary source"
 msgstr "Rediger valgt ordbokkilde"
 
-#: ../src/gdict-pref-dialog.c:661
+#: ../src/gdict-pref-dialog.c:696
 msgid "Set the font used for printing the definitions"
-msgstr "Sett skrift til bruk for utskrift av definisjoner"
+msgstr "Velg skrift som skal brukes ved utskrift av definisjoner"
 
 #: ../src/gdict-print.c:239 ../src/gdict-print.c:303
 #, c-format
 msgid "Unable to display the preview: %s"
-msgstr "Kunne ikke forhåndsvise: %s"
+msgstr "Klarte ikke å forhåndsvise: %s"
 
 #: ../src/gdict-source-dialog.c:340 ../src/gdict-source-dialog.c:432
 msgid "Unable to create a source file"
-msgstr "Kan ikke opprette en kildefil"
+msgstr "Klarte ikke å opprette kildefil"
 
-#: ../src/gdict-source-dialog.c:356 ../src/gdict-source-dialog.c:448
+#: ../src/gdict-source-dialog.c:356 ../src/gdict-source-dialog.c:452
 msgid "Unable to save source file"
-msgstr "Kan ikke lagre kildefil"
+msgstr "Klarte ikke å lagre kildefil"
 
 #: ../src/gdict-window.c:253
 #, c-format
@@ -718,23 +729,23 @@ msgstr "Søker etter «%s» …"
 
 #: ../src/gdict-window.c:285 ../src/gdict-window.c:342
 msgid "No definitions found"
-msgstr "Ingen definisjoner ble funnet"
+msgstr "Fant ingen definisjoner"
 
 #: ../src/gdict-window.c:287
 #, c-format
 msgid "A definition found"
 msgid_plural "%d definitions found"
-msgstr[0] "En definisjon ble funnet"
-msgstr[1] "%d definisjoner ble funnet"
+msgstr[0] "Fant én definisjon"
+msgstr[1] "Fant %d definisjoner"
 
 #: ../src/gdict-window.c:458
 #, c-format
 msgid "No dictionary source available with name '%s'"
-msgstr "Ingen ordbokkilde ved navnet \"%s\" tilgjengelig"
+msgstr "Ingen ordbokkilde med navnet «%s» er tilgjengelig"
 
 #: ../src/gdict-window.c:462
 msgid "Unable to find dictionary source"
-msgstr "Kan ikke finne ordbokkilde"
+msgstr "Fant ikke ordbokkilde"
 
 #: ../src/gdict-window.c:478
 #, c-format
@@ -743,7 +754,7 @@ msgstr "Ingen kontekst tilgjengelig for kilden \"%s\""
 
 #: ../src/gdict-window.c:482
 msgid "Unable to create a context"
-msgstr "Kan ikke opprette en kontekst"
+msgstr "Klarte ikke å opprette kontekst"
 
 #: ../src/gdict-window.c:541
 #, c-format
@@ -786,7 +797,7 @@ msgstr "Ord «%s» valgt"
 #. speller
 #: ../src/gdict-window.c:1451
 msgid "Double-click on the word to look up"
-msgstr "Dobbeltklikk på ordet du ønsker å slå opp"
+msgstr "Dobbeltklikk på ordet du vil slå opp"
 
 #. strat-chooser
 #: ../src/gdict-window.c:1457
@@ -822,3 +833,6 @@ msgstr "Tilgjengelige strategier"
 #: ../src/gdict-window.c:1742
 msgid "Dictionary sources"
 msgstr "Ordbokkilder"
+
+#~ msgid " - Look up words in dictionaries"
+#~ msgstr " - Slå opp ord i ordbøker"
