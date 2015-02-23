@@ -320,6 +320,8 @@ gdict_startup (GApplication *application,
 {
   GtkBuilder *builder = gtk_builder_new ();
   GError * error = NULL;
+  static const char *lookup_accels[2] = { "<Primary>l", NULL };
+  static const char *escape_accels[2] = { "Escape", NULL };
 
   g_action_map_add_action_entries (G_ACTION_MAP (application),
                                    app_entries, G_N_ELEMENTS (app_entries),
@@ -336,15 +338,11 @@ gdict_startup (GApplication *application,
     }
 
   gtk_application_set_menubar (GTK_APPLICATION (application),
-                               G_MENU_MODEL (gtk_builder_get_object (builder,
-                                                                     "menubar")));
+                               G_MENU_MODEL (gtk_builder_get_object (builder, "menubar")));
   gtk_application_set_app_menu (GTK_APPLICATION (application),
-                                G_MENU_MODEL (gtk_builder_get_object (builder,
-                                                                      "app-menu")));
-  gtk_application_add_accelerator (GTK_APPLICATION (application),
-                                   "<Primary>l", "win.lookup", NULL);
-  gtk_application_add_accelerator (GTK_APPLICATION (application),
-                                   "Escape", "win.escape", NULL);
+                                G_MENU_MODEL (gtk_builder_get_object (builder, "app-menu")));
+  gtk_application_set_accels_for_action (GTK_APPLICATION (application), "win.lookup", lookup_accels);
+  gtk_application_set_accels_for_action (GTK_APPLICATION (application), "win.escape", escape_accels);
 
   g_object_unref (builder);
 }

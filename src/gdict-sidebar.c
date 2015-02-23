@@ -72,7 +72,7 @@ enum
 static guint sidebar_signals[LAST_SIGNAL] = { 0 };
 static GQuark sidebar_page_id_quark = 0;
 
-G_DEFINE_TYPE (GdictSidebar, gdict_sidebar, GTK_TYPE_VBOX);
+G_DEFINE_TYPE (GdictSidebar, gdict_sidebar, GTK_TYPE_BOX);
 
 SidebarPage *
 sidebar_page_new (const gchar *id,
@@ -316,6 +316,9 @@ gdict_sidebar_init (GdictSidebar *sidebar)
 
   sidebar->priv = priv = GDICT_SIDEBAR_GET_PRIVATE (sidebar);
 
+  gtk_orientable_set_orientation (GTK_ORIENTABLE (sidebar),
+                                  GTK_ORIENTATION_VERTICAL);
+
   /* we store all the pages inside the list, but we keep
    * a pointer inside the hash table for faster look up
    * times; what's inside the table will be destroyed with
@@ -343,14 +346,16 @@ gdict_sidebar_init (GdictSidebar *sidebar)
 		    sidebar);
   priv->select_button = select_button;
 
-  select_hbox = gtk_box_new (GTK_ORIENTATION_HORIZONTAL, 0);
+  select_hbox = gtk_box_new (GTK_ORIENTATION_HORIZONTAL, 6);
   
-  priv->label = gtk_label_new (NULL);
-  gtk_misc_set_alignment (GTK_MISC (priv->label), 0.0, 0.5);
+  priv->label = g_object_new (GTK_TYPE_LABEL,
+                              "xalign", 0.0,
+                              "yalign", 0.5,
+                              NULL);
   gtk_box_pack_start (GTK_BOX (select_hbox), priv->label, FALSE, FALSE, 0);
   gtk_widget_show (priv->label);
 
-  arrow = gtk_arrow_new (GTK_ARROW_DOWN, GTK_SHADOW_NONE);
+  arrow = gtk_image_new_from_icon_name ("go-down-symbolic", GTK_ICON_SIZE_BUTTON);
   gtk_box_pack_end (GTK_BOX (select_hbox), arrow, FALSE, FALSE, 0);
   gtk_widget_show (arrow);
 
@@ -434,7 +439,7 @@ gdict_sidebar_add_page (GdictSidebar *sidebar,
 					  NULL);
 
   /* add the menu item for the page */
-  menu_item = gtk_image_menu_item_new_with_label (page_name);
+  menu_item = gtk_menu_item_new_with_label (page_name);
   g_object_set_qdata_full (G_OBJECT (menu_item),
 			   sidebar_page_id_quark,
                            g_strdup (page_id),
