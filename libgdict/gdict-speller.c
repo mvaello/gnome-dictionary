@@ -811,7 +811,7 @@ gdict_speller_count_matches (GdictSpeller *speller)
  *
  * FIXME
  *
- * Return value: FIXME
+ * Return value: (transfer full): FIXME
  *
  * Since: FIXME
  */

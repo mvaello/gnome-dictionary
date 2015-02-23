@@ -139,11 +139,11 @@ post_parse_hook (GOptionContext  *context,
 }
 
 /**
- * gdict_get_option_group:
+ * gdict_get_option_group: (skip)
  *
  * FIXME
  *
- * Return value: FIXME
+ * Return value: (transfer full): FIXME
  *
  * Since: 0.12
  */

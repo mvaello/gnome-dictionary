@@ -1127,7 +1127,7 @@ gdict_source_set_transportv (GdictSource          *source,
  * @transport: a valid transport
  * @first_transport_property: property for the context bound to
  *   the transport, or %NULL
- * @Varargs: property value for first property name, then additionary
+ * @...: property value for first property name, then additionary
  *   properties, ending with %NULL
  *
  * Sets @transport as the choosen transport for @source.  The @transport
@@ -1223,8 +1223,7 @@ gdict_source_get_context (GdictSource *source)
  * referenced copy of the context held by @source; if you want a different
  * instance, use gdict_source_get_context().
  *
- * Return value: a referenced #GdictContext.  Use g_object_unref() when
- *   finished using it.
+ * Return value: (transfer full): a referenced #GdictContext.
  *
  * Since: 1.0
  */
