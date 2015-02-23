@@ -44,9 +44,6 @@
 #include "gdict-debug.h"
 #include "gdict-private.h"
 
-#define GDICT_SPELLER_GET_PRIVATE(obj) \
-(G_TYPE_INSTANCE_GET_PRIVATE ((obj), GDICT_TYPE_SPELLER, GdictSpellerPrivate))
-
 struct _GdictSpellerPrivate
 {
   GdictContext *context;
@@ -107,8 +104,7 @@ enum
 
 static guint speller_signals[LAST_SIGNAL] = { 0 };
 
-G_DEFINE_TYPE (GdictSpeller, gdict_speller, GTK_TYPE_VBOX);
-
+G_DEFINE_TYPE_WITH_PRIVATE (GdictSpeller, gdict_speller, GTK_TYPE_BOX)
 
 static void
 set_gdict_context (GdictSpeller *speller,
@@ -308,10 +304,7 @@ gdict_speller_constructor (GType                  type,
   speller = GDICT_SPELLER (object);
   priv = speller->priv;
   
-  gtk_widget_push_composite_child ();
-
   sw = gtk_scrolled_window_new (NULL, NULL);
-  gtk_widget_set_composite_name (sw, "gdict-speller-scrolled-window");
   gtk_scrolled_window_set_policy (GTK_SCROLLED_WINDOW (sw),
   				  GTK_POLICY_AUTOMATIC,
   				  GTK_POLICY_AUTOMATIC);
@@ -327,7 +320,6 @@ gdict_speller_constructor (GType                  type,
 						     NULL);
 
   priv->treeview = gtk_tree_view_new ();
-  gtk_widget_set_composite_name (priv->treeview, "gdict-speller-treeview");
   gtk_tree_view_set_model (GTK_TREE_VIEW (priv->treeview),
 		           GTK_TREE_MODEL (priv->store));
   gtk_tree_view_set_headers_visible (GTK_TREE_VIEW (priv->treeview), FALSE);
@@ -339,21 +331,17 @@ gdict_speller_constructor (GType                  type,
 
   hbox = gtk_box_new (GTK_ORIENTATION_HORIZONTAL, 0);
 
-  priv->clear_button = gtk_button_new ();
-  gtk_button_set_image (GTK_BUTTON (priv->clear_button),
-		  	gtk_image_new_from_stock ("edit-clear", GTK_ICON_SIZE_SMALL_TOOLBAR));
+  priv->clear_button = gtk_button_new_from_icon_name ("edit-clear-symbolic", GTK_ICON_SIZE_SMALL_TOOLBAR);
+  gtk_button_set_always_show_image (GTK_BUTTON (priv->clear_button), TRUE);
   g_signal_connect (priv->clear_button, "clicked",
 		    G_CALLBACK (clear_button_clicked_cb),
 		    speller);
   gtk_box_pack_start (GTK_BOX (hbox), priv->clear_button, FALSE, FALSE, 0);
   gtk_widget_show (priv->clear_button);
-  gtk_widget_set_tooltip_text (priv->clear_button,
-                               _("Clear the list of similar words"));
+  gtk_widget_set_tooltip_text (priv->clear_button, _("Clear the list of similar words"));
 
   gtk_box_pack_end (GTK_BOX (speller), hbox, FALSE, FALSE, 0);
   gtk_widget_show (hbox);
-
-  gtk_widget_pop_composite_child ();
 
   return object;
 }
@@ -400,8 +388,6 @@ gdict_speller_class_init (GdictSpellerClass *klass)
 		  G_TYPE_NONE, 2,
 		  G_TYPE_STRING,
 		  G_TYPE_STRING);
-  
-  g_type_class_add_private (gobject_class, sizeof (GdictSpellerPrivate));
 }
 
 static void
@@ -409,7 +395,9 @@ gdict_speller_init (GdictSpeller *speller)
 {
   GdictSpellerPrivate *priv;
   
-  speller->priv = priv = GDICT_SPELLER_GET_PRIVATE (speller);
+  speller->priv = priv = gdict_speller_get_instance_private (speller);
+
+  gtk_orientable_set_orientation (GTK_ORIENTABLE (speller), GTK_ORIENTATION_VERTICAL);
   
   priv->database = NULL;
   priv->strategy = NULL;
@@ -628,7 +616,10 @@ lookup_start_cb (GdictContext *context,
   GdictSpellerPrivate *priv = speller->priv;
 
   if (!priv->busy_cursor)
-    priv->busy_cursor = gdk_cursor_new (GDK_WATCH);
+    {
+      GdkDisplay *display = gtk_widget_get_display (GTK_WIDGET (speller));
+      priv->busy_cursor = gdk_cursor_new_for_display (display, GDK_WATCH);
+    }
 
   if (gtk_widget_get_window (GTK_WIDGET (speller)))
     gdk_window_set_cursor (gtk_widget_get_window (GTK_WIDGET (speller)), priv->busy_cursor);
