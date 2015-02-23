@@ -385,24 +385,16 @@ source_remove_clicked_cb (GtkWidget       *widget,
       						_("This will permanently remove the "
       						  "dictionary source from the list."));
       
-      gtk_dialog_add_button (GTK_DIALOG (confirm_dialog),
-      			     GTK_STOCK_CANCEL,
-      			     GTK_RESPONSE_CANCEL);
-      gtk_dialog_add_button (GTK_DIALOG (confirm_dialog),
-      			     GTK_STOCK_REMOVE,
-      			     GTK_RESPONSE_OK);
+      gtk_dialog_add_button (GTK_DIALOG (confirm_dialog), _("_Cancel"), GTK_RESPONSE_CANCEL);
+      gtk_dialog_add_button (GTK_DIALOG (confirm_dialog), _("_Remove"), GTK_RESPONSE_OK);
       
       gtk_window_set_title (GTK_WINDOW (confirm_dialog), "");
       
       response = gtk_dialog_run (GTK_DIALOG (confirm_dialog));
-      if (response == GTK_RESPONSE_CANCEL)
-        {
-          gtk_widget_destroy (confirm_dialog);
-          
-          goto out;
-        }
-      
       gtk_widget_destroy (confirm_dialog);
+
+      if (response == GTK_RESPONSE_CANCEL)
+        goto out;
     }
   
   if (gdict_source_loader_remove_source (dialog->loader, name))

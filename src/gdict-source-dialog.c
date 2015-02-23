@@ -610,9 +610,7 @@ gdict_source_dialog_constructor (GType                  type,
   		    dialog);
 
   /* the help button is always visible */
-  dialog->help_button = gtk_dialog_add_button (GTK_DIALOG (dialog),
-  					       GTK_STOCK_HELP,
-					       GTK_RESPONSE_HELP);
+  dialog->help_button = gtk_dialog_add_button (GTK_DIALOG (dialog), _("_Help"), GTK_RESPONSE_HELP);
   
   vbox = GTK_WIDGET (gtk_builder_get_object (dialog->builder, "db-vbox"));
   dialog->db_chooser = gdict_database_chooser_new ();
@@ -638,29 +636,19 @@ gdict_source_dialog_constructor (GType                  type,
       gtk_widget_set_sensitive (dialog->transport_combo, FALSE);
 
       /* we just allow closing the dialog */
-      dialog->close_button  = gtk_dialog_add_button (GTK_DIALOG (dialog),
-      						     GTK_STOCK_CLOSE,
-      						     GTK_RESPONSE_CANCEL);
+      dialog->close_button = gtk_dialog_add_button (GTK_DIALOG (dialog), _("_Close"), GTK_RESPONSE_CANCEL);
       break;
     case GDICT_SOURCE_DIALOG_CREATE:
-      dialog->cancel_button = gtk_dialog_add_button (GTK_DIALOG (dialog),
-      						     GTK_STOCK_CANCEL,
-      						     GTK_RESPONSE_CANCEL);
-      dialog->add_button    = gtk_dialog_add_button (GTK_DIALOG (dialog),
-      						     GTK_STOCK_ADD,
-      						     GTK_RESPONSE_ACCEPT);
+      dialog->cancel_button = gtk_dialog_add_button (GTK_DIALOG (dialog), _("_Cancel"), GTK_RESPONSE_CANCEL);
+      dialog->add_button = gtk_dialog_add_button (GTK_DIALOG (dialog), _("_Add"), GTK_RESPONSE_ACCEPT);
       /* the "add" button sensitivity is controlled by the transport_combo
        * since it's the only setting that makes a source usable.
        */
       gtk_widget_set_sensitive (dialog->add_button, FALSE);
       break;
     case GDICT_SOURCE_DIALOG_EDIT:
-      dialog->cancel_button = gtk_dialog_add_button (GTK_DIALOG (dialog),
-      						     GTK_STOCK_CANCEL,
-      						     GTK_RESPONSE_CANCEL);
-      dialog->close_button  = gtk_dialog_add_button (GTK_DIALOG (dialog),
-		      	 			     GTK_STOCK_CLOSE,
-						     GTK_RESPONSE_CLOSE);
+      dialog->cancel_button = gtk_dialog_add_button (GTK_DIALOG (dialog), _("C_ancel"), GTK_RESPONSE_CANCEL);
+      dialog->close_button = gtk_dialog_add_button (GTK_DIALOG (dialog), _("_Close"), GTK_RESPONSE_CLOSE);
       break;
     default:
       g_assert_not_reached ();
