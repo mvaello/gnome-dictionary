@@ -1,6 +1,7 @@
 NULL =
 
-INCLUDES = -DG_LOG_DOMAIN=\"Gdict\" 				\
+AM_CPPFLAGS = \
+	-DG_LOG_DOMAIN=\"Gdict\" 				\
 	-DDATADIR=\""$(datadir)"\" 				\
 	-DLIBDIR=\""$(libdir)"\" 				\
 	-DSYSCONFDIR=\""$(sysconfdir)"\" 			\
@@ -58,7 +59,7 @@ libgdict_1_0_la_SOURCES = \
 	$(sources_h_priv)	\
 	$(sources_c)
 
-libgdict_1_0_la_CPPFLAGS = \
+libgdict_1_0_la_CFLAGS = \
 	$(GDICT_CFLAGS)		\
 	$(GDICT_DEBUG_CFLAGS)	\
 	$(MAINTAINER_CFLAGS)
@@ -113,7 +114,7 @@ Gdict-1.0.gir: libgdict-1.0.la
 Gdict_1_0_gir_NAMESPACE = Gdict
 Gdict_1_0_gir_VERSION = 1.0
 Gdict_1_0_gir_INCLUDES = Gtk-3.0
-Gdict_1_0_gir_CFLAGS = $(INCLUDES)
+Gdict_1_0_gir_CFLAGS = $(AM_CPPFLAGS)
 Gdict_1_0_gir_LIBS = libgdict-1.0.la
 Gdict_1_0_gir_FILES = $(libgdict_1_0_la_SOURCES)
 
