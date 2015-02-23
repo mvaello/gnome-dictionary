@@ -110,8 +110,7 @@ static guint db_chooser_signals[LAST_SIGNAL] = { 0 };
 
 G_DEFINE_TYPE (GdictDatabaseChooser,
                gdict_database_chooser,
-               GTK_TYPE_VBOX);
-
+               GTK_TYPE_BOX)
 
 static void
 set_gdict_context (GdictDatabaseChooser *chooser,
@@ -329,11 +328,8 @@ gdict_database_chooser_constructor (GType                  type,
   chooser = GDICT_DATABASE_CHOOSER (object);
   priv = chooser->priv;
 
-  gtk_widget_push_composite_child ();
-
   sw = gtk_scrolled_window_new (NULL, NULL);
   gtk_widget_set_hexpand (sw, TRUE);
-  gtk_widget_set_composite_name (sw, "gdict-database-chooser-scrolled-window");
   gtk_scrolled_window_set_policy (GTK_SCROLLED_WINDOW (sw),
 		  		  GTK_POLICY_AUTOMATIC,
 				  GTK_POLICY_AUTOMATIC);
@@ -349,7 +345,6 @@ gdict_database_chooser_constructor (GType                  type,
                                                      "weight", DB_COLUMN_CURRENT,
 						     NULL);
   priv->treeview = gtk_tree_view_new ();
-  gtk_widget_set_composite_name (priv->treeview, "gdict-database-chooser-treeview");
   gtk_tree_view_set_model (GTK_TREE_VIEW (priv->treeview),
 		  	   GTK_TREE_MODEL (priv->store));
   gtk_tree_view_set_headers_visible (GTK_TREE_VIEW (priv->treeview), FALSE);
@@ -391,8 +386,6 @@ gdict_database_chooser_constructor (GType                  type,
 
   gtk_box_pack_end (GTK_BOX (chooser), hbox, FALSE, FALSE, 0);
   gtk_widget_show (hbox);
-  
-  gtk_widget_pop_composite_child ();
 
   return object;
 }
@@ -486,6 +479,8 @@ gdict_database_chooser_init (GdictDatabaseChooser *chooser)
   GdictDatabaseChooserPrivate *priv;
 
   chooser->priv = priv = GDICT_DATABASE_CHOOSER_GET_PRIVATE (chooser);
+
+  gtk_orientable_set_orientation (GTK_ORIENTABLE (chooser), GTK_ORIENTATION_VERTICAL);
 
   priv->results = -1;
   priv->context = NULL;
@@ -709,7 +704,11 @@ lookup_start_cb (GdictContext *context,
   GdictDatabaseChooserPrivate *priv = chooser->priv;
 
   if (!priv->busy_cursor)
-    priv->busy_cursor = gdk_cursor_new (GDK_WATCH);
+    {
+      GdkDisplay *display = gtk_widget_get_display (GTK_WIDGET (chooser));
+
+      priv->busy_cursor = gdk_cursor_new_for_display (display, GDK_WATCH);
+    }
 
   if (gtk_widget_get_window (GTK_WIDGET (chooser)))
     gdk_window_set_cursor (gtk_widget_get_window (GTK_WIDGET (chooser)), priv->busy_cursor);
@@ -1107,8 +1106,7 @@ gdict_database_chooser_get_current_database (GdictDatabaseChooser *chooser)
  * @button_text: text of the button
  *
  * Adds a #GtkButton with @button_text to the button area on
- * the bottom of @chooser. The @button_text can also be a
- * stock ID.
+ * the bottom of @chooser.
  *
  * Return value: (transfer none): the newly packed button.
  *
@@ -1126,7 +1124,7 @@ gdict_database_chooser_add_button (GdictDatabaseChooser *chooser,
 
   priv = chooser->priv;
 
-  button = gtk_button_new_from_stock (button_text);
+  button = gtk_button_new_with_label (button_text);
 
   gtk_widget_set_can_default (button, TRUE);
 
