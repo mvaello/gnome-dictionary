@@ -1597,8 +1597,6 @@ gdict_window_constructor (GType                  type,
   /* recover the state */
   gdict_window_load_state (window);
 
-  gtk_widget_push_composite_child ();
- 
   window->main_box = gtk_box_new (GTK_ORIENTATION_VERTICAL, 0);
   gtk_container_add (GTK_CONTAINER (window), window->main_box);
   gtk_widget_show (window->main_box);
@@ -1832,8 +1830,6 @@ gdict_window_constructor (GType                  type,
 		    window);
 
   gtk_widget_grab_focus (window->entry);
-
-  gtk_widget_pop_composite_child ();
 
   window->in_construction = FALSE;
 

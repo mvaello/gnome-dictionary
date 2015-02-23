@@ -584,8 +584,6 @@ gdict_source_dialog_constructor (GType                  type,
   gtk_container_set_border_width (GTK_CONTAINER (dialog), 5);
   gtk_box_set_spacing (GTK_BOX (gtk_dialog_get_content_area (GTK_DIALOG (dialog))), 2);
   
-  gtk_widget_push_composite_child ();
-
   /* get the UI from the GtkBuilder file */
   dialog->builder = gtk_builder_new ();
   gtk_builder_add_from_file (dialog->builder, GDICT_SOURCE_UI, &error);
@@ -659,8 +657,6 @@ gdict_source_dialog_constructor (GType                  type,
    * based on the action
    */
   update_dialog_ui (dialog);
-  
-  gtk_widget_pop_composite_child ();
   
   return object;
 }
