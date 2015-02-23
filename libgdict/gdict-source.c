@@ -918,7 +918,7 @@ gdict_source_get_description (GdictSource *source)
 gboolean
 gdict_source_is_editable (GdictSource *source)
 {
-  g_return_val_if_fail (GDICT_IS_SOURCE (source), NULL);
+  g_return_val_if_fail (GDICT_IS_SOURCE (source), FALSE);
 
   return source->priv->editable;
 }
