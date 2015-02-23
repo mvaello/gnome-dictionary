@@ -41,6 +41,8 @@ AC_PATH_PROG(GLIB_MKENUMS, [glib-mkenums])
 # - If binary compatibility has been broken (eg removed or changed interfaces)
 #   change to C+1:0:0
 # - If the interface is the same as the previous version, change to C:R+1:A
+LIBGDICT_LT_VERSION=8:0:0
+AC_SUBST(LIBGDICT_LT_VERSION)
 
 LT_PREREQ([2.2.6])
 LT_INIT([disable-static win32-dll])
@@ -48,9 +50,6 @@ LT_LIB_M
 
 ## don't rerun to this point if we abort
 AC_CACHE_SAVE
-
-LIBGDICT_LT_VERSION=7:0:1
-AC_SUBST(LIBGDICT_LT_VERSION)
 
 # For each cycle:
 # 	first release: increment major += 1, minor = micro = 0;
