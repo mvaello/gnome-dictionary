@@ -1,6 +1,8 @@
 NULL =
 
-INCLUDES = \
+bin_PROGRAMS = gnome-dictionary
+
+gnome_dictionary_CPPFLAGS = \
 	-DPREFIX=\""$(prefix)"\"			\
 	-DSYSCONFDIR=\""$(sysconfdir)"\"		\
 	-DLIBDIR=\""$(libdir)"\"			\
@@ -9,8 +11,6 @@ INCLUDES = \
 	-DPKGDATADIR=\""$(datadir)/gnome-dictionary"\" 	\
 	-DGNOMELOCALEDIR=\""$(prefix)/$(DATADIRNAME)/locale"\" \
 	$(NULL)
-
-bin_PROGRAMS = gnome-dictionary
 
 gnome_dictionary_SOURCES = \
 	gdict-about.c		\
@@ -46,5 +46,6 @@ gnome_dictionary_LDADD = \
 	$(GDICT_LIBS)		\
 	$(NULL)
 
+gnome_dictionary_DEPENDENCIES = $(top_builddir)/libgdict/libgdict-1.0.la
 
 -include $(top_srcdir)/git.mk
