@@ -17,7 +17,7 @@ DOC_SOURCE_DIR=../../../libgdict
 SCAN_OPTIONS=
 
 # Extra options to pass to gtkdoc-scangobj
-SCANGOBJ_OPTIONS=--type-init-func="g_type_init()"
+SCANGOBJ_OPTIONS=
 
 # Extra options to supply to gtkdoc-mkdb.
 MKDB_OPTIONS=--sgml-mode --output-format=xml
