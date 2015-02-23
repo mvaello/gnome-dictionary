@@ -6,25 +6,30 @@ AC_INIT([gnome-dictionary], [3.15.91],
 	[http://live.gnome.org/GnomeUtils])
 
 AC_CONFIG_HEADERS(config.h)
+AC_CONFIG_SRCDIR([src])
 AC_CONFIG_MACRO_DIR([m4])
 
 AC_CANONICAL_TARGET
 
-# require automake 1.10
-AM_INIT_AUTOMAKE([1.11 dist-xz no-dist-gzip foreign])
+AM_INIT_AUTOMAKE([1.14 subdir-objects tar-ustar dist-xz no-dist-gzip foreign])
 AM_SILENT_RULES([yes])
+AM_MAINTAINER_MODE([enable])
 
-GETTEXT_PACKAGE=AC_PACKAGE_NAME
-AC_SUBST(GETTEXT_PACKAGE)
-AC_DEFINE_UNQUOTED(GETTEXT_PACKAGE,"$GETTEXT_PACKAGE",[The name of the gettext domain])
-IT_PROG_INTLTOOL(0.40.0)
-PKG_PROG_PKG_CONFIG([0.22])
+AC_USE_SYSTEM_EXTENSIONS
 
 AC_PROG_CC
 AM_PROG_CC_C_O
 AC_PROG_CXX
-AC_ISC_POSIX
 AC_HEADER_STDC
+PKG_PROG_PKG_CONFIG([0.22])
+
+IT_PROG_INTLTOOL([0.40])
+
+GETTEXT_PACKAGE=AC_PACKAGE_NAME
+AC_DEFINE_UNQUOTED(GETTEXT_PACKAGE,"$GETTEXT_PACKAGE",[The name of the gettext domain])
+AC_SUBST(GETTEXT_PACKAGE)
+
+AM_GLIB_GNU_GETTEXT
 
 AC_PATH_PROG(GLIB_GENMARSHAL, [glib-genmarshal])
 AC_PATH_PROG(GLIB_MKENUMS, [glib-mkenums])
@@ -39,6 +44,7 @@ AC_PATH_PROG(GLIB_MKENUMS, [glib-mkenums])
 
 LT_PREREQ([2.2.6])
 LT_INIT([disable-static win32-dll])
+LT_LIB_M
 
 ## don't rerun to this point if we abort
 AC_CACHE_SAVE
