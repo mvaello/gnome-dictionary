@@ -7,7 +7,6 @@ gnome_dictionary_CPPFLAGS = \
 	-DSYSCONFDIR=\""$(sysconfdir)"\" \
 	-DLIBDIR=\""$(libdir)"\" \
 	-DDATADIR=\""$(datadir)"\" \
-	-DUIDATADIR=\""$(datadir)/gnome-2.0/ui"\" \
 	-DPKGDATADIR=\""$(datadir)/gnome-dictionary"\" \
 	-DGNOMELOCALEDIR=\""$(prefix)/$(DATADIRNAME)/locale"\" \
 	$(NULL)
