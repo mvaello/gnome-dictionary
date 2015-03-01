@@ -117,14 +117,14 @@ endif
 
 gdict-marshal.h: stamp-gdict-marshal.h
 	@true
-stamp-gdict-marshal.h: gdict-marshal.list $(GLIB_GENMARSHAL) Makefile
+stamp-gdict-marshal.h: gdict-marshal.list Makefile
 	$(AM_V_GEN)$(GLIB_GENMARSHAL) \
 	  $(srcdir)/gdict-marshal.list --header --prefix=gdict_marshal >> xgen-gmh \
 	&& ( cmp -s xgen-gmh gdict-marshal.h || cp xgen-gmh gdict-marshal.h ) \
 	&& rm -f xgen-gmh \
 	&& echo timestamp > $@
 
-gdict-marshal.c: gdict-marshal.list $(GLIB_GENMARSHAL) Makefile
+gdict-marshal.c: gdict-marshal.list Makefile
 	$(AM_V_GEN)( echo "#include \"gdict-marshal.h\""; echo; \
 	  $(GLIB_GENMARSHAL) \
 	  $(srcdir)/gdict-marshal.list --body --prefix=gdict_marshal ) >> xgen-gmc \

@@ -2,6 +2,8 @@ NULL =
 
 bin_PROGRAMS = gnome-dictionary
 
+BUILT_SOURCES = gdict-resources.c
+
 gnome_dictionary_CPPFLAGS = \
 	-DPREFIX=\""$(prefix)"\" \
 	-DSYSCONFDIR=\""$(sysconfdir)"\" \
@@ -39,7 +41,17 @@ gnome_dictionary_SOURCES = \
 	main.c			\
 	$(NULL)
 
+nodist_gnome_dictionary_SOURCES = gdict-resources.c
+
 gnome_dictionary_LDADD = $(top_builddir)/libgdict/libgdict-1.0.la $(GDICT_LIBS) $(LIBM)
 gnome_dictionary_DEPENDENCIES = $(top_builddir)/libgdict/libgdict-1.0.la
+
+CLEANFILES = gdict-resources.c
+EXTRA_DIST = gdict.gresource.xml $(resource_files)
+
+resource_files = $(shell $(GLIB_COMPILE_RESOURCES) --sourcedir=$(srcdir) --generate-dependencies $(srcdir)/gdict.gresource.xml)
+
+gdict-resources.c: gdict.gresource.xml $(resource_files)
+	$(AM_V_GEN) $(GLIB_COMPILE_RESOURCES) --target=$@ --sourcedir=$(srcdir) --generate-source $<
 
 -include $(top_srcdir)/git.mk

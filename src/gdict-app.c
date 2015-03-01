@@ -327,15 +327,7 @@ gdict_startup (GApplication *application,
                                    app_entries, G_N_ELEMENTS (app_entries),
                                    application);
 
-  if (!gtk_builder_add_from_file (builder,
-                                  PKGDATADIR "/gnome-dictionary-menus.ui",
-                                  &error))
-    {
-      g_warning ("Building menus failed: %s", error->message);
-      g_error_free (error);
-
-      return;
-    }
+  gtk_builder_add_from_resource (builder, "/org/gnome/Dictionary/gnome-dictionary-menus.ui", NULL);
 
   gtk_application_set_menubar (GTK_APPLICATION (application),
                                G_MENU_MODEL (gtk_builder_get_object (builder, "menubar")));

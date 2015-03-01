@@ -43,17 +43,6 @@ dictsource_DATA = $(dictsource_in_files:.desktop.in=.desktop)
 
 EXTRA_DIST += $(dictsource_in_files)
 
-builderdir = $(datadir)/gnome-dictionary
-builder_DATA = \
-	gnome-dictionary-preferences.ui	\
-	gnome-dictionary-source.ui	\
-	gnome-dictionary-menus.ui	\
-	$(NULL)
-
-EXTRA_DIST += \
-	$(builder_DATA) \
-	$(NULL)
-
 gsettings_SCHEMAS = org.gnome.dictionary.gschema.xml
 CLEANFILES += $(gsettings_SCHEMAS) \
 	$(dictsource_DATA) \

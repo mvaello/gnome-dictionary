@@ -38,7 +38,7 @@
 #include "gdict-source-dialog.h"
 #include "gdict-common.h"
 
-#define GDICT_SOURCE_UI 	PKGDATADIR "/gnome-dictionary-source.ui"
+#define GDICT_SOURCE_UI 	"/org/gnome/Dictionary/gnome-dictionary-source.ui"
 
 /*********************
  * GdictSourceDialog *
@@ -574,7 +574,6 @@ gdict_source_dialog_constructor (GType                  type,
   GObject *object;
   GdictSourceDialog *dialog;
   GtkWidget *vbox;
-  GError *error = NULL;
 
   object = G_OBJECT_CLASS (gdict_source_dialog_parent_class)->constructor (type,
 									   n_construct_properties,
@@ -586,14 +585,7 @@ gdict_source_dialog_constructor (GType                  type,
   
   /* get the UI from the GtkBuilder file */
   dialog->builder = gtk_builder_new ();
-  gtk_builder_add_from_file (dialog->builder, GDICT_SOURCE_UI, &error);
-
-  if (error) {
-    g_critical ("Unable to load the user interface definition file: %s",
-                error->message);
-    g_error_free (error);
-    g_assert_not_reached ();
-  }
+  gtk_builder_add_from_resource (dialog->builder, GDICT_SOURCE_UI, NULL);
   
   /* the main widget */
   gtk_container_add (GTK_CONTAINER (gtk_dialog_get_content_area (GTK_DIALOG (dialog))),

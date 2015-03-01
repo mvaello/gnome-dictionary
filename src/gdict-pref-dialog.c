@@ -39,7 +39,7 @@
 #include "gdict-pref-dialog.h"
 #include "gdict-common.h"
 
-#define GDICT_PREFERENCES_UI 	PKGDATADIR "/gnome-dictionary-preferences.ui"
+#define GDICT_PREFERENCES_UI 	"/org/gnome/Dictionary/gnome-dictionary-preferences.ui"
 
 #define DEFAULT_MIN_WIDTH 	220
 #define DEFAULT_MIN_HEIGHT 	330
@@ -622,7 +622,6 @@ static void
 gdict_pref_dialog_init (GdictPrefDialog *dialog)
 {
   gchar *font;
-  GError *error = NULL;
 
   gtk_window_set_default_size (GTK_WINDOW (dialog),
   			       DEFAULT_MIN_WIDTH,
@@ -643,13 +642,7 @@ gdict_pref_dialog_init (GdictPrefDialog *dialog)
 
   /* get the UI from the GtkBuilder file */
   dialog->builder = gtk_builder_new ();
-  gtk_builder_add_from_file (dialog->builder, GDICT_PREFERENCES_UI, &error);
-
-  if (error) {
-    g_critical ("Unable to load the preferences user interface: %s", error->message);
-    g_error_free (error);
-    g_assert_not_reached ();
-  }
+  gtk_builder_add_from_resource (dialog->builder, GDICT_PREFERENCES_UI, NULL);
 
   /* the main widget */
   gtk_container_add (GTK_CONTAINER (gtk_dialog_get_content_area (GTK_DIALOG (dialog))),
