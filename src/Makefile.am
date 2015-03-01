@@ -3,13 +3,21 @@ NULL =
 bin_PROGRAMS = gnome-dictionary
 
 gnome_dictionary_CPPFLAGS = \
-	-DPREFIX=\""$(prefix)"\"			\
-	-DSYSCONFDIR=\""$(sysconfdir)"\"		\
-	-DLIBDIR=\""$(libdir)"\"			\
-	-DDATADIR=\""$(datadir)"\" 			\
-	-DUIDATADIR=\""$(datadir)/gnome-2.0/ui"\" 	\
-	-DPKGDATADIR=\""$(datadir)/gnome-dictionary"\" 	\
+	-DPREFIX=\""$(prefix)"\" \
+	-DSYSCONFDIR=\""$(sysconfdir)"\" \
+	-DLIBDIR=\""$(libdir)"\" \
+	-DDATADIR=\""$(datadir)"\" \
+	-DUIDATADIR=\""$(datadir)/gnome-2.0/ui"\" \
+	-DPKGDATADIR=\""$(datadir)/gnome-dictionary"\" \
 	-DGNOMELOCALEDIR=\""$(prefix)/$(DATADIRNAME)/locale"\" \
+	$(NULL)
+
+gnome_dictionary_CFLAGS = \
+	-I$(top_builddir) \
+	-I$(top_srcdir) \
+	-I$(top_srcdir)/libgdict \
+	-I$(top_builddir)/libgdict \
+	$(GDICT_CFLAGS) \
 	$(NULL)
 
 gnome_dictionary_SOURCES = \
@@ -32,20 +40,7 @@ gnome_dictionary_SOURCES = \
 	main.c			\
 	$(NULL)
 
-gnome_dictionary_CFLAGS = \
-	-I$(top_builddir)	\
-	-I$(top_srcdir)		\
-	-I$(top_srcdir)/libgdict	\
-	-I$(top_builddir)/libgdict 	\
-	$(GDICT_CFLAGS)		\
-	$(NULL)
-
-gnome_dictionary_LDADD = \
-	-lm			\
-	$(top_builddir)/libgdict/libgdict-1.0.la \
-	$(GDICT_LIBS)		\
-	$(NULL)
-
+gnome_dictionary_LDADD = $(top_builddir)/libgdict/libgdict-1.0.la $(GDICT_LIBS) $(LIBM)
 gnome_dictionary_DEPENDENCIES = $(top_builddir)/libgdict/libgdict-1.0.la
 
 -include $(top_srcdir)/git.mk
