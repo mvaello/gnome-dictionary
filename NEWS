@@ -1,3 +1,27 @@
+GNOME Dictionary 3.15.91                                              2015-03-02
+================================================================================
+Application
+ * Rename the AppData file to match the desktop name (Richard Hughes)
+ * Fix #745022: Drop deprecated API (Emmanuele Bassi)
+ * Drop slash for the 'Find' action (Saurav Agarwalla)
+
+Library
+ * Fix #745022: Drop deprecated API (Emmanuele Bassi)
+
+Translations
+ * cs (Marek Černocký), de (Wolfgang Stöggl), el (Efstathios Iosifidis),
+   el (Tom Tryfonidis), es (Daniel Mustieles), fr (Alexandre Franke),
+   gl (Fran Dieguez), he (Yosef Or Boczko), hu (Balázs Úr),
+   lt (Aurimas Černius), pt_BR (Rafael Ferreira), ru (Stas Solovey),
+   sk (Dušan Kazik), sl (Matej Urbančič), tr (Muhammet Kara),
+   uk (Daniel Korostil), zh_TW (Chao-Hsiung Liao), zh_TW (Cheng-Chia Tseng)
+
+Build
+ * Fix #745022: Drop deprecated API (Emmanuele Bassi)
+ * Use $(LIBM) instead of -lm (Emmanuele Bassi)
+ * Remove unused define (Emmanuele Bassi)
+ * Move UI definitions to GResource (Emmanuele Bassi)
+
 GNOME Dictionary 3.15.90                                              2015-02-16
 ================================================================================
 Application
