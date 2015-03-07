@@ -184,14 +184,6 @@ gdict_app_init (GdictApp *app)
 {
 }
 
-static void
-gdict_activate (GApplication *application,
-                GdictApp     *gdict_app)
-{
-  GtkWidget *window;
-
-}
-
 gchar **
 strv_concat (gchar **strv1, gchar **strv2)
 {
@@ -210,7 +202,7 @@ strv_concat (gchar **strv1, gchar **strv2)
 }
 
 static int
-gdict_command_line (GApplication *application,
+gdict_command_line (GApplication            *application,
                     GApplicationCommandLine *cmd_line,
                     GdictApp                *gdict_app)
 {
@@ -315,6 +307,19 @@ out:
 }
 
 static void
+gdict_activate (GApplication *application,
+                GdictApp     *singleton)
+{
+  GtkWidget *window = gdict_window_new (GDICT_WINDOW_ACTION_CLEAR,
+                                        singleton->loader,
+                                        NULL, NULL, NULL,
+                                        NULL);
+
+  gtk_window_set_application (GTK_WINDOW (window), singleton->app);
+  gtk_widget_show (window);
+}
+
+static void
 gdict_startup (GApplication *application,
                gpointer      user_data)
 {
@@ -366,6 +371,7 @@ gdict_main (int    *argc,
 
   singleton->app = gtk_application_new ("org.gnome.Dictionary", G_APPLICATION_HANDLES_COMMAND_LINE);
   g_application_add_main_option_entries (G_APPLICATION (singleton->app), gdict_app_goptions);
+  g_signal_connect (singleton->app, "activate", G_CALLBACK (gdict_activate), singleton);
   g_signal_connect (singleton->app, "command-line", G_CALLBACK (gdict_command_line), singleton);
   g_signal_connect (singleton->app, "startup", G_CALLBACK (gdict_startup), singleton);
 
