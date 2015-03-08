@@ -39,7 +39,7 @@
 #include "gdict-pref-dialog.h"
 #include "gdict-common.h"
 
-#define GDICT_PREFERENCES_UI 	"/org/gnome/Dictionary/gnome-dictionary-preferences.ui"
+#define GDICT_PREFERENCES_UI 	"/org/gnome/Dictionary/gdict-pref-dialog.ui"
 
 #define DEFAULT_MIN_WIDTH 	220
 #define DEFAULT_MIN_HEIGHT 	330
