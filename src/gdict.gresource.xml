@@ -3,6 +3,6 @@
   <gresource prefix="/org/gnome/Dictionary">
     <file preprocess="xml-stripblanks">gnome-dictionary-menus.ui</file>
     <file preprocess="xml-stripblanks">gnome-dictionary-preferences.ui</file>
-    <file preprocess="xml-stripblanks">gnome-dictionary-source.ui</file>
+    <file preprocess="xml-stripblanks">gdict-source-dialog.ui</file>
   </gresource>
 </gresources>
