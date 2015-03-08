@@ -2,7 +2,7 @@
 # Please keep this file sorted alphabetically.
 data/default.desktop.in
 data/org.gnome.Dictionary.appdata.xml.in
-[type: gettext/glade]src/gnome-dictionary-menus.ui
+[type: gettext/glade]src/gdict-app-menus.ui
 [type: gettext/glade]src/gnome-dictionary-preferences.ui
 [type: gettext/glade]src/gdict-source-dialog.ui
 data/org.gnome.Dictionary.desktop.in.in

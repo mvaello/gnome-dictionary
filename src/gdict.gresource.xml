@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gresources>
   <gresource prefix="/org/gnome/Dictionary">
-    <file preprocess="xml-stripblanks">gnome-dictionary-menus.ui</file>
     <file preprocess="xml-stripblanks">gnome-dictionary-preferences.ui</file>
+    <file preprocess="xml-stripblanks">gdict-app-menus.ui</file>
     <file preprocess="xml-stripblanks">gdict-source-dialog.ui</file>
   </gresource>
 </gresources>
