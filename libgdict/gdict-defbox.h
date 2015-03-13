@@ -48,14 +48,15 @@ struct _GdictDefboxClass
   GtkBoxClass parent_class;
   
   /* these are all RUN_ACTION signals for key bindings */
-  void (*show_find)     (GdictDefbox *defbox);
-  void (*hide_find)     (GdictDefbox *defbox);
-  void (*find_previous) (GdictDefbox *defbox);
-  void (*find_next)     (GdictDefbox *defbox);
+  void (*show_find)         (GdictDefbox *defbox);
+  void (*hide_find)         (GdictDefbox *defbox);
+  void (*find_previous)     (GdictDefbox *defbox);
+  void (*find_next)         (GdictDefbox *defbox);
 
   /* signals */
-  void (*link_clicked)  (GdictDefbox *defbox,
-                         const gchar *link);
+  void (*link_clicked)      (GdictDefbox *defbox,
+                             const gchar *link);
+  void (*selection_changed) (GdictDefbox *defbox);
   
   /* padding for future expansion */
   void (*_gdict_defbox_1) (void);
@@ -95,6 +96,7 @@ void                  gdict_defbox_set_font_name      (GdictDefbox  *defbox,
 						       const gchar  *font_name);
 const gchar *         gdict_defbox_get_font_name      (GdictDefbox  *defbox);
 gchar *               gdict_defbox_get_selected_word  (GdictDefbox  *defbox) G_GNUC_MALLOC;
+gboolean              gdict_defbox_get_has_selection  (GdictDefbox  *defbox);
 
 G_END_DECLS
 

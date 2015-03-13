@@ -116,6 +116,7 @@ enum
   FIND_NEXT,
   FIND_PREVIOUS,
   LINK_CLICKED,
+  SELECTION_CHANGED,
   
   LAST_SIGNAL
 };
@@ -1494,6 +1495,15 @@ defbox_event_after_cb (GtkWidget   *text_view,
 }
 
 static void
+defbox_notify_has_selection (GtkTextBuffer *buffer,
+                             GParamSpec    *pspec,
+                             GdictDefbox   *defbox)
+{
+  GDICT_NOTE (DEFBOX, "text buffer has-selection notified");
+  g_signal_emit (defbox, gdict_defbox_signals[SELECTION_CHANGED], 0);
+}
+
+static void
 set_cursor_if_appropriate (GdictDefbox *defbox,
                            GtkTextView *text_view,
                            gint         x,
@@ -1626,6 +1636,9 @@ gdict_defbox_constructor (GType                  type,
   
   priv->buffer = gtk_text_buffer_new (NULL);
   gdict_defbox_init_tags (defbox);
+  g_signal_connect (priv->buffer, "notify::has-selection",
+                    G_CALLBACK (defbox_notify_has_selection),
+                    defbox);
   
   priv->text_view = gtk_text_view_new_with_buffer (priv->buffer);
   gtk_text_view_set_editable (GTK_TEXT_VIEW (priv->text_view), FALSE);
@@ -1820,6 +1833,14 @@ gdict_defbox_class_init (GdictDefboxClass *klass)
                   gdict_marshal_VOID__STRING,
                   G_TYPE_NONE, 1,
                   G_TYPE_STRING);
+  gdict_defbox_signals[SELECTION_CHANGED] =
+    g_signal_new ("selection-changed",
+                  G_OBJECT_CLASS_TYPE (gobject_class),
+                  G_SIGNAL_RUN_LAST,
+                  G_STRUCT_OFFSET (GdictDefboxClass, selection_changed),
+                  NULL, NULL,
+                  gdict_marshal_VOID__VOID,
+                  G_TYPE_NONE, 0);
   
   klass->show_find = gdict_defbox_real_show_find;
   klass->hide_find = gdict_defbox_real_hide_find;
@@ -2859,4 +2880,28 @@ gdict_defbox_get_selected_word (GdictDefbox *defbox)
 
       return retval;
     }
+}
+
+/**
+ * gdict_defbox_get_has_selection
+ * @defbox: a #GdictDefbox
+ *
+ * Retrieves whether there is text selected in @defbox or not.
+ *
+ * Return value: whether text is selected or not.
+ *
+ * Since: 0.12
+ */
+gboolean
+gdict_defbox_get_has_selection (GdictDefbox *defbox)
+{
+  GdictDefboxPrivate *priv;
+  GtkTextBuffer *buffer;
+
+  g_return_val_if_fail (GDICT_IS_DEFBOX (defbox), NULL);
+
+  priv = defbox->priv;
+  buffer = gtk_text_view_get_buffer (GTK_TEXT_VIEW (priv->text_view));
+
+  return gtk_text_buffer_get_has_selection (buffer);
 }
