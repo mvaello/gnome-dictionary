@@ -157,6 +157,10 @@ static const gchar *toggle_actions[] = {
   "next-def",
   "first-def",
   "last-def",
+  "select-all",
+  "find",
+  "find-next",
+  "find-previous",
 };
 
 static gint n_toggle_state = G_N_ELEMENTS (toggle_actions);
@@ -1514,6 +1518,21 @@ gdict_window_link_clicked (GdictDefbox *defbox,
 }
 
 static void
+gdict_window_defbox_selection_changed (GdictDefbox *defbox,
+                                       GdictWindow *window)
+{
+  GAction *action;
+  gboolean has_selection;
+
+  action = g_action_map_lookup_action (G_ACTION_MAP (window), "copy");
+  if (action)
+    {
+      has_selection = gdict_defbox_get_has_selection (defbox);
+      g_simple_action_set_enabled (G_SIMPLE_ACTION (action), has_selection);
+    }
+}
+
+static void
 gdict_window_drag_data_received_cb (GtkWidget        *widget,
 				    GdkDragContext   *context,
 				    gint              x,
@@ -1662,6 +1681,10 @@ gdict_window_constructor (GType                  type,
   g_signal_connect (window->defbox, "link-clicked",
                     G_CALLBACK (gdict_window_link_clicked),
                     window);
+  g_signal_connect (GDICT_DEFBOX (window->defbox), "selection-changed",
+                    G_CALLBACK (gdict_window_defbox_selection_changed),
+                    window);
+  gdict_window_defbox_selection_changed (window->defbox, window);
 
   gtk_drag_dest_set (window->defbox,
   		     GTK_DEST_DEFAULT_ALL,
