@@ -1,3 +1,15 @@
+GNOME Dictionary 3.15.92                                              2015-03-15
+================================================================================
+Application
+ * Implement GApplication::activate signal (Emmanuele Bassi)
+
+Translations
+ * bs (Samir Ribic), da (Ask Hjorth Larsen), eo (Kristjan SCHMIDT),
+   fi (Jiri Grönroos), it (Milo Casagrande), kk (Baurzhan Muftakhidinov),
+   ko (Changwoo Ryu), nb (Kjartan Maraas), pl (Paweł Żołnowski),
+   sr@latin (Мирослав Николић), sv (Anders Jonsson), tg (Victor Ibragimov),
+   vi (Trần Ngọc Quân)
+
 GNOME Dictionary 3.15.91                                              2015-03-02
 ================================================================================
 Application
