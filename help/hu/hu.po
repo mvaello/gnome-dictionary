@@ -3,20 +3,20 @@
 # This file is distributed under the same license as the user help.
 #
 # Balázs Úr <urbalazs at gmail dot com>, 2014.
-# Gabor Kelemen <kelemeng at gnome dot hu>, 2014.
+# Gabor Kelemen <kelemeng at gnome dot hu>, 2014, 2015.
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-dictionary master\n"
-"POT-Creation-Date: 2014-04-13 18:57+0000\n"
-"PO-Revision-Date: 2014-05-04 16:02+0200\n"
-"Last-Translator: Gabor Kelemen <kelemeng at gnome dot hu>\n"
-"Language-Team: Hungarian <gnome-hu-list@gnome.org>\n"
+"POT-Creation-Date: 2015-03-20 19:38+0000\n"
+"PO-Revision-Date: 2015-03-21 07:57+0100\n"
+"Last-Translator: Gabor Kelemen <kelemeng at ubuntu dot com>\n"
+"Language-Team: Hungarian <openscope at googlegroups dot com>\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 1.4\n"
+"X-Generator: Lokalize 1.5\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
@@ -633,7 +633,7 @@ msgstr ""
 #. (itstool) path: info/desc
 #: C/print.page:24
 msgid "Print preview and print definitions."
-msgstr "Nyomtatási kép és meghatározások nyomtatása."
+msgstr "Meghatározások nyomtatási képe és nyomtatása."
 
 #. (itstool) path: page/title
 #: C/print.page:28
@@ -830,7 +830,8 @@ msgid ""
 "may want to add a <file>.txt</file> file extension to the end of the file "
 "name."
 msgstr ""
-"Válassza ki, hogy hová szerné elmenteni a meghatározást, és mi legyen a fájl "
+"Válassza ki, hogy hová szeretné elmenteni a meghatározást, és mi legyen a "
+"fájl "
 "neve. Érdemes lehet hozzáadni a <file>.txt</file> fájlkiterjesztést a "
 "fájlnév végéhez."
 
@@ -879,8 +880,8 @@ msgid ""
 "double click on the entry."
 msgstr ""
 "A <gui>Hasonló szavak</gui> oldalsáv meg fogja jeleníteni a találatokat a "
-"kiválasztott szótárforrásokban lévő egyéb szótárakban. A "
-"hasonló szó megtekintéséhez kattintson duplán a bejegyzésre."
+"kiválasztott szótárforrásokban lévő egyéb szótárakban. A hasonló szó "
+"megtekintéséhez kattintson duplán a bejegyzésre."
 
 #. (itstool) path: page/title
 #: C/source-add-local.page:20
@@ -976,9 +977,8 @@ msgid ""
 "A dialog will pop up asking you to confirm that you wish to permanently "
 "delete the selected source. Once you confirm, the source will be deleted."
 msgstr ""
-"Egy párbeszédablak fog felugrani azt kérve, hogy erősítse meg "
-"a kiválasztott forrás végleges törlését. Ha megerősítette, a forrás "
-"törlésre kerül."
+"Egy párbeszédablak fog felugrani azt kérve, hogy erősítse meg a kiválasztott "
+"forrás végleges törlését. Ha megerősítette, a forrás törlésre kerül."
 
 #. (itstool) path: page/title
 #: C/sources-edit.page:24
@@ -1091,9 +1091,8 @@ msgid ""
 "You can change the <link xref=\"sources\">dictionary source</link> that you "
 "are currently using without changing your default preferences."
 msgstr ""
-"Megváltoztathatja az aktuálisan használt <link xref=\"sources\">"
-"szótárforrást</"
-"link> az alapértelmezett beállítások módosítása nélkül."
+"Megváltoztathatja az aktuálisan használt <link xref=\"sources"
+"\">szótárforrást</link> az alapértelmezett beállítások módosítása nélkül."
 
 #. (itstool) path: steps/title
 #: C/sources-select.page:32
@@ -1167,7 +1166,6 @@ msgid ""
 "one of the menus."
 msgstr ""
 "Illessze be a szöveget egy másik alkalmazásba. Ezt általában a "
-"<keyseq><key>Ctrl</key><key>P</key></keyseq> gyorsbillentyű használatával "
+"<keyseq><key>Ctrl</key><key>V</key></keyseq> gyorsbillentyű használatával "
 "vagy a menük egyikével teheti meg."
-
 
