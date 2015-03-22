@@ -3,13 +3,13 @@
 # This file is distributed under the same license as the gnome-utils help.
 #
 # Petr Kovar <pknbe@volny.cz>, 2009.
-# Marek Černocký <marek@manet.cz>, 2009, 2014.
+# Marek Černocký <marek@manet.cz>, 2009, 2014, 2015.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-utils gnome-2-28\n"
-"POT-Creation-Date: 2014-01-02 06:52+0000\n"
-"PO-Revision-Date: 2014-03-27 18:20+0100\n"
+"POT-Creation-Date: 2015-03-22 19:36+0000\n"
+"PO-Revision-Date: 2015-03-22 23:05+0100\n"
 "Last-Translator: Marek Černocký <marek@manet.cz>\n"
 "Language-Team: Czech <gnome-cs-list@gnome.org>\n"
 "Language: cs\n"
@@ -27,15 +27,9 @@ msgctxt "_"
 msgid "translator-credits"
 msgstr "Marek Černocký <marek@manet.cz>"
 
-#. (itstool) path: info/title
-#: C/index.page:8
-msgctxt "text"
-msgid "Dictionary"
-msgstr "Slovník"
-
 #. (itstool) path: credit/name
-#: C/index.page:11 C/definition.page:11 C/dictionary-select.page:11
-#: C/find.page:10 C/introduction.page:10 C/keyboard-shortcuts.page:11
+#: C/definition.page:11 C/dictionary-select.page:11 C/find.page:10
+#: C/index.page:11 C/introduction.page:10 C/keyboard-shortcuts.page:11
 #: C/pref.page:9 C/print-font.page:11 C/print.page:12
 #: C/prob-retrieving-definition.page:11 C/save-definition.page:10
 #: C/similar-words.page:11 C/source-add-local.page:11
@@ -45,46 +39,20 @@ msgid "Sindhu S"
 msgstr "Sindhu S"
 
 #. (itstool) path: credit/years
-#: C/index.page:13 C/definition.page:13 C/definition.page:18
-#: C/dictionary-select.page:13 C/dictionary-select.page:18 C/find.page:12
-#: C/find.page:17 C/introduction.page:12 C/introduction.page:17
-#: C/keyboard-shortcuts.page:13 C/keyboard-shortcuts.page:18
-#: C/print-font.page:13 C/print-font.page:18 C/print.page:14 C/print.page:19
-#: C/prob-retrieving-definition.page:13 C/prob-retrieving-definition.page:18
-#: C/save-definition.page:12 C/save-definition.page:17 C/similar-words.page:13
-#: C/similar-words.page:18 C/source-add-local.page:13
-#: C/sources-default.page:12 C/sources-default.page:17
-#: C/sources-delete.page:13 C/sources-delete.page:18 C/sources-edit.page:12
-#: C/sources-edit.page:17 C/sources.page:14 C/sources.page:19
-#: C/sources-select.page:14 C/sources-select.page:19 C/text-copy.page:13
-#: C/text-copy.page:18
+#: C/definition.page:13 C/definition.page:18 C/dictionary-select.page:13
+#: C/dictionary-select.page:18 C/find.page:12 C/find.page:17 C/index.page:13
+#: C/introduction.page:12 C/introduction.page:17 C/keyboard-shortcuts.page:13
+#: C/keyboard-shortcuts.page:18 C/print-font.page:13 C/print-font.page:18
+#: C/print.page:14 C/print.page:19 C/prob-retrieving-definition.page:13
+#: C/prob-retrieving-definition.page:18 C/save-definition.page:12
+#: C/save-definition.page:17 C/similar-words.page:13 C/similar-words.page:18
+#: C/source-add-local.page:13 C/sources-default.page:12
+#: C/sources-default.page:17 C/sources-delete.page:13 C/sources-delete.page:18
+#: C/sources-edit.page:12 C/sources-edit.page:17 C/sources.page:14
+#: C/sources.page:19 C/sources-select.page:14 C/sources-select.page:19
+#: C/text-copy.page:13 C/text-copy.page:18
 msgid "2013"
 msgstr "2013"
-
-#. (itstool) path: info/desc
-#: C/index.page:18
-msgid "Look up word definitions in <app>Dictionary</app>."
-msgstr "Vyhledávajte definice slov ve <app>Slovníku</app>."
-
-#. (itstool) path: page/title
-#: C/index.page:21
-msgid "<_:media-1/> Dictionary Help"
-msgstr "<_:media-1/> Nápověda ke Slovníku"
-
-#. (itstool) path: section/title
-#: C/index.page:26
-msgid "Features"
-msgstr "Funkce"
-
-#. (itstool) path: section/title
-#: C/index.page:30
-msgid "Preferences"
-msgstr "Předvolby"
-
-#. (itstool) path: section/title
-#: C/index.page:34
-msgid "Common problems and solutions"
-msgstr "Běžné problémy a jejich řešení"
 
 #. (itstool) path: credit/name
 #: C/definition.page:16 C/dictionary-select.page:16 C/find.page:15
@@ -261,6 +229,37 @@ msgstr ""
 "nepřechází přes okraj, tzn. že když jste na posledním výsledku a kliknete na "
 "<gui style=\"button\">Následující</gui> nepřejdete na začátek na první "
 "výsledek."
+
+#. (itstool) path: info/title
+#: C/index.page:8
+msgctxt "text"
+msgid "Dictionary"
+msgstr "Slovník"
+
+#. (itstool) path: info/desc
+#: C/index.page:18
+msgid "Look up word definitions in <app>Dictionary</app>."
+msgstr "Vyhledávajte definice slov ve <app>Slovníku</app>."
+
+#. (itstool) path: page/title
+#: C/index.page:21
+msgid "<_:media-1/> Dictionary Help"
+msgstr "<_:media-1/> Nápověda ke Slovníku"
+
+#. (itstool) path: section/title
+#: C/index.page:26
+msgid "Features"
+msgstr "Funkce"
+
+#. (itstool) path: section/title
+#: C/index.page:30
+msgid "Preferences"
+msgstr "Předvolby"
+
+#. (itstool) path: section/title
+#: C/index.page:34
+msgid "Common problems and solutions"
+msgstr "Běžné problémy a jejich řešení"
 
 #. (itstool) path: media
 #. This is a reference to an external file such as an image or video. When
@@ -1143,7 +1142,7 @@ msgstr ""
 #: C/text-copy.page:45
 msgid ""
 "Paste the text into another application. This can usually be done using the "
-"<keyseq><key>Ctrl</key><key>P</key></keyseq> keyboard shortcut or through "
+"<keyseq><key>Ctrl</key><key>V</key></keyseq> keyboard shortcut or through "
 "one of the menus."
 msgstr ""
 "Vložte text do jiné aplikace. Obvykle se to dělá pomocí klávesové zkratky "
