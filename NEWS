@@ -1,3 +1,12 @@
+GNOME Dictionary 3.16.0                                               2015-03-22
+================================================================================
+Translations
+ * ca (Jordi Mas), eu (Inaki Larranaga Murgoitio), id (Andika Triwidada),
+   tr (Muhammet Kara), hu (Gábor Kelemen)
+
+Documentation
+ * Fix paste keyboard shortcut (Gabor Kelemen)
+
 GNOME Dictionary 3.15.92                                              2015-03-15
 ================================================================================
 Application
