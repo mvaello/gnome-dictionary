@@ -1560,7 +1560,7 @@ gdict_window_constructor (GType                  type,
 {
   GObject *object;
   GdictWindow *window;
-  GtkWidget *hbox;
+  GtkBuilder *builder;
   GtkWidget *handle;
   GtkWidget *frame1, *frame2;
   GtkWidget *vbox;
@@ -1577,32 +1577,27 @@ gdict_window_constructor (GType                  type,
   /* recover the state */
   gdict_window_load_state (window);
 
-  window->main_box = gtk_box_new (GTK_ORIENTATION_VERTICAL, 0);
-  gtk_container_add (GTK_CONTAINER (window), window->main_box);
-  gtk_widget_show (window->main_box);
-  
   /* build menus */
   g_action_map_add_action_entries (G_ACTION_MAP (window),
                                    entries, G_N_ELEMENTS (entries),
                                    window);
   gdict_window_ensure_menu_state (window);
 
+  button = gtk_menu_button_new ();
+  builder = gtk_builder_new ();
+  gtk_builder_add_from_resource (builder, "/org/gnome/Dictionary/gdict-app-menus.ui", NULL);
+  gtk_menu_button_set_menu_model (GTK_MENU_BUTTON (button),
+                                  G_MENU_MODEL (gtk_builder_get_object (builder, "menubar")));
+  g_object_unref (builder);
+  gtk_menu_button_set_direction (GTK_MENU_BUTTON (button), GTK_ARROW_NONE);
+  gtk_header_bar_pack_end (GTK_HEADER_BAR (window->header_bar), button);
+  gtk_widget_show (button);
+
   vbox = gtk_box_new (GTK_ORIENTATION_VERTICAL, 6);
   gtk_container_set_border_width (GTK_CONTAINER (vbox), 6);
   gtk_container_add (GTK_CONTAINER (window->main_box), vbox);
   gtk_widget_show (vbox);
   
-  hbox = gtk_box_new (GTK_ORIENTATION_HORIZONTAL, 12);
-  gtk_box_pack_start (GTK_BOX (vbox), hbox, FALSE, FALSE, 0);
-  gtk_widget_show (hbox);
-  
-  button = gtk_button_new_with_mnemonic (_("Look _up"));
-  g_signal_connect_swapped (button, "clicked",
-                            G_CALLBACK (lookup_word),
-                            window);
-  gtk_box_pack_end (GTK_BOX (hbox), button, FALSE, FALSE, 0);
-  gtk_widget_show (button);
-
   window->completion_model = gtk_list_store_new (COMPLETION_N_COLUMNS,
 		  				 G_TYPE_STRING);
   
@@ -1613,7 +1608,6 @@ gdict_window_constructor (GType                  type,
   gtk_entry_completion_set_text_column (window->completion,
 		  			COMPLETION_TEXT_COLUMN);
   
-  window->entry = gtk_entry_new ();
   if (window->word)
     gtk_entry_set_text (GTK_ENTRY (window->entry), window->word);
   
@@ -1622,8 +1616,6 @@ gdict_window_constructor (GType                  type,
   g_signal_connect_swapped (window->entry, "activate",
                             G_CALLBACK (lookup_word),
                             window);
-  gtk_box_pack_start (GTK_BOX (hbox), window->entry, TRUE, TRUE, 0);
-  gtk_widget_show (window->entry);
 
   handle = gtk_paned_new (GTK_ORIENTATION_HORIZONTAL);
   gtk_box_pack_start (GTK_BOX (vbox), handle, TRUE, TRUE, 0);
@@ -1826,6 +1818,13 @@ gdict_window_class_init (GdictWindowClass *klass)
   GObjectClass *gobject_class = G_OBJECT_CLASS (klass);
   GtkWidgetClass *widget_class = GTK_WIDGET_CLASS (klass);
 
+  gtk_widget_class_set_template_from_resource (widget_class,
+                                               "/org/gnome/Dictionary/gdict-app-window.ui");
+
+  gtk_widget_class_bind_template_child (widget_class, GdictWindow, header_bar);
+  gtk_widget_class_bind_template_child (widget_class, GdictWindow, entry);
+  gtk_widget_class_bind_template_child (widget_class, GdictWindow, main_box);
+
   gdict_window_properties[PROP_ACTION] =
     g_param_spec_enum ("action",
                        "Action",
@@ -1945,6 +1944,8 @@ gdict_window_init (GdictWindow *window)
   window->sidebar_page = NULL;
   
   window->window_id = (gulong) time (NULL);
+
+  gtk_widget_init_template (GTK_WIDGET (window));
 
   /* we need to create the chooser widgets for the sidebar before
    * we set the construction properties

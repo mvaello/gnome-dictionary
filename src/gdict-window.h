@@ -48,6 +48,7 @@ struct _GdictWindow
 {
   GtkApplicationWindow parent_instance;
   
+  GtkWidget *header_bar;
   GtkWidget *main_box;
   GtkWidget *entry;
   

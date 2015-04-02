@@ -331,8 +331,6 @@ gdict_app_startup (GApplication *application)
 
   gtk_builder_add_from_resource (builder, "/org/gnome/Dictionary/gdict-app-menus.ui", NULL);
 
-  gtk_application_set_menubar (GTK_APPLICATION (application),
-                               G_MENU_MODEL (gtk_builder_get_object (builder, "menubar")));
   gtk_application_set_app_menu (GTK_APPLICATION (application),
                                 G_MENU_MODEL (gtk_builder_get_object (builder, "app-menu")));
   gtk_application_set_accels_for_action (GTK_APPLICATION (application), "win.lookup", lookup_accels);
