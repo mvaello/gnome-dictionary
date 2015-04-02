@@ -2898,7 +2898,7 @@ gdict_defbox_get_has_selection (GdictDefbox *defbox)
   GdictDefboxPrivate *priv;
   GtkTextBuffer *buffer;
 
-  g_return_val_if_fail (GDICT_IS_DEFBOX (defbox), NULL);
+  g_return_val_if_fail (GDICT_IS_DEFBOX (defbox), FALSE);
 
   priv = defbox->priv;
   buffer = gtk_text_view_get_buffer (GTK_TEXT_VIEW (priv->text_view));
