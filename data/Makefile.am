@@ -10,6 +10,7 @@ gdictappdir = $(datadir)/applications
 gdictapp_in_files = org.gnome.Dictionary.desktop.in
 gdictapp_DATA = $(gdictapp_in_files:.desktop.in=.desktop)
 EXTRA_DIST += org.gnome.Dictionary.desktop.in.in
+CLEANFILES += $(gdictapp_in_files) $(gdictapp_DATA)
 
 $(gdictapp_in_files): $(gdictapp_in_files:.desktop.in=.desktop.in.in)
 	$(AM_V_GEN)sed -e "s|\@VERSION\@|@VERSION@|" $< > $@
@@ -25,11 +26,14 @@ org.gnome.Dictionary.service: Makefile
 		     echo 'Exec=${bindir}/gnome-dictionary --gapplication-service') > $@.tmp && \
 		     mv $@.tmp $@
 
+CLEANFILES += $(dbusservice_DATA)
+
 @INTLTOOL_XML_RULE@
 appdatadir = $(datadir)/appdata
 appdata_DATA = $(appdata_in_files:.xml.in=.xml)
 appdata_in_files = org.gnome.Dictionary.appdata.xml.in
 EXTRA_DIST += $(appdata_in_files)
+CLEANFILES += $(appdata_DATA)
 
 # dictionary sources definitions
 dictsourcedir = $(datadir)/gdict-1.0/sources
@@ -42,18 +46,10 @@ dictsource_DATA = $(dictsource_in_files:.desktop.in=.desktop)
 @INTLTOOL_DESKTOP_RULE@
 
 EXTRA_DIST += $(dictsource_in_files)
+CLEANFILES += $(dictsource_DATA)
 
 gsettings_SCHEMAS = org.gnome.dictionary.gschema.xml
-CLEANFILES += $(gsettings_SCHEMAS) \
-	$(dictsource_DATA) \
-	$(gdictapp_in_files) \
-	$(gdictapp_DATA) \
-	$(appdata_DATA) \
-	$(dbusservice_DATA)
-	
-@GSETTINGS_RULES@
 
-%.gschema.xml: %.gschema.xml.in
-	$(AM_V_GEN) $(INTLTOOL_MERGE) -x -u --no-translations $< $@
+@GSETTINGS_RULES@
 
 -include $(top_srcdir)/git.mk
