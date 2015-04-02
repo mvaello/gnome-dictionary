@@ -867,44 +867,6 @@ gdict_window_load_state (GdictWindow *window)
 }
 
 static void
-gdict_window_cmd_file_new (GSimpleAction   *action,
-                           GVariant        *parameter,
-                           gpointer         user_data)
-{
-  GdictWindow *window = user_data;
-  GtkApplication *application = gtk_window_get_application (GTK_WINDOW (window));
-  GtkWidget *new_window;
-  gchar *word = NULL;
-
-  gdict_window_store_state (window);
-
-  word = gdict_defbox_get_selected_word (GDICT_DEFBOX (window->defbox));
-  if (word)
-    {
-      new_window = gdict_window_new (GDICT_WINDOW_ACTION_LOOKUP,
-                                     application,
-                                     window->loader,
-                                     NULL,
-                                     NULL,
-                                     NULL,
-                                     word);
-      g_free (word);
-    }
-  else
-    new_window = gdict_window_new (GDICT_WINDOW_ACTION_CLEAR,
-                                   application,
-                                   window->loader,
-                                   NULL,
-                                   NULL,
-                                   NULL,
-                                   NULL);
-
-  gtk_widget_show (new_window);
-  
-  g_signal_emit (window, gdict_window_signals[CREATED], 0, new_window);
-}
-
-static void
 gdict_window_cmd_save_as (GSimpleAction   *action,
                           GVariant        *parameter,
                           gpointer         user_data)
@@ -1274,7 +1236,6 @@ gdict_window_cmd_escape (GSimpleAction *action,
 static const GActionEntry entries[] =
 {
   /* File menu */
-  { "new", gdict_window_cmd_file_new, NULL, NULL, NULL },
   { "save-as", gdict_window_cmd_save_as, NULL, NULL, NULL },
   { "preview", gdict_window_cmd_file_preview, NULL, NULL, NULL },
   { "print", gdict_window_cmd_file_print, NULL, NULL, NULL },
