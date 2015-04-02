@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <schemalist>
-  <schema id="org.gnome.dictionary" path="/org/gnome/dictionary/" gettext-domain="@GETTEXT_PACKAGE@">
+  <schema id="org.gnome.dictionary" path="/org/gnome/dictionary/" gettext-domain="gnome-dictionary">
     <key name="database" type="s">
       <default>'!'</default>
       <_summary>The default database to use</_summary>
