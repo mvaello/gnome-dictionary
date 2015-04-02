@@ -175,7 +175,6 @@ AC_CONFIG_FILES([
         libgdict/gdict-version.h
         libgdict/gdict-1.0.pc
         data/Makefile
-        data/org.gnome.dictionary.gschema.xml.in
         docs/Makefile
         docs/reference/Makefile
         docs/reference/gdict/Makefile

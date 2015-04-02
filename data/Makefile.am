@@ -53,4 +53,7 @@ CLEANFILES += $(gsettings_SCHEMAS) \
 	
 @GSETTINGS_RULES@
 
+%.gschema.xml: %.gschema.xml.in
+	$(AM_V_GEN) $(INTLTOOL_MERGE) -x -u --no-translations $< $@
+
 -include $(top_srcdir)/git.mk
