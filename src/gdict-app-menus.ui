@@ -101,10 +101,6 @@
           <attribute name="action">win.view-sidebar</attribute>
           <attribute name="accel">F9</attribute>
         </item>
-        <item>
-          <attribute name="label" translatable="yes">S_tatusbar</attribute>
-          <attribute name="action">win.view-statusbar</attribute>
-        </item>
       </section>
       <section>
         <item>

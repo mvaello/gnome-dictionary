@@ -64,9 +64,6 @@ struct _GdictWindow
   GtkWidget *defbox;
   GtkWidget *defbox_frame;
 
-  GtkWidget *status;
-  GtkWidget *progress;
-  
   GtkEntryCompletion *completion;
   GtkListStore *completion_model;
   
@@ -105,7 +102,6 @@ struct _GdictWindow
 
   guint is_maximized      : 1;
   guint sidebar_visible   : 1;
-  guint statusbar_visible : 1;
   guint in_construction   : 1;
   
   gulong window_id;

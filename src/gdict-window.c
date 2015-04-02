@@ -205,50 +205,22 @@ gdict_window_set_sidebar_visible (GdictWindow *window,
 }
 
 static void
-gdict_window_set_statusbar_visible (GdictWindow *window,
-				    gboolean     is_visible)
-{
-  g_assert (GDICT_IS_WINDOW (window));
-
-  is_visible = !!is_visible;
-
-  if (is_visible != window->statusbar_visible)
-    {
-      GAction *action = g_action_map_lookup_action (G_ACTION_MAP (window),
-                                                    "view-statusbar");
-      g_action_change_state (action, g_variant_new_boolean (is_visible));
-    }
-}
-
-static void
 gdict_window_definition_cb (GdictContext    *context,
 			    GdictDefinition *definition,
 			    GdictWindow     *window)
 {
-  gint total, n;
-  gdouble fraction;
-
   g_assert (GDICT_IS_WINDOW (window));
 
-  total = gdict_definition_get_total (definition);
-  n = window->current_definition + 1;
-
-  fraction = CLAMP (((gdouble) n / (gdouble) total), 0.0, 1.0);
-
-  gtk_progress_bar_set_fraction (GTK_PROGRESS_BAR (window->progress),
-		  		 fraction);
   while (gtk_events_pending ())
     gtk_main_iteration ();
 
-  window->current_definition = n;
+  window->current_definition++;
 }
 
 static void
 gdict_window_lookup_start_cb (GdictContext *context,
 			      GdictWindow  *window)
 {
-  gchar *message;
-
   if (!window->word)
     return;
 
@@ -258,28 +230,17 @@ gdict_window_lookup_start_cb (GdictContext *context,
       window->busy_cursor = gdk_cursor_new_for_display (display, GDK_WATCH);
     }
 
-  message = g_strdup_printf (_("Searching for '%s'..."), window->word);
-  
-  if (window->status && window->statusbar_visible)
-    gtk_statusbar_push (GTK_STATUSBAR (window->status), 0, message);
-
-  if (window->progress)
-    gtk_widget_show (window->progress);
-
   window->max_definition = -1;
   window->last_definition = 0;
   window->current_definition = 0;
 
   gdk_window_set_cursor (gtk_widget_get_window (GTK_WIDGET (window)), window->busy_cursor);
-
-  g_free (message);
 }
 
 static void
 gdict_window_lookup_end_cb (GdictContext *context,
 			    GdictWindow  *window)
 {
-  gchar *message;
   gint count;
   GtkTreeIter iter;
   GdictSource *source;
@@ -288,20 +249,6 @@ gdict_window_lookup_end_cb (GdictContext *context,
   count = window->current_definition;
 
   window->max_definition = count - 1;
-
-  if (count == 0)
-    message = g_strdup (_("No definitions found"));
-  else 
-    message = g_strdup_printf (ngettext("A definition found",
-					"%d definitions found",
-					count),
-		    	       count);
-
-  if (window->status && window->statusbar_visible)
-    gtk_statusbar_push (GTK_STATUSBAR (window->status), 0, message);
-
-  if (window->progress)
-    gtk_widget_hide (window->progress);
 
   /* we clone the context, so that the signals that it
    * fires do not get caught by the signal handlers we
@@ -327,7 +274,6 @@ gdict_window_lookup_end_cb (GdictContext *context,
     }
 
   gdk_window_set_cursor (gtk_widget_get_window (GTK_WIDGET (window)), NULL);
-  g_free (message);
 
   if (count == 0)
     {
@@ -345,12 +291,6 @@ gdict_window_error_cb (GdictContext *context,
 {
   gdk_window_set_cursor (gtk_widget_get_window (GTK_WIDGET (window)), NULL);
   
-  if (window->status && window->statusbar_visible)
-    gtk_statusbar_push (GTK_STATUSBAR (window->status), 0,
-                        _("No definitions found"));
-
-  gtk_widget_hide (window->progress);
-
   /* launch the speller only on NO_MATCH */
   if (error->code == GDICT_CONTEXT_ERROR_NO_MATCH)
     {
@@ -756,7 +696,6 @@ gdict_window_store_state (GdictWindow *window)
   g_key_file_set_integer (state_key, "WindowState", "Height", window->current_height);
   g_key_file_set_boolean (state_key, "WindowState", "IsMaximized", window->is_maximized);
   g_key_file_set_boolean (state_key, "WindowState", "SidebarVisible", window->sidebar_visible);
-  g_key_file_set_boolean (state_key, "WindowState", "StatusbarVisible", window->statusbar_visible);
   g_key_file_set_integer (state_key, "WindowState", "SidebarWidth", window->sidebar_width);
 
   page_id = gdict_sidebar_current_page (GDICT_SIDEBAR (window->sidebar));
@@ -839,13 +778,6 @@ gdict_window_load_state (GdictWindow *window)
     {
       g_clear_error (&error);
       window->sidebar_visible = FALSE;
-    }
-
-  window->statusbar_visible = g_key_file_get_boolean (state_key, "WindowState", "StatusbarVisible", &error);
-  if (error != NULL)
-    {
-      g_clear_error (&error);
-      window->statusbar_visible = FALSE;
     }
 
   window->sidebar_width = g_key_file_get_integer (state_key, "WindowState", "SidebarWidth", &error);
@@ -1055,25 +987,6 @@ gdict_window_cmd_change_view_sidebar (GSimpleAction *action,
 }
 
 static void
-gdict_window_cmd_change_view_statusbar (GSimpleAction *action,
-                                        GVariant      *state,
-                                        gpointer       user_data)
-{
-  GdictWindow *window = user_data;
-
-  g_assert (GDICT_IS_WINDOW (window));
-
-  window->statusbar_visible = g_variant_get_boolean (state);
-
-  if (window->statusbar_visible)
-    gtk_widget_show (window->status);
-  else
-    gtk_widget_hide (window->status);
-
-  g_simple_action_set_state (action, state);
-}
-
-static void
 gdict_window_cmd_view_speller (GSimpleAction *action,
                                GVariant      *parameter,
                                gpointer       user_data)
@@ -1257,8 +1170,6 @@ static const GActionEntry entries[] =
   /* View menu */
   { "view-sidebar", activate_toggle, NULL, "false",
     gdict_window_cmd_change_view_sidebar },
-  { "view-statusbar", activate_toggle, NULL, "false",
-    gdict_window_cmd_change_view_statusbar },
   { "view-speller", gdict_window_cmd_view_speller, NULL, NULL, NULL },
   { "view-source", gdict_window_cmd_view_sources, NULL, NULL, NULL },
   { "view-db", gdict_window_cmd_view_databases, NULL, NULL, NULL },
@@ -1325,16 +1236,6 @@ source_activated_cb (GdictSourceChooser *chooser,
   g_signal_handlers_block_by_func (chooser, source_activated_cb, window);
   gdict_window_set_source_name (window, source_name);
   g_signal_handlers_unblock_by_func (chooser, source_activated_cb, window);
-
-  if (window->status && window->statusbar_visible)
-    {
-      gchar *message;
-
-      message = g_strdup_printf (_("Dictionary source `%s' selected"),
-                                 gdict_source_get_description (source));
-      gtk_statusbar_push (GTK_STATUSBAR (window->status), 0, message);
-      g_free (message);
-    }
 }
 
 static void
@@ -1346,15 +1247,6 @@ strategy_activated_cb (GdictStrategyChooser *chooser,
   g_signal_handlers_block_by_func (chooser, strategy_activated_cb, window);
   gdict_window_set_strategy (window, strat_name);
   g_signal_handlers_unblock_by_func (chooser, strategy_activated_cb, window);
-
-  if (window->status && window->statusbar_visible)
-    {
-      gchar *message;
-
-      message = g_strdup_printf (_("Strategy `%s' selected"), strat_desc);
-      gtk_statusbar_push (GTK_STATUSBAR (window->status), 0, message);
-      g_free (message);
-    }
 }
 
 static void
@@ -1366,15 +1258,6 @@ database_activated_cb (GdictDatabaseChooser *chooser,
   g_signal_handlers_block_by_func (chooser, database_activated_cb, window);
   gdict_window_set_database (window, db_name);
   g_signal_handlers_unblock_by_func (chooser, database_activated_cb, window);
-
-  if (window->status && window->statusbar_visible)
-    {
-      gchar *message;
-
-      message = g_strdup_printf (_("Database `%s' selected"), db_desc);
-      gtk_statusbar_push (GTK_STATUSBAR (window->status), 0, message);
-      g_free (message);
-    }
 }
 
 static void
@@ -1386,15 +1269,6 @@ speller_word_activated_cb (GdictSpeller *speller,
   gtk_entry_set_text (GTK_ENTRY (window->entry), word);
   
   gdict_window_set_word (window, word, db_name);
-
-  if (window->status && window->statusbar_visible)
-    {
-      gchar *message;
-
-      message = g_strdup_printf (_("Word `%s' selected"), word);
-      gtk_statusbar_push (GTK_STATUSBAR (window->status), 0, message);
-      g_free (message);
-    }
 }
 
 static void
@@ -1444,9 +1318,6 @@ sidebar_page_changed_cb (GdictSidebar *sidebar,
       message = NULL;
       break;
     }
-
-  if (message && window->status && window->statusbar_visible)
-    gtk_statusbar_push (GTK_STATUSBAR (window->status), 0, message);
 }
 
 static void
@@ -1739,18 +1610,6 @@ gdict_window_constructor (GType                  type,
       g_action_change_state (action, g_variant_new_boolean (TRUE));
     }
 
-  window->status = gtk_statusbar_new ();
-  gtk_box_pack_end (GTK_BOX (window->main_box), window->status, FALSE, FALSE, 0);
-  if (window->statusbar_visible)
-    {
-      GAction *action = g_action_map_lookup_action (G_ACTION_MAP (window),
-                                                    "view-statusbar");
-      g_action_change_state (action, g_variant_new_boolean (TRUE));
-    }
-
-  window->progress = gtk_progress_bar_new ();
-  gtk_box_pack_end (GTK_BOX (window->status), window->progress, FALSE, FALSE, 0);
-
   /* retrieve the document font size */
   font_name = g_settings_get_string (window->desktop_settings, DOCUMENT_FONT_KEY);
   gdict_window_set_defbox_font (window, font_name);
@@ -1940,7 +1799,6 @@ gdict_window_init (GdictWindow *window)
   window->default_height = -1;
   window->is_maximized = FALSE;
   window->sidebar_visible = FALSE;
-  window->statusbar_visible = FALSE;
   window->sidebar_page = NULL;
   
   window->window_id = (gulong) time (NULL);
