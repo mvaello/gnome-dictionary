@@ -225,12 +225,12 @@ gdict_app_command_line (GApplication            *application,
       gdict_match_words == NULL)
     {
       GtkWidget *window = gdict_window_new (GDICT_WINDOW_ACTION_CLEAR,
+                                            GTK_APPLICATION (application),
                                             app->loader,
                                             gdict_source_name,
                                             gdict_database_name,
                                             gdict_strategy_name,
                                             NULL);
-      gtk_window_set_application (GTK_WINDOW (window), GTK_APPLICATION (application));
       gtk_widget_show (window);
 
       goto out;
@@ -247,13 +247,13 @@ gdict_app_command_line (GApplication            *application,
       GtkWidget *window;
 
       window = gdict_window_new (GDICT_WINDOW_ACTION_LOOKUP,
+                                 GTK_APPLICATION (application),
                                  app->loader,
                                  gdict_source_name,
                                  gdict_database_name,
                                  gdict_strategy_name,
                                  word);
       
-      gtk_window_set_application (GTK_WINDOW (window), GTK_APPLICATION (application));
       gtk_widget_show (window);
     }
 
@@ -268,13 +268,13 @@ gdict_app_command_line (GApplication            *application,
       GtkWidget *window;
 
       window = gdict_window_new (GDICT_WINDOW_ACTION_MATCH,
+                                 GTK_APPLICATION (application),
                                  app->loader,
 				 gdict_source_name,
                                  gdict_database_name,
                                  gdict_strategy_name,
 				 word);
       
-      gtk_window_set_application (GTK_WINDOW (window), GTK_APPLICATION (application));
       gtk_widget_show (window);
     }
 
@@ -290,11 +290,11 @@ gdict_app_activate (GApplication *application)
 {
   GdictApp *app = GDICT_APP (application);
   GtkWidget *window = gdict_window_new (GDICT_WINDOW_ACTION_CLEAR,
+                                        GTK_APPLICATION (application),
                                         app->loader,
                                         NULL, NULL, NULL,
                                         NULL);
 
-  gtk_window_set_application (GTK_WINDOW (window), GTK_APPLICATION (application));
   gtk_widget_show (window);
 }
 

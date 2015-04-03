@@ -872,6 +872,7 @@ gdict_window_cmd_file_new (GSimpleAction   *action,
                            gpointer         user_data)
 {
   GdictWindow *window = user_data;
+  GtkApplication *application = gtk_window_get_application (GTK_WINDOW (window));
   GtkWidget *new_window;
   gchar *word = NULL;
 
@@ -881,6 +882,7 @@ gdict_window_cmd_file_new (GSimpleAction   *action,
   if (word)
     {
       new_window = gdict_window_new (GDICT_WINDOW_ACTION_LOOKUP,
+                                     application,
                                      window->loader,
                                      NULL,
                                      NULL,
@@ -890,14 +892,13 @@ gdict_window_cmd_file_new (GSimpleAction   *action,
     }
   else
     new_window = gdict_window_new (GDICT_WINDOW_ACTION_CLEAR,
+                                   application,
                                    window->loader,
                                    NULL,
                                    NULL,
                                    NULL,
                                    NULL);
 
-  gtk_window_set_application (GTK_WINDOW (new_window),
-                              gtk_window_get_application (GTK_WINDOW (window)));
   gtk_widget_show (new_window);
   
   g_signal_emit (window, gdict_window_signals[CREATED], 0, new_window);
@@ -1500,17 +1501,17 @@ gdict_window_link_clicked (GdictDefbox *defbox,
                            GdictWindow *window)
 {
   GtkWidget *new_window;
+  GtkApplication *application = gtk_window_get_application (GTK_WINDOW (window));
 
   gdict_window_store_state (window);
 
   new_window = gdict_window_new (GDICT_WINDOW_ACTION_LOOKUP,
+                                 application,
                                  window->loader,
                                  NULL,
                                  NULL,
                                  NULL,
                                  link_text);
-  gtk_window_set_application (GTK_WINDOW (new_window),
-                              gtk_window_get_application (GTK_WINDOW (window)));
   gtk_widget_show (new_window);
   
   g_signal_emit (window, gdict_window_signals[CREATED], 0, new_window);
@@ -1993,6 +1994,7 @@ gdict_window_init (GdictWindow *window)
 
 GtkWidget *
 gdict_window_new (GdictWindowAction  action,
+                  GtkApplication    *app,
 		  GdictSourceLoader *loader,
 		  const gchar       *source_name,
                   const gchar       *database_name,
@@ -2001,10 +2003,11 @@ gdict_window_new (GdictWindowAction  action,
 {
   GtkWidget *retval;
   GdictWindow *window;
-  
+
   g_return_val_if_fail (GDICT_IS_SOURCE_LOADER (loader), NULL);
   
   retval = g_object_new (GDICT_TYPE_WINDOW,
+                         "application", app,
   			 "action", action,
                          "source-loader", loader,
 			 "source-name", source_name,
