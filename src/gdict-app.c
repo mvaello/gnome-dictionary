@@ -36,14 +36,7 @@
 #include "gdict-pref-dialog.h"
 #include "gdict-app.h"
 
-static GdictApp *singleton = NULL;
-
-struct _GdictAppClass
-{
-  GObjectClass parent_class;
-};
-
-G_DEFINE_TYPE (GdictApp, gdict_app, G_TYPE_OBJECT);
+G_DEFINE_TYPE (GdictApp, gdict_app, GTK_TYPE_APPLICATION)
 
 static GOptionEntry gdict_app_goptions[] = {
   {
@@ -161,30 +154,16 @@ static const GActionEntry app_entries[] =
 };
 
 static void
-gdict_app_finalize (GObject *object)
+gdict_app_dispose (GObject *object)
 {
   GdictApp *app = GDICT_APP (object);
 
-  if (app->loader)
-    g_object_unref (app->loader);
+  g_clear_object (&app->loader);
 
-  G_OBJECT_CLASS (gdict_app_parent_class)->finalize (object);
+  G_OBJECT_CLASS (gdict_app_parent_class)->dispose (object);
 }
 
-static void
-gdict_app_class_init (GdictAppClass *klass)
-{
-  GObjectClass *gobject_class = G_OBJECT_CLASS (klass);
-  
-  gobject_class->finalize = gdict_app_finalize;
-}
-
-static void
-gdict_app_init (GdictApp *app)
-{
-}
-
-gchar **
+static gchar **
 strv_concat (gchar **strv1, gchar **strv2)
 {
   gchar **tmp;
@@ -202,10 +181,10 @@ strv_concat (gchar **strv1, gchar **strv2)
 }
 
 static int
-gdict_command_line (GApplication            *application,
-                    GApplicationCommandLine *cmd_line,
-                    GdictApp                *gdict_app)
+gdict_app_command_line (GApplication            *application,
+                        GApplicationCommandLine *cmd_line)
 {
+  GdictApp *app = GDICT_APP (application);
   GSList *l;
   gsize words_len, i;
   GVariantDict *options;
@@ -246,12 +225,12 @@ gdict_command_line (GApplication            *application,
       gdict_match_words == NULL)
     {
       GtkWidget *window = gdict_window_new (GDICT_WINDOW_ACTION_CLEAR,
-                                            singleton->loader,
+                                            app->loader,
                                             gdict_source_name,
                                             gdict_database_name,
                                             gdict_strategy_name,
                                             NULL);
-      gtk_window_set_application (GTK_WINDOW (window), singleton->app);
+      gtk_window_set_application (GTK_WINDOW (window), GTK_APPLICATION (application));
       gtk_widget_show (window);
 
       goto out;
@@ -268,13 +247,13 @@ gdict_command_line (GApplication            *application,
       GtkWidget *window;
 
       window = gdict_window_new (GDICT_WINDOW_ACTION_LOOKUP,
-                                 singleton->loader,
+                                 app->loader,
                                  gdict_source_name,
                                  gdict_database_name,
                                  gdict_strategy_name,
                                  word);
       
-      gtk_window_set_application (GTK_WINDOW (window), singleton->app);
+      gtk_window_set_application (GTK_WINDOW (window), GTK_APPLICATION (application));
       gtk_widget_show (window);
     }
 
@@ -289,13 +268,13 @@ gdict_command_line (GApplication            *application,
       GtkWidget *window;
 
       window = gdict_window_new (GDICT_WINDOW_ACTION_MATCH,
-      				 singleton->loader,
+                                 app->loader,
 				 gdict_source_name,
                                  gdict_database_name,
                                  gdict_strategy_name,
 				 word);
       
-      gtk_window_set_application (GTK_WINDOW (window), singleton->app);
+      gtk_window_set_application (GTK_WINDOW (window), GTK_APPLICATION (application));
       gtk_widget_show (window);
     }
 
@@ -307,26 +286,28 @@ out:
 }
 
 static void
-gdict_activate (GApplication *application,
-                GdictApp     *singleton)
+gdict_app_activate (GApplication *application)
 {
+  GdictApp *app = GDICT_APP (application);
   GtkWidget *window = gdict_window_new (GDICT_WINDOW_ACTION_CLEAR,
-                                        singleton->loader,
+                                        app->loader,
                                         NULL, NULL, NULL,
                                         NULL);
 
-  gtk_window_set_application (GTK_WINDOW (window), singleton->app);
+  gtk_window_set_application (GTK_WINDOW (window), GTK_APPLICATION (application));
   gtk_widget_show (window);
 }
 
 static void
-gdict_startup (GApplication *application,
-               gpointer      user_data)
+gdict_app_startup (GApplication *application)
 {
-  GtkBuilder *builder = gtk_builder_new ();
-  GError * error = NULL;
   static const char *lookup_accels[2] = { "<Primary>l", NULL };
   static const char *escape_accels[2] = { "Escape", NULL };
+
+  GtkBuilder *builder = gtk_builder_new ();
+  GError * error = NULL;
+
+  G_APPLICATION_CLASS (gdict_app_parent_class)->startup (application);
 
   g_action_map_add_action_entries (G_ACTION_MAP (application),
                                    app_entries, G_N_ELEMENTS (app_entries),
@@ -344,49 +325,42 @@ gdict_startup (GApplication *application,
   g_object_unref (builder);
 }
 
-void
-gdict_main (int    *argc,
-            char ***argv)
+static void
+gdict_app_class_init (GdictAppClass *klass)
 {
-  gchar *loader_path;
+  GObjectClass *gobject_class = G_OBJECT_CLASS (klass);
+  GApplicationClass *application_class = G_APPLICATION_CLASS (klass);
 
-  g_set_prgname ("gnome-dictionary");
+  gobject_class->dispose = gdict_app_dispose;
 
-  if (!gdict_create_config_dir ())
-    exit (1);
-
-  if (!gdict_create_data_dir ())
-    exit (1);
-
-  gtk_window_set_default_icon_name ("accessories-dictionary");
-
-  /* the main application instance */
-  singleton = g_object_new (gdict_app_get_type (), NULL);
-
-  /* add user's path for fetching dictionary sources */  
-  singleton->loader = gdict_source_loader_new ();
-  loader_path = gdict_get_config_dir ();
-  gdict_source_loader_add_search_path (singleton->loader, loader_path);
-  g_free (loader_path);
-
-  singleton->app = gtk_application_new ("org.gnome.Dictionary", G_APPLICATION_HANDLES_COMMAND_LINE);
-  g_application_add_main_option_entries (G_APPLICATION (singleton->app), gdict_app_goptions);
-  g_signal_connect (singleton->app, "activate", G_CALLBACK (gdict_activate), singleton);
-  g_signal_connect (singleton->app, "command-line", G_CALLBACK (gdict_command_line), singleton);
-  g_signal_connect (singleton->app, "startup", G_CALLBACK (gdict_startup), singleton);
-
-  g_application_run (G_APPLICATION (singleton->app), *argc, *argv);
+  application_class->startup = gdict_app_startup;
+  application_class->activate = gdict_app_activate;
+  application_class->command_line = gdict_app_command_line;
 }
 
-void
-gdict_cleanup (void)
+static void
+gdict_app_init (GdictApp *app)
 {
-  if (!singleton)
-    {
-      g_warning ("You must initialize GdictApp using gdict_init()\n");
-      return;
-    }
+  char *loader_path;
 
-  g_object_unref (singleton->app);
-  g_object_unref (singleton);
+  /* add user's path for fetching dictionary sources */  
+  app->loader = gdict_source_loader_new ();
+  loader_path = gdict_get_config_dir ();
+  gdict_source_loader_add_search_path (app->loader, loader_path);
+  g_free (loader_path);
+
+  /* Add the command line options */
+  g_application_add_main_option_entries (G_APPLICATION (app), gdict_app_goptions);
+
+  /* Set main application icon */
+  gtk_window_set_default_icon_name ("accessories-dictionary");
+}
+
+GApplication *
+gdict_app_new (void)
+{
+  return g_object_new (gdict_app_get_type (),
+                       "application-id", "org.gnome.Dictionary",
+                       "flags", G_APPLICATION_HANDLES_COMMAND_LINE,
+                       NULL);
 }

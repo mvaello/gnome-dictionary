@@ -18,24 +18,29 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
-#ifdef HAVE_CONFIG_H
 #include "config.h"
-#endif
 
 #include <stdio.h>
 #include <stdlib.h>
 #include <libintl.h>
 
 #include "gdict-app.h"
+#include "gdict-common.h"
 
-int main (int argc, char *argv[])
+int
+main (int argc, char *argv[])
 {
-        bindtextdomain (GETTEXT_PACKAGE, GNOMELOCALEDIR);
-        bind_textdomain_codeset (GETTEXT_PACKAGE, "UTF-8");
-        textdomain (GETTEXT_PACKAGE);
+  bindtextdomain (GETTEXT_PACKAGE, GNOMELOCALEDIR);
+  bind_textdomain_codeset (GETTEXT_PACKAGE, "UTF-8");
+  textdomain (GETTEXT_PACKAGE);
 
-	gdict_main (&argc, &argv);
-	gdict_cleanup ();
-	
-	return EXIT_SUCCESS;
+  g_set_prgname ("gnome-dictionary");
+
+  if (!gdict_create_config_dir ())
+    exit (1);
+
+  if (!gdict_create_data_dir ())
+    exit (1);
+
+  return g_application_run (gdict_app_new (), argc, argv);
 }

@@ -35,21 +35,21 @@ G_BEGIN_DECLS
 typedef struct _GdictApp         GdictApp;
 typedef struct _GdictAppClass    GdictAppClass;
 
-
 struct _GdictApp
 {
-  GObject parent_instance;
-
-  GtkApplication *app;
+  GtkApplication parent_instance;
 
   GdictSourceLoader *loader;
 };
 
+struct _GdictAppClass
+{
+  GtkApplicationClass parent_class;
+};
 
-GType      gdict_app_get_type    (void) G_GNUC_CONST;
+GType gdict_app_get_type (void) G_GNUC_CONST;
 
-void       gdict_main            (int *argc, char ***argv);
-void       gdict_cleanup         (void);
+GApplication *gdict_app_new (void);
 
 G_END_DECLS
 
