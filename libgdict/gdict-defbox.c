@@ -84,7 +84,6 @@ struct _GdictDefboxPrivate
   guint is_searching : 1;
   guint is_hovering : 1;
   
-  GdkCursor *busy_cursor;
   GdkCursor *hand_cursor;
   GdkCursor *regular_cursor;
   
@@ -172,7 +171,6 @@ gdict_defbox_dispose (GObject *gobject)
 
   g_clear_object (&priv->context);
   g_clear_object (&priv->buffer);
-  g_clear_object (&priv->busy_cursor);
   g_clear_object (&priv->hand_cursor);
   g_clear_object (&priv->regular_cursor);
 
@@ -1884,7 +1882,6 @@ gdict_defbox_init (GdictDefbox *defbox)
   
   priv->definitions = NULL;
   
-  priv->busy_cursor = NULL;
   priv->hand_cursor = NULL;
   priv->regular_cursor = NULL;
   
@@ -2102,20 +2099,8 @@ lookup_start_cb (GdictContext *context,
 {
   GdictDefbox *defbox = GDICT_DEFBOX (user_data);
   GdictDefboxPrivate *priv = defbox->priv;
-  GdkWindow *window;
 
   priv->is_searching = TRUE;
-  
-  if (!priv->busy_cursor)
-    {
-      GdkDisplay *display = gtk_widget_get_display (GTK_WIDGET (defbox));
-      priv->busy_cursor = gdk_cursor_new_for_display (display, GDK_WATCH);
-    }
-  
-  window = gtk_text_view_get_window (GTK_TEXT_VIEW (priv->text_view),
-  				     GTK_TEXT_WINDOW_WIDGET);
-  
-  gdk_window_set_cursor (window, priv->busy_cursor);
 }
 
 static void
@@ -2126,17 +2111,11 @@ lookup_end_cb (GdictContext *context,
   GdictDefboxPrivate *priv = defbox->priv;
   GtkTextBuffer *buffer;
   GtkTextIter start;
-  GdkWindow *window;
   
   /* explicitely move the cursor to the beginning */
   buffer = gtk_text_view_get_buffer (GTK_TEXT_VIEW (priv->text_view));
   gtk_text_buffer_get_start_iter (buffer, &start);
   gtk_text_buffer_place_cursor (buffer, &start);
-  
-  window = gtk_text_view_get_window (GTK_TEXT_VIEW (priv->text_view),
-  				     GTK_TEXT_WINDOW_WIDGET);
-  
-  gdk_window_set_cursor (window, NULL);
 
   priv->is_searching = FALSE;
 }
