@@ -1446,7 +1446,6 @@ gdict_window_constructor (GType                  type,
   GtkBuilder *builder;
   GtkWidget *handle;
   GtkWidget *frame1, *frame2;
-  GtkWidget *vbox;
   GtkWidget *button;
   PangoFontDescription *font_desc;
   gchar *font_name;
@@ -1476,11 +1475,6 @@ gdict_window_constructor (GType                  type,
   gtk_header_bar_pack_end (GTK_HEADER_BAR (window->header_bar), button);
   gtk_widget_show (button);
 
-  vbox = gtk_box_new (GTK_ORIENTATION_VERTICAL, 6);
-  gtk_container_set_border_width (GTK_CONTAINER (vbox), 6);
-  gtk_container_add (GTK_CONTAINER (window->main_box), vbox);
-  gtk_widget_show (vbox);
-  
   window->completion_model = gtk_list_store_new (COMPLETION_N_COLUMNS,
 		  				 G_TYPE_STRING);
   
@@ -1501,7 +1495,7 @@ gdict_window_constructor (GType                  type,
                             window);
 
   handle = gtk_paned_new (GTK_ORIENTATION_HORIZONTAL);
-  gtk_box_pack_start (GTK_BOX (vbox), handle, TRUE, TRUE, 0);
+  gtk_box_pack_end (GTK_BOX (window->main_box), handle, TRUE, TRUE, 0);
   gtk_widget_show (handle);
 
   frame1 = gtk_box_new (GTK_ORIENTATION_VERTICAL, 0);
