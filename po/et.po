@@ -10,15 +10,15 @@
 # Tõivo Leedjärv <toivo linux ee>, 2002.
 # Ivar Smolin <okul linux ee>, 2005–2011.
 # Priit Laes <amd store20 com>, 2005.
-# Mattias Põldaru <mahfiaz@gmail.com>, 2012, 2013.
+# Mattias Põldaru <mahfiaz@gmail.com>, 2012, 2013, 2014.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-utils MASTER\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "dictionary&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2013-09-11 19:16+0000\n"
-"PO-Revision-Date: 2013-09-11 23:03+0300\n"
+"POT-Creation-Date: 2014-05-13 06:35+0000\n"
+"PO-Revision-Date: 2014-05-13 10:35+0300\n"
 "Last-Translator: Mattias Põldaru <mahfiaz@gmail.com>\n"
 "Language-Team: Estonian <>\n"
 "Language: et\n"
@@ -40,14 +40,25 @@ msgstr "Sõnade definitsioonide ja kirjaviiside otsimine onlain-sõnaraamatust"
 msgid "word;synonym;definition;spelling;"
 msgstr "sõna;sõnaraamat;sõnastik;sünonüüm;antonüüm;definitsioon;õigekiri;"
 
+msgid ""
+"GNOME Dictionary is a simple dictionary application that looks up "
+"definitions of words online. Though it looks up English definitions by "
+"default, you can easily switch to Spanish or add other online dictionaries "
+"using the DICT protocol to suit your needs."
+msgstr ""
+"GNOME sõnaraamat on lihtne rakendus, mis otsib sõnade tähendusi internetist. "
+"Kuigi see otsib vaikimisi ingliskeelseid sõnaseletusi, on seda lihtne "
+"vahetada hispaania või teiste veebisõnaraamatute vastu, mis kasutavad DICT "
+"protokolli."
+
 msgid "Preferences"
 msgstr "Eelistused"
 
 msgid "Help"
 msgstr "Abi"
 
-msgid "About Dictionary"
-msgstr "Sõnaraamatust lähemalt"
+msgid "About"
+msgstr "Lähemalt"
 
 msgid "Quit"
 msgstr "Lõpeta"
@@ -627,8 +638,8 @@ msgstr "Allika valimiseks tee sellel topeltklõps"
 msgid "Double-click on the database to use"
 msgstr "Andmebaasi valimiseks tee sellel topeltklõps"
 
-msgid "Look _up:"
-msgstr "_Otsing:"
+msgid "Look _up"
+msgstr "_Otsing"
 
 msgid "Similar words"
 msgstr "Sarnased sõnad"
@@ -641,6 +652,9 @@ msgstr "Saadaolevad strateegiad"
 
 msgid "Dictionary sources"
 msgstr "Sõnaraamatuallikad"
+
+#~ msgid "About Dictionary"
+#~ msgstr "Sõnaraamatust lähemalt"
 
 #~ msgid "Available _Databases"
 #~ msgstr "Saadaolevad _andmebaasid"
@@ -674,6 +688,3 @@ msgstr "Sõnaraamatuallikad"
 
 #~ msgid "_Contents"
 #~ msgstr "_Sisukord"
-
-#~ msgid "_About"
-#~ msgstr "_Programmist lähemalt"
