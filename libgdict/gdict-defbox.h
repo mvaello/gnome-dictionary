@@ -62,7 +62,6 @@ struct _GdictDefboxClass
   void (*_gdict_defbox_1) (void);
   void (*_gdict_defbox_2) (void);
   void (*_gdict_defbox_3) (void);
-  void (*_gdict_defbox_4) (void);
 };
 
 GType                 gdict_defbox_get_type           (void) G_GNUC_CONST;
