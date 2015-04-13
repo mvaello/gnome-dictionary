@@ -45,7 +45,7 @@ AC_SUBST(GLIB_COMPILE_RESOURCES)
 # - If binary compatibility has been broken (eg removed or changed interfaces)
 #   change to C+1:0:0
 # - If the interface is the same as the previous version, change to C:R+1:A
-LIBGDICT_LT_VERSION=8:0:0
+LIBGDICT_LT_VERSION=9:0:1
 AC_SUBST(LIBGDICT_LT_VERSION)
 
 LT_PREREQ([2.2.6])

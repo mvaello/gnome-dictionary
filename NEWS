@@ -1,3 +1,15 @@
+GNOME Dictionary 3.16.1                                               2015-04-12
+================================================================================
+Application
+ * Remove compilation warnings (Juan R. García Blanco)
+ * Improve menu items sensitivity (Juan R. García Blanco)
+
+Library
+ * Add GdictDefbox::selection-changed signal (Juan R. García Blanco)
+
+Translations
+ * cs (Marek Černocký), el (Tom Tryfonidis)
+
 GNOME Dictionary 3.16.0                                               2015-03-22
 ================================================================================
 Translations
