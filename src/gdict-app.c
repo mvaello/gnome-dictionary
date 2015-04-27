@@ -78,6 +78,21 @@ static GOptionEntry gdict_app_goptions[] = {
 };
 
 static void
+gdict_app_cmd_new (GSimpleAction *action,
+                   GVariant      *parameter,
+                   gpointer       user_data)
+{
+  GdictApp *app = user_data;
+  GtkWidget *window = gdict_window_new (GDICT_WINDOW_ACTION_CLEAR,
+                                        GTK_APPLICATION (app),
+                                        app->loader,
+                                        NULL, NULL, NULL,
+                                        NULL);
+
+  gtk_widget_show (window);
+}
+
+static void
 gdict_app_cmd_preferences (GSimpleAction *action,
                            GVariant      *parameter,
                            gpointer       user_data)
@@ -147,6 +162,7 @@ gdict_app_cmd_quit (GSimpleAction *action,
 
 static const GActionEntry app_entries[] =
 {
+  { "new", gdict_app_cmd_new, NULL, NULL, NULL },
   { "preferences", gdict_app_cmd_preferences, NULL, NULL, NULL },
   { "help", gdict_app_cmd_help, NULL, NULL, NULL },
   { "about", gdict_app_cmd_about, NULL, NULL, NULL },
@@ -315,8 +331,6 @@ gdict_app_startup (GApplication *application)
 
   gtk_builder_add_from_resource (builder, "/org/gnome/Dictionary/gdict-app-menus.ui", NULL);
 
-  gtk_application_set_menubar (GTK_APPLICATION (application),
-                               G_MENU_MODEL (gtk_builder_get_object (builder, "menubar")));
   gtk_application_set_app_menu (GTK_APPLICATION (application),
                                 G_MENU_MODEL (gtk_builder_get_object (builder, "app-menu")));
   gtk_application_set_accels_for_action (GTK_APPLICATION (application), "win.lookup", lookup_accels);

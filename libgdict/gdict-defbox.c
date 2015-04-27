@@ -61,33 +61,31 @@ typedef struct
 struct _GdictDefboxPrivate
 {
   GtkWidget *text_view;
-  
+
   /* the "find" pane */
   GtkWidget *find_pane;
   GtkWidget *find_entry;
   GtkWidget *find_next;
   GtkWidget *find_prev;
-  GtkWidget *find_label;
 
   GtkWidget *progress_dialog;
-  
+
   GtkTextBuffer *buffer;
 
   GdictContext *context;
   GSList *definitions;
-  
+
   gchar *word;
   gchar *database;
   gchar *font_name;
-  
+
   guint show_find : 1;
   guint is_searching : 1;
   guint is_hovering : 1;
-  
-  GdkCursor *busy_cursor;
+
   GdkCursor *hand_cursor;
   GdkCursor *regular_cursor;
-  
+
   guint start_id;
   guint end_id;
   guint define_id;
@@ -101,7 +99,7 @@ struct _GdictDefboxPrivate
 enum
 {
   PROP_0,
-  
+
   PROP_CONTEXT,
   PROP_WORD,
   PROP_DATABASE,
@@ -117,7 +115,7 @@ enum
   FIND_PREVIOUS,
   LINK_CLICKED,
   SELECTION_CHANGED,
-  
+
   LAST_SIGNAL
 };
 
@@ -129,11 +127,11 @@ static Definition *
 definition_new (void)
 {
   Definition *def;
-  
+
   def = g_slice_new (Definition);
   def->definition = NULL;
   def->begin = -1;
-  
+
   return def;
 }
 
@@ -142,7 +140,7 @@ definition_free (Definition *def)
 {
   if (!def)
     return;
-  
+
   gdict_definition_unref (def->definition);
   g_slice_free (Definition, def);
 }
@@ -172,7 +170,6 @@ gdict_defbox_dispose (GObject *gobject)
 
   g_clear_object (&priv->context);
   g_clear_object (&priv->buffer);
-  g_clear_object (&priv->busy_cursor);
   g_clear_object (&priv->hand_cursor);
   g_clear_object (&priv->regular_cursor);
 
@@ -205,25 +202,25 @@ set_gdict_context (GdictDefbox  *defbox,
 		   GdictContext *context)
 {
   GdictDefboxPrivate *priv;
-  
+
   g_assert (GDICT_IS_DEFBOX (defbox));
-  
+
   priv = defbox->priv;
   if (priv->context)
     {
       if (priv->start_id)
         {
           GDICT_NOTE (DEFBOX, "Removing old context handlers");
-          
+
           g_signal_handler_disconnect (priv->context, priv->start_id);
           g_signal_handler_disconnect (priv->context, priv->define_id);
           g_signal_handler_disconnect (priv->context, priv->end_id);
-          
+
           priv->start_id = 0;
           priv->end_id = 0;
           priv->define_id = 0;
         }
-      
+
       if (priv->error_id)
         {
           g_signal_handler_disconnect (priv->context, priv->error_id);
@@ -232,7 +229,7 @@ set_gdict_context (GdictDefbox  *defbox,
         }
 
       GDICT_NOTE (DEFBOX, "Removing old context");
-      
+
       g_object_unref (G_OBJECT (priv->context));
     }
 
@@ -247,7 +244,7 @@ set_gdict_context (GdictDefbox  *defbox,
     }
 
   GDICT_NOTE (DEFBOX, "Setting new context");
-    
+
   priv->context = context;
   g_object_ref (G_OBJECT (priv->context));
 }
@@ -260,7 +257,7 @@ gdict_defbox_set_property (GObject      *object,
 {
   GdictDefbox *defbox = GDICT_DEFBOX (object);
   GdictDefboxPrivate *priv = defbox->priv;
-  
+
   switch (prop_id)
     {
     case PROP_WORD:
@@ -290,7 +287,7 @@ gdict_defbox_get_property (GObject    *object,
 {
   GdictDefbox *defbox = GDICT_DEFBOX (object);
   GdictDefboxPrivate *priv = defbox->priv;
-  
+
   switch (prop_id)
     {
     case PROP_WORD:
@@ -518,7 +515,7 @@ utf8_caselessnmatch (const char *s1, const char *s2,
 
 finally_2:
 	g_free (normalized_s1);
-	g_free (normalized_s2); 
+	g_free (normalized_s2);
 
 	return ret;
 }
@@ -533,7 +530,7 @@ char_is_invisible (const GtkTextIter *iter)
 	while (tags)
 	{
 		gboolean this_invisible, invisible_set;
-		g_object_get (tags->data, "invisible", &this_invisible, 
+		g_object_get (tags->data, "invisible", &this_invisible,
 			      "invisible-set", &invisible_set, NULL);
 		if (invisible_set)
 			invisible = this_invisible;
@@ -577,7 +574,7 @@ forward_chars_with_skipping (GtkTextIter *iter,
 		{
 			/* being UTF8 correct sucks; this accounts for extra
 			   offsets coming from canonical decompositions of
-			   UTF8 characters (e.g. accented characters) which 
+			   UTF8 characters (e.g. accented characters) which
 			   g_utf8_normalize() performs */
 			gchar *normal;
 			gchar buffer[6];
@@ -918,7 +915,7 @@ gdict_defbox_iter_forward_search (const GtkTextIter   *iter,
               (limit && gtk_text_iter_compare (&end, limit) <= 0))
             {
               retval = TRUE;
-              
+
               if (match_start)
                 *match_start = match;
 
@@ -1001,7 +998,7 @@ gdict_defbox_iter_backward_search (const GtkTextIter   *iter,
                (limit && gtk_text_iter_compare (&end, limit) > 0))
              {
                retval = TRUE;
-               
+
                if (match_start)
                  *match_start = match;
 
@@ -1009,7 +1006,7 @@ gdict_defbox_iter_backward_search (const GtkTextIter   *iter,
                  *match_end = end;
 
              }
-           
+
            break;
         }
 
@@ -1039,16 +1036,16 @@ gdict_defbox_find_backward (GdictDefbox *defbox,
   gboolean res;
 
   g_assert (GTK_IS_TEXT_BUFFER (priv->buffer));
-  
+
   gtk_text_buffer_get_bounds (priv->buffer, &start_iter, &end_iter);
-  
+
   /* if there already has been another result, begin from there */
   last_search = gtk_text_buffer_get_mark (priv->buffer, "last-search-prev");
   if (last_search)
     gtk_text_buffer_get_iter_at_mark (priv->buffer, &iter, last_search);
   else
     iter = end_iter;
-  
+
   res = gdict_defbox_iter_backward_search (&iter, text,
                                            &match_start, &match_end,
                                            NULL);
@@ -1065,10 +1062,10 @@ gdict_defbox_find_backward (GdictDefbox *defbox,
       				 &match_start);
       gtk_text_buffer_create_mark (priv->buffer, "last-search-prev", &match_start, FALSE);
       gtk_text_buffer_create_mark (priv->buffer, "last-search-next", &match_end, FALSE);
-      
+
       return TRUE;
     }
-  
+
   return FALSE;
 }
 
@@ -1077,11 +1074,11 @@ hide_find_pane (gpointer user_data)
 {
   GdictDefbox *defbox = user_data;
 
-  gtk_widget_hide (defbox->priv->find_pane);
+  gtk_search_bar_set_search_mode (GTK_SEARCH_BAR (defbox->priv->find_pane), FALSE);
   defbox->priv->show_find = FALSE;
-  
+
   gtk_widget_grab_focus (defbox->priv->text_view);
-  
+
   defbox->priv->hide_timeout = 0;
 
   return FALSE;
@@ -1096,23 +1093,11 @@ find_prev_clicked_cb (GtkWidget *widget,
   const gchar *text;
   gboolean found;
 
-  gtk_widget_hide (priv->find_label);
-  
   text = gtk_entry_get_text (GTK_ENTRY (priv->find_entry));
   if (!text)
     return;
-  
+
   found = gdict_defbox_find_backward (defbox, text);
-  if (!found)
-    {
-      gchar *str;
-      
-      str = g_strconcat ("  <i>", _("Not found"), "</i>", NULL);
-      gtk_label_set_markup (GTK_LABEL (priv->find_label), str);
-      gtk_widget_show (priv->find_label);
-      
-      g_free (str);
-    }
 
   if (priv->hide_timeout)
     {
@@ -1134,7 +1119,7 @@ gdict_defbox_find_forward (GdictDefbox *defbox,
   gboolean res;
 
   g_assert (GTK_IS_TEXT_BUFFER (priv->buffer));
-  
+
   gtk_text_buffer_get_bounds (priv->buffer, &start_iter, &end_iter);
 
   if (!is_typing)
@@ -1156,7 +1141,7 @@ gdict_defbox_find_forward (GdictDefbox *defbox,
       else
 	iter = start_iter;
     }
-  
+
   res = gdict_defbox_iter_forward_search (&iter, text,
                                           &match_start,
                                           &match_end,
@@ -1174,10 +1159,10 @@ gdict_defbox_find_forward (GdictDefbox *defbox,
       				 &match_start);
       gtk_text_buffer_create_mark (priv->buffer, "last-search-prev", &match_start, FALSE);
       gtk_text_buffer_create_mark (priv->buffer, "last-search-next", &match_end, FALSE);
-      
+
       return TRUE;
     }
-  
+
   return FALSE;
 }
 
@@ -1189,24 +1174,12 @@ find_next_clicked_cb (GtkWidget *widget,
   GdictDefboxPrivate *priv = defbox->priv;
   const gchar *text;
   gboolean found;
-  
-  gtk_widget_hide (priv->find_label);
-  
+
   text = gtk_entry_get_text (GTK_ENTRY (priv->find_entry));
   if (!text)
     return;
-  
+
   found = gdict_defbox_find_forward (defbox, text, FALSE);
-  if (!found)
-    {
-      gchar *str;
-      
-      str = g_strconcat ("  <i>", _("Not found"), "</i>", NULL);
-      gtk_label_set_markup (GTK_LABEL (priv->find_label), str);
-      gtk_widget_show (priv->find_label);
-      
-      g_free (str);
-    }
 
   if (priv->hide_timeout)
     {
@@ -1224,23 +1197,11 @@ find_entry_changed_cb (GtkWidget *widget,
   gchar *text;
   gboolean found;
 
-  gtk_widget_hide (priv->find_label);
-  
   text = gtk_editable_get_chars (GTK_EDITABLE (widget), 0, -1);
   if (!text)
     return;
 
   found = gdict_defbox_find_forward (defbox, text, TRUE);
-  if (!found)
-    {
-      gchar *str;
-      
-      str = g_strconcat ("  <i>", _("Not found"), "</i>", NULL);
-      gtk_label_set_markup (GTK_LABEL (priv->find_label), str);
-      gtk_widget_show (priv->find_label);
-      
-      g_free (str);
-    }
 
   g_free (text);
 
@@ -1251,81 +1212,49 @@ find_entry_changed_cb (GtkWidget *widget,
     }
 }
 
-static void
-close_button_clicked (GtkButton *button,
-                      gpointer   data)
-{
-  GdictDefboxPrivate *priv = GDICT_DEFBOX (data)->priv;
-
-  if (priv->hide_timeout)
-    g_source_remove (priv->hide_timeout);
-
-  (void) hide_find_pane (data);
-}
-
 static GtkWidget *
 create_find_pane (GdictDefbox *defbox)
 {
   GdictDefboxPrivate *priv;
   GtkWidget *find_pane;
-  GtkWidget *label;
-  GtkWidget *sep;
-  GtkWidget *hbox1, *hbox2;
-  GtkWidget *button;
- 
+  GtkWidget *hbox;
+
   priv = defbox->priv;
-  
-  find_pane = gtk_box_new (GTK_ORIENTATION_HORIZONTAL, 0);
-  gtk_container_set_border_width (GTK_CONTAINER (find_pane), 0);
-  
-  hbox1 = gtk_box_new (GTK_ORIENTATION_HORIZONTAL, 6);
-  gtk_box_pack_start (GTK_BOX (find_pane), hbox1, TRUE, TRUE, 0);
-  gtk_widget_show (hbox1);
 
-  button = gtk_button_new ();
-  gtk_button_set_relief (GTK_BUTTON (button), GTK_RELIEF_NONE);
-  gtk_button_set_image (GTK_BUTTON (button),
-                        gtk_image_new_from_icon_name ("window-close", GTK_ICON_SIZE_BUTTON));
-  g_signal_connect (button, "clicked",
-                    G_CALLBACK (close_button_clicked), defbox);
-  gtk_box_pack_start (GTK_BOX (hbox1), button, FALSE, FALSE, 0);
-  gtk_widget_show (button);
+  find_pane = gtk_search_bar_new ();
+  gtk_widget_show (find_pane);
 
-  hbox2 = gtk_box_new (GTK_ORIENTATION_HORIZONTAL, 12);
-  gtk_box_pack_start (GTK_BOX (hbox1), hbox2, TRUE, TRUE, 0);
-  gtk_widget_show (hbox2);
- 
-  label = gtk_label_new_with_mnemonic (_("F_ind:"));
-  gtk_box_pack_start (GTK_BOX (hbox2), label, FALSE, FALSE, 0);
+  hbox = gtk_box_new (GTK_ORIENTATION_HORIZONTAL, 0);
+  gtk_container_add (GTK_CONTAINER (find_pane), hbox);
+  gtk_widget_show (hbox);
 
-  priv->find_entry = gtk_entry_new ();
+  priv->find_entry = gtk_search_entry_new ();
   g_signal_connect (priv->find_entry, "changed",
   		    G_CALLBACK (find_entry_changed_cb), defbox);
-  gtk_box_pack_start (GTK_BOX (hbox2), priv->find_entry, TRUE, TRUE, 0);
-  gtk_label_set_mnemonic_widget (GTK_LABEL (label), priv->find_entry);
-  
-  sep = gtk_separator_new (GTK_ORIENTATION_VERTICAL);
-  gtk_box_pack_start (GTK_BOX (hbox1), sep, FALSE, FALSE, 0);
-  gtk_widget_show (sep);
+  gtk_box_pack_start (GTK_BOX (hbox), priv->find_entry, TRUE, TRUE, 0);
+  gtk_widget_show (priv->find_entry);
 
-  priv->find_prev = gtk_button_new_with_mnemonic (_("_Previous"));
-  gtk_button_set_image (GTK_BUTTON (priv->find_prev),
-  			gtk_image_new_from_icon_name ("go-previous", GTK_ICON_SIZE_MENU));
+  gtk_search_bar_connect_entry (GTK_SEARCH_BAR (find_pane),
+                                GTK_ENTRY (priv->find_entry));
+
+  priv->find_prev = gtk_button_new_from_icon_name ("go-up-symbolic",
+                                                   GTK_ICON_SIZE_MENU);
   g_signal_connect (priv->find_prev, "clicked",
   		    G_CALLBACK (find_prev_clicked_cb), defbox);
-  gtk_box_pack_start (GTK_BOX (hbox1), priv->find_prev, FALSE, FALSE, 0);
+  gtk_box_pack_start (GTK_BOX (hbox), priv->find_prev, FALSE, FALSE, 0);
+  gtk_widget_show (priv->find_prev);
 
-  priv->find_next = gtk_button_new_with_mnemonic (_("_Next"));
-  gtk_button_set_image (GTK_BUTTON (priv->find_next),
-  			gtk_image_new_from_icon_name ("go-next", GTK_ICON_SIZE_MENU));
+  priv->find_next = gtk_button_new_from_icon_name ("go-down-symbolic",
+                                                   GTK_ICON_SIZE_MENU);
   g_signal_connect (priv->find_next, "clicked",
   		    G_CALLBACK (find_next_clicked_cb), defbox);
-  gtk_box_pack_start (GTK_BOX (hbox1), priv->find_next, FALSE, FALSE, 0);
-  
-  priv->find_label = gtk_label_new (NULL);
-  gtk_label_set_use_markup (GTK_LABEL (priv->find_label), TRUE);
-  gtk_box_pack_end (GTK_BOX (find_pane), priv->find_label, FALSE, FALSE, 0);
-  gtk_widget_hide (priv->find_label);
+  gtk_box_pack_start (GTK_BOX (hbox), priv->find_next, FALSE, FALSE, 0);
+  gtk_widget_show (priv->find_next);
+
+  gtk_style_context_add_class (gtk_widget_get_style_context (hbox),
+                               GTK_STYLE_CLASS_RAISED);
+  gtk_style_context_add_class (gtk_widget_get_style_context (hbox),
+                               GTK_STYLE_CLASS_LINKED);
 
   return find_pane;
 }
@@ -1334,7 +1263,7 @@ static void
 gdict_defbox_init_tags (GdictDefbox *defbox)
 {
   GdictDefboxPrivate *priv = defbox->priv;
-  
+
   g_assert (GTK_IS_TEXT_BUFFER (priv->buffer));
 
   gtk_text_buffer_create_tag (priv->buffer, "italic",
@@ -1346,13 +1275,13 @@ gdict_defbox_init_tags (GdictDefbox *defbox)
   gtk_text_buffer_create_tag (priv->buffer, "underline",
   			      "underline", PANGO_UNDERLINE_SINGLE,
   			      NULL);
-  
+
   gtk_text_buffer_create_tag (priv->buffer, "big",
   			      "scale", 1.6,
   			      NULL);
   gtk_text_buffer_create_tag (priv->buffer, "small",
 		  	      "scale", PANGO_SCALE_SMALL,
-			      NULL);  
+			      NULL);
 
   {
     GtkSettings *settings = gtk_widget_get_settings (GTK_WIDGET (defbox));
@@ -1421,7 +1350,7 @@ follow_if_is_link (GdictDefbox *defbox,
   GSList *tags, *l;
 
   tags = gtk_text_iter_get_tags (iter);
-  
+
   for (l = tags; l != NULL; l = l->next)
     {
       GtkTextTag *tag = l->data;
@@ -1448,7 +1377,7 @@ follow_if_is_link (GdictDefbox *defbox,
 
           g_free (link_str);
           g_free (name);
-          
+
           break;
         }
 
@@ -1620,34 +1549,34 @@ gdict_defbox_constructor (GType                  type,
   GdictDefboxPrivate *priv;
   GObject *object;
   GtkWidget *sw;
-  
+
   object = G_OBJECT_CLASS (gdict_defbox_parent_class)->constructor (type,
   						   n_construct_properties,
   						   construct_params);
   defbox = GDICT_DEFBOX (object);
   priv = defbox->priv;
-  
+
   sw = gtk_scrolled_window_new (NULL, NULL);
   gtk_widget_set_vexpand (sw, TRUE);
   gtk_scrolled_window_set_shadow_type (GTK_SCROLLED_WINDOW (sw),
   				       GTK_SHADOW_IN);
-  gtk_box_pack_start (GTK_BOX (defbox), sw, TRUE, TRUE, 0);
+  gtk_box_pack_end (GTK_BOX (defbox), sw, TRUE, TRUE, 0);
   gtk_widget_show (sw);
-  
+
   priv->buffer = gtk_text_buffer_new (NULL);
   gdict_defbox_init_tags (defbox);
   g_signal_connect (priv->buffer, "notify::has-selection",
                     G_CALLBACK (defbox_notify_has_selection),
                     defbox);
-  
+
   priv->text_view = gtk_text_view_new_with_buffer (priv->buffer);
   gtk_text_view_set_editable (GTK_TEXT_VIEW (priv->text_view), FALSE);
   gtk_text_view_set_left_margin (GTK_TEXT_VIEW (priv->text_view), 4);
   gtk_container_add (GTK_CONTAINER (sw), priv->text_view);
   gtk_widget_show (priv->text_view);
-  
+
   priv->find_pane = create_find_pane (defbox);
-  gtk_box_pack_end (GTK_BOX (defbox), priv->find_pane, FALSE, FALSE, 0);
+  gtk_box_pack_start (GTK_BOX (defbox), priv->find_pane, FALSE, FALSE, 0);
 
   /* stuff to make the link machinery work */
   g_signal_connect (priv->text_view, "event-after",
@@ -1659,7 +1588,7 @@ gdict_defbox_constructor (GType                  type,
   g_signal_connect (priv->text_view, "visibility-notify-event",
                     G_CALLBACK (defbox_visibility_notify_cb),
                     defbox);
-  
+
   return object;
 }
 
@@ -1671,19 +1600,19 @@ gdict_defbox_show_all (GtkWidget *widget)
 {
   GdictDefbox *defbox = GDICT_DEFBOX (widget);
   GdictDefboxPrivate *priv = defbox->priv;
-  
+
   gtk_widget_show (widget);
-  
+
   if (priv->show_find)
-    gtk_widget_show_all (priv->find_pane);
+    gtk_search_bar_set_search_mode (GTK_SEARCH_BAR (priv->find_pane), TRUE);
 }
 
 static void
 gdict_defbox_real_show_find (GdictDefbox *defbox)
 {
-  gtk_widget_show_all (defbox->priv->find_pane);
+  gtk_search_bar_set_search_mode (GTK_SEARCH_BAR (defbox->priv->find_pane), TRUE);
   defbox->priv->show_find = TRUE;
-  
+
   gtk_widget_grab_focus (defbox->priv->find_entry);
 
   defbox->priv->hide_timeout = g_timeout_add_seconds (5, hide_find_pane, defbox);
@@ -1706,9 +1635,9 @@ gdict_defbox_real_find_previous (GdictDefbox *defbox)
 static void
 gdict_defbox_real_hide_find (GdictDefbox *defbox)
 {
-  gtk_widget_hide (defbox->priv->find_pane);
+  gtk_search_bar_set_search_mode (GTK_SEARCH_BAR (defbox->priv->find_pane), FALSE);
   defbox->priv->show_find = FALSE;
-  
+
   gtk_widget_grab_focus (defbox->priv->text_view);
 
   if (defbox->priv->hide_timeout)
@@ -1724,13 +1653,13 @@ gdict_defbox_class_init (GdictDefboxClass *klass)
   GObjectClass *gobject_class = G_OBJECT_CLASS (klass);
   GtkWidgetClass *widget_class = GTK_WIDGET_CLASS (klass);
   GtkBindingSet *binding_set;
-  
+
   gobject_class->constructor = gdict_defbox_constructor;
   gobject_class->set_property = gdict_defbox_set_property;
   gobject_class->get_property = gdict_defbox_get_property;
   gobject_class->dispose = gdict_defbox_dispose;
   gobject_class->finalize = gdict_defbox_finalize;
-  
+
   widget_class->show_all = gdict_defbox_show_all;
 
   /**
@@ -1767,7 +1696,7 @@ gdict_defbox_class_init (GdictDefboxClass *klass)
    * The database used by the #GdictDefbox bound to this object to get the word
    * definition.
    *
-   * Since: 0.1 
+   * Since: 0.1
    */
   g_object_class_install_property (gobject_class,
 		  		   PROP_DATABASE,
@@ -1791,7 +1720,7 @@ gdict_defbox_class_init (GdictDefboxClass *klass)
 							"The font to be used by the defbox",
 							GDICT_DEFAULT_FONT_NAME,
 							(G_PARAM_READABLE | G_PARAM_WRITABLE)));
-  
+
   gdict_defbox_signals[SHOW_FIND] =
     g_signal_new ("show-find",
 		  G_OBJECT_CLASS_TYPE (gobject_class),
@@ -1841,12 +1770,12 @@ gdict_defbox_class_init (GdictDefboxClass *klass)
                   NULL, NULL,
                   gdict_marshal_VOID__VOID,
                   G_TYPE_NONE, 0);
-  
+
   klass->show_find = gdict_defbox_real_show_find;
   klass->hide_find = gdict_defbox_real_hide_find;
   klass->find_next = gdict_defbox_real_find_next;
   klass->find_previous = gdict_defbox_real_find_previous;
-  
+
   binding_set = gtk_binding_set_by_class (klass);
   gtk_binding_entry_add_signal (binding_set,
 			        GDK_KEY_f, GDK_CONTROL_MASK,
@@ -1872,22 +1801,20 @@ gdict_defbox_init (GdictDefbox *defbox)
   GdictDefboxPrivate *priv;
 
   gtk_orientable_set_orientation (GTK_ORIENTABLE (defbox), GTK_ORIENTATION_VERTICAL);
-  gtk_box_set_spacing (GTK_BOX (defbox), 6);
-  
+
   priv = gdict_defbox_get_instance_private (defbox);
   defbox->priv = priv;
-  
+
   priv->context = NULL;
   priv->database = g_strdup (GDICT_DEFAULT_DATABASE);
   priv->font_name = g_strdup (GDICT_DEFAULT_FONT_NAME);
   priv->word = NULL;
-  
+
   priv->definitions = NULL;
-  
-  priv->busy_cursor = NULL;
+
   priv->hand_cursor = NULL;
   priv->regular_cursor = NULL;
-  
+
   priv->show_find = FALSE;
   priv->is_searching = FALSE;
   priv->is_hovering = FALSE;
@@ -1928,7 +1855,7 @@ GtkWidget *
 gdict_defbox_new_with_context (GdictContext *context)
 {
   g_return_val_if_fail (GDICT_IS_CONTEXT (context), NULL);
-  
+
   return g_object_new (GDICT_TYPE_DEFBOX, "context", context, NULL);
 }
 
@@ -1948,7 +1875,7 @@ gdict_defbox_set_context (GdictDefbox  *defbox,
 {
   g_return_if_fail (GDICT_IS_DEFBOX (defbox));
   g_return_if_fail (context == NULL || GDICT_IS_CONTEXT (context));
-  
+
   g_object_set (defbox, "context", context, NULL);
 }
 
@@ -2049,26 +1976,25 @@ gdict_defbox_set_show_find (GdictDefbox *defbox,
 			    gboolean     show_find)
 {
   GdictDefboxPrivate *priv;
-  
+
   g_return_if_fail (GDICT_IS_DEFBOX (defbox));
-  
+
   priv = defbox->priv;
-  
+
   if (priv->show_find == show_find)
     return;
-  
+
   priv->show_find = show_find;
   if (priv->show_find)
     {
-      gtk_widget_show_all (priv->find_pane);
-      gtk_widget_grab_focus (priv->find_entry);
+      gtk_search_bar_set_search_mode (GTK_SEARCH_BAR (priv->find_pane), TRUE);
 
       if (!priv->hide_timeout)
         priv->hide_timeout = g_timeout_add_seconds (5, hide_find_pane, defbox);
     }
   else
     {
-      gtk_widget_hide (priv->find_pane);
+      gtk_search_bar_set_search_mode (GTK_SEARCH_BAR (priv->find_pane), FALSE);
 
       if (priv->hide_timeout)
         {
@@ -2092,7 +2018,7 @@ gboolean
 gdict_defbox_get_show_find (GdictDefbox *defbox)
 {
   g_return_val_if_fail (GDICT_IS_DEFBOX (defbox), FALSE);
-  
+
   return (defbox->priv->show_find == TRUE);
 }
 
@@ -2102,20 +2028,8 @@ lookup_start_cb (GdictContext *context,
 {
   GdictDefbox *defbox = GDICT_DEFBOX (user_data);
   GdictDefboxPrivate *priv = defbox->priv;
-  GdkWindow *window;
 
   priv->is_searching = TRUE;
-  
-  if (!priv->busy_cursor)
-    {
-      GdkDisplay *display = gtk_widget_get_display (GTK_WIDGET (defbox));
-      priv->busy_cursor = gdk_cursor_new_for_display (display, GDK_WATCH);
-    }
-  
-  window = gtk_text_view_get_window (GTK_TEXT_VIEW (priv->text_view),
-  				     GTK_TEXT_WINDOW_WIDGET);
-  
-  gdk_window_set_cursor (window, priv->busy_cursor);
 }
 
 static void
@@ -2126,17 +2040,11 @@ lookup_end_cb (GdictContext *context,
   GdictDefboxPrivate *priv = defbox->priv;
   GtkTextBuffer *buffer;
   GtkTextIter start;
-  GdkWindow *window;
-  
+
   /* explicitely move the cursor to the beginning */
   buffer = gtk_text_view_get_buffer (GTK_TEXT_VIEW (priv->text_view));
   gtk_text_buffer_get_start_iter (buffer, &start);
   gtk_text_buffer_place_cursor (buffer, &start);
-  
-  window = gtk_text_view_get_window (GTK_TEXT_VIEW (priv->text_view),
-  				     GTK_TEXT_WINDOW_WIDGET);
-  
-  gdk_window_set_cursor (window, NULL);
 
   priv->is_searching = FALSE;
 }
@@ -2148,15 +2056,15 @@ gdict_defbox_insert_word (GdictDefbox *defbox,
 {
   GdictDefboxPrivate *priv;
   gchar *text;
-  
+
   if (!word)
     return;
-  
+
   g_assert (GDICT_IS_DEFBOX (defbox));
   priv = defbox->priv;
-  
+
   g_assert (GTK_IS_TEXT_BUFFER (priv->buffer));
-  
+
   text = g_strdup_printf ("%s\n", word);
   gtk_text_buffer_insert_with_tags_by_name (priv->buffer,
   					    iter,
@@ -2228,13 +2136,13 @@ gdict_defbox_insert_body (GdictDefbox *defbox,
   gchar **words;
   gint len, i;
   GtkTextIter end_iter;
-  
+
   if (!body)
     return;
-  
+
   g_assert (GDICT_IS_DEFBOX (defbox));
   priv = defbox->priv;
-  
+
   g_assert (GTK_IS_TEXT_BUFFER (priv->buffer));
 
   words = g_strsplit (body, " ", -1);
@@ -2353,7 +2261,7 @@ gdict_defbox_insert_body (GdictDefbox *defbox,
               continue;
             }
         }
-      
+
       gtk_text_buffer_insert (priv->buffer, &end_iter, w, w_len);
 
       gtk_text_buffer_get_end_iter (priv->buffer, &end_iter);
@@ -2375,15 +2283,15 @@ gdict_defbox_insert_from (GdictDefbox *defbox,
 {
   GdictDefboxPrivate *priv;
   gchar *text;
-  
+
   if (!database)
     return;
-  
+
   g_assert (GDICT_IS_DEFBOX (defbox));
   priv = defbox->priv;
-  
+
   g_assert (GTK_IS_TEXT_BUFFER (priv->buffer));
-  
+
   text = g_strdup_printf ("\t-- From %s\n\n", database);
   gtk_text_buffer_insert_with_tags_by_name (priv->buffer,
   					    iter,
@@ -2402,18 +2310,18 @@ gdict_defbox_insert_error (GdictDefbox *defbox,
   GdictDefboxPrivate *priv;
   GtkTextMark *mark;
   GtkTextIter cur_iter;
-  
+
   if (!title)
     return;
-  
+
   g_assert (GDICT_IS_DEFBOX (defbox));
   priv = defbox->priv;
-  
+
   g_assert (GTK_IS_TEXT_BUFFER (priv->buffer));
 
   mark = gtk_text_buffer_create_mark (priv->buffer, "block-cursor", iter, FALSE);
   gtk_text_buffer_get_iter_at_mark (priv->buffer, &cur_iter, mark);
-  
+
   gtk_text_buffer_insert_with_tags_by_name (priv->buffer,
   					    &cur_iter,
   					    title, strlen (title),
@@ -2440,7 +2348,7 @@ definition_found_cb (GdictContext    *context,
   GdictDefboxPrivate *priv = defbox->priv;
   GtkTextIter iter;
   Definition *def;
- 
+
   /* insert the word if this is the first definition */
   if (!priv->definitions)
     {
@@ -2448,18 +2356,18 @@ definition_found_cb (GdictContext    *context,
       gdict_defbox_insert_word (defbox, &iter,
 				gdict_definition_get_word (definition));
     }
-  
+
   def = definition_new ();
-  
+
   gtk_text_buffer_get_end_iter (priv->buffer, &iter);
   def->begin = gtk_text_iter_get_offset (&iter);
   gdict_defbox_insert_body (defbox, &iter, gdict_definition_get_text (definition));
-  
+
   gtk_text_buffer_get_end_iter (priv->buffer, &iter);
   gdict_defbox_insert_from (defbox, &iter, gdict_definition_get_database (definition));
-  
+
   def->definition = gdict_definition_ref (definition);
-  
+
   priv->definitions = g_slist_append (priv->definitions, def);
 }
 
@@ -2474,17 +2382,17 @@ error_cb (GdictContext *context,
 
   if (!error)
     return;
-  
+
   gdict_defbox_clear (defbox);
 
   gtk_text_buffer_get_start_iter (priv->buffer, &iter);
   gdict_defbox_insert_error (defbox, &iter,
 		             _("Error while looking up definition"),
 		             error->message);
-  
+
   g_free (priv->word);
   priv->word = NULL;
-  
+
   defbox->priv->is_searching = FALSE;
 }
 
@@ -2504,11 +2412,11 @@ gdict_defbox_lookup (GdictDefbox *defbox,
 {
   GdictDefboxPrivate *priv;
   GError *define_error;
-  
+
   g_return_if_fail (GDICT_IS_DEFBOX (defbox));
-  
+
   priv = defbox->priv;
-  
+
   if (!priv->context)
     {
       g_warning ("Attempting to look up `%s', but no GdictContext "
@@ -2517,18 +2425,18 @@ gdict_defbox_lookup (GdictDefbox *defbox,
                  word);
       return;
     }
-  
+
   if (priv->is_searching)
     {
       _gdict_show_error_dialog (GTK_WIDGET (defbox),
       			        _("Another search is in progress"),
       			        _("Please wait until the current search ends."));
-      
+
       return;
     }
 
   gdict_defbox_clear (defbox);
-  
+
   if (!priv->start_id)
     {
       priv->start_id = g_signal_connect (priv->context, "lookup-start",
@@ -2541,15 +2449,15 @@ gdict_defbox_lookup (GdictDefbox *defbox,
   				       G_CALLBACK (lookup_end_cb),
   				       defbox);
     }
-  
+
   if (!priv->error_id)
     priv->error_id = g_signal_connect (priv->context, "error",
   				       G_CALLBACK (error_cb),
   				       defbox);
-  
+
   priv->word = g_strdup (word);
   g_object_notify (G_OBJECT (defbox), "word");
-  
+
   define_error = NULL;
   gdict_context_define_word (priv->context,
   			     priv->database,
@@ -2581,9 +2489,9 @@ gdict_defbox_clear (GdictDefbox *defbox)
 {
   GdictDefboxPrivate *priv;
   GtkTextIter start, end;
-  
+
   g_return_if_fail (GDICT_IS_DEFBOX (defbox));
-  
+
   priv = defbox->priv;
 
   /* destroy previously found definitions */
@@ -2593,10 +2501,10 @@ gdict_defbox_clear (GdictDefbox *defbox)
       		       (GFunc) definition_free,
       		       NULL);
       g_slist_free (priv->definitions);
-      
+
       priv->definitions = NULL;
     }
-  
+
   gtk_text_buffer_get_bounds (priv->buffer, &start, &end);
   gtk_text_buffer_delete (priv->buffer, &start, &end);
 }
@@ -2604,9 +2512,9 @@ gdict_defbox_clear (GdictDefbox *defbox)
 /**
  * gdict_defbox_find_next:
  * @defbox: a #GdictDefbox
- * 
+ *
  * Emits the "find-next" signal.
- * 
+ *
  * Since: 0.1
  */
 void
@@ -2620,9 +2528,9 @@ gdict_defbox_find_next (GdictDefbox *defbox)
 /**
  * gdict_defbox_find_previous:
  * @defbox: a #GdictDefbox
- * 
+ *
  * Emits the "find-previous" signal.
- * 
+ *
  * Since: 0.1
  */
 void
@@ -2638,7 +2546,7 @@ gdict_defbox_find_previous (GdictDefbox *defbox)
  * @defbox: a #GdictDefbox
  *
  * Selects all the text displayed by @defbox
- * 
+ *
  * Since: 0.1
  */
 void
@@ -2647,12 +2555,12 @@ gdict_defbox_select_all (GdictDefbox *defbox)
   GdictDefboxPrivate *priv;
   GtkTextBuffer *buffer;
   GtkTextIter start, end;
-  
+
   g_return_if_fail (GDICT_IS_DEFBOX (defbox));
-  
+
   priv = defbox->priv;
   buffer = gtk_text_view_get_buffer (GTK_TEXT_VIEW (priv->text_view));
-  
+
   gtk_text_buffer_get_bounds (buffer, &start, &end);
   gtk_text_buffer_select_range (buffer, &start, &end);
 }
@@ -2672,7 +2580,7 @@ gdict_defbox_copy_to_clipboard (GdictDefbox  *defbox,
 {
   GdictDefboxPrivate *priv;
   GtkTextBuffer *buffer;
-  
+
   g_return_if_fail (GDICT_IS_DEFBOX (defbox));
   g_return_if_fail (GTK_IS_CLIPBOARD (clipboard));
 
@@ -2696,13 +2604,13 @@ gint
 gdict_defbox_count_definitions (GdictDefbox *defbox)
 {
   GdictDefboxPrivate *priv;
-  
+
   g_return_val_if_fail (GDICT_IS_DEFBOX (defbox), -1);
-  
+
   priv = defbox->priv;
   if (!priv->definitions)
     return -1;
-  
+
   return g_slist_length (priv->definitions);
 }
 
@@ -2725,21 +2633,21 @@ gdict_defbox_jump_to_definition (GdictDefbox *defbox,
   Definition *def;
   GtkTextBuffer *buffer;
   GtkTextIter def_start;
-  
+
   g_return_if_fail (GDICT_IS_DEFBOX (defbox));
-  
+
   count = gdict_defbox_count_definitions (defbox) - 1;
   if (count == -1)
     return;
-  
+
   if ((number == -1) || (number > count))
     number = count;
-  
+
   priv = defbox->priv;
   def = (Definition *) g_slist_nth_data (priv->definitions, number);
   if (!def)
     return;
-  
+
   buffer = gtk_text_view_get_buffer (GTK_TEXT_VIEW (priv->text_view));
   gtk_text_buffer_get_iter_at_offset (buffer, &def_start, def->begin);
   gtk_text_view_scroll_to_iter (GTK_TEXT_VIEW (priv->text_view),
@@ -2769,19 +2677,19 @@ gdict_defbox_get_text (GdictDefbox *defbox,
   GtkTextBuffer *buffer;
   GtkTextIter start, end;
   gchar *retval;
-  
+
   g_return_val_if_fail (GDICT_IS_DEFBOX (defbox), NULL);
-  
+
   priv = defbox->priv;
   buffer = gtk_text_view_get_buffer (GTK_TEXT_VIEW (priv->text_view));
-  
+
   gtk_text_buffer_get_bounds (buffer, &start, &end);
-  
+
   retval = gtk_text_buffer_get_text (buffer, &start, &end, FALSE);
-  
+
   if (length)
     *length = strlen (retval);
-  
+
   return retval;
 }
 
@@ -2792,7 +2700,7 @@ gdict_defbox_get_text (GdictDefbox *defbox,
  *
  * Sets @font_name as the font for @defbox. It calls internally
  * pango_font_description_from_string() and gtk_widget_modify_font().
- * 
+ *
  * Passing %NULL for @font_name will reset any previously set font.
  *
  * Since: 0.3.0
