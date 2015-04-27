@@ -1,3 +1,33 @@
+GNOME Dictionary 3.17.1                                               2015-04-27
+================================================================================
+Translations
+ * cs (Marek Černocký), el (Tom Tryfonidis), et (Mattias Põldaru),
+   ja (Hajime Taira), nl (Hannie Dumoleyn)
+
+Application
+ * Pass the application pointer to the window constructor (Emmanuele Bassi)
+ * Drop homegrown app singleton (Emmanuele Bassi)
+ * Use widget templates to build GdictPrefDialog (Emmanuele Bassi)
+ * Rename the GdictPrefDialog UI definition (Emmanuele Bassi)
+ * Rename the menus UI definition file (Emmanuele Bassi)
+ * Use widget templates for GdictSourceDialog (Emmanuele Bassi)
+ * Remove compilation warnings (Juan R. García Blanco)
+ * Improve menu items sensitivity (Juan R. García Blanco)
+ * Show a spinner while loading word definitions (Juan R. García Blanco)
+ * Remove status bar (Juan R. García Blanco)
+ * Use widget templates and a header bar (Juan R. García Blanco)
+ * Move New Window to app menu (Juan R. García Blanco)
+
+Library
+ * Fix a compiler warning (Emmanuele Bassi)
+ * Add GdictDefbox::selection-changed signal (Juan R. García Blanco)
+ * Replace custom find bar with GtkSearchBar (Juan R. García Blanco)
+ * Remove extra box around GdictDefBox (Juan R. García Blanco)
+ * Do not set busy cursor in GdictDefBox (Juan R. García Blanco)
+
+Build
+ * Drop unnecessary double indirection when generating schemas (Emmanuele Bassi)
+
 GNOME Dictionary 3.16.0                                               2015-03-22
 ================================================================================
 Translations
