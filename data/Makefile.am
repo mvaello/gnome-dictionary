@@ -32,7 +32,10 @@ CLEANFILES += $(dbusservice_DATA)
 appdatadir = $(datadir)/appdata
 appdata_DATA = $(appdata_in_files:.xml.in=.xml)
 appdata_in_files = org.gnome.Dictionary.appdata.xml.in
-EXTRA_DIST += $(appdata_in_files)
+EXTRA_DIST += \
+							$(appdata_in_files) \
+							$(gsettings_SCHEMAS) \
+							$(NULL)
 CLEANFILES += $(appdata_DATA)
 
 # dictionary sources definitions
