@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: Tajik Gnome\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "dictionary&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2015-03-13 19:43+0000\n"
-"PO-Revision-Date: 2015-03-14 10:04+0500\n"
+"POT-Creation-Date: 2015-05-06 18:47+0000\n"
+"PO-Revision-Date: 2015-05-07 10:00+0500\n"
 "Last-Translator: Victor Ibragimov <victor.ibragimov@gmail.com>\n"
 "Language-Team: \n"
 "Language: tg\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 1.6.5\n"
+"X-Generator: Poedit 1.7.5\n"
 
 #: ../data/default.desktop.in.h:1
 msgid "Default Dictionary Server"
@@ -36,167 +36,190 @@ msgstr ""
 "осонӣ иваз кунед ё луғати онлайни наверо тавассути протоколи DICT илова "
 "кунед."
 
-#: ../src/gnome-dictionary-menus.ui.h:1
+#: ../src/gdict-app-menus.ui.h:1
+msgid "_New Window"
+msgstr "_Равзанаи нав"
+
+#: ../src/gdict-app-menus.ui.h:2
 msgid "Preferences"
 msgstr "Хусусиятҳо"
 
-#: ../src/gnome-dictionary-menus.ui.h:2
+#: ../src/gdict-app-menus.ui.h:3
 msgid "Help"
 msgstr "Кӯмак"
 
-#: ../src/gnome-dictionary-menus.ui.h:3
+#: ../src/gdict-app-menus.ui.h:4
 msgid "About"
 msgstr "Дар бораи барнома"
 
-#: ../src/gnome-dictionary-menus.ui.h:4
+#: ../src/gdict-app-menus.ui.h:5
 msgid "Quit"
 msgstr "Баромад"
 
-#: ../src/gnome-dictionary-menus.ui.h:5
+#: ../src/gdict-app-menus.ui.h:6
 msgid "_File"
 msgstr "_Файл"
 
-#: ../src/gnome-dictionary-menus.ui.h:6
-msgid "_New"
-msgstr "_Нав"
-
-#: ../src/gnome-dictionary-menus.ui.h:7
+#: ../src/gdict-app-menus.ui.h:7
 msgid "_Save a Copy..."
 msgstr "_Захира кардани нусха..."
 
-#: ../src/gnome-dictionary-menus.ui.h:8
+#: ../src/gdict-app-menus.ui.h:8
 msgid "P_review"
 msgstr "_Пешнамоиш"
 
-#: ../src/gnome-dictionary-menus.ui.h:9
+#: ../src/gdict-app-menus.ui.h:9
 msgid "_Print"
 msgstr "_Чоп кардан"
 
 #. we just allow closing the dialog
-#: ../src/gnome-dictionary-menus.ui.h:10 ../src/gdict-source-dialog.c:629
-#: ../src/gdict-source-dialog.c:641
+#: ../src/gdict-app-menus.ui.h:10 ../src/gdict-pref-dialog.c:635
+#: ../src/gdict-source-dialog.c:560 ../src/gdict-source-dialog.c:574
 msgid "_Close"
 msgstr "_Пӯшидан"
 
-#: ../src/gnome-dictionary-menus.ui.h:11
+#: ../src/gdict-app-menus.ui.h:11
 msgid "_Edit"
 msgstr "_Таҳрир кардан"
 
-#: ../src/gnome-dictionary-menus.ui.h:12
+#: ../src/gdict-app-menus.ui.h:12
 msgid "_Copy"
 msgstr "_Нусха бардоштан"
 
-#: ../src/gnome-dictionary-menus.ui.h:13
+#: ../src/gdict-app-menus.ui.h:13
 msgid "Select _All"
 msgstr "Интихоб кардани _ҳама"
 
-#: ../src/gnome-dictionary-menus.ui.h:14
+#: ../src/gdict-app-menus.ui.h:14
 msgid "_Find"
 msgstr "_Ёфтан"
 
-#: ../src/gnome-dictionary-menus.ui.h:15
+#: ../src/gdict-app-menus.ui.h:15
 msgid "Find Ne_xt"
 msgstr "Ёфтани Нав_батӣ"
 
-#: ../src/gnome-dictionary-menus.ui.h:16
+#: ../src/gdict-app-menus.ui.h:16
 msgid "Find Pre_vious"
 msgstr "Ёфтани Қаб_лӣ"
 
-#: ../src/gnome-dictionary-menus.ui.h:17
+#: ../src/gdict-app-menus.ui.h:17
 msgid "_View"
 msgstr "_Намоиш"
 
-#: ../src/gnome-dictionary-menus.ui.h:18
+#: ../src/gdict-app-menus.ui.h:18
 msgid "_Sidebar"
 msgstr "_Навори ҷонибӣ"
 
-#: ../src/gnome-dictionary-menus.ui.h:19
-msgid "S_tatusbar"
-msgstr "Навори_вазъият"
-
-#: ../src/gnome-dictionary-menus.ui.h:20
+#: ../src/gdict-app-menus.ui.h:19
 msgid "Similar _Words"
 msgstr "Калимаҳои _монанд "
 
-#: ../src/gnome-dictionary-menus.ui.h:21
+#: ../src/gdict-app-menus.ui.h:20
 msgid "Dictionary Sources"
 msgstr "Манбаҳои луғат"
 
-#: ../src/gnome-dictionary-menus.ui.h:22
+#: ../src/gdict-app-menus.ui.h:21
 msgid "Available _Dictionaries"
 msgstr "Луғатҳои _дастрас"
 
-#: ../src/gnome-dictionary-menus.ui.h:23
+#: ../src/gdict-app-menus.ui.h:22
 msgid "Available St_rategies"
 msgstr "Ст_ратегияҳои дастрас"
 
-#: ../src/gnome-dictionary-menus.ui.h:24
+#: ../src/gdict-app-menus.ui.h:23
 msgid "_Go"
 msgstr "_Гузариш"
 
-#: ../src/gnome-dictionary-menus.ui.h:25
+#: ../src/gdict-app-menus.ui.h:24
 msgid "_Previous Definition"
 msgstr "_Мазмуни қаблӣ"
 
-#: ../src/gnome-dictionary-menus.ui.h:26
+#: ../src/gdict-app-menus.ui.h:25
 msgid "_Next Definition"
 msgstr "_Таърифи навбатӣ"
 
-#: ../src/gnome-dictionary-menus.ui.h:27
+#: ../src/gdict-app-menus.ui.h:26
 msgid "_First Definition"
 msgstr "_Таърифи якум"
 
-#: ../src/gnome-dictionary-menus.ui.h:28
+#: ../src/gdict-app-menus.ui.h:27
 msgid "_Last Definition"
 msgstr "_Таърифи охирин"
 
-#: ../src/gnome-dictionary-preferences.ui.h:1
+#: ../src/gdict-pref-dialog.ui.h:1
 msgid "_Select a dictionary source for looking up words:"
 msgstr "_Интихоби манбаи луғат барои ҷустуҷӯи калимаҳо:"
 
-#: ../src/gnome-dictionary-preferences.ui.h:2
-#: ../src/gnome-dictionary-source.ui.h:6
+#: ../src/gdict-pref-dialog.ui.h:2
+msgid "Add a new dictionary source"
+msgstr "Илова кардани манбаи нави луғат"
+
+#: ../src/gdict-pref-dialog.ui.h:3
+msgid "Remove the currently selected dictionary source"
+msgstr "Тоза кардани манбаи интихобшудаи ҷории луғат"
+
+#: ../src/gdict-pref-dialog.ui.h:4
+msgid "Edit"
+msgstr "Таҳрир кардан"
+
+#: ../src/gdict-pref-dialog.ui.h:5
+msgid "Edit the currently selected dictionary source"
+msgstr "Таҳрири манбаи интихобшудаи ҷории луғат"
+
+#: ../src/gdict-pref-dialog.ui.h:6 ../src/gdict-source-dialog.ui.h:6
 msgid "Source"
 msgstr "Манбаъ"
 
-#: ../src/gnome-dictionary-preferences.ui.h:3
+#: ../src/gdict-pref-dialog.ui.h:7
 msgid "_Print font:"
 msgstr "_Чопи шрифт:"
 
-#: ../src/gnome-dictionary-preferences.ui.h:4
+#: ../src/gdict-pref-dialog.ui.h:8
+msgid "Set the font used for printing the definitions"
+msgstr "Танзими шрифти истифодашуда барои чопи тавсифҳо"
+
+#: ../src/gdict-pref-dialog.ui.h:9
 msgid "Print"
 msgstr "Чоп кардан"
 
-#: ../src/gnome-dictionary-source.ui.h:1
+#: ../src/gdict-source-dialog.ui.h:1
 msgid "_Description:"
 msgstr "_Тавсиф:"
 
-#: ../src/gnome-dictionary-source.ui.h:2
+#: ../src/gdict-source-dialog.ui.h:2
 msgid "_Transport:"
 msgstr "_Интиқол:"
 
-#: ../src/gnome-dictionary-source.ui.h:3
+#: ../src/gdict-source-dialog.ui.h:3
 msgid "H_ostname:"
 msgstr "Номи_мизбон"
 
-#: ../src/gnome-dictionary-source.ui.h:4
+#: ../src/gdict-source-dialog.ui.h:4
 msgid "_Port:"
 msgstr "_Порт:"
 
-#: ../src/gnome-dictionary-source.ui.h:5
+#: ../src/gdict-source-dialog.ui.h:5
 msgid "Source Name"
 msgstr "Номи манбаъ"
 
-#: ../src/gnome-dictionary-source.ui.h:7
+#: ../src/gdict-source-dialog.ui.h:7
 msgid "Dictionaries"
 msgstr "Луғатҳо"
 
-#: ../src/gnome-dictionary-source.ui.h:8
+#: ../src/gdict-source-dialog.ui.h:8
 msgid "Strategies"
 msgstr "Стратегияҳо"
 
+#: ../src/gdict-app-window.ui.h:1
+msgid "page0"
+msgstr "саҳифаи0"
+
+#: ../src/gdict-app-window.ui.h:2
+msgid "page1"
+msgstr "саҳифаи1"
+
 #: ../data/org.gnome.Dictionary.desktop.in.in.h:1 ../src/gdict-about.c:60
-#: ../src/gdict-window.c:546 ../src/gdict-window.c:1811
+#: ../src/gdict-window.c:503 ../src/gdict-window.c:1649
 msgid "Dictionary"
 msgstr "Луғат"
 
@@ -208,11 +231,11 @@ msgstr "Санҷиши таърифҳо ва талаффузҳои калима
 msgid "word;synonym;definition;spelling;"
 msgstr "калима;синоним;таъриф;талаффуз;"
 
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:1
+#: ../data/org.gnome.dictionary.gschema.xml.h:1
 msgid "The default database to use"
 msgstr "Пойгоҳи иттилоотии пешфарз барои истифода"
 
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:2
+#: ../data/org.gnome.dictionary.gschema.xml.h:2
 msgid ""
 "The name of the default individual database or meta-database to use on a "
 "dictionary source. An exclamation mark (\"!\") means that all the databases "
@@ -222,11 +245,11 @@ msgstr ""
 "истифода дар манбаи луғут. Аломати хитоб (\"!\") маънои онро дорад, ки ҳамаи "
 "пойгоҳҳои иттилоотии мавҷудбуда дар манбаи луғат бояд ҷустуҷӯ шаванд"
 
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:3
+#: ../data/org.gnome.dictionary.gschema.xml.h:3
 msgid "The default search strategy to use"
 msgstr "Стратегияи ҷустуҷӯи пешфарз барои истифода"
 
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:4
+#: ../data/org.gnome.dictionary.gschema.xml.h:4
 msgid ""
 "The name of the default search strategy to use on a dictionary source, if "
 "available. The default strategy is 'exact', that is match exact words."
@@ -235,19 +258,19 @@ msgstr ""
 "дастрас будан. Стратегияи пешфарз 'дақиқ' аст, ки калимаҳои дақиқро ҷқфт "
 "менамояд."
 
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:5
+#: ../data/org.gnome.dictionary.gschema.xml.h:5
 msgid "The font to be used when printing"
 msgstr "Шрифте, ки бояд ҳангоми чоп кардан истифода шавад"
 
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:6
+#: ../data/org.gnome.dictionary.gschema.xml.h:6
 msgid "The font to be used when printing a definition."
 msgstr "Шрифте, ки бояд ҳангоми чоп кардани таъриф истифода шавад."
 
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:7
+#: ../data/org.gnome.dictionary.gschema.xml.h:7
 msgid "The name of the dictionary source used"
 msgstr "Номи манбаи луғати истифодашуда"
 
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:8
+#: ../data/org.gnome.dictionary.gschema.xml.h:8
 msgid ""
 "The name of the dictionary source used to retrieve the definitions of words."
 msgstr "Номи манбаи луғати истифодашуда барои ҷустуҷӯи мазмуни калимаҳо"
@@ -428,36 +451,19 @@ msgstr "Тоза кардани рӯйхати пойгоҳҳои иттилоо
 msgid "Error while matching"
 msgstr "Хато ҳангоми муқоиса"
 
-#: ../libgdict/gdict-defbox.c:1109 ../libgdict/gdict-defbox.c:1203
-#: ../libgdict/gdict-defbox.c:1237
-msgid "Not found"
-msgstr "Ёфт нашуд"
-
-#: ../libgdict/gdict-defbox.c:1297
-msgid "F_ind:"
-msgstr "Ё_фтан"
-
-#: ../libgdict/gdict-defbox.c:1310
-msgid "_Previous"
-msgstr "_Қаблӣ"
-
-#: ../libgdict/gdict-defbox.c:1317
-msgid "_Next"
-msgstr "_Навбатӣ"
-
-#: ../libgdict/gdict-defbox.c:2461
+#: ../libgdict/gdict-defbox.c:2390
 msgid "Error while looking up definition"
 msgstr "Хато ҳангоми ҷустуҷӯи таъриф"
 
-#: ../libgdict/gdict-defbox.c:2503 ../libgdict/gdict-speller.c:725
+#: ../libgdict/gdict-defbox.c:2432 ../libgdict/gdict-speller.c:725
 msgid "Another search is in progress"
 msgstr "Ҷустуҷӯи дигар идома дорад"
 
-#: ../libgdict/gdict-defbox.c:2504 ../libgdict/gdict-speller.c:726
+#: ../libgdict/gdict-defbox.c:2433 ../libgdict/gdict-speller.c:726
 msgid "Please wait until the current search ends."
 msgstr "Лутфан то хотимаи ҷустуҷӯи ҷорӣ интизор шавед."
 
-#: ../libgdict/gdict-defbox.c:2543
+#: ../libgdict/gdict-defbox.c:2472
 msgid "Error while retrieving the definition"
 msgstr "Хато ҳангоми бозёбии таъриф"
 
@@ -486,12 +492,10 @@ msgid "The description of this dictionary source"
 msgstr "Таърифи ин манбаи луғат"
 
 #: ../libgdict/gdict-source.c:279
-#| msgid "_Edit"
 msgid "Editable"
 msgstr "Тағйирпазир"
 
 #: ../libgdict/gdict-source.c:280
-#| msgid "The name of the dictionary source used"
 msgid "Whether the dictionary source is editable or not"
 msgstr "Вазъияти тағйирпазирии манбаи луғат"
 
@@ -634,243 +638,229 @@ msgstr "Victor Ibragimov"
 msgid "Look up words in dictionaries"
 msgstr "Калимаҳоро аз луғат ҷустуҷӯ намоед"
 
-#: ../src/gdict-app.c:53 ../src/gdict-app.c:82
+#: ../src/gdict-app.c:46 ../src/gdict-app.c:75
 msgid "Words to look up"
 msgstr "Калимаҳо барои ҷустуҷӯ"
 
-#: ../src/gdict-app.c:53 ../src/gdict-app.c:59
+#: ../src/gdict-app.c:46 ../src/gdict-app.c:52
 msgid "WORD"
 msgstr "КАЛИМА"
 
-#: ../src/gdict-app.c:59
+#: ../src/gdict-app.c:52
 msgid "Words to match"
 msgstr "Калимаҳо барои муқоиса"
 
-#: ../src/gdict-app.c:65
+#: ../src/gdict-app.c:58
 msgid "Dictionary source to use"
 msgstr "Манбаҳои луғат барои истифода"
 
-#: ../src/gdict-app.c:65 ../src/gdict-app.c:71 ../src/gdict-app.c:77
+#: ../src/gdict-app.c:58 ../src/gdict-app.c:64 ../src/gdict-app.c:70
 msgid "NAME"
 msgstr "НОМ"
 
-#: ../src/gdict-app.c:71
+#: ../src/gdict-app.c:64
 msgid "Database to use"
 msgstr "Пойгоҳи иттилоот барои истифода"
 
-#: ../src/gdict-app.c:77
+#: ../src/gdict-app.c:70
 msgid "Strategy to use"
 msgstr "Стратегия барои истифода"
 
-#: ../src/gdict-app.c:82
+#: ../src/gdict-app.c:75
 msgid "WORDS"
 msgstr "КАЛИМАҲО"
 
-#: ../src/gdict-app.c:99
+#: ../src/gdict-app.c:107
 msgid "Dictionary Preferences"
 msgstr "Бартариҳои луғат"
 
-#: ../src/gdict-app.c:121 ../src/gdict-pref-dialog.c:521
-#: ../src/gdict-source-dialog.c:479
+#: ../src/gdict-app.c:129 ../src/gdict-pref-dialog.c:511
+#: ../src/gdict-source-dialog.c:452
 #, c-format
 msgid "There was an error while displaying help"
 msgstr "Ҳангоми намоиши кӯмак хатогӣ рух дод"
 
-#: ../src/gdict-pref-dialog.c:271
-#| msgid "Edit Dictionary Source"
+#: ../src/gdict-pref-dialog.c:264
 msgid "View Dictionary Source"
 msgstr "Намоиш додани манбаи луғат"
 
-#: ../src/gdict-pref-dialog.c:338
+#: ../src/gdict-pref-dialog.c:330
 msgid "Add Dictionary Source"
 msgstr "Илова кардани манбаи луғат"
 
-#: ../src/gdict-pref-dialog.c:383
+#: ../src/gdict-pref-dialog.c:374
 #, c-format
 msgid "Remove \"%s\"?"
 msgstr "\"%s\"-ро тоза мекунед?"
 
-#: ../src/gdict-pref-dialog.c:385
+#: ../src/gdict-pref-dialog.c:376
 msgid "This will permanently remove the dictionary source from the list."
 msgstr "Ин ба таври доимӣ манбаи луғатро аз рӯйхат тоза менамояд"
 
-#: ../src/gdict-pref-dialog.c:388 ../src/gdict-source-dialog.c:632
-#: ../src/gdict-window.c:916
+#: ../src/gdict-pref-dialog.c:379 ../src/gdict-source-dialog.c:564
+#: ../src/gdict-window.c:826
 msgid "_Cancel"
 msgstr "_Бекор кардан"
 
-#: ../src/gdict-pref-dialog.c:389
-#| msgid "Remove \"%s\"?"
+#: ../src/gdict-pref-dialog.c:380
 msgid "_Remove"
 msgstr "_Тоза кардан"
 
-#: ../src/gdict-pref-dialog.c:407
+#: ../src/gdict-pref-dialog.c:398
 #, c-format
 msgid "Unable to remove source '%s'"
 msgstr "Тоза кардани манбаи '%s' номумкин аст"
 
-#: ../src/gdict-pref-dialog.c:455
+#: ../src/gdict-pref-dialog.c:445
 msgid "Edit Dictionary Source"
 msgstr "Таҳрири манбаи луғат"
 
-#: ../src/gdict-pref-dialog.c:661
-msgid "Add a new dictionary source"
-msgstr "Илова кардани манбаи нави луғат"
-
-#: ../src/gdict-pref-dialog.c:667
-msgid "Remove the currently selected dictionary source"
-msgstr "Тоза кардани манбаи интихобшудаи ҷории луғат"
-
-#: ../src/gdict-pref-dialog.c:673
-msgid "Edit the currently selected dictionary source"
-msgstr "Таҳрири манбаи интихобшудаи ҷории луғат"
-
-#: ../src/gdict-pref-dialog.c:681
-msgid "Set the font used for printing the definitions"
-msgstr "Танзими шрифти истифодашуда барои чопи тавсифҳо"
+#. add buttons
+#. The help button is always visible
+#: ../src/gdict-pref-dialog.c:634 ../src/gdict-source-dialog.c:655
+msgid "_Help"
+msgstr "_Кумак"
 
 #: ../src/gdict-print.c:239 ../src/gdict-print.c:303
 #, c-format
 msgid "Unable to display the preview: %s"
 msgstr "Пешнамоиш имконнопазир аст: %s"
 
-#: ../src/gdict-source-dialog.c:340 ../src/gdict-source-dialog.c:432
+#: ../src/gdict-source-dialog.c:316 ../src/gdict-source-dialog.c:404
 msgid "Unable to create a source file"
 msgstr "Файли манбаро эҷод карда наметавонад"
 
-#: ../src/gdict-source-dialog.c:356 ../src/gdict-source-dialog.c:452
+#: ../src/gdict-source-dialog.c:332 ../src/gdict-source-dialog.c:424
 msgid "Unable to save source file"
 msgstr "Файли манбаъо захира карда наметавонад"
 
-#. the help button is always visible
-#: ../src/gdict-source-dialog.c:603
-#| msgid "Help"
-msgid "_Help"
-msgstr "_Кумак"
-
-#: ../src/gdict-source-dialog.c:633
+#: ../src/gdict-source-dialog.c:565
 msgid "_Add"
 msgstr "_Илова кардан"
 
-#: ../src/gdict-source-dialog.c:640
+#: ../src/gdict-source-dialog.c:573
 msgid "C_ancel"
 msgstr "_Бекор кардан"
 
-#: ../src/gdict-window.c:256
-#, c-format
-msgid "Searching for '%s'..."
-msgstr "Ҷустуҷӯи '%s'..."
-
-#: ../src/gdict-window.c:288 ../src/gdict-window.c:345
-msgid "No definitions found"
-msgstr "Ҳеҷгуна таъриф ёфт нашуд"
-
-#: ../src/gdict-window.c:290
-#, c-format
-msgid "A definition found"
-msgid_plural "%d definitions found"
-msgstr[0] "Таъриф ёфт шуд"
-msgstr[1] "%d таъриф ёфт шуданд"
-
-#: ../src/gdict-window.c:461
+#: ../src/gdict-window.c:418
 #, c-format
 msgid "No dictionary source available with name '%s'"
 msgstr "Ҳеҷгуна манбаи луғати дастрас бо номи '%s' нест"
 
-#: ../src/gdict-window.c:465
+#: ../src/gdict-window.c:422
 msgid "Unable to find dictionary source"
 msgstr "Ёфтани манбаи луғат номумкин аст"
 
-#: ../src/gdict-window.c:481
+#: ../src/gdict-window.c:438
 #, c-format
 msgid "No context available for source '%s'"
 msgstr "Контексти дастрас барои манбаи '%s' нест"
 
-#: ../src/gdict-window.c:485
+#: ../src/gdict-window.c:442
 msgid "Unable to create a context"
 msgstr "Контекст эҷод карда наметавонад"
 
-#: ../src/gdict-window.c:544
+#: ../src/gdict-window.c:501
 #, c-format
 msgid "%s - Dictionary"
 msgstr "%s - Луғат"
 
-#: ../src/gdict-window.c:913
+#: ../src/gdict-window.c:823
 msgid "Save a Copy"
 msgstr "Захира кардани нусха"
 
-#: ../src/gdict-window.c:917
+#: ../src/gdict-window.c:827
 msgid "_Save"
 msgstr "_Захира кардан"
 
-#: ../src/gdict-window.c:923
+#: ../src/gdict-window.c:833
 msgid "Untitled document"
 msgstr "Ҳуҷҷати бесарлавҳа"
 
-#: ../src/gdict-window.c:944
+#: ../src/gdict-window.c:854
 #, c-format
 msgid "Error while writing to '%s'"
 msgstr "Хато ҳангоми навиштан ба '%s'"
 
-#: ../src/gdict-window.c:1368
-#, c-format
-msgid "Dictionary source `%s' selected"
-msgstr "Манбаи луғати `%s' интихоб шуд"
-
-#: ../src/gdict-window.c:1389
-#, c-format
-msgid "Strategy `%s' selected"
-msgstr "Стратегияи `%s' интихоб шуд"
-
-#: ../src/gdict-window.c:1409
-#, c-format
-msgid "Database `%s' selected"
-msgstr "Пойгоҳи иттилооти `%s' интихоб шуд"
-
-#: ../src/gdict-window.c:1429
-#, c-format
-msgid "Word `%s' selected"
-msgstr "Калимаи '%s' интихоб шуд"
-
 #. speller
-#: ../src/gdict-window.c:1454
+#: ../src/gdict-window.c:1305
 msgid "Double-click on the word to look up"
 msgstr "Барои ҷустуҷӯ ба рӯи калима ду бор зер кунед"
 
 #. strat-chooser
-#: ../src/gdict-window.c:1460
+#: ../src/gdict-window.c:1311
 msgid "Double-click on the matching strategy to use"
 msgstr "Барои истифода ба рӯи стратегияи муқоиса ду бор зер кунед"
 
 #. source-chooser
-#: ../src/gdict-window.c:1465
+#: ../src/gdict-window.c:1316
 msgid "Double-click on the source to use"
 msgstr "Барои истифода ба рӯи манбаъ ду бор зер кунед"
 
 #. db-chooser
-#: ../src/gdict-window.c:1474
+#: ../src/gdict-window.c:1325
 msgid "Double-click on the database to use"
 msgstr "Барои истифода ба рӯи пойгоҳи иттилот ду бор зер кунед"
 
-#: ../src/gdict-window.c:1622
-msgid "Look _up"
-msgstr "Ҷуст_уҷӯ"
-
-#: ../src/gdict-window.c:1696
+#: ../src/gdict-window.c:1546
 msgid "Similar words"
 msgstr "Калимаҳои монанд"
 
-#: ../src/gdict-window.c:1709
+#: ../src/gdict-window.c:1559
 msgid "Available dictionaries"
 msgstr "Луғатҳои дастрас"
 
-#: ../src/gdict-window.c:1727
+#: ../src/gdict-window.c:1577
 msgid "Available strategies"
 msgstr "Стратегияҳои дастрас"
 
-#: ../src/gdict-window.c:1743
+#: ../src/gdict-window.c:1593
 msgid "Dictionary sources"
 msgstr "Манбаҳои дастрас"
+
+#~ msgid "_New"
+#~ msgstr "_Нав"
+
+#~ msgid "S_tatusbar"
+#~ msgstr "Навори_вазъият"
+
+#~ msgid "Not found"
+#~ msgstr "Ёфт нашуд"
+
+#~ msgid "F_ind:"
+#~ msgstr "Ё_фтан"
+
+#~ msgid "_Previous"
+#~ msgstr "_Қаблӣ"
+
+#~ msgid "_Next"
+#~ msgstr "_Навбатӣ"
+
+#~ msgid "Searching for '%s'..."
+#~ msgstr "Ҷустуҷӯи '%s'..."
+
+#~ msgid "No definitions found"
+#~ msgstr "Ҳеҷгуна таъриф ёфт нашуд"
+
+#~ msgid "A definition found"
+#~ msgid_plural "%d definitions found"
+#~ msgstr[0] "Таъриф ёфт шуд"
+#~ msgstr[1] "%d таъриф ёфт шуданд"
+
+#~ msgid "Dictionary source `%s' selected"
+#~ msgstr "Манбаи луғати `%s' интихоб шуд"
+
+#~ msgid "Strategy `%s' selected"
+#~ msgstr "Стратегияи `%s' интихоб шуд"
+
+#~ msgid "Database `%s' selected"
+#~ msgstr "Пойгоҳи иттилооти `%s' интихоб шуд"
+
+#~ msgid "Word `%s' selected"
+#~ msgstr "Калимаи '%s' интихоб шуд"
+
+#~ msgid "Look _up"
+#~ msgstr "Ҷуст_уҷӯ"
 
 #~ msgid " - Look up words in dictionaries"
 #~ msgstr " - Ҷустуҷӯи калимаҳо дар луғатҳо"
