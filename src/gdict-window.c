@@ -913,22 +913,6 @@ gdict_window_cmd_file_close_window (GSimpleAction *action,
 }
 
 static void
-gdict_window_cmd_edit_copy (GSimpleAction *action,
-                            GVariant      *parameter,
-			    gpointer       user_data)
-{
-  GdictWindow *window = user_data;
-
-  g_assert (GDICT_IS_WINDOW (window));
-
-  if (gtk_widget_has_focus (window->entry))
-    gtk_editable_copy_clipboard (GTK_EDITABLE (window->entry));
-  else
-    gdict_defbox_copy_to_clipboard (GDICT_DEFBOX (window->defbox),
-				    gtk_clipboard_get (GDK_SELECTION_CLIPBOARD));
-}
-
-static void
 gdict_window_cmd_edit_select_all (GSimpleAction *action,
                                   GVariant      *parameter,
                                   gpointer       user_data)
@@ -1167,7 +1151,6 @@ static const GActionEntry entries[] =
   { "close", gdict_window_cmd_file_close_window, NULL, NULL, NULL },
 
   /* Edit menu */
-  { "copy", gdict_window_cmd_edit_copy, NULL, NULL, NULL },
   { "select-all", gdict_window_cmd_edit_select_all, NULL, NULL, NULL },
   { "find", gdict_window_cmd_edit_find, NULL, NULL, NULL },
   { "find-next", gdict_window_cmd_edit_find_next, NULL, NULL, NULL },
