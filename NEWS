@@ -1,3 +1,14 @@
+GNOME Dictionary 3.17.2                                               2015-05-25
+================================================================================
+Translations
+ * cs (Marek Černocký), he (Yosef Or Boczko), nb (Kjartan Maraas),
+   oc (Cédric Valmary), sk (Dušan Kazik), sl (Matej Urbančič),
+   tg (Victor Ibragimov), zh_CN (osfans)
+
+Application
+ * Fix #749131: Do not translate stack pages titles (Juan R. García Blanco)
+ * Remove Copy menu entry (Juan R. García Blanco)
+
 GNOME Dictionary 3.17.1                                               2015-04-27
 ================================================================================
 Translations
