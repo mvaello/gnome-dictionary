@@ -158,7 +158,6 @@ static const gchar *toggle_actions[] = {
   "next-def",
   "first-def",
   "last-def",
-  "select-all",
   "find",
   "find-next",
   "find-previous",
@@ -913,21 +912,6 @@ gdict_window_cmd_file_close_window (GSimpleAction *action,
 }
 
 static void
-gdict_window_cmd_edit_select_all (GSimpleAction *action,
-                                  GVariant      *parameter,
-                                  gpointer       user_data)
-{
-  GdictWindow *window = user_data;
-
-  g_assert (GDICT_IS_WINDOW (window));
-
-  if (gtk_widget_has_focus (window->entry))
-    gtk_editable_select_region (GTK_EDITABLE (window->entry), 0, -1);
-  else
-    gdict_defbox_select_all (GDICT_DEFBOX (window->defbox));
-}
-
-static void
 gdict_window_cmd_edit_find (GSimpleAction *action,
                             GVariant      *parameter,
                             gpointer       user_data)
@@ -1151,7 +1135,6 @@ static const GActionEntry entries[] =
   { "close", gdict_window_cmd_file_close_window, NULL, NULL, NULL },
 
   /* Edit menu */
-  { "select-all", gdict_window_cmd_edit_select_all, NULL, NULL, NULL },
   { "find", gdict_window_cmd_edit_find, NULL, NULL, NULL },
   { "find-next", gdict_window_cmd_edit_find_next, NULL, NULL, NULL },
   { "find-previous", gdict_window_cmd_edit_find_previous, NULL, NULL, NULL },
