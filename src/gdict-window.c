@@ -159,8 +159,6 @@ static const gchar *toggle_actions[] = {
   "first-def",
   "last-def",
   "find",
-  "find-next",
-  "find-previous",
 };
 
 static gint n_toggle_state = G_N_ELEMENTS (toggle_actions);
@@ -924,30 +922,6 @@ gdict_window_cmd_edit_find (GSimpleAction *action,
 }
 
 static void
-gdict_window_cmd_edit_find_next (GSimpleAction *action,
-                                 GVariant      *parameter,
-                                 gpointer       user_data)
-{
-  GdictWindow *window = user_data;
-
-  g_assert (GDICT_IS_WINDOW (window));
-
-  gdict_defbox_find_next (GDICT_DEFBOX (window->defbox));
-}
-
-static void
-gdict_window_cmd_edit_find_previous (GSimpleAction *action,
-                                     GVariant      *parameter,
-                                     gpointer       user_data)
-{
-  GdictWindow *window = user_data;
-
-  g_assert (GDICT_IS_WINDOW (window));
-
-  gdict_defbox_find_previous (GDICT_DEFBOX (window->defbox));
-}
-
-static void
 gdict_window_cmd_change_view_sidebar (GSimpleAction *action,
                                       GVariant      *state,
                                       gpointer       user_data)
@@ -1134,10 +1108,8 @@ static const GActionEntry entries[] =
   { "print", gdict_window_cmd_file_print, NULL, NULL, NULL },
   { "close", gdict_window_cmd_file_close_window, NULL, NULL, NULL },
 
-  /* Edit menu */
+  /* Find item */
   { "find", gdict_window_cmd_edit_find, NULL, NULL, NULL },
-  { "find-next", gdict_window_cmd_edit_find_next, NULL, NULL, NULL },
-  { "find-previous", gdict_window_cmd_edit_find_previous, NULL, NULL, NULL },
 
   /* Go menu */
   { "previous-def", gdict_window_cmd_go_previous_def, NULL, NULL, NULL },
