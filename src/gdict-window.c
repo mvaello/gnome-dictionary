@@ -891,25 +891,6 @@ gdict_window_cmd_file_print (GSimpleAction *action,
 }
 
 static void
-gdict_window_cmd_file_close_window (GSimpleAction *action,
-                                    GVariant      *parameter,
-                                    gpointer       user_data)
-{
-  GdictWindow *window = user_data;
-
-  g_assert (GDICT_IS_WINDOW (window));
-
-  gdict_window_store_state (window);
-
-  /* if this was called from the uimanager, destroy the widget;
-   * otherwise, if it was called from the delete_event, the widget
-   * will destroy itself.
-   */
-  if (action)
-    gtk_widget_destroy (GTK_WIDGET (window));
-}
-
-static void
 gdict_window_cmd_edit_find (GSimpleAction *action,
                             GVariant      *parameter,
                             gpointer       user_data)
@@ -1106,7 +1087,6 @@ static const GActionEntry entries[] =
   { "save-as", gdict_window_cmd_save_as, NULL, NULL, NULL },
   { "preview", gdict_window_cmd_file_preview, NULL, NULL, NULL },
   { "print", gdict_window_cmd_file_print, NULL, NULL, NULL },
-  { "close", gdict_window_cmd_file_close_window, NULL, NULL, NULL },
 
   /* Find item */
   { "find", gdict_window_cmd_edit_find, NULL, NULL, NULL },
@@ -1135,7 +1115,11 @@ gdict_window_delete_event_cb (GtkWidget *widget,
 			      GdkEvent  *event,
 			      gpointer   user_data)
 {
-  gdict_window_cmd_file_close_window (NULL, NULL, GDICT_WINDOW (widget));
+  GdictWindow *window = GDICT_WINDOW (widget);
+
+  g_assert (GDICT_IS_WINDOW (window));
+
+  gdict_window_store_state (window);
 
   return FALSE;
 }
