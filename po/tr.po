@@ -9,22 +9,24 @@
 # Baris Cicek <baris@teamforce.name.tr>, 2004, 2005, 2008, 2009.
 # İlker DAĞLI <ilker@ilkerdagli.info>, 2011.
 # Muhammet Kara <muhammetk@gmail.com>, 2011, 2012, 2013, 2014, 2015.
+# Necdet Yücel <necdetyucel@gmail.com>, 2015.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-utils\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "dictionary&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2015-03-22 07:38+0000\n"
-"PO-Revision-Date: 2015-03-22 17:57+0200\n"
-"Last-Translator: Muhammet Kara <muhammetk@gmail.com>\n"
+"POT-Creation-Date: 2015-06-01 18:57+0000\n"
+"PO-Revision-Date: 2015-06-02 07:11+0000\n"
+"Last-Translator: Necdet Yücel <necdetyucel@gmail.com>\n"
 "Language-Team: Turkish <gnome-turk@gnome.org>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Gtranslator 2.91.6\n"
+"X-Generator: Pootle 2.5.1.1\n"
+"X-POOTLE-MTIME: 1433229082.000000\n"
 
 #: ../data/default.desktop.in.h:1
 msgid "Default Dictionary Server"
@@ -42,167 +44,179 @@ msgstr ""
 "kolayca İspanyolcaya geçebilir ya da ihtiyacınıza göre, DICT iletişim "
 "kuralını kullanan diğer çevrimiçi sözlükleri ekleyebilirsiniz."
 
-#: ../src/gnome-dictionary-menus.ui.h:1
+#: ../src/gdict-app-menus.ui.h:1
+msgid "_New Window"
+msgstr "_Yeni Pencere"
+
+#: ../src/gdict-app-menus.ui.h:2
 msgid "Preferences"
 msgstr "Tercihler"
 
-#: ../src/gnome-dictionary-menus.ui.h:2
+#: ../src/gdict-app-menus.ui.h:3
 msgid "Help"
 msgstr "Yardım"
 
-#: ../src/gnome-dictionary-menus.ui.h:3
+#: ../src/gdict-app-menus.ui.h:4
 msgid "About"
 msgstr "Hakkında"
 
-#: ../src/gnome-dictionary-menus.ui.h:4
+#: ../src/gdict-app-menus.ui.h:5
 msgid "Quit"
 msgstr "Çık"
 
-#: ../src/gnome-dictionary-menus.ui.h:5
+#: ../src/gdict-app-menus.ui.h:6
 msgid "_File"
 msgstr "_Dosya"
 
-#: ../src/gnome-dictionary-menus.ui.h:6
-msgid "_New"
-msgstr "_Yeni"
-
-#: ../src/gnome-dictionary-menus.ui.h:7
+#: ../src/gdict-app-menus.ui.h:7
 msgid "_Save a Copy..."
 msgstr "_Bir Kopya Kaydet..."
 
-#: ../src/gnome-dictionary-menus.ui.h:8
+#: ../src/gdict-app-menus.ui.h:8
 msgid "P_review"
 msgstr "_Önizleme"
 
-#: ../src/gnome-dictionary-menus.ui.h:9
+#: ../src/gdict-app-menus.ui.h:9
 msgid "_Print"
 msgstr "_Yazdır"
 
 #. we just allow closing the dialog
-#: ../src/gnome-dictionary-menus.ui.h:10 ../src/gdict-source-dialog.c:629
-#: ../src/gdict-source-dialog.c:641
+#: ../src/gdict-app-menus.ui.h:10 ../src/gdict-pref-dialog.c:635
+#: ../src/gdict-source-dialog.c:560 ../src/gdict-source-dialog.c:574
 msgid "_Close"
 msgstr "_Kapat"
 
-#: ../src/gnome-dictionary-menus.ui.h:11
+#: ../src/gdict-app-menus.ui.h:11
 msgid "_Edit"
 msgstr "_Düzenle"
 
-#: ../src/gnome-dictionary-menus.ui.h:12
-msgid "_Copy"
-msgstr "_Kopyala"
-
-#: ../src/gnome-dictionary-menus.ui.h:13
+#: ../src/gdict-app-menus.ui.h:12
 msgid "Select _All"
 msgstr "_Tümünü Seç"
 
-#: ../src/gnome-dictionary-menus.ui.h:14
+#: ../src/gdict-app-menus.ui.h:13
 msgid "_Find"
 msgstr "_Bul"
 
-#: ../src/gnome-dictionary-menus.ui.h:15
+#: ../src/gdict-app-menus.ui.h:14
 msgid "Find Ne_xt"
 msgstr "_Sonrakini Bul"
 
-#: ../src/gnome-dictionary-menus.ui.h:16
+#: ../src/gdict-app-menus.ui.h:15
 msgid "Find Pre_vious"
 msgstr "Ö_ncekini Bul"
 
-#: ../src/gnome-dictionary-menus.ui.h:17
+#: ../src/gdict-app-menus.ui.h:16
 msgid "_View"
 msgstr "_Görüntüle"
 
-#: ../src/gnome-dictionary-menus.ui.h:18
+#: ../src/gdict-app-menus.ui.h:17
 msgid "_Sidebar"
 msgstr "_Kenar çubuğu"
 
-#: ../src/gnome-dictionary-menus.ui.h:19
-msgid "S_tatusbar"
-msgstr "_Durum çubuğu"
-
-#: ../src/gnome-dictionary-menus.ui.h:20
+#: ../src/gdict-app-menus.ui.h:18
 msgid "Similar _Words"
 msgstr "Benzer _Kelimeler"
 
-#: ../src/gnome-dictionary-menus.ui.h:21
+#: ../src/gdict-app-menus.ui.h:19
 msgid "Dictionary Sources"
 msgstr "Sözlük Kaynakları"
 
-#: ../src/gnome-dictionary-menus.ui.h:22
+#: ../src/gdict-app-menus.ui.h:20
 msgid "Available _Dictionaries"
 msgstr "Kullanılabilir _Sözlükler"
 
-#: ../src/gnome-dictionary-menus.ui.h:23
+#: ../src/gdict-app-menus.ui.h:21
 msgid "Available St_rategies"
 msgstr "Ulaşılaiblir _Stratejiler"
 
-#: ../src/gnome-dictionary-menus.ui.h:24
+#: ../src/gdict-app-menus.ui.h:22
 msgid "_Go"
 msgstr "_Git"
 
-#: ../src/gnome-dictionary-menus.ui.h:25
+#: ../src/gdict-app-menus.ui.h:23
 msgid "_Previous Definition"
 msgstr "Ön_ceki Tanım"
 
-#: ../src/gnome-dictionary-menus.ui.h:26
+#: ../src/gdict-app-menus.ui.h:24
 msgid "_Next Definition"
 msgstr "_Sonraki Tanım"
 
-#: ../src/gnome-dictionary-menus.ui.h:27
+#: ../src/gdict-app-menus.ui.h:25
 msgid "_First Definition"
 msgstr "İ_lk tanım"
 
-#: ../src/gnome-dictionary-menus.ui.h:28
+#: ../src/gdict-app-menus.ui.h:26
 msgid "_Last Definition"
 msgstr "S_on Tanım"
 
-#: ../src/gnome-dictionary-preferences.ui.h:1
+#: ../src/gdict-pref-dialog.ui.h:1
 msgid "_Select a dictionary source for looking up words:"
 msgstr "Kelime aramak için bir sözlük kaynağı _seçin:"
 
-#: ../src/gnome-dictionary-preferences.ui.h:2
-#: ../src/gnome-dictionary-source.ui.h:6
+#: ../src/gdict-pref-dialog.ui.h:2
+msgid "Add a new dictionary source"
+msgstr "Yeni bir sözlük kaynağı ekle"
+
+#: ../src/gdict-pref-dialog.ui.h:3
+msgid "Remove the currently selected dictionary source"
+msgstr "Geçerli olarak seçili sözlük kaynağını kaldır"
+
+#: ../src/gdict-pref-dialog.ui.h:4
+#| msgid "_Edit"
+msgid "Edit"
+msgstr "Düzenle"
+
+#: ../src/gdict-pref-dialog.ui.h:5
+msgid "Edit the currently selected dictionary source"
+msgstr "Şu anda seçili olan sözlük kaynağını düzenle"
+
+#: ../src/gdict-pref-dialog.ui.h:6 ../src/gdict-source-dialog.ui.h:6
 msgid "Source"
 msgstr "Kaynak"
 
-#: ../src/gnome-dictionary-preferences.ui.h:3
+#: ../src/gdict-pref-dialog.ui.h:7
 msgid "_Print font:"
 msgstr "_Yazdırma yazıtipi:"
 
-#: ../src/gnome-dictionary-preferences.ui.h:4
+#: ../src/gdict-pref-dialog.ui.h:8
+msgid "Set the font used for printing the definitions"
+msgstr "Tanımları yazdırmak için kullanılacak yazıtipini belirtin"
+
+#: ../src/gdict-pref-dialog.ui.h:9
 msgid "Print"
 msgstr "Yazdır"
 
-#: ../src/gnome-dictionary-source.ui.h:1
+#: ../src/gdict-source-dialog.ui.h:1
 msgid "_Description:"
 msgstr "_Açıklama:"
 
-#: ../src/gnome-dictionary-source.ui.h:2
+#: ../src/gdict-source-dialog.ui.h:2
 msgid "_Transport:"
 msgstr "_Taşıma:"
 
-#: ../src/gnome-dictionary-source.ui.h:3
+#: ../src/gdict-source-dialog.ui.h:3
 msgid "H_ostname:"
 msgstr "_Makine Adı"
 
-#: ../src/gnome-dictionary-source.ui.h:4
+#: ../src/gdict-source-dialog.ui.h:4
 msgid "_Port:"
 msgstr "_Kapı:"
 
-#: ../src/gnome-dictionary-source.ui.h:5
+#: ../src/gdict-source-dialog.ui.h:5
 msgid "Source Name"
 msgstr "Kaynak İsmi"
 
-#: ../src/gnome-dictionary-source.ui.h:7
+#: ../src/gdict-source-dialog.ui.h:7
 msgid "Dictionaries"
 msgstr "Sözlükler"
 
-#: ../src/gnome-dictionary-source.ui.h:8
+#: ../src/gdict-source-dialog.ui.h:8
 msgid "Strategies"
 msgstr "Stratejiler"
 
 #: ../data/org.gnome.Dictionary.desktop.in.in.h:1 ../src/gdict-about.c:60
-#: ../src/gdict-window.c:546 ../src/gdict-window.c:1811
+#: ../src/gdict-window.c:503 ../src/gdict-window.c:1632
 msgid "Dictionary"
 msgstr "Sözlük"
 
@@ -214,11 +228,11 @@ msgstr "Sözcük tanımlarını ve yazımlarını çevrimiçi bir sözlükte den
 msgid "word;synonym;definition;spelling;"
 msgstr "kelime;eş anlamlı;tanım;heceleme;anlam;"
 
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:1
+#: ../data/org.gnome.dictionary.gschema.xml.h:1
 msgid "The default database to use"
 msgstr "Kullanılacak öntanımlı veritabanı"
 
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:2
+#: ../data/org.gnome.dictionary.gschema.xml.h:2
 msgid ""
 "The name of the default individual database or meta-database to use on a "
 "dictionary source. An exclamation mark (\"!\") means that all the databases "
@@ -228,11 +242,11 @@ msgstr ""
 "veritabanı adı.Ünlem işareti (\"!\") bir sözlük kaynağında mevcut tüm "
 "veritabanlarının aranması anlamına gelmektedir."
 
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:3
+#: ../data/org.gnome.dictionary.gschema.xml.h:3
 msgid "The default search strategy to use"
 msgstr "Kullanılacak öntanımlı arama stratejisi"
 
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:4
+#: ../data/org.gnome.dictionary.gschema.xml.h:4
 msgid ""
 "The name of the default search strategy to use on a dictionary source, if "
 "available. The default strategy is 'exact', that is match exact words."
@@ -240,19 +254,19 @@ msgstr ""
 "Eğer ulaşılabilir ise bir sözlük kaynağında kullanılacak öntanımlı arama "
 "stratejisinin ismi. Öntanımlı strateji 'exact', tam kelimeleri seçer."
 
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:5
+#: ../data/org.gnome.dictionary.gschema.xml.h:5
 msgid "The font to be used when printing"
 msgstr "Yazdırma sırasında kullanılacak yazıtipi"
 
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:6
+#: ../data/org.gnome.dictionary.gschema.xml.h:6
 msgid "The font to be used when printing a definition."
 msgstr "Bir tanım yazdırılırken kullanılacak yazıtipi."
 
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:7
+#: ../data/org.gnome.dictionary.gschema.xml.h:7
 msgid "The name of the dictionary source used"
 msgstr "Kullanılan sözlük kaynağının ismi"
 
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:8
+#: ../data/org.gnome.dictionary.gschema.xml.h:8
 msgid ""
 "The name of the dictionary source used to retrieve the definitions of words."
 msgstr "Kelimelerin tanımlarının alınacağı öntanımlı sözlük kaynağının ismi."
@@ -431,36 +445,19 @@ msgstr "Ulaşılabilir veri tabanlarının listesini temizle"
 msgid "Error while matching"
 msgstr "Eşleşme yapılırken hata"
 
-#: ../libgdict/gdict-defbox.c:1109 ../libgdict/gdict-defbox.c:1203
-#: ../libgdict/gdict-defbox.c:1237
-msgid "Not found"
-msgstr "Bulunamadı"
-
-#: ../libgdict/gdict-defbox.c:1297
-msgid "F_ind:"
-msgstr "_Bul:"
-
-#: ../libgdict/gdict-defbox.c:1310
-msgid "_Previous"
-msgstr "Ö_nceki"
-
-#: ../libgdict/gdict-defbox.c:1317
-msgid "_Next"
-msgstr "_Sonraki"
-
-#: ../libgdict/gdict-defbox.c:2461
+#: ../libgdict/gdict-defbox.c:2390
 msgid "Error while looking up definition"
 msgstr "Tanım aranırken hata"
 
-#: ../libgdict/gdict-defbox.c:2503 ../libgdict/gdict-speller.c:725
+#: ../libgdict/gdict-defbox.c:2432 ../libgdict/gdict-speller.c:725
 msgid "Another search is in progress"
 msgstr "Başka bir arama halen sürmekte"
 
-#: ../libgdict/gdict-defbox.c:2504 ../libgdict/gdict-speller.c:726
+#: ../libgdict/gdict-defbox.c:2433 ../libgdict/gdict-speller.c:726
 msgid "Please wait until the current search ends."
 msgstr "Lütfen geçerli arama bitene kadar bekleyin."
 
-#: ../libgdict/gdict-defbox.c:2543
+#: ../libgdict/gdict-defbox.c:2472
 msgid "Error while retrieving the definition"
 msgstr "Tanım alınırken hata"
 
@@ -634,241 +631,231 @@ msgstr ""
 msgid "Look up words in dictionaries"
 msgstr "Kelimeleri sözlüklerde ara"
 
-#: ../src/gdict-app.c:53 ../src/gdict-app.c:82
+#: ../src/gdict-app.c:46 ../src/gdict-app.c:75
 msgid "Words to look up"
 msgstr "Aranacak kelimeler"
 
-#: ../src/gdict-app.c:53 ../src/gdict-app.c:59
+#: ../src/gdict-app.c:46 ../src/gdict-app.c:52
 msgid "WORD"
 msgstr "KELİME"
 
-#: ../src/gdict-app.c:59
+#: ../src/gdict-app.c:52
 msgid "Words to match"
 msgstr "Eşleşecek kelimeler"
 
-#: ../src/gdict-app.c:65
+#: ../src/gdict-app.c:58
 msgid "Dictionary source to use"
 msgstr "Kullanılacak sözlük kaynağı"
 
-#: ../src/gdict-app.c:65 ../src/gdict-app.c:71 ../src/gdict-app.c:77
+#: ../src/gdict-app.c:58 ../src/gdict-app.c:64 ../src/gdict-app.c:70
 msgid "NAME"
 msgstr "AD"
 
-#: ../src/gdict-app.c:71
+#: ../src/gdict-app.c:64
 msgid "Database to use"
 msgstr "Kullanılacak veritabanı"
 
-#: ../src/gdict-app.c:77
+#: ../src/gdict-app.c:70
 msgid "Strategy to use"
 msgstr "Kullanılacak strateji"
 
-#: ../src/gdict-app.c:82
+#: ../src/gdict-app.c:75
 msgid "WORDS"
 msgstr "KELİMELER"
 
-#: ../src/gdict-app.c:99
+#: ../src/gdict-app.c:107
 msgid "Dictionary Preferences"
 msgstr "Sözlük Tercihleri"
 
-#: ../src/gdict-app.c:121 ../src/gdict-pref-dialog.c:521
-#: ../src/gdict-source-dialog.c:479
+#: ../src/gdict-app.c:129 ../src/gdict-pref-dialog.c:511
+#: ../src/gdict-source-dialog.c:452
 #, c-format
 msgid "There was an error while displaying help"
 msgstr "Yardım gösterilirken bir hata oluştu"
 
-#: ../src/gdict-pref-dialog.c:271
+#: ../src/gdict-pref-dialog.c:264
 msgid "View Dictionary Source"
 msgstr "Sözlük Kaynağını Görüntüle"
 
-#: ../src/gdict-pref-dialog.c:338
+#: ../src/gdict-pref-dialog.c:330
 msgid "Add Dictionary Source"
 msgstr "Sözlük Kaynağı Ekle"
 
-#: ../src/gdict-pref-dialog.c:383
+#: ../src/gdict-pref-dialog.c:374
 #, c-format
 msgid "Remove \"%s\"?"
 msgstr "\"%s\" kaldırılsın mı?"
 
-#: ../src/gdict-pref-dialog.c:385
+#: ../src/gdict-pref-dialog.c:376
 msgid "This will permanently remove the dictionary source from the list."
 msgstr "Bu, sözlük kaynağını kalıcı olarak listeden kaldıracaktır."
 
-#: ../src/gdict-pref-dialog.c:388 ../src/gdict-source-dialog.c:632
-#: ../src/gdict-window.c:916
+#: ../src/gdict-pref-dialog.c:379 ../src/gdict-source-dialog.c:564
+#: ../src/gdict-window.c:826
 msgid "_Cancel"
 msgstr "_Vazgeç"
 
-#: ../src/gdict-pref-dialog.c:389
-#| msgid "Remove \"%s\"?"
+#: ../src/gdict-pref-dialog.c:380
 msgid "_Remove"
 msgstr "Kaldı_r"
 
-#: ../src/gdict-pref-dialog.c:407
+#: ../src/gdict-pref-dialog.c:398
 #, c-format
 msgid "Unable to remove source '%s'"
 msgstr "'%s' kaynağı kaldırılamıyor"
 
-#: ../src/gdict-pref-dialog.c:455
+#: ../src/gdict-pref-dialog.c:445
 msgid "Edit Dictionary Source"
 msgstr "Sözlük Kaynağı Düzenle"
 
-#: ../src/gdict-pref-dialog.c:661
-msgid "Add a new dictionary source"
-msgstr "Yeni bir sözlük kaynağı ekle"
-
-#: ../src/gdict-pref-dialog.c:667
-msgid "Remove the currently selected dictionary source"
-msgstr "Geçerli olarak seçili sözlük kaynağını kaldır"
-
-#: ../src/gdict-pref-dialog.c:673
-msgid "Edit the currently selected dictionary source"
-msgstr "Şu anda seçili olan sözlük kaynağını düzenle"
-
-#: ../src/gdict-pref-dialog.c:681
-msgid "Set the font used for printing the definitions"
-msgstr "Tanımları yazdırmak için kullanılacak yazıtipini belirtin"
+#. add buttons
+#. The help button is always visible
+#: ../src/gdict-pref-dialog.c:634 ../src/gdict-source-dialog.c:655
+msgid "_Help"
+msgstr "_Yardım"
 
 #: ../src/gdict-print.c:239 ../src/gdict-print.c:303
 #, c-format
 msgid "Unable to display the preview: %s"
 msgstr "Önizleme gösterilemiyor: %s"
 
-#: ../src/gdict-source-dialog.c:340 ../src/gdict-source-dialog.c:432
+#: ../src/gdict-source-dialog.c:316 ../src/gdict-source-dialog.c:404
 msgid "Unable to create a source file"
 msgstr "Kaynak dosya oluşturulamadı"
 
-#: ../src/gdict-source-dialog.c:356 ../src/gdict-source-dialog.c:452
+#: ../src/gdict-source-dialog.c:332 ../src/gdict-source-dialog.c:424
 msgid "Unable to save source file"
 msgstr "Kaynak dosya kaydedilemedi"
 
-#. the help button is always visible
-#: ../src/gdict-source-dialog.c:603
-#| msgid "Help"
-msgid "_Help"
-msgstr "_Yardım"
-
-#: ../src/gdict-source-dialog.c:633
+#: ../src/gdict-source-dialog.c:565
 msgid "_Add"
 msgstr "_Ekle"
 
-#: ../src/gdict-source-dialog.c:640
+#: ../src/gdict-source-dialog.c:573
 msgid "C_ancel"
 msgstr "İp_tal"
 
-#: ../src/gdict-window.c:256
-#, c-format
-msgid "Searching for '%s'..."
-msgstr "'%s' aranıyor..."
-
-#: ../src/gdict-window.c:288 ../src/gdict-window.c:345
-msgid "No definitions found"
-msgstr "Tanım bulunamadı"
-
-#: ../src/gdict-window.c:290
-#, c-format
-msgid "A definition found"
-msgid_plural "%d definitions found"
-msgstr[0] "%d tanım bulundu"
-
-#: ../src/gdict-window.c:461
+#: ../src/gdict-window.c:418
 #, c-format
 msgid "No dictionary source available with name '%s'"
 msgstr "'%s' isminde ulaşılabilir sözlük kaynağı yok"
 
-#: ../src/gdict-window.c:465
+#: ../src/gdict-window.c:422
 msgid "Unable to find dictionary source"
 msgstr "Sözlük kaynağı bulunamadı"
 
-#: ../src/gdict-window.c:481
+#: ../src/gdict-window.c:438
 #, c-format
 msgid "No context available for source '%s'"
 msgstr "'%s' kaynağı için ulaşılabilir bağlam yok"
 
-#: ../src/gdict-window.c:485
+#: ../src/gdict-window.c:442
 msgid "Unable to create a context"
 msgstr "Bir bağlam oluşturulamadı"
 
-#: ../src/gdict-window.c:544
+#: ../src/gdict-window.c:501
 #, c-format
 msgid "%s - Dictionary"
 msgstr "%s - Sözlük"
 
-#: ../src/gdict-window.c:913
+#: ../src/gdict-window.c:823
 msgid "Save a Copy"
 msgstr "Bir Kopya Kaydet"
 
-#: ../src/gdict-window.c:917
+#: ../src/gdict-window.c:827
 msgid "_Save"
 msgstr "_Kaydet"
 
-#: ../src/gdict-window.c:923
+#: ../src/gdict-window.c:833
 msgid "Untitled document"
 msgstr "İsimsiz döküman"
 
-#: ../src/gdict-window.c:944
+#: ../src/gdict-window.c:854
 #, c-format
 msgid "Error while writing to '%s'"
 msgstr "'%s' dosyasına yazılırken hata"
 
-#: ../src/gdict-window.c:1368
-#, c-format
-msgid "Dictionary source `%s' selected"
-msgstr "Sözlük kaynağı `%s' seçildi"
-
-#: ../src/gdict-window.c:1389
-#, c-format
-msgid "Strategy `%s' selected"
-msgstr "Strateji `%s' seçildi"
-
-#: ../src/gdict-window.c:1409
-#, c-format
-msgid "Database `%s' selected"
-msgstr "Veritabanı `%s' seçildi"
-
-#: ../src/gdict-window.c:1429
-#, c-format
-msgid "Word `%s' selected"
-msgstr "`%s' kelimesi seçildi"
-
 #. speller
-#: ../src/gdict-window.c:1454
+#: ../src/gdict-window.c:1288
 msgid "Double-click on the word to look up"
 msgstr "Aranacak kelimenin üzerine çift tıklayın"
 
 #. strat-chooser
-#: ../src/gdict-window.c:1460
+#: ../src/gdict-window.c:1294
 msgid "Double-click on the matching strategy to use"
 msgstr "Kullanılacak eşleşen stratejinin üstüne çift tıklayın"
 
 #. source-chooser
-#: ../src/gdict-window.c:1465
+#: ../src/gdict-window.c:1299
 msgid "Double-click on the source to use"
 msgstr "Kullanmak için kaynağın üzerine çift tıklayın"
 
 #. db-chooser
-#: ../src/gdict-window.c:1474
+#: ../src/gdict-window.c:1308
 msgid "Double-click on the database to use"
 msgstr "Kullanılacak veri tabanının üstüne çift tıklayın"
 
-#: ../src/gdict-window.c:1622
-msgid "Look _up"
-msgstr "A_ra"
-
-#: ../src/gdict-window.c:1696
+#: ../src/gdict-window.c:1529
 msgid "Similar words"
 msgstr "Benzer kelimeler"
 
-#: ../src/gdict-window.c:1709
+#: ../src/gdict-window.c:1542
 msgid "Available dictionaries"
 msgstr "Ulaşılabilir sözlükler"
 
-#: ../src/gdict-window.c:1727
+#: ../src/gdict-window.c:1560
 msgid "Available strategies"
 msgstr "Ulaşılabilir stratejiler"
 
-#: ../src/gdict-window.c:1743
+#: ../src/gdict-window.c:1576
 msgid "Dictionary sources"
 msgstr "Sözlük kaynakları"
+
+#~ msgid "_New"
+#~ msgstr "_Yeni"
+
+#~ msgid "_Copy"
+#~ msgstr "_Kopyala"
+
+#~ msgid "S_tatusbar"
+#~ msgstr "_Durum çubuğu"
+
+#~ msgid "Not found"
+#~ msgstr "Bulunamadı"
+
+#~ msgid "F_ind:"
+#~ msgstr "_Bul:"
+
+#~ msgid "_Previous"
+#~ msgstr "Ö_nceki"
+
+#~ msgid "_Next"
+#~ msgstr "_Sonraki"
+
+#~ msgid "Searching for '%s'..."
+#~ msgstr "'%s' aranıyor..."
+
+#~ msgid "No definitions found"
+#~ msgstr "Tanım bulunamadı"
+
+#~ msgid "A definition found"
+#~ msgid_plural "%d definitions found"
+#~ msgstr[0] "%d tanım bulundu"
+
+#~ msgid "Dictionary source `%s' selected"
+#~ msgstr "Sözlük kaynağı `%s' seçildi"
+
+#~ msgid "Strategy `%s' selected"
+#~ msgstr "Strateji `%s' seçildi"
+
+#~ msgid "Database `%s' selected"
+#~ msgstr "Veritabanı `%s' seçildi"
+
+#~ msgid "Word `%s' selected"
+#~ msgstr "`%s' kelimesi seçildi"
+
+#~ msgid "Look _up"
+#~ msgstr "A_ra"
 
 #~ msgid " - Look up words in dictionaries"
 #~ msgstr " - Kelimeleri sözlüklerde ara"
