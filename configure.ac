@@ -1,6 +1,6 @@
 dnl -*- mode: m4 -*-
 AC_PREREQ(2.63)
-AC_INIT([gnome-dictionary], [3.17.3],
+AC_INIT([gnome-dictionary], [3.17.4],
 	[http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-dictionary],
 	[gnome-dictionary],
 	[http://live.gnome.org/GnomeUtils])
