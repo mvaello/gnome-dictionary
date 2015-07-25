@@ -787,8 +787,8 @@ lookup_end_cb (GdictContext *context,
   gtk_spinner_stop (GTK_SPINNER (priv->spinner));
   gtk_stack_set_visible_child_name (GTK_STACK (priv->stack), "chooser");
 
-  gtk_widget_set_size_request (GTK_POPOVER (priv->popover), 300, -1);
-  gtk_widget_set_vexpand (GTK_POPOVER (priv->popover), TRUE);
+  gtk_widget_set_size_request (GTK_WIDGET (priv->popover), 300, -1);
+  gtk_widget_set_vexpand (GTK_WIDGET (priv->popover), TRUE);
 
   priv->is_loaded = TRUE;
   priv->is_searching = FALSE;
