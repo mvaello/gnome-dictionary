@@ -273,6 +273,7 @@ row_activated_cb (GtkTreeView       *treeview,
       priv->current_db = g_strdup (db_name);
 
       gtk_button_set_label (GTK_BUTTON (chooser), db_name);
+      gtk_toggle_button_set_active (GTK_TOGGLE_BUTTON (chooser), FALSE);
 
       g_signal_emit (chooser, db_chooser_signals[DATABASE_ACTIVATED], 0,
 		     db_name, db_desc);
@@ -370,6 +371,7 @@ gdict_database_chooser_constructor (GType                  type,
   gtk_tree_view_set_model (GTK_TREE_VIEW (priv->treeview),
 		  	   GTK_TREE_MODEL (priv->store));
   gtk_tree_view_set_headers_visible (GTK_TREE_VIEW (priv->treeview), FALSE);
+  gtk_tree_view_set_activate_on_single_click (GTK_TREE_VIEW (priv->treeview), TRUE);
   gtk_tree_view_append_column (GTK_TREE_VIEW (priv->treeview), column);
   g_signal_connect (gtk_tree_view_get_selection (GTK_TREE_VIEW (priv->treeview)),
                     "changed", G_CALLBACK (selection_changed_cb),
