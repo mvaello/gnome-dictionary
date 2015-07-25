@@ -48,7 +48,6 @@
 
 /* sidebar pages logical ids */
 #define GDICT_SIDEBAR_SPELLER_PAGE      "speller"
-#define GDICT_SIDEBAR_DATABASES_PAGE    "db-chooser"
 #define GDICT_SIDEBAR_STRATEGIES_PAGE   "strat-chooser"
 #define GDICT_SIDEBAR_SOURCES_PAGE      "source-chooser"
 
@@ -936,20 +935,6 @@ gdict_window_cmd_view_speller (GSimpleAction *action,
 }
 
 static void
-gdict_window_cmd_view_databases (GSimpleAction *action,
-                                 GVariant      *parameter,
-                                 gpointer       user_data)
-{
-  GdictWindow *window = user_data;
-
-  g_assert (GDICT_IS_WINDOW (window));
-
-  gdict_sidebar_view_page (GDICT_SIDEBAR (window->sidebar),
-                           GDICT_SIDEBAR_DATABASES_PAGE);
-  gdict_window_set_sidebar_visible (window, TRUE);
-}
-
-static void
 gdict_window_cmd_view_strategies (GSimpleAction *action,
                                   GVariant      *parameter,
                                   gpointer       user_data)
@@ -1102,7 +1087,6 @@ static const GActionEntry entries[] =
     gdict_window_cmd_change_view_sidebar },
   { "view-speller", gdict_window_cmd_view_speller, NULL, NULL, NULL },
   { "view-source", gdict_window_cmd_view_sources, NULL, NULL, NULL },
-  { "view-db", gdict_window_cmd_view_databases, NULL, NULL, NULL },
   { "view-strat", gdict_window_cmd_view_strategies, NULL, NULL, NULL },
   
   /* Accelerators */
@@ -1457,16 +1441,16 @@ gdict_window_constructor (GType                  type,
   g_signal_connect (window->db_chooser, "database-activated",
 	  	    G_CALLBACK (database_activated_cb),
 		    window);
-  gdict_sidebar_add_page (GDICT_SIDEBAR (window->sidebar),
-	  		  GDICT_SIDEBAR_DATABASES_PAGE,
-			  _("Available dictionaries"),
-			  window->db_chooser);
+  gtk_box_pack_start (GTK_BOX (window->header_box),
+                      window->db_chooser,
+                      TRUE, FALSE, 0);
   gtk_widget_show (window->db_chooser);
 
   /* bind the database property to the database setting */
   g_settings_bind (window->settings, GDICT_SETTINGS_DATABASE_KEY,
                    window, "database",
                    G_SETTINGS_BIND_DEFAULT);
+  gdict_window_set_database (window, NULL);
 
   /* Strategy chooser */
   if (window->context)
@@ -1594,6 +1578,7 @@ gdict_window_class_init (GdictWindowClass *klass)
   gtk_widget_class_bind_template_child (widget_class, GdictWindow, main_box);
   gtk_widget_class_bind_template_child (widget_class, GdictWindow, spinner);
   gtk_widget_class_bind_template_child (widget_class, GdictWindow, stack);
+  gtk_widget_class_bind_template_child (widget_class, GdictWindow, header_box);
 
   gdict_window_properties[PROP_ACTION] =
     g_param_spec_enum ("action",

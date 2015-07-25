@@ -54,6 +54,9 @@ struct _GdictDatabaseChooserPrivate
 {
   GtkListStore *store;
 
+  GtkWidget *stack;
+  GtkWidget *spinner;
+  GtkWidget *popover;
   GtkWidget *treeview;
   GtkWidget *clear_button;
   GtkWidget *refresh_button;
@@ -72,6 +75,7 @@ struct _GdictDatabaseChooserPrivate
   gchar *current_db;
 
   guint is_searching : 1;
+  guint is_loaded : 1;
 };
 
 enum
@@ -110,7 +114,7 @@ static guint db_chooser_signals[LAST_SIGNAL] = { 0 };
 
 G_DEFINE_TYPE (GdictDatabaseChooser,
                gdict_database_chooser,
-               GTK_TYPE_BOX)
+               GTK_TYPE_MENU_BUTTON)
 
 static void
 set_gdict_context (GdictDatabaseChooser *chooser,
@@ -268,6 +272,8 @@ row_activated_cb (GtkTreeView       *treeview,
       g_free (priv->current_db);
       priv->current_db = g_strdup (db_name);
 
+      gtk_button_set_label (GTK_BUTTON (chooser), db_name);
+
       g_signal_emit (chooser, db_chooser_signals[DATABASE_ACTIVATED], 0,
 		     db_name, db_desc);
     }
@@ -321,12 +327,28 @@ gdict_database_chooser_constructor (GType                  type,
   GtkCellRenderer *renderer;
   GtkTreeViewColumn *column;
   GtkWidget *hbox;
+  GtkWidget *vbox;
 
   parent_class = G_OBJECT_CLASS (gdict_database_chooser_parent_class);
   object = parent_class->constructor (type, n_params, params);
 
   chooser = GDICT_DATABASE_CHOOSER (object);
   priv = chooser->priv;
+
+  priv->popover = gtk_popover_new (GTK_WIDGET (chooser));
+  gtk_menu_button_set_popover (GTK_MENU_BUTTON (chooser), priv->popover);
+
+  priv->stack = gtk_stack_new ();
+  gtk_container_add (GTK_CONTAINER (priv->popover), priv->stack);
+  gtk_widget_show (priv->stack);
+
+  priv->spinner = gtk_spinner_new ();
+  gtk_stack_add_named (GTK_STACK (priv->stack), priv->spinner, "spinner");
+  gtk_widget_show (priv->spinner);
+
+  vbox = gtk_box_new (GTK_ORIENTATION_VERTICAL, 0);
+  gtk_stack_add_named (GTK_STACK (priv->stack), vbox, "chooser");
+  gtk_widget_show (vbox);
 
   sw = gtk_scrolled_window_new (NULL, NULL);
   gtk_widget_set_hexpand (sw, TRUE);
@@ -335,7 +357,7 @@ gdict_database_chooser_constructor (GType                  type,
 				  GTK_POLICY_AUTOMATIC);
   gtk_scrolled_window_set_shadow_type (GTK_SCROLLED_WINDOW (sw),
 		  		       GTK_SHADOW_IN);
-  gtk_box_pack_start (GTK_BOX (chooser), sw, TRUE, TRUE, 0);
+  gtk_box_pack_start (GTK_BOX (vbox), sw, TRUE, TRUE, 0);
   gtk_widget_show (sw);
 
   renderer = gtk_cell_renderer_text_new ();
@@ -384,22 +406,53 @@ gdict_database_chooser_constructor (GType                  type,
   gtk_widget_set_tooltip_text (priv->clear_button,
                                _("Clear the list of available databases"));
 
-  gtk_box_pack_end (GTK_BOX (chooser), hbox, FALSE, FALSE, 0);
+  gtk_box_pack_end (GTK_BOX (vbox), hbox, FALSE, FALSE, 0);
   gtk_widget_show (hbox);
 
+  priv->is_loaded = FALSE;
+
   return object;
+}
+
+static void
+gdict_database_chooser_clicked (GtkButton *button)
+{
+  GtkButtonClass *button_class = GTK_BUTTON_CLASS (gdict_database_chooser_parent_class);
+  GdictDatabaseChooser *chooser;
+  GdictDatabaseChooserPrivate *priv;
+  GtkToggleButton *toggle;
+  gboolean active;
+
+  button_class->clicked (button);
+
+  toggle = GTK_TOGGLE_BUTTON (button);
+  active = gtk_toggle_button_get_active (toggle);
+
+  GDICT_NOTE (CHOOSER, "Button clicked: %s", active ? "active" : "inactive");
+
+  chooser = GDICT_DATABASE_CHOOSER (button);
+  priv = GDICT_DATABASE_CHOOSER_GET_PRIVATE (chooser);
+
+  if (active && !priv->is_loaded)
+    {
+      gtk_stack_set_visible_child_name (GTK_STACK (priv->stack), "spinner");
+
+      gdict_database_chooser_refresh (chooser);
+    }
 }
 
 static void
 gdict_database_chooser_class_init (GdictDatabaseChooserClass *klass)
 {
   GObjectClass *gobject_class = G_OBJECT_CLASS (klass);
+  GtkButtonClass *button_class = GTK_BUTTON_CLASS (klass);
   
   gobject_class->finalize = gdict_database_chooser_finalize;
   gobject_class->dispose = gdict_database_chooser_dispose;
   gobject_class->set_property = gdict_database_chooser_set_property;
   gobject_class->get_property = gdict_database_chooser_get_property;
   gobject_class->constructor = gdict_database_chooser_constructor;
+  button_class->clicked = gdict_database_chooser_clicked;
 
   /**
    * GdictDatabaseChooser:context:
@@ -480,7 +533,8 @@ gdict_database_chooser_init (GdictDatabaseChooser *chooser)
 
   chooser->priv = priv = GDICT_DATABASE_CHOOSER_GET_PRIVATE (chooser);
 
-  gtk_orientable_set_orientation (GTK_ORIENTABLE (chooser), GTK_ORIENTATION_VERTICAL);
+  gtk_menu_button_set_use_popover (GTK_MENU_BUTTON (chooser), TRUE);
+  gtk_menu_button_set_direction (GTK_MENU_BUTTON (chooser), GTK_ARROW_NONE);
 
   priv->results = -1;
   priv->context = NULL;
@@ -713,6 +767,8 @@ lookup_start_cb (GdictContext *context,
   if (gtk_widget_get_window (GTK_WIDGET (chooser)))
     gdk_window_set_cursor (gtk_widget_get_window (GTK_WIDGET (chooser)), priv->busy_cursor);
 
+  gtk_spinner_start (GTK_SPINNER (priv->spinner));
+
   priv->is_searching = TRUE;
 }
 
@@ -726,6 +782,13 @@ lookup_end_cb (GdictContext *context,
   if (gtk_widget_get_window (GTK_WIDGET (chooser)))
     gdk_window_set_cursor (gtk_widget_get_window (GTK_WIDGET (chooser)), NULL);
 
+  gtk_spinner_stop (GTK_SPINNER (priv->spinner));
+  gtk_stack_set_visible_child_name (GTK_STACK (priv->stack), "chooser");
+
+  gtk_widget_set_size_request (GTK_POPOVER (priv->popover), 300, -1);
+  gtk_widget_set_vexpand (GTK_POPOVER (priv->popover), TRUE);
+
+  priv->is_loaded = TRUE;
   priv->is_searching = FALSE;
 }
 
@@ -1053,13 +1116,10 @@ gdict_database_chooser_set_current_database (GdictDatabaseChooser *chooser,
 
   retval = data.found;
 
-  if (data.found)
-    {
-      g_free (priv->current_db);
-      priv->current_db = data.db_name;
-    }
-  else
-    g_free (data.db_name);
+  g_free (priv->current_db);
+  priv->current_db = data.db_name;
+  gtk_button_set_label (GTK_BUTTON (chooser), db_name);
+  GDICT_NOTE (CHOOSER, "Set current database: `%s'", db_name);
 
   return retval;
 }
