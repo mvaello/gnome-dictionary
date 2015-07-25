@@ -42,5 +42,7 @@ main (int argc, char *argv[])
   if (!gdict_create_data_dir ())
     exit (1);
 
+  gdict_init (&argc, &argv);
+
   return g_application_run (gdict_app_new (), argc, argv);
 }
