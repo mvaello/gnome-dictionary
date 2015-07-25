@@ -273,6 +273,7 @@ row_activated_cb (GtkTreeView       *treeview,
       priv->current_db = g_strdup (db_name);
 
       gtk_button_set_label (GTK_BUTTON (chooser), db_name);
+      gtk_widget_set_tooltip_text (GTK_WIDGET (chooser), db_desc);
       gtk_toggle_button_set_active (GTK_TOGGLE_BUTTON (chooser), FALSE);
 
       g_signal_emit (chooser, db_chooser_signals[DATABASE_ACTIVATED], 0,
@@ -809,7 +810,10 @@ database_found_cb (GdictContext  *context,
   full_name = gdict_database_get_full_name (database);
 
   if (priv->current_db && !strcmp (priv->current_db, name))
-    weight = PANGO_WEIGHT_BOLD;
+    {
+      weight = PANGO_WEIGHT_BOLD;
+      gtk_widget_set_tooltip_text (GTK_WIDGET (chooser), full_name);
+    }
 
   GDICT_NOTE (CHOOSER, "DATABASE: `%s' (`%s')",
               name,
