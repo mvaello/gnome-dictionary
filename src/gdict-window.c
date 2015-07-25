@@ -1227,11 +1227,6 @@ sidebar_page_changed_cb (GdictSidebar *sidebar,
         }
       }
       break;
-    case 'd': /* db-chooser */
-      message = _("Double-click on the database to use");
-      
-      gdict_database_chooser_refresh (GDICT_DATABASE_CHOOSER (window->db_chooser));
-      break;
     default:
       message = NULL;
       break;
