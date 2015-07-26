@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: gnome-dictionary master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "dictionary&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2013-08-22 13:13+0000\n"
-"PO-Revision-Date: 2013-08-25 10:31+0100\n"
+"POT-Creation-Date: 2015-07-26 19:00+0000\n"
+"PO-Revision-Date: 2015-07-26 22:51+0100\n"
 "Last-Translator: Fabio Tomat <f.t.public@gmail.com>\n"
 "Language-Team: Friulian <fur@li.org>\n"
 "Language: fur\n"
@@ -17,202 +17,200 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 1.5.4\n"
+"X-Generator: Poedit 1.8.1\n"
 
 #: ../data/default.desktop.in.h:1
 msgid "Default Dictionary Server"
 msgstr "Server di dizionari predefinît"
 
-#: ../data/gnome-dictionary.desktop.in.in.h:1 ../src/gdict-about.c:60
-#: ../src/gdict-app.c:347 ../src/gdict-window.c:543 ../src/gdict-window.c:1805
-msgid "Dictionary"
-msgstr "Dizionari"
+#: ../data/org.gnome.Dictionary.appdata.xml.in.h:1
+msgid ""
+"GNOME Dictionary is a simple dictionary application that looks up definitions "
+"of words online. Though it looks up English definitions by default, you can "
+"easily switch to Spanish or add other online dictionaries using the DICT "
+"protocol to suit your needs."
+msgstr ""
+"Dizionari GNOME a je une semplice aplicazion di dizionari che a cîr online lis "
+"definizions di peraulis. Ancje se, come impostazion predefinide, al fâs "
+"ricercjis in inglês, al è pussibil passâ al spagnûl o zontâ altris dizionaris "
+"online che a fasin ûs dal protocol DICT."
 
-#: ../data/gnome-dictionary.desktop.in.in.h:2
-msgid "Check word definitions and spellings in an online dictionary"
-msgstr "Controle definizions e ortografie di peraulis suntun dizionari in rêt"
+#: ../src/gdict-app-menus.ui.h:1
+msgid "_New Window"
+msgstr "_Gnûf barcon"
 
-#: ../data/gnome-dictionary.desktop.in.in.h:3
-msgid "word;synonym;definition;spelling;"
-msgstr "peraule;peraulis;sinonims;definizion;definizions;ortografie;"
-
-#: ../data/gnome-dictionary-menus.ui.h:1
+#: ../src/gdict-app-menus.ui.h:2
 msgid "Preferences"
 msgstr "Preferencis"
 
-#: ../data/gnome-dictionary-menus.ui.h:2
+#: ../src/gdict-app-menus.ui.h:3
 msgid "Help"
 msgstr "Jutori"
 
-#: ../data/gnome-dictionary-menus.ui.h:3
-msgid "About Dictionary"
-msgstr "Informazions su Dizionari"
+#: ../src/gdict-app-menus.ui.h:4
+msgid "About"
+msgstr "Informazions"
 
-#: ../data/gnome-dictionary-menus.ui.h:4
+#: ../src/gdict-app-menus.ui.h:5
 msgid "Quit"
 msgstr "Jes"
 
-#: ../data/gnome-dictionary-menus.ui.h:5
-msgid "_File"
-msgstr "_File"
-
-#: ../data/gnome-dictionary-menus.ui.h:6
-msgid "_New"
-msgstr "_Gnûf"
-
-#: ../data/gnome-dictionary-menus.ui.h:7
+#: ../src/gdict-app-menus.ui.h:6
 msgid "_Save a Copy..."
 msgstr "_Salve une copie..."
 
-#: ../data/gnome-dictionary-menus.ui.h:8
+#: ../src/gdict-app-menus.ui.h:7
 msgid "P_review"
 msgstr "Antepri_me"
 
-#: ../data/gnome-dictionary-menus.ui.h:9
+#: ../src/gdict-app-menus.ui.h:8
 msgid "_Print"
 msgstr "Stam_pe"
 
-#: ../data/gnome-dictionary-menus.ui.h:10
-msgid "_Close"
-msgstr "Sie_re"
-
-#: ../data/gnome-dictionary-menus.ui.h:11
-msgid "_Edit"
-msgstr "_Modifiche"
-
-#: ../data/gnome-dictionary-menus.ui.h:12
-msgid "_Copy"
-msgstr "_Copie"
-
-#: ../data/gnome-dictionary-menus.ui.h:13
-msgid "Select _All"
-msgstr "_Selezione dut"
-
-#: ../data/gnome-dictionary-menus.ui.h:14
+#: ../src/gdict-app-menus.ui.h:9
 msgid "_Find"
 msgstr "Cja_te"
 
-#: ../data/gnome-dictionary-menus.ui.h:15
-msgid "Find Ne_xt"
-msgstr "Cjate _prossim"
-
-#: ../data/gnome-dictionary-menus.ui.h:16
-msgid "Find Pre_vious"
-msgstr "Cjate prece_dent"
-
-#: ../data/gnome-dictionary-menus.ui.h:17
+#: ../src/gdict-app-menus.ui.h:10
 msgid "_View"
 msgstr "M_ostre"
 
-#: ../data/gnome-dictionary-menus.ui.h:18
-#, fuzzy
+#: ../src/gdict-app-menus.ui.h:11
 msgid "_Sidebar"
-msgstr "Striche _laterâl"
+msgstr "Sbare _laterâl"
 
-#: ../data/gnome-dictionary-menus.ui.h:19
-msgid "S_tatusbar"
-msgstr "Striche di s_tât"
-
-#: ../data/gnome-dictionary-menus.ui.h:20
+#: ../src/gdict-app-menus.ui.h:12
 msgid "Similar _Words"
 msgstr "_Peraulis similis"
 
-#: ../data/gnome-dictionary-menus.ui.h:21
+#: ../src/gdict-app-menus.ui.h:13
 msgid "Dictionary Sources"
 msgstr "Sorzints dizionari"
 
-#: ../data/gnome-dictionary-menus.ui.h:22
+#: ../src/gdict-app-menus.ui.h:14
 msgid "Available _Dictionaries"
 msgstr "Dizionaris a _disposizion"
 
-#: ../data/gnome-dictionary-menus.ui.h:23
+#: ../src/gdict-app-menus.ui.h:15
 msgid "Available St_rategies"
 msgstr "St_rategjiis disponibii"
 
-#: ../data/gnome-dictionary-menus.ui.h:24
+#: ../src/gdict-app-menus.ui.h:16
 msgid "_Go"
 msgstr "_Va"
 
-#: ../data/gnome-dictionary-menus.ui.h:25
+#: ../src/gdict-app-menus.ui.h:17
 msgid "_Previous Definition"
 msgstr "Definizion pr_ecedent"
 
-#: ../data/gnome-dictionary-menus.ui.h:26
+#: ../src/gdict-app-menus.ui.h:18
 msgid "_Next Definition"
 msgstr "prossime defini_zion"
 
-#: ../data/gnome-dictionary-menus.ui.h:27
+#: ../src/gdict-app-menus.ui.h:19
 msgid "_First Definition"
 msgstr "Prime de_finizion"
 
-#: ../data/gnome-dictionary-menus.ui.h:28
+#: ../src/gdict-app-menus.ui.h:20
 msgid "_Last Definition"
 msgstr "U_ltime definizion"
 
-#: ../data/gnome-dictionary-preferences.ui.h:1
+#: ../src/gdict-pref-dialog.ui.h:1
 msgid "_Select a dictionary source for looking up words:"
 msgstr "_Selezione une sorzint dizionari par cirî peraulis:"
 
-#: ../data/gnome-dictionary-preferences.ui.h:2
-#: ../data/gnome-dictionary-source.ui.h:6
+#: ../src/gdict-pref-dialog.ui.h:2
+msgid "Add a new dictionary source"
+msgstr "Zonte une gnove sorzint dizionari"
+
+#: ../src/gdict-pref-dialog.ui.h:3
+msgid "Remove the currently selected dictionary source"
+msgstr "Gjave la sorzint dizionari cumò selezionade"
+
+#: ../src/gdict-pref-dialog.ui.h:4
+msgid "Edit"
+msgstr "Modifiche"
+
+#: ../src/gdict-pref-dialog.ui.h:5
+msgid "Edit the currently selected dictionary source"
+msgstr "Modifiche la sorzint dizionari cumò selezionade"
+
+#: ../src/gdict-pref-dialog.ui.h:6 ../src/gdict-source-dialog.ui.h:6
 msgid "Source"
 msgstr "Sorzint"
 
-#: ../data/gnome-dictionary-preferences.ui.h:3
+#: ../src/gdict-pref-dialog.ui.h:7
 msgid "_Print font:"
 msgstr "Caratar par _stampâ:"
 
-#: ../data/gnome-dictionary-preferences.ui.h:4
+#: ../src/gdict-pref-dialog.ui.h:8
+msgid "Set the font used for printing the definitions"
+msgstr "Impuestâ  il tipo di caratar doprât pe stampe das definizions"
+
+#: ../src/gdict-pref-dialog.ui.h:9
 msgid "Print"
 msgstr "Stampe"
 
-#: ../data/gnome-dictionary-source.ui.h:1
+#: ../src/gdict-source-dialog.ui.h:1
 msgid "_Description:"
 msgstr "_Descrizion:"
 
-#: ../data/gnome-dictionary-source.ui.h:2
+#: ../src/gdict-source-dialog.ui.h:2
 msgid "_Transport:"
 msgstr "_Traspuart:"
 
-#: ../data/gnome-dictionary-source.ui.h:3
+#: ../src/gdict-source-dialog.ui.h:3
 msgid "H_ostname:"
 msgstr "Non h_ost:"
 
-#: ../data/gnome-dictionary-source.ui.h:4
+#: ../src/gdict-source-dialog.ui.h:4
 msgid "_Port:"
 msgstr "_Puarte:"
 
-#: ../data/gnome-dictionary-source.ui.h:5
+#: ../src/gdict-source-dialog.ui.h:5
 msgid "Source Name"
 msgstr "Non sorzint"
 
-#: ../data/gnome-dictionary-source.ui.h:7
+#: ../src/gdict-source-dialog.ui.h:7
 msgid "Dictionaries"
 msgstr "Dizionaris"
 
-#: ../data/gnome-dictionary-source.ui.h:8
+#: ../src/gdict-source-dialog.ui.h:8
 msgid "Strategies"
 msgstr "Strategjiis"
 
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:1
+#: ../data/org.gnome.Dictionary.desktop.in.in.h:1 ../src/gdict-about.c:60
+#: ../src/gdict-window.c:499 ../src/gdict-window.c:1531
+msgid "Dictionary"
+msgstr "Dizionari"
+
+#: ../data/org.gnome.Dictionary.desktop.in.in.h:2
+msgid "Check word definitions and spellings in an online dictionary"
+msgstr "Controle definizions e ortografie di peraulis suntun dizionari in rêt"
+
+#: ../data/org.gnome.Dictionary.desktop.in.in.h:3
+msgid "word;synonym;definition;spelling;"
+msgstr "peraule;peraulis;sinonims;definizion;definizions;ortografie;"
+
+#: ../data/org.gnome.dictionary.gschema.xml.h:1
 msgid "The default database to use"
 msgstr "Database predefinît di doprâ"
 
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:2
+#: ../data/org.gnome.dictionary.gschema.xml.h:2
 msgid ""
 "The name of the default individual database or meta-database to use on a "
 "dictionary source. An exclamation mark (\"!\") means that all the databases "
 "present in a dictionary source should be searched"
 msgstr ""
-"Non dal database individuâl predefinît o meta-database di doprâ suntune "
-"sorzint dal dizionari. Un pont esclamatîf (\"!\") al specifiche che a àn di "
-"sedi cirûts ducj i database presints intune sorzint di dizionari"
+"Non dal database individuâl predefinît o meta-database di doprâ suntune sorzint "
+"dal dizionari. Un pont esclamatîf (\"!\") al specifiche che a àn di sedi cirûts "
+"ducj i database presints intune sorzint di dizionari"
 
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:3
+#: ../data/org.gnome.dictionary.gschema.xml.h:3
 msgid "The default search strategy to use"
 msgstr "Mût di cirî predefinît di doprâ"
 
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:4
+#: ../data/org.gnome.dictionary.gschema.xml.h:4
 msgid ""
 "The name of the default search strategy to use on a dictionary source, if "
 "available. The default strategy is 'exact', that is match exact words."
@@ -221,23 +219,22 @@ msgstr ""
 "disponibil. La strategjie predefinide a je «exact», che a cjate lis peraulis "
 "compagnis identichis."
 
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:5
+#: ../data/org.gnome.dictionary.gschema.xml.h:5
 msgid "The font to be used when printing"
 msgstr "Caratar di doprâ pe stampe"
 
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:6
+#: ../data/org.gnome.dictionary.gschema.xml.h:6
 msgid "The font to be used when printing a definition."
 msgstr "Caratar di doprâ cuant che a si stampe une definizion."
 
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:7
+#: ../data/org.gnome.dictionary.gschema.xml.h:7
 msgid "The name of the dictionary source used"
 msgstr "Non de sorzint dizionari doprade"
 
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:8
+#: ../data/org.gnome.dictionary.gschema.xml.h:8
 msgid ""
 "The name of the dictionary source used to retrieve the definitions of words."
-msgstr ""
-"Non de sorzint di dizionari doprade par vê lis definizions des peraulis."
+msgstr "Non de sorzint di dizionari doprade par vê lis definizions des peraulis."
 
 #: ../data/spanish.desktop.in.h:1
 msgid "Spanish Dictionaries"
@@ -279,36 +276,36 @@ msgstr "Stât"
 msgid "The status code as returned by the dictionary server"
 msgstr "Codiç di stât come tornât dal server di dizionari"
 
-#: ../libgdict/gdict-client-context.c:776
+#: ../libgdict/gdict-client-context.c:775
 #, c-format
 msgid "No connection to the dictionary server at '%s:%d'"
 msgstr "Nissune conession al server di dizionari a «%s:%d»"
 
-#: ../libgdict/gdict-client-context.c:1059
+#: ../libgdict/gdict-client-context.c:1058
 #, c-format
 msgid "Lookup failed for hostname '%s': no suitable resources found"
 msgstr "Ricercje falide pal non host «%s»: nissune risorse adeguade cjatade"
 
-#: ../libgdict/gdict-client-context.c:1090
+#: ../libgdict/gdict-client-context.c:1089
 #, c-format
 msgid "Lookup failed for host '%s': %s"
 msgstr "Ricercje falide pal host «%s»: %s"
 
-#: ../libgdict/gdict-client-context.c:1124
+#: ../libgdict/gdict-client-context.c:1123
 #, c-format
 msgid "Lookup failed for host '%s': host not found"
 msgstr "Ricercje falide par il non host «%s»: host no cjatât"
 
-#: ../libgdict/gdict-client-context.c:1176
+#: ../libgdict/gdict-client-context.c:1175
 #, c-format
 msgid ""
-"Unable to connect to the dictionary server at '%s:%d'. The server replied "
-"with code %d (server down)"
+"Unable to connect to the dictionary server at '%s:%d'. The server replied with "
+"code %d (server down)"
 msgstr ""
-"Impussibil tacasi al server di dizionari a «%s:%d». Il server al à "
-"rispuindût cun codiç %d (server no atîf)"
+"Impussibil tacasi al server di dizionari a «%s:%d». Il server al à rispuindût "
+"cun codiç %d (server no atîf)"
 
-#: ../libgdict/gdict-client-context.c:1195
+#: ../libgdict/gdict-client-context.c:1194
 #, c-format
 msgid ""
 "Unable to parse the dictionary server reply\n"
@@ -317,47 +314,47 @@ msgstr ""
 "Impussibil analizâ la rispueste dal server dal dizionari\n"
 ": «%s»"
 
-#: ../libgdict/gdict-client-context.c:1224
+#: ../libgdict/gdict-client-context.c:1223
 #, c-format
 msgid "No definitions found for '%s'"
 msgstr "Nissune definizion cjatade par «%s»"
 
-#: ../libgdict/gdict-client-context.c:1239
+#: ../libgdict/gdict-client-context.c:1238
 #, c-format
 msgid "Invalid database '%s'"
 msgstr "Database «%s» no valit"
 
-#: ../libgdict/gdict-client-context.c:1254
+#: ../libgdict/gdict-client-context.c:1253
 #, c-format
 msgid "Invalid strategy '%s'"
 msgstr "Strategje «%s» no valide"
 
-#: ../libgdict/gdict-client-context.c:1269
+#: ../libgdict/gdict-client-context.c:1268
 #, c-format
 msgid "Bad command '%s'"
 msgstr "Comant «%s» no bon"
 
-#: ../libgdict/gdict-client-context.c:1284
+#: ../libgdict/gdict-client-context.c:1283
 #, c-format
 msgid "Bad parameters for command '%s'"
 msgstr "Parametris no juscj par il comant «%s» "
 
-#: ../libgdict/gdict-client-context.c:1299
+#: ../libgdict/gdict-client-context.c:1298
 #, c-format
 msgid "No databases found on dictionary server at '%s'"
 msgstr "Nissun database cjatât tal server di dizionari a «%s»"
 
-#: ../libgdict/gdict-client-context.c:1314
+#: ../libgdict/gdict-client-context.c:1313
 #, c-format
 msgid "No strategies found on dictionary server at '%s'"
 msgstr "Nissune strategjie cjatade tal server di dizionari a «%s»"
 
-#: ../libgdict/gdict-client-context.c:1747
+#: ../libgdict/gdict-client-context.c:1738
 #, c-format
 msgid "Connection failed to the dictionary server at %s:%d"
 msgstr "Conession falide al server di dizionari a «%s:%d»"
 
-#: ../libgdict/gdict-client-context.c:1786
+#: ../libgdict/gdict-client-context.c:1777
 #, c-format
 msgid ""
 "Error while reading reply from server:\n"
@@ -366,28 +363,28 @@ msgstr ""
 "Erôr intant che a si leieve le rispueste dal server:\n"
 "%s"
 
-#: ../libgdict/gdict-client-context.c:1859
+#: ../libgdict/gdict-client-context.c:1850
 #, c-format
 msgid "Connection timeout for the dictionary server at '%s:%d'"
 msgstr "Conession scjadude al server di dizionari a «%s:%d»"
 
-#: ../libgdict/gdict-client-context.c:1893
+#: ../libgdict/gdict-client-context.c:1884
 #, c-format
 msgid "No hostname defined for the dictionary server"
 msgstr "Nissun non host definît pal server di dizionari"
 
-#: ../libgdict/gdict-client-context.c:1929
-#: ../libgdict/gdict-client-context.c:1944
+#: ../libgdict/gdict-client-context.c:1920
+#: ../libgdict/gdict-client-context.c:1935
 #, c-format
 msgid "Unable to create socket"
 msgstr "Impussibil creâ il socket"
 
-#: ../libgdict/gdict-client-context.c:1970
+#: ../libgdict/gdict-client-context.c:1961
 #, c-format
 msgid "Unable to set the channel as non-blocking: %s"
 msgstr "Impussibil disponi il canâl come no-blocant: %s"
 
-#: ../libgdict/gdict-client-context.c:1985
+#: ../libgdict/gdict-client-context.c:1976
 #, c-format
 msgid "Unable to connect to the dictionary server at '%s:%d'"
 msgstr "Impussibil conetisi al server di dizionari a «%s:%d»"
@@ -400,145 +397,136 @@ msgstr "Dome locâl"
 msgid "Whether the context uses only local dictionaries or not"
 msgstr "Dîs se il contest al dopre dome dizionaris locâi o no"
 
-#: ../libgdict/gdict-database-chooser.c:378
+#: ../libgdict/gdict-database-chooser.c:398
 msgid "Reload the list of available databases"
 msgstr "Cjarie di gnûf la liste dai database disponibii"
 
-#: ../libgdict/gdict-database-chooser.c:390
+#: ../libgdict/gdict-database-chooser.c:410
 msgid "Clear the list of available databases"
 msgstr "Nete la liste dai database disponibii"
 
-#: ../libgdict/gdict-database-chooser.c:837 ../libgdict/gdict-speller.c:777
-#: ../libgdict/gdict-strategy-chooser.c:785
+#: ../libgdict/gdict-database-chooser.c:905 ../libgdict/gdict-speller.c:767
+#: ../libgdict/gdict-strategy-chooser.c:775
 msgid "Error while matching"
 msgstr "Erôr intant che a si cirive"
 
-#: ../libgdict/gdict-defbox.c:1126 ../libgdict/gdict-defbox.c:1220
-#: ../libgdict/gdict-defbox.c:1254
-msgid "Not found"
-msgstr "No cjatât"
-
-#: ../libgdict/gdict-defbox.c:1315
-msgid "F_ind:"
-msgstr "_Cîr:"
-
-#: ../libgdict/gdict-defbox.c:1328
-msgid "_Previous"
-msgstr "Pr_ecedent"
-
-#: ../libgdict/gdict-defbox.c:1336
-msgid "_Next"
-msgstr "_Prossim"
-
-#: ../libgdict/gdict-defbox.c:2513
+#: ../libgdict/gdict-defbox.c:2390
 msgid "Error while looking up definition"
 msgstr "Erôr intant che a si cirive la definizion"
 
-#: ../libgdict/gdict-defbox.c:2555 ../libgdict/gdict-speller.c:735
+#: ../libgdict/gdict-defbox.c:2432 ../libgdict/gdict-speller.c:725
 msgid "Another search is in progress"
 msgstr "Une altre ricercje a je in côrs"
 
-#: ../libgdict/gdict-defbox.c:2556 ../libgdict/gdict-speller.c:736
+#: ../libgdict/gdict-defbox.c:2433 ../libgdict/gdict-speller.c:726
 msgid "Please wait until the current search ends."
 msgstr "Spietâ fintremai che la ricercje atuâl no je finide."
 
-#: ../libgdict/gdict-defbox.c:2595
+#: ../libgdict/gdict-defbox.c:2472
 msgid "Error while retrieving the definition"
 msgstr "Erôr intant che a si otignive la definizion"
 
-#: ../libgdict/gdict-source.c:231
+#: ../libgdict/gdict-source.c:237
 msgid "Filename"
 msgstr "Non file"
 
-#: ../libgdict/gdict-source.c:232
+#: ../libgdict/gdict-source.c:238
 msgid "The filename used by this dictionary source"
 msgstr "Non file doprât di cheste sorzint dizionari"
 
-#: ../libgdict/gdict-source.c:245
+#: ../libgdict/gdict-source.c:251
 msgid "Name"
 msgstr "Non"
 
-#: ../libgdict/gdict-source.c:246
+#: ../libgdict/gdict-source.c:252
 msgid "The display name of this dictionary source"
 msgstr "Non mostrât di cheste sorzint dizionari"
 
-#: ../libgdict/gdict-source.c:259
+#: ../libgdict/gdict-source.c:265
 msgid "Description"
 msgstr "Descrizion"
 
-#: ../libgdict/gdict-source.c:260
+#: ../libgdict/gdict-source.c:266
 msgid "The description of this dictionary source"
 msgstr "Descrizion di cheste sorzint dizionari"
 
-#: ../libgdict/gdict-source.c:273 ../libgdict/gdict-speller.c:382
+#: ../libgdict/gdict-source.c:279
+msgid "Editable"
+msgstr "Modificabil"
+
+#: ../libgdict/gdict-source.c:280
+msgid "Whether the dictionary source is editable or not"
+msgstr "Indiche se la sorzint dal dizionari a je modificabil o no"
+
+#: ../libgdict/gdict-source.c:293 ../libgdict/gdict-speller.c:369
 msgid "Database"
 msgstr "Database"
 
-#: ../libgdict/gdict-source.c:274
+#: ../libgdict/gdict-source.c:294
 msgid "The default database of this dictionary source"
 msgstr "Database predefinît di cheste sorzint dizionari"
 
-#: ../libgdict/gdict-source.c:287 ../libgdict/gdict-speller.c:389
+#: ../libgdict/gdict-source.c:307 ../libgdict/gdict-speller.c:376
 msgid "Strategy"
 msgstr "Strategjie"
 
-#: ../libgdict/gdict-source.c:288
+#: ../libgdict/gdict-source.c:308
 msgid "The default strategy of this dictionary source"
 msgstr "Strategjie predefinide par cheste sorzint dizionari"
 
-#: ../libgdict/gdict-source.c:301
+#: ../libgdict/gdict-source.c:321
 msgid "Transport"
 msgstr "Traspuart"
 
-#: ../libgdict/gdict-source.c:302
+#: ../libgdict/gdict-source.c:322
 msgid "The transport mechanism used by this dictionary source"
 msgstr "Mecanisim di traspuart doprât di cheste sorzint dizionari"
 
-#: ../libgdict/gdict-source.c:316 ../libgdict/gdict-speller.c:375
+#: ../libgdict/gdict-source.c:336 ../libgdict/gdict-speller.c:362
 msgid "Context"
 msgstr "Contest"
 
-#: ../libgdict/gdict-source.c:317
+#: ../libgdict/gdict-source.c:337
 msgid "The GdictContext bound to this source"
 msgstr "GdictContext associât a cheste sorzint"
 
-#: ../libgdict/gdict-source.c:412
+#: ../libgdict/gdict-source.c:433
 #, c-format
 msgid "Invalid transport type '%d'"
 msgstr "Tipo di traspuart no valit «%d»"
 
-#: ../libgdict/gdict-source.c:440
+#: ../libgdict/gdict-source.c:461
 #, c-format
 msgid "No '%s' group found inside the dictionary source definition"
 msgstr "Nissun grup «%s» cjatât te definizion de sorzint dizionari"
 
-#: ../libgdict/gdict-source.c:456 ../libgdict/gdict-source.c:480
-#: ../libgdict/gdict-source.c:504 ../libgdict/gdict-source.c:529
+#: ../libgdict/gdict-source.c:477 ../libgdict/gdict-source.c:501
+#: ../libgdict/gdict-source.c:525 ../libgdict/gdict-source.c:550
 #, c-format
 msgid "Unable to get the '%s' key inside the dictionary source definition: %s"
 msgstr ""
 "Impussibil otignî la clâf «%s» di dentri de definizion de sorzint di "
 "dizionari : %s"
 
-#: ../libgdict/gdict-source.c:554
+#: ../libgdict/gdict-source.c:575
 #, c-format
 msgid ""
 "Unable to get the '%s' key inside the dictionary source definition file: %s"
 msgstr ""
-"Impussibil otignî la clâf «%s» di dentri dal file di definizion de sorzint "
-"di dizionari: %s"
+"Impussibil otignî la clâf «%s» di dentri dal file di definizion de sorzint di "
+"dizionari: %s"
 
-#: ../libgdict/gdict-source.c:740
+#: ../libgdict/gdict-source.c:769
 #, c-format
 msgid "Dictionary source does not have name"
 msgstr "La sorzint dizionari no à un non"
 
-#: ../libgdict/gdict-source.c:749
+#: ../libgdict/gdict-source.c:778
 #, c-format
 msgid "Dictionary source '%s' has invalid transport '%s'"
 msgstr "La sorzint dizionari «%s» a à traspuart «%s» no valit"
 
-#: ../libgdict/gdict-source-chooser.c:294
+#: ../libgdict/gdict-source-chooser.c:280
 msgid "Reload the list of available sources"
 msgstr "Torne a cjariâ la liste das sorzints disponibii"
 
@@ -558,27 +546,27 @@ msgstr "Sorzints"
 msgid "Dictionary sources found"
 msgstr "Sorzints dizionari cjatadis"
 
-#: ../libgdict/gdict-speller.c:352
+#: ../libgdict/gdict-speller.c:341
 msgid "Clear the list of similar words"
 msgstr "Nete la liste das peraulis simii"
 
-#: ../libgdict/gdict-speller.c:376
+#: ../libgdict/gdict-speller.c:363
 msgid "The GdictContext object used to get the word definition"
 msgstr "Ogjet GdictContext doprât par vê la definizion de peraule"
 
-#: ../libgdict/gdict-speller.c:383
+#: ../libgdict/gdict-speller.c:370
 msgid "The database used to query the GdictContext"
 msgstr "Database doprât par interogâ il GdictContext"
 
-#: ../libgdict/gdict-speller.c:390
+#: ../libgdict/gdict-speller.c:377
 msgid "The strategy used to query the GdictContext"
 msgstr "La strategjie doprade par interogâ il GdictContext"
 
-#: ../libgdict/gdict-strategy-chooser.c:361
+#: ../libgdict/gdict-strategy-chooser.c:350
 msgid "Reload the list of available strategies"
 msgstr "Torne a cjamâ la liste das strategjiis disponibii"
 
-#: ../libgdict/gdict-strategy-chooser.c:373
+#: ../libgdict/gdict-strategy-chooser.c:361
 msgid "Clear the list of available strategies"
 msgstr "Nete la liste das strategjiis disponibii"
 
@@ -594,11 +582,11 @@ msgstr "OPZIONS"
 msgid "GDict debugging flags to unset"
 msgstr "Opzions di debug di GDict di no configurâ"
 
-#: ../libgdict/gdict-utils.c:156
+#: ../libgdict/gdict-utils.c:157
 msgid "GDict Options"
 msgstr "Opzions di GDict"
 
-#: ../libgdict/gdict-utils.c:157
+#: ../libgdict/gdict-utils.c:158
 msgid "Show GDict Options"
 msgstr "Mostre opzions GDict"
 
@@ -612,212 +600,250 @@ msgstr ""
 msgid "Look up words in dictionaries"
 msgstr "Cîr peraulis sui dizionaris"
 
-#: ../src/gdict-app.c:60 ../src/gdict-app.c:89
+#: ../src/gdict-app.c:46 ../src/gdict-app.c:75
 msgid "Words to look up"
 msgstr "Peraulis di cirî"
 
-#: ../src/gdict-app.c:60 ../src/gdict-app.c:66
+#: ../src/gdict-app.c:46 ../src/gdict-app.c:52
 msgid "WORD"
 msgstr "PERAULE"
 
-#: ../src/gdict-app.c:66
+#: ../src/gdict-app.c:52
 msgid "Words to match"
 msgstr "Peraulis di cirî"
 
-#: ../src/gdict-app.c:72
+#: ../src/gdict-app.c:58
 msgid "Dictionary source to use"
 msgstr "Sorzint dizionari di doprâ"
 
-#: ../src/gdict-app.c:72 ../src/gdict-app.c:78 ../src/gdict-app.c:84
+#: ../src/gdict-app.c:58 ../src/gdict-app.c:64 ../src/gdict-app.c:70
 msgid "NAME"
 msgstr "Non"
 
-#: ../src/gdict-app.c:78
+#: ../src/gdict-app.c:64
 msgid "Database to use"
 msgstr "Database di doprâ"
 
-#: ../src/gdict-app.c:84
+#: ../src/gdict-app.c:70
 msgid "Strategy to use"
 msgstr "Strategjie di doprâ"
 
-#: ../src/gdict-app.c:89
+#: ../src/gdict-app.c:75
 msgid "WORDS"
 msgstr "PERAULIS"
 
-#: ../src/gdict-app.c:106
+#: ../src/gdict-app.c:107
 msgid "Dictionary Preferences"
 msgstr "Preferencis di Dizionari"
 
-#: ../src/gdict-app.c:128 ../src/gdict-pref-dialog.c:494
-#: ../src/gdict-source-dialog.c:475
+#: ../src/gdict-app.c:129 ../src/gdict-pref-dialog.c:511
+#: ../src/gdict-source-dialog.c:452
 #, c-format
 msgid "There was an error while displaying help"
 msgstr "Al è saltât fûr un erôr tal mostrâ la guide."
 
-#. create the new option context
-#: ../src/gdict-app.c:217
-msgid " - Look up words in dictionaries"
-msgstr "- Cîr peraulis sui dizionaris"
+#: ../src/gdict-pref-dialog.c:264
+msgid "View Dictionary Source"
+msgstr "Mostre sorzint dizionari"
 
-#: ../src/gdict-pref-dialog.c:239 ../src/gdict-pref-dialog.c:428
-msgid "Edit Dictionary Source"
-msgstr "Modifiche sorzint dizionari"
-
-#: ../src/gdict-pref-dialog.c:303
+#: ../src/gdict-pref-dialog.c:330
 msgid "Add Dictionary Source"
 msgstr "Zonte sorzint dizionari"
 
-#: ../src/gdict-pref-dialog.c:348
+#: ../src/gdict-pref-dialog.c:374
 #, c-format
 msgid "Remove \"%s\"?"
 msgstr "Gjavâ «%s»?"
 
-#: ../src/gdict-pref-dialog.c:350
+#: ../src/gdict-pref-dialog.c:376
 msgid "This will permanently remove the dictionary source from the list."
 msgstr "Chest al gjavarà par simpri la sorzint dizionari de liste."
 
+#: ../src/gdict-pref-dialog.c:379 ../src/gdict-source-dialog.c:564
+#: ../src/gdict-window.c:822
+msgid "_Cancel"
+msgstr "_Anule"
+
 #: ../src/gdict-pref-dialog.c:380
+msgid "_Remove"
+msgstr "_Gjave"
+
+#: ../src/gdict-pref-dialog.c:398
 #, c-format
 msgid "Unable to remove source '%s'"
 msgstr "Impussibil gjavâ la sorzint «%s»"
 
-#: ../src/gdict-pref-dialog.c:641
-msgid "Add a new dictionary source"
-msgstr "Zonte une gnove sorzint dizionari"
+#: ../src/gdict-pref-dialog.c:445
+msgid "Edit Dictionary Source"
+msgstr "Modifiche sorzint dizionari"
 
-#: ../src/gdict-pref-dialog.c:647
-msgid "Remove the currently selected dictionary source"
-msgstr "Gjave la sorzint dizionari cumò selezionade"
+#. add buttons
+#. The help button is always visible
+#: ../src/gdict-pref-dialog.c:634 ../src/gdict-source-dialog.c:655
+msgid "_Help"
+msgstr "_Jutori"
 
-#: ../src/gdict-pref-dialog.c:653
-msgid "Edit the currently selected dictionary source"
-msgstr "Modifiche la sorzint dizionari cumò selezionade"
-
-#: ../src/gdict-pref-dialog.c:661
-msgid "Set the font used for printing the definitions"
-msgstr "Impuestâ  il tipo di caratar doprât pe stampe das definizions"
+#. we just allow closing the dialog
+#: ../src/gdict-pref-dialog.c:635 ../src/gdict-source-dialog.c:560
+#: ../src/gdict-source-dialog.c:574
+msgid "_Close"
+msgstr "Sie_re"
 
 #: ../src/gdict-print.c:239 ../src/gdict-print.c:303
 #, c-format
 msgid "Unable to display the preview: %s"
 msgstr "Impussibil mostrâ le anteprime: %s"
 
-#: ../src/gdict-source-dialog.c:340 ../src/gdict-source-dialog.c:432
+#: ../src/gdict-source-dialog.c:316 ../src/gdict-source-dialog.c:404
 msgid "Unable to create a source file"
 msgstr "Impussibil creâ un file sorzint"
 
-#: ../src/gdict-source-dialog.c:356 ../src/gdict-source-dialog.c:448
+#: ../src/gdict-source-dialog.c:332 ../src/gdict-source-dialog.c:424
 msgid "Unable to save source file"
 msgstr "Impussibil salvâ il file sorzint"
 
-#: ../src/gdict-window.c:253
-#, c-format
-msgid "Searching for '%s'..."
-msgstr "O stoi cirint «%s»..."
+#: ../src/gdict-source-dialog.c:565
+msgid "_Add"
+msgstr "_Zonte"
 
-#: ../src/gdict-window.c:285 ../src/gdict-window.c:342
-msgid "No definitions found"
-msgstr "Nissune definizion cjatade"
+#: ../src/gdict-source-dialog.c:573
+msgid "C_ancel"
+msgstr "A_nule"
 
-#: ../src/gdict-window.c:287
-#, c-format
-msgid "A definition found"
-msgid_plural "%d definitions found"
-msgstr[0] "Une definizion cjatade"
-msgstr[1] "%d definizions cjatadis"
-
-#: ../src/gdict-window.c:458
+#: ../src/gdict-window.c:414
 #, c-format
 msgid "No dictionary source available with name '%s'"
 msgstr "Nissune sorzint dizionari disponibil cun non «%s»"
 
-#: ../src/gdict-window.c:462
+#: ../src/gdict-window.c:418
 msgid "Unable to find dictionary source"
 msgstr "Impussibil cjatâ la sorzint dizionari"
 
-#: ../src/gdict-window.c:478
+#: ../src/gdict-window.c:434
 #, c-format
 msgid "No context available for source '%s'"
 msgstr "Nissun contest disponibil pe sorzint «%s»"
 
-#: ../src/gdict-window.c:482
+#: ../src/gdict-window.c:438
 msgid "Unable to create a context"
 msgstr "Impussibil creâ un contest"
 
-#: ../src/gdict-window.c:541
+#: ../src/gdict-window.c:497
 #, c-format
 msgid "%s - Dictionary"
 msgstr "%s - Dizionari"
 
-#: ../src/gdict-window.c:910
+#: ../src/gdict-window.c:819
 msgid "Save a Copy"
 msgstr "Salve une copie"
 
-#: ../src/gdict-window.c:920
+#: ../src/gdict-window.c:823
+msgid "_Save"
+msgstr "_Salve"
+
+#: ../src/gdict-window.c:829
 msgid "Untitled document"
 msgstr "Document cence titul"
 
-#: ../src/gdict-window.c:941
+#: ../src/gdict-window.c:850
 #, c-format
 msgid "Error while writing to '%s'"
 msgstr "Erôr intant che a si scriveve «%s»"
 
-#: ../src/gdict-window.c:1359
-#, c-format
-msgid "Dictionary source `%s' selected"
-msgstr "Selezionade sorzint dizionari «%s»"
-
-#: ../src/gdict-window.c:1380
-#, c-format
-msgid "Strategy `%s' selected"
-msgstr "Selezionade strategjie «%s»"
-
-#: ../src/gdict-window.c:1400
-#, c-format
-msgid "Database `%s' selected"
-msgstr "Selezionât database «%s»"
-
-#: ../src/gdict-window.c:1420
-#, c-format
-msgid "Word `%s' selected"
-msgstr "Selezionade peraule «%s»"
-
 #. speller
-#: ../src/gdict-window.c:1445
+#: ../src/gdict-window.c:1211
 msgid "Double-click on the word to look up"
 msgstr "Fâ dopli clic su le peraule di cirî"
 
 #. strat-chooser
-#: ../src/gdict-window.c:1451
+#: ../src/gdict-window.c:1217
 msgid "Double-click on the matching strategy to use"
 msgstr "Fâ dopli clic su le strategjie di confront di doprâ"
 
 #. source-chooser
-#: ../src/gdict-window.c:1456
+#: ../src/gdict-window.c:1222
 msgid "Double-click on the source to use"
 msgstr "Fâ dopli clic su la sorzint di doprâ"
 
-#. db-chooser
-#: ../src/gdict-window.c:1465
-msgid "Double-click on the database to use"
-msgstr "Fâ dopli clic sul database di doprâ"
-
-#: ../src/gdict-window.c:1615
-msgid "Look _up:"
-msgstr "_Cîr:"
-
-#: ../src/gdict-window.c:1690
+#: ../src/gdict-window.c:1428
 msgid "Similar words"
 msgstr "Peraulis simii"
 
-#: ../src/gdict-window.c:1703
-msgid "Available dictionaries"
-msgstr "Dizionaris disponibii"
-
-#: ../src/gdict-window.c:1721
+#: ../src/gdict-window.c:1459
 msgid "Available strategies"
 msgstr "Strategjiis disponibii"
 
-#: ../src/gdict-window.c:1737
+#: ../src/gdict-window.c:1475
 msgid "Dictionary sources"
 msgstr "Sorzints dizionari"
+
+#~ msgid "About Dictionary"
+#~ msgstr "Informazions su Dizionari"
+
+#~ msgid "_File"
+#~ msgstr "_File"
+
+#~ msgid "_New"
+#~ msgstr "_Gnûf"
+
+#~ msgid "_Copy"
+#~ msgstr "_Copie"
+
+#~ msgid "Select _All"
+#~ msgstr "_Selezione dut"
+
+#~ msgid "Find Ne_xt"
+#~ msgstr "Cjate _prossim"
+
+#~ msgid "Find Pre_vious"
+#~ msgstr "Cjate prece_dent"
+
+#~ msgid "S_tatusbar"
+#~ msgstr "Striche di s_tât"
+
+#~ msgid "Not found"
+#~ msgstr "No cjatât"
+
+#~ msgid "F_ind:"
+#~ msgstr "_Cîr:"
+
+#~ msgid "_Previous"
+#~ msgstr "Pr_ecedent"
+
+#~ msgid "_Next"
+#~ msgstr "_Prossim"
+
+#~ msgid " - Look up words in dictionaries"
+#~ msgstr "- Cîr peraulis sui dizionaris"
+
+#~ msgid "Searching for '%s'..."
+#~ msgstr "O stoi cirint «%s»..."
+
+#~ msgid "No definitions found"
+#~ msgstr "Nissune definizion cjatade"
+
+#~ msgid "A definition found"
+#~ msgid_plural "%d definitions found"
+#~ msgstr[0] "Une definizion cjatade"
+#~ msgstr[1] "%d definizions cjatadis"
+
+#~ msgid "Dictionary source `%s' selected"
+#~ msgstr "Selezionade sorzint dizionari «%s»"
+
+#~ msgid "Strategy `%s' selected"
+#~ msgstr "Selezionade strategjie «%s»"
+
+#~ msgid "Database `%s' selected"
+#~ msgstr "Selezionât database «%s»"
+
+#~ msgid "Word `%s' selected"
+#~ msgstr "Selezionade peraule «%s»"
+
+#~ msgid "Double-click on the database to use"
+#~ msgstr "Fâ dopli clic sul database di doprâ"
+
+#~ msgid "Look _up:"
+#~ msgstr "_Cîr:"
+
+#~ msgid "Available dictionaries"
+#~ msgstr "Dizionaris disponibii"
