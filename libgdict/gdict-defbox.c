@@ -2439,13 +2439,13 @@ gdict_defbox_lookup (GdictDefbox *defbox,
 
   if (!priv->start_id)
     {
-      priv->start_id = g_signal_connect (priv->context, "lookup-start",
+      priv->start_id = g_signal_connect (priv->context, "definition-lookup-start",
   				         G_CALLBACK (lookup_start_cb),
 					 defbox);
       priv->define_id = g_signal_connect (priv->context, "definition-found",
   				          G_CALLBACK (definition_found_cb),
   				          defbox);
-      priv->end_id = g_signal_connect (priv->context, "lookup-end",
+      priv->end_id = g_signal_connect (priv->context, "definition-lookup-end",
   				       G_CALLBACK (lookup_end_cb),
   				       defbox);
     }

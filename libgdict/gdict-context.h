@@ -168,6 +168,8 @@ struct _GdictContextIface
   			             GdictStrategy   *strategy);
   void (*match_found)               (GdictContext    *context,
   			             GdictMatch      *match);
+  void (*definition_lookup_start)   (GdictContext    *context);
+  void (*definition_lookup_end)     (GdictContext    *context);
   void (*definition_found)          (GdictContext    *context,
   			             GdictDefinition *definition);
   

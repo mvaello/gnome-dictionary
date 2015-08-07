@@ -1347,10 +1347,14 @@ gdict_client_context_parse_line (GdictClientContext *context,
        * we issue them ourselves
        */
       if ((last_cmd != CMD_CLIENT) && (last_cmd != CMD_QUIT))
-        if (last_cmd == CMD_SHOW_DB)
-          g_signal_emit_by_name (context, "database-lookup-end");
-
-        g_signal_emit_by_name (context, "lookup-end");
+        {
+          if (last_cmd == CMD_SHOW_DB)
+            g_signal_emit_by_name (context, "database-lookup-end");
+          else if (last_cmd == CMD_DEFINE)
+            g_signal_emit_by_name (context, "definition-lookup-end");
+          else
+            g_signal_emit_by_name (context, "lookup-end");
+        }
       
       /* pop the next command from the queue */
       new_command = gdict_client_context_pop_command (context);
@@ -2107,7 +2111,7 @@ gdict_client_context_define_word (GdictContext  *context,
 
   client_ctx = GDICT_CLIENT_CONTEXT (context);
 
-  g_signal_emit_by_name (context, "lookup-start");
+  g_signal_emit_by_name (context, "definition-lookup-start");
   
   if (!gdict_client_context_is_connected (client_ctx))
     {
@@ -2116,7 +2120,7 @@ gdict_client_context_define_word (GdictContext  *context,
       gdict_client_context_connect (client_ctx, &connect_error);
       if (connect_error)
         {
-          g_signal_emit_by_name (context, "lookup-end");
+          g_signal_emit_by_name (context, "definition-lookup-end");
 
           g_propagate_error (error, connect_error);
           

@@ -544,10 +544,10 @@ gdict_window_set_context (GdictWindow  *window,
   window->definition_id   = g_signal_connect (context, "definition-found",
 		  			      G_CALLBACK (gdict_window_definition_cb),
 					      window);
-  window->lookup_start_id = g_signal_connect (context, "lookup-start",
+  window->lookup_start_id = g_signal_connect (context, "definition-lookup-start",
 		  			      G_CALLBACK (gdict_window_lookup_start_cb),
 					      window);
-  window->lookup_end_id   = g_signal_connect (context, "lookup-end",
+  window->lookup_end_id   = g_signal_connect (context, "definition-lookup-end",
 		  			      G_CALLBACK (gdict_window_lookup_end_cb),
 					      window);
   window->error_id        = g_signal_connect (context, "error",
