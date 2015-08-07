@@ -877,13 +877,13 @@ gdict_database_chooser_refresh (GdictDatabaseChooser *chooser)
 
   if (!priv->start_id)
     {
-      priv->start_id = g_signal_connect (priv->context, "lookup-start",
+      priv->start_id = g_signal_connect (priv->context, "database-lookup-start",
 		      			 G_CALLBACK (lookup_start_cb),
 					 chooser);
       priv->match_id = g_signal_connect (priv->context, "database-found",
 		      			 G_CALLBACK (database_found_cb),
 					 chooser);
-      priv->end_id = g_signal_connect (priv->context, "lookup-end",
+      priv->end_id = g_signal_connect (priv->context, "database-lookup-end",
 		      		       G_CALLBACK (lookup_end_cb),
 				       chooser);
     }

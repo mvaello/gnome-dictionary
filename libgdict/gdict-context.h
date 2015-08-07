@@ -157,17 +157,19 @@ struct _GdictContextIface
   			         GError       **error);  
   
   /* signals */
-  void (*lookup_start)     (GdictContext    *context);
-  void (*lookup_end)       (GdictContext    *context);
+  void (*lookup_start)              (GdictContext    *context);
+  void (*lookup_end)                (GdictContext    *context);
   
-  void (*database_found)   (GdictContext    *context,
-  			    GdictDatabase   *database);
-  void (*strategy_found)   (GdictContext    *context,
-  			    GdictStrategy   *strategy);
-  void (*match_found)      (GdictContext    *context,
-  			    GdictMatch      *match);
-  void (*definition_found) (GdictContext    *context,
-  			    GdictDefinition *definition);
+  void (*database_lookup_start)     (GdictContext    *context);
+  void (*database_lookup_end)       (GdictContext    *context);
+  void (*database_found)            (GdictContext    *context,
+  			             GdictDatabase   *database);
+  void (*strategy_found)            (GdictContext    *context,
+  			             GdictStrategy   *strategy);
+  void (*match_found)               (GdictContext    *context,
+  			             GdictMatch      *match);
+  void (*definition_found)          (GdictContext    *context,
+  			             GdictDefinition *definition);
   
   /* fired each time there's an error; the GError is owned
    * by the context, and should never be modified or freed

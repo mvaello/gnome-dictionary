@@ -1347,6 +1347,9 @@ gdict_client_context_parse_line (GdictClientContext *context,
        * we issue them ourselves
        */
       if ((last_cmd != CMD_CLIENT) && (last_cmd != CMD_QUIT))
+        if (last_cmd == CMD_SHOW_DB)
+          g_signal_emit_by_name (context, "database-lookup-end");
+
         g_signal_emit_by_name (context, "lookup-end");
       
       /* pop the next command from the queue */
@@ -2036,7 +2039,7 @@ gdict_client_context_get_databases (GdictContext  *context,
   
   client_ctx = GDICT_CLIENT_CONTEXT (context);
 
-  g_signal_emit_by_name (context, "lookup-start");
+  g_signal_emit_by_name (context, "database-lookup-start");
   
   if (!gdict_client_context_is_connected (client_ctx))
     {

@@ -137,6 +137,42 @@ gdict_context_class_init (gpointer g_iface)
                 G_TYPE_NONE, 1,
                 G_TYPE_POINTER);
   /**
+   * GdictContext::database-lookup-start
+   * @context: the object which received the signal
+   *
+   * This signal is emitted when a database look up operation has been issued
+   * using a #GdictContext.  Since every operation using a context is
+   * asynchronous, you can use this signal to know if the request has been
+   * issued or not.
+   *
+   * Since: 1.0
+   */
+  g_signal_new ("database-lookup-start",
+                iface_type,
+                G_SIGNAL_RUN_LAST,
+                G_STRUCT_OFFSET (GdictContextIface, database_lookup_start),
+                NULL, NULL,
+                gdict_marshal_VOID__VOID,
+                G_TYPE_NONE, 0);
+  /**
+   * GdictContext::database-lookup-end
+   * @context: the object which received the signal
+   *
+   * This signal is emitted when a database look up operation that has been
+   * issued using a #GdictContext has been completed.  Since every operation
+   * using a context is asynchronous, you can use this signal to know if the
+   * request has been completed or not.
+   *
+   * Since: 1.0
+   */
+  g_signal_new ("database-lookup-end",
+                iface_type,
+                G_SIGNAL_RUN_LAST,
+                G_STRUCT_OFFSET (GdictContextIface, database_lookup_end),
+                NULL, NULL,
+                gdict_marshal_VOID__VOID,
+                G_TYPE_NONE, 0);
+  /**
    * GdictContext::database-found
    * @context: the object which received the signal
    * @database: a #GdictDatabase
