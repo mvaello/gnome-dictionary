@@ -12,8 +12,8 @@ msgstr ""
 "Project-Id-Version: gnome-dictionary\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "dictionary&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2015-02-23 15:32+0000\n"
-"PO-Revision-Date: 2015-02-24 19:48+0100\n"
+"POT-Creation-Date: 2015-07-29 19:01+0000\n"
+"PO-Revision-Date: 2015-07-30 07:23+0200\n"
 "Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
 "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
 "Language: sv\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 1.7.3\n"
+"X-Generator: Poedit 1.8.2\n"
 
 #: ../data/default.desktop.in.h:1
 msgid "Default Dictionary Server"
@@ -39,168 +39,153 @@ msgstr ""
 "enkelt byta till spanska eller lägga till andra nätordböcker för att passa "
 "dina behov genom att använda DICT-protokollet."
 
-#: ../data/gnome-dictionary-menus.ui.h:1
+#: ../src/gdict-app-menus.ui.h:1
+msgid "_New Window"
+msgstr "_Nytt fönster"
+
+#: ../src/gdict-app-menus.ui.h:2
 msgid "Preferences"
 msgstr "Inställningar"
 
-#: ../data/gnome-dictionary-menus.ui.h:2
+#: ../src/gdict-app-menus.ui.h:3
 msgid "Help"
 msgstr "Hjälp"
 
-#: ../data/gnome-dictionary-menus.ui.h:3
+#: ../src/gdict-app-menus.ui.h:4
 msgid "About"
 msgstr "Om"
 
-#: ../data/gnome-dictionary-menus.ui.h:4
+#: ../src/gdict-app-menus.ui.h:5
 msgid "Quit"
 msgstr "Avsluta"
 
-#: ../data/gnome-dictionary-menus.ui.h:5
-msgid "_File"
-msgstr "_Arkiv"
-
-#: ../data/gnome-dictionary-menus.ui.h:6
-msgid "_New"
-msgstr "_Ny"
-
-#: ../data/gnome-dictionary-menus.ui.h:7
+#: ../src/gdict-app-menus.ui.h:6
 msgid "_Save a Copy..."
 msgstr "_Spara en kopia…"
 
-#: ../data/gnome-dictionary-menus.ui.h:8
+#: ../src/gdict-app-menus.ui.h:7
 msgid "P_review"
 msgstr "Fö_rhandsgranska"
 
-#: ../data/gnome-dictionary-menus.ui.h:9
+#: ../src/gdict-app-menus.ui.h:8
 msgid "_Print"
 msgstr "S_kriv ut"
 
-#. we just allow closing the dialog
-#: ../data/gnome-dictionary-menus.ui.h:10 ../src/gdict-source-dialog.c:637
-#: ../src/gdict-source-dialog.c:649
-msgid "_Close"
-msgstr "_Stäng"
-
-#: ../data/gnome-dictionary-menus.ui.h:11
-msgid "_Edit"
-msgstr "_Redigera"
-
-#: ../data/gnome-dictionary-menus.ui.h:12
-msgid "_Copy"
-msgstr "_Kopiera"
-
-#: ../data/gnome-dictionary-menus.ui.h:13
-msgid "Select _All"
-msgstr "Markera _alla"
-
-#: ../data/gnome-dictionary-menus.ui.h:14
+#: ../src/gdict-app-menus.ui.h:9
 msgid "_Find"
 msgstr "S_ök"
 
-#: ../data/gnome-dictionary-menus.ui.h:15
-msgid "Find Ne_xt"
-msgstr "Sök _nästa"
-
-#: ../data/gnome-dictionary-menus.ui.h:16
-msgid "Find Pre_vious"
-msgstr "Sök _föregående"
-
-#: ../data/gnome-dictionary-menus.ui.h:17
+#: ../src/gdict-app-menus.ui.h:10
 msgid "_View"
 msgstr "_Visa"
 
-#: ../data/gnome-dictionary-menus.ui.h:18
+#: ../src/gdict-app-menus.ui.h:11
 msgid "_Sidebar"
 msgstr "_Sidopanel"
 
-#: ../data/gnome-dictionary-menus.ui.h:19
-msgid "S_tatusbar"
-msgstr "S_tatusrad"
-
-#: ../data/gnome-dictionary-menus.ui.h:20
+#: ../src/gdict-app-menus.ui.h:12
 msgid "Similar _Words"
 msgstr "Liknande _ord"
 
-#: ../data/gnome-dictionary-menus.ui.h:21
+#: ../src/gdict-app-menus.ui.h:13
 msgid "Dictionary Sources"
 msgstr "Ordbokskällor"
 
-#: ../data/gnome-dictionary-menus.ui.h:22
+#: ../src/gdict-app-menus.ui.h:14
 msgid "Available _Dictionaries"
 msgstr "Tillgängliga or_dböcker"
 
-#: ../data/gnome-dictionary-menus.ui.h:23
+#: ../src/gdict-app-menus.ui.h:15
 msgid "Available St_rategies"
 msgstr "Tillgängliga st_rategier"
 
-#: ../data/gnome-dictionary-menus.ui.h:24
+#: ../src/gdict-app-menus.ui.h:16
 msgid "_Go"
 msgstr "_Gå"
 
-#: ../data/gnome-dictionary-menus.ui.h:25
+#: ../src/gdict-app-menus.ui.h:17
 msgid "_Previous Definition"
 msgstr "_Föregående definition"
 
-#: ../data/gnome-dictionary-menus.ui.h:26
+#: ../src/gdict-app-menus.ui.h:18
 msgid "_Next Definition"
 msgstr "_Nästa definition"
 
-#: ../data/gnome-dictionary-menus.ui.h:27
+#: ../src/gdict-app-menus.ui.h:19
 msgid "_First Definition"
 msgstr "_Första definitionen"
 
-#: ../data/gnome-dictionary-menus.ui.h:28
+#: ../src/gdict-app-menus.ui.h:20
 msgid "_Last Definition"
 msgstr "_Sista definitionen"
 
-#: ../data/gnome-dictionary-preferences.ui.h:1
+#: ../src/gdict-pref-dialog.ui.h:1
 msgid "_Select a dictionary source for looking up words:"
 msgstr "_Välj en ordbokskälla för att slå upp ord:"
 
-#: ../data/gnome-dictionary-preferences.ui.h:2
-#: ../data/gnome-dictionary-source.ui.h:6
+#: ../src/gdict-pref-dialog.ui.h:2
+msgid "Add a new dictionary source"
+msgstr "Lägg till en ny ordbokskälla"
+
+#: ../src/gdict-pref-dialog.ui.h:3
+msgid "Remove the currently selected dictionary source"
+msgstr "Ta bort den för tillfället markerade ordbokskällan"
+
+#: ../src/gdict-pref-dialog.ui.h:4
+msgid "Edit"
+msgstr "Redigera"
+
+#: ../src/gdict-pref-dialog.ui.h:5
+msgid "Edit the currently selected dictionary source"
+msgstr "Redigera den för tillfället markerade ordbokskällan"
+
+#: ../src/gdict-pref-dialog.ui.h:6 ../src/gdict-source-dialog.ui.h:6
 msgid "Source"
 msgstr "Källa"
 
-#: ../data/gnome-dictionary-preferences.ui.h:3
+#: ../src/gdict-pref-dialog.ui.h:7
 msgid "_Print font:"
 msgstr "_Typsnitt för utskrift:"
 
-#: ../data/gnome-dictionary-preferences.ui.h:4
+#: ../src/gdict-pref-dialog.ui.h:8
+msgid "Set the font used for printing the definitions"
+msgstr "Ställ in typsnittet som används för utskrift av definitioner"
+
+#: ../src/gdict-pref-dialog.ui.h:9
 msgid "Print"
 msgstr "Skriv ut"
 
-#: ../data/gnome-dictionary-source.ui.h:1
+#: ../src/gdict-source-dialog.ui.h:1
 msgid "_Description:"
 msgstr "_Beskrivning:"
 
-#: ../data/gnome-dictionary-source.ui.h:2
+#: ../src/gdict-source-dialog.ui.h:2
 msgid "_Transport:"
 msgstr "_Transport:"
 
-#: ../data/gnome-dictionary-source.ui.h:3
+#: ../src/gdict-source-dialog.ui.h:3
 msgid "H_ostname:"
 msgstr "Värd_namn:"
 
 # SUN CHANGED MESSAGE
-#: ../data/gnome-dictionary-source.ui.h:4
+#: ../src/gdict-source-dialog.ui.h:4
 msgid "_Port:"
 msgstr "_Port:"
 
-#: ../data/gnome-dictionary-source.ui.h:5
+#: ../src/gdict-source-dialog.ui.h:5
 msgid "Source Name"
 msgstr "Källnamn"
 
-#: ../data/gnome-dictionary-source.ui.h:7
+#: ../src/gdict-source-dialog.ui.h:7
 msgid "Dictionaries"
 msgstr "Ordböcker"
 
-#: ../data/gnome-dictionary-source.ui.h:8
+#: ../src/gdict-source-dialog.ui.h:8
 msgid "Strategies"
 msgstr "Strategier"
 
 #: ../data/org.gnome.Dictionary.desktop.in.in.h:1 ../src/gdict-about.c:60
-#: ../src/gdict-window.c:546 ../src/gdict-window.c:1811
+#: ../src/gdict-window.c:499 ../src/gdict-window.c:1531
 msgid "Dictionary"
 msgstr "Ordbok"
 
@@ -212,11 +197,11 @@ msgstr "Kontrollera definitioner av ord och stavningar i en nätordbok"
 msgid "word;synonym;definition;spelling;"
 msgstr "ord;synonym;definition;stavning;"
 
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:1
+#: ../data/org.gnome.dictionary.gschema.xml.h:1
 msgid "The default database to use"
 msgstr "Standarddatabasen att använda"
 
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:2
+#: ../data/org.gnome.dictionary.gschema.xml.h:2
 msgid ""
 "The name of the default individual database or meta-database to use on a "
 "dictionary source. An exclamation mark (\"!\") means that all the databases "
@@ -226,11 +211,11 @@ msgstr ""
 "använda på en ordbokskälla. Utropstecknet \"!\" betyder att alla databaser "
 "som finns i en ordbokskälla ska sökas"
 
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:3
+#: ../data/org.gnome.dictionary.gschema.xml.h:3
 msgid "The default search strategy to use"
 msgstr "Standardsökstrategin att använda"
 
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:4
+#: ../data/org.gnome.dictionary.gschema.xml.h:4
 msgid ""
 "The name of the default search strategy to use on a dictionary source, if "
 "available. The default strategy is 'exact', that is match exact words."
@@ -238,19 +223,19 @@ msgstr ""
 "Namnet på standardsökstrategin att använda på en ordbokskälla, om "
 "tillgänglig. Standardstrategin är \"exact\", alltså exakta ordmatchningar."
 
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:5
+#: ../data/org.gnome.dictionary.gschema.xml.h:5
 msgid "The font to be used when printing"
 msgstr "Typsnittet att användas vid utskrift"
 
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:6
+#: ../data/org.gnome.dictionary.gschema.xml.h:6
 msgid "The font to be used when printing a definition."
 msgstr "Typsnittet att användas vid utskrift av en definition."
 
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:7
+#: ../data/org.gnome.dictionary.gschema.xml.h:7
 msgid "The name of the dictionary source used"
 msgstr "Namnet för ordbokskällan som används"
 
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:8
+#: ../data/org.gnome.dictionary.gschema.xml.h:8
 msgid ""
 "The name of the dictionary source used to retrieve the definitions of words."
 msgstr "Namnet på ordbokskällan som används för att hämta definitioner av ord."
@@ -417,49 +402,32 @@ msgstr "Endast lokal"
 msgid "Whether the context uses only local dictionaries or not"
 msgstr "Huruvida sammanhanget använder endast lokala ordböcker eller inte"
 
-#: ../libgdict/gdict-database-chooser.c:373
+#: ../libgdict/gdict-database-chooser.c:398
 msgid "Reload the list of available databases"
 msgstr "Läs om listan på tillgängliga databaser"
 
-#: ../libgdict/gdict-database-chooser.c:385
+#: ../libgdict/gdict-database-chooser.c:410
 msgid "Clear the list of available databases"
 msgstr "Töm listan på tillgängliga databaser"
 
-#: ../libgdict/gdict-database-chooser.c:836 ../libgdict/gdict-speller.c:767
+#: ../libgdict/gdict-database-chooser.c:905 ../libgdict/gdict-speller.c:767
 #: ../libgdict/gdict-strategy-chooser.c:775
 msgid "Error while matching"
 msgstr "Fel vid matchning"
 
-#: ../libgdict/gdict-defbox.c:1109 ../libgdict/gdict-defbox.c:1203
-#: ../libgdict/gdict-defbox.c:1237
-msgid "Not found"
-msgstr "Hittades inte"
-
-#: ../libgdict/gdict-defbox.c:1297
-msgid "F_ind:"
-msgstr "Sö_k:"
-
-#: ../libgdict/gdict-defbox.c:1310
-msgid "_Previous"
-msgstr "_Föregående"
-
-#: ../libgdict/gdict-defbox.c:1317
-msgid "_Next"
-msgstr "_Nästa"
-
-#: ../libgdict/gdict-defbox.c:2461
+#: ../libgdict/gdict-defbox.c:2390
 msgid "Error while looking up definition"
 msgstr "Fel vid uppslagning av definition"
 
-#: ../libgdict/gdict-defbox.c:2503 ../libgdict/gdict-speller.c:725
+#: ../libgdict/gdict-defbox.c:2432 ../libgdict/gdict-speller.c:725
 msgid "Another search is in progress"
 msgstr "En annan sökning pågår"
 
-#: ../libgdict/gdict-defbox.c:2504 ../libgdict/gdict-speller.c:726
+#: ../libgdict/gdict-defbox.c:2433 ../libgdict/gdict-speller.c:726
 msgid "Please wait until the current search ends."
 msgstr "Var god vänta tills den aktuella sökningen är klar."
 
-#: ../libgdict/gdict-defbox.c:2543
+#: ../libgdict/gdict-defbox.c:2472
 msgid "Error while retrieving the definition"
 msgstr "Fel vid hämtning av definitionen"
 
@@ -615,11 +583,11 @@ msgstr "FLAGGOR"
 msgid "GDict debugging flags to unset"
 msgstr "GDict-felsökningsflaggor att inaktivera"
 
-#: ../libgdict/gdict-utils.c:156
+#: ../libgdict/gdict-utils.c:157
 msgid "GDict Options"
 msgstr "GDict-alternativ"
 
-#: ../libgdict/gdict-utils.c:157
+#: ../libgdict/gdict-utils.c:158
 msgid "Show GDict Options"
 msgstr "Visa GDict-alternativ"
 
@@ -639,237 +607,244 @@ msgstr ""
 msgid "Look up words in dictionaries"
 msgstr "Slå upp ord i ordböcker"
 
-#: ../src/gdict-app.c:53 ../src/gdict-app.c:82
+#: ../src/gdict-app.c:46 ../src/gdict-app.c:75
 msgid "Words to look up"
 msgstr "Ord att slå upp"
 
-#: ../src/gdict-app.c:53 ../src/gdict-app.c:59
+#: ../src/gdict-app.c:46 ../src/gdict-app.c:52
 msgid "WORD"
 msgstr "ORD"
 
-#: ../src/gdict-app.c:59
+#: ../src/gdict-app.c:52
 msgid "Words to match"
 msgstr "Ord att matcha"
 
-#: ../src/gdict-app.c:65
+#: ../src/gdict-app.c:58
 msgid "Dictionary source to use"
 msgstr "Ordbokskälla att använda"
 
-#: ../src/gdict-app.c:65 ../src/gdict-app.c:71 ../src/gdict-app.c:77
+#: ../src/gdict-app.c:58 ../src/gdict-app.c:64 ../src/gdict-app.c:70
 msgid "NAME"
 msgstr "NAMN"
 
-#: ../src/gdict-app.c:71
+#: ../src/gdict-app.c:64
 msgid "Database to use"
 msgstr "Databas att använda"
 
-#: ../src/gdict-app.c:77
+#: ../src/gdict-app.c:70
 msgid "Strategy to use"
 msgstr "Strategi att använda"
 
-#: ../src/gdict-app.c:82
+#: ../src/gdict-app.c:75
 msgid "WORDS"
 msgstr "ORD"
 
-#: ../src/gdict-app.c:99
+#: ../src/gdict-app.c:107
 msgid "Dictionary Preferences"
 msgstr "Inställningar för ordbok"
 
-#: ../src/gdict-app.c:121 ../src/gdict-pref-dialog.c:521
-#: ../src/gdict-source-dialog.c:479
+#: ../src/gdict-app.c:129 ../src/gdict-pref-dialog.c:511
+#: ../src/gdict-source-dialog.c:452
 #, c-format
 msgid "There was an error while displaying help"
 msgstr "Det uppstod ett fel vid visning av hjälp"
 
-#: ../src/gdict-pref-dialog.c:271
+#: ../src/gdict-pref-dialog.c:264
 msgid "View Dictionary Source"
 msgstr "Visa ordbokskälla"
 
-#: ../src/gdict-pref-dialog.c:338
+#: ../src/gdict-pref-dialog.c:330
 msgid "Add Dictionary Source"
 msgstr "Lägg till ordbokskälla"
 
-#: ../src/gdict-pref-dialog.c:383
+#: ../src/gdict-pref-dialog.c:374
 #, c-format
 msgid "Remove \"%s\"?"
 msgstr "Ta bort ”%s”?"
 
-#: ../src/gdict-pref-dialog.c:385
+#: ../src/gdict-pref-dialog.c:376
 msgid "This will permanently remove the dictionary source from the list."
 msgstr "Detta kommer att permanent ta bort ordbokskällan från listan."
 
-#: ../src/gdict-pref-dialog.c:388 ../src/gdict-source-dialog.c:640
-#: ../src/gdict-window.c:916
+#: ../src/gdict-pref-dialog.c:379 ../src/gdict-source-dialog.c:564
+#: ../src/gdict-window.c:822
 msgid "_Cancel"
 msgstr "A_vbryt"
 
-#: ../src/gdict-pref-dialog.c:389
+#: ../src/gdict-pref-dialog.c:380
 msgid "_Remove"
 msgstr "_Ta bort"
 
-#: ../src/gdict-pref-dialog.c:407
+#: ../src/gdict-pref-dialog.c:398
 #, c-format
 msgid "Unable to remove source '%s'"
 msgstr "Kunde inte ta bort källan ”%s”"
 
-#: ../src/gdict-pref-dialog.c:455
+#: ../src/gdict-pref-dialog.c:445
 msgid "Edit Dictionary Source"
 msgstr "Redigera ordbokskälla"
 
-#: ../src/gdict-pref-dialog.c:668
-msgid "Add a new dictionary source"
-msgstr "Lägg till en ny ordbokskälla"
+#. add buttons
+#. The help button is always visible
+#: ../src/gdict-pref-dialog.c:634 ../src/gdict-source-dialog.c:655
+msgid "_Help"
+msgstr "_Hjälp"
 
-#: ../src/gdict-pref-dialog.c:674
-msgid "Remove the currently selected dictionary source"
-msgstr "Ta bort den för tillfället markerade ordbokskällan"
-
-#: ../src/gdict-pref-dialog.c:680
-msgid "Edit the currently selected dictionary source"
-msgstr "Redigera den för tillfället markerade ordbokskällan"
-
-#: ../src/gdict-pref-dialog.c:688
-msgid "Set the font used for printing the definitions"
-msgstr "Ställ in typsnittet som används för utskrift av definitioner"
+#. we just allow closing the dialog
+#: ../src/gdict-pref-dialog.c:635 ../src/gdict-source-dialog.c:560
+#: ../src/gdict-source-dialog.c:574
+msgid "_Close"
+msgstr "_Stäng"
 
 #: ../src/gdict-print.c:239 ../src/gdict-print.c:303
 #, c-format
 msgid "Unable to display the preview: %s"
 msgstr "Kan inte visa förhandsgranskning: %s"
 
-#: ../src/gdict-source-dialog.c:340 ../src/gdict-source-dialog.c:432
+#: ../src/gdict-source-dialog.c:316 ../src/gdict-source-dialog.c:404
 msgid "Unable to create a source file"
 msgstr "Kunde inte skapa en källfil"
 
-#: ../src/gdict-source-dialog.c:356 ../src/gdict-source-dialog.c:452
+#: ../src/gdict-source-dialog.c:332 ../src/gdict-source-dialog.c:424
 msgid "Unable to save source file"
 msgstr "Kunde inte spara källfil"
 
-#. the help button is always visible
-#: ../src/gdict-source-dialog.c:611
-msgid "_Help"
-msgstr "_Hjälp"
-
-#: ../src/gdict-source-dialog.c:641
+#: ../src/gdict-source-dialog.c:565
 msgid "_Add"
 msgstr "_Lägg till"
 
-#: ../src/gdict-source-dialog.c:648
+#: ../src/gdict-source-dialog.c:573
 msgid "C_ancel"
 msgstr "A_vbryt"
 
-#: ../src/gdict-window.c:256
-#, c-format
-msgid "Searching for '%s'..."
-msgstr "Söker efter ”%s”…"
-
-#: ../src/gdict-window.c:288 ../src/gdict-window.c:345
-msgid "No definitions found"
-msgstr "Inga definitioner hittades"
-
-#: ../src/gdict-window.c:290
-#, c-format
-msgid "A definition found"
-msgid_plural "%d definitions found"
-msgstr[0] "En definition hittades"
-msgstr[1] "%d definitioner hittades"
-
-#: ../src/gdict-window.c:461
+#: ../src/gdict-window.c:414
 #, c-format
 msgid "No dictionary source available with name '%s'"
 msgstr "Ingen ordbokskälla tillgänglig med namnet ”%s”"
 
-#: ../src/gdict-window.c:465
+#: ../src/gdict-window.c:418
 msgid "Unable to find dictionary source"
 msgstr "Kunde inte hitta ordbokskällan"
 
-#: ../src/gdict-window.c:481
+#: ../src/gdict-window.c:434
 #, c-format
 msgid "No context available for source '%s'"
 msgstr "Inget sammanhang tillgängligt för källan ”%s”"
 
-#: ../src/gdict-window.c:485
+#: ../src/gdict-window.c:438
 msgid "Unable to create a context"
 msgstr "Kunde inte skapa ett sammanhang"
 
-#: ../src/gdict-window.c:544
+#: ../src/gdict-window.c:497
 #, c-format
 msgid "%s - Dictionary"
 msgstr "%s - Ordbok"
 
-#: ../src/gdict-window.c:913
+#: ../src/gdict-window.c:819
 msgid "Save a Copy"
 msgstr "Spara en kopia"
 
-#: ../src/gdict-window.c:917
+#: ../src/gdict-window.c:823
 msgid "_Save"
 msgstr "_Spara"
 
-#: ../src/gdict-window.c:923
+#: ../src/gdict-window.c:829
 msgid "Untitled document"
 msgstr "Namnlöst dokument"
 
-#: ../src/gdict-window.c:944
+#: ../src/gdict-window.c:850
 #, c-format
 msgid "Error while writing to '%s'"
 msgstr "Fel vid skrivning till ”%s”"
 
-#: ../src/gdict-window.c:1368
-#, c-format
-msgid "Dictionary source `%s' selected"
-msgstr "Ordbokskällan ”%s” vald"
-
-#: ../src/gdict-window.c:1389
-#, c-format
-msgid "Strategy `%s' selected"
-msgstr "Strategin ”%s” vald"
-
-#: ../src/gdict-window.c:1409
-#, c-format
-msgid "Database `%s' selected"
-msgstr "Databasen ”%s” vald"
-
-#: ../src/gdict-window.c:1429
-#, c-format
-msgid "Word `%s' selected"
-msgstr "Ordet ”%s” valt"
-
 #. speller
-#: ../src/gdict-window.c:1454
+#: ../src/gdict-window.c:1211
 msgid "Double-click on the word to look up"
 msgstr "Dubbelklicka på ordet att slå upp"
 
 #. strat-chooser
-#: ../src/gdict-window.c:1460
+#: ../src/gdict-window.c:1217
 msgid "Double-click on the matching strategy to use"
 msgstr "Dubbelklicka på matchande strategi att använda"
 
 #. source-chooser
-#: ../src/gdict-window.c:1465
+#: ../src/gdict-window.c:1222
 msgid "Double-click on the source to use"
 msgstr "Dubbelklicka på källan att använda"
 
-#. db-chooser
-#: ../src/gdict-window.c:1474
-msgid "Double-click on the database to use"
-msgstr "Dubbelklicka på databasen att använda"
-
-#: ../src/gdict-window.c:1622
-msgid "Look _up"
-msgstr "Slå _upp"
-
-#: ../src/gdict-window.c:1696
+#: ../src/gdict-window.c:1428
 msgid "Similar words"
 msgstr "Liknande ord"
 
-#: ../src/gdict-window.c:1709
-msgid "Available dictionaries"
-msgstr "Tillgängliga ordböcker"
-
-#: ../src/gdict-window.c:1727
+#: ../src/gdict-window.c:1459
 msgid "Available strategies"
 msgstr "Tillgängliga strategier"
 
-#: ../src/gdict-window.c:1743
+#: ../src/gdict-window.c:1475
 msgid "Dictionary sources"
 msgstr "Ordbokskällor"
+
+#~ msgid "_File"
+#~ msgstr "_Arkiv"
+
+#~ msgid "_New"
+#~ msgstr "_Ny"
+
+#~ msgid "_Copy"
+#~ msgstr "_Kopiera"
+
+#~ msgid "Select _All"
+#~ msgstr "Markera _alla"
+
+#~ msgid "Find Ne_xt"
+#~ msgstr "Sök _nästa"
+
+#~ msgid "Find Pre_vious"
+#~ msgstr "Sök _föregående"
+
+#~ msgid "S_tatusbar"
+#~ msgstr "S_tatusrad"
+
+#~ msgid "Not found"
+#~ msgstr "Hittades inte"
+
+#~ msgid "F_ind:"
+#~ msgstr "Sö_k:"
+
+#~ msgid "_Previous"
+#~ msgstr "_Föregående"
+
+#~ msgid "_Next"
+#~ msgstr "_Nästa"
+
+#~ msgid "Searching for '%s'..."
+#~ msgstr "Söker efter ”%s”…"
+
+#~ msgid "No definitions found"
+#~ msgstr "Inga definitioner hittades"
+
+#~ msgid "A definition found"
+#~ msgid_plural "%d definitions found"
+#~ msgstr[0] "En definition hittades"
+#~ msgstr[1] "%d definitioner hittades"
+
+#~ msgid "Dictionary source `%s' selected"
+#~ msgstr "Ordbokskällan ”%s” vald"
+
+#~ msgid "Strategy `%s' selected"
+#~ msgstr "Strategin ”%s” vald"
+
+#~ msgid "Database `%s' selected"
+#~ msgstr "Databasen ”%s” vald"
+
+#~ msgid "Word `%s' selected"
+#~ msgstr "Ordet ”%s” valt"
+
+#~ msgid "Double-click on the database to use"
+#~ msgstr "Dubbelklicka på databasen att använda"
+
+#~ msgid "Look _up"
+#~ msgstr "Slå _upp"
+
+#~ msgid "Available dictionaries"
+#~ msgstr "Tillgängliga ordböcker"
