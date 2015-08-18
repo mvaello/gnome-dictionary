@@ -1,6 +1,6 @@
 dnl -*- mode: m4 -*-
 AC_PREREQ(2.63)
-AC_INIT([gnome-dictionary], [3.17.4],
+AC_INIT([gnome-dictionary], [3.17.90],
 	[http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-dictionary],
 	[gnome-dictionary],
 	[http://live.gnome.org/GnomeUtils])
@@ -45,7 +45,7 @@ AC_SUBST(GLIB_COMPILE_RESOURCES)
 # - If binary compatibility has been broken (eg removed or changed interfaces)
 #   change to C+1:0:0
 # - If the interface is the same as the previous version, change to C:R+1:A
-LIBGDICT_LT_VERSION=8:0:0
+LIBGDICT_LT_VERSION=9:0:0
 AC_SUBST(LIBGDICT_LT_VERSION)
 
 LT_PREREQ([2.2.6])
