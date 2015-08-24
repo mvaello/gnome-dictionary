@@ -22,8 +22,8 @@ msgstr ""
 "Project-Id-Version: gnome-dictionary master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "dictionary&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2015-02-23 19:40+0000\n"
-"PO-Revision-Date: 2015-02-23 22:18+0100\n"
+"POT-Creation-Date: 2015-08-24 07:03+0000\n"
+"PO-Revision-Date: 2015-08-24 18:27+0200\n"
 "Last-Translator: Claude Paroz <claude@2xlibre.net>\n"
 "Language-Team: GNOME French Team <gnomefr@traduc.org>\n"
 "Language: fr\n"
@@ -49,167 +49,152 @@ msgstr ""
 "choisir une autre langue ou d'ajouter d'autres dictionnaires en ligne se "
 "conformant au protocole DICT afin de répondre à vos propres besoins."
 
-#: ../data/gnome-dictionary-menus.ui.h:1
+#: ../src/gdict-app-menus.ui.h:1
+msgid "_New Window"
+msgstr "_Nouvelle fenêtre"
+
+#: ../src/gdict-app-menus.ui.h:2
 msgid "Preferences"
 msgstr "Préférences"
 
-#: ../data/gnome-dictionary-menus.ui.h:2
+#: ../src/gdict-app-menus.ui.h:3
 msgid "Help"
 msgstr "Aide"
 
-#: ../data/gnome-dictionary-menus.ui.h:3
+#: ../src/gdict-app-menus.ui.h:4
 msgid "About"
 msgstr "À propos"
 
-#: ../data/gnome-dictionary-menus.ui.h:4
+#: ../src/gdict-app-menus.ui.h:5
 msgid "Quit"
 msgstr "Quitter"
 
-#: ../data/gnome-dictionary-menus.ui.h:5
-msgid "_File"
-msgstr "_Fichier"
-
-#: ../data/gnome-dictionary-menus.ui.h:6
-msgid "_New"
-msgstr "_Nouveau"
-
-#: ../data/gnome-dictionary-menus.ui.h:7
+#: ../src/gdict-app-menus.ui.h:6
 msgid "_Save a Copy..."
 msgstr "_Enregistrer une copie..."
 
-#: ../data/gnome-dictionary-menus.ui.h:8
+#: ../src/gdict-app-menus.ui.h:7
 msgid "P_review"
 msgstr "A_perçu"
 
-#: ../data/gnome-dictionary-menus.ui.h:9
+#: ../src/gdict-app-menus.ui.h:8
 msgid "_Print"
 msgstr "_Imprimer"
 
-#. we just allow closing the dialog
-#: ../data/gnome-dictionary-menus.ui.h:10 ../src/gdict-source-dialog.c:637
-#: ../src/gdict-source-dialog.c:649
-msgid "_Close"
-msgstr "_Fermer"
-
-#: ../data/gnome-dictionary-menus.ui.h:11
-msgid "_Edit"
-msgstr "É_dition"
-
-#: ../data/gnome-dictionary-menus.ui.h:12
-msgid "_Copy"
-msgstr "Co_pier"
-
-#: ../data/gnome-dictionary-menus.ui.h:13
-msgid "Select _All"
-msgstr "_Tout sélectionner"
-
-#: ../data/gnome-dictionary-menus.ui.h:14
+#: ../src/gdict-app-menus.ui.h:9
 msgid "_Find"
 msgstr "Re_chercher"
 
-#: ../data/gnome-dictionary-menus.ui.h:15
-msgid "Find Ne_xt"
-msgstr "Rechercher le _suivant"
-
-#: ../data/gnome-dictionary-menus.ui.h:16
-msgid "Find Pre_vious"
-msgstr "Rechercher le _précédent"
-
-#: ../data/gnome-dictionary-menus.ui.h:17
+#: ../src/gdict-app-menus.ui.h:10
 msgid "_View"
 msgstr "_Affichage"
 
-#: ../data/gnome-dictionary-menus.ui.h:18
+#: ../src/gdict-app-menus.ui.h:11
 msgid "_Sidebar"
 msgstr "Barre _latérale"
 
-#: ../data/gnome-dictionary-menus.ui.h:19
-msgid "S_tatusbar"
-msgstr "Barre d'é_tat"
-
-#: ../data/gnome-dictionary-menus.ui.h:20
+#: ../src/gdict-app-menus.ui.h:12
 msgid "Similar _Words"
 msgstr "Mots _similaires"
 
-#: ../data/gnome-dictionary-menus.ui.h:21
+#: ../src/gdict-app-menus.ui.h:13
 msgid "Dictionary Sources"
 msgstr "Sources de Dictionnaire"
 
-#: ../data/gnome-dictionary-menus.ui.h:22
+#: ../src/gdict-app-menus.ui.h:14
 msgid "Available _Dictionaries"
 msgstr "_Dictionnaires disponibles"
 
-#: ../data/gnome-dictionary-menus.ui.h:23
+#: ../src/gdict-app-menus.ui.h:15
 msgid "Available St_rategies"
 msgstr "St_ratégies disponibles"
 
-#: ../data/gnome-dictionary-menus.ui.h:24
+#: ../src/gdict-app-menus.ui.h:16
 msgid "_Go"
 msgstr "A_ller à"
 
-#: ../data/gnome-dictionary-menus.ui.h:25
+#: ../src/gdict-app-menus.ui.h:17
 msgid "_Previous Definition"
 msgstr "Définition _précédente"
 
-#: ../data/gnome-dictionary-menus.ui.h:26
+#: ../src/gdict-app-menus.ui.h:18
 msgid "_Next Definition"
 msgstr "Définition _suivante"
 
-#: ../data/gnome-dictionary-menus.ui.h:27
+#: ../src/gdict-app-menus.ui.h:19
 msgid "_First Definition"
 msgstr "_Première définition"
 
-#: ../data/gnome-dictionary-menus.ui.h:28
+#: ../src/gdict-app-menus.ui.h:20
 msgid "_Last Definition"
 msgstr "_Dernière définition"
 
-#: ../data/gnome-dictionary-preferences.ui.h:1
+#: ../src/gdict-pref-dialog.ui.h:1
 msgid "_Select a dictionary source for looking up words:"
 msgstr "_Sélectionnez une source de dictionnaires pour rechercher des mots :"
 
-#: ../data/gnome-dictionary-preferences.ui.h:2
-#: ../data/gnome-dictionary-source.ui.h:6
+#: ../src/gdict-pref-dialog.ui.h:2
+msgid "Add a new dictionary source"
+msgstr "Ajoute une nouvelle source de dictionnaires"
+
+#: ../src/gdict-pref-dialog.ui.h:3
+msgid "Remove the currently selected dictionary source"
+msgstr "Retire la source de dictionnaires sélectionnée"
+
+#: ../src/gdict-pref-dialog.ui.h:4
+msgid "Edit"
+msgstr "Édition"
+
+#: ../src/gdict-pref-dialog.ui.h:5
+msgid "Edit the currently selected dictionary source"
+msgstr "Modifie la source de dictionnaires sélectionnée"
+
+#: ../src/gdict-pref-dialog.ui.h:6 ../src/gdict-source-dialog.ui.h:6
 msgid "Source"
 msgstr "Source"
 
-#: ../data/gnome-dictionary-preferences.ui.h:3
+#: ../src/gdict-pref-dialog.ui.h:7
 msgid "_Print font:"
 msgstr "_Police d'impression :"
 
-#: ../data/gnome-dictionary-preferences.ui.h:4
+#: ../src/gdict-pref-dialog.ui.h:8
+msgid "Set the font used for printing the definitions"
+msgstr "Configure la police utilisée pour l'affichage des définitions"
+
+#: ../src/gdict-pref-dialog.ui.h:9
 msgid "Print"
 msgstr "Imprimer"
 
-#: ../data/gnome-dictionary-source.ui.h:1
+#: ../src/gdict-source-dialog.ui.h:1
 msgid "_Description:"
 msgstr "_Description :"
 
-#: ../data/gnome-dictionary-source.ui.h:2
+#: ../src/gdict-source-dialog.ui.h:2
 msgid "_Transport:"
 msgstr "_Transport :"
 
-#: ../data/gnome-dictionary-source.ui.h:3
+#: ../src/gdict-source-dialog.ui.h:3
 msgid "H_ostname:"
 msgstr "Nom d'_hôte :"
 
-#: ../data/gnome-dictionary-source.ui.h:4
+#: ../src/gdict-source-dialog.ui.h:4
 msgid "_Port:"
 msgstr "_Port :"
 
-#: ../data/gnome-dictionary-source.ui.h:5
+#: ../src/gdict-source-dialog.ui.h:5
 msgid "Source Name"
 msgstr "Nom de la source"
 
-#: ../data/gnome-dictionary-source.ui.h:7
+#: ../src/gdict-source-dialog.ui.h:7
 msgid "Dictionaries"
 msgstr "Dictionnaires"
 
-#: ../data/gnome-dictionary-source.ui.h:8
+#: ../src/gdict-source-dialog.ui.h:8
 msgid "Strategies"
 msgstr "Stratégies"
 
 #: ../data/org.gnome.Dictionary.desktop.in.in.h:1 ../src/gdict-about.c:60
-#: ../src/gdict-window.c:546 ../src/gdict-window.c:1811
+#: ../src/gdict-window.c:499 ../src/gdict-window.c:1531
 msgid "Dictionary"
 msgstr "Dictionnaire"
 
@@ -223,11 +208,11 @@ msgstr ""
 msgid "word;synonym;definition;spelling;"
 msgstr "mot;synonyme;définition;orthographe;"
 
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:1
+#: ../data/org.gnome.dictionary.gschema.xml.h:1
 msgid "The default database to use"
 msgstr "La base de données à utiliser par défaut"
 
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:2
+#: ../data/org.gnome.dictionary.gschema.xml.h:2
 msgid ""
 "The name of the default individual database or meta-database to use on a "
 "dictionary source. An exclamation mark (\"!\") means that all the databases "
@@ -238,11 +223,11 @@ msgstr ""
 "indique que gnome-dictionary doit rechercher dans toutes les bases de "
 "données sur un serveur donné"
 
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:3
+#: ../data/org.gnome.dictionary.gschema.xml.h:3
 msgid "The default search strategy to use"
 msgstr "La stratégie de recherche à utiliser par défaut"
 
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:4
+#: ../data/org.gnome.dictionary.gschema.xml.h:4
 msgid ""
 "The name of the default search strategy to use on a dictionary source, if "
 "available. The default strategy is 'exact', that is match exact words."
@@ -251,19 +236,19 @@ msgstr ""
 "une source de dictionnaires. La stratégie par défaut est « exact », ce qui "
 "signifie une correspondance exacte entre les mots."
 
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:5
+#: ../data/org.gnome.dictionary.gschema.xml.h:5
 msgid "The font to be used when printing"
 msgstr "La police utilisée lors de l'impression"
 
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:6
+#: ../data/org.gnome.dictionary.gschema.xml.h:6
 msgid "The font to be used when printing a definition."
 msgstr "La police utilisée lors de l'impression d'une définition."
 
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:7
+#: ../data/org.gnome.dictionary.gschema.xml.h:7
 msgid "The name of the dictionary source used"
 msgstr "Le nom de la source de dictionnaires à utiliser"
 
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:8
+#: ../data/org.gnome.dictionary.gschema.xml.h:8
 msgid ""
 "The name of the dictionary source used to retrieve the definitions of words."
 msgstr ""
@@ -385,12 +370,12 @@ msgstr "Aucune base de données trouvée sur le serveur de dictionnaires « %s�
 msgid "No strategies found on dictionary server at '%s'"
 msgstr "Aucune stratégie trouvée pour le serveur de dictionnaires « %s »"
 
-#: ../libgdict/gdict-client-context.c:1738
+#: ../libgdict/gdict-client-context.c:1745
 #, c-format
 msgid "Connection failed to the dictionary server at %s:%d"
 msgstr "La connexion au serveur de dictionnaires %s:%d a échoué"
 
-#: ../libgdict/gdict-client-context.c:1777
+#: ../libgdict/gdict-client-context.c:1784
 #, c-format
 msgid ""
 "Error while reading reply from server:\n"
@@ -399,84 +384,67 @@ msgstr ""
 "Erreur lors de la lecture de la réponse du serveur :\n"
 "%s"
 
-#: ../libgdict/gdict-client-context.c:1850
+#: ../libgdict/gdict-client-context.c:1857
 #, c-format
 msgid "Connection timeout for the dictionary server at '%s:%d'"
 msgstr "Expiration de la connexion au serveur de dictionnaires « %s:%d »"
 
-#: ../libgdict/gdict-client-context.c:1884
+#: ../libgdict/gdict-client-context.c:1891
 #, c-format
 msgid "No hostname defined for the dictionary server"
 msgstr "Aucun nom d'hôte défini pour le serveur de dictionnaire"
 
-#: ../libgdict/gdict-client-context.c:1920
-#: ../libgdict/gdict-client-context.c:1935
+#: ../libgdict/gdict-client-context.c:1927
+#: ../libgdict/gdict-client-context.c:1942
 #, c-format
 msgid "Unable to create socket"
 msgstr "Impossible de créer un connecteur réseau"
 
-#: ../libgdict/gdict-client-context.c:1961
+#: ../libgdict/gdict-client-context.c:1968
 #, c-format
 msgid "Unable to set the channel as non-blocking: %s"
 msgstr "Impossible de définir le canal comme non-bloquant : %s"
 
-#: ../libgdict/gdict-client-context.c:1976
+#: ../libgdict/gdict-client-context.c:1983
 #, c-format
 msgid "Unable to connect to the dictionary server at '%s:%d'"
 msgstr "Impossible de se connecter au serveur de dictionnaires « %s:%d »"
 
-#: ../libgdict/gdict-context.c:217
+#: ../libgdict/gdict-context.c:289
 msgid "Local Only"
 msgstr "En local seulement"
 
-#: ../libgdict/gdict-context.c:218
+#: ../libgdict/gdict-context.c:290
 msgid "Whether the context uses only local dictionaries or not"
 msgstr ""
 "Indique si le contexte utilise uniquement des dictionnaires locaux ou non"
 
-#: ../libgdict/gdict-database-chooser.c:373
+#: ../libgdict/gdict-database-chooser.c:398
 msgid "Reload the list of available databases"
 msgstr "Recharger la liste des bases de données disponibles"
 
-#: ../libgdict/gdict-database-chooser.c:385
+#: ../libgdict/gdict-database-chooser.c:410
 msgid "Clear the list of available databases"
 msgstr "Vider la liste des bases de données disponibles"
 
-#: ../libgdict/gdict-database-chooser.c:836 ../libgdict/gdict-speller.c:767
+#: ../libgdict/gdict-database-chooser.c:905 ../libgdict/gdict-speller.c:767
 #: ../libgdict/gdict-strategy-chooser.c:775
 msgid "Error while matching"
 msgstr "Erreur lors de la recherche"
 
-#: ../libgdict/gdict-defbox.c:1109 ../libgdict/gdict-defbox.c:1203
-#: ../libgdict/gdict-defbox.c:1237
-msgid "Not found"
-msgstr "Non trouvé"
-
-#: ../libgdict/gdict-defbox.c:1297
-msgid "F_ind:"
-msgstr "Re_chercher :"
-
-#: ../libgdict/gdict-defbox.c:1310
-msgid "_Previous"
-msgstr "_Précédent"
-
-#: ../libgdict/gdict-defbox.c:1317
-msgid "_Next"
-msgstr "_Suivant"
-
-#: ../libgdict/gdict-defbox.c:2461
+#: ../libgdict/gdict-defbox.c:2390
 msgid "Error while looking up definition"
 msgstr "Erreur lors de la recherche de la définition"
 
-#: ../libgdict/gdict-defbox.c:2503 ../libgdict/gdict-speller.c:725
+#: ../libgdict/gdict-defbox.c:2432 ../libgdict/gdict-speller.c:725
 msgid "Another search is in progress"
 msgstr "Une autre recherche est en cours"
 
-#: ../libgdict/gdict-defbox.c:2504 ../libgdict/gdict-speller.c:726
+#: ../libgdict/gdict-defbox.c:2433 ../libgdict/gdict-speller.c:726
 msgid "Please wait until the current search ends."
 msgstr "Veuillez patienter jusqu'à la fin des recherches en cours."
 
-#: ../libgdict/gdict-defbox.c:2543
+#: ../libgdict/gdict-defbox.c:2472
 msgid "Error while retrieving the definition"
 msgstr "Erreur lors de la récupération de la définition"
 
@@ -638,11 +606,11 @@ msgstr "INDICATEURS"
 msgid "GDict debugging flags to unset"
 msgstr "Indicateurs de débogage GDict à désactiver"
 
-#: ../libgdict/gdict-utils.c:156
+#: ../libgdict/gdict-utils.c:157
 msgid "GDict Options"
 msgstr "Options de GDict"
 
-#: ../libgdict/gdict-utils.c:157
+#: ../libgdict/gdict-utils.c:158
 msgid "Show GDict Options"
 msgstr "Affiche les options de GDict"
 
@@ -661,240 +629,247 @@ msgstr ""
 msgid "Look up words in dictionaries"
 msgstr "Recherche les mots dans les dictionnaires"
 
-#: ../src/gdict-app.c:53 ../src/gdict-app.c:82
+#: ../src/gdict-app.c:46 ../src/gdict-app.c:75
 msgid "Words to look up"
 msgstr "Mots à rechercher"
 
-#: ../src/gdict-app.c:53 ../src/gdict-app.c:59
+#: ../src/gdict-app.c:46 ../src/gdict-app.c:52
 msgid "WORD"
 msgstr "MOT"
 
-#: ../src/gdict-app.c:59
+#: ../src/gdict-app.c:52
 msgid "Words to match"
 msgstr "Mots a rechercher"
 
-#: ../src/gdict-app.c:65
+#: ../src/gdict-app.c:58
 msgid "Dictionary source to use"
 msgstr "Source de Dictionnaire à utiliser"
 
-#: ../src/gdict-app.c:65 ../src/gdict-app.c:71 ../src/gdict-app.c:77
+#: ../src/gdict-app.c:58 ../src/gdict-app.c:64 ../src/gdict-app.c:70
 msgid "NAME"
 msgstr "NOM"
 
-#: ../src/gdict-app.c:71
+#: ../src/gdict-app.c:64
 msgid "Database to use"
 msgstr "Base de données à utiliser"
 
-#: ../src/gdict-app.c:77
+#: ../src/gdict-app.c:70
 msgid "Strategy to use"
 msgstr "Stratégie à utiliser"
 
-#: ../src/gdict-app.c:82
+#: ../src/gdict-app.c:75
 msgid "WORDS"
 msgstr "MOTS"
 
-#: ../src/gdict-app.c:99
+#: ../src/gdict-app.c:107
 msgid "Dictionary Preferences"
 msgstr "Préférences de Dictionnaire"
 
-#: ../src/gdict-app.c:121 ../src/gdict-pref-dialog.c:521
-#: ../src/gdict-source-dialog.c:479
+#: ../src/gdict-app.c:129 ../src/gdict-pref-dialog.c:511
+#: ../src/gdict-source-dialog.c:452
 #, c-format
 msgid "There was an error while displaying help"
 msgstr "Il y a eu une erreur lors de l'affichage de l'aide"
 
-#: ../src/gdict-pref-dialog.c:271
+#: ../src/gdict-pref-dialog.c:264
 msgid "View Dictionary Source"
 msgstr "Afficher la source de dictionnaires"
 
-#: ../src/gdict-pref-dialog.c:338
+#: ../src/gdict-pref-dialog.c:330
 msgid "Add Dictionary Source"
 msgstr "Ajouter une source de Dictionnaire"
 
-#: ../src/gdict-pref-dialog.c:383
+#: ../src/gdict-pref-dialog.c:374
 #, c-format
 msgid "Remove \"%s\"?"
 msgstr "Retirer « %s » ?"
 
-#: ../src/gdict-pref-dialog.c:385
+#: ../src/gdict-pref-dialog.c:376
 msgid "This will permanently remove the dictionary source from the list."
 msgstr "Ceci retirera définitivement la source de dictionnaires de la liste."
 
-#: ../src/gdict-pref-dialog.c:388 ../src/gdict-source-dialog.c:640
-#: ../src/gdict-window.c:916
+#: ../src/gdict-pref-dialog.c:379 ../src/gdict-source-dialog.c:564
+#: ../src/gdict-window.c:822
 msgid "_Cancel"
 msgstr "_Annuler"
 
-#: ../src/gdict-pref-dialog.c:389
+#: ../src/gdict-pref-dialog.c:380
 msgid "_Remove"
 msgstr "_Retirer"
 
-#: ../src/gdict-pref-dialog.c:407
+#: ../src/gdict-pref-dialog.c:398
 #, c-format
 msgid "Unable to remove source '%s'"
 msgstr "Impossible de retirer la source « %s »"
 
-#: ../src/gdict-pref-dialog.c:455
+#: ../src/gdict-pref-dialog.c:445
 msgid "Edit Dictionary Source"
 msgstr "Modifier la source de Dictionnaire"
 
-#: ../src/gdict-pref-dialog.c:668
-msgid "Add a new dictionary source"
-msgstr "Ajoute une nouvelle source de dictionnaires"
+#. add buttons
+#. The help button is always visible
+#: ../src/gdict-pref-dialog.c:634 ../src/gdict-source-dialog.c:655
+msgid "_Help"
+msgstr "Aid_e"
 
-#: ../src/gdict-pref-dialog.c:674
-msgid "Remove the currently selected dictionary source"
-msgstr "Retire la source de dictionnaires sélectionnée"
-
-#: ../src/gdict-pref-dialog.c:680
-msgid "Edit the currently selected dictionary source"
-msgstr "Modifie la source de dictionnaires sélectionnée"
-
-#: ../src/gdict-pref-dialog.c:688
-msgid "Set the font used for printing the definitions"
-msgstr "Configure la police utilisée pour l'affichage des définitions"
+#. we just allow closing the dialog
+#: ../src/gdict-pref-dialog.c:635 ../src/gdict-source-dialog.c:560
+#: ../src/gdict-source-dialog.c:574
+msgid "_Close"
+msgstr "_Fermer"
 
 #: ../src/gdict-print.c:239 ../src/gdict-print.c:303
 #, c-format
 msgid "Unable to display the preview: %s"
 msgstr "Impossible d'afficher l'aperçu : %s"
 
-#: ../src/gdict-source-dialog.c:340 ../src/gdict-source-dialog.c:432
+#: ../src/gdict-source-dialog.c:316 ../src/gdict-source-dialog.c:404
 msgid "Unable to create a source file"
 msgstr "Impossible de créer un fichier source"
 
-#: ../src/gdict-source-dialog.c:356 ../src/gdict-source-dialog.c:452
+#: ../src/gdict-source-dialog.c:332 ../src/gdict-source-dialog.c:424
 msgid "Unable to save source file"
 msgstr "Impossible d'enregistrer un fichier source"
 
-#. the help button is always visible
-#: ../src/gdict-source-dialog.c:611
-msgid "_Help"
-msgstr "Aid_e"
-
-#: ../src/gdict-source-dialog.c:641
+#: ../src/gdict-source-dialog.c:565
 msgid "_Add"
 msgstr "_Ajouter"
 
-#: ../src/gdict-source-dialog.c:648
+#: ../src/gdict-source-dialog.c:573
 msgid "C_ancel"
 msgstr "Ann_uler"
 
-#: ../src/gdict-window.c:256
-#, c-format
-msgid "Searching for '%s'..."
-msgstr "Recherche de « %s »..."
-
-#: ../src/gdict-window.c:288 ../src/gdict-window.c:345
-msgid "No definitions found"
-msgstr "Aucune définition trouvée"
-
-#: ../src/gdict-window.c:290
-#, c-format
-msgid "A definition found"
-msgid_plural "%d definitions found"
-msgstr[0] "%d définition trouvée"
-msgstr[1] "%d définitions trouvées"
-
-#: ../src/gdict-window.c:461
+#: ../src/gdict-window.c:414
 #, c-format
 msgid "No dictionary source available with name '%s'"
 msgstr "Aucune source de dictionnaires disponible avec le nom « %s »"
 
-#: ../src/gdict-window.c:465
+#: ../src/gdict-window.c:418
 msgid "Unable to find dictionary source"
 msgstr "Impossible de trouver la source de dictionnaires"
 
-#: ../src/gdict-window.c:481
+#: ../src/gdict-window.c:434
 #, c-format
 msgid "No context available for source '%s'"
 msgstr "Aucun contexte disponible pour la source « %s »"
 
-#: ../src/gdict-window.c:485
+#: ../src/gdict-window.c:438
 msgid "Unable to create a context"
 msgstr "Impossible de créer un contexte"
 
-#: ../src/gdict-window.c:544
+#: ../src/gdict-window.c:497
 #, c-format
 msgid "%s - Dictionary"
 msgstr "%s - Dictionnaire"
 
-#: ../src/gdict-window.c:913
+#: ../src/gdict-window.c:819
 msgid "Save a Copy"
 msgstr "Enregistrer une copie"
 
-#: ../src/gdict-window.c:917
+#: ../src/gdict-window.c:823
 msgid "_Save"
 msgstr "_Enregistrer"
 
-#: ../src/gdict-window.c:923
+#: ../src/gdict-window.c:829
 msgid "Untitled document"
 msgstr "Document sans titre"
 
-#: ../src/gdict-window.c:944
+#: ../src/gdict-window.c:850
 #, c-format
 msgid "Error while writing to '%s'"
 msgstr "Erreur lors de l'écriture de « %s »"
 
-#: ../src/gdict-window.c:1368
-#, c-format
-msgid "Dictionary source `%s' selected"
-msgstr "Source de Dictionnaire « %s » sélectionnée"
-
-#: ../src/gdict-window.c:1389
-#, c-format
-msgid "Strategy `%s' selected"
-msgstr "Stratégie « %s » sélectionnée"
-
-#: ../src/gdict-window.c:1409
-#, c-format
-msgid "Database `%s' selected"
-msgstr "Base de données « %s » sélectionnée"
-
-#: ../src/gdict-window.c:1429
-#, c-format
-msgid "Word `%s' selected"
-msgstr "Mot « %s » sélectionné"
-
 #. speller
-#: ../src/gdict-window.c:1454
+#: ../src/gdict-window.c:1211
 msgid "Double-click on the word to look up"
 msgstr "Double-cliquez sur le mot pour le rechercher"
 
 #. strat-chooser
-#: ../src/gdict-window.c:1460
+#: ../src/gdict-window.c:1217
 msgid "Double-click on the matching strategy to use"
 msgstr "Double-cliquez sur la stratégie correspondante pour l'utiliser"
 
 #. source-chooser
-#: ../src/gdict-window.c:1465
+#: ../src/gdict-window.c:1222
 msgid "Double-click on the source to use"
 msgstr "Double-cliquez sur la source à utiliser"
 
-#. db-chooser
-#: ../src/gdict-window.c:1474
-msgid "Double-click on the database to use"
-msgstr "Double-cliquez sur la base de données à utiliser"
-
-#: ../src/gdict-window.c:1622
-msgid "Look _up"
-msgstr "_Rechercher"
-
-#: ../src/gdict-window.c:1696
+#: ../src/gdict-window.c:1428
 msgid "Similar words"
 msgstr "Mots similaires"
 
-#: ../src/gdict-window.c:1709
-msgid "Available dictionaries"
-msgstr "Dictionnaires disponibles"
-
-#: ../src/gdict-window.c:1727
+#: ../src/gdict-window.c:1459
 msgid "Available strategies"
 msgstr "Stratégies disponibles"
 
-#: ../src/gdict-window.c:1743
+#: ../src/gdict-window.c:1475
 msgid "Dictionary sources"
 msgstr "Sources de Dictionnaire"
+
+#~ msgid "_File"
+#~ msgstr "_Fichier"
+
+#~ msgid "_New"
+#~ msgstr "_Nouveau"
+
+#~ msgid "_Copy"
+#~ msgstr "Co_pier"
+
+#~ msgid "Select _All"
+#~ msgstr "_Tout sélectionner"
+
+#~ msgid "Find Ne_xt"
+#~ msgstr "Rechercher le _suivant"
+
+#~ msgid "Find Pre_vious"
+#~ msgstr "Rechercher le _précédent"
+
+#~ msgid "S_tatusbar"
+#~ msgstr "Barre d'é_tat"
+
+#~ msgid "Not found"
+#~ msgstr "Non trouvé"
+
+#~ msgid "F_ind:"
+#~ msgstr "Re_chercher :"
+
+#~ msgid "_Previous"
+#~ msgstr "_Précédent"
+
+#~ msgid "_Next"
+#~ msgstr "_Suivant"
+
+#~ msgid "Searching for '%s'..."
+#~ msgstr "Recherche de « %s »..."
+
+#~ msgid "No definitions found"
+#~ msgstr "Aucune définition trouvée"
+
+#~ msgid "A definition found"
+#~ msgid_plural "%d definitions found"
+#~ msgstr[0] "%d définition trouvée"
+#~ msgstr[1] "%d définitions trouvées"
+
+#~ msgid "Dictionary source `%s' selected"
+#~ msgstr "Source de Dictionnaire « %s » sélectionnée"
+
+#~ msgid "Strategy `%s' selected"
+#~ msgstr "Stratégie « %s » sélectionnée"
+
+#~ msgid "Database `%s' selected"
+#~ msgstr "Base de données « %s » sélectionnée"
+
+#~ msgid "Word `%s' selected"
+#~ msgstr "Mot « %s » sélectionné"
+
+#~ msgid "Double-click on the database to use"
+#~ msgstr "Double-cliquez sur la base de données à utiliser"
+
+#~ msgid "Look _up"
+#~ msgstr "_Rechercher"
+
+#~ msgid "Available dictionaries"
+#~ msgstr "Dictionnaires disponibles"
 
 #~ msgid " - Look up words in dictionaries"
 #~ msgstr " - Recherche des mots dans des dictionnaires"
