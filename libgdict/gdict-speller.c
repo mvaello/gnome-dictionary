@@ -359,22 +359,22 @@ gdict_speller_class_init (GdictSpellerClass *klass)
   g_object_class_install_property (gobject_class,
   				   PROP_CONTEXT,
   				   g_param_spec_object ("context",
-  				   			_("Context"),
-  				   			_("The GdictContext object used to get the word definition"),
+                                                        "Context",
+                                                        "The GdictContext object used to get the word definition",
   				   			GDICT_TYPE_CONTEXT,
   				   			(G_PARAM_READABLE | G_PARAM_WRITABLE | G_PARAM_CONSTRUCT)));
   g_object_class_install_property (gobject_class,
 		  		   PROP_DATABASE,
 				   g_param_spec_string ("database",
-					   		_("Database"),
-							_("The database used to query the GdictContext"),
+                                                        "Database",
+                                                        "The database used to query the GdictContext",
 							GDICT_DEFAULT_DATABASE,
 							(G_PARAM_READABLE | G_PARAM_WRITABLE)));
   g_object_class_install_property (gobject_class,
 		  		   PROP_DATABASE,
 				   g_param_spec_string ("strategy",
-					   		_("Strategy"),
-							_("The strategy used to query the GdictContext"),
+                                                        "Strategy",
+                                                        "The strategy used to query the GdictContext",
 							GDICT_DEFAULT_STRATEGY,
 							(G_PARAM_READABLE | G_PARAM_WRITABLE)));
 

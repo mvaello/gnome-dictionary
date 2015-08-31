@@ -286,8 +286,8 @@ gdict_context_class_init (gpointer g_iface)
    */
   g_object_interface_install_property (g_iface,
   				       g_param_spec_boolean ("local-only",
-  				       			     _("Local Only"),
-  				       			     _("Whether the context uses only local dictionaries or not"),
+                                                             "Local Only",
+                                                             "Whether the context uses only local dictionaries or not",
   				       			     FALSE,
   				       			     (G_PARAM_READABLE | G_PARAM_WRITABLE)));
 }

@@ -279,8 +279,8 @@ gdict_client_context_class_init (GdictClientContextClass *klass)
   g_object_class_install_property (gobject_class,
   				   PROP_CLIENT_NAME,
   				   g_param_spec_string ("client-name",
-  				   			_("Client Name"),
-  				   			_("The name of the client of the context object"),
+                                                        "Client Name",
+                                                        "The name of the client of the context object",
   				   			NULL,
   				   			(G_PARAM_READABLE | G_PARAM_WRITABLE)));
   /**
@@ -293,8 +293,8 @@ gdict_client_context_class_init (GdictClientContextClass *klass)
   g_object_class_install_property (gobject_class,
   				   PROP_HOSTNAME,
   				   g_param_spec_string ("hostname",
-  				   			_("Hostname"),
-  				   			_("The hostname of the dictionary server to connect to"),
+                                                        "Hostname",
+                                                        "The hostname of the dictionary server to connect to",
   				   			NULL,
   				   			(G_PARAM_READABLE | G_PARAM_WRITABLE)));
   /**
@@ -307,8 +307,8 @@ gdict_client_context_class_init (GdictClientContextClass *klass)
   g_object_class_install_property (gobject_class,
   				   PROP_PORT,
   				   g_param_spec_uint ("port",
-  				   		      _("Port"),
-  				   		      _("The port of the dictionary server to connect to"),
+                                                      "Port",
+                                                      "The port of the dictionary server to connect to",
   				   		      0,
   				   		      65535,
   				   		      GDICT_DEFAULT_PORT,
@@ -323,8 +323,8 @@ gdict_client_context_class_init (GdictClientContextClass *klass)
   g_object_class_install_property (gobject_class,
   				   PROP_STATUS,
   				   g_param_spec_enum ("status",
-  				   		      _("Status"),
-  				   		      _("The status code as returned by the dictionary server"),
+                                                      "Status",
+                                                      "The status code as returned by the dictionary server",
   				   		      GDICT_TYPE_STATUS_CODE,
   				   		      GDICT_STATUS_INVALID,
   				   		      G_PARAM_READABLE));

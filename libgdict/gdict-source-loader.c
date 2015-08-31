@@ -167,8 +167,8 @@ gdict_source_loader_class_init (GdictSourceLoaderClass *klass)
   g_object_class_install_property (gobject_class,
   				   PROP_PATHS,
   				   g_param_spec_pointer ("paths",
-  				   			 _("Paths"),
-  				   			 _("Search paths used by this object"),
+                                                         "Paths",
+                                                         "Search paths used by this object",
   				   			 G_PARAM_READABLE));
   /**
    * GdictSourceLoader:sources
@@ -180,8 +180,8 @@ gdict_source_loader_class_init (GdictSourceLoaderClass *klass)
   g_object_class_install_property (gobject_class,
   				   PROP_SOURCES,
   				   g_param_spec_pointer ("sources",
-  				   			 _("Sources"),
-  				   			 _("Dictionary sources found"),
+                                                         "Sources",
+                                                         "Dictionary sources found",
   				   			 G_PARAM_READABLE));
   
   /**

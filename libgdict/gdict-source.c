@@ -234,8 +234,8 @@ gdict_source_class_init (GdictSourceClass *klass)
   g_object_class_install_property (gobject_class,
   				   PROP_FILENAME,
   				   g_param_spec_string ("filename",
-  				   			_("Filename"),
-  				   			_("The filename used by this dictionary source"),
+                                                        "Filename",
+                                                        "The filename used by this dictionary source",
   				   			NULL,
   				   			G_PARAM_READABLE));
   /**
@@ -248,8 +248,8 @@ gdict_source_class_init (GdictSourceClass *klass)
   g_object_class_install_property (gobject_class,
   				   PROP_NAME,
   				   g_param_spec_string ("name",
-  				   			_("Name"),
-  				   			_("The display name of this dictionary source"),
+                                                        "Name",
+                                                        "The display name of this dictionary source",
   				   			NULL,
   				   			(G_PARAM_READABLE | G_PARAM_WRITABLE)));
   /**
@@ -262,8 +262,8 @@ gdict_source_class_init (GdictSourceClass *klass)
   g_object_class_install_property (gobject_class,
   				   PROP_DESCRIPTION,
   				   g_param_spec_string ("description",
-  				   			_("Description"),
-  				   			_("The description of this dictionary source"),
+                                                        "Description",
+                                                        "The description of this dictionary source",
   				   			NULL,
   				   			(G_PARAM_READABLE | G_PARAM_WRITABLE)));
   /**
@@ -276,8 +276,8 @@ gdict_source_class_init (GdictSourceClass *klass)
   g_object_class_install_property (gobject_class,
   				   PROP_EDITABLE,
   				   g_param_spec_boolean ("editable",
-  				   			 _("Editable"),
-  				   			 _("Whether the dictionary source is editable or not"),
+                                                         "Editable",
+                                                         "Whether the dictionary source is editable or not",
   				   			 TRUE,
   				   			 (G_PARAM_STATIC_STRINGS | G_PARAM_READABLE)));
   /**
@@ -290,8 +290,8 @@ gdict_source_class_init (GdictSourceClass *klass)
   g_object_class_install_property (gobject_class,
   				   PROP_DATABASE,
   				   g_param_spec_string ("database",
-  				   			_("Database"),
-  				   			_("The default database of this dictionary source"),
+                                                        "Database",
+                                                        "The default database of this dictionary source",
   				   			NULL,
   				   			(G_PARAM_READABLE | G_PARAM_WRITABLE)));
   /**
@@ -304,8 +304,8 @@ gdict_source_class_init (GdictSourceClass *klass)
   g_object_class_install_property (gobject_class,
   				   PROP_STRATEGY,
   				   g_param_spec_string ("strategy",
-  				   			_("Strategy"),
-  				   			_("The default strategy of this dictionary source"),
+                                                        "Strategy",
+                                                        "The default strategy of this dictionary source",
   				   			NULL,
   				   			(G_PARAM_READABLE | G_PARAM_WRITABLE)));
   /**
@@ -318,8 +318,8 @@ gdict_source_class_init (GdictSourceClass *klass)
   g_object_class_install_property (gobject_class,
   				   PROP_TRANSPORT,
   				   g_param_spec_enum ("transport",
-  				   		      _("Transport"),
-  				   		      _("The transport mechanism used by this dictionary source"),
+                                                      "Transport",
+                                                      "The transport mechanism used by this dictionary source",
   				   		      GDICT_TYPE_SOURCE_TRANSPORT,
   				   		      GDICT_SOURCE_TRANSPORT_INVALID,
   				   		      (G_PARAM_READABLE | G_PARAM_WRITABLE)));
@@ -333,8 +333,8 @@ gdict_source_class_init (GdictSourceClass *klass)
   g_object_class_install_property (gobject_class,
   				   PROP_CONTEXT,
   				   g_param_spec_object ("context",
-  				   			_("Context"),
-  				   			_("The GdictContext bound to this source"),
+                                                        "Context",
+                                                        "The GdictContext bound to this source",
   				   			GDICT_TYPE_CONTEXT,
   				   			G_PARAM_READABLE));
   
