@@ -6,17 +6,17 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-dictionary.master\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-di"
-"ctionary&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2015-03-25 07:48+0000\n"
-"PO-Revision-Date: 2015-04-20 15:33+0000\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
+"dictionary&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2015-09-02 07:01+0000\n"
+"PO-Revision-Date: 2015-09-04 11:52+0000\n"
 "Last-Translator: Sveinn í Felli <sv1@fellsnet.is>\n"
 "Language-Team: Icelandic <translation-team-is@lists.sourceforge.net>\n"
 "Language: is\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n%10!=1 || n%100==11);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Lokalize 1.5\n"
 
 #: ../data/default.desktop.in.h:1
@@ -40,9 +40,8 @@ msgid "Help"
 msgstr "Hjálp"
 
 #: ../src/gnome-dictionary-menus.ui.h:3
-#, fuzzy
 msgid "About"
-msgstr "Um"
+msgstr "Um hugbúnaðinn"
 
 #: ../src/gnome-dictionary-menus.ui.h:4
 msgid "Quit"
@@ -124,7 +123,7 @@ msgstr "Tiltæk orðasöfn"
 
 #: ../src/gnome-dictionary-menus.ui.h:23
 msgid "Available St_rategies"
-msgstr ""
+msgstr "Tiltæka_r stefnumarkanir"
 
 #: ../src/gnome-dictionary-menus.ui.h:24
 msgid "_Go"
@@ -157,7 +156,7 @@ msgstr "Heimild"
 
 #: ../src/gnome-dictionary-preferences.ui.h:3
 msgid "_Print font:"
-msgstr ""
+msgstr "_Prentletur:"
 
 #: ../src/gnome-dictionary-preferences.ui.h:4
 msgid "Print"
@@ -189,10 +188,10 @@ msgstr "Orðasöfn"
 
 #: ../src/gnome-dictionary-source.ui.h:8
 msgid "Strategies"
-msgstr ""
+msgstr "Stefnumarkanir"
 
 #: ../data/org.gnome.Dictionary.desktop.in.in.h:1 ../src/gdict-about.c:60
-#: ../src/gdict-window.c:546 ../src/gdict-window.c:1811
+#: ../src/gdict-window.c:551 ../src/gdict-window.c:1830
 msgid "Dictionary"
 msgstr "Orðasafn"
 
@@ -204,40 +203,40 @@ msgstr "Fletta upp orðum og stafsetningu í orðasöfnum á netinu"
 msgid "word;synonym;definition;spelling;"
 msgstr ""
 
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:1
+#: ../data/org.gnome.dictionary.gschema.xml.h:1
 msgid "The default database to use"
 msgstr ""
 
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:2
+#: ../data/org.gnome.dictionary.gschema.xml.h:2
 msgid ""
 "The name of the default individual database or meta-database to use on a "
 "dictionary source. An exclamation mark (\"!\") means that all the databases "
 "present in a dictionary source should be searched"
 msgstr ""
 
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:3
+#: ../data/org.gnome.dictionary.gschema.xml.h:3
 msgid "The default search strategy to use"
 msgstr ""
 
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:4
+#: ../data/org.gnome.dictionary.gschema.xml.h:4
 msgid ""
 "The name of the default search strategy to use on a dictionary source, if "
 "available. The default strategy is 'exact', that is match exact words."
 msgstr ""
 
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:5
+#: ../data/org.gnome.dictionary.gschema.xml.h:5
 msgid "The font to be used when printing"
 msgstr ""
 
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:6
+#: ../data/org.gnome.dictionary.gschema.xml.h:6
 msgid "The font to be used when printing a definition."
 msgstr ""
 
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:7
+#: ../data/org.gnome.dictionary.gschema.xml.h:7
 msgid "The name of the dictionary source used"
 msgstr ""
 
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:8
+#: ../data/org.gnome.dictionary.gschema.xml.h:8
 msgid ""
 "The name of the dictionary source used to retrieve the definitions of words."
 msgstr ""
@@ -252,7 +251,7 @@ msgstr "Longdo Thai-Ensk orðasöfn"
 
 #: ../libgdict/gdict-client-context.c:282
 msgid "Client Name"
-msgstr ""
+msgstr "Nafn biðlara"
 
 #: ../libgdict/gdict-client-context.c:283
 msgid "The name of the client of the context object"
@@ -318,9 +317,8 @@ msgstr ""
 
 #: ../libgdict/gdict-client-context.c:1223
 #, c-format
-#, fuzzy
 msgid "No definitions found for '%s'"
-msgstr "Það fannst ekki skilgreiningu fyrir ‚%s‘"
+msgstr "Engar skilgreiningar fundust fyrir '%s‘"
 
 #: ../libgdict/gdict-client-context.c:1238
 #, c-format
@@ -392,7 +390,7 @@ msgstr ""
 
 #: ../libgdict/gdict-context.c:217
 msgid "Local Only"
-msgstr ""
+msgstr "Einungis staðvæt"
 
 #: ../libgdict/gdict-context.c:218
 msgid "Whether the context uses only local dictionaries or not"
@@ -409,38 +407,38 @@ msgstr ""
 #: ../libgdict/gdict-database-chooser.c:836 ../libgdict/gdict-speller.c:767
 #: ../libgdict/gdict-strategy-chooser.c:775
 msgid "Error while matching"
-msgstr ""
+msgstr "Villa við að samsvara"
 
-#: ../libgdict/gdict-defbox.c:1109 ../libgdict/gdict-defbox.c:1203
-#: ../libgdict/gdict-defbox.c:1237
+#: ../libgdict/gdict-defbox.c:1110 ../libgdict/gdict-defbox.c:1204
+#: ../libgdict/gdict-defbox.c:1238
 msgid "Not found"
 msgstr "Fannst ekki"
 
-#: ../libgdict/gdict-defbox.c:1297
+#: ../libgdict/gdict-defbox.c:1298
 msgid "F_ind:"
 msgstr "F_inna:"
 
-#: ../libgdict/gdict-defbox.c:1310
+#: ../libgdict/gdict-defbox.c:1311
 msgid "_Previous"
 msgstr "_Fyrra"
 
-#: ../libgdict/gdict-defbox.c:1317
+#: ../libgdict/gdict-defbox.c:1318
 msgid "_Next"
 msgstr "_Næsta"
 
-#: ../libgdict/gdict-defbox.c:2461
+#: ../libgdict/gdict-defbox.c:2482
 msgid "Error while looking up definition"
 msgstr "Villa við að leita að skilgreiningu"
 
-#: ../libgdict/gdict-defbox.c:2503 ../libgdict/gdict-speller.c:725
+#: ../libgdict/gdict-defbox.c:2524 ../libgdict/gdict-speller.c:725
 msgid "Another search is in progress"
 msgstr ""
 
-#: ../libgdict/gdict-defbox.c:2504 ../libgdict/gdict-speller.c:726
+#: ../libgdict/gdict-defbox.c:2525 ../libgdict/gdict-speller.c:726
 msgid "Please wait until the current search ends."
 msgstr ""
 
-#: ../libgdict/gdict-defbox.c:2543
+#: ../libgdict/gdict-defbox.c:2564
 msgid "Error while retrieving the definition"
 msgstr ""
 
@@ -561,9 +559,8 @@ msgid "Dictionary sources found"
 msgstr "Orðasafnsheimild fannst"
 
 #: ../libgdict/gdict-speller.c:341
-#, fuzzy
 msgid "Clear the list of similar words"
-msgstr "Tæma listann af líkum orðum"
+msgstr "Tæma listann yfir svipuð orð"
 
 #: ../libgdict/gdict-speller.c:363
 msgid "The GdictContext object used to get the word definition"
@@ -590,7 +587,6 @@ msgid "GDict debugging flags to set"
 msgstr ""
 
 #: ../libgdict/gdict-utils.c:96 ../libgdict/gdict-utils.c:98
-#, fuzzy
 msgid "FLAGS"
 msgstr "FLÖGG"
 
@@ -599,33 +595,28 @@ msgid "GDict debugging flags to unset"
 msgstr ""
 
 #: ../libgdict/gdict-utils.c:156
-#, fuzzy
 msgid "GDict Options"
-msgstr "GDict valmöguleikar"
+msgstr "GDict valkostir"
 
 #: ../libgdict/gdict-utils.c:157
-#, fuzzy
 msgid "Show GDict Options"
-msgstr "Sýna GDict valmöguleika"
+msgstr "Birta valkosti GDict"
 
 #: ../src/gdict-about.c:53
-#, fuzzy
 msgid "translator-credits"
-msgstr "þýðing"
+msgstr "Sveinn í Felli, sv1@fellsnet.is"
 
 #: ../src/gdict-about.c:55
-#, fuzzy
 msgid "Look up words in dictionaries"
-msgstr "Leita að orðum í orðabókum"
+msgstr "Leita að orðum í orðasöfnum"
 
 #: ../src/gdict-app.c:53 ../src/gdict-app.c:82
 msgid "Words to look up"
 msgstr ""
 
 #: ../src/gdict-app.c:53 ../src/gdict-app.c:59
-#, fuzzy
 msgid "WORD"
-msgstr "WORD"
+msgstr "ORÐ"
 
 #: ../src/gdict-app.c:59
 msgid "Words to match"
@@ -633,29 +624,27 @@ msgstr ""
 
 #: ../src/gdict-app.c:65
 msgid "Dictionary source to use"
-msgstr ""
+msgstr "Orðasafnsgjafi sem á að nota"
 
 #: ../src/gdict-app.c:65 ../src/gdict-app.c:71 ../src/gdict-app.c:77
-#, fuzzy
 msgid "NAME"
 msgstr "NAFN"
 
 #: ../src/gdict-app.c:71
 msgid "Database to use"
-msgstr ""
+msgstr "Gagnagrunnur sem á að nota"
 
 #: ../src/gdict-app.c:77
 msgid "Strategy to use"
-msgstr ""
+msgstr "Stefnumörkun sem á að nota"
 
 #: ../src/gdict-app.c:82
 msgid "WORDS"
-msgstr ""
+msgstr "ORÐ"
 
 #: ../src/gdict-app.c:99
-#, fuzzy
 msgid "Dictionary Preferences"
-msgstr "Orðabókarstillingar"
+msgstr "Stillingar orðasafns"
 
 #: ../src/gdict-app.c:121 ../src/gdict-pref-dialog.c:521
 #: ../src/gdict-source-dialog.c:479
@@ -673,22 +662,19 @@ msgstr ""
 
 #: ../src/gdict-pref-dialog.c:383
 #, c-format
-#, fuzzy
 msgid "Remove \"%s\"?"
-msgstr "Viltu fjarlægja „%s“?"
+msgstr "Fjarlægja „%s“?"
 
 #: ../src/gdict-pref-dialog.c:385
 msgid "This will permanently remove the dictionary source from the list."
 msgstr ""
 
 #: ../src/gdict-pref-dialog.c:388 ../src/gdict-source-dialog.c:632
-#: ../src/gdict-window.c:916
-#, fuzzy
+#: ../src/gdict-window.c:919
 msgid "_Cancel"
 msgstr "_Hætta við"
 
 #: ../src/gdict-pref-dialog.c:389
-#, fuzzy
 msgid "_Remove"
 msgstr "_Fjarlægja"
 
@@ -699,11 +685,11 @@ msgstr ""
 
 #: ../src/gdict-pref-dialog.c:455
 msgid "Edit Dictionary Source"
-msgstr "Breyta orðasafni"
+msgstr "Breyta orðasafnsgjafa"
 
 #: ../src/gdict-pref-dialog.c:661
 msgid "Add a new dictionary source"
-msgstr ""
+msgstr "Bæta við nýjum orðasafnsgjafa"
 
 #: ../src/gdict-pref-dialog.c:667
 msgid "Remove the currently selected dictionary source"
@@ -732,145 +718,130 @@ msgstr ""
 
 #. the help button is always visible
 #: ../src/gdict-source-dialog.c:603
-#, fuzzy
 msgid "_Help"
 msgstr "_Hjálp"
 
 #: ../src/gdict-source-dialog.c:633
-#, fuzzy
 msgid "_Add"
 msgstr "_Bæta við"
 
 #: ../src/gdict-source-dialog.c:640
 msgid "C_ancel"
-msgstr ""
+msgstr "_Hætta við"
 
-#: ../src/gdict-window.c:256
+#: ../src/gdict-window.c:261
 #, c-format
-#, fuzzy
 msgid "Searching for '%s'..."
 msgstr "Leita að ‚%s‘..."
 
-#: ../src/gdict-window.c:288 ../src/gdict-window.c:345
-#, fuzzy
+#: ../src/gdict-window.c:293 ../src/gdict-window.c:350
 msgid "No definitions found"
-msgstr "Ekkert fannst"
+msgstr "Engar skilgreiningar fundust"
 
-#: ../src/gdict-window.c:290
+#: ../src/gdict-window.c:295
 #, c-format
-#, fuzzy
 msgid "A definition found"
 msgid_plural "%d definitions found"
 msgstr[0] "Ein skilgreining fannst"
-msgstr[1] "Ein skilgreining fannst"
+msgstr[1] "%d skilgreiningar fundust"
 
-#: ../src/gdict-window.c:461
+#: ../src/gdict-window.c:466
 #, c-format
 msgid "No dictionary source available with name '%s'"
 msgstr ""
 
-#: ../src/gdict-window.c:465
+#: ../src/gdict-window.c:470
 msgid "Unable to find dictionary source"
 msgstr ""
 
-#: ../src/gdict-window.c:481
+#: ../src/gdict-window.c:486
 #, c-format
 msgid "No context available for source '%s'"
 msgstr ""
 
-#: ../src/gdict-window.c:485
+#: ../src/gdict-window.c:490
 msgid "Unable to create a context"
 msgstr ""
 
-#: ../src/gdict-window.c:544
+#: ../src/gdict-window.c:549
 #, c-format
-#, fuzzy
 msgid "%s - Dictionary"
-msgstr "%s - Orðabók"
+msgstr "%s - Orðasafn"
 
-#: ../src/gdict-window.c:913
-#, fuzzy
+#: ../src/gdict-window.c:916
 msgid "Save a Copy"
 msgstr "Vista afrit"
 
-#: ../src/gdict-window.c:917
-#, fuzzy
+#: ../src/gdict-window.c:920
 msgid "_Save"
 msgstr "_Vista"
 
-#: ../src/gdict-window.c:923
-#, fuzzy
+#: ../src/gdict-window.c:926
 msgid "Untitled document"
 msgstr "Ónefnt skjal"
 
-#: ../src/gdict-window.c:944
+#: ../src/gdict-window.c:947
 #, c-format
-#, fuzzy
 msgid "Error while writing to '%s'"
-msgstr "Villa kom við að skrifa á ‚%s‘"
+msgstr "Villa kom við að skrifa í ‚%s‘"
 
-#: ../src/gdict-window.c:1368
+#: ../src/gdict-window.c:1371
 #, c-format
 msgid "Dictionary source `%s' selected"
-msgstr ""
+msgstr "Orðasafnsgjafi `%s' valinn"
 
-#: ../src/gdict-window.c:1389
+#: ../src/gdict-window.c:1392
 #, c-format
 msgid "Strategy `%s' selected"
-msgstr ""
+msgstr "Stefnumörkun `%s' valin"
 
-#: ../src/gdict-window.c:1409
+#: ../src/gdict-window.c:1412
 #, c-format
 msgid "Database `%s' selected"
-msgstr ""
+msgstr "Gagnagrunnur `%s' valinn"
 
-#: ../src/gdict-window.c:1429
+#: ../src/gdict-window.c:1432
 #, c-format
 msgid "Word `%s' selected"
-msgstr ""
+msgstr "Orðið `%s' valið"
 
 #. speller
-#: ../src/gdict-window.c:1454
-#, fuzzy
+#: ../src/gdict-window.c:1457
 msgid "Double-click on the word to look up"
-msgstr "Tvíklikkaðu á orðið til að fletta því upp"
+msgstr "Tvísmelltu á orðið til að fletta því upp"
 
 #. strat-chooser
-#: ../src/gdict-window.c:1460
+#: ../src/gdict-window.c:1463
 msgid "Double-click on the matching strategy to use"
 msgstr ""
 
 #. source-chooser
-#: ../src/gdict-window.c:1465
+#: ../src/gdict-window.c:1468
 msgid "Double-click on the source to use"
 msgstr ""
 
 #. db-chooser
-#: ../src/gdict-window.c:1474
+#: ../src/gdict-window.c:1477
 msgid "Double-click on the database to use"
 msgstr ""
 
-#: ../src/gdict-window.c:1622
+#: ../src/gdict-window.c:1637
 msgid "Look _up"
-msgstr ""
+msgstr "F_letta upp"
 
-#: ../src/gdict-window.c:1696
-#, fuzzy
+#: ../src/gdict-window.c:1715
 msgid "Similar words"
-msgstr "Lík orð"
+msgstr "Svipuð orð"
 
-#: ../src/gdict-window.c:1709
-#, fuzzy
+#: ../src/gdict-window.c:1728
 msgid "Available dictionaries"
-msgstr "Orðabækur"
+msgstr "Tiltæk orðasöfn"
 
-#: ../src/gdict-window.c:1727
-#, fuzzy
+#: ../src/gdict-window.c:1746
 msgid "Available strategies"
-msgstr "Valkostir"
+msgstr "Tiltækar stefnumarkanir"
 
-#: ../src/gdict-window.c:1743
+#: ../src/gdict-window.c:1762
 msgid "Dictionary sources"
 msgstr "Uppruni/heimild orðasafna"
-
 
