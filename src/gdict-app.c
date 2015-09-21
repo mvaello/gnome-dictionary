@@ -33,6 +33,7 @@
 #include <glib/gi18n.h>
 
 #include "gdict-common.h"
+#include "gdict-about.h"
 #include "gdict-pref-dialog.h"
 #include "gdict-app.h"
 
