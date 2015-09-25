@@ -4,15 +4,15 @@
 # This file is distributed under the same license as the gnome-dictionary package.
 # Nguyễn Thái Ngọc Duy <pclouds@gmail.com>, 2002,2007,2011-2012.
 # Clytie Siddall <clytie@riverland.net.au>, 2005-2009.
-# Trần Ngọc Quân <vnwildman@gmail.com>, 2013-2014, 2015.
+# Trần Ngọc Quân <vnwildman@gmail.com>, 2013, 2014, 2015.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-dictionary master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "dictionary&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2015-03-09 19:44+0000\n"
-"PO-Revision-Date: 2015-03-10 07:14+0700\n"
+"POT-Creation-Date: 2015-09-25 07:25+0000\n"
+"PO-Revision-Date: 2015-09-25 15:16+0700\n"
 "Last-Translator: Trần Ngọc Quân <vnwildman@gmail.com>\n"
 "Language-Team: Vietnamese <gnome-vi-list@gnome.org>\n"
 "Language: vi\n"
@@ -20,6 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Gtranslator 2.91.7\n"
 
 #: ../data/default.desktop.in.h:1
 msgid "Default Dictionary Server"
@@ -38,167 +39,152 @@ msgstr ""
 "Tây Ban Nha các ngôn ngữ khác, mà nó phù hợp mong muốn của bạn nhưng phải "
 "dùng giao thức DICT."
 
-#: ../src/gnome-dictionary-menus.ui.h:1
+#: ../src/gdict-app-menus.ui.h:1
+msgid "_New Window"
+msgstr "Cửa _sổ mới"
+
+#: ../src/gdict-app-menus.ui.h:2
 msgid "Preferences"
 msgstr "Tùy thích"
 
-#: ../src/gnome-dictionary-menus.ui.h:2
+#: ../src/gdict-app-menus.ui.h:3
 msgid "Help"
 msgstr "Trợ giúp"
 
-#: ../src/gnome-dictionary-menus.ui.h:3
+#: ../src/gdict-app-menus.ui.h:4
 msgid "About"
 msgstr "Giới thiệu"
 
-#: ../src/gnome-dictionary-menus.ui.h:4
+#: ../src/gdict-app-menus.ui.h:5
 msgid "Quit"
 msgstr "Thoát"
 
-#: ../src/gnome-dictionary-menus.ui.h:5
-msgid "_File"
-msgstr "_Tập tin"
-
-#: ../src/gnome-dictionary-menus.ui.h:6
-msgid "_New"
-msgstr "_Mới"
-
-#: ../src/gnome-dictionary-menus.ui.h:7
+#: ../src/gdict-app-menus.ui.h:6
 msgid "_Save a Copy..."
 msgstr "_Lưu bản sao…"
 
-#: ../src/gnome-dictionary-menus.ui.h:8
+#: ../src/gdict-app-menus.ui.h:7
 msgid "P_review"
 msgstr "_Xem thử"
 
-#: ../src/gnome-dictionary-menus.ui.h:9
+#: ../src/gdict-app-menus.ui.h:8
 msgid "_Print"
 msgstr "_In"
 
-#. we just allow closing the dialog
-#: ../src/gnome-dictionary-menus.ui.h:10 ../src/gdict-source-dialog.c:629
-#: ../src/gdict-source-dialog.c:641
-msgid "_Close"
-msgstr "Đó_ng"
-
-#: ../src/gnome-dictionary-menus.ui.h:11
-msgid "_Edit"
-msgstr "_Sửa"
-
-#: ../src/gnome-dictionary-menus.ui.h:12
-msgid "_Copy"
-msgstr "_Chép"
-
-#: ../src/gnome-dictionary-menus.ui.h:13
-msgid "Select _All"
-msgstr "Chọn tất _cả"
-
-#: ../src/gnome-dictionary-menus.ui.h:14
+#: ../src/gdict-app-menus.ui.h:9
 msgid "_Find"
 msgstr "_Tìm"
 
-#: ../src/gnome-dictionary-menus.ui.h:15
-msgid "Find Ne_xt"
-msgstr "Tìm tiế_p"
-
-#: ../src/gnome-dictionary-menus.ui.h:16
-msgid "Find Pre_vious"
-msgstr "Tìm t_rước"
-
-#: ../src/gnome-dictionary-menus.ui.h:17
+#: ../src/gdict-app-menus.ui.h:10
 msgid "_View"
 msgstr "_Xem"
 
-#: ../src/gnome-dictionary-menus.ui.h:18
+#: ../src/gdict-app-menus.ui.h:11
 msgid "_Sidebar"
-msgstr "Ô _bên"
+msgstr "Thanh _bên"
 
-#: ../src/gnome-dictionary-menus.ui.h:19
-msgid "S_tatusbar"
-msgstr "Thanh _trạng thái"
-
-#: ../src/gnome-dictionary-menus.ui.h:20
+#: ../src/gdict-app-menus.ui.h:12
 msgid "Similar _Words"
 msgstr "Từ tươn_g tự"
 
-#: ../src/gnome-dictionary-menus.ui.h:21
+#: ../src/gdict-app-menus.ui.h:13
 msgid "Dictionary Sources"
 msgstr "Nguồn từ điển"
 
-#: ../src/gnome-dictionary-menus.ui.h:22
+#: ../src/gdict-app-menus.ui.h:14
 msgid "Available _Dictionaries"
 msgstr "Từ điển _sẵn có"
 
-#: ../src/gnome-dictionary-menus.ui.h:23
+#: ../src/gdict-app-menus.ui.h:15
 msgid "Available St_rategies"
 msgstr "_Chiến lược hiện có"
 
-#: ../src/gnome-dictionary-menus.ui.h:24
+#: ../src/gdict-app-menus.ui.h:16
 msgid "_Go"
 msgstr "Đ_i"
 
-#: ../src/gnome-dictionary-menus.ui.h:25
+#: ../src/gdict-app-menus.ui.h:17
 msgid "_Previous Definition"
 msgstr "Định nghĩa t_rước"
 
-#: ../src/gnome-dictionary-menus.ui.h:26
+#: ../src/gdict-app-menus.ui.h:18
 msgid "_Next Definition"
 msgstr "Định nghĩa _kế"
 
-#: ../src/gnome-dictionary-menus.ui.h:27
+#: ../src/gdict-app-menus.ui.h:19
 msgid "_First Definition"
 msgstr "Định nghĩa _đầu"
 
-#: ../src/gnome-dictionary-menus.ui.h:28
+#: ../src/gdict-app-menus.ui.h:20
 msgid "_Last Definition"
 msgstr "Định nghĩa _cuối"
 
-#: ../src/gnome-dictionary-preferences.ui.h:1
+#: ../src/gdict-pref-dialog.ui.h:1
 msgid "_Select a dictionary source for looking up words:"
 msgstr "_Chọn nguồn từ điển để tra từ:"
 
-#: ../src/gnome-dictionary-preferences.ui.h:2
-#: ../src/gnome-dictionary-source.ui.h:6
+#: ../src/gdict-pref-dialog.ui.h:2
+msgid "Add a new dictionary source"
+msgstr "Thêm một nguồn từ điển mới"
+
+#: ../src/gdict-pref-dialog.ui.h:3
+msgid "Remove the currently selected dictionary source"
+msgstr "Gỡ bỏ nguồn từ điển đã chọn hiện thời"
+
+#: ../src/gdict-pref-dialog.ui.h:4
+msgid "Edit"
+msgstr "Sửa"
+
+#: ../src/gdict-pref-dialog.ui.h:5
+msgid "Edit the currently selected dictionary source"
+msgstr "Sửa nguồn từ điển được chọn"
+
+#: ../src/gdict-pref-dialog.ui.h:6 ../src/gdict-source-dialog.ui.h:6
 msgid "Source"
 msgstr "Nguồn"
 
-#: ../src/gnome-dictionary-preferences.ui.h:3
+#: ../src/gdict-pref-dialog.ui.h:7
 msgid "_Print font:"
 msgstr "Phông chữ _in:"
 
-#: ../src/gnome-dictionary-preferences.ui.h:4
+#: ../src/gdict-pref-dialog.ui.h:8
+msgid "Set the font used for printing the definitions"
+msgstr "Đặt phông chữ dùng để in phần định nghĩa"
+
+#: ../src/gdict-pref-dialog.ui.h:9
 msgid "Print"
 msgstr "In"
 
-#: ../src/gnome-dictionary-source.ui.h:1
+#: ../src/gdict-source-dialog.ui.h:1
 msgid "_Description:"
 msgstr "_Mô tả:"
 
-#: ../src/gnome-dictionary-source.ui.h:2
+#: ../src/gdict-source-dialog.ui.h:2
 msgid "_Transport:"
 msgstr "_Chuyên chở:"
 
-#: ../src/gnome-dictionary-source.ui.h:3
+#: ../src/gdict-source-dialog.ui.h:3
 msgid "H_ostname:"
 msgstr "T_ên máy:"
 
-#: ../src/gnome-dictionary-source.ui.h:4
+#: ../src/gdict-source-dialog.ui.h:4
 msgid "_Port:"
 msgstr "_Cổng:"
 
-#: ../src/gnome-dictionary-source.ui.h:5
+#: ../src/gdict-source-dialog.ui.h:5
 msgid "Source Name"
 msgstr "Tên nguồn"
 
-#: ../src/gnome-dictionary-source.ui.h:7
+#: ../src/gdict-source-dialog.ui.h:7
 msgid "Dictionaries"
 msgstr "Từ điển"
 
-#: ../src/gnome-dictionary-source.ui.h:8
+#: ../src/gdict-source-dialog.ui.h:8
 msgid "Strategies"
 msgstr "Chiến lược"
 
 #: ../data/org.gnome.Dictionary.desktop.in.in.h:1 ../src/gdict-about.c:60
-#: ../src/gdict-window.c:546 ../src/gdict-window.c:1811
+#: ../src/gdict-window.c:499 ../src/gdict-window.c:1531
 msgid "Dictionary"
 msgstr "Từ điển"
 
@@ -212,11 +198,11 @@ msgstr ""
 "word;từ;tu;điển;dien;synonym;đồng;dong;definition;định;nghĩa;dinh;nghia;"
 "spelling;chính;tả;chinh;ta;"
 
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:1
+#: ../data/org.gnome.dictionary.gschema.xml.h:1
 msgid "The default database to use"
 msgstr "Cơ sở dữ liệu mặc định cần dùng"
 
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:2
+#: ../data/org.gnome.dictionary.gschema.xml.h:2
 msgid ""
 "The name of the default individual database or meta-database to use on a "
 "dictionary source. An exclamation mark (\"!\") means that all the databases "
@@ -226,11 +212,11 @@ msgstr ""
 "từ điển. Dấu “!” có nghĩa là mọi cơ sở dữ liệu trên nguồn từ điển đó nên "
 "được tìm kiếm"
 
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:3
+#: ../data/org.gnome.dictionary.gschema.xml.h:3
 msgid "The default search strategy to use"
 msgstr "Chiến lược tìm kiếm mặc định cần dùng"
 
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:4
+#: ../data/org.gnome.dictionary.gschema.xml.h:4
 msgid ""
 "The name of the default search strategy to use on a dictionary source, if "
 "available. The default strategy is 'exact', that is match exact words."
@@ -239,19 +225,19 @@ msgstr ""
 "Chiến lược là “exact” (chính xác), tức là phải khớp chỉ từ một cách chính "
 "xác."
 
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:5
+#: ../data/org.gnome.dictionary.gschema.xml.h:5
 msgid "The font to be used when printing"
 msgstr "Phông chữ cần dùng khi in"
 
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:6
+#: ../data/org.gnome.dictionary.gschema.xml.h:6
 msgid "The font to be used when printing a definition."
 msgstr "Phông chữ cần dùng khi in lời định nghĩa."
 
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:7
+#: ../data/org.gnome.dictionary.gschema.xml.h:7
 msgid "The name of the dictionary source used"
 msgstr "Tên nguồn từ điển đã dùng"
 
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:8
+#: ../data/org.gnome.dictionary.gschema.xml.h:8
 msgid ""
 "The name of the dictionary source used to retrieve the definitions of words."
 msgstr "Tên của nguồn từ điển được dùng để lấy lời định nghĩa của từ."
@@ -263,38 +249,6 @@ msgstr "Từ điển tiếng Tây Ban Nha"
 #: ../data/thai.desktop.in.h:1
 msgid "Longdo Thai-English Dictionaries"
 msgstr "Từ điển Longdo Thái-Anh"
-
-#: ../libgdict/gdict-client-context.c:282
-msgid "Client Name"
-msgstr "Tên máy khách"
-
-#: ../libgdict/gdict-client-context.c:283
-msgid "The name of the client of the context object"
-msgstr "Tên của bộ khách của đối tượng ngữ cảnh"
-
-#: ../libgdict/gdict-client-context.c:296
-msgid "Hostname"
-msgstr "Tên máy"
-
-#: ../libgdict/gdict-client-context.c:297
-msgid "The hostname of the dictionary server to connect to"
-msgstr "Tên máy của máy phục vụ từ điển đến mà cần kết nối"
-
-#: ../libgdict/gdict-client-context.c:310
-msgid "Port"
-msgstr "Cổng"
-
-#: ../libgdict/gdict-client-context.c:311
-msgid "The port of the dictionary server to connect to"
-msgstr "Cổng của máy phục vụ từ điển đến mà cần kết nối"
-
-#: ../libgdict/gdict-client-context.c:326
-msgid "Status"
-msgstr "Trạng thái"
-
-#: ../libgdict/gdict-client-context.c:327
-msgid "The status code as returned by the dictionary server"
-msgstr "Mã trạng thãi được trả lời bởi máy phục vụ từ điển."
 
 #: ../libgdict/gdict-client-context.c:775
 #, c-format
@@ -337,7 +291,7 @@ msgstr ""
 #: ../libgdict/gdict-client-context.c:1223
 #, c-format
 msgid "No definitions found for '%s'"
-msgstr "Không tìm thấy lời định nghĩa cho “%s”"
+msgstr "Không tìm thấy phần định nghĩa cho “%s”"
 
 #: ../libgdict/gdict-client-context.c:1238
 #, c-format
@@ -369,12 +323,12 @@ msgstr "Không tìm thấy cơ sở dữ liệu trên máy phục vụ từ đi�
 msgid "No strategies found on dictionary server at '%s'"
 msgstr "Không tìm thấy chiến lược trên máy phục vụ từ điển tại “%s”"
 
-#: ../libgdict/gdict-client-context.c:1738
+#: ../libgdict/gdict-client-context.c:1745
 #, c-format
 msgid "Connection failed to the dictionary server at %s:%d"
 msgstr "Lỗi kết nối đến máy phục vụ từ điển tại “%s:%d”"
 
-#: ../libgdict/gdict-client-context.c:1777
+#: ../libgdict/gdict-client-context.c:1784
 #, c-format
 msgid ""
 "Error while reading reply from server:\n"
@@ -383,149 +337,60 @@ msgstr ""
 "Gặp lỗi khi đọc trả lời từ máy phục vụ:\n"
 "%s"
 
-#: ../libgdict/gdict-client-context.c:1850
+#: ../libgdict/gdict-client-context.c:1857
 #, c-format
 msgid "Connection timeout for the dictionary server at '%s:%d'"
 msgstr "Quá hạn kết nối đến máy phục vụ từ điển tại “%s:%d”"
 
-#: ../libgdict/gdict-client-context.c:1884
+#: ../libgdict/gdict-client-context.c:1891
 #, c-format
 msgid "No hostname defined for the dictionary server"
 msgstr "Chưa định nghĩa tên máy cho máy phục vụ từ điển"
 
-#: ../libgdict/gdict-client-context.c:1920
-#: ../libgdict/gdict-client-context.c:1935
+#: ../libgdict/gdict-client-context.c:1927
+#: ../libgdict/gdict-client-context.c:1942
 #, c-format
 msgid "Unable to create socket"
 msgstr "Không thể tạo ổ cắm"
 
-#: ../libgdict/gdict-client-context.c:1961
+#: ../libgdict/gdict-client-context.c:1968
 #, c-format
 msgid "Unable to set the channel as non-blocking: %s"
 msgstr "Không thể lập kênh có kiểu không làm trở ngại: %s"
 
-#: ../libgdict/gdict-client-context.c:1976
+#: ../libgdict/gdict-client-context.c:1983
 #, c-format
 msgid "Unable to connect to the dictionary server at '%s:%d'"
 msgstr "Không thể kết nối đến máy phục vụ từ điển tại “%s:%d”"
 
-#: ../libgdict/gdict-context.c:217
-msgid "Local Only"
-msgstr "Chỉ cục bộ"
-
-#: ../libgdict/gdict-context.c:218
-msgid "Whether the context uses only local dictionaries or not"
-msgstr "Có ngữ cảnh nên dùng chỉ những từ điển cục bộ hay không"
-
-#: ../libgdict/gdict-database-chooser.c:373
+#: ../libgdict/gdict-database-chooser.c:398
 msgid "Reload the list of available databases"
 msgstr "Tải lại danh sách các cơ sở dữ liệu sẵn sàng"
 
-#: ../libgdict/gdict-database-chooser.c:385
+#: ../libgdict/gdict-database-chooser.c:410
 msgid "Clear the list of available databases"
 msgstr "Xóa danh sách các cơ sở dữ liệu sẵn sàng"
 
-#: ../libgdict/gdict-database-chooser.c:836 ../libgdict/gdict-speller.c:767
+#: ../libgdict/gdict-database-chooser.c:905 ../libgdict/gdict-speller.c:767
 #: ../libgdict/gdict-strategy-chooser.c:775
 msgid "Error while matching"
 msgstr "Gặp lỗi khi khớp mẫu"
 
-#: ../libgdict/gdict-defbox.c:1109 ../libgdict/gdict-defbox.c:1203
-#: ../libgdict/gdict-defbox.c:1237
-msgid "Not found"
-msgstr "Không tìm thấy"
-
-#: ../libgdict/gdict-defbox.c:1297
-msgid "F_ind:"
-msgstr "_Tìm:"
-
-#: ../libgdict/gdict-defbox.c:1310
-msgid "_Previous"
-msgstr "T_rước"
-
-#: ../libgdict/gdict-defbox.c:1317
-msgid "_Next"
-msgstr "_Kế"
-
-#: ../libgdict/gdict-defbox.c:2461
+#: ../libgdict/gdict-defbox.c:2390
 msgid "Error while looking up definition"
 msgstr "Gặp lỗi khi tra tìm lời định nghĩa"
 
-#: ../libgdict/gdict-defbox.c:2503 ../libgdict/gdict-speller.c:725
+#: ../libgdict/gdict-defbox.c:2432 ../libgdict/gdict-speller.c:725
 msgid "Another search is in progress"
 msgstr "Việc tìm kiếm khác đang chạy"
 
-#: ../libgdict/gdict-defbox.c:2504 ../libgdict/gdict-speller.c:726
+#: ../libgdict/gdict-defbox.c:2433 ../libgdict/gdict-speller.c:726
 msgid "Please wait until the current search ends."
 msgstr "Hãy đợi đến khi việc tìm kiếm hiện thời đã kết thúc."
 
-#: ../libgdict/gdict-defbox.c:2543
+#: ../libgdict/gdict-defbox.c:2472
 msgid "Error while retrieving the definition"
 msgstr "Gặp lỗi khi lấy phần định nghĩa"
-
-#: ../libgdict/gdict-source.c:237
-msgid "Filename"
-msgstr "Tên tập tin"
-
-#: ../libgdict/gdict-source.c:238
-msgid "The filename used by this dictionary source"
-msgstr "Tên tập tin dùng bởi nguồn từ điển này"
-
-#: ../libgdict/gdict-source.c:251
-msgid "Name"
-msgstr "Tên"
-
-#: ../libgdict/gdict-source.c:252
-msgid "The display name of this dictionary source"
-msgstr "Hiện tên nguồn từ điển này"
-
-#: ../libgdict/gdict-source.c:265
-msgid "Description"
-msgstr "Mô tả"
-
-#: ../libgdict/gdict-source.c:266
-msgid "The description of this dictionary source"
-msgstr "Mô tả của nguồn từ điển này"
-
-#: ../libgdict/gdict-source.c:279
-msgid "Editable"
-msgstr "Sửa được"
-
-#: ../libgdict/gdict-source.c:280
-msgid "Whether the dictionary source is editable or not"
-msgstr "Có để nguồn từ điển là có thể sửa được hay không"
-
-#: ../libgdict/gdict-source.c:293 ../libgdict/gdict-speller.c:369
-msgid "Database"
-msgstr "Cơ sở dữ liệu"
-
-#: ../libgdict/gdict-source.c:294
-msgid "The default database of this dictionary source"
-msgstr "Cơ sở dữ liệu mặc định của nguồn từ điển này"
-
-#: ../libgdict/gdict-source.c:307 ../libgdict/gdict-speller.c:376
-msgid "Strategy"
-msgstr "Chiến lược"
-
-#: ../libgdict/gdict-source.c:308
-msgid "The default strategy of this dictionary source"
-msgstr "Chiến lược mặc định của nguồn từ điển này"
-
-#: ../libgdict/gdict-source.c:321
-msgid "Transport"
-msgstr "Giao thức"
-
-#: ../libgdict/gdict-source.c:322
-msgid "The transport mechanism used by this dictionary source"
-msgstr "Cơ chế chuyên chở dùng bởi nguồn từ điển này"
-
-#: ../libgdict/gdict-source.c:336 ../libgdict/gdict-speller.c:362
-msgid "Context"
-msgstr "Ngữ cảnh"
-
-#: ../libgdict/gdict-source.c:337
-msgid "The GdictContext bound to this source"
-msgstr "Đối tượng GdictContext được buộc với nguồn này"
 
 #: ../libgdict/gdict-source.c:433
 #, c-format
@@ -563,37 +428,9 @@ msgstr "Nguồn từ điển “%s” có chuyên chở không hợp lệ “%s�
 msgid "Reload the list of available sources"
 msgstr "Nạp lại danh sách các nguồn sẵn sàng"
 
-#: ../libgdict/gdict-source-loader.c:170
-msgid "Paths"
-msgstr "Đường dẫn"
-
-#: ../libgdict/gdict-source-loader.c:171
-msgid "Search paths used by this object"
-msgstr "Đường dẫn tìm kiếm dùng bởi đối tượng này"
-
-#: ../libgdict/gdict-source-loader.c:183
-msgid "Sources"
-msgstr "Nguồn"
-
-#: ../libgdict/gdict-source-loader.c:184
-msgid "Dictionary sources found"
-msgstr "Tìm tra nguồn từ điển"
-
 #: ../libgdict/gdict-speller.c:341
 msgid "Clear the list of similar words"
 msgstr "Xóa danh sách các từ tương tự"
-
-#: ../libgdict/gdict-speller.c:363
-msgid "The GdictContext object used to get the word definition"
-msgstr "Đối tượng GdictContext dùng để lấy lời định nghĩa từ"
-
-#: ../libgdict/gdict-speller.c:370
-msgid "The database used to query the GdictContext"
-msgstr "Cơ sở dữ liệu dùng để truy vấn ngữ cảnh GdictContext"
-
-#: ../libgdict/gdict-speller.c:377
-msgid "The strategy used to query the GdictContext"
-msgstr "Chiến lược dùng để truy vấn ngữ cảnh GdictContext"
 
 #: ../libgdict/gdict-strategy-chooser.c:350
 msgid "Reload the list of available strategies"
@@ -615,255 +452,364 @@ msgstr "CỜ"
 msgid "GDict debugging flags to unset"
 msgstr "Các cờ gỡ lỗi GDict cần bỏ đặt"
 
-#: ../libgdict/gdict-utils.c:156
+#: ../libgdict/gdict-utils.c:157
 msgid "GDict Options"
 msgstr "Tùy chọn Từ điển GNOME"
 
-#: ../libgdict/gdict-utils.c:157
+#: ../libgdict/gdict-utils.c:158
 msgid "Show GDict Options"
 msgstr "Hiện các tùy chọn về Từ điển GNOME"
 
 #: ../src/gdict-about.c:53
 msgid "translator-credits"
-msgstr "Nhóm dịch GNOME <gnome-vi-list@gnome.org>"
+msgstr "Nhóm Việt hóa GNOME"
 
 #: ../src/gdict-about.c:55
 msgid "Look up words in dictionaries"
 msgstr "Tra tìm từ vựng trong từ điển"
 
-#: ../src/gdict-app.c:53 ../src/gdict-app.c:82
+#: ../src/gdict-app.c:47 ../src/gdict-app.c:76
 msgid "Words to look up"
 msgstr "Từ cần tìm"
 
-#: ../src/gdict-app.c:53 ../src/gdict-app.c:59
+#: ../src/gdict-app.c:47 ../src/gdict-app.c:53
 msgid "WORD"
 msgstr "TỪ"
 
-#: ../src/gdict-app.c:59
+#: ../src/gdict-app.c:53
 msgid "Words to match"
 msgstr "Từ cần khớp"
 
-#: ../src/gdict-app.c:65
+#: ../src/gdict-app.c:59
 msgid "Dictionary source to use"
 msgstr "Nguồn từ điển cần dùng"
 
-#: ../src/gdict-app.c:65 ../src/gdict-app.c:71 ../src/gdict-app.c:77
+#: ../src/gdict-app.c:59 ../src/gdict-app.c:65 ../src/gdict-app.c:71
 msgid "NAME"
 msgstr "TÊN"
 
-#: ../src/gdict-app.c:71
+#: ../src/gdict-app.c:65
 msgid "Database to use"
 msgstr "Cơ sở dữ liệu cần dùng"
 
-#: ../src/gdict-app.c:77
+#: ../src/gdict-app.c:71
 msgid "Strategy to use"
 msgstr "Chiến lược cần dùng"
 
-#: ../src/gdict-app.c:82
+#: ../src/gdict-app.c:76
 msgid "WORDS"
 msgstr "TỪ"
 
-#: ../src/gdict-app.c:99
+#: ../src/gdict-app.c:108
 msgid "Dictionary Preferences"
 msgstr "Tùy thích từ điển"
 
-#: ../src/gdict-app.c:121 ../src/gdict-pref-dialog.c:521
-#: ../src/gdict-source-dialog.c:479
+#: ../src/gdict-app.c:130 ../src/gdict-pref-dialog.c:511
+#: ../src/gdict-source-dialog.c:452
 #, c-format
 msgid "There was an error while displaying help"
 msgstr "Gặp lỗi khi hiển thị trợ giúp"
 
-#: ../src/gdict-pref-dialog.c:271
+#: ../src/gdict-pref-dialog.c:264
 msgid "View Dictionary Source"
 msgstr "Xem nguồn từ điển"
 
-#: ../src/gdict-pref-dialog.c:338
+#: ../src/gdict-pref-dialog.c:330
 msgid "Add Dictionary Source"
 msgstr "Thêm nguồn từ điển"
 
-#: ../src/gdict-pref-dialog.c:383
+#: ../src/gdict-pref-dialog.c:374
 #, c-format
 msgid "Remove \"%s\"?"
 msgstr "Gỡ bỏ “%s” không?"
 
-#: ../src/gdict-pref-dialog.c:385
+#: ../src/gdict-pref-dialog.c:376
 msgid "This will permanently remove the dictionary source from the list."
 msgstr "Làm như thế sẽ gỡ bỏ hoàn toàn nguồn từ điển ra danh sách."
 
-#: ../src/gdict-pref-dialog.c:388 ../src/gdict-source-dialog.c:632
-#: ../src/gdict-window.c:916
+#: ../src/gdict-pref-dialog.c:379 ../src/gdict-source-dialog.c:564
+#: ../src/gdict-window.c:822
 msgid "_Cancel"
 msgstr "Thô_i"
 
-#: ../src/gdict-pref-dialog.c:389
+#: ../src/gdict-pref-dialog.c:380
 msgid "_Remove"
 msgstr "_Xóa bỏ"
 
-#: ../src/gdict-pref-dialog.c:407
+#: ../src/gdict-pref-dialog.c:398
 #, c-format
 msgid "Unable to remove source '%s'"
 msgstr "Không thể gỡ bỏ nguồn “%s”"
 
-#: ../src/gdict-pref-dialog.c:455
+#: ../src/gdict-pref-dialog.c:445
 msgid "Edit Dictionary Source"
 msgstr "Sửa nguồn từ điển"
 
-#: ../src/gdict-pref-dialog.c:661
-msgid "Add a new dictionary source"
-msgstr "Thêm một nguồn từ điển mới"
+#. add buttons
+#. The help button is always visible
+#: ../src/gdict-pref-dialog.c:634 ../src/gdict-source-dialog.c:655
+msgid "_Help"
+msgstr "T_rợ giúp"
 
-#: ../src/gdict-pref-dialog.c:667
-msgid "Remove the currently selected dictionary source"
-msgstr "Gỡ bỏ nguồn từ điển đã chọn hiện thời"
-
-#: ../src/gdict-pref-dialog.c:673
-msgid "Edit the currently selected dictionary source"
-msgstr "Sửa nguồn từ điển được chọn"
-
-#: ../src/gdict-pref-dialog.c:681
-msgid "Set the font used for printing the definitions"
-msgstr "Đặt phông chữ dùng để in phần định nghĩa"
+#. we just allow closing the dialog
+#: ../src/gdict-pref-dialog.c:635 ../src/gdict-source-dialog.c:560
+#: ../src/gdict-source-dialog.c:574
+msgid "_Close"
+msgstr "Đó_ng"
 
 #: ../src/gdict-print.c:239 ../src/gdict-print.c:303
 #, c-format
 msgid "Unable to display the preview: %s"
 msgstr "Không thể hiển thị ô xem thử: %s"
 
-#: ../src/gdict-source-dialog.c:340 ../src/gdict-source-dialog.c:432
+#: ../src/gdict-source-dialog.c:316 ../src/gdict-source-dialog.c:404
 msgid "Unable to create a source file"
 msgstr "Không thể tạo tập tin nguồn"
 
-#: ../src/gdict-source-dialog.c:356 ../src/gdict-source-dialog.c:452
+#: ../src/gdict-source-dialog.c:332 ../src/gdict-source-dialog.c:424
 msgid "Unable to save source file"
 msgstr "Không thể lưu tập tin nguồn"
 
-#. the help button is always visible
-#: ../src/gdict-source-dialog.c:603
-msgid "_Help"
-msgstr "T_rợ giúp"
-
-#: ../src/gdict-source-dialog.c:633
+#: ../src/gdict-source-dialog.c:565
 msgid "_Add"
 msgstr "Thê_m"
 
-#: ../src/gdict-source-dialog.c:640
+#: ../src/gdict-source-dialog.c:573
 msgid "C_ancel"
 msgstr "T_hôi"
 
-#: ../src/gdict-window.c:256
-#, c-format
-msgid "Searching for '%s'..."
-msgstr "Đang tìm kiếm “%s”…"
-
-#: ../src/gdict-window.c:288 ../src/gdict-window.c:345
-msgid "No definitions found"
-msgstr "Không tìm thấy phần định nghĩa"
-
-#: ../src/gdict-window.c:290
-#, c-format
-msgid "A definition found"
-msgid_plural "%d definitions found"
-msgstr[0] "Tìm thấy %d phần định nghĩa"
-
-#: ../src/gdict-window.c:461
+#: ../src/gdict-window.c:414
 #, c-format
 msgid "No dictionary source available with name '%s'"
 msgstr "Không có nguồn từ điển mang tên “%s”"
 
-#: ../src/gdict-window.c:465
+#: ../src/gdict-window.c:418
 msgid "Unable to find dictionary source"
 msgstr "Không tìm thấy nguồn từ điển"
 
-#: ../src/gdict-window.c:481
+#: ../src/gdict-window.c:434
 #, c-format
 msgid "No context available for source '%s'"
 msgstr "Không có ngữ cảnh cho nguồn “%s”"
 
-#: ../src/gdict-window.c:485
+#: ../src/gdict-window.c:438
 msgid "Unable to create a context"
 msgstr "Không thể tạo ngữ cảnh"
 
-#: ../src/gdict-window.c:544
+#: ../src/gdict-window.c:497
 #, c-format
 msgid "%s - Dictionary"
 msgstr "%s — Từ điển"
 
-#: ../src/gdict-window.c:913
+#: ../src/gdict-window.c:819
 msgid "Save a Copy"
 msgstr "Lưu một bản sao"
 
-#: ../src/gdict-window.c:917
+#: ../src/gdict-window.c:823
 msgid "_Save"
 msgstr "_Lưu"
 
-#: ../src/gdict-window.c:923
+#: ../src/gdict-window.c:829
 msgid "Untitled document"
 msgstr "Tài liệu không tên"
 
-#: ../src/gdict-window.c:944
+#: ../src/gdict-window.c:850
 #, c-format
 msgid "Error while writing to '%s'"
 msgstr "Gặp lỗi khi ghi vào “%s”"
 
-#: ../src/gdict-window.c:1368
-#, c-format
-msgid "Dictionary source `%s' selected"
-msgstr "Nguồn từ điển “%s” đã chọn"
-
-#: ../src/gdict-window.c:1389
-#, c-format
-msgid "Strategy `%s' selected"
-msgstr "Chiến lược “%s” được chọn"
-
-#: ../src/gdict-window.c:1409
-#, c-format
-msgid "Database `%s' selected"
-msgstr "Cơ sở dữ liệu “%s” được chọn"
-
-#: ../src/gdict-window.c:1429
-#, c-format
-msgid "Word `%s' selected"
-msgstr "Từ “%s” đã chọn"
-
 #. speller
-#: ../src/gdict-window.c:1454
+#: ../src/gdict-window.c:1211
 msgid "Double-click on the word to look up"
 msgstr "Nhấn đúp vào từ cần tra tìm"
 
 #. strat-chooser
-#: ../src/gdict-window.c:1460
+#: ../src/gdict-window.c:1217
 msgid "Double-click on the matching strategy to use"
 msgstr "Nhấp đúp chiến lược tìm cần dùng"
 
 #. source-chooser
-#: ../src/gdict-window.c:1465
+#: ../src/gdict-window.c:1222
 msgid "Double-click on the source to use"
 msgstr "Nhấn đúp vào nguồn cần dùng"
 
-#. db-chooser
-#: ../src/gdict-window.c:1474
-msgid "Double-click on the database to use"
-msgstr "Nhấn đúp vào cơ sở dữ liệu cần dùng"
-
-#: ../src/gdict-window.c:1622
-msgid "Look _up"
-msgstr "_Tra tìm"
-
-#: ../src/gdict-window.c:1696
+#: ../src/gdict-window.c:1428
 msgid "Similar words"
 msgstr "Từ tương tự"
 
-#: ../src/gdict-window.c:1709
-msgid "Available dictionaries"
-msgstr "Từ điển sẵn có"
-
-#: ../src/gdict-window.c:1727
+#: ../src/gdict-window.c:1459
 msgid "Available strategies"
 msgstr "Chiến lược hiện có"
 
-#: ../src/gdict-window.c:1743
+#: ../src/gdict-window.c:1475
 msgid "Dictionary sources"
 msgstr "Nguồn từ điển"
+
+#~ msgid "_File"
+#~ msgstr "_Tập tin"
+
+#~ msgid "_New"
+#~ msgstr "_Mới"
+
+#~ msgid "_Edit"
+#~ msgstr "_Sửa"
+
+#~ msgid "_Copy"
+#~ msgstr "_Chép"
+
+#~ msgid "Select _All"
+#~ msgstr "Chọn tất _cả"
+
+#~ msgid "Find Ne_xt"
+#~ msgstr "Tìm tiế_p"
+
+#~ msgid "Find Pre_vious"
+#~ msgstr "Tìm t_rước"
+
+#~ msgid "S_tatusbar"
+#~ msgstr "Thanh _trạng thái"
+
+#~ msgid "Client Name"
+#~ msgstr "Tên máy khách"
+
+#~ msgid "The name of the client of the context object"
+#~ msgstr "Tên của bộ khách của đối tượng ngữ cảnh"
+
+#~ msgid "Hostname"
+#~ msgstr "Tên máy"
+
+#~ msgid "The hostname of the dictionary server to connect to"
+#~ msgstr "Tên máy của máy phục vụ từ điển đến mà cần kết nối"
+
+#~ msgid "Port"
+#~ msgstr "Cổng"
+
+#~ msgid "The port of the dictionary server to connect to"
+#~ msgstr "Cổng của máy phục vụ từ điển đến mà cần kết nối"
+
+#~ msgid "Status"
+#~ msgstr "Trạng thái"
+
+#~ msgid "The status code as returned by the dictionary server"
+#~ msgstr "Mã trạng thãi được trả lời bởi máy phục vụ từ điển."
+
+#~ msgid "Local Only"
+#~ msgstr "Chỉ cục bộ"
+
+#~ msgid "Whether the context uses only local dictionaries or not"
+#~ msgstr "Có ngữ cảnh nên dùng chỉ những từ điển cục bộ hay không"
+
+#~ msgid "Not found"
+#~ msgstr "Không tìm thấy"
+
+#~ msgid "F_ind:"
+#~ msgstr "_Tìm:"
+
+#~ msgid "_Previous"
+#~ msgstr "T_rước"
+
+#~ msgid "_Next"
+#~ msgstr "_Kế"
+
+#~ msgid "Filename"
+#~ msgstr "Tên tập tin"
+
+#~ msgid "The filename used by this dictionary source"
+#~ msgstr "Tên tập tin dùng bởi nguồn từ điển này"
+
+#~ msgid "Name"
+#~ msgstr "Tên"
+
+#~ msgid "The display name of this dictionary source"
+#~ msgstr "Hiện tên nguồn từ điển này"
+
+#~ msgid "Description"
+#~ msgstr "Mô tả"
+
+#~ msgid "The description of this dictionary source"
+#~ msgstr "Mô tả của nguồn từ điển này"
+
+#~ msgid "Editable"
+#~ msgstr "Sửa được"
+
+#~ msgid "Whether the dictionary source is editable or not"
+#~ msgstr "Có để nguồn từ điển là có thể sửa được hay không"
+
+#~ msgid "Database"
+#~ msgstr "Cơ sở dữ liệu"
+
+#~ msgid "The default database of this dictionary source"
+#~ msgstr "Cơ sở dữ liệu mặc định của nguồn từ điển này"
+
+#~ msgid "Strategy"
+#~ msgstr "Chiến lược"
+
+#~ msgid "The default strategy of this dictionary source"
+#~ msgstr "Chiến lược mặc định của nguồn từ điển này"
+
+#~ msgid "Transport"
+#~ msgstr "Giao thức"
+
+#~ msgid "The transport mechanism used by this dictionary source"
+#~ msgstr "Cơ chế chuyên chở dùng bởi nguồn từ điển này"
+
+#~ msgid "Context"
+#~ msgstr "Ngữ cảnh"
+
+#~ msgid "The GdictContext bound to this source"
+#~ msgstr "Đối tượng GdictContext được buộc với nguồn này"
+
+#~ msgid "Paths"
+#~ msgstr "Đường dẫn"
+
+#~ msgid "Search paths used by this object"
+#~ msgstr "Đường dẫn tìm kiếm dùng bởi đối tượng này"
+
+#~ msgid "Sources"
+#~ msgstr "Nguồn"
+
+#~ msgid "Dictionary sources found"
+#~ msgstr "Tìm tra nguồn từ điển"
+
+#~ msgid "The GdictContext object used to get the word definition"
+#~ msgstr "Đối tượng GdictContext dùng để lấy lời định nghĩa từ"
+
+#~ msgid "The database used to query the GdictContext"
+#~ msgstr "Cơ sở dữ liệu dùng để truy vấn ngữ cảnh GdictContext"
+
+#~ msgid "The strategy used to query the GdictContext"
+#~ msgstr "Chiến lược dùng để truy vấn ngữ cảnh GdictContext"
+
+#~ msgid "Searching for '%s'..."
+#~ msgstr "Đang tìm kiếm “%s”…"
+
+#~ msgid "No definitions found"
+#~ msgstr "Không tìm thấy phần định nghĩa"
+
+#~ msgid "A definition found"
+#~ msgid_plural "%d definitions found"
+#~ msgstr[0] "Tìm thấy %d phần định nghĩa"
+
+#~ msgid "Dictionary source `%s' selected"
+#~ msgstr "Nguồn từ điển “%s” đã chọn"
+
+#~ msgid "Strategy `%s' selected"
+#~ msgstr "Chiến lược “%s” được chọn"
+
+#~ msgid "Database `%s' selected"
+#~ msgstr "Cơ sở dữ liệu “%s” được chọn"
+
+#~ msgid "Word `%s' selected"
+#~ msgstr "Từ “%s” đã chọn"
+
+#~ msgid "Double-click on the database to use"
+#~ msgstr "Nhấn đúp vào cơ sở dữ liệu cần dùng"
+
+#~ msgid "Look _up"
+#~ msgstr "_Tra tìm"
+
+#~ msgid "Available dictionaries"
+#~ msgstr "Từ điển sẵn có"
 
 #~ msgid " - Look up words in dictionaries"
 #~ msgstr " — Tra tìm từ trong từ điển"
