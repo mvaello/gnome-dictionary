@@ -2,26 +2,25 @@
 # Copyright (C) 2005, 2006, 2007, 2008, 2009, 2010, 2011 Free Software Foundation, Inc.
 # This file is distributed under the same license as the baobab package.
 #
+#
 # Mikel Olasagasti <hey_neken@mundurat.net>, 2005.
 # Iñaki Larrañaga Murgoitio <dooteo@zundan.com>, 2005, 2006, 2007, 2008, 2009, 2010, 2011.
 # Iñaki Larrañaga Murgoitio <dooteo@zundan.com>, 2012, 2013, 2014, 2015.
 # Julen Ruiz Aizpuru <julenx@gmail.com>, 2011.
-#
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-dictionary master\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
-"dictionary&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2015-03-21 12:27+0100\n"
-"PO-Revision-Date: 2015-03-21 12:28+0100\n"
-"Last-Translator: Iñaki Larrañaga Murgoitio <dooteo@zundan.com>\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-10-14 12:13+0200\n"
+"PO-Revision-Date: 2015-09-28 23:52+0200\n"
+"Last-Translator: Inaki Larranaga Murgoitio <dooteo@zundan.com>\n"
 "Language-Team: Basque <librezale@librezale.org>\n"
 "Language: eu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 1.4\n"
+"X-Generator: Lokalize 1.5\n"
 "X-Project-Style: gnome\n"
 
 #: ../data/default.desktop.in.h:1
@@ -40,174 +39,159 @@ msgstr ""
 "dezakezu Gaztelerara, edo DICT protokoloa darabilten lineako beste hiztegiak "
 "gehitu zure beharretara egokitzeko."
 
-#: ../src/gnome-dictionary-menus.ui.h:1
+#: ../src/gdict-app-menus.ui.h:1
+msgid "_New Window"
+msgstr "Leiho _berria"
+
+#: ../src/gdict-app-menus.ui.h:2
 msgid "Preferences"
 msgstr "Hobespenak"
 
-#: ../src/gnome-dictionary-menus.ui.h:2
+#: ../src/gdict-app-menus.ui.h:3
 msgid "Help"
 msgstr "Laguntza"
 
-#: ../src/gnome-dictionary-menus.ui.h:3
+#: ../src/gdict-app-menus.ui.h:4
 msgid "About"
 msgstr "Honi _buruz"
 
-#: ../src/gnome-dictionary-menus.ui.h:4
+#: ../src/gdict-app-menus.ui.h:5
 msgid "Quit"
 msgstr "Irten"
 
-#: ../src/gnome-dictionary-menus.ui.h:5
-msgid "_File"
-msgstr "_Fitxategia"
-
-#: ../src/gnome-dictionary-menus.ui.h:6
-msgid "_New"
-msgstr "_Berria"
-
-#: ../src/gnome-dictionary-menus.ui.h:7
+#: ../src/gdict-app-menus.ui.h:6
 msgid "_Save a Copy..."
 msgstr "_Gorde kopia bat..."
 
-#: ../src/gnome-dictionary-menus.ui.h:8
+#: ../src/gdict-app-menus.ui.h:7
 msgid "P_review"
 msgstr "_Aurrebista"
 
-#: ../src/gnome-dictionary-menus.ui.h:9
+#: ../src/gdict-app-menus.ui.h:8
 msgid "_Print"
 msgstr "_Inprimatu"
 
-#. we just allow closing the dialog
-#: ../src/gnome-dictionary-menus.ui.h:10 ../src/gdict-source-dialog.c:629
-#: ../src/gdict-source-dialog.c:641
-msgid "_Close"
-msgstr "It_xi"
-
-#
-#: ../src/gnome-dictionary-menus.ui.h:11
-msgid "_Edit"
-msgstr "_Editatu"
-
-#: ../src/gnome-dictionary-menus.ui.h:12
-msgid "_Copy"
-msgstr "_Kopiatu"
-
-#: ../src/gnome-dictionary-menus.ui.h:13
-msgid "Select _All"
-msgstr "Hautatu _denak"
-
-#: ../src/gnome-dictionary-menus.ui.h:14
+#: ../src/gdict-app-menus.ui.h:9
 msgid "_Find"
 msgstr "_Bilatu"
 
-#
-#: ../src/gnome-dictionary-menus.ui.h:15
-msgid "Find Ne_xt"
-msgstr "Bilatu _hurrengoa"
-
-#
-#: ../src/gnome-dictionary-menus.ui.h:16
-msgid "Find Pre_vious"
-msgstr "Bilatu _aurrekoa"
-
-#: ../src/gnome-dictionary-menus.ui.h:17
+#: ../src/gdict-app-menus.ui.h:10
 msgid "_View"
 msgstr "_Ikusi"
 
-#: ../src/gnome-dictionary-menus.ui.h:18
+#: ../src/gdict-app-menus.ui.h:11
 msgid "_Sidebar"
 msgstr "_Albo-panela"
 
-#: ../src/gnome-dictionary-menus.ui.h:19
-msgid "S_tatusbar"
-msgstr "_Egoera-barra"
-
-#: ../src/gnome-dictionary-menus.ui.h:20
+#: ../src/gdict-app-menus.ui.h:12
 msgid "Similar _Words"
 msgstr "_Antzeko hitzak"
 
 #
-#: ../src/gnome-dictionary-menus.ui.h:21
+#: ../src/gdict-app-menus.ui.h:13
 msgid "Dictionary Sources"
 msgstr "Hiztegiaren iturburuak"
 
-#: ../src/gnome-dictionary-menus.ui.h:22
+#: ../src/gdict-app-menus.ui.h:14
 msgid "Available _Dictionaries"
 msgstr "_Hiztegi erabilgarriak"
 
 #
-#: ../src/gnome-dictionary-menus.ui.h:23
+#: ../src/gdict-app-menus.ui.h:15
 msgid "Available St_rategies"
 msgstr "_Estrategia erabilgarriak"
 
-#: ../src/gnome-dictionary-menus.ui.h:24
+#: ../src/gdict-app-menus.ui.h:16
 msgid "_Go"
 msgstr "_Joan"
 
-#: ../src/gnome-dictionary-menus.ui.h:25
+#: ../src/gdict-app-menus.ui.h:17
 msgid "_Previous Definition"
 msgstr "_Aurreko definizioa"
 
-#: ../src/gnome-dictionary-menus.ui.h:26
+#: ../src/gdict-app-menus.ui.h:18
 msgid "_Next Definition"
 msgstr "_Hurrengo definizioa"
 
-#: ../src/gnome-dictionary-menus.ui.h:27
+#: ../src/gdict-app-menus.ui.h:19
 msgid "_First Definition"
 msgstr "_Lehenengo definizioa"
 
-#: ../src/gnome-dictionary-menus.ui.h:28
+#: ../src/gdict-app-menus.ui.h:20
 msgid "_Last Definition"
 msgstr "A_zkenengo definizioa"
 
-#: ../src/gnome-dictionary-preferences.ui.h:1
+#: ../src/gdict-pref-dialog.ui.h:1
 msgid "_Select a dictionary source for looking up words:"
 msgstr "_Hautatu hiztegi-iturburua hitzak bilatzeko:"
 
-#: ../src/gnome-dictionary-preferences.ui.h:2
-#: ../src/gnome-dictionary-source.ui.h:6
+#
+#: ../src/gdict-pref-dialog.ui.h:2
+msgid "Add a new dictionary source"
+msgstr "Gehitu hiztegi-iturburu berria"
+
+#
+#: ../src/gdict-pref-dialog.ui.h:3
+msgid "Remove the currently selected dictionary source"
+msgstr "Kendu unean hautatutako hiztegi-iturburua"
+
+#: ../src/gdict-pref-dialog.ui.h:4
+msgid "Edit"
+msgstr "Editatu"
+
+#
+#: ../src/gdict-pref-dialog.ui.h:5
+msgid "Edit the currently selected dictionary source"
+msgstr "Editatu unean hautatutako hiztegi-iturburua"
+
+#: ../src/gdict-pref-dialog.ui.h:6 ../src/gdict-source-dialog.ui.h:6
 msgid "Source"
 msgstr "Iturburua"
 
-#: ../src/gnome-dictionary-preferences.ui.h:3
+#: ../src/gdict-pref-dialog.ui.h:7
 msgid "_Print font:"
 msgstr "_Inprimatzeko letra-tipoa:"
 
-#: ../src/gnome-dictionary-preferences.ui.h:4
+#: ../src/gdict-pref-dialog.ui.h:8
+msgid "Set the font used for printing the definitions"
+msgstr "Ezarri letra-tipoa (definizioak inprimatzeko erabiltzen dena)"
+
+#: ../src/gdict-pref-dialog.ui.h:9
 msgid "Print"
 msgstr "Inprimatu"
 
 #
-#: ../src/gnome-dictionary-source.ui.h:1
+#: ../src/gdict-source-dialog.ui.h:1
 msgid "_Description:"
 msgstr "_Azalpena:"
 
-#: ../src/gnome-dictionary-source.ui.h:2
+#: ../src/gdict-source-dialog.ui.h:2
 msgid "_Transport:"
 msgstr "_Garraioa:"
 
-#: ../src/gnome-dictionary-source.ui.h:3
+#: ../src/gdict-source-dialog.ui.h:3
 msgid "H_ostname:"
 msgstr "_Ostalari-izena:"
 
-#: ../src/gnome-dictionary-source.ui.h:4
+#: ../src/gdict-source-dialog.ui.h:4
 msgid "_Port:"
 msgstr "_Ataka:"
 
-#: ../src/gnome-dictionary-source.ui.h:5
+#: ../src/gdict-source-dialog.ui.h:5
 msgid "Source Name"
 msgstr "Iturburu-izena"
 
-#: ../src/gnome-dictionary-source.ui.h:7
+#: ../src/gdict-source-dialog.ui.h:7
 msgid "Dictionaries"
 msgstr "Hiztegiak"
 
 #
-#: ../src/gnome-dictionary-source.ui.h:8
+#: ../src/gdict-source-dialog.ui.h:8
 msgid "Strategies"
 msgstr "Estrategiak"
 
 #: ../data/org.gnome.Dictionary.desktop.in.in.h:1 ../src/gdict-about.c:60
-#: ../src/gdict-window.c:546 ../src/gdict-window.c:1811
+#: ../src/gdict-window.c:499 ../src/gdict-window.c:1531
 msgid "Dictionary"
 msgstr "Hiztegia"
 
@@ -220,11 +204,11 @@ msgid "word;synonym;definition;spelling;"
 msgstr "hitza;sinonimoa;definizioa;ortografia;"
 
 #
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:1
+#: ../data/org.gnome.dictionary.gschema.xml.h:1
 msgid "The default database to use"
 msgstr "Datu-base lehenetsia erabiltzeko"
 
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:2
+#: ../data/org.gnome.dictionary.gschema.xml.h:2
 msgid ""
 "The name of the default individual database or meta-database to use on a "
 "dictionary source. An exclamation mark (\"!\") means that all the databases "
@@ -235,11 +219,11 @@ msgstr ""
 "zerbitzari jakin bateko datu-base guztietan bilatu behar duela."
 
 #
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:3
+#: ../data/org.gnome.dictionary.gschema.xml.h:3
 msgid "The default search strategy to use"
 msgstr "Erabiliko den bilaketa-estrategia lehenetsia"
 
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:4
+#: ../data/org.gnome.dictionary.gschema.xml.h:4
 msgid ""
 "The name of the default search strategy to use on a dictionary source, if "
 "available. The default strategy is 'exact', that is match exact words."
@@ -248,20 +232,20 @@ msgstr ""
 "eskuragarri badago. Estrategia lehenetsia 'exact' da, bat datozen hitz "
 "zehatzak aurkitzea alegia."
 
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:5
+#: ../data/org.gnome.dictionary.gschema.xml.h:5
 msgid "The font to be used when printing"
 msgstr "Inprimatzean erabiliko den letra-tipoa"
 
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:6
+#: ../data/org.gnome.dictionary.gschema.xml.h:6
 msgid "The font to be used when printing a definition."
 msgstr "Definizio bat inprimatzean erabiliko den letra-tipoa"
 
 #
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:7
+#: ../data/org.gnome.dictionary.gschema.xml.h:7
 msgid "The name of the dictionary source used"
 msgstr "Erabilitako hiztegi-iturburuaren izena."
 
-#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:8
+#: ../data/org.gnome.dictionary.gschema.xml.h:8
 msgid ""
 "The name of the dictionary source used to retrieve the definitions of words."
 msgstr "Erabili den hiztegi-iturburuaren izena hitzen definizioak eskuratzeko."
@@ -273,41 +257,6 @@ msgstr "Gaztelerako hiztegiak"
 #: ../data/thai.desktop.in.h:1
 msgid "Longdo Thai-English Dictionaries"
 msgstr "Longdo Thailandiera-Ingelesa hiztegiak"
-
-#: ../libgdict/gdict-client-context.c:282
-msgid "Client Name"
-msgstr "Bezero-izena"
-
-#: ../libgdict/gdict-client-context.c:283
-msgid "The name of the client of the context object"
-msgstr "Testuinguru objektuko bezeroaren izena"
-
-#: ../libgdict/gdict-client-context.c:296
-msgid "Hostname"
-msgstr "Ostalari-izena"
-
-#
-#: ../libgdict/gdict-client-context.c:297
-msgid "The hostname of the dictionary server to connect to"
-msgstr "Ostalari-izena hiztegi-zerbitzariarekin konektatzeko"
-
-#: ../libgdict/gdict-client-context.c:310
-msgid "Port"
-msgstr "Ataka"
-
-#
-#: ../libgdict/gdict-client-context.c:311
-msgid "The port of the dictionary server to connect to"
-msgstr "Hiztegi-zerbitzariaren ataka konektatzeko"
-
-#: ../libgdict/gdict-client-context.c:326
-msgid "Status"
-msgstr "Egoera"
-
-#
-#: ../libgdict/gdict-client-context.c:327
-msgid "The status code as returned by the dictionary server"
-msgstr "Hiztegi-zerbitzariak itzulitako egoera-kodea"
 
 #
 #: ../libgdict/gdict-client-context.c:775
@@ -387,13 +336,13 @@ msgid "No strategies found on dictionary server at '%s'"
 msgstr "Ez da estrategiarik aurkitu '%s' hiztegi-zerbitzarian"
 
 #
-#: ../libgdict/gdict-client-context.c:1738
+#: ../libgdict/gdict-client-context.c:1745
 #, c-format
 msgid "Connection failed to the dictionary server at %s:%d"
 msgstr "Konexioak huts egin du %s:%d hiztegi-zerbitzariarekin"
 
 #
-#: ../libgdict/gdict-client-context.c:1777
+#: ../libgdict/gdict-client-context.c:1784
 #, c-format
 msgid ""
 "Error while reading reply from server:\n"
@@ -403,160 +352,63 @@ msgstr ""
 "%s"
 
 #
-#: ../libgdict/gdict-client-context.c:1850
+#: ../libgdict/gdict-client-context.c:1857
 #, c-format
 msgid "Connection timeout for the dictionary server at '%s:%d'"
 msgstr "Konexioak huts egin du '%s:%d' hiztegi-zerbitzariarekin"
 
 #
-#: ../libgdict/gdict-client-context.c:1884
+#: ../libgdict/gdict-client-context.c:1891
 #, c-format
 msgid "No hostname defined for the dictionary server"
 msgstr "Ez da hiztegi-zerbitzariaren ostalari-izenik definitu"
 
-#: ../libgdict/gdict-client-context.c:1920
-#: ../libgdict/gdict-client-context.c:1935
+#: ../libgdict/gdict-client-context.c:1927
+#: ../libgdict/gdict-client-context.c:1942
 #, c-format
 msgid "Unable to create socket"
 msgstr "Ezin da socket-a sortu"
 
-#: ../libgdict/gdict-client-context.c:1961
+#: ../libgdict/gdict-client-context.c:1968
 #, c-format
 msgid "Unable to set the channel as non-blocking: %s"
 msgstr "Ezin da kanala ez-blokeatu gisa ezarri: %s"
 
 #
-#: ../libgdict/gdict-client-context.c:1976
+#: ../libgdict/gdict-client-context.c:1983
 #, c-format
 msgid "Unable to connect to the dictionary server at '%s:%d'"
 msgstr "Ezin da hiztegi-zerbitzariarekin '%s:%d'(e)n konektatu"
 
-#: ../libgdict/gdict-context.c:217
-msgid "Local Only"
-msgstr "Lokalean soilik"
-
-#: ../libgdict/gdict-context.c:218
-msgid "Whether the context uses only local dictionaries or not"
-msgstr "Testuinguruak hiztegi lokalak soilik erabiltzen duen ala ez"
-
-#: ../libgdict/gdict-database-chooser.c:373
+#: ../libgdict/gdict-database-chooser.c:398
 msgid "Reload the list of available databases"
 msgstr "Birkargatu datu-base erabilgarrien zerrenda"
 
-#: ../libgdict/gdict-database-chooser.c:385
+#: ../libgdict/gdict-database-chooser.c:410
 msgid "Clear the list of available databases"
 msgstr "Garbitu datu-base erabilgarrien zerrenda"
 
 #
-#: ../libgdict/gdict-database-chooser.c:836 ../libgdict/gdict-speller.c:767
+#: ../libgdict/gdict-database-chooser.c:905 ../libgdict/gdict-speller.c:767
 #: ../libgdict/gdict-strategy-chooser.c:775
 msgid "Error while matching"
 msgstr "Errorea bilaketa lantzean"
 
-#: ../libgdict/gdict-defbox.c:1109 ../libgdict/gdict-defbox.c:1203
-#: ../libgdict/gdict-defbox.c:1237
-msgid "Not found"
-msgstr "Ez da aurkitu"
-
-#: ../libgdict/gdict-defbox.c:1297
-msgid "F_ind:"
-msgstr "Bila_tu:"
-
-#
-#: ../libgdict/gdict-defbox.c:1310
-msgid "_Previous"
-msgstr "_Aurrekoa"
-
-#: ../libgdict/gdict-defbox.c:1317
-msgid "_Next"
-msgstr "_Hurrengoa"
-
-#: ../libgdict/gdict-defbox.c:2461
+#: ../libgdict/gdict-defbox.c:2390
 msgid "Error while looking up definition"
 msgstr "Errorea definizioa bilatzean"
 
-#: ../libgdict/gdict-defbox.c:2503 ../libgdict/gdict-speller.c:725
+#: ../libgdict/gdict-defbox.c:2432 ../libgdict/gdict-speller.c:725
 msgid "Another search is in progress"
 msgstr "Beste bilaketa bat lantzen ari da"
 
-#: ../libgdict/gdict-defbox.c:2504 ../libgdict/gdict-speller.c:726
+#: ../libgdict/gdict-defbox.c:2433 ../libgdict/gdict-speller.c:726
 msgid "Please wait until the current search ends."
 msgstr "Itxaron uneko bilaketa amaitu arte."
 
-#: ../libgdict/gdict-defbox.c:2543
+#: ../libgdict/gdict-defbox.c:2472
 msgid "Error while retrieving the definition"
 msgstr "Errorea definizioa eskuratzean"
-
-#: ../libgdict/gdict-source.c:237
-msgid "Filename"
-msgstr "Fitxategi-izena"
-
-#
-#: ../libgdict/gdict-source.c:238
-msgid "The filename used by this dictionary source"
-msgstr "Hiztegi-iturburuak erabiltzen duen fitxategi-izena"
-
-#: ../libgdict/gdict-source.c:251
-msgid "Name"
-msgstr "Izena"
-
-#
-#: ../libgdict/gdict-source.c:252
-msgid "The display name of this dictionary source"
-msgstr "Hiztegi-iturburuaren bistaratzeko izena"
-
-#: ../libgdict/gdict-source.c:265
-msgid "Description"
-msgstr "Azalpena"
-
-#: ../libgdict/gdict-source.c:266
-msgid "The description of this dictionary source"
-msgstr "Hiztegi-iturburuaren azalpena"
-
-#: ../libgdict/gdict-source.c:279
-msgid "Editable"
-msgstr "Editagarria"
-
-#: ../libgdict/gdict-source.c:280
-msgid "Whether the dictionary source is editable or not"
-msgstr "Hiztegi-iturburua edita daitekeen edo ez."
-
-#
-#: ../libgdict/gdict-source.c:293 ../libgdict/gdict-speller.c:369
-msgid "Database"
-msgstr "Datu-basea"
-
-#
-#: ../libgdict/gdict-source.c:294
-msgid "The default database of this dictionary source"
-msgstr "Hiztegi-iturburuaren datu-base lehenetsia"
-
-#
-#: ../libgdict/gdict-source.c:307 ../libgdict/gdict-speller.c:376
-msgid "Strategy"
-msgstr "Estrategia"
-
-#
-#: ../libgdict/gdict-source.c:308
-msgid "The default strategy of this dictionary source"
-msgstr "Hiztegi-iturburuaren estrategia lehenetsia"
-
-#: ../libgdict/gdict-source.c:321
-msgid "Transport"
-msgstr "Garraioa"
-
-#
-#: ../libgdict/gdict-source.c:322
-msgid "The transport mechanism used by this dictionary source"
-msgstr "Hiztegi-iturburuak darabilen garraio mekanismoa"
-
-#: ../libgdict/gdict-source.c:336 ../libgdict/gdict-speller.c:362
-msgid "Context"
-msgstr "Testuingurua"
-
-#: ../libgdict/gdict-source.c:337
-msgid "The GdictContext bound to this source"
-msgstr "Iturburuari lotutako GdictContext"
 
 #: ../libgdict/gdict-source.c:433
 #, c-format
@@ -595,39 +447,9 @@ msgstr "'%s hiztegi-iturburuak '%s' garraio baliogabea du"
 msgid "Reload the list of available sources"
 msgstr "Birkargatu iturburu erabilgarrien zerrenda"
 
-#: ../libgdict/gdict-source-loader.c:170
-msgid "Paths"
-msgstr "Bide-izenak"
-
-#: ../libgdict/gdict-source-loader.c:171
-msgid "Search paths used by this object"
-msgstr "Bilatu objektuak darabilen bide-izenak"
-
-#: ../libgdict/gdict-source-loader.c:183
-msgid "Sources"
-msgstr "Iturburuak"
-
-#: ../libgdict/gdict-source-loader.c:184
-msgid "Dictionary sources found"
-msgstr "Hiztegi-iturburuen bilaketa"
-
 #: ../libgdict/gdict-speller.c:341
 msgid "Clear the list of similar words"
 msgstr "Garbitu antzeko hitzen zerrenda"
-
-#: ../libgdict/gdict-speller.c:363
-msgid "The GdictContext object used to get the word definition"
-msgstr "Erabilitako GdictContext objektua hitzaren definizioa lortzeko"
-
-#
-#: ../libgdict/gdict-speller.c:370
-msgid "The database used to query the GdictContext"
-msgstr "Erabilitako datu-basea GdictContext kontsultatzeko"
-
-#
-#: ../libgdict/gdict-speller.c:377
-msgid "The strategy used to query the GdictContext"
-msgstr "Erabilitako estrategia GdictContext kontsultatzeko"
 
 #: ../libgdict/gdict-strategy-chooser.c:350
 msgid "Reload the list of available strategies"
@@ -649,12 +471,12 @@ msgstr "BANDERAK"
 msgid "GDict debugging flags to unset"
 msgstr "GDict arazketa-banderak kentzeko"
 
-#: ../libgdict/gdict-utils.c:156
+#: ../libgdict/gdict-utils.c:157
 msgid "GDict Options"
 msgstr "GDict-en aukerak"
 
 #
-#: ../libgdict/gdict-utils.c:157
+#: ../libgdict/gdict-utils.c:158
 msgid "Show GDict Options"
 msgstr "Erakutsi GDict-en aukerak"
 
@@ -671,259 +493,377 @@ msgid "Look up words in dictionaries"
 msgstr "Bilatu hitza hiztegietan"
 
 #
-#: ../src/gdict-app.c:53 ../src/gdict-app.c:82
+#: ../src/gdict-app.c:47 ../src/gdict-app.c:76
 msgid "Words to look up"
 msgstr "Hitzak bilatzeko"
 
-#: ../src/gdict-app.c:53 ../src/gdict-app.c:59
+#: ../src/gdict-app.c:47 ../src/gdict-app.c:53
 msgid "WORD"
 msgstr "HITZA"
 
 #
-#: ../src/gdict-app.c:59
+#: ../src/gdict-app.c:53
 msgid "Words to match"
 msgstr "Hitzak bilatzeko"
 
-#: ../src/gdict-app.c:65
+#: ../src/gdict-app.c:59
 msgid "Dictionary source to use"
 msgstr "Hiztegi-iturburua erabiltzeko"
 
-#: ../src/gdict-app.c:65 ../src/gdict-app.c:71 ../src/gdict-app.c:77
+#: ../src/gdict-app.c:59 ../src/gdict-app.c:65 ../src/gdict-app.c:71
 msgid "NAME"
 msgstr "IZENA"
 
 #
-#: ../src/gdict-app.c:71
+#: ../src/gdict-app.c:65
 msgid "Database to use"
 msgstr "Datu-basea erabiltzeko"
 
 #
-#: ../src/gdict-app.c:77
+#: ../src/gdict-app.c:71
 msgid "Strategy to use"
 msgstr "Estrategia"
 
-#: ../src/gdict-app.c:82
+#: ../src/gdict-app.c:76
 msgid "WORDS"
 msgstr "HITZAK"
 
-#: ../src/gdict-app.c:99
+#: ../src/gdict-app.c:108
 msgid "Dictionary Preferences"
 msgstr "Hiztegiaren hobespenak"
 
-#: ../src/gdict-app.c:121 ../src/gdict-pref-dialog.c:521
-#: ../src/gdict-source-dialog.c:479
+#: ../src/gdict-app.c:130 ../src/gdict-pref-dialog.c:511
+#: ../src/gdict-source-dialog.c:452
 #, c-format
 msgid "There was an error while displaying help"
 msgstr "Errorea gertatu da laguntza bistaratzean."
 
-#: ../src/gdict-pref-dialog.c:271
+#: ../src/gdict-pref-dialog.c:264
 msgid "View Dictionary Source"
 msgstr "Ikusi hiztegiaren iturburua"
 
 #
-#: ../src/gdict-pref-dialog.c:338
+#: ../src/gdict-pref-dialog.c:330
 msgid "Add Dictionary Source"
 msgstr "Gehitu hiztegiaren iturburua"
 
-#: ../src/gdict-pref-dialog.c:383
+#: ../src/gdict-pref-dialog.c:374
 #, c-format
 msgid "Remove \"%s\"?"
 msgstr "Kendu \"%s\"?"
 
-#: ../src/gdict-pref-dialog.c:385
+#: ../src/gdict-pref-dialog.c:376
 msgid "This will permanently remove the dictionary source from the list."
 msgstr "Hiztegi-iturburuak betirako ezabatuko dira zerrendatik."
 
-#: ../src/gdict-pref-dialog.c:388 ../src/gdict-source-dialog.c:632
-#: ../src/gdict-window.c:916
+#: ../src/gdict-pref-dialog.c:379 ../src/gdict-source-dialog.c:564
+#: ../src/gdict-window.c:822
 msgid "_Cancel"
 msgstr "_Utzi"
 
-#: ../src/gdict-pref-dialog.c:389
+#: ../src/gdict-pref-dialog.c:380
 msgid "_Remove"
 msgstr "_Kendu"
 
-#: ../src/gdict-pref-dialog.c:407
+#: ../src/gdict-pref-dialog.c:398
 #, c-format
 msgid "Unable to remove source '%s'"
 msgstr "Ezin da '%s' iturburua ezabatu"
 
 #
-#: ../src/gdict-pref-dialog.c:455
+#: ../src/gdict-pref-dialog.c:445
 msgid "Edit Dictionary Source"
 msgstr "Editatu hiztegiaren iturburua"
 
-#
-#: ../src/gdict-pref-dialog.c:661
-msgid "Add a new dictionary source"
-msgstr "Gehitu hiztegi-iturburu berria"
+#. add buttons
+#. The help button is always visible
+#: ../src/gdict-pref-dialog.c:634 ../src/gdict-source-dialog.c:655
+msgid "_Help"
+msgstr "_Laguntza"
 
-#
-#: ../src/gdict-pref-dialog.c:667
-msgid "Remove the currently selected dictionary source"
-msgstr "Kendu unean hautatutako hiztegi-iturburua"
-
-#
-#: ../src/gdict-pref-dialog.c:673
-msgid "Edit the currently selected dictionary source"
-msgstr "Editatu unean hautatutako hiztegi-iturburua"
-
-#: ../src/gdict-pref-dialog.c:681
-msgid "Set the font used for printing the definitions"
-msgstr "Ezarri letra-tipoa (definizioak inprimatzeko erabiltzen dena)"
+#. we just allow closing the dialog
+#: ../src/gdict-pref-dialog.c:635 ../src/gdict-source-dialog.c:560
+#: ../src/gdict-source-dialog.c:574
+msgid "_Close"
+msgstr "It_xi"
 
 #: ../src/gdict-print.c:239 ../src/gdict-print.c:303
 #, c-format
 msgid "Unable to display the preview: %s"
 msgstr "Ezin da aurrebista bistaratu: %s"
 
-#: ../src/gdict-source-dialog.c:340 ../src/gdict-source-dialog.c:432
+#: ../src/gdict-source-dialog.c:316 ../src/gdict-source-dialog.c:404
 msgid "Unable to create a source file"
 msgstr "Ezin da iturburuko fitxategia sortu"
 
-#: ../src/gdict-source-dialog.c:356 ../src/gdict-source-dialog.c:452
+#: ../src/gdict-source-dialog.c:332 ../src/gdict-source-dialog.c:424
 msgid "Unable to save source file"
 msgstr "Ezin da iturburuko fitxategia gorde"
 
-#. the help button is always visible
-#: ../src/gdict-source-dialog.c:603
-msgid "_Help"
-msgstr "_Laguntza"
-
-#: ../src/gdict-source-dialog.c:633
+#: ../src/gdict-source-dialog.c:565
 msgid "_Add"
 msgstr "_Gehitu"
 
-#: ../src/gdict-source-dialog.c:640
+#: ../src/gdict-source-dialog.c:573
 msgid "C_ancel"
 msgstr "_Utzi"
 
-#
-#: ../src/gdict-window.c:256
-#, c-format
-msgid "Searching for '%s'..."
-msgstr "'%s' bilatzen..."
-
-#
-#: ../src/gdict-window.c:288 ../src/gdict-window.c:345
-msgid "No definitions found"
-msgstr "Ez da definiziorik aurkitu"
-
-#: ../src/gdict-window.c:290
-#, c-format
-msgid "A definition found"
-msgid_plural "%d definitions found"
-msgstr[0] "Definizio bat aurkitu da"
-msgstr[1] "%d definizio aurkitu dira"
-
-#: ../src/gdict-window.c:461
+#: ../src/gdict-window.c:414
 #, c-format
 msgid "No dictionary source available with name '%s'"
 msgstr "Ez dago '%s' izeneko hiztegi-iturbururik eskuragarri"
 
 #
-#: ../src/gdict-window.c:465
+#: ../src/gdict-window.c:418
 msgid "Unable to find dictionary source"
 msgstr "Ezin da hiztegi-iturburua aurkitu"
 
-#: ../src/gdict-window.c:481
+#: ../src/gdict-window.c:434
 #, c-format
 msgid "No context available for source '%s'"
 msgstr "Ez dago '%s' iturburuaren testuingururik eskuragarri"
 
-#: ../src/gdict-window.c:485
+#: ../src/gdict-window.c:438
 msgid "Unable to create a context"
 msgstr "Ezin izan da fitxategi-sistema sortu."
 
-#: ../src/gdict-window.c:544
+#: ../src/gdict-window.c:497
 #, c-format
 msgid "%s - Dictionary"
 msgstr "%s - Hiztegia"
 
-#: ../src/gdict-window.c:913
+#: ../src/gdict-window.c:819
 msgid "Save a Copy"
 msgstr "Gorde kopia bat"
 
-#: ../src/gdict-window.c:917
+#: ../src/gdict-window.c:823
 msgid "_Save"
 msgstr "_Gorde"
 
-#: ../src/gdict-window.c:923
+#: ../src/gdict-window.c:829
 msgid "Untitled document"
 msgstr "Izenik gabeko dokumentua"
 
 #
-#: ../src/gdict-window.c:944
+#: ../src/gdict-window.c:850
 #, c-format
 msgid "Error while writing to '%s'"
 msgstr "Errorea '%s' fitxategian idaztean"
 
-#: ../src/gdict-window.c:1368
-#, c-format
-msgid "Dictionary source `%s' selected"
-msgstr "'%s' hiztegi-iturburua erabiltzeko"
-
-#
-#: ../src/gdict-window.c:1389
-#, c-format
-msgid "Strategy `%s' selected"
-msgstr "'%s' estrategia hautatuta"
-
-#
-#: ../src/gdict-window.c:1409
-#, c-format
-msgid "Database `%s' selected"
-msgstr "'%s' datu-basea hautatuta"
-
-#: ../src/gdict-window.c:1429
-#, c-format
-msgid "Word `%s' selected"
-msgstr "'%s' hitza hautatuta"
-
 #. speller
-#: ../src/gdict-window.c:1454
+#: ../src/gdict-window.c:1211
 msgid "Double-click on the word to look up"
 msgstr "Egin klik bikoitza hitzan bilaketa egiteko"
 
 #
 #. strat-chooser
-#: ../src/gdict-window.c:1460
+#: ../src/gdict-window.c:1217
 msgid "Double-click on the matching strategy to use"
 msgstr "Egin klik bikoitza estrategian erabiltzeko"
 
 #
 #. source-chooser
-#: ../src/gdict-window.c:1465
+#: ../src/gdict-window.c:1222
 msgid "Double-click on the source to use"
 msgstr "Egin klik bikoitza iturburuan erabiltzeko"
 
-#
-#. db-chooser
-#: ../src/gdict-window.c:1474
-msgid "Double-click on the database to use"
-msgstr "Egin klik bikoitza datu-basean erabiltzeko"
-
-#: ../src/gdict-window.c:1622
-msgid "Look _up"
-msgstr "_Bilatu"
-
-#: ../src/gdict-window.c:1696
+#: ../src/gdict-window.c:1428
 msgid "Similar words"
 msgstr "Antzeko hitzak"
 
 #
-#: ../src/gdict-window.c:1709
-msgid "Available dictionaries"
-msgstr "Hiztegi erabilgarriak"
-
-#
-#: ../src/gdict-window.c:1727
+#: ../src/gdict-window.c:1459
 msgid "Available strategies"
 msgstr "Estrategia erabilgarriak"
 
-#: ../src/gdict-window.c:1743
+#: ../src/gdict-window.c:1475
 msgid "Dictionary sources"
 msgstr "Hiztegiaren iturburuak"
+
+#~ msgid "_File"
+#~ msgstr "_Fitxategia"
+
+#~ msgid "_New"
+#~ msgstr "_Berria"
+
+#~ msgid "_Copy"
+#~ msgstr "_Kopiatu"
+
+#~ msgid "Select _All"
+#~ msgstr "Hautatu _denak"
+
+#
+#~ msgid "Find Ne_xt"
+#~ msgstr "Bilatu _hurrengoa"
+
+#
+#~ msgid "Find Pre_vious"
+#~ msgstr "Bilatu _aurrekoa"
+
+#~ msgid "S_tatusbar"
+#~ msgstr "_Egoera-barra"
+
+#~ msgid "Client Name"
+#~ msgstr "Bezero-izena"
+
+#~ msgid "The name of the client of the context object"
+#~ msgstr "Testuinguru objektuko bezeroaren izena"
+
+#~ msgid "Hostname"
+#~ msgstr "Ostalari-izena"
+
+#
+#~ msgid "The hostname of the dictionary server to connect to"
+#~ msgstr "Ostalari-izena hiztegi-zerbitzariarekin konektatzeko"
+
+#~ msgid "Port"
+#~ msgstr "Ataka"
+
+#
+#~ msgid "The port of the dictionary server to connect to"
+#~ msgstr "Hiztegi-zerbitzariaren ataka konektatzeko"
+
+#~ msgid "Status"
+#~ msgstr "Egoera"
+
+#
+#~ msgid "The status code as returned by the dictionary server"
+#~ msgstr "Hiztegi-zerbitzariak itzulitako egoera-kodea"
+
+#~ msgid "Local Only"
+#~ msgstr "Lokalean soilik"
+
+#~ msgid "Whether the context uses only local dictionaries or not"
+#~ msgstr "Testuinguruak hiztegi lokalak soilik erabiltzen duen ala ez"
+
+#~ msgid "Not found"
+#~ msgstr "Ez da aurkitu"
+
+#~ msgid "F_ind:"
+#~ msgstr "Bila_tu:"
+
+#
+#~ msgid "_Previous"
+#~ msgstr "_Aurrekoa"
+
+#~ msgid "_Next"
+#~ msgstr "_Hurrengoa"
+
+#~ msgid "Filename"
+#~ msgstr "Fitxategi-izena"
+
+#
+#~ msgid "The filename used by this dictionary source"
+#~ msgstr "Hiztegi-iturburuak erabiltzen duen fitxategi-izena"
+
+#~ msgid "Name"
+#~ msgstr "Izena"
+
+#
+#~ msgid "The display name of this dictionary source"
+#~ msgstr "Hiztegi-iturburuaren bistaratzeko izena"
+
+#~ msgid "Description"
+#~ msgstr "Azalpena"
+
+#~ msgid "The description of this dictionary source"
+#~ msgstr "Hiztegi-iturburuaren azalpena"
+
+#~ msgid "Editable"
+#~ msgstr "Editagarria"
+
+#~ msgid "Whether the dictionary source is editable or not"
+#~ msgstr "Hiztegi-iturburua edita daitekeen edo ez."
+
+#
+#~ msgid "Database"
+#~ msgstr "Datu-basea"
+
+#
+#~ msgid "The default database of this dictionary source"
+#~ msgstr "Hiztegi-iturburuaren datu-base lehenetsia"
+
+#
+#~ msgid "Strategy"
+#~ msgstr "Estrategia"
+
+#
+#~ msgid "The default strategy of this dictionary source"
+#~ msgstr "Hiztegi-iturburuaren estrategia lehenetsia"
+
+#~ msgid "Transport"
+#~ msgstr "Garraioa"
+
+#
+#~ msgid "The transport mechanism used by this dictionary source"
+#~ msgstr "Hiztegi-iturburuak darabilen garraio mekanismoa"
+
+#~ msgid "Context"
+#~ msgstr "Testuingurua"
+
+#~ msgid "The GdictContext bound to this source"
+#~ msgstr "Iturburuari lotutako GdictContext"
+
+#~ msgid "Paths"
+#~ msgstr "Bide-izenak"
+
+#~ msgid "Search paths used by this object"
+#~ msgstr "Bilatu objektuak darabilen bide-izenak"
+
+#~ msgid "Sources"
+#~ msgstr "Iturburuak"
+
+#~ msgid "Dictionary sources found"
+#~ msgstr "Hiztegi-iturburuen bilaketa"
+
+#~ msgid "The GdictContext object used to get the word definition"
+#~ msgstr "Erabilitako GdictContext objektua hitzaren definizioa lortzeko"
+
+#
+#~ msgid "The database used to query the GdictContext"
+#~ msgstr "Erabilitako datu-basea GdictContext kontsultatzeko"
+
+#
+#~ msgid "The strategy used to query the GdictContext"
+#~ msgstr "Erabilitako estrategia GdictContext kontsultatzeko"
+
+#
+#~ msgid "Searching for '%s'..."
+#~ msgstr "'%s' bilatzen..."
+
+#
+#~ msgid "No definitions found"
+#~ msgstr "Ez da definiziorik aurkitu"
+
+#~ msgid "A definition found"
+#~ msgid_plural "%d definitions found"
+#~ msgstr[0] "Definizio bat aurkitu da"
+#~ msgstr[1] "%d definizio aurkitu dira"
+
+#~ msgid "Dictionary source `%s' selected"
+#~ msgstr "'%s' hiztegi-iturburua erabiltzeko"
+
+#
+#~ msgid "Strategy `%s' selected"
+#~ msgstr "'%s' estrategia hautatuta"
+
+#
+#~ msgid "Database `%s' selected"
+#~ msgstr "'%s' datu-basea hautatuta"
+
+#~ msgid "Word `%s' selected"
+#~ msgstr "'%s' hitza hautatuta"
+
+#
+#~ msgid "Double-click on the database to use"
+#~ msgstr "Egin klik bikoitza datu-basean erabiltzeko"
+
+#~ msgid "Look _up"
+#~ msgstr "_Bilatu"
+
+#
+#~ msgid "Available dictionaries"
+#~ msgstr "Hiztegi erabilgarriak"
 
 #
 #~ msgid " - Look up words in dictionaries"
