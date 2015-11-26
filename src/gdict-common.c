@@ -118,7 +118,7 @@ gdict_create_config_dir (void)
   if (!g_file_test (config_dir_name, G_FILE_TEST_IS_DIR))
     {
       if (!g_file_test (config_dir_name, G_FILE_TEST_IS_DIR)) {
-        g_message ("Creating XDG config direcotry: %s", config_dir_name);
+        g_message ("Creating XDG config directory: %s", config_dir_name);
 
         if (g_mkdir (config_dir_name, 0700) == -1)
           {
