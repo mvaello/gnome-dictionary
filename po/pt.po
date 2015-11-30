@@ -181,7 +181,7 @@ msgstr "_Transporte:"
 
 #: ../src/gnome-dictionary-source.ui.h:3
 msgid "H_ostname:"
-msgstr "N_ome da máquina:"
+msgstr "N_Ome da máquina:"
 
 #: ../src/gnome-dictionary-source.ui.h:4
 msgid "_Port:"
@@ -307,8 +307,7 @@ msgstr "Sem ligação ao servidor de dicionário em \"%s:%d\""
 #: ../libgdict/gdict-client-context.c:1058
 #, c-format
 msgid "Lookup failed for hostname '%s': no suitable resources found"
-msgstr ""
-"Procura falhou para a máquina \"%s\": nenhum recurso adequado encontrado"
+msgstr "Procura falhou para a máquina \"%s\": nenhum recurso adequado encontrado"
 
 #: ../libgdict/gdict-client-context.c:1089
 #, c-format
@@ -390,8 +389,7 @@ msgstr ""
 #: ../libgdict/gdict-client-context.c:1850
 #, c-format
 msgid "Connection timeout for the dictionary server at '%s:%d'"
-msgstr ""
-"Tempo expirado ao aguardar ligação ao servidor de dicionário em \"%s:%d\""
+msgstr "Tempo expirado ao aguardar ligação ao servidor de dicionário em \"%s:%d\""
 
 #: ../libgdict/gdict-client-context.c:1884
 #, c-format
@@ -637,8 +635,7 @@ msgstr "Mostrar as opções do GDict"
 
 #: ../src/gdict-about.c:53
 msgid "translator-credits"
-msgstr ""
-"Duarte Loreto <happyguy_pt@hotmail.com>\n"
+msgstr "Duarte Loreto <happyguy_pt@hotmail.com>\n"
 "Pedro Albuquerque <palbuquerque73@gmail.com>"
 
 #: ../src/gdict-about.c:55
@@ -679,7 +676,7 @@ msgstr "PALAVRAS"
 
 #: ../src/gdict-app.c:99
 msgid "Dictionary Preferences"
-msgstr "Preferências do dicionário"
+msgstr "Preferências do Dicionário"
 
 #: ../src/gdict-app.c:121 ../src/gdict-pref-dialog.c:521
 #: ../src/gdict-source-dialog.c:479
@@ -738,7 +735,7 @@ msgstr "Editar a origem de dicionário atualmente selecionada"
 
 #: ../src/gdict-pref-dialog.c:681
 msgid "Set the font used for printing the definitions"
-msgstr "Definir a fonte utilizada para imprimir as definições"
+msgstr "Definir a letra utilizada para imprimir as definições"
 
 #: ../src/gdict-print.c:239 ../src/gdict-print.c:303
 #, c-format
