@@ -321,23 +321,14 @@ gdict_app_startup (GApplication *application)
   static const char *lookup_accels[2] = { "<Primary>l", NULL };
   static const char *escape_accels[2] = { "Escape", NULL };
 
-  GtkBuilder *builder = gtk_builder_new ();
-  GError * error = NULL;
-
   G_APPLICATION_CLASS (gdict_app_parent_class)->startup (application);
 
   g_action_map_add_action_entries (G_ACTION_MAP (application),
                                    app_entries, G_N_ELEMENTS (app_entries),
                                    application);
 
-  gtk_builder_add_from_resource (builder, "/org/gnome/Dictionary/gdict-app-menus.ui", NULL);
-
-  gtk_application_set_app_menu (GTK_APPLICATION (application),
-                                G_MENU_MODEL (gtk_builder_get_object (builder, "app-menu")));
   gtk_application_set_accels_for_action (GTK_APPLICATION (application), "win.lookup", lookup_accels);
   gtk_application_set_accels_for_action (GTK_APPLICATION (application), "win.escape", escape_accels);
-
-  g_object_unref (builder);
 }
 
 static void
@@ -376,6 +367,7 @@ gdict_app_new (void)
 {
   return g_object_new (gdict_app_get_type (),
                        "application-id", "org.gnome.Dictionary",
+                       "resource-base-path", "/org/gnome/Dictionary",
                        "flags", G_APPLICATION_HANDLES_COMMAND_LINE,
                        NULL);
 }

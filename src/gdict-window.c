@@ -1322,23 +1322,21 @@ gdict_window_handle_notify_position_cb (GtkWidget  *widget,
   window->sidebar_width = window_width - pos;
 }
 
-static GObject *
-gdict_window_constructor (GType                  type,
-			  guint                  n_construct_properties,
-			  GObjectConstructParam *construct_params)
+static void
+gdict_window_constructed (GObject *gobject)
 {
+  GApplication *app;
   GObject *object;
   GdictWindow *window;
-  GtkBuilder *builder;
   GtkWidget *handle;
   GtkWidget *frame1, *frame2;
   GtkWidget *button;
   PangoFontDescription *font_desc;
   gchar *font_name;
   GtkAllocation allocation;
+  GMenu *menu;
   
-  object = G_OBJECT_CLASS (gdict_window_parent_class)->constructor (type, n_construct_properties, construct_params);
-  window = GDICT_WINDOW (object);
+  window = GDICT_WINDOW (gobject);
 
   window->in_construction = TRUE;
 
@@ -1351,31 +1349,29 @@ gdict_window_constructor (GType                  type,
                                    window);
   gdict_window_ensure_menu_state (window);
 
+  /* The :application property of GtkWindow is not yet set inside
+   * the constructed() vfunc, so we need to use the global singleton
+   */
+  app = g_application_get_default ();
+  menu = gtk_application_get_menu_by_id (GTK_APPLICATION (app), "popup");
   button = gtk_menu_button_new ();
-  builder = gtk_builder_new ();
-  gtk_builder_add_from_resource (builder, "/org/gnome/Dictionary/gdict-app-menus.ui", NULL);
-  gtk_menu_button_set_menu_model (GTK_MENU_BUTTON (button),
-                                  G_MENU_MODEL (gtk_builder_get_object (builder, "menubar")));
-  g_object_unref (builder);
+  gtk_menu_button_set_menu_model (GTK_MENU_BUTTON (button), G_MENU_MODEL (menu));
   gtk_menu_button_set_direction (GTK_MENU_BUTTON (button), GTK_ARROW_NONE);
   gtk_header_bar_pack_end (GTK_HEADER_BAR (window->header_bar), button);
   gtk_widget_show (button);
 
-  window->completion_model = gtk_list_store_new (COMPLETION_N_COLUMNS,
-		  				 G_TYPE_STRING);
+  window->completion_model = gtk_list_store_new (COMPLETION_N_COLUMNS, G_TYPE_STRING);
   
   window->completion = gtk_entry_completion_new ();
   gtk_entry_completion_set_popup_completion (window->completion, TRUE);
   gtk_entry_completion_set_model (window->completion,
 		  		  GTK_TREE_MODEL (window->completion_model));
-  gtk_entry_completion_set_text_column (window->completion,
-		  			COMPLETION_TEXT_COLUMN);
+  gtk_entry_completion_set_text_column (window->completion, COMPLETION_TEXT_COLUMN);
   
   if (window->word)
     gtk_entry_set_text (GTK_ENTRY (window->entry), window->word);
   
-  gtk_entry_set_completion (GTK_ENTRY (window->entry),
-		  	    window->completion);
+  gtk_entry_set_completion (GTK_ENTRY (window->entry), window->completion);
   g_signal_connect_swapped (window->entry, "activate",
                             G_CALLBACK (lookup_word),
                             window);
@@ -1418,8 +1414,7 @@ gdict_window_constructor (GType                  type,
   /* Speller */
   window->speller = gdict_speller_new ();
   if (window->context)
-    gdict_speller_set_context (GDICT_SPELLER (window->speller),
-		    	       window->context);
+    gdict_speller_set_context (GDICT_SPELLER (window->speller), window->context);
   g_signal_connect (window->speller, "word-activated",
 		    G_CALLBACK (speller_word_activated_cb),
 		    window);
@@ -1556,7 +1551,7 @@ gdict_window_constructor (GType                  type,
 
   window->in_construction = FALSE;
 
-  return object;
+  G_OBJECT_CLASS (gdict_window_parent_class)->constructed (gobject);
 }
 
 static void
@@ -1658,7 +1653,7 @@ gdict_window_class_init (GdictWindowClass *klass)
   gobject_class->dispose = gdict_window_dispose;
   gobject_class->set_property = gdict_window_set_property;
   gobject_class->get_property = gdict_window_get_property;
-  gobject_class->constructor = gdict_window_constructor;
+  gobject_class->constructed = gdict_window_constructed;
 
   g_object_class_install_properties (gobject_class,
                                      LAST_PROP,

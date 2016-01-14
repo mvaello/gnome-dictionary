@@ -30,7 +30,7 @@
     </section>
   </menu>
 
-  <menu id="menubar">
+  <menu id="popup">
     <section>
       <item>
         <attribute name="label" translatable="yes">_Save a Copy...</attribute>
