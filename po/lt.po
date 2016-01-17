@@ -14,8 +14,8 @@ msgstr ""
 "Project-Id-Version: lt\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "dictionary&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2015-09-03 07:04+0000\n"
-"PO-Revision-Date: 2015-09-03 14:51+0300\n"
+"POT-Creation-Date: 2016-01-14 21:12+0000\n"
+"PO-Revision-Date: 2016-01-06 21:57+0200\n"
 "Last-Translator: Aurimas Černius <aurisc4@gmail.com>\n"
 "Language-Team: Lietuvių <gnome-lt@lists.akl.lt>\n"
 "Language: lt\n"
@@ -24,7 +24,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n"
 "%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Gtranslator 2.91.7\n"
+"X-Generator: Poedit 1.8.6\n"
 
 #: ../data/default.desktop.in.h:1
 msgid "Default Dictionary Server"
@@ -48,7 +48,7 @@ msgstr "_Naujas langas"
 
 #: ../src/gdict-app-menus.ui.h:2
 msgid "Preferences"
-msgstr "Nustatymai"
+msgstr "Nuostatos"
 
 #: ../src/gdict-app-menus.ui.h:3
 msgid "Help"
@@ -135,7 +135,6 @@ msgid "Remove the currently selected dictionary source"
 msgstr "Pašalinti dabar pasirinktą žodyno šaltinį"
 
 #: ../src/gdict-pref-dialog.ui.h:4
-#| msgid "_Edit"
 msgid "Edit"
 msgstr "Keisti"
 
@@ -188,7 +187,7 @@ msgid "Strategies"
 msgstr "Strategijos"
 
 #: ../data/org.gnome.Dictionary.desktop.in.in.h:1 ../src/gdict-about.c:60
-#: ../src/gdict-window.c:499 ../src/gdict-window.c:1531
+#: ../src/gdict-window.c:499 ../src/gdict-window.c:1526
 msgid "Dictionary"
 msgstr "Žodynas"
 
@@ -456,11 +455,11 @@ msgstr "Pašalintinos GDict derinimo žymos"
 
 #: ../libgdict/gdict-utils.c:157
 msgid "GDict Options"
-msgstr "GDict parinktys"
+msgstr "GDict parametrai"
 
 #: ../libgdict/gdict-utils.c:158
 msgid "Show GDict Options"
-msgstr "Rodyti GDict parinktis"
+msgstr "Rodyti GDict parametrus"
 
 #: ../src/gdict-about.c:53
 msgid "translator-credits"
@@ -477,43 +476,43 @@ msgstr ""
 msgid "Look up words in dictionaries"
 msgstr "Ieškoti žodynuose žodžių"
 
-#: ../src/gdict-app.c:46 ../src/gdict-app.c:75
+#: ../src/gdict-app.c:47 ../src/gdict-app.c:76
 msgid "Words to look up"
 msgstr "Ieškotini žodžiai"
 
-#: ../src/gdict-app.c:46 ../src/gdict-app.c:52
+#: ../src/gdict-app.c:47 ../src/gdict-app.c:53
 msgid "WORD"
 msgstr "ŽODIS"
 
-#: ../src/gdict-app.c:52
+#: ../src/gdict-app.c:53
 msgid "Words to match"
 msgstr "Žodžiai atitikimui"
 
-#: ../src/gdict-app.c:58
+#: ../src/gdict-app.c:59
 msgid "Dictionary source to use"
 msgstr "Naudotinas žodyno šaltinis"
 
-#: ../src/gdict-app.c:58 ../src/gdict-app.c:64 ../src/gdict-app.c:70
+#: ../src/gdict-app.c:59 ../src/gdict-app.c:65 ../src/gdict-app.c:71
 msgid "NAME"
 msgstr "PAVADINIMAS"
 
-#: ../src/gdict-app.c:64
+#: ../src/gdict-app.c:65
 msgid "Database to use"
 msgstr "Naudotina duomenų bazė"
 
-#: ../src/gdict-app.c:70
+#: ../src/gdict-app.c:71
 msgid "Strategy to use"
 msgstr "Naudotina strategija"
 
-#: ../src/gdict-app.c:75
+#: ../src/gdict-app.c:76
 msgid "WORDS"
 msgstr "ŽODŽIAI"
 
-#: ../src/gdict-app.c:107
+#: ../src/gdict-app.c:108
 msgid "Dictionary Preferences"
-msgstr "Žodyno nustatymai"
+msgstr "Žodyno nuostatos"
 
-#: ../src/gdict-app.c:129 ../src/gdict-pref-dialog.c:511
+#: ../src/gdict-app.c:130 ../src/gdict-pref-dialog.c:511
 #: ../src/gdict-source-dialog.c:452
 #, c-format
 msgid "There was an error while displaying help"
@@ -643,15 +642,15 @@ msgstr "Du kartus spragtelėkite naudotiną strategiją"
 msgid "Double-click on the source to use"
 msgstr "Dukart spragtelėkite naudotiną šaltinį"
 
-#: ../src/gdict-window.c:1428
+#: ../src/gdict-window.c:1423
 msgid "Similar words"
 msgstr "Panašūs žodžiai"
 
-#: ../src/gdict-window.c:1459
+#: ../src/gdict-window.c:1454
 msgid "Available strategies"
 msgstr "Prieinamos strategijos"
 
-#: ../src/gdict-window.c:1475
+#: ../src/gdict-window.c:1470
 msgid "Dictionary sources"
 msgstr "Žodyno šaltiniai"
 
