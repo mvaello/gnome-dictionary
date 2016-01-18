@@ -9,15 +9,15 @@
 # Wadim Dziedzic <wdziedzic@aviary.pl>, 2007.
 # Tomasz Dominikowski <dominikowski@gmail.com>, 2007-2009.
 # Joanna Mazgaj <jmazgaj@aviary.pl>, 2008.
-# Piotr Drąg <piotrdrag@gmail.com>, 2010-2015.
+# Piotr Drąg <piotrdrag@gmail.com>, 2010-2016.
 # Paweł Żołnowski <pawel@zolnowski.name>, 2014-2015.
-# Aviary.pl <gnomepl@aviary.pl>, 2007-2015.
+# Aviary.pl <gnomepl@aviary.pl>, 2007-2016.
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-dictionary\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-08-29 21:14+0200\n"
-"PO-Revision-Date: 2015-08-29 21:15+0200\n"
+"POT-Creation-Date: 2016-01-18 21:09+0100\n"
+"PO-Revision-Date: 2016-01-18 21:10+0100\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <gnomepl@aviary.pl>\n"
 "Language: pl\n"
@@ -145,7 +145,7 @@ msgstr "Modyfikuj"
 msgid "Edit the currently selected dictionary source"
 msgstr "Modyfikuje zaznaczone źródło słownika"
 
-#: ../src/gdict-pref-dialog.ui.h:6 ../src/gdict-source-dialog.ui.h:6
+#: ../src/gdict-pref-dialog.ui.h:6 ../src/gdict-source-dialog.ui.h:8
 msgid "Source"
 msgstr "Źródło"
 
@@ -162,35 +162,43 @@ msgid "Print"
 msgstr "Wydruk"
 
 #: ../src/gdict-source-dialog.ui.h:1
-msgid "_Description:"
-msgstr "_Opis:"
+msgid "_Description"
+msgstr "_Opis"
 
 #: ../src/gdict-source-dialog.ui.h:2
-msgid "_Transport:"
-msgstr "_Transport:"
+msgid "_Port"
+msgstr "_Port"
 
 #: ../src/gdict-source-dialog.ui.h:3
-msgid "H_ostname:"
-msgstr "_Nazwa komputera:"
+msgid "_Hostname"
+msgstr "Nazwa _komputera"
 
 #: ../src/gdict-source-dialog.ui.h:4
-msgid "_Port:"
-msgstr "_Port:"
+msgid "_Transport"
+msgstr "_Transport"
 
 #: ../src/gdict-source-dialog.ui.h:5
+msgid "2628"
+msgstr "2628"
+
+#: ../src/gdict-source-dialog.ui.h:6
+msgid "dict.org"
+msgstr "dict.org"
+
+#: ../src/gdict-source-dialog.ui.h:7
 msgid "Source Name"
 msgstr "Nazwa źródła"
 
-#: ../src/gdict-source-dialog.ui.h:7
+#: ../src/gdict-source-dialog.ui.h:9
 msgid "Dictionaries"
 msgstr "Słowniki"
 
-#: ../src/gdict-source-dialog.ui.h:8
+#: ../src/gdict-source-dialog.ui.h:10
 msgid "Strategies"
 msgstr "Strategie"
 
 #: ../data/org.gnome.Dictionary.desktop.in.in.h:1 ../src/gdict-about.c:60
-#: ../src/gdict-window.c:499 ../src/gdict-window.c:1531
+#: ../src/gdict-window.c:500 ../src/gdict-window.c:1528
 msgid "Dictionary"
 msgstr "Słownik"
 
@@ -252,38 +260,6 @@ msgstr "Słowniki hiszpańskie"
 #: ../data/thai.desktop.in.h:1
 msgid "Longdo Thai-English Dictionaries"
 msgstr "Słowniki tajsko-angielskie Longdo"
-
-#: ../libgdict/gdict-client-context.c:282
-msgid "Client Name"
-msgstr "Nazwa klienta"
-
-#: ../libgdict/gdict-client-context.c:283
-msgid "The name of the client of the context object"
-msgstr "Nazwa klienta dla obiektu kontekstu"
-
-#: ../libgdict/gdict-client-context.c:296
-msgid "Hostname"
-msgstr "Nazwa komputera"
-
-#: ../libgdict/gdict-client-context.c:297
-msgid "The hostname of the dictionary server to connect to"
-msgstr "Nazwa komputera używanego serwera słownika"
-
-#: ../libgdict/gdict-client-context.c:310
-msgid "Port"
-msgstr "Port"
-
-#: ../libgdict/gdict-client-context.c:311
-msgid "The port of the dictionary server to connect to"
-msgstr "Port serwera słownika"
-
-#: ../libgdict/gdict-client-context.c:326
-msgid "Status"
-msgstr "Stan"
-
-#: ../libgdict/gdict-client-context.c:327
-msgid "The status code as returned by the dictionary server"
-msgstr "Kod stanu zwracany przez serwer słownika"
 
 #: ../libgdict/gdict-client-context.c:775
 #, c-format
@@ -402,23 +378,15 @@ msgstr "Nie można ustawić kanału jako nieblokujący: %s"
 msgid "Unable to connect to the dictionary server at '%s:%d'"
 msgstr "Nie można połączyć się z serwerem słownika „%s:%d”"
 
-#: ../libgdict/gdict-context.c:289
-msgid "Local Only"
-msgstr "Tylko lokalny"
-
-#: ../libgdict/gdict-context.c:290
-msgid "Whether the context uses only local dictionaries or not"
-msgstr "Określa, czy kontekst używa tylko słowników lokalnych"
-
-#: ../libgdict/gdict-database-chooser.c:398
+#: ../libgdict/gdict-database-chooser.c:374
 msgid "Reload the list of available databases"
 msgstr "Ponownie wczytuje listę dostępnych baz"
 
-#: ../libgdict/gdict-database-chooser.c:410
+#: ../libgdict/gdict-database-chooser.c:386
 msgid "Clear the list of available databases"
 msgstr "Czyści listę dostępnych baz"
 
-#: ../libgdict/gdict-database-chooser.c:905 ../libgdict/gdict-speller.c:767
+#: ../libgdict/gdict-database-chooser.c:840 ../libgdict/gdict-speller.c:767
 #: ../libgdict/gdict-strategy-chooser.c:775
 msgid "Error while matching"
 msgstr "Błąd podczas dopasowywania"
@@ -438,70 +406,6 @@ msgstr "Proszę poczekać na ukończenie bieżącego wyszukiwania."
 #: ../libgdict/gdict-defbox.c:2472
 msgid "Error while retrieving the definition"
 msgstr "Błąd podczas pobierania definicji"
-
-#: ../libgdict/gdict-source.c:237
-msgid "Filename"
-msgstr "Nazwa pliku"
-
-#: ../libgdict/gdict-source.c:238
-msgid "The filename used by this dictionary source"
-msgstr "Nazwa pliku tego źródła słownika"
-
-#: ../libgdict/gdict-source.c:251
-msgid "Name"
-msgstr "Nazwa"
-
-#: ../libgdict/gdict-source.c:252
-msgid "The display name of this dictionary source"
-msgstr "Wyświetlana nazwa tego źródła słownika"
-
-#: ../libgdict/gdict-source.c:265
-msgid "Description"
-msgstr "Opis"
-
-#: ../libgdict/gdict-source.c:266
-msgid "The description of this dictionary source"
-msgstr "Opis tego źródła słownika"
-
-#: ../libgdict/gdict-source.c:279
-msgid "Editable"
-msgstr "Może być modyfikowane"
-
-#: ../libgdict/gdict-source.c:280
-msgid "Whether the dictionary source is editable or not"
-msgstr "Określa, czy źródło słownika może być modyfikowane"
-
-#: ../libgdict/gdict-source.c:293 ../libgdict/gdict-speller.c:369
-msgid "Database"
-msgstr "Baza danych"
-
-#: ../libgdict/gdict-source.c:294
-msgid "The default database of this dictionary source"
-msgstr "Domyślna baza danych tego źródła słownika"
-
-#: ../libgdict/gdict-source.c:307 ../libgdict/gdict-speller.c:376
-msgid "Strategy"
-msgstr "Strategia"
-
-#: ../libgdict/gdict-source.c:308
-msgid "The default strategy of this dictionary source"
-msgstr "Domyślna strategia tego źródła słownika"
-
-#: ../libgdict/gdict-source.c:321
-msgid "Transport"
-msgstr "Przesyłanie"
-
-#: ../libgdict/gdict-source.c:322
-msgid "The transport mechanism used by this dictionary source"
-msgstr "Mechanizm przesyłania tego źródła słownika"
-
-#: ../libgdict/gdict-source.c:336 ../libgdict/gdict-speller.c:362
-msgid "Context"
-msgstr "Kontekst"
-
-#: ../libgdict/gdict-source.c:337
-msgid "The GdictContext bound to this source"
-msgstr "GdictContext związany z tym źródłem"
 
 #: ../libgdict/gdict-source.c:433
 #, c-format
@@ -540,37 +444,9 @@ msgstr "Źródło słownika „%s” ma nieprawidłowy transport „%s”"
 msgid "Reload the list of available sources"
 msgstr "Ponownie wczytuje listę dostępnych źródeł"
 
-#: ../libgdict/gdict-source-loader.c:170
-msgid "Paths"
-msgstr "Ścieżki"
-
-#: ../libgdict/gdict-source-loader.c:171
-msgid "Search paths used by this object"
-msgstr "Ścieżki wyszukiwania używane przez ten obiekt"
-
-#: ../libgdict/gdict-source-loader.c:183
-msgid "Sources"
-msgstr "Źródła"
-
-#: ../libgdict/gdict-source-loader.c:184
-msgid "Dictionary sources found"
-msgstr "Odnaleziono źródła słowników"
-
 #: ../libgdict/gdict-speller.c:341
 msgid "Clear the list of similar words"
 msgstr "Czyści listę podobnych słów"
-
-#: ../libgdict/gdict-speller.c:363
-msgid "The GdictContext object used to get the word definition"
-msgstr "Obiekt GdictContext używany jest do pobierania definicji słów"
-
-#: ../libgdict/gdict-speller.c:370
-msgid "The database used to query the GdictContext"
-msgstr "Baza danych używana do zapytań GdictContext"
-
-#: ../libgdict/gdict-speller.c:377
-msgid "The strategy used to query the GdictContext"
-msgstr "Strategia używana do zapytań GdictContext"
 
 #: ../libgdict/gdict-strategy-chooser.c:350
 msgid "Reload the list of available strategies"
@@ -608,102 +484,88 @@ msgstr ""
 "Wadim Dziedzic <wdziedzic@aviary.pl>, 2007\n"
 "Tomasz Dominikowski <dominikowski@gmail.com>, 2007-2009\n"
 "Joanna Mazgaj <jmazgaj@aviary.pl>, 2008\n"
-"Piotr Drąg <piotrdrag@gmail.com>, 2010-2015\n"
+"Piotr Drąg <piotrdrag@gmail.com>, 2010-2016\n"
 "Paweł Żołnowski <pawel@zolnowski.name>, 2014-2015\n"
-"Aviary.pl <gnomepl@aviary.pl>, 2007-2015"
+"Aviary.pl <gnomepl@aviary.pl>, 2007-2016"
 
 #: ../src/gdict-about.c:55
 msgid "Look up words in dictionaries"
 msgstr "Wyszukuje słowo w słowniku"
 
-#: ../src/gdict-app.c:46 ../src/gdict-app.c:75
+#: ../src/gdict-app.c:47 ../src/gdict-app.c:76
 msgid "Words to look up"
 msgstr "Słowa do wyszukania"
 
-#: ../src/gdict-app.c:46 ../src/gdict-app.c:52
+#: ../src/gdict-app.c:47 ../src/gdict-app.c:53
 msgid "WORD"
 msgstr "SŁOWO"
 
-#: ../src/gdict-app.c:52
+#: ../src/gdict-app.c:53
 msgid "Words to match"
 msgstr "Słowa do dopasowania"
 
-#: ../src/gdict-app.c:58
+#: ../src/gdict-app.c:59
 msgid "Dictionary source to use"
 msgstr "Źródło słownika do użycia"
 
-#: ../src/gdict-app.c:58 ../src/gdict-app.c:64 ../src/gdict-app.c:70
+#: ../src/gdict-app.c:59 ../src/gdict-app.c:65 ../src/gdict-app.c:71
 msgid "NAME"
 msgstr "NAZWA"
 
-#: ../src/gdict-app.c:64
+#: ../src/gdict-app.c:65
 msgid "Database to use"
 msgstr "Baza danych do użycia"
 
-#: ../src/gdict-app.c:70
+#: ../src/gdict-app.c:71
 msgid "Strategy to use"
 msgstr "Strategia do użycia"
 
-#: ../src/gdict-app.c:75
+#: ../src/gdict-app.c:76
 msgid "WORDS"
 msgstr "SŁOWA"
 
-#: ../src/gdict-app.c:107
+#: ../src/gdict-app.c:108
 msgid "Dictionary Preferences"
 msgstr "Preferencje słownika"
 
-#: ../src/gdict-app.c:129 ../src/gdict-pref-dialog.c:511
-#: ../src/gdict-source-dialog.c:452
-#, c-format
+#: ../src/gdict-app.c:130 ../src/gdict-source-dialog.c:452
 msgid "There was an error while displaying help"
 msgstr "Wystąpił błąd podczas wyświetlania pomocy"
 
-#: ../src/gdict-pref-dialog.c:264
+#: ../src/gdict-pref-dialog.c:262
 msgid "View Dictionary Source"
 msgstr "Przeglądanie źródła słownika"
 
-#: ../src/gdict-pref-dialog.c:330
+#: ../src/gdict-pref-dialog.c:328
 msgid "Add Dictionary Source"
 msgstr "Dodanie źródła słownika"
 
-#: ../src/gdict-pref-dialog.c:374
+#: ../src/gdict-pref-dialog.c:372
 #, c-format
 msgid "Remove \"%s\"?"
 msgstr "Usunąć „%s”?"
 
-#: ../src/gdict-pref-dialog.c:376
+#: ../src/gdict-pref-dialog.c:374
 msgid "This will permanently remove the dictionary source from the list."
 msgstr "Opcja ta trwale usunie źródło słownika z listy."
 
-#: ../src/gdict-pref-dialog.c:379 ../src/gdict-source-dialog.c:564
-#: ../src/gdict-window.c:822
+#: ../src/gdict-pref-dialog.c:377 ../src/gdict-source-dialog.c:564
+#: ../src/gdict-window.c:824
 msgid "_Cancel"
 msgstr "_Anuluj"
 
-#: ../src/gdict-pref-dialog.c:380
+#: ../src/gdict-pref-dialog.c:378
 msgid "_Remove"
 msgstr "_Usuń"
 
-#: ../src/gdict-pref-dialog.c:398
+#: ../src/gdict-pref-dialog.c:396
 #, c-format
 msgid "Unable to remove source '%s'"
 msgstr "Nie można usunąć źródła „%s”"
 
-#: ../src/gdict-pref-dialog.c:445
+#: ../src/gdict-pref-dialog.c:443
 msgid "Edit Dictionary Source"
 msgstr "Modyfikacja źródła słownika"
-
-#. add buttons
-#. The help button is always visible
-#: ../src/gdict-pref-dialog.c:634 ../src/gdict-source-dialog.c:655
-msgid "_Help"
-msgstr "Pomo_c"
-
-#. we just allow closing the dialog
-#: ../src/gdict-pref-dialog.c:635 ../src/gdict-source-dialog.c:560
-#: ../src/gdict-source-dialog.c:574
-msgid "_Close"
-msgstr "Za_mknij"
 
 #: ../src/gdict-print.c:239 ../src/gdict-print.c:303
 #, c-format
@@ -718,6 +580,11 @@ msgstr "Nie można utworzyć pliku źródła"
 msgid "Unable to save source file"
 msgstr "Nie można zapisać pliku źródła"
 
+#. we just allow closing the dialog
+#: ../src/gdict-source-dialog.c:560 ../src/gdict-source-dialog.c:574
+msgid "_Close"
+msgstr "Za_mknij"
+
 #: ../src/gdict-source-dialog.c:565
 msgid "_Add"
 msgstr "_Dodaj"
@@ -726,69 +593,74 @@ msgstr "_Dodaj"
 msgid "C_ancel"
 msgstr "_Anuluj"
 
-#: ../src/gdict-window.c:414
+#. The help button is always visible
+#: ../src/gdict-source-dialog.c:655
+msgid "_Help"
+msgstr "Pomo_c"
+
+#: ../src/gdict-window.c:415
 #, c-format
 msgid "No dictionary source available with name '%s'"
 msgstr "Nie odnaleziono źródła słownika o nazwie „%s”"
 
-#: ../src/gdict-window.c:418
+#: ../src/gdict-window.c:419
 msgid "Unable to find dictionary source"
 msgstr "Nie można odnaleźć źródła słownika"
 
-#: ../src/gdict-window.c:434
+#: ../src/gdict-window.c:435
 #, c-format
 msgid "No context available for source '%s'"
 msgstr "Brak kontekstu dla źródła „%s”"
 
-#: ../src/gdict-window.c:438
+#: ../src/gdict-window.c:439
 msgid "Unable to create a context"
 msgstr "Nie można utworzyć kontekstu"
 
-#: ../src/gdict-window.c:497
+#: ../src/gdict-window.c:498
 #, c-format
 msgid "%s - Dictionary"
 msgstr "%s — słownik"
 
-#: ../src/gdict-window.c:819
+#: ../src/gdict-window.c:821
 msgid "Save a Copy"
 msgstr "Zapis kopii"
 
-#: ../src/gdict-window.c:823
+#: ../src/gdict-window.c:825
 msgid "_Save"
 msgstr "_Zapisz"
 
-#: ../src/gdict-window.c:829
+#: ../src/gdict-window.c:831
 msgid "Untitled document"
 msgstr "Dokument bez nazwy"
 
-#: ../src/gdict-window.c:850
+#: ../src/gdict-window.c:852
 #, c-format
 msgid "Error while writing to '%s'"
 msgstr "Błąd podczas zapisywania do „%s”"
 
 #. speller
-#: ../src/gdict-window.c:1211
+#: ../src/gdict-window.c:1213
 msgid "Double-click on the word to look up"
 msgstr "Podwójne kliknięcie rozpoczyna wyszukiwanie"
 
 #. strat-chooser
-#: ../src/gdict-window.c:1217
+#: ../src/gdict-window.c:1219
 msgid "Double-click on the matching strategy to use"
 msgstr "Podwójne kliknięcie wybiera strategię do użycia"
 
 #. source-chooser
-#: ../src/gdict-window.c:1222
+#: ../src/gdict-window.c:1224
 msgid "Double-click on the source to use"
 msgstr "Podwójne kliknięcie wybiera źródło"
 
-#: ../src/gdict-window.c:1428
+#: ../src/gdict-window.c:1425
 msgid "Similar words"
 msgstr "Podobne słowa"
 
-#: ../src/gdict-window.c:1459
+#: ../src/gdict-window.c:1456
 msgid "Available strategies"
 msgstr "Dostępne strategie"
 
-#: ../src/gdict-window.c:1475
+#: ../src/gdict-window.c:1472
 msgid "Dictionary sources"
 msgstr "Źródła słowników"
