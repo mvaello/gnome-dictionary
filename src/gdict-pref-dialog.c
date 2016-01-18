@@ -77,8 +77,6 @@ struct _GdictPrefDialog
   GtkWidget *remove_button;
   GtkWidget *edit_button;
   GtkWidget *font_button;
-  GtkWidget *help_button;
-  GtkWidget *close_button;
 };
 
 struct _GdictPrefDialogClass
@@ -491,51 +489,6 @@ font_button_font_set_cb (GdictPrefDialog *dialog,
 }
 
 static void
-on_dialog_response (GtkDialog *dialog,
-                    gint       response_id,
-                    gpointer   user_data)
-{
-  GError *err = NULL;
-  
-  switch (response_id)
-    {
-    case GTK_RESPONSE_HELP:
-      gtk_show_uri (gtk_widget_get_screen (GTK_WIDGET (dialog)),
-                    "help:gnome-dictionary/pref",
-                    gtk_get_current_event_time (), &err);
-      if (err)
-	{
-          GtkWidget *error_dialog;
-	  gchar *message;
-
-	  message = g_strdup_printf (_("There was an error while displaying help"));
-	  error_dialog = gtk_message_dialog_new (GTK_WINDOW (dialog),
-      					         GTK_DIALOG_DESTROY_WITH_PARENT,
-      					         GTK_MESSAGE_ERROR,
-						 GTK_BUTTONS_OK,
-						 "%s", message);
-	  gtk_message_dialog_format_secondary_text (GTK_MESSAGE_DIALOG (error_dialog),
-			  			    "%s", err->message);
-	  gtk_window_set_title (GTK_WINDOW (error_dialog), "");
-	  
-	  gtk_dialog_run (GTK_DIALOG (error_dialog));
-      
-          gtk_widget_destroy (error_dialog);
-	  g_error_free (err);
-        }
-      
-      /* we don't want the dialog to close itself */
-      g_signal_stop_emission_by_name (dialog, "response");
-      break;
-
-    case GTK_RESPONSE_ACCEPT:
-    default:
-      gtk_widget_hide (GTK_WIDGET (dialog));
-      break;
-    }
-}
-
-static void
 gdict_pref_dialog_finalize (GObject *object)
 {
   GdictPrefDialog *dialog = GDICT_PREF_DIALOG (object);
@@ -608,7 +561,6 @@ gdict_pref_dialog_class_init (GdictPrefDialogClass *klass)
 
   gtk_widget_class_set_template_from_resource (widget_class, GDICT_PREFERENCES_UI);
 
-  gtk_widget_class_bind_template_child (widget_class, GdictPrefDialog, preferences_root);
   gtk_widget_class_bind_template_child (widget_class, GdictPrefDialog, preferences_notebook);
   gtk_widget_class_bind_template_child (widget_class, GdictPrefDialog, sources_treeview);
   gtk_widget_class_bind_template_child (widget_class, GdictPrefDialog, add_button);
@@ -620,7 +572,6 @@ gdict_pref_dialog_class_init (GdictPrefDialogClass *klass)
   gtk_widget_class_bind_template_callback (widget_class, source_remove_clicked_cb);
   gtk_widget_class_bind_template_callback (widget_class, source_edit_clicked_cb);
   gtk_widget_class_bind_template_callback (widget_class, font_button_font_set_cb);
-  gtk_widget_class_bind_template_callback (widget_class, on_dialog_response);
 }
 
 static void
@@ -629,10 +580,6 @@ gdict_pref_dialog_init (GdictPrefDialog *dialog)
   gchar *font;
 
   gtk_widget_init_template (GTK_WIDGET (dialog));
-
-  /* add buttons */
-  gtk_dialog_add_button (GTK_DIALOG (dialog), _("_Help"), GTK_RESPONSE_HELP);
-  gtk_dialog_add_button (GTK_DIALOG (dialog), _("_Close"), GTK_RESPONSE_ACCEPT);
 
   dialog->settings = g_settings_new (GDICT_SETTINGS_SCHEMA);
   dialog->active_source = g_settings_get_string (dialog->settings, GDICT_SETTINGS_SOURCE_KEY);
@@ -666,6 +613,7 @@ gdict_show_pref_dialog (GtkWidget         *parent,
       dialog = g_object_new (GDICT_TYPE_PREF_DIALOG,
                              "source-loader", loader,
                              "title", title,
+                             "use-header-bar", 1,
                              NULL);
       
       g_object_ref_sink (dialog);

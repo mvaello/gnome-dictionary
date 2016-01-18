@@ -15,7 +15,6 @@
     <property name="border-width">5</property>
     <property name="resizable">False</property>
     <property name="type_hint">dialog</property>
-    <signal name="response" handler="on_dialog_response" swapped="no"/>
     <child internal-child="vbox">
       <object class="GtkBox" id="source_root">
         <property name="orientation">GTK_ORIENTATION_VERTICAL</property>
