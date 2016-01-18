@@ -912,9 +912,10 @@ gdict_window_cmd_change_view_sidebar (GSimpleAction *action,
 
   window->sidebar_visible = g_variant_get_boolean (state);
 
-  if (window->sidebar_visible)
-    gtk_widget_show (window->sidebar_frame);
-  else
+  // FIXME: Make the sidebar suck less, then reenable it.
+//  if (window->sidebar_visible)
+//    gtk_widget_show (window->sidebar_frame);
+//  else
     gtk_widget_hide (window->sidebar_frame);
 
   g_simple_action_set_state (action, state);
