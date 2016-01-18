@@ -33,6 +33,7 @@
 
 #include <libgdict/gdict.h>
 
+#include "gdict-database-chooser-button.h"
 #include "gdict-sidebar.h"
 #include "gdict-print.h"
 #include "gdict-pref-dialog.h"
@@ -355,8 +356,8 @@ gdict_window_set_database (GdictWindow *window,
 			       window->database);
 
   if (window->db_chooser)
-    gdict_database_chooser_set_current_database (GDICT_DATABASE_CHOOSER (window->db_chooser),
-                                                 window->database);
+    gdict_database_chooser_button_set_current_database (GDICT_DATABASE_CHOOSER_BUTTON (window->db_chooser),
+							window->database);
 
   g_object_notify_by_pspec (G_OBJECT (window), gdict_window_properties[PROP_DATABASE]);
 }
@@ -532,7 +533,8 @@ gdict_window_set_context (GdictWindow  *window,
     gdict_defbox_set_context (GDICT_DEFBOX (window->defbox), context);
 
   if (window->db_chooser)
-    gdict_database_chooser_set_context (GDICT_DATABASE_CHOOSER (window->db_chooser), context);
+    gdict_database_chooser_button_set_context (GDICT_DATABASE_CHOOSER_BUTTON (window->db_chooser),
+					       context);
 
   if (window->strat_chooser)
     gdict_strategy_chooser_set_context (GDICT_STRATEGY_CHOOSER (window->strat_chooser), context);
@@ -1426,8 +1428,8 @@ gdict_window_constructed (GObject *gobject)
 
   /* Database chooser */
   if (window->context)
-    gdict_database_chooser_set_context (GDICT_DATABASE_CHOOSER (window->db_chooser),
-			    		window->context);
+    gdict_database_chooser_button_set_context (GDICT_DATABASE_CHOOSER_BUTTON (window->db_chooser),
+					       window->context);
   g_signal_connect (window->db_chooser, "database-activated",
 	  	    G_CALLBACK (database_activated_cb),
 		    window);
@@ -1694,7 +1696,7 @@ gdict_window_init (GdictWindow *window)
   /* we need to create the chooser widgets for the sidebar before
    * we set the construction properties
    */
-  window->db_chooser = gdict_database_chooser_new ();
+  window->db_chooser = gdict_database_chooser_button_new ();
   window->strat_chooser = gdict_strategy_chooser_new ();
 }
 

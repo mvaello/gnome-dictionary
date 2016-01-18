@@ -23,6 +23,7 @@ sources_h = \
 	gdict-context.h			\
 	gdict-client-context.h		\
 	gdict-database-chooser.h 	\
+	gdict-database-chooser-button.h \
 	gdict-defbox.h 			\
 	gdict-source-chooser.h		\
 	gdict-source-loader.h		\
@@ -42,6 +43,7 @@ sources_c = \
 	gdict-context.c			\
 	gdict-client-context.c		\
 	gdict-database-chooser.c	\
+	gdict-database-chooser-button.c	\
 	gdict-defbox.c			\
 	gdict-source-chooser.c		\
 	gdict-source-loader.c		\
