@@ -1,3 +1,21 @@
+GNOME Dictionary 3.18.1                                               2016-01-18
+================================================================================
+Library
+ * Create new GdictDatabaseChooserButton widget (Juan R. García Blanco)
+ * Symbolic icons (Michael Catanzaro)
+
+Application
+ * Fix spelling in "Creating XDG config directory" message (Ville Skyttä)
+ * Use GTK's automagic menu loading (Emmanuele Bassi)
+ * Symbolic icons (Michael Catanzaro)
+ * Replace action area with header bar (Michael Catanzaro)
+ * Replace deprecated GtkTable with GtkGrid (Juan R. García Blanco)
+
+Translations
+ * de (Mario Blättermann), eu (Inaki Larranaga Murgoitio), ga (Seán de Búrca),
+   lt (Aurimas Černius), pt (Pedro Albuquerque), sr (Марко Костић),
+   sr@latin (Милош Поповић), vi (Trần Ngọc Quân)
+
 GNOME Dictionary 3.18.0                                               2015-09-21
 ================================================================================
 Translations
