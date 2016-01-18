@@ -340,7 +340,7 @@ gdict_strategy_chooser_constructor (GType                  type,
 
   priv->refresh_button = gtk_button_new ();
   gtk_button_set_image (GTK_BUTTON (priv->refresh_button),
-		        gtk_image_new_from_icon_name ("view-refresh", GTK_ICON_SIZE_SMALL_TOOLBAR));
+		        gtk_image_new_from_icon_name ("view-refresh-symbolic", GTK_ICON_SIZE_SMALL_TOOLBAR));
   g_signal_connect (priv->refresh_button, "clicked",
 		    G_CALLBACK (refresh_button_clicked_cb),
 		    chooser);
@@ -351,7 +351,7 @@ gdict_strategy_chooser_constructor (GType                  type,
 
   priv->clear_button = gtk_button_new ();
   gtk_button_set_image (GTK_BUTTON (priv->clear_button),
-		        gtk_image_new_from_icon_name ("edit-clear", GTK_ICON_SIZE_SMALL_TOOLBAR));
+		        gtk_image_new_from_icon_name ("edit-clear-symbolic", GTK_ICON_SIZE_SMALL_TOOLBAR));
   g_signal_connect (priv->clear_button, "clicked",
 		    G_CALLBACK (clear_button_clicked_cb),
 		    chooser);
