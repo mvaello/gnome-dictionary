@@ -1,18 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<application>
-<id type="desktop">org.gnome.Dictionary.desktop</id>
-<licence>CC0</licence>
-<description>
-<_p>
-GNOME Dictionary is a simple dictionary application that looks up definitions of words online.
-Though it looks up English definitions by default, you can easily switch to
-Spanish or add other online dictionaries using the DICT protocol to suit your
-needs.
-</_p>
-</description>
-<url type="homepage">https://wiki.gnome.org/Dictionary</url>
-<screenshots>
-<screenshot type="default">https://git.gnome.org/browse/gnome-dictionary/plain/data/gnome-dictionary-appdata.png</screenshot>
-</screenshots>
-<updatecontact>sindhus@live.in</updatecontact>
-</application>
+<component type="desktop">
+  <id>org.gnome.Dictionary.desktop</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0+ AND LGPL-2.0+ AND GFDL-1.3</project_license>
+  <_name>GNOME Dictionary</_name>
+  <_summary>Check word definitions and spellings in an online dictionary</_summary>
+  <description>
+    <_p>
+      GNOME Dictionary is a simple dictionary application that looks up
+      definitions of words online.
+      Though it looks up English definitions by default, you can easily switch to
+      Spanish or add other online dictionaries using the DICT protocol to suit your
+      needs.
+    </_p>
+  </description>
+  <url type="homepage">https://wiki.gnome.org/Dictionary</url>
+  <url type="bugtracker">https://bugzilla.gnome.org/enter_bug.cgi?product=gnome-dictionary</url>
+  <url type="donation">http://www.gnome.org/friends/</url>
+  <url type="help">https://help.gnome.org/users/gnome-dictionary/stable/</url>
+  <screenshots>
+    <screenshot type="default">
+      <image>https://git.gnome.org/browse/gnome-dictionary/plain/data/gnome-dictionary-appdata.png</image>
+    </screenshot>
+  </screenshots>
+  <update_contact>sindhus@live.in</update_contact>
+  <kudos>
+    <kudo>AppMenu</kudo>
+    <kudo>ModernToolkit</kudo>
+  </kudos>
+  <project_group>GNOME</project_group>
+</component>
