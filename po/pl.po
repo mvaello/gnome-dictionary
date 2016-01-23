@@ -16,8 +16,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-dictionary\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-18 21:09+0100\n"
-"PO-Revision-Date: 2016-01-18 21:10+0100\n"
+"POT-Creation-Date: 2016-01-23 17:44+0100\n"
+"PO-Revision-Date: 2016-01-23 17:45+0100\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <gnomepl@aviary.pl>\n"
 "Language: pl\n"
@@ -34,6 +34,15 @@ msgid "Default Dictionary Server"
 msgstr "Domyślny serwer słownika"
 
 #: ../data/org.gnome.Dictionary.appdata.xml.in.h:1
+msgid "GNOME Dictionary"
+msgstr "Słownik GNOME"
+
+#: ../data/org.gnome.Dictionary.appdata.xml.in.h:2
+#: ../data/org.gnome.Dictionary.desktop.in.in.h:2
+msgid "Check word definitions and spellings in an online dictionary"
+msgstr "Wyświetlanie definicji i pisowni słów w słowniku sieciowym"
+
+#: ../data/org.gnome.Dictionary.appdata.xml.in.h:3
 msgid ""
 "GNOME Dictionary is a simple dictionary application that looks up "
 "definitions of words online. Though it looks up English definitions by "
@@ -201,10 +210,6 @@ msgstr "Strategie"
 #: ../src/gdict-window.c:500 ../src/gdict-window.c:1528
 msgid "Dictionary"
 msgstr "Słownik"
-
-#: ../data/org.gnome.Dictionary.desktop.in.in.h:2
-msgid "Check word definitions and spellings in an online dictionary"
-msgstr "Wyświetlanie definicji i pisowni słów w słowniku sieciowym"
 
 #: ../data/org.gnome.Dictionary.desktop.in.in.h:3
 msgid "word;synonym;definition;spelling;"
