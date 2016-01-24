@@ -1,3 +1,13 @@
+GNOME Dictionary 3.19.0                                               2016-01-24
+================================================================================
+Application
+ * Update the AppData file to spec version 0.7+ (Richard Hughes)
+ * Drop deprecated API from DefBox (Juan R. García Blanco)
+ * Bump required Gtk+ version (Juan R. García Blanco)
+
+Translations
+de (Mario Blättermann), pl (Piotr Drąg), vi (Trần Ngọc Quân), sk (Dušan Kazik)
+
 GNOME Dictionary 3.18.1                                               2016-01-18
 ================================================================================
 Library
