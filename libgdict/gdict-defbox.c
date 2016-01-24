@@ -1520,14 +1520,14 @@ defbox_visibility_notify_cb (GtkWidget          *text_view,
                              GdictDefbox        *defbox)
 {
   GdkDisplay *display;
-  GdkDeviceManager *device_manager;
+  GdkSeat *seat;
   GdkDevice *pointer;
   gint wx, wy;
   gint bx, by;
 
   display = gdk_window_get_display (event->window);
-  device_manager = gdk_display_get_device_manager (display);
-  pointer = gdk_device_manager_get_client_pointer (device_manager);
+  seat = gdk_display_get_default_seat (display);
+  pointer = gdk_seat_get_pointer (seat);
   gdk_window_get_device_position (gtk_widget_get_window (text_view), pointer, &wx, &wy, NULL);
 
   gtk_text_view_window_to_buffer_coords (GTK_TEXT_VIEW (text_view),
