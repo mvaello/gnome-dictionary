@@ -202,7 +202,6 @@ gdict_app_command_line (GApplication            *application,
                         GApplicationCommandLine *cmd_line)
 {
   GdictApp *app = GDICT_APP (application);
-  GSList *l;
   gsize words_len, i;
   GVariantDict *options;
   gchar **gdict_lookup_words = NULL;

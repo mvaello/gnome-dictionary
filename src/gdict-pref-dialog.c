@@ -422,7 +422,7 @@ source_edit_clicked_cb (GdictPrefDialog *dialog)
   GtkTreeModel *model;
   GtkTreeIter iter;
   gboolean is_selected;
-  gchar *name, *description;
+  gchar *name;
 
   selection = gtk_tree_view_get_selection (GTK_TREE_VIEW (dialog->sources_treeview));
   if (!selection)

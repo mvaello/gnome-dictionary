@@ -1328,7 +1328,6 @@ static void
 gdict_window_constructed (GObject *gobject)
 {
   GApplication *app;
-  GObject *object;
   GdictWindow *window;
   GtkWidget *handle;
   GtkWidget *frame1, *frame2;
