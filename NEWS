@@ -1,3 +1,13 @@
+GNOME Dictionary 3.19.90                                              2016-02-14
+================================================================================
+Application
+ * Add a missing tag to the AppData file (Richard Hughes)
+
+Translations
+ * bg (Alexander Shopov), cs (Marek Černocký), el (Tom Tryfonidis),
+   es (Daniel Mustieles), fr (Alexandre Franke), hu (Balázs Meskó),
+   lv (Rūdolfs Mazurs), sl (Matej Urbančič), zh_TW (Chao-Hsiung Liao)
+
 GNOME Dictionary 3.19.0                                               2016-01-24
 ================================================================================
 Application
