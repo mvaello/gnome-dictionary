@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: gnome-dictionary master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "dictionary&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2016-02-01 21:52+0100\n"
-"PO-Revision-Date: 2016-02-01 21:53+0100\n"
+"POT-Creation-Date: 2016-03-03 21:43+0100\n"
+"PO-Revision-Date: 2016-03-03 21:43+0100\n"
 "Last-Translator: Matej Urbančič <mateju@svn.gnome.org>\n"
 "Language-Team: Slovenian GNOME Translation Team <gnome-si@googlegroups.com>\n"
 "Language: sl_SI\n"
@@ -29,6 +29,15 @@ msgid "Default Dictionary Server"
 msgstr "Privzeti strežnik slovarja"
 
 #: ../data/org.gnome.Dictionary.appdata.xml.in.h:1
+msgid "GNOME Dictionary"
+msgstr "Slovar Gnome"
+
+#: ../data/org.gnome.Dictionary.appdata.xml.in.h:2
+#: ../data/org.gnome.Dictionary.desktop.in.in.h:2
+msgid "Check word definitions and spellings in an online dictionary"
+msgstr "Preverite razlago in črkovanje besede v mrežnem slovarju."
+
+#: ../data/org.gnome.Dictionary.appdata.xml.in.h:3
 msgid ""
 "GNOME Dictionary is a simple dictionary application that looks up definitions "
 "of words online. Though it looks up English definitions by default, you can "
@@ -192,13 +201,9 @@ msgid "Strategies"
 msgstr "Strategije"
 
 #: ../data/org.gnome.Dictionary.desktop.in.in.h:1 ../src/gdict-about.c:60
-#: ../src/gdict-window.c:500 ../src/gdict-window.c:1528
+#: ../src/gdict-window.c:500 ../src/gdict-window.c:1527
 msgid "Dictionary"
 msgstr "Slovar"
-
-#: ../data/org.gnome.Dictionary.desktop.in.in.h:2
-msgid "Check word definitions and spellings in an online dictionary"
-msgstr "Preverite razlago in črkovanje besede v mrežnem slovarju."
 
 #: ../data/org.gnome.Dictionary.desktop.in.in.h:3
 msgid "word;synonym;definition;spelling;"
@@ -638,15 +643,15 @@ msgstr "Z dvojnim klikom na strategijo, ki jo želite uporabiti"
 msgid "Double-click on the source to use"
 msgstr "Z dvojnim klikom se izbere vir"
 
-#: ../src/gdict-window.c:1425
+#: ../src/gdict-window.c:1424
 msgid "Similar words"
 msgstr "Podobne besede"
 
-#: ../src/gdict-window.c:1456
+#: ../src/gdict-window.c:1455
 msgid "Available strategies"
 msgstr "Razpoložljive strategije"
 
-#: ../src/gdict-window.c:1472
+#: ../src/gdict-window.c:1471
 msgid "Dictionary sources"
 msgstr "Viri slovarja"
 
