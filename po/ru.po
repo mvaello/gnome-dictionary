@@ -13,15 +13,15 @@
 # Alexander Saprykin <xelfium@gmail.com>, 2010.
 # Ivan Komaritsyn <vantu5z@mail.ru>, 2015.
 # Yuri Myasoedov <ymyasoedov@yandex.ru>, 2015.
-# Stas Solovey <whats_up@tut.by>, 2015.
+# Stas Solovey <whats_up@tut.by>, 2015, 2016.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-utils trunk\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "dictionary&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2015-06-23 18:54+0000\n"
-"PO-Revision-Date: 2015-06-24 00:50+0300\n"
+"POT-Creation-Date: 2016-03-08 08:57+0000\n"
+"PO-Revision-Date: 2016-03-08 21:27+0300\n"
 "Last-Translator: Stas Solovey <whats_up@tut.by>\n"
 "Language-Team: Русский <gnome-cyr@gnome.org>\n"
 "Language: ru\n"
@@ -38,6 +38,16 @@ msgid "Default Dictionary Server"
 msgstr "Сервер словаря по умолчанию"
 
 #: ../data/org.gnome.Dictionary.appdata.xml.in.h:1
+#| msgid "Dictionary"
+msgid "GNOME Dictionary"
+msgstr "Словарь GNOME"
+
+#: ../data/org.gnome.Dictionary.appdata.xml.in.h:2
+#: ../data/org.gnome.Dictionary.desktop.in.in.h:2
+msgid "Check word definitions and spellings in an online dictionary"
+msgstr "Проверить определение и правописание слова в онлайн-словаре"
+
+#: ../data/org.gnome.Dictionary.appdata.xml.in.h:3
 msgid ""
 "GNOME Dictionary is a simple dictionary application that looks up "
 "definitions of words online. Though it looks up English definitions by "
@@ -142,7 +152,6 @@ msgid "Remove the currently selected dictionary source"
 msgstr "Удалить выделенный источник словарей"
 
 #: ../src/gdict-pref-dialog.ui.h:4
-#| msgid "_Edit"
 msgid "Edit"
 msgstr "Правка"
 
@@ -150,7 +159,7 @@ msgstr "Правка"
 msgid "Edit the currently selected dictionary source"
 msgstr "Изменить выбранный источник словарей"
 
-#: ../src/gdict-pref-dialog.ui.h:6 ../src/gdict-source-dialog.ui.h:6
+#: ../src/gdict-pref-dialog.ui.h:6 ../src/gdict-source-dialog.ui.h:8
 msgid "Source"
 msgstr "Источник"
 
@@ -167,41 +176,49 @@ msgid "Print"
 msgstr "Печать"
 
 #: ../src/gdict-source-dialog.ui.h:1
-msgid "_Description:"
-msgstr "_Описание:"
+#| msgid "_Description:"
+msgid "_Description"
+msgstr "_Описание"
 
 #: ../src/gdict-source-dialog.ui.h:2
-msgid "_Transport:"
-msgstr "_Транспорт:"
+#| msgid "_Port:"
+msgid "_Port"
+msgstr "_Порт"
 
 #: ../src/gdict-source-dialog.ui.h:3
-msgid "H_ostname:"
-msgstr "_Узел:"
+#| msgid "Hostname"
+msgid "_Hostname"
+msgstr "_Узел"
 
 #: ../src/gdict-source-dialog.ui.h:4
-msgid "_Port:"
-msgstr "По_рт:"
+#| msgid "_Transport:"
+msgid "_Transport"
+msgstr "_Транспорт"
 
 #: ../src/gdict-source-dialog.ui.h:5
+msgid "2628"
+msgstr "2628"
+
+#: ../src/gdict-source-dialog.ui.h:6
+msgid "dict.org"
+msgstr "dict.org"
+
+#: ../src/gdict-source-dialog.ui.h:7
 msgid "Source Name"
 msgstr "Название источника"
 
-#: ../src/gdict-source-dialog.ui.h:7
+#: ../src/gdict-source-dialog.ui.h:9
 msgid "Dictionaries"
 msgstr "Словари"
 
-#: ../src/gdict-source-dialog.ui.h:8
+#: ../src/gdict-source-dialog.ui.h:10
 msgid "Strategies"
 msgstr "Стратегии"
 
 #: ../data/org.gnome.Dictionary.desktop.in.in.h:1 ../src/gdict-about.c:60
-#: ../src/gdict-window.c:500 ../src/gdict-window.c:1552
+#: ../src/gdict-window.c:500 ../src/gdict-window.c:1527
 msgid "Dictionary"
 msgstr "Словарь"
-
-#: ../data/org.gnome.Dictionary.desktop.in.in.h:2
-msgid "Check word definitions and spellings in an online dictionary"
-msgstr "Проверить определение и правописание слова в онлайн-словаре"
 
 #: ../data/org.gnome.Dictionary.desktop.in.in.h:3
 msgid "word;synonym;definition;spelling;"
@@ -259,38 +276,6 @@ msgstr "Испанские словари"
 #: ../data/thai.desktop.in.h:1
 msgid "Longdo Thai-English Dictionaries"
 msgstr "Тайско-английские словари Longdo"
-
-#: ../libgdict/gdict-client-context.c:282
-msgid "Client Name"
-msgstr "Имя клиента"
-
-#: ../libgdict/gdict-client-context.c:283
-msgid "The name of the client of the context object"
-msgstr "Название клиента контекстного объекта"
-
-#: ../libgdict/gdict-client-context.c:296
-msgid "Hostname"
-msgstr "Узел"
-
-#: ../libgdict/gdict-client-context.c:297
-msgid "The hostname of the dictionary server to connect to"
-msgstr "Имя узла сервера словарей, с которым следует соединяться"
-
-#: ../libgdict/gdict-client-context.c:310
-msgid "Port"
-msgstr "Порт"
-
-#: ../libgdict/gdict-client-context.c:311
-msgid "The port of the dictionary server to connect to"
-msgstr "Порт на сервере словарей, с которым следует соединяться"
-
-#: ../libgdict/gdict-client-context.c:326
-msgid "Status"
-msgstr "Состояние"
-
-#: ../libgdict/gdict-client-context.c:327
-msgid "The status code as returned by the dictionary server"
-msgstr "Код состояния, возвращаемый сервером словарей"
 
 #: ../libgdict/gdict-client-context.c:775
 #, c-format
@@ -365,12 +350,12 @@ msgstr "Не найдено баз данных на сервере словар
 msgid "No strategies found on dictionary server at '%s'"
 msgstr "Не найдено стратегий на сервере словарей «%s»"
 
-#: ../libgdict/gdict-client-context.c:1738
+#: ../libgdict/gdict-client-context.c:1745
 #, c-format
 msgid "Connection failed to the dictionary server at %s:%d"
 msgstr "Не удалось соединиться с сервером словарей %s:%d"
 
-#: ../libgdict/gdict-client-context.c:1777
+#: ../libgdict/gdict-client-context.c:1784
 #, c-format
 msgid ""
 "Error while reading reply from server:\n"
@@ -379,49 +364,41 @@ msgstr ""
 "Произошла ошибка при чтении ответа от сервера:\n"
 "%s"
 
-#: ../libgdict/gdict-client-context.c:1850
+#: ../libgdict/gdict-client-context.c:1857
 #, c-format
 msgid "Connection timeout for the dictionary server at '%s:%d'"
 msgstr "Истекло время ожидания соединения с сервером словарей «%s:%d»"
 
-#: ../libgdict/gdict-client-context.c:1884
+#: ../libgdict/gdict-client-context.c:1891
 #, c-format
 msgid "No hostname defined for the dictionary server"
 msgstr "Не указан узел для сервера словарей"
 
-#: ../libgdict/gdict-client-context.c:1920
-#: ../libgdict/gdict-client-context.c:1935
+#: ../libgdict/gdict-client-context.c:1927
+#: ../libgdict/gdict-client-context.c:1942
 #, c-format
 msgid "Unable to create socket"
 msgstr "Не удалось создать сокет"
 
-#: ../libgdict/gdict-client-context.c:1961
+#: ../libgdict/gdict-client-context.c:1968
 #, c-format
 msgid "Unable to set the channel as non-blocking: %s"
 msgstr "Не удалось установить канал как неблокирующий: %s"
 
-#: ../libgdict/gdict-client-context.c:1976
+#: ../libgdict/gdict-client-context.c:1983
 #, c-format
 msgid "Unable to connect to the dictionary server at '%s:%d'"
 msgstr "Не удалось соединиться с сервером словарей «%s:%d»"
 
-#: ../libgdict/gdict-context.c:217
-msgid "Local Only"
-msgstr "Только на локальных"
-
-#: ../libgdict/gdict-context.c:218
-msgid "Whether the context uses only local dictionaries or not"
-msgstr "Использовать контекст только на локальных словарях или нет"
-
-#: ../libgdict/gdict-database-chooser.c:373
+#: ../libgdict/gdict-database-chooser.c:374
 msgid "Reload the list of available databases"
 msgstr "Перезагрузить список доступных баз данных"
 
-#: ../libgdict/gdict-database-chooser.c:385
+#: ../libgdict/gdict-database-chooser.c:386
 msgid "Clear the list of available databases"
 msgstr "Очистить список доступных баз данных"
 
-#: ../libgdict/gdict-database-chooser.c:836 ../libgdict/gdict-speller.c:767
+#: ../libgdict/gdict-database-chooser.c:840 ../libgdict/gdict-speller.c:767
 #: ../libgdict/gdict-strategy-chooser.c:775
 msgid "Error while matching"
 msgstr "Произошла ошибка при поиске совпадений"
@@ -441,70 +418,6 @@ msgstr "Подождите, пока закончится текущий пои�
 #: ../libgdict/gdict-defbox.c:2472
 msgid "Error while retrieving the definition"
 msgstr "Произошла ошибка при получении определения"
-
-#: ../libgdict/gdict-source.c:237
-msgid "Filename"
-msgstr "Имя файла"
-
-#: ../libgdict/gdict-source.c:238
-msgid "The filename used by this dictionary source"
-msgstr "Имя файла, используемое этим источником словарей"
-
-#: ../libgdict/gdict-source.c:251
-msgid "Name"
-msgstr "Имя"
-
-#: ../libgdict/gdict-source.c:252
-msgid "The display name of this dictionary source"
-msgstr "Отображаемое имя этого источника словарей"
-
-#: ../libgdict/gdict-source.c:265
-msgid "Description"
-msgstr "Описание"
-
-#: ../libgdict/gdict-source.c:266
-msgid "The description of this dictionary source"
-msgstr "Описание этого источника словарей"
-
-#: ../libgdict/gdict-source.c:279
-msgid "Editable"
-msgstr "Редактируемый"
-
-#: ../libgdict/gdict-source.c:280
-msgid "Whether the dictionary source is editable or not"
-msgstr "Можно ли редактировать источник словаря"
-
-#: ../libgdict/gdict-source.c:293 ../libgdict/gdict-speller.c:369
-msgid "Database"
-msgstr "База данных"
-
-#: ../libgdict/gdict-source.c:294
-msgid "The default database of this dictionary source"
-msgstr "База данных по умолчанию для этого источника словарей"
-
-#: ../libgdict/gdict-source.c:307 ../libgdict/gdict-speller.c:376
-msgid "Strategy"
-msgstr "Стратегия"
-
-#: ../libgdict/gdict-source.c:308
-msgid "The default strategy of this dictionary source"
-msgstr "Стратегия по умолчанию для этого источника словарей"
-
-#: ../libgdict/gdict-source.c:321
-msgid "Transport"
-msgstr "Транспорт"
-
-#: ../libgdict/gdict-source.c:322
-msgid "The transport mechanism used by this dictionary source"
-msgstr "Механизм транспорта, используемый этим источником словарей"
-
-#: ../libgdict/gdict-source.c:336 ../libgdict/gdict-speller.c:362
-msgid "Context"
-msgstr "Контекст"
-
-#: ../libgdict/gdict-source.c:337
-msgid "The GdictContext bound to this source"
-msgstr "GdictContext, связанный с этим источником"
 
 #: ../libgdict/gdict-source.c:433
 #, c-format
@@ -544,37 +457,9 @@ msgstr "Источник словарей «%s» имеет недопустим
 msgid "Reload the list of available sources"
 msgstr "Перезагрузить список доступных источников"
 
-#: ../libgdict/gdict-source-loader.c:170
-msgid "Paths"
-msgstr "Пути"
-
-#: ../libgdict/gdict-source-loader.c:171
-msgid "Search paths used by this object"
-msgstr "Пути поиска, которые используются этим объектом"
-
-#: ../libgdict/gdict-source-loader.c:183
-msgid "Sources"
-msgstr "Источники"
-
-#: ../libgdict/gdict-source-loader.c:184
-msgid "Dictionary sources found"
-msgstr "Найденные источники словарей"
-
 #: ../libgdict/gdict-speller.c:341
 msgid "Clear the list of similar words"
 msgstr "Очистить список похожих слов"
-
-#: ../libgdict/gdict-speller.c:363
-msgid "The GdictContext object used to get the word definition"
-msgstr "Объект GdictContext, используемый для получения определения слова"
-
-#: ../libgdict/gdict-speller.c:370
-msgid "The database used to query the GdictContext"
-msgstr "База данных, используемая для запросов GdictContext"
-
-#: ../libgdict/gdict-speller.c:377
-msgid "The strategy used to query the GdictContext"
-msgstr "Стратегия, используемая для запросов GdictContext"
 
 #: ../libgdict/gdict-strategy-chooser.c:350
 msgid "Reload the list of available strategies"
@@ -596,11 +481,11 @@ msgstr "ФЛАГИ"
 msgid "GDict debugging flags to unset"
 msgstr "Отключить флаги отладки GDict"
 
-#: ../libgdict/gdict-utils.c:156
+#: ../libgdict/gdict-utils.c:157
 msgid "GDict Options"
 msgstr "Параметры GDict"
 
-#: ../libgdict/gdict-utils.c:157
+#: ../libgdict/gdict-utils.c:158
 msgid "Show GDict Options"
 msgstr "Показать параметры GDict"
 
@@ -608,100 +493,86 @@ msgstr "Показать параметры GDict"
 msgid "translator-credits"
 msgstr ""
 "Yuri Myasoedov <ymyasoedov@yandex.ru>, 2015.\n"
-"Stas Solovey <whats_up@tut.by>, 2015."
+"Stas Solovey <whats_up@tut.by>, 2015-2016."
 
 #: ../src/gdict-about.c:55
 msgid "Look up words in dictionaries"
 msgstr "Поиск слова в словарях"
 
-#: ../src/gdict-app.c:46 ../src/gdict-app.c:75
+#: ../src/gdict-app.c:47 ../src/gdict-app.c:76
 msgid "Words to look up"
 msgstr "Слова для поиска"
 
-#: ../src/gdict-app.c:46 ../src/gdict-app.c:52
+#: ../src/gdict-app.c:47 ../src/gdict-app.c:53
 msgid "WORD"
 msgstr "СЛОВО"
 
-#: ../src/gdict-app.c:52
+#: ../src/gdict-app.c:53
 msgid "Words to match"
 msgstr "Слова для поиска"
 
-#: ../src/gdict-app.c:58
+#: ../src/gdict-app.c:59
 msgid "Dictionary source to use"
 msgstr "Используемый источник словарей"
 
-#: ../src/gdict-app.c:58 ../src/gdict-app.c:64 ../src/gdict-app.c:70
+#: ../src/gdict-app.c:59 ../src/gdict-app.c:65 ../src/gdict-app.c:71
 msgid "NAME"
 msgstr "НАЗВАНИЕ"
 
-#: ../src/gdict-app.c:64
+#: ../src/gdict-app.c:65
 msgid "Database to use"
 msgstr "Используемая база данных"
 
-#: ../src/gdict-app.c:70
+#: ../src/gdict-app.c:71
 msgid "Strategy to use"
 msgstr "Используемая стратегия поиска"
 
-#: ../src/gdict-app.c:75
+#: ../src/gdict-app.c:76
 msgid "WORDS"
 msgstr "СЛОВА"
 
-#: ../src/gdict-app.c:107
+#: ../src/gdict-app.c:108
 msgid "Dictionary Preferences"
 msgstr "Параметры словаря"
 
-#: ../src/gdict-app.c:129 ../src/gdict-pref-dialog.c:511
-#: ../src/gdict-source-dialog.c:452
-#, c-format
+#: ../src/gdict-app.c:130 ../src/gdict-source-dialog.c:452
 msgid "There was an error while displaying help"
 msgstr "При просмотре справки произошла ошибка"
 
-#: ../src/gdict-pref-dialog.c:264
+#: ../src/gdict-pref-dialog.c:262
 msgid "View Dictionary Source"
 msgstr "Просмотр источника словаря"
 
-#: ../src/gdict-pref-dialog.c:330
+#: ../src/gdict-pref-dialog.c:328
 msgid "Add Dictionary Source"
 msgstr "Добавить источник словарей"
 
-#: ../src/gdict-pref-dialog.c:374
+#: ../src/gdict-pref-dialog.c:372
 #, c-format
 msgid "Remove \"%s\"?"
 msgstr "Удалить «%s»?"
 
-#: ../src/gdict-pref-dialog.c:376
+#: ../src/gdict-pref-dialog.c:374
 msgid "This will permanently remove the dictionary source from the list."
 msgstr "Источник словарей будет навсегда удалён из списка."
 
-#: ../src/gdict-pref-dialog.c:379 ../src/gdict-source-dialog.c:564
-#: ../src/gdict-window.c:823
+#: ../src/gdict-pref-dialog.c:377 ../src/gdict-source-dialog.c:564
+#: ../src/gdict-window.c:824
 msgid "_Cancel"
 msgstr "_Отмена"
 
-#: ../src/gdict-pref-dialog.c:380
+#: ../src/gdict-pref-dialog.c:378
 msgid "_Remove"
 msgstr "_Удалить"
 
-#: ../src/gdict-pref-dialog.c:398
+#: ../src/gdict-pref-dialog.c:396
 #, c-format
 msgid "Unable to remove source '%s'"
 msgstr "Не удалось удалить источник «%s»"
 
-#: ../src/gdict-pref-dialog.c:445
+#: ../src/gdict-pref-dialog.c:443
 msgid "Edit Dictionary Source"
 msgstr "Изменить источник словарей"
-
-#. add buttons
-#. The help button is always visible
-#: ../src/gdict-pref-dialog.c:634 ../src/gdict-source-dialog.c:655
-msgid "_Help"
-msgstr "Спра_вка"
-
-#. we just allow closing the dialog
-#: ../src/gdict-pref-dialog.c:635 ../src/gdict-source-dialog.c:560
-#: ../src/gdict-source-dialog.c:574
-msgid "_Close"
-msgstr "_Закрыть"
 
 #: ../src/gdict-print.c:239 ../src/gdict-print.c:303
 #, c-format
@@ -716,6 +587,11 @@ msgstr "Не удалось создать файл источника"
 msgid "Unable to save source file"
 msgstr "Не удалось сохранить файл источника"
 
+#. we just allow closing the dialog
+#: ../src/gdict-source-dialog.c:560 ../src/gdict-source-dialog.c:574
+msgid "_Close"
+msgstr "_Закрыть"
+
 #: ../src/gdict-source-dialog.c:565
 msgid "_Add"
 msgstr "_Добавить"
@@ -723,6 +599,11 @@ msgstr "_Добавить"
 #: ../src/gdict-source-dialog.c:573
 msgid "C_ancel"
 msgstr "О_тмена"
+
+#. The help button is always visible
+#: ../src/gdict-source-dialog.c:655
+msgid "_Help"
+msgstr "Спра_вка"
 
 #: ../src/gdict-window.c:415
 #, c-format
@@ -747,58 +628,154 @@ msgstr "Не удалось создать контекст"
 msgid "%s - Dictionary"
 msgstr "%s — словарь"
 
-#: ../src/gdict-window.c:820
+#: ../src/gdict-window.c:821
 msgid "Save a Copy"
 msgstr "Сохранить копию"
 
-#: ../src/gdict-window.c:824
+#: ../src/gdict-window.c:825
 msgid "_Save"
 msgstr "_Сохранить"
 
-#: ../src/gdict-window.c:830
+#: ../src/gdict-window.c:831
 msgid "Untitled document"
 msgstr "Безымянный документ"
 
-#: ../src/gdict-window.c:851
+#: ../src/gdict-window.c:852
 #, c-format
 msgid "Error while writing to '%s'"
 msgstr "Произошла ошибка при записи в «%s»"
 
 #. speller
-#: ../src/gdict-window.c:1227
+#: ../src/gdict-window.c:1213
 msgid "Double-click on the word to look up"
 msgstr "Дважды щёлкните по слову, которое хотите найти"
 
 #. strat-chooser
-#: ../src/gdict-window.c:1233
+#: ../src/gdict-window.c:1219
 msgid "Double-click on the matching strategy to use"
 msgstr "Дважды щёлкните по стратегии, которую хотите использовать"
 
 #. source-chooser
-#: ../src/gdict-window.c:1238
+#: ../src/gdict-window.c:1224
 msgid "Double-click on the source to use"
 msgstr "Дважды щёлкните по источнику, который хотите использовать"
 
-#. db-chooser
-#: ../src/gdict-window.c:1247
-msgid "Double-click on the database to use"
-msgstr "Дважды щёлкните по базе данных, которую хотите использовать"
-
-#: ../src/gdict-window.c:1449
+#: ../src/gdict-window.c:1424
 msgid "Similar words"
 msgstr "Похожие слова"
 
-#: ../src/gdict-window.c:1462
-msgid "Available dictionaries"
-msgstr "Доступные словари"
-
-#: ../src/gdict-window.c:1480
+#: ../src/gdict-window.c:1455
 msgid "Available strategies"
 msgstr "Доступные стратегии"
 
-#: ../src/gdict-window.c:1496
+#: ../src/gdict-window.c:1471
 msgid "Dictionary sources"
 msgstr "Источники словарей"
+
+#~ msgid "H_ostname:"
+#~ msgstr "_Узел:"
+
+#~ msgid "Client Name"
+#~ msgstr "Имя клиента"
+
+#~ msgid "The name of the client of the context object"
+#~ msgstr "Название клиента контекстного объекта"
+
+#~ msgid "The hostname of the dictionary server to connect to"
+#~ msgstr "Имя узла сервера словарей, с которым следует соединяться"
+
+#~ msgid "Port"
+#~ msgstr "Порт"
+
+#~ msgid "The port of the dictionary server to connect to"
+#~ msgstr "Порт на сервере словарей, с которым следует соединяться"
+
+#~ msgid "Status"
+#~ msgstr "Состояние"
+
+#~ msgid "The status code as returned by the dictionary server"
+#~ msgstr "Код состояния, возвращаемый сервером словарей"
+
+#~ msgid "Local Only"
+#~ msgstr "Только на локальных"
+
+#~ msgid "Whether the context uses only local dictionaries or not"
+#~ msgstr "Использовать контекст только на локальных словарях или нет"
+
+#~ msgid "Filename"
+#~ msgstr "Имя файла"
+
+#~ msgid "The filename used by this dictionary source"
+#~ msgstr "Имя файла, используемое этим источником словарей"
+
+#~ msgid "Name"
+#~ msgstr "Имя"
+
+#~ msgid "The display name of this dictionary source"
+#~ msgstr "Отображаемое имя этого источника словарей"
+
+#~ msgid "Description"
+#~ msgstr "Описание"
+
+#~ msgid "The description of this dictionary source"
+#~ msgstr "Описание этого источника словарей"
+
+#~ msgid "Editable"
+#~ msgstr "Редактируемый"
+
+#~ msgid "Whether the dictionary source is editable or not"
+#~ msgstr "Можно ли редактировать источник словаря"
+
+#~ msgid "Database"
+#~ msgstr "База данных"
+
+#~ msgid "The default database of this dictionary source"
+#~ msgstr "База данных по умолчанию для этого источника словарей"
+
+#~ msgid "Strategy"
+#~ msgstr "Стратегия"
+
+#~ msgid "The default strategy of this dictionary source"
+#~ msgstr "Стратегия по умолчанию для этого источника словарей"
+
+#~ msgid "Transport"
+#~ msgstr "Транспорт"
+
+#~ msgid "The transport mechanism used by this dictionary source"
+#~ msgstr "Механизм транспорта, используемый этим источником словарей"
+
+#~ msgid "Context"
+#~ msgstr "Контекст"
+
+#~ msgid "The GdictContext bound to this source"
+#~ msgstr "GdictContext, связанный с этим источником"
+
+#~ msgid "Paths"
+#~ msgstr "Пути"
+
+#~ msgid "Search paths used by this object"
+#~ msgstr "Пути поиска, которые используются этим объектом"
+
+#~ msgid "Sources"
+#~ msgstr "Источники"
+
+#~ msgid "Dictionary sources found"
+#~ msgstr "Найденные источники словарей"
+
+#~ msgid "The GdictContext object used to get the word definition"
+#~ msgstr "Объект GdictContext, используемый для получения определения слова"
+
+#~ msgid "The database used to query the GdictContext"
+#~ msgstr "База данных, используемая для запросов GdictContext"
+
+#~ msgid "The strategy used to query the GdictContext"
+#~ msgstr "Стратегия, используемая для запросов GdictContext"
+
+#~ msgid "Double-click on the database to use"
+#~ msgstr "Дважды щёлкните по базе данных, которую хотите использовать"
+
+#~ msgid "Available dictionaries"
+#~ msgstr "Доступные словари"
 
 #~ msgid "_File"
 #~ msgstr "_Файл"
