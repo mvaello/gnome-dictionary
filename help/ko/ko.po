@@ -1,0 +1,1126 @@
+# Korean translation for gnome-dictionary.
+# Copyright (C) 2016 gnome-dictionary's COPYRIGHT HOLDER
+# This file is distributed under the same license as the gnome-dictionary package.
+# Seong-ho Cho <shcho@gnome.org>, 2016.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-dictionary master\n"
+"POT-Creation-Date: 2016-03-11 20:57+0000\n"
+"PO-Revision-Date: 2016-03-12 14:35+0900\n"
+"Last-Translator: Seong-ho Cho <shcho@gnome.org>\n"
+"Language-Team: GNOME Korea <gnome-kr@googlegroups.com>\n"
+"Language: ko\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Gtranslator 2.91.7\n"
+
+#. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
+msgctxt "_"
+msgid "translator-credits"
+msgstr "조성호 <shcho@gnome.org>, 2016."
+
+#. (itstool) path: credit/name
+#: C/definition.page:11 C/dictionary-select.page:11 C/find.page:10
+#: C/index.page:11 C/introduction.page:10 C/keyboard-shortcuts.page:11
+#: C/pref.page:9 C/print-font.page:11 C/print.page:12
+#: C/prob-retrieving-definition.page:11 C/save-definition.page:10
+#: C/similar-words.page:11 C/source-add-local.page:11 C/sources-default.page:10
+#: C/sources-delete.page:11 C/sources-edit.page:10 C/sources.page:12
+#: C/sources-select.page:12 C/text-copy.page:11
+msgid "Sindhu S"
+msgstr "Sindhu S"
+
+#. (itstool) path: credit/years
+#: C/definition.page:13 C/definition.page:18 C/dictionary-select.page:13
+#: C/dictionary-select.page:18 C/find.page:12 C/find.page:17 C/index.page:13
+#: C/introduction.page:12 C/introduction.page:17 C/keyboard-shortcuts.page:13
+#: C/keyboard-shortcuts.page:18 C/print-font.page:13 C/print-font.page:18
+#: C/print.page:14 C/print.page:19 C/prob-retrieving-definition.page:13
+#: C/prob-retrieving-definition.page:18 C/save-definition.page:12
+#: C/save-definition.page:17 C/similar-words.page:13 C/similar-words.page:18
+#: C/source-add-local.page:13 C/sources-default.page:12
+#: C/sources-default.page:17 C/sources-delete.page:13 C/sources-delete.page:18
+#: C/sources-edit.page:12 C/sources-edit.page:17 C/sources.page:14
+#: C/sources.page:19 C/sources-select.page:14 C/sources-select.page:19
+#: C/text-copy.page:13 C/text-copy.page:18
+msgid "2013"
+msgstr "2013"
+
+#. (itstool) path: credit/name
+#: C/definition.page:16 C/dictionary-select.page:16 C/find.page:15
+#: C/introduction.page:15 C/keyboard-shortcuts.page:16 C/print-font.page:16
+#: C/print.page:17 C/prob-retrieving-definition.page:16
+#: C/save-definition.page:15 C/similar-words.page:16 C/sources-default.page:15
+#: C/sources-delete.page:16 C/sources-edit.page:15 C/sources.page:17
+#: C/sources-select.page:17 C/text-copy.page:16
+msgid "Ekaterina Gerasimova"
+msgstr "Ekaterina Gerasimova"
+
+#. (itstool) path: info/desc
+#: C/definition.page:23
+msgid "Find the definition of a word or term."
+msgstr "단어 또는 용어의 정의를 찾습니다."
+
+#. (itstool) path: page/title
+#: C/definition.page:27
+msgid "Look up a word or term"
+msgstr "단어 또는 용어 찾기"
+
+#. (itstool) path: page/p
+#: C/definition.page:29
+msgid ""
+"You can use <app>Dictionary</app> to look up the meaning of a <em>term</em>. "
+"A term can be a single word such as <input>apple</input> or a compound word "
+"such as <input>chopping board</input>. The search result may also show you "
+"the origin, importance and usage of a word. To look up a term:"
+msgstr ""
+"<app>사전</app>을 활용하여 <em>용어</em> 의미를 찾아볼 수 있습니다. "
+"<input>apple</input> 또는 <input>chopping board</input>와 같이 여러 단어로 이"
+"루어진 단어 조합이 용어가 될 수 있습니다. 검색 결과에서는 어원, 중요도, 단어 "
+"쓰임새를 보여줍니다. 용어를 찾아보려면:"
+
+#. (itstool) path: item/p
+#: C/definition.page:37
+msgid ""
+"Type in the term that you want to search for next to <gui>Look up</gui>."
+msgstr "<gui>찾아 보기</gui> 옆에 검색하고자 하는 단어를 입력하십시오."
+
+#. (itstool) path: item/p
+#: C/definition.page:41
+msgid ""
+"Press <key>Return</key> or <gui style=\"button\">Look up:</gui> to search."
+msgstr ""
+"<key>Return</key>키 또는 <gui style=\"button\">Look up:</gui>을 눌러 검색하십"
+"시오."
+
+#. (itstool) path: page/p
+#: C/definition.page:46
+msgid ""
+"<app>Dictionary</app> will search your selected dictionary source and show "
+"you the result from the first dictionary in the source. To view results from "
+"the other dictionaries that are in the same source, select <link xref="
+"\"similar-words\"><guiseq><gui style=\"menu\">View</gui> <gui style="
+"\"menuitem\">Similar Words</gui></guiseq></link> to pop up a sidebar that "
+"shows all the results."
+msgstr ""
+"<app>사전</app>은 선택한 사전 공급원을 검색하고 공급원의 첫번째 사전에서 나"
+"온 결과를 보여줍니다. 동일 공급원의 다른 사전 결과를 보려면 <link xref="
+"\"similar-words\"><guiseq><gui style=\"menu\">보기</gui> <gui style="
+"\"menuitem\">비슷한 단어</gui></guiseq></link> 를 선택하여 모든 결과를 보여주"
+"는 가장자리 표시줄을 띄우십시오."
+
+#. (itstool) path: page/title
+#: C/dictionary-select.page:25
+msgid "Select a different dictionary"
+msgstr "다른 사전 선택"
+
+#. (itstool) path: page/p
+#: C/dictionary-select.page:27
+msgid ""
+"A single <link xref=\"sources\">dictionary source</link> may have many "
+"different dictionaries. You can search any of these dictionaries."
+msgstr ""
+"단일 <link xref=\"sources\">사전 공급원</link>에 다른 사전이 있을 수도 있습니"
+"다. 이 사전 어디에서든 검색할 수 있습니다."
+
+#. (itstool) path: steps/title
+#: C/dictionary-select.page:32
+msgid "Select a dictionary"
+msgstr "사전 선택"
+
+#. (itstool) path: item/p
+#: C/dictionary-select.page:34
+msgid ""
+"Select <guiseq><gui style=\"menu\">View</gui> <gui style=\"menuitem"
+"\">Available Databases</gui></guiseq>. A sidebar listing the available "
+"dictionaries for your currently selected dictionary source will open."
+msgstr ""
+"<guiseq><gui style=\"menu\">보기</gui> <gui style=\"menuitem\">사용 가능한 데"
+"이터베이스</gui></guiseq>를 선택하십시오. 현재 선택한 사전 공급원의 사용 가능"
+"한 사전을 나타내는 가장자리 표시줄을 엽니다."
+
+#. (itstool) path: item/p
+#: C/dictionary-select.page:40
+msgid "Click twice on the dictionary that you want to use."
+msgstr "사용하려는 사전을 두 번 누르십시오."
+
+#. (itstool) path: page/p
+#: C/dictionary-select.page:44
+msgid ""
+"The next term that you <link xref=\"definition\">look up</link> will show "
+"the result only from the selected dictionary."
+msgstr ""
+"여러분이 <link xref=\"definition\">찾은</link> 다음 단어의 결과,는 선택한 사"
+"전에서만 나옵니다."
+
+#. (itstool) path: note/p
+#: C/dictionary-select.page:48
+msgid ""
+"Your dictionary selection will not be remembered next time you use "
+"<app>Dictionary</app>."
+msgstr "사전 선택 설정은 다음에 <app>사전</app>을 사용할 때 기억하지 않습니다."
+
+#. (itstool) path: info/desc
+#: C/find.page:22
+msgid "Find text in a definition."
+msgstr "정의에서 글 내용을 찾아봅니다."
+
+#. (itstool) path: page/title
+#. (itstool) path: td/p
+#: C/find.page:26 C/keyboard-shortcuts.page:74
+msgid "Search within a definition"
+msgstr "정의 검색"
+
+#. (itstool) path: page/p
+#: C/find.page:28
+msgid ""
+"Some dictionary entries can be very long and can contain many results, so "
+"you may wish to search them to find the section that is relevant to you."
+msgstr ""
+"일부 사전 항목은 상당히 길어 많은 결과를 담고 있을 수 있기에, 원하는 섹션에"
+"서 찾아 볼 내용을 검색하는 것이 좋습니다."
+
+#. (itstool) path: steps/title
+#: C/find.page:32
+msgid "To find definitions:"
+msgstr "정의를 찾으려면:"
+
+#. (itstool) path: item/p
+#: C/find.page:34
+msgid ""
+"Select <guiseq><gui style=\"menu\">Edit</gui> <gui style=\"menuitem\">Find</"
+"gui></guiseq>."
+msgstr ""
+"<guiseq><gui style=\"menu\">편집</gui> <gui style=\"menuitem\">찾기</gui></"
+"guiseq>를 누르십시오."
+
+#. (itstool) path: item/p
+#: C/find.page:38
+msgid ""
+"The <gui>Find</gui> bar will appear at the bottom of the <app>Dictionary</"
+"app> window. Type in your search term to search within the definition that "
+"is currently displayed."
+msgstr ""
+"<gui>찾기</gui> 표시줄은 <app>사전</app> 창 하단에 나타납니다. 검색 용어를 입"
+"력하여 현재 나타난 정의 내용을 검색하십시오."
+
+#. (itstool) path: item/p
+#: C/find.page:43
+msgid ""
+"Click <gui style=\"button\">Previous</gui> or <gui style=\"button\">Next</"
+"gui> to scroll through the results. The search will not wrap around: in "
+"other words, it will not go to the top of the page when you are on the last "
+"result and click <gui style=\"button\">Next</gui>."
+msgstr ""
+"결과를 스크롤하려면 <gui style=\"button\">이전</gui> 또는 <gui style=\"button"
+"\">다음</gui> 을 누르십시오. 검색 추적점은 처음으로 돌아오지 않습니다. 다시 "
+"말해 <gui style=\"button\">다음</gui>을 눌렀을 때 마지막 결과에 도달하면 처음"
+"으로 돌아오지 않는다는 의미입니다."
+
+#. (itstool) path: info/title
+#: C/index.page:8
+msgctxt "text"
+msgid "Dictionary"
+msgstr "사전"
+
+#. (itstool) path: info/desc
+#: C/index.page:18
+msgid "Look up word definitions in <app>Dictionary</app>."
+msgstr "<app>사전</app> 에서 단어 정의를 찾아봅니다."
+
+#. (itstool) path: page/title
+#: C/index.page:21
+msgid "<_:media-1/> Dictionary Help"
+msgstr "<_:media-1/> 사전 도움말"
+
+#. (itstool) path: section/title
+#: C/index.page:26
+msgid "Features"
+msgstr "기능"
+
+#. (itstool) path: section/title
+#: C/index.page:30
+msgid "Preferences"
+msgstr "기본 설정"
+
+#. (itstool) path: section/title
+#: C/index.page:34
+msgid "Common problems and solutions"
+msgstr "일반 문제 및 해결책"
+
+#. (itstool) path: media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/introduction.page:38
+msgctxt "_"
+msgid ""
+"external ref='figures/gnome-dictionary.png' "
+"md5='80df283344ecd9b03b88309f8ee9912d'"
+msgstr ""
+
+#. (itstool) path: info/desc
+#: C/introduction.page:22
+msgid "What is <app>Dictionary</app>?"
+msgstr "<app>사전</app> 이 무엇인가요?"
+
+#. (itstool) path: page/title
+#: C/introduction.page:26
+msgid "Introduction"
+msgstr "소개"
+
+#. (itstool) path: page/p
+#: C/introduction.page:28
+msgid ""
+"<app>Dictionary</app> is an application for looking up term definitions. It "
+"searches for definitions using an online <app>DICT</app> server. The default "
+"<app>DICT</app> server is at <sys href=\"http://dict.org\">http://dict.org</"
+"sys>."
+msgstr ""
+"<app>Dictionary</app>은 용어 정의를 찾아볼 때 사용하는 프로그램입니다. 온라"
+"인 <app>DICT</app> 서버에서 정의를 검색합니다. 기본 <app>DICT</app> 서버는 "
+"<sys href=\"http://dict.org\">http://dict.org</sys>에 있습니다."
+
+#. (itstool) path: page/p
+#: C/introduction.page:33
+msgid ""
+"Start using <app>Dictionary</app> by <link xref=\"definition\">looking up a "
+"definition</link>!"
+msgstr ""
+"<link xref=\"definition\">정의 검색</link>으로 <app>사전</app> 활용을 시작하"
+"세요!"
+
+#. (itstool) path: figure/title
+#: C/introduction.page:37
+msgid "Dictionary"
+msgstr "사전"
+
+#. (itstool) path: media/p
+#: C/introduction.page:39
+msgid "Screenshot showing the <app>Dictionary</app> main window."
+msgstr "<app>사전</app> 메인 창을 보여주는 스크린샷입니다."
+
+#. (itstool) path: info/desc
+#: C/keyboard-shortcuts.page:23
+msgid ""
+"You can use keyboard shortcuts to navigate around <app>Dictionary</app> more "
+"efficiently."
+msgstr ""
+"<app>사전</app> 을 효율적으로 둘러볼 때 키보드 바로 가기 키를 사용할 수 있습"
+"니다."
+
+#. (itstool) path: page/title
+#: C/keyboard-shortcuts.page:27
+msgid "Keyboard shortcuts"
+msgstr "키보드 바로 가기 키"
+
+#. (itstool) path: page/p
+#: C/keyboard-shortcuts.page:29
+msgid ""
+"Keyboard shortcuts are combinations of keys that you can use instead of "
+"navigating through the menu. The following shortcuts are available:"
+msgstr ""
+"키보드 바로 가기 키는 메뉴를 탐색하는 대신 사용할 수 있는 키 조합입니다. 다"
+"음 바로 가기 키를 사용할 수 있습니다:"
+
+#. (itstool) path: table/title
+#: C/keyboard-shortcuts.page:33
+msgid "Navigate around <app>Dictionary</app>"
+msgstr "<app>사전</app>을 이리저리 찾아봅니다."
+
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:36 C/keyboard-shortcuts.page:68
+#: C/keyboard-shortcuts.page:92 C/keyboard-shortcuts.page:120
+msgid "Action"
+msgstr "동작"
+
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:37 C/keyboard-shortcuts.page:69
+#: C/keyboard-shortcuts.page:93 C/keyboard-shortcuts.page:121
+msgid "Shortcut"
+msgstr "바로 가기 키"
+
+#. (itstool) path: td/p
+#. (itstool) path: section/title
+#: C/keyboard-shortcuts.page:42 C/print.page:36
+msgid "Print preview"
+msgstr "인쇄 미리보기"
+
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:43
+msgid "<keyseq><key>Shift</key><key>Ctrl</key><key>P</key></keyseq>"
+msgstr "<keyseq><key>Shift</key><key>Ctrl</key><key>P</key></keyseq>"
+
+#. (itstool) path: td/p
+#. (itstool) path: section/title
+#: C/keyboard-shortcuts.page:46 C/print.page:67
+msgid "Print"
+msgstr "인쇄"
+
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:47
+msgid "<keyseq><key>Ctrl</key><key>P</key></keyseq>"
+msgstr "<keyseq><key>Ctrl</key><key>P</key></keyseq>"
+
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:50
+msgid "View sidebar"
+msgstr "가장자리 창 보기"
+
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:51
+msgid "<key>F9</key>"
+msgstr "<key>F9</key>"
+
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:54
+msgid "Open a new <app>Dictionary</app> window"
+msgstr "새 <app>사전</app> 창 열기"
+
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:55
+msgid "<keyseq><key>Ctrl</key><key>N</key></keyseq>"
+msgstr "<keyseq><key>Ctrl</key><key>N</key></keyseq>"
+
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:58
+msgid "Close current <app>Dictionary</app> window"
+msgstr "현재 <app>Dictionary</app> 창 닫기"
+
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:59
+msgid "<keyseq><key>Ctrl</key><key>W</key></keyseq>"
+msgstr "<keyseq><key>Ctrl</key><key>W</key></keyseq>"
+
+#. (itstool) path: table/title
+#: C/keyboard-shortcuts.page:65
+msgid "Search shortcuts"
+msgstr "검색 바로 가기 키"
+
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:75
+msgid "<key>/</key> or <keyseq><key>Ctrl</key><key>F</key></keyseq>"
+msgstr "<key>/</key> or <keyseq><key>Ctrl</key><key>F</key></keyseq>"
+
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:78
+msgid "Find next"
+msgstr "다음 찾기"
+
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:79
+msgid "<keyseq><key>Ctrl</key><key>G</key></keyseq>"
+msgstr "<keyseq><key>Ctrl</key><key>G</key></keyseq>"
+
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:82
+msgid "Find previous"
+msgstr "이전 찾기"
+
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:83
+msgid "<keyseq><key>Shift</key><key>Ctrl</key><key>G</key></keyseq>"
+msgstr "<keyseq><key>Shift</key><key>Ctrl</key><key>G</key></keyseq>"
+
+#. (itstool) path: table/title
+#: C/keyboard-shortcuts.page:89
+msgid "Navigate within a definition"
+msgstr "정의 내용 탐색"
+
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:98
+msgid "Previous definition"
+msgstr "이전 정의"
+
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:99
+msgid "<keyseq><key>Ctrl</key><key>Page Up</key></keyseq>"
+msgstr "<keyseq><key>Ctrl</key><key>Page Up</key></keyseq>"
+
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:102
+msgid "Next definition"
+msgstr "다음 정의"
+
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:103
+msgid "<keyseq><key>Ctrl</key><key>Page Down</key></keyseq>"
+msgstr "<keyseq><key>Ctrl</key><key>Page Down</key></keyseq>"
+
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:106
+msgid "First definition"
+msgstr "처음 정의"
+
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:107
+msgid "<keyseq><key>Ctrl</key><key>Home</key></keyseq>"
+msgstr "<keyseq><key>Ctrl</key><key>Home</key></keyseq>"
+
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:110
+msgid "Last definition"
+msgstr "마지막 정의"
+
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:111
+msgid "<keyseq><key>Ctrl</key><key>End</key></keyseq>"
+msgstr "<keyseq><key>Ctrl</key><key>End</key></keyseq>"
+
+#. (itstool) path: table/title
+#: C/keyboard-shortcuts.page:117
+msgid "<app>Dictionary</app> definitions shortcuts:"
+msgstr "<app>사전</app> 정의 바로 가기 키:"
+
+#. (itstool) path: td/p
+#. (itstool) path: page/title
+#: C/keyboard-shortcuts.page:126 C/similar-words.page:27
+msgid "Similar words"
+msgstr "유사 단어"
+
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:127
+msgid "<keyseq><key>Ctrl</key><key>T</key></keyseq>"
+msgstr "<keyseq><key>Ctrl</key><key>T</key></keyseq>"
+
+#. (itstool) path: td/p
+#. (itstool) path: page/title
+#: C/keyboard-shortcuts.page:130 C/sources.page:28
+msgid "Dictionary sources"
+msgstr "사전 공급원"
+
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:131
+msgid "<keyseq><key>Ctrl</key><key>D</key></keyseq>"
+msgstr "<keyseq><key>Ctrl</key><key>D</key></keyseq>"
+
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:134
+msgid "Available databases"
+msgstr "사용할 수 있는 데이터베이스"
+
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:135
+msgid "<keyseq><key>Ctrl</key><key>B</key></keyseq>"
+msgstr "<keyseq><key>Ctrl</key><key>B</key></keyseq>"
+
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:138
+msgid "Available strategies"
+msgstr "사용할 수 있는 검색 방식"
+
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:139
+msgid "<keyseq><key>Ctrl</key><key>R</key></keyseq>"
+msgstr "<keyseq><key>Ctrl</key><key>R</key></keyseq>"
+
+#. (itstool) path: p/link
+#: C/legal.xml:3
+msgid "http://creativecommons.org/licenses/by-sa/3.0/"
+msgstr "http://creativecommons.org/licenses/by-sa/3.0/"
+
+#. (itstool) path: license/p
+#: C/legal.xml:3
+msgid ""
+"This work is licensed under the Creative Commons Attribution-ShareAlike 3.0 "
+"Unported License. To view a copy of this license, visit <_:link-1/> or send "
+"a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, "
+"California, 94041, USA."
+msgstr ""
+"이 문서는 크리에이티브 커먼즈 저작자표시-동일조건변경허락 3.0 Unported 라이선"
+"스에 따른 활용을 허가합니다. 라이선스 사본을 보려면 <_:link-1/> 링크를 방문하"
+"거나 444 Castro Street, Suite 900, Mountain View, California, 94041, USA의 크"
+"리에이티브 커먼즈로 서신을 보내십시오."
+
+#. (itstool) path: info/desc
+#: C/pref.page:15
+msgid "Manage your preferences."
+msgstr "기본 설정을 관리합니다."
+
+#. (itstool) path: page/title
+#: C/pref.page:18
+msgid "<app>Dictionary</app> preferences"
+msgstr "<app>사전</app> 기본 설정"
+
+#. (itstool) path: info/desc
+#: C/print-font.page:23
+msgid "Select the font for printing definitions."
+msgstr "정의를 인쇄할 글꼴을 선택합니다."
+
+#. (itstool) path: page/title
+#: C/print-font.page:27
+msgid "Print font"
+msgstr "인쇄 글꼴"
+
+#. (itstool) path: page/p
+#: C/print-font.page:29
+msgid ""
+"You can change the default font face and size that are used for printing the "
+"definitions."
+msgstr "정의를 인쇄할 때 활용할 기본 글꼴 및 크기를 설정할 수 있습니다."
+
+#. (itstool) path: steps/title
+#: C/print-font.page:33
+msgid "Change the font"
+msgstr "글꼴 바꾸기"
+
+#. (itstool) path: item/p
+#: C/print-font.page:35
+msgid ""
+"Select <guiseq><gui style=\"menu\">Dictionary</gui> <gui style=\"menuitem"
+"\">Preferences</gui> <gui style=\"tab\">Print</gui></guiseq>."
+msgstr ""
+"<guiseq><gui style=\"menu\">사전</gui> <gui style=\"menuitem\">기본 설정</"
+"gui> <gui style=\"tab\">인쇄</gui></guiseq>를 선택하십시오."
+
+#. (itstool) path: item/p
+#: C/print-font.page:40
+msgid "Click font selector button."
+msgstr "글꼴 선택기 단추를 누르십시오."
+
+#. (itstool) path: item/p
+#: C/print-font.page:43
+msgid "Select the font that you wish to use."
+msgstr "원하는 글꼴을 선택하십시오."
+
+#. (itstool) path: item/p
+#: C/print-font.page:46
+msgid ""
+"Drag the slider to the right to increase the font size or left to decrease "
+"it. Alternatively, you can type in the font size in the text box, or use the "
+"<gui>-</gui> and <gui>+</gui> buttons to decrease and increase the font size."
+msgstr ""
+"슬라이더를 오른쪽으로 끌어 글꼴 크기를 늘이거나 왼쪽으로 끌어 줄일 수 있니"
+"다. 또는 텍스트 입력 상자에 글꼴 크기를 직접 입력하거나 <gui>-</gui>단추와 "
+"<gui>+</gui> 단추로 글꼴 크기를 늘였다 줄였다 할 수 있습니다."
+
+#. (itstool) path: item/p
+#: C/print-font.page:52
+msgid "Click <gui style=\"button\">Select</gui> to save your font settings."
+msgstr "<gui style=\"button\">선택</gui>을 눌러 글꼴 설정을 저장하십시오."
+
+#. (itstool) path: page/p
+#: C/print-font.page:56
+msgid ""
+"The definition is not reflowed for printing, so if you choose a large font "
+"size, some of the text may be cut off."
+msgstr ""
+"정의 내용은 인쇄 용도로 맞추어 놓지 않았기 때문에 글꼴 크기를 크게 하면 일부 "
+"내용이 잘립니다."
+
+#. (itstool) path: info/desc
+#: C/print.page:24
+msgid "Print preview and print definitions."
+msgstr "정의 인쇄 내용을 미리보고 인쇄합니다."
+
+#. (itstool) path: page/title
+#: C/print.page:28
+msgid "Print a definition"
+msgstr "정의 내용 인쇄"
+
+#. (itstool) path: page/p
+#: C/print.page:30
+msgid ""
+"You can print a definition to paper or a file. Before printing, you should "
+"preview the definition as it would be printed to check that the text fits "
+"onto the page, especially if you have changed the <link xref=\"print-font"
+"\">print font</link> size."
+msgstr ""
+"정의를 용지에 인쇄하거나 파일로 내보낼 수 있습니다. 인쇄하기 전 인쇄할 정의 "
+"내용을 미리 보아 페이지에 맞게 글 내용이 들어가는지, 특히 <link xref=\"print-"
+"font\">인쇄 글꼴</link> 크기를 바꾸었는지 확인해야합니다."
+
+#. (itstool) path: item/p
+#: C/print.page:40
+msgid ""
+"Select <guiseq><gui style=\"menu\">File</gui> <gui style=\"menuitem"
+"\">Preview</gui></guiseq>."
+msgstr ""
+"<guiseq><gui style=\"menu\">파일</gui> <gui style=\"menuitem\">미리보기</"
+"gui></guiseq>를 선택하십시오."
+
+#. (itstool) path: item/p
+#: C/print.page:44
+msgid ""
+"A print preview window will open which will show you the definition exactly "
+"as it will be printed."
+msgstr ""
+"정의를 용지에 어떻게 인쇄할 지 정확하게 보여주는 인쇄 미리보기 창을 엽니다."
+
+#. (itstool) path: item/p
+#: C/print.page:48
+msgid "Use the toolbar to browse pages, adjust zoom level and page width."
+msgstr ""
+"페이지를 탐색하거나 확대/축소 하거나 페이지 폭을 조절하려면 도구 모음을 사용"
+"하십시오."
+
+#. (itstool) path: item/p
+#: C/print.page:52
+msgid ""
+"Click the <gui style=\"button\">Print this document</gui> to print the "
+"definition or close the window to end the preview."
+msgstr ""
+"<gui style=\"button\">이 문서 인쇄</gui>를 눌러 정의를 인쇄하거나 창을 닫아 "
+"미리보기를 끝내십시오."
+
+#. (itstool) path: note/p
+#: C/print.page:58
+msgid ""
+"The print button in the toolbar may not always work. If it does not work for "
+"you, close the window and select <guiseq><gui style=\"menu\">File</gui> <gui "
+"style=\"menuitem\">Print</gui></guiseq>."
+msgstr ""
+"도구 모음의 인쇄 단추는 항상 동작하지 않습니다. 동작하지 않는다면 창을 닫고 "
+"<guiseq><gui style=\"menu\">파일</gui> <gui style=\"menuitem\">인쇄</gui></"
+"guiseq>를 누르십시오."
+
+#. (itstool) path: section/p
+#: C/print.page:69
+msgid ""
+"You need to <link href=\"help:gnome-help/printing\">have a printer set up</"
+"link> to be able to print to paper."
+msgstr ""
+"용지에 인쇄할 수 있게 하려면 <link href=\"help:gnome-help/printing\">프린터"
+"를 설정</link>해야 합니다."
+
+#. (itstool) path: item/p
+#: C/print.page:74
+msgid ""
+"Select <guiseq><gui style=\"menu\">File</gui> <gui style=\"menuitem\">Print</"
+"gui> <gui style=\"tab\">General</gui></guiseq>."
+msgstr ""
+"<guiseq><gui style=\"menu\">파일</gui> <gui style=\"menuitem\">인쇄</gui> "
+"<gui style=\"tab\">일반</gui></guiseq>을 선택하십시오."
+
+#. (itstool) path: item/p
+#: C/print.page:79
+msgid ""
+"Select the printer that you want to use from the list of printers or select "
+"<gui href=\"help:gnome-help/print-to-file\">Print to File</gui>."
+msgstr ""
+"프린터 목록에서 프린터를 선택하거나 <gui href=\"help:gnome-help/print-to-file"
+"\">파일로 인쇄</gui>를 선택하십시오."
+
+#. (itstool) path: item/p
+#: C/print.page:84
+msgid ""
+"Chose your <link href=\"help:gnome-help/printing#paper\">printing settings</"
+"link>."
+msgstr ""
+"<link href=\"help:gnome-help/printing#paper\">인쇄 설정</link>을 선택하십시"
+"오."
+
+#. (itstool) path: item/p
+#: C/print.page:88
+msgid "Press <gui style=\"button\">Print</gui> to print the definition."
+msgstr "<gui style=\"button\">인쇄</gui>를 눌러 정의를 인쇄하십시오."
+
+#. (itstool) path: info/desc
+#: C/prob-retrieving-definition.page:23
+msgid "<sys>Error while retrieving definitions</sys>."
+msgstr "<sys>단어 정의를 받는 중 오류</sys>."
+
+#. (itstool) path: page/title
+#: C/prob-retrieving-definition.page:27
+msgid "Cannot find definitions"
+msgstr "정의를 찾을 수 없음"
+
+#. (itstool) path: page/p
+#: C/prob-retrieving-definition.page:29
+msgid ""
+"If you see the error message <sys>Error while retrieving definition</sys> "
+"when looking up a definition from any of the <link xref=\"sources-select"
+"\">selected dictionaries</link>, the problem is more likely one of the "
+"following:"
+msgstr ""
+"<link xref=\"sources-select\">선택한 사전</link>에서 정의를 찾아볼 때 <sys>단"
+"어 정의를 받는 중 오류</sys> 메시지가 뜬다면 다음 중 한가지 문제일 수 있습니"
+"다:"
+
+#. (itstool) path: item/p
+#: C/prob-retrieving-definition.page:36
+msgid ""
+"One or more of the selected <app>DICT</app> servers that are used to look up "
+"definitions may not be working. You can try waiting a while before <link "
+"xref=\"definition\">looking up</link> the definition again."
+msgstr ""
+"정의를 찾아보려 선택한 하나 이상의 <app>DICT</app> 서버가 동작하지 않을 수도 "
+"있습니다. 정의를 다시 <link xref=\"definition\">찾아 보기</link> 전에 잠시동"
+"안 기다려볼 수 있습니다."
+
+#. (itstool) path: item/p
+#: C/prob-retrieving-definition.page:42
+msgid ""
+"You may not have a working Internet connection. For <app>Dictionary</app> to "
+"look up terms, your computer <link href=\"help:gnome-help/net\">must be able "
+"to connect</link> to <sys href=\"http://dict.org\">dict.org</sys>."
+msgstr ""
+"인터넷 연결이 끊어졌을지도 모릅니다. <app>사전</app>에서 용어를 찾아보려면, "
+"컴퓨터에서 <sys href=\"http://dict.org\">dict.org</sys>에 <link href=\"help:"
+"gnome-help/net\">연결할 수 있어야합니다</link>."
+
+#. (itstool) path: info/desc
+#: C/save-definition.page:22
+msgid "Save a copy of a definition to a text file."
+msgstr "텍스트 파일로 정의 사본을 저장하십시오."
+
+#. (itstool) path: page/title
+#: C/save-definition.page:26
+msgid "Save a definition"
+msgstr "정의 저장하기"
+
+#. (itstool) path: page/p
+#: C/save-definition.page:28
+msgid ""
+"You can save a definition to a text file. This may be useful if you want to "
+"use it outside of <app>Dictionary</app>."
+msgstr ""
+"정의를 텍스트 파일로 저장할 수 있습니다. <app>사전</app>외의 위치에서 정의를 "
+"활용할 경우 쓸만합니다."
+
+#. (itstool) path: steps/title
+#: C/save-definition.page:32
+msgid "To save a definition:"
+msgstr "정의를 저장하려면:"
+
+#. (itstool) path: item/p
+#: C/save-definition.page:34
+msgid ""
+"Select <guiseq><gui style=\"menu\">File</gui> <gui style=\"menuitem\">Save a "
+"Copy…</gui></guiseq>."
+msgstr ""
+"<guiseq><gui style=\"menu\">파일</gui> <gui style=\"menuitem\">복사본 저장…</"
+"gui></guiseq>을 선택하십시오."
+
+#. (itstool) path: item/p
+#: C/save-definition.page:38
+msgid ""
+"Chose where you want to save the definition to and a name for the file. You "
+"may want to add a <file>.txt</file> file extension to the end of the file "
+"name."
+msgstr ""
+"정의를 저장할 위치를 선택하고 파일 이름을 입력하십시오. 파일 이름 끝에 "
+"<file>.txt</file> 파일 확장자를 입력하셔도 좋습니다."
+
+#. (itstool) path: item/p
+#: C/save-definition.page:43
+msgid "Press <gui style=\"button\">Save</gui> to save the definition."
+msgstr "<gui style=\"button\">저장</gui>을 눌러 정의를 저장하십시오."
+
+#. (itstool) path: info/desc
+#: C/similar-words.page:23
+msgid "View related results in other dictionaries."
+msgstr "다른 사전의 관련 결과를 봅니다."
+
+#. (itstool) path: page/p
+#: C/similar-words.page:29
+msgid ""
+"<app>Dictionary</app> will only display the definition from one of your "
+"dictionaries. To check if there are search results in other dictionaries:"
+msgstr ""
+"<app>사전</app>에서는 여러 사전 중 하나에 있는 정의만을 표시합니다. 다른 사전"
+"의 검색 결과를 확인하려면:"
+
+#. (itstool) path: item/p
+#: C/similar-words.page:34
+msgid "<link xref=\"definition\">Look up</link> the desired term."
+msgstr "원하는 단어를 <link xref=\"definition\">찾아봅니다</link>."
+
+#. (itstool) path: item/p
+#: C/similar-words.page:37
+msgid ""
+"If the sidebar is not already visible, select <guiseq><gui style=\"menu"
+"\">View</gui> <gui style=\"menuitem\">Similar Words</gui></guiseq>."
+msgstr ""
+"가장자리 표시줄이 아직 나타나지 않았다면, <guiseq><gui style=\"menu\">보기</"
+"gui> <gui style=\"menuitem\">비슷한 단어</gui></guiseq>를 선택하십시오."
+
+#. (itstool) path: item/p
+#: C/similar-words.page:42
+msgid ""
+"The <gui>Similar Words</gui> sidebar will show search results from other "
+"dictionaries in your selected dictionary source. To view the similar word, "
+"double click on the entry."
+msgstr ""
+"<gui>비슷한 단어</gui> 가장자리 표시줄에서는 사전 공급원에서 선택한 다른 사전"
+"의 검색 결과를 보여줍니다. 비슷한 단어를 보려면 항목을 두 번 누르십시오."
+
+#. (itstool) path: page/title
+#: C/source-add-local.page:20
+msgid "Add local dictionary sources"
+msgstr "로컬 사전 공급원 추가"
+
+#. (itstool) path: page/title
+#: C/sources-default.page:24
+msgid "Set a default dictionary source"
+msgstr "기본 사전 공급원 설정"
+
+#. (itstool) path: page/p
+#: C/sources-default.page:26
+msgid ""
+"When you first use <app>Dictionary</app>, it should have some pre-installed "
+"dictionaries that you can use. You can change the default <link xref="
+"\"sources\">dictionary source</link> to one that you would prefer to use "
+"instead."
+msgstr ""
+"<app>사전</app>을 처음 사용한다면, 사용할 수 있는 사전을 미리 설치해야합니"
+"다. 기본 <link xref=\"sources\">사전 공급원</link>을 대신 사용할 사전으로 바"
+"꿀 수 있습니다."
+
+#. (itstool) path: steps/title
+#: C/sources-default.page:32
+msgid "Change the default dictionary source:"
+msgstr "기본 사전 공급원 바꾸기:"
+
+#. (itstool) path: item/p
+#: C/sources-default.page:34
+msgid ""
+"Select <guiseq><gui><app>Dictionary</app></gui> <gui style=\"menu"
+"\">Preferences</gui> <gui style=\"tab\">Source</gui></guiseq>."
+msgstr ""
+"<guiseq><gui><app>사전</app></gui> <gui style=\"menu\">기본 설정</gui> <gui "
+"style=\"tab\">공급원</gui></guiseq>을 선택하십오."
+
+#. (itstool) path: item/p
+#: C/sources-default.page:39
+msgid "Select the dictionary source that you want to set as the default."
+msgstr "기본으로 설정할 사전 공급원을 선택하십시오."
+
+#. (itstool) path: item/p
+#: C/sources-default.page:42
+msgid "Your change will be saved automatically."
+msgstr "바꾼 내용은 자동으로 저장합니다."
+
+#. (itstool) path: page/title
+#: C/sources-delete.page:25
+msgid "Delete a dictionary source"
+msgstr "사전 공급원 삭제"
+
+#. (itstool) path: page/p
+#: C/sources-delete.page:27
+msgid ""
+"If you no longer need a specific <link xref=\"sources\">dictionary source</"
+"link> or if one stops working for you, you may want to delete it."
+msgstr ""
+"지정 <link xref=\"sources\">사전 공급원</link>이 더이상  필요하지 않거나 동작"
+"이 멈췄다면, 삭제할 수도 있습니다."
+
+#. (itstool) path: steps/title
+#: C/sources-delete.page:32
+msgid "Delete a dictionary source:"
+msgstr "사전 공급원 삭제하기:"
+
+#. (itstool) path: item/p
+#: C/sources-delete.page:34
+msgid ""
+"Select <guiseq><gui style=\"menu\"><app>Dictionary</app></gui> <gui style="
+"\"menuitem\">Preferences</gui> <gui style=\"tab\">Source</gui></guiseq>."
+msgstr ""
+"<guiseq><gui style=\"menu\"><app>사전</app></gui> <gui style=\"menuitem\">기"
+"본 설정</gui> <gui style=\"tab\">공급원</gui></guiseq>을 선택하십시오."
+
+#. (itstool) path: item/p
+#: C/sources-delete.page:39
+msgid "Select the dictionary source that you want to delete."
+msgstr "삭제하려는 사전 공급원을 선택하십시오."
+
+#. (itstool) path: item/p
+#: C/sources-delete.page:42
+msgid "Press <gui style=\"button\">Remove</gui>."
+msgstr "<gui style=\"button\">제거</gui>를 누르십시오."
+
+#. (itstool) path: item/p
+#: C/sources-delete.page:45
+msgid ""
+"A dialog will pop up asking you to confirm that you wish to permanently "
+"delete the selected source. Once you confirm, the source will be deleted."
+msgstr ""
+"선택한 공급원을 완전히 삭제할지 묻는 대화 상자가 뜹니다. 여기서 확인하면 공급"
+"원을 삭제합니다."
+
+#. (itstool) path: page/title
+#: C/sources-edit.page:24
+msgid "Edit a dictionary source"
+msgstr "사전 공급원 편집"
+
+#. (itstool) path: page/p
+#: C/sources-edit.page:26
+msgid ""
+"You can customize a <link xref=\"sources\">dictionary source</link> to "
+"update details such as its description or remote address."
+msgstr ""
+"설명 또는 원격 주소 등의 세부 설정을 업데이트 하여 <link xref=\"sources\">사"
+"전 공급원</link> 을 개별적으로 설정할 수 있습니다."
+
+#. (itstool) path: steps/title
+#: C/sources-edit.page:30
+msgid "To edit a dictionary source:"
+msgstr "사전 공급원을 편집하려면:"
+
+#. (itstool) path: item/p
+#: C/sources-edit.page:32
+msgid ""
+"Select <guiseq><gui style=\"menu\">Dictionary</gui> <gui style=\"menuitem"
+"\">Preferences</gui> <gui style=\"tab\">Source</gui></guiseq>."
+msgstr ""
+"<guiseq><gui style=\"menu\">사전</gui> <gui style=\"menuitem\">기본 설정</"
+"gui> <gui style=\"tab\">공급원</gui></guiseq>을 선택하십시오."
+
+#. (itstool) path: item/p
+#: C/sources-edit.page:37
+msgid "Double click on the dictionary source you want to edit."
+msgstr "편집하고자 하는 사전 공급원을 두 번 누르십시오."
+
+#. (itstool) path: item/p
+#: C/sources-edit.page:40
+msgid "You can edit the following fields:"
+msgstr "다음 입력란을 편집할 수 있습니다:"
+
+#. (itstool) path: item/p
+#: C/sources-edit.page:43
+msgid ""
+"<gui>Description</gui> is the name of the source as it will be displayed to "
+"you."
+msgstr "<gui>설명</gui>은 공급원을 나타낼 이름입니다."
+
+#. (itstool) path: item/p
+#: C/sources-edit.page:47
+msgid "<gui>Transport</gui> is the type of server."
+msgstr "<gui>전송</gui> 은 서버 형식입니다."
+
+#. (itstool) path: item/p
+#: C/sources-edit.page:50
+msgid "<gui>Hostname</gui> is the location of the dictionary source."
+msgstr "<gui>호스트 이름</gui> 은 사전 공급원의 위치입니다."
+
+#. (itstool) path: item/p
+#: C/sources-edit.page:55
+msgid "<gui>Port</gui>."
+msgstr "<gui>포트</gui>."
+
+#. (itstool) path: item/p
+#: C/sources-edit.page:60
+msgid ""
+"View the dictionaries that are available in the dictionary source by "
+"selecting the <gui style=\"tab\">Dictionaries</gui> tab."
+msgstr ""
+"<gui style=\"tab\">사전</gui> 탭을 선택하여 사전 공급원에서 활용할 수 있는 사"
+"전을 살펴보십시오."
+
+#. (itstool) path: item/p
+#: C/sources-edit.page:64
+msgid "Press <gui style=\"button\">Close</gui> to save the settings."
+msgstr "<gui style=\"button\">닫기</gui>를 눌러 설정을 저장하십시오."
+
+#. (itstool) path: info/desc
+#: C/sources.page:24
+msgid "Manage various dictionary sources."
+msgstr "다양한 사전 공급원을 관리합니다."
+
+#. (itstool) path: page/p
+#: C/sources.page:30
+msgid ""
+"<app>Dictionary</app> uses <em>dictionary sources</em> to look up words that "
+"you search for. Dictionary sources are collections of one or more dictionary "
+"databases which are usually online, but can be installed on your machine as "
+"well."
+msgstr ""
+"<app>사전</app>은 단어를 검색할 <em>사전 공급원</em>을 활용합니다. 사전 공급"
+"원은 보통은 온라인에 있지만 머신에도 설치할 수 있는 하나 이상의 사전 데이터베"
+"이스 모음입니다."
+
+#. (itstool) path: section/title
+#: C/sources.page:36
+msgid "Manage your dictionary sources"
+msgstr "사전 공급원 관리"
+
+#. (itstool) path: page/title
+#: C/sources-select.page:26
+msgid "Select a dictionary source"
+msgstr "사전 공급원 선택"
+
+#. (itstool) path: page/p
+#: C/sources-select.page:28
+msgid ""
+"You can change the <link xref=\"sources\">dictionary source</link> that you "
+"are currently using without changing your default preferences."
+msgstr ""
+"기본 설정을 바꾸지 않고도 현재 활용중인 <link xref=\"sources\">사전 공급원</"
+"link>을 바꿀 수 있습니다."
+
+#. (itstool) path: steps/title
+#: C/sources-select.page:32
+msgid "Temporarily change the dictionary source:"
+msgstr "사전 공급원을 임시로 바꾸려면:"
+
+#. (itstool) path: item/p
+#: C/sources-select.page:34
+msgid ""
+"Select <guiseq><gui style=\"menu\">View</gui> <gui style=\"menuitem"
+"\">Dictionary Sources</gui></guiseq>."
+msgstr ""
+"<guiseq><gui style=\"menu\">보기</gui> <gui style=\"menuitem\">사전 공급원</"
+"gui></guiseq>을 선택하십시오."
+
+#. (itstool) path: item/p
+#: C/sources-select.page:38
+msgid "Double click on the dictionary source that you want to use."
+msgstr "사용하려는 사전 공급원을 두 번 두르십시오."
+
+#. (itstool) path: info/desc
+#: C/text-copy.page:23
+msgid "Select and copy a definition to another application."
+msgstr "정의를 선택하고 다른 프로그램으로 복사합니다."
+
+#. (itstool) path: page/title
+#: C/text-copy.page:27
+msgid "Copy definition"
+msgstr "정의 복사"
+
+#. (itstool) path: page/p
+#: C/text-copy.page:29
+msgid ""
+"You can copy and paste definitions from <app>Dictionary</app> to another "
+"application."
+msgstr ""
+"<app>사전</app>에서 다른 프로그램으로 정의를 복사하여 붙여넣을 수 있습니다."
+
+#. (itstool) path: steps/title
+#: C/text-copy.page:33
+msgid "Copy a definition"
+msgstr "정의 복사하기"
+
+#. (itstool) path: item/p
+#: C/text-copy.page:35
+msgid ""
+"Select the text that you want to copy in <app>Dictionary</app>. "
+"Alternatively, you can select the whole definition using <guiseq><gui style="
+"\"menu\">Edit</gui> <gui style=\"menuitem\">Select All</gui></guiseq>."
+msgstr ""
+"<app>사전</app>에서 복사하려는 글을 선택하십시오. 대신, <guiseq><gui style="
+"\"menu\">편집</gui> <gui style=\"menuitem\">모두 선택</gui></guiseq>으로 정"
+"의 내용 전체를 선택할 수 있습니다."
+
+#. (itstool) path: item/p
+#: C/text-copy.page:41
+msgid ""
+"Select <guiseq><gui style=\"menu\">Edit</gui> <gui style=\"menuitem\">Copy</"
+"gui></guiseq>."
+msgstr ""
+"<guiseq><gui style=\"menu\">편집</gui> <gui style=\"menuitem\">복사</gui></"
+"guiseq>를 선택하십시오."
+
+#. (itstool) path: item/p
+#: C/text-copy.page:45
+msgid ""
+"Paste the text into another application. This can usually be done using the "
+"<keyseq><key>Ctrl</key><key>V</key></keyseq> keyboard shortcut or through "
+"one of the menus."
+msgstr ""
+"다른 프로그램에 글 내용을 붙여넣으십시오. 보통 <keyseq><key>Ctrl</"
+"key><key>V</key></keyseq> 키보드 바로 가기 키 또는 메뉴 선택을 통해 처리할 "
+"수 있습니다."

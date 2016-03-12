@@ -26,6 +26,6 @@ HELP_FILES = \
 HELP_MEDIA = \
 	figures/gnome-dictionary-icon.png \
 	figures/gnome-dictionary.png
-HELP_LINGUAS = ca cs da de el en_GB es eu fi fr gl hu id it oc pt_BR ru sl sv uk zh_CN
+HELP_LINGUAS = ca cs da de el en_GB es eu fi fr gl hu id it ko oc pt_BR ru sl sv uk zh_CN
 
 -include $(top_srcdir)/git.mk
