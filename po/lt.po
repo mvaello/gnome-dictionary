@@ -7,15 +7,15 @@
 # Žygimantas Beručka <zygis@gnome.org>, 2003-2006, 2009, 2010.
 # Gintautas Miliauskas <gintas@akl.lt>, 2006, 2007, 2008.
 # Algimantas Margevičius <gymka@mail.ru>, 2011.
-# Aurimas Černius <aurisc4@gmail.com>, 2013, 2014, 2015.
+# Aurimas Černius <aurisc4@gmail.com>, 2013, 2014, 2015, 2016.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: lt\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "dictionary&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2016-01-14 21:12+0000\n"
-"PO-Revision-Date: 2016-01-06 21:57+0200\n"
+"POT-Creation-Date: 2016-03-13 08:57+0000\n"
+"PO-Revision-Date: 2016-03-13 21:37+0200\n"
 "Last-Translator: Aurimas Černius <aurisc4@gmail.com>\n"
 "Language-Team: Lietuvių <gnome-lt@lists.akl.lt>\n"
 "Language: lt\n"
@@ -24,7 +24,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n"
 "%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Poedit 1.8.6\n"
+"X-Generator: Gtranslator 2.91.7\n"
 
 #: ../data/default.desktop.in.h:1
 msgid "Default Dictionary Server"
@@ -142,7 +142,7 @@ msgstr "Keisti"
 msgid "Edit the currently selected dictionary source"
 msgstr "Keisti dabar pasirinktą žodyno šaltinį"
 
-#: ../src/gdict-pref-dialog.ui.h:6 ../src/gdict-source-dialog.ui.h:6
+#: ../src/gdict-pref-dialog.ui.h:6 ../src/gdict-source-dialog.ui.h:8
 msgid "Source"
 msgstr "Šaltinis"
 
@@ -159,35 +159,47 @@ msgid "Print"
 msgstr "Spausdinti"
 
 #: ../src/gdict-source-dialog.ui.h:1
-msgid "_Description:"
-msgstr "_Aprašymas:"
+#| msgid "_Description:"
+msgid "_Description"
+msgstr "_Aprašymas"
 
 #: ../src/gdict-source-dialog.ui.h:2
-msgid "_Transport:"
-msgstr "_Transportas:"
+#| msgid "_Port:"
+msgid "_Port"
+msgstr "_Prievadas"
 
 #: ../src/gdict-source-dialog.ui.h:3
-msgid "H_ostname:"
-msgstr "Kompiuteri_o vardas:"
+#| msgid "Hostname"
+msgid "_Hostname"
+msgstr "_Kompiuterio vardas"
 
 #: ../src/gdict-source-dialog.ui.h:4
-msgid "_Port:"
-msgstr "_Prievadas:"
+#| msgid "_Transport:"
+msgid "_Transport"
+msgstr "_Transportas"
 
 #: ../src/gdict-source-dialog.ui.h:5
+msgid "2628"
+msgstr "2628"
+
+#: ../src/gdict-source-dialog.ui.h:6
+msgid "dict.org"
+msgstr "dict.org"
+
+#: ../src/gdict-source-dialog.ui.h:7
 msgid "Source Name"
 msgstr "Šaltinio pavadinimas"
 
-#: ../src/gdict-source-dialog.ui.h:7
+#: ../src/gdict-source-dialog.ui.h:9
 msgid "Dictionaries"
 msgstr "Žodynai"
 
-#: ../src/gdict-source-dialog.ui.h:8
+#: ../src/gdict-source-dialog.ui.h:10
 msgid "Strategies"
 msgstr "Strategijos"
 
 #: ../data/org.gnome.Dictionary.desktop.in.in.h:1 ../src/gdict-about.c:60
-#: ../src/gdict-window.c:499 ../src/gdict-window.c:1526
+#: ../src/gdict-window.c:500 ../src/gdict-window.c:1528
 msgid "Dictionary"
 msgstr "Žodynas"
 
@@ -364,15 +376,15 @@ msgstr "Nepavyko nustatyti kanalo kaip ne blokuojamo: %s"
 msgid "Unable to connect to the dictionary server at '%s:%d'"
 msgstr "Nepavyko prisijungti prie žodyno serverio „%s:%d“"
 
-#: ../libgdict/gdict-database-chooser.c:398
+#: ../libgdict/gdict-database-chooser.c:374
 msgid "Reload the list of available databases"
 msgstr "Atnaujinti prieinamų duomenų bazių sąrašą"
 
-#: ../libgdict/gdict-database-chooser.c:410
+#: ../libgdict/gdict-database-chooser.c:386
 msgid "Clear the list of available databases"
 msgstr "Išvalyti prieinamų duomenų bazių sąrašą"
 
-#: ../libgdict/gdict-database-chooser.c:905 ../libgdict/gdict-speller.c:767
+#: ../libgdict/gdict-database-chooser.c:840 ../libgdict/gdict-speller.c:767
 #: ../libgdict/gdict-strategy-chooser.c:775
 msgid "Error while matching"
 msgstr "Klaida ieškant atitikmens"
@@ -512,59 +524,45 @@ msgstr "ŽODŽIAI"
 msgid "Dictionary Preferences"
 msgstr "Žodyno nuostatos"
 
-#: ../src/gdict-app.c:130 ../src/gdict-pref-dialog.c:511
-#: ../src/gdict-source-dialog.c:452
-#, c-format
+#: ../src/gdict-app.c:130 ../src/gdict-source-dialog.c:452
 msgid "There was an error while displaying help"
 msgstr "Rodant žinyną įvyko klaida"
 
-#: ../src/gdict-pref-dialog.c:264
+#: ../src/gdict-pref-dialog.c:262
 msgid "View Dictionary Source"
 msgstr "Rodyti žodyno šaltinį"
 
-#: ../src/gdict-pref-dialog.c:330
+#: ../src/gdict-pref-dialog.c:328
 msgid "Add Dictionary Source"
 msgstr "Pridėti žodyno šaltinį"
 
-#: ../src/gdict-pref-dialog.c:374
+#: ../src/gdict-pref-dialog.c:372
 #, c-format
 msgid "Remove \"%s\"?"
 msgstr "Pašalinti „%s“?"
 
-#: ../src/gdict-pref-dialog.c:376
+#: ../src/gdict-pref-dialog.c:374
 msgid "This will permanently remove the dictionary source from the list."
 msgstr ""
 "Atlikus šį veiksmą žodyno šaltinis iš sąrašo bus pašalintas negrįžtamai."
 
-#: ../src/gdict-pref-dialog.c:379 ../src/gdict-source-dialog.c:564
-#: ../src/gdict-window.c:822
+#: ../src/gdict-pref-dialog.c:377 ../src/gdict-source-dialog.c:564
+#: ../src/gdict-window.c:824
 msgid "_Cancel"
 msgstr "_Atsisakyti"
 
-#: ../src/gdict-pref-dialog.c:380
+#: ../src/gdict-pref-dialog.c:378
 msgid "_Remove"
 msgstr "_Pašalinti"
 
-#: ../src/gdict-pref-dialog.c:398
+#: ../src/gdict-pref-dialog.c:396
 #, c-format
 msgid "Unable to remove source '%s'"
 msgstr "Nepavyko pašalinti šaltinio „%s“"
 
-#: ../src/gdict-pref-dialog.c:445
+#: ../src/gdict-pref-dialog.c:443
 msgid "Edit Dictionary Source"
 msgstr "Keisti žodyno šaltinį"
-
-#. add buttons
-#. The help button is always visible
-#: ../src/gdict-pref-dialog.c:634 ../src/gdict-source-dialog.c:655
-msgid "_Help"
-msgstr "_Žinynas"
-
-#. we just allow closing the dialog
-#: ../src/gdict-pref-dialog.c:635 ../src/gdict-source-dialog.c:560
-#: ../src/gdict-source-dialog.c:574
-msgid "_Close"
-msgstr "_Užverti"
 
 #: ../src/gdict-print.c:239 ../src/gdict-print.c:303
 #, c-format
@@ -579,6 +577,11 @@ msgstr "Nepavyko sukurti šaltinio failo"
 msgid "Unable to save source file"
 msgstr "Nepavyko įrašyti šaltinio failo"
 
+#. we just allow closing the dialog
+#: ../src/gdict-source-dialog.c:560 ../src/gdict-source-dialog.c:574
+msgid "_Close"
+msgstr "_Užverti"
+
 #: ../src/gdict-source-dialog.c:565
 msgid "_Add"
 msgstr "_Pridėti"
@@ -587,72 +590,80 @@ msgstr "_Pridėti"
 msgid "C_ancel"
 msgstr "_Atsisakyti"
 
-#: ../src/gdict-window.c:414
+#. The help button is always visible
+#: ../src/gdict-source-dialog.c:655
+msgid "_Help"
+msgstr "_Žinynas"
+
+#: ../src/gdict-window.c:415
 #, c-format
 msgid "No dictionary source available with name '%s'"
 msgstr "Žodyno šaltinis pavadinimu „%s“ neprieinamas"
 
-#: ../src/gdict-window.c:418
+#: ../src/gdict-window.c:419
 msgid "Unable to find dictionary source"
 msgstr "Nepavyko rasti žodyno šaltinio"
 
-#: ../src/gdict-window.c:434
+#: ../src/gdict-window.c:435
 #, c-format
 msgid "No context available for source '%s'"
 msgstr "Šaltiniui „%s“ kontekstas neprieinamas"
 
-#: ../src/gdict-window.c:438
+#: ../src/gdict-window.c:439
 msgid "Unable to create a context"
 msgstr "Nepavyko sukurti konteksto"
 
-#: ../src/gdict-window.c:497
+#: ../src/gdict-window.c:498
 #, c-format
 msgid "%s - Dictionary"
 msgstr "%s – Žodynas"
 
-#: ../src/gdict-window.c:819
+#: ../src/gdict-window.c:821
 msgid "Save a Copy"
 msgstr "Įrašyti kopiją"
 
-#: ../src/gdict-window.c:823
+#: ../src/gdict-window.c:825
 msgid "_Save"
 msgstr "Į_rašyti"
 
-#: ../src/gdict-window.c:829
+#: ../src/gdict-window.c:831
 msgid "Untitled document"
 msgstr "Bevardis dokumentas"
 
-#: ../src/gdict-window.c:850
+#: ../src/gdict-window.c:852
 #, c-format
 msgid "Error while writing to '%s'"
 msgstr "Klaida rašant į „%s“"
 
 #. speller
-#: ../src/gdict-window.c:1211
+#: ../src/gdict-window.c:1213
 msgid "Double-click on the word to look up"
 msgstr "Du kartus spragtelėkite ieškotiną žodį"
 
 #. strat-chooser
-#: ../src/gdict-window.c:1217
+#: ../src/gdict-window.c:1219
 msgid "Double-click on the matching strategy to use"
 msgstr "Du kartus spragtelėkite naudotiną strategiją"
 
 #. source-chooser
-#: ../src/gdict-window.c:1222
+#: ../src/gdict-window.c:1224
 msgid "Double-click on the source to use"
 msgstr "Dukart spragtelėkite naudotiną šaltinį"
 
-#: ../src/gdict-window.c:1423
+#: ../src/gdict-window.c:1425
 msgid "Similar words"
 msgstr "Panašūs žodžiai"
 
-#: ../src/gdict-window.c:1454
+#: ../src/gdict-window.c:1456
 msgid "Available strategies"
 msgstr "Prieinamos strategijos"
 
-#: ../src/gdict-window.c:1470
+#: ../src/gdict-window.c:1472
 msgid "Dictionary sources"
 msgstr "Žodyno šaltiniai"
+
+#~ msgid "H_ostname:"
+#~ msgstr "Kompiuteri_o vardas:"
 
 #~ msgid "_File"
 #~ msgstr "_Failas"
@@ -680,9 +691,6 @@ msgstr "Žodyno šaltiniai"
 
 #~ msgid "The name of the client of the context object"
 #~ msgstr "Konteksto objekto kliento vardas"
-
-#~ msgid "Hostname"
-#~ msgstr "Kompiuterio vardas"
 
 #~ msgid "The hostname of the dictionary server to connect to"
 #~ msgstr "Žodyno serverio, prie kurio jungtis, vardas"
