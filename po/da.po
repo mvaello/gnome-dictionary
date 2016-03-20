@@ -1,5 +1,5 @@
 # Danish Translation of gnome-utils.
-# Copyright (C) 1999-2011, 2015 Free Software Foundation, Inc.
+# Copyright (C) 1999-2011, 2015-2016 Free Software Foundation, Inc.
 # This file is distributed under the same license as the gnome-utils package.
 # Kenneth Christiansen <kenneth@ripen.dk>, 1998-2000.
 # Kim Schulz <kim@schulz.dk>, 1999.
@@ -8,7 +8,7 @@
 # Ole Laursen <olau@hardworking.dk>, 2001, 02, 03, 04.
 # Martin Willemoes Hansen <mwh@sysrq.dk>, 2004, 05.
 # Kenneth Nielsen <k.nielsen81@gmail.com>, 2008, 2013-2014.
-# Ask Hjorth Larsen <asklarsen@gmail.com>, 2007, 08, 09, 10, 11, 15.
+# Ask Hjorth Larsen <asklarsen@gmail.com>, 2007, 08, 09, 10, 11, 15, 16.
 # Joe Hansen <joedalton2@yahoo.dk>, 2011.
 #
 #
@@ -21,9 +21,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-utils\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-dictionary&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2015-09-12 07:08+0000\n"
-"PO-Revision-Date: 2015-03-14 02:50+0100\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-03-20 23:36+0100\n"
+"PO-Revision-Date: 2016-03-20 03:14+0100\n"
 "Last-Translator: Kenneth Nielsen <k.nielsen81@gmail.com>\n"
 "Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
 "Language: da\n"
@@ -39,6 +39,15 @@ msgid "Default Dictionary Server"
 msgstr "Standardordbogsserver"
 
 #: ../data/org.gnome.Dictionary.appdata.xml.in.h:1
+msgid "GNOME Dictionary"
+msgstr "GNOME Ordbog"
+
+#: ../data/org.gnome.Dictionary.appdata.xml.in.h:2
+#: ../data/org.gnome.Dictionary.desktop.in.in.h:2
+msgid "Check word definitions and spellings in an online dictionary"
+msgstr "Slå orddefinitioner og stavning op i en ordbog på internettet"
+
+#: ../data/org.gnome.Dictionary.appdata.xml.in.h:3
 msgid ""
 "GNOME Dictionary is a simple dictionary application that looks up "
 "definitions of words online. Though it looks up English definitions by "
@@ -144,7 +153,6 @@ msgid "Remove the currently selected dictionary source"
 msgstr "Fjern den valgte ordbogskilde"
 
 #: ../src/gdict-pref-dialog.ui.h:4
-#| msgid "_Edit"
 msgid "Edit"
 msgstr "Redigér"
 
@@ -152,7 +160,7 @@ msgstr "Redigér"
 msgid "Edit the currently selected dictionary source"
 msgstr "Redigér den nu valgte ordbogskilde"
 
-#: ../src/gdict-pref-dialog.ui.h:6 ../src/gdict-source-dialog.ui.h:6
+#: ../src/gdict-pref-dialog.ui.h:6 ../src/gdict-source-dialog.ui.h:8
 msgid "Source"
 msgstr "Kilde"
 
@@ -169,41 +177,45 @@ msgid "Print"
 msgstr "Udskriv"
 
 #: ../src/gdict-source-dialog.ui.h:1
-msgid "_Description:"
-msgstr "_Beskrivelse:"
+msgid "_Description"
+msgstr "_Beskrivelse"
 
 #: ../src/gdict-source-dialog.ui.h:2
-msgid "_Transport:"
-msgstr "_Transport:"
+msgid "_Port"
+msgstr "_Port"
 
 #: ../src/gdict-source-dialog.ui.h:3
-msgid "H_ostname:"
-msgstr "V_ærtsnavn:"
+msgid "_Hostname"
+msgstr "_Værtsnavn"
 
 #: ../src/gdict-source-dialog.ui.h:4
-msgid "_Port:"
-msgstr "_Port:"
+msgid "_Transport"
+msgstr "_Transport"
 
 #: ../src/gdict-source-dialog.ui.h:5
+msgid "2628"
+msgstr "2628"
+
+#: ../src/gdict-source-dialog.ui.h:6
+msgid "dict.org"
+msgstr "dict.org"
+
+#: ../src/gdict-source-dialog.ui.h:7
 msgid "Source Name"
 msgstr "Kildenavn"
 
-#: ../src/gdict-source-dialog.ui.h:7
+#: ../src/gdict-source-dialog.ui.h:9
 msgid "Dictionaries"
 msgstr "Ordbøger"
 
-#: ../src/gdict-source-dialog.ui.h:8
+#: ../src/gdict-source-dialog.ui.h:10
 msgid "Strategies"
 msgstr "Strategier"
 
 #: ../data/org.gnome.Dictionary.desktop.in.in.h:1 ../src/gdict-about.c:60
-#: ../src/gdict-window.c:499 ../src/gdict-window.c:1531
+#: ../src/gdict-window.c:500 ../src/gdict-window.c:1527
 msgid "Dictionary"
 msgstr "Ordbog"
-
-#: ../data/org.gnome.Dictionary.desktop.in.in.h:2
-msgid "Check word definitions and spellings in an online dictionary"
-msgstr "Slå orddefinitioner og stavning op i en ordbog på internettet"
 
 #: ../data/org.gnome.Dictionary.desktop.in.in.h:3
 msgid "word;synonym;definition;spelling;"
@@ -374,16 +386,16 @@ msgstr "Kunne ikke sætte kanalen op som ikke-blokerende: %s"
 msgid "Unable to connect to the dictionary server at '%s:%d'"
 msgstr "Kunne ikke forbinde til ordbogsserveren på \"%s:%d\""
 
-#: ../libgdict/gdict-database-chooser.c:398
+#: ../libgdict/gdict-database-chooser.c:374
 msgid "Reload the list of available databases"
 msgstr "Genindlæs listen af tilgængelige databaser"
 
-#: ../libgdict/gdict-database-chooser.c:410
+#: ../libgdict/gdict-database-chooser.c:386
 msgid "Clear the list of available databases"
 msgstr "Ryd listen af tilgængelige databaser"
 
 # Søgning er måske ikke det mest præcise
-#: ../libgdict/gdict-database-chooser.c:905 ../libgdict/gdict-speller.c:767
+#: ../libgdict/gdict-database-chooser.c:840 ../libgdict/gdict-speller.c:767
 #: ../libgdict/gdict-strategy-chooser.c:775
 msgid "Error while matching"
 msgstr "Fejl under søgning"
@@ -493,94 +505,80 @@ msgstr ""
 msgid "Look up words in dictionaries"
 msgstr "Slå ord op i ordbøger"
 
-#: ../src/gdict-app.c:46 ../src/gdict-app.c:75
+#: ../src/gdict-app.c:47 ../src/gdict-app.c:76
 msgid "Words to look up"
 msgstr "Ord der skal slås op"
 
-#: ../src/gdict-app.c:46 ../src/gdict-app.c:52
+#: ../src/gdict-app.c:47 ../src/gdict-app.c:53
 msgid "WORD"
 msgstr "ORD"
 
-#: ../src/gdict-app.c:52
+#: ../src/gdict-app.c:53
 msgid "Words to match"
 msgstr "Søgeord"
 
-#: ../src/gdict-app.c:58
+#: ../src/gdict-app.c:59
 msgid "Dictionary source to use"
 msgstr "Benyttet ordbogskilde"
 
-#: ../src/gdict-app.c:58 ../src/gdict-app.c:64 ../src/gdict-app.c:70
+#: ../src/gdict-app.c:59 ../src/gdict-app.c:65 ../src/gdict-app.c:71
 msgid "NAME"
 msgstr "NAVN"
 
-#: ../src/gdict-app.c:64
+#: ../src/gdict-app.c:65
 msgid "Database to use"
 msgstr "Benyttet database"
 
-#: ../src/gdict-app.c:70
+#: ../src/gdict-app.c:71
 msgid "Strategy to use"
 msgstr "Benyttet søgningsstrategi"
 
-#: ../src/gdict-app.c:75
+#: ../src/gdict-app.c:76
 msgid "WORDS"
 msgstr "ORD"
 
-#: ../src/gdict-app.c:107
+#: ../src/gdict-app.c:108
 msgid "Dictionary Preferences"
 msgstr "Indstillinger for ordbog"
 
-#: ../src/gdict-app.c:129 ../src/gdict-pref-dialog.c:511
-#: ../src/gdict-source-dialog.c:452
-#, c-format
+#: ../src/gdict-app.c:130 ../src/gdict-source-dialog.c:452
 msgid "There was an error while displaying help"
 msgstr "Der opstod en fejl ved visning af hjælp"
 
-#: ../src/gdict-pref-dialog.c:264
+#: ../src/gdict-pref-dialog.c:262
 msgid "View Dictionary Source"
 msgstr "Vis ordbogskilde"
 
-#: ../src/gdict-pref-dialog.c:330
+#: ../src/gdict-pref-dialog.c:328
 msgid "Add Dictionary Source"
 msgstr "Tilføj ordbogskilde"
 
-#: ../src/gdict-pref-dialog.c:374
+#: ../src/gdict-pref-dialog.c:372
 #, c-format
 msgid "Remove \"%s\"?"
 msgstr "Fjern \"%s\"?"
 
-#: ../src/gdict-pref-dialog.c:376
+#: ../src/gdict-pref-dialog.c:374
 msgid "This will permanently remove the dictionary source from the list."
 msgstr "Dette vil permanent fjerne ordbogskilden fra listen."
 
-#: ../src/gdict-pref-dialog.c:379 ../src/gdict-source-dialog.c:564
-#: ../src/gdict-window.c:822
+#: ../src/gdict-pref-dialog.c:377 ../src/gdict-source-dialog.c:564
+#: ../src/gdict-window.c:824
 msgid "_Cancel"
 msgstr "_Annullér"
 
-#: ../src/gdict-pref-dialog.c:380
+#: ../src/gdict-pref-dialog.c:378
 msgid "_Remove"
 msgstr "_Fjern"
 
-#: ../src/gdict-pref-dialog.c:398
+#: ../src/gdict-pref-dialog.c:396
 #, c-format
 msgid "Unable to remove source '%s'"
 msgstr "Kunne ikke fjerne kilden \"%s\""
 
-#: ../src/gdict-pref-dialog.c:445
+#: ../src/gdict-pref-dialog.c:443
 msgid "Edit Dictionary Source"
 msgstr "Redigér ordbogskilde"
-
-#. add buttons
-#. The help button is always visible
-#: ../src/gdict-pref-dialog.c:634 ../src/gdict-source-dialog.c:655
-msgid "_Help"
-msgstr "_Hjælp"
-
-#. we just allow closing the dialog
-#: ../src/gdict-pref-dialog.c:635 ../src/gdict-source-dialog.c:560
-#: ../src/gdict-source-dialog.c:574
-msgid "_Close"
-msgstr "_Luk"
 
 #: ../src/gdict-print.c:239 ../src/gdict-print.c:303
 #, c-format
@@ -595,6 +593,11 @@ msgstr "Kan ikke oprette en kildefil"
 msgid "Unable to save source file"
 msgstr "Kan ikke gemme kildefil"
 
+#. we just allow closing the dialog
+#: ../src/gdict-source-dialog.c:560 ../src/gdict-source-dialog.c:574
+msgid "_Close"
+msgstr "_Luk"
+
 #: ../src/gdict-source-dialog.c:565
 msgid "_Add"
 msgstr "_Tilføj"
@@ -603,72 +606,80 @@ msgstr "_Tilføj"
 msgid "C_ancel"
 msgstr "A_nnullér"
 
-#: ../src/gdict-window.c:414
+#. The help button is always visible
+#: ../src/gdict-source-dialog.c:655
+msgid "_Help"
+msgstr "_Hjælp"
+
+#: ../src/gdict-window.c:415
 #, c-format
 msgid "No dictionary source available with name '%s'"
 msgstr "Ingen ordbogskilde tilgængelig med navnet \"%s\""
 
-#: ../src/gdict-window.c:418
+#: ../src/gdict-window.c:419
 msgid "Unable to find dictionary source"
 msgstr "Kan ikke finde ordbogskilde"
 
-#: ../src/gdict-window.c:434
+#: ../src/gdict-window.c:435
 #, c-format
 msgid "No context available for source '%s'"
 msgstr "Ingen kontekst tilgængelig for kilden \"%s\""
 
-#: ../src/gdict-window.c:438
+#: ../src/gdict-window.c:439
 msgid "Unable to create a context"
 msgstr "Kan ikke oprette kontekst"
 
-#: ../src/gdict-window.c:497
+#: ../src/gdict-window.c:498
 #, c-format
 msgid "%s - Dictionary"
 msgstr "%s - Ordbog"
 
-#: ../src/gdict-window.c:819
+#: ../src/gdict-window.c:821
 msgid "Save a Copy"
 msgstr "Gem en kopi"
 
-#: ../src/gdict-window.c:823
+#: ../src/gdict-window.c:825
 msgid "_Save"
 msgstr "_Gem"
 
-#: ../src/gdict-window.c:829
+#: ../src/gdict-window.c:831
 msgid "Untitled document"
 msgstr "Dokument uden titel"
 
-#: ../src/gdict-window.c:850
+#: ../src/gdict-window.c:852
 #, c-format
 msgid "Error while writing to '%s'"
 msgstr "Fejl under skrivning til \"%s\""
 
 #. speller
-#: ../src/gdict-window.c:1211
+#: ../src/gdict-window.c:1213
 msgid "Double-click on the word to look up"
 msgstr "Dobbeltklik på ordet for at slå det op"
 
 #. strat-chooser
-#: ../src/gdict-window.c:1217
+#: ../src/gdict-window.c:1219
 msgid "Double-click on the matching strategy to use"
 msgstr "Dobbeltklik på søgningsstrategien der skal benyttes"
 
 #. source-chooser
-#: ../src/gdict-window.c:1222
+#: ../src/gdict-window.c:1224
 msgid "Double-click on the source to use"
 msgstr "Dobbeltklik på den kilde som skal benyttes"
 
-#: ../src/gdict-window.c:1428
+#: ../src/gdict-window.c:1424
 msgid "Similar words"
 msgstr "Lignende ord"
 
-#: ../src/gdict-window.c:1459
+#: ../src/gdict-window.c:1455
 msgid "Available strategies"
 msgstr "Tilgængelige strategier"
 
-#: ../src/gdict-window.c:1475
+#: ../src/gdict-window.c:1471
 msgid "Dictionary sources"
 msgstr "Ordbogskilder"
+
+#~ msgid "H_ostname:"
+#~ msgstr "V_ærtsnavn:"
 
 #~ msgid "_File"
 #~ msgstr "_Fil"
@@ -696,9 +707,6 @@ msgstr "Ordbogskilder"
 
 #~ msgid "The name of the client of the context object"
 #~ msgstr "Navnet på kontekst-objektets klient"
-
-#~ msgid "Hostname"
-#~ msgstr "Værtsnavn"
 
 #~ msgid "The hostname of the dictionary server to connect to"
 #~ msgstr "Værtsnavnet på ordbogsserveren der forbindes til"
