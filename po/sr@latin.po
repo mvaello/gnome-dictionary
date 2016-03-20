@@ -1,31 +1,31 @@
 # Serbian translation of gnome-dictionary
-# Courtesy of Prevod.org team (http://prevod.org/) -- 2011—2016.
+# Courtesy of Prevod.org team (http://prevod.org/) -- 2011—2015.
 # This file is distributed under the same license as the gnome-dictionary package.
 # Miloš Popović <gpopac@gmail.com>, 2011.
-# Miroslav Nikolić <miroslavnikolic@rocketmail.com>, 2011—2016.
+# Miroslav Nikolić <miroslavnikolic@rocketmail.com>, 2011—2015.
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-dictionary\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "dictionary&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2016-02-19 11:11+0000\n"
-"PO-Revision-Date: 2016-02-19 19:53+0200\n"
-"Last-Translator: Miroslav Nikolić <miroslavnikolic@rocketmail.com>\n"
+"POT-Creation-Date: 2016-02-13 08:58+0000\n"
+"PO-Revision-Date: 2016-02-13 16:08+0100\n"
+"Last-Translator: Marko M. Kostić <marko.m.kostic@gmail.com>\n"
 "Language-Team: Serbian <gnom@prevod.org>\n"
 "Language: sr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=n==1? 3 : n%10==1 && n%100!=11 ? 0 : "
-"n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=4; plural=n==1? 3 : n%10==1 && n%100!=11 ? 0 : n"
+"%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Project-Style: gnome\n"
+"X-Generator: Poedit 1.8.6\n"
 
 #: ../data/default.desktop.in.h:1
 msgid "Default Dictionary Server"
-msgstr "Osnovni server rečnika"
+msgstr "Podrazumevani server rečnika"
 
 #: ../data/org.gnome.Dictionary.appdata.xml.in.h:1
-#| msgid "Dictionary"
 msgid "GNOME Dictionary"
 msgstr "Gnomov rečnik"
 
@@ -156,31 +156,27 @@ msgstr "_Slova za štampanje:"
 
 #: ../src/gdict-pref-dialog.ui.h:8
 msgid "Set the font used for printing the definitions"
-msgstr "Postavite slovni lik za štampanje odrednica"
+msgstr "Postavite font za štampanje odrednica"
 
 #: ../src/gdict-pref-dialog.ui.h:9
 msgid "Print"
 msgstr "Štampanje"
 
 #: ../src/gdict-source-dialog.ui.h:1
-#| msgid "_Description:"
 msgid "_Description"
 msgstr "_Opis"
 
 #: ../src/gdict-source-dialog.ui.h:2
-#| msgid "_Port:"
 msgid "_Port"
-msgstr "_Priključnik"
+msgstr "_Port"
 
 #: ../src/gdict-source-dialog.ui.h:3
-#| msgid "Hostname"
 msgid "_Hostname"
 msgstr "_Naziv domaćina"
 
 #: ../src/gdict-source-dialog.ui.h:4
-#| msgid "_Transport:"
 msgid "_Transport"
-msgstr "_Prenos"
+msgstr "_Prenos:"
 
 #: ../src/gdict-source-dialog.ui.h:5
 msgid "2628"
@@ -240,11 +236,11 @@ msgstr ""
 
 #: ../data/org.gnome.dictionary.gschema.xml.h:5
 msgid "The font to be used when printing"
-msgstr "Slovni lik za štampanje"
+msgstr "Font za štampanje"
 
 #: ../data/org.gnome.dictionary.gschema.xml.h:6
 msgid "The font to be used when printing a definition."
-msgstr "Slovni lik koji će biti korišćen za štampanje odrednica."
+msgstr "Font koji će biti korišćen za štampanje odrednica."
 
 #: ../data/org.gnome.dictionary.gschema.xml.h:7
 msgid "The name of the dictionary source used"
@@ -481,8 +477,9 @@ msgstr ""
 "Danilo Šegan <danilo@prevod.org>\n"
 "Slobodan D. Sredojević <slobo@akrep.be>\n"
 "Miroslav Nikolić <miroslavnikolic@rocketmail.com>\n"
+"Marko M. Kostić <marko.m.kostic@gmail.com>\n"
 "\n"
-"Prevod.org — prevod na srpski jezik."
+"http://prevod.org — prevod na srpski jezik."
 
 #: ../src/gdict-about.c:55
 msgid "Look up words in dictionaries"
@@ -637,17 +634,17 @@ msgstr "Greška prilikom upisa na „%s“"
 #. speller
 #: ../src/gdict-window.c:1213
 msgid "Double-click on the word to look up"
-msgstr "Dvaput pritisnite na reč koju želite da potražite"
+msgstr "Dvaput kliknite na reč koju želite da potražite"
 
 #. strat-chooser
 #: ../src/gdict-window.c:1219
 msgid "Double-click on the matching strategy to use"
-msgstr "Dvaput pritisnite na strategiju poklapanja za korišćenje"
+msgstr "Dvaput kliknite na strategiju poklapanja i želite da je koristite"
 
 #. source-chooser
 #: ../src/gdict-window.c:1224
 msgid "Double-click on the source to use"
-msgstr "Dvaput pritisnite na izvor za korišćenje"
+msgstr "Dvaput kliknite na izvor za korišćenje"
 
 #: ../src/gdict-window.c:1424
 msgid "Similar words"
