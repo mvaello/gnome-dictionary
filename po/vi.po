@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: gnome-dictionary master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "dictionary&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2016-01-18 20:56+0000\n"
-"PO-Revision-Date: 2016-01-19 08:03+0700\n"
+"POT-Creation-Date: 2016-03-26 21:11+0000\n"
+"PO-Revision-Date: 2016-03-27 14:42+0700\n"
 "Last-Translator: Trần Ngọc Quân <vnwildman@gmail.com>\n"
 "Language-Team: Vietnamese <gnome-vi-list@gnome.org>\n"
 "Language: vi\n"
@@ -27,6 +27,15 @@ msgid "Default Dictionary Server"
 msgstr "Máy phục vụ từ điển mặc định"
 
 #: ../data/org.gnome.Dictionary.appdata.xml.in.h:1
+msgid "GNOME Dictionary"
+msgstr "Từ điển GNOME"
+
+#: ../data/org.gnome.Dictionary.appdata.xml.in.h:2
+#: ../data/org.gnome.Dictionary.desktop.in.in.h:2
+msgid "Check word definitions and spellings in an online dictionary"
+msgstr "Tìm từ trong từ điển trực tuyến để kiểm tra chính tả và sự định nghĩa"
+
+#: ../data/org.gnome.Dictionary.appdata.xml.in.h:3
 msgid ""
 "GNOME Dictionary is a simple dictionary application that looks up "
 "definitions of words online. Though it looks up English definitions by "
@@ -192,13 +201,9 @@ msgid "Strategies"
 msgstr "Chiến lược"
 
 #: ../data/org.gnome.Dictionary.desktop.in.in.h:1 ../src/gdict-about.c:60
-#: ../src/gdict-window.c:500 ../src/gdict-window.c:1528
+#: ../src/gdict-window.c:500 ../src/gdict-window.c:1527
 msgid "Dictionary"
 msgstr "Từ điển"
-
-#: ../data/org.gnome.Dictionary.desktop.in.in.h:2
-msgid "Check word definitions and spellings in an online dictionary"
-msgstr "Tìm từ trong từ điển trực tuyến để kiểm tra chính tả và sự định nghĩa"
 
 #: ../data/org.gnome.Dictionary.desktop.in.in.h:3
 msgid "word;synonym;definition;spelling;"
@@ -637,15 +642,15 @@ msgstr "Nhấp đúp chiến lược tìm cần dùng"
 msgid "Double-click on the source to use"
 msgstr "Nhấn đúp vào nguồn cần dùng"
 
-#: ../src/gdict-window.c:1425
+#: ../src/gdict-window.c:1424
 msgid "Similar words"
 msgstr "Từ tương tự"
 
-#: ../src/gdict-window.c:1456
+#: ../src/gdict-window.c:1455
 msgid "Available strategies"
 msgstr "Chiến lược hiện có"
 
-#: ../src/gdict-window.c:1472
+#: ../src/gdict-window.c:1471
 msgid "Dictionary sources"
 msgstr "Nguồn từ điển"
 
