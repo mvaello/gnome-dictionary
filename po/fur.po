@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: gnome-dictionary master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "dictionary&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2016-03-06 08:52+0000\n"
-"PO-Revision-Date: 2016-03-06 15:21+0100\n"
+"POT-Creation-Date: 2016-04-08 08:15+0000\n"
+"PO-Revision-Date: 2016-04-08 13:15+0200\n"
 "Last-Translator: Fabio Tomat <f.t.public@gmail.com>\n"
 "Language-Team: Friulian <fur@li.org>\n"
 "Language: fur\n"
@@ -21,7 +21,7 @@ msgstr ""
 
 #: ../data/default.desktop.in.h:1
 msgid "Default Dictionary Server"
-msgstr "Server di dizionari predefinît"
+msgstr "Servidôr di dizionari predefinît"
 
 #: ../data/org.gnome.Dictionary.appdata.xml.in.h:1
 msgid "GNOME Dictionary"
@@ -39,7 +39,7 @@ msgid ""
 "easily switch to Spanish or add other online dictionaries using the DICT "
 "protocol to suit your needs."
 msgstr ""
-"Dizionari GNOME a je une semplice aplicazion di dizionari che a cîr online lis "
+"Dizionari GNOME e je une semplice aplicazion di dizionari che e cîr in rêt lis "
 "definizions di peraulis. Ancje se, come impostazion predefinide, al fâs "
 "ricercjis in inglês, al è pussibil passâ al spagnûl o zontâ altris dizionaris "
 "online che a fasin ûs dal protocol DICT."
@@ -216,8 +216,8 @@ msgid ""
 "present in a dictionary source should be searched"
 msgstr ""
 "Non dal database individuâl predefinît o meta-database di doprâ suntune sorzint "
-"dal dizionari. Un pont esclamatîf (\"!\") al specifiche che a àn di sedi cirûts "
-"ducj i database presints intune sorzint di dizionari"
+"dal dizionari. Un pont esclamatîf (\"!\") al specifiche che a àn di jessi "
+"cirûts ducj i database presints intune sorzint di dizionari"
 
 #: ../data/org.gnome.dictionary.gschema.xml.h:3
 msgid "The default search strategy to use"
@@ -229,7 +229,7 @@ msgid ""
 "available. The default strategy is 'exact', that is match exact words."
 msgstr ""
 "Non dal mût di cirî predefinît di doprâ intune sorzint dizionari, se "
-"disponibil. La strategjie predefinide a je «exact», che a cjate lis peraulis "
+"disponibil. La strategjie predefinide e je «exact», che e cjate lis peraulis "
 "compagnis identichis."
 
 #: ../data/org.gnome.dictionary.gschema.xml.h:5
@@ -238,7 +238,7 @@ msgstr "Caratar di doprâ pe stampe"
 
 #: ../data/org.gnome.dictionary.gschema.xml.h:6
 msgid "The font to be used when printing a definition."
-msgstr "Caratar di doprâ cuant che a si stampe une definizion."
+msgstr "Caratar di doprâ cuant che si stampe une definizion."
 
 #: ../data/org.gnome.dictionary.gschema.xml.h:7
 msgid "The name of the dictionary source used"
@@ -260,7 +260,7 @@ msgstr "Dizionaris Longdo Thai-Inglês"
 #: ../libgdict/gdict-client-context.c:775
 #, c-format
 msgid "No connection to the dictionary server at '%s:%d'"
-msgstr "Nissune conession al server di dizionari a «%s:%d»"
+msgstr "Nissune conession al servidôr di dizionari a «%s:%d»"
 
 #: ../libgdict/gdict-client-context.c:1058
 #, c-format
@@ -283,8 +283,8 @@ msgid ""
 "Unable to connect to the dictionary server at '%s:%d'. The server replied with "
 "code %d (server down)"
 msgstr ""
-"Impussibil tacasi al server di dizionari a «%s:%d». Il server al à rispuindût "
-"cun codiç %d (server no atîf)"
+"Impussibil tacâsi al servidôr di dizionari a «%s:%d». Il servidôr al à "
+"rispuindût cun codiç %d (servidôr no atîf)"
 
 #: ../libgdict/gdict-client-context.c:1194
 #, c-format
@@ -292,7 +292,7 @@ msgid ""
 "Unable to parse the dictionary server reply\n"
 ": '%s'"
 msgstr ""
-"Impussibil analizâ la rispueste dal server dal dizionari\n"
+"Impussibil analizâ la rispueste dal servidôr dal dizionari\n"
 ": «%s»"
 
 #: ../libgdict/gdict-client-context.c:1223
@@ -323,17 +323,17 @@ msgstr "Parametris no juscj par il comant «%s» "
 #: ../libgdict/gdict-client-context.c:1298
 #, c-format
 msgid "No databases found on dictionary server at '%s'"
-msgstr "Nissun database cjatât tal server di dizionari a «%s»"
+msgstr "Nissun database cjatât tal servidôr di dizionari a «%s»"
 
 #: ../libgdict/gdict-client-context.c:1313
 #, c-format
 msgid "No strategies found on dictionary server at '%s'"
-msgstr "Nissune strategjie cjatade tal server di dizionari a «%s»"
+msgstr "Nissune strategjie cjatade tal servidôr di dizionari a «%s»"
 
 #: ../libgdict/gdict-client-context.c:1745
 #, c-format
 msgid "Connection failed to the dictionary server at %s:%d"
-msgstr "Conession falide al server di dizionari a «%s:%d»"
+msgstr "Conession falide al servidôr di dizionari a «%s:%d»"
 
 #: ../libgdict/gdict-client-context.c:1784
 #, c-format
@@ -341,18 +341,18 @@ msgid ""
 "Error while reading reply from server:\n"
 "%s"
 msgstr ""
-"Erôr intant che a si leieve le rispueste dal server:\n"
+"Erôr intant che si leieve le rispueste dal servidôr:\n"
 "%s"
 
 #: ../libgdict/gdict-client-context.c:1857
 #, c-format
 msgid "Connection timeout for the dictionary server at '%s:%d'"
-msgstr "Conession scjadude al server di dizionari a «%s:%d»"
+msgstr "Conession scjadude al servidôr di dizionari a «%s:%d»"
 
 #: ../libgdict/gdict-client-context.c:1891
 #, c-format
 msgid "No hostname defined for the dictionary server"
-msgstr "Nissun non host definît pal server di dizionari"
+msgstr "Nissun non host definît pal servidôr di dizionari"
 
 #: ../libgdict/gdict-client-context.c:1927
 #: ../libgdict/gdict-client-context.c:1942
@@ -368,7 +368,7 @@ msgstr "Impussibil disponi il canâl come no-blocant: %s"
 #: ../libgdict/gdict-client-context.c:1983
 #, c-format
 msgid "Unable to connect to the dictionary server at '%s:%d'"
-msgstr "Impussibil conetisi al server di dizionari a «%s:%d»"
+msgstr "Impussibil conetisi al servidôr di dizionari a «%s:%d»"
 
 #: ../libgdict/gdict-database-chooser.c:374
 msgid "Reload the list of available databases"
@@ -381,15 +381,15 @@ msgstr "Nete la liste dai database disponibii"
 #: ../libgdict/gdict-database-chooser.c:840 ../libgdict/gdict-speller.c:767
 #: ../libgdict/gdict-strategy-chooser.c:775
 msgid "Error while matching"
-msgstr "Erôr intant che a si cirive"
+msgstr "Erôr intant che si cirive"
 
 #: ../libgdict/gdict-defbox.c:2390
 msgid "Error while looking up definition"
-msgstr "Erôr intant che a si cirive la definizion"
+msgstr "Erôr intant che si cirive la definizion"
 
 #: ../libgdict/gdict-defbox.c:2432 ../libgdict/gdict-speller.c:725
 msgid "Another search is in progress"
-msgstr "Une altre ricercje a je in côrs"
+msgstr "Une altre ricercje e je in côrs"
 
 #: ../libgdict/gdict-defbox.c:2433 ../libgdict/gdict-speller.c:726
 msgid "Please wait until the current search ends."
@@ -397,7 +397,7 @@ msgstr "Spietâ fintremai che la ricercje atuâl no je finide."
 
 #: ../libgdict/gdict-defbox.c:2472
 msgid "Error while retrieving the definition"
-msgstr "Erôr intant che a si otignive la definizion"
+msgstr "Erôr intant che si otignive la definizion"
 
 #: ../libgdict/gdict-source.c:433
 #, c-format
@@ -433,7 +433,7 @@ msgstr "La sorzint dizionari no à un non"
 #: ../libgdict/gdict-source.c:778
 #, c-format
 msgid "Dictionary source '%s' has invalid transport '%s'"
-msgstr "La sorzint dizionari «%s» a à traspuart «%s» no valit"
+msgstr "La sorzint dizionari «%s» e à traspuart «%s» no valit"
 
 #: ../libgdict/gdict-source-chooser.c:280
 msgid "Reload the list of available sources"
@@ -625,7 +625,7 @@ msgstr "Document cence titul"
 #: ../src/gdict-window.c:852
 #, c-format
 msgid "Error while writing to '%s'"
-msgstr "Erôr intant che a si scriveve «%s»"
+msgstr "Erôr intant che si scriveve «%s»"
 
 #. speller
 #: ../src/gdict-window.c:1213
