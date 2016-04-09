@@ -7,7 +7,7 @@
 # Sara Khalatbari <sara@bamdad.org>, 2005.
 # Meelad Zakaria <meelad@farsiweb.info>, 2005, 2006.
 # Sanaz shahrokni <sanaz.shahrokni@gmail.com>, 2006.
-# Arash Mousavi <mousavi.arash@gmail.com>, 2011, 2012, 2013, 2014, 2015.
+# Arash Mousavi <mousavi.arash@gmail.com>, 2011, 2012, 2013, 2014, 2015, 2016.
 # Danial Behzadi <dani.behzi@ubuntu.com>, 2014.
 #
 msgid ""
@@ -15,8 +15,8 @@ msgstr ""
 "Project-Id-Version: gnome-utils HEAD\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "dictionary&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2015-09-12 07:08+0000\n"
-"PO-Revision-Date: 2015-09-12 23:33+0430\n"
+"POT-Creation-Date: 2016-04-08 08:15+0000\n"
+"PO-Revision-Date: 2016-04-09 22:22+0430\n"
 "Last-Translator: Arash Mousavi <mousavi.arash@gmail.com>\n"
 "Language-Team: Persian <>\n"
 "Language: fa\n"
@@ -25,13 +25,22 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Generator: Poedit 1.8.4\n"
+"X-Generator: Poedit 1.8.7.1\n"
 
 #: ../data/default.desktop.in.h:1
 msgid "Default Dictionary Server"
 msgstr "کارگزار لغت‌نامه‌ی پیش‌فرض"
 
 #: ../data/org.gnome.Dictionary.appdata.xml.in.h:1
+msgid "GNOME Dictionary"
+msgstr "لغت‌نامه گنوم"
+
+#: ../data/org.gnome.Dictionary.appdata.xml.in.h:2
+#: ../data/org.gnome.Dictionary.desktop.in.in.h:2
+msgid "Check word definitions and spellings in an online dictionary"
+msgstr "بررسی معانی و املای کلمات در یک لغت‌نامه‌ی برخط"
+
+#: ../data/org.gnome.Dictionary.appdata.xml.in.h:3
 msgid ""
 "GNOME Dictionary is a simple dictionary application that looks up definitions of "
 "words online. Though it looks up English definitions by default, you can easily "
@@ -143,7 +152,7 @@ msgstr "ویرایش"
 msgid "Edit the currently selected dictionary source"
 msgstr "ویرایش منبع لغت‌نامه انتخاب شده"
 
-#: ../src/gdict-pref-dialog.ui.h:6 ../src/gdict-source-dialog.ui.h:6
+#: ../src/gdict-pref-dialog.ui.h:6 ../src/gdict-source-dialog.ui.h:8
 msgid "Source"
 msgstr "منبع"
 
@@ -160,41 +169,45 @@ msgid "Print"
 msgstr "چاپ"
 
 #: ../src/gdict-source-dialog.ui.h:1
-msgid "_Description:"
-msgstr "_شرح:"
+msgid "_Description"
+msgstr "_شرح"
 
 #: ../src/gdict-source-dialog.ui.h:2
-msgid "_Transport:"
-msgstr "_انتقال:"
+msgid "_Port"
+msgstr "در_گاه"
 
 #: ../src/gdict-source-dialog.ui.h:3
-msgid "H_ostname:"
-msgstr "نام میز_بان:"
+msgid "_Hostname"
+msgstr "_نام میزبان"
 
 #: ../src/gdict-source-dialog.ui.h:4
-msgid "_Port:"
-msgstr "در_گاه:"
+msgid "_Transport"
+msgstr "_انتقال"
 
 #: ../src/gdict-source-dialog.ui.h:5
+msgid "2628"
+msgstr "2628"
+
+#: ../src/gdict-source-dialog.ui.h:6
+msgid "dict.org"
+msgstr "dict.org"
+
+#: ../src/gdict-source-dialog.ui.h:7
 msgid "Source Name"
 msgstr "نام منبع"
 
-#: ../src/gdict-source-dialog.ui.h:7
+#: ../src/gdict-source-dialog.ui.h:9
 msgid "Dictionaries"
 msgstr "لغت‌نامه‌ها"
 
-#: ../src/gdict-source-dialog.ui.h:8
+#: ../src/gdict-source-dialog.ui.h:10
 msgid "Strategies"
 msgstr "راه‌کار‌ها"
 
 #: ../data/org.gnome.Dictionary.desktop.in.in.h:1 ../src/gdict-about.c:60
-#: ../src/gdict-window.c:499 ../src/gdict-window.c:1531
+#: ../src/gdict-window.c:500 ../src/gdict-window.c:1527
 msgid "Dictionary"
 msgstr "لغت‌نامه"
-
-#: ../data/org.gnome.Dictionary.desktop.in.in.h:2
-msgid "Check word definitions and spellings in an online dictionary"
-msgstr "بررسی معانی و املای کلمات در یک لغت‌نامه‌ی برخط"
 
 #: ../data/org.gnome.Dictionary.desktop.in.in.h:3
 msgid "word;synonym;definition;spelling;"
@@ -364,15 +377,15 @@ msgstr "تنظیم کانال به شکل non-blocking ممکن نیست: %s"
 msgid "Unable to connect to the dictionary server at '%s:%d'"
 msgstr "اتصال به کارگزار لغت‌نامه در «%s:%d» ممکن نیست"
 
-#: ../libgdict/gdict-database-chooser.c:398
+#: ../libgdict/gdict-database-chooser.c:374
 msgid "Reload the list of available databases"
 msgstr "بازخوانی فهرست پایگاه‌های داده‌ی موجود"
 
-#: ../libgdict/gdict-database-chooser.c:410
+#: ../libgdict/gdict-database-chooser.c:386
 msgid "Clear the list of available databases"
 msgstr "پاک کردن فهرست پایگاه‌های داده‌ی موجود"
 
-#: ../libgdict/gdict-database-chooser.c:905 ../libgdict/gdict-speller.c:767
+#: ../libgdict/gdict-database-chooser.c:840 ../libgdict/gdict-speller.c:767
 #: ../libgdict/gdict-strategy-chooser.c:775
 msgid "Error while matching"
 msgstr "خطا هنگام تطبیق دادن"
@@ -474,94 +487,80 @@ msgstr ""
 msgid "Look up words in dictionaries"
 msgstr "جستجوی کلمات در لغت‌نامه‌ها"
 
-#: ../src/gdict-app.c:46 ../src/gdict-app.c:75
+#: ../src/gdict-app.c:47 ../src/gdict-app.c:76
 msgid "Words to look up"
 msgstr "کلمات مورد جستجو "
 
-#: ../src/gdict-app.c:46 ../src/gdict-app.c:52
+#: ../src/gdict-app.c:47 ../src/gdict-app.c:53
 msgid "WORD"
 msgstr "WORD"
 
-#: ../src/gdict-app.c:52
+#: ../src/gdict-app.c:53
 msgid "Words to match"
 msgstr "فهرست کلمات"
 
-#: ../src/gdict-app.c:58
+#: ../src/gdict-app.c:59
 msgid "Dictionary source to use"
 msgstr "منبع لغت‌نامه مورد استفاده"
 
-#: ../src/gdict-app.c:58 ../src/gdict-app.c:64 ../src/gdict-app.c:70
+#: ../src/gdict-app.c:59 ../src/gdict-app.c:65 ../src/gdict-app.c:71
 msgid "NAME"
 msgstr "NAME"
 
-#: ../src/gdict-app.c:64
+#: ../src/gdict-app.c:65
 msgid "Database to use"
 msgstr "پایگاه‌داده‌ی مورد استفاده"
 
-#: ../src/gdict-app.c:70
+#: ../src/gdict-app.c:71
 msgid "Strategy to use"
 msgstr "راهکار مورد استفاده"
 
-#: ../src/gdict-app.c:75
+#: ../src/gdict-app.c:76
 msgid "WORDS"
 msgstr "WORDS"
 
-#: ../src/gdict-app.c:107
+#: ../src/gdict-app.c:108
 msgid "Dictionary Preferences"
 msgstr "ترجیحات لغت‌نامه"
 
-#: ../src/gdict-app.c:129 ../src/gdict-pref-dialog.c:511
-#: ../src/gdict-source-dialog.c:452
-#, c-format
+#: ../src/gdict-app.c:130 ../src/gdict-source-dialog.c:452
 msgid "There was an error while displaying help"
 msgstr "هنگام نمایش راهنما خطایی به وجود آمد"
 
-#: ../src/gdict-pref-dialog.c:264
+#: ../src/gdict-pref-dialog.c:262
 msgid "View Dictionary Source"
 msgstr "نمایش منبع لغت‌نامه"
 
-#: ../src/gdict-pref-dialog.c:330
+#: ../src/gdict-pref-dialog.c:328
 msgid "Add Dictionary Source"
 msgstr "اضافه‌کردن منبع لغت‌نامه"
 
-#: ../src/gdict-pref-dialog.c:374
+#: ../src/gdict-pref-dialog.c:372
 #, c-format
 msgid "Remove \"%s\"?"
 msgstr "«%s» حذف شود؟"
 
-#: ../src/gdict-pref-dialog.c:376
+#: ../src/gdict-pref-dialog.c:374
 msgid "This will permanently remove the dictionary source from the list."
 msgstr "با این کار منبع لغت‌نامه برای همیشه از فهرست حذف خواهد شد."
 
-#: ../src/gdict-pref-dialog.c:379 ../src/gdict-source-dialog.c:564
-#: ../src/gdict-window.c:822
+#: ../src/gdict-pref-dialog.c:377 ../src/gdict-source-dialog.c:564
+#: ../src/gdict-window.c:824
 msgid "_Cancel"
 msgstr "_لغو"
 
-#: ../src/gdict-pref-dialog.c:380
+#: ../src/gdict-pref-dialog.c:378
 msgid "_Remove"
 msgstr "_حذف"
 
-#: ../src/gdict-pref-dialog.c:398
+#: ../src/gdict-pref-dialog.c:396
 #, c-format
 msgid "Unable to remove source '%s'"
 msgstr "حذف منبع «%s» ممکن نیست"
 
-#: ../src/gdict-pref-dialog.c:445
+#: ../src/gdict-pref-dialog.c:443
 msgid "Edit Dictionary Source"
 msgstr "ویرایش منبع لغت‌نامه"
-
-#. add buttons
-#. The help button is always visible
-#: ../src/gdict-pref-dialog.c:634 ../src/gdict-source-dialog.c:655
-msgid "_Help"
-msgstr "_راهنما"
-
-#. we just allow closing the dialog
-#: ../src/gdict-pref-dialog.c:635 ../src/gdict-source-dialog.c:560
-#: ../src/gdict-source-dialog.c:574
-msgid "_Close"
-msgstr "_بستن"
 
 #: ../src/gdict-print.c:239 ../src/gdict-print.c:303
 #, c-format
@@ -576,6 +575,11 @@ msgstr "ایجاد پرونده‌ی منبع ممکن نیست"
 msgid "Unable to save source file"
 msgstr "ذخیره‌ی پرونده‌ی منبع ممکن نیست"
 
+#. we just allow closing the dialog
+#: ../src/gdict-source-dialog.c:560 ../src/gdict-source-dialog.c:574
+msgid "_Close"
+msgstr "_بستن"
+
 #: ../src/gdict-source-dialog.c:565
 msgid "_Add"
 msgstr "_اضافه کردن"
@@ -584,72 +588,80 @@ msgstr "_اضافه کردن"
 msgid "C_ancel"
 msgstr "_لغو"
 
-#: ../src/gdict-window.c:414
+#. The help button is always visible
+#: ../src/gdict-source-dialog.c:655
+msgid "_Help"
+msgstr "_راهنما"
+
+#: ../src/gdict-window.c:415
 #, c-format
 msgid "No dictionary source available with name '%s'"
 msgstr "منبع لغت‌نامه‌ای به نام «%s» موجود نیست"
 
-#: ../src/gdict-window.c:418
+#: ../src/gdict-window.c:419
 msgid "Unable to find dictionary source"
 msgstr "پیدا کردن منبع لغت‌نامه ممکن نیست"
 
-#: ../src/gdict-window.c:434
+#: ../src/gdict-window.c:435
 #, c-format
 msgid "No context available for source '%s'"
 msgstr "هیچ زمینه‌ای برای منبع «%s» موجود نیست"
 
-#: ../src/gdict-window.c:438
+#: ../src/gdict-window.c:439
 msgid "Unable to create a context"
 msgstr "ایجاد زمینه ممکن نیست"
 
-#: ../src/gdict-window.c:497
+#: ../src/gdict-window.c:498
 #, c-format
 msgid "%s - Dictionary"
 msgstr "%s - لغت‌نامه"
 
-#: ../src/gdict-window.c:819
+#: ../src/gdict-window.c:821
 msgid "Save a Copy"
 msgstr "ذخیره‌ی یک نسخه‌"
 
-#: ../src/gdict-window.c:823
+#: ../src/gdict-window.c:825
 msgid "_Save"
 msgstr "_ذخیره"
 
-#: ../src/gdict-window.c:829
+#: ../src/gdict-window.c:831
 msgid "Untitled document"
 msgstr "نوشتار بی‌عنوان "
 
-#: ../src/gdict-window.c:850
+#: ../src/gdict-window.c:852
 #, c-format
 msgid "Error while writing to '%s'"
 msgstr "خطا در حین نوشتن در‌ %s"
 
 #. speller
-#: ../src/gdict-window.c:1211
+#: ../src/gdict-window.c:1213
 msgid "Double-click on the word to look up"
 msgstr "برای جستجوی کلمه، دو بار روی آن کلیک کنید"
 
 #. strat-chooser
-#: ../src/gdict-window.c:1217
+#: ../src/gdict-window.c:1219
 msgid "Double-click on the matching strategy to use"
 msgstr "برای استفاده از راه‌کار، دو بار روی آن کلیک کنید"
 
 #. source-chooser
-#: ../src/gdict-window.c:1222
+#: ../src/gdict-window.c:1224
 msgid "Double-click on the source to use"
 msgstr "برای استفاده از پایگاه داده، دو بار روی آن کلیک کنید"
 
-#: ../src/gdict-window.c:1428
+#: ../src/gdict-window.c:1424
 msgid "Similar words"
 msgstr "کلمات مشابه"
 
-#: ../src/gdict-window.c:1459
+#: ../src/gdict-window.c:1455
 msgid "Available strategies"
 msgstr "راه‌کارهای موجود"
 
-#: ../src/gdict-window.c:1475
+#: ../src/gdict-window.c:1471
 msgid "Dictionary sources"
 msgstr "منابع لغت‌نامه"
+
+#~ msgid "H_ostname:"
+#~ msgstr "نام میز_بان:"
 
 #~ msgid "_File"
 #~ msgstr "_پرونده"
@@ -677,9 +689,6 @@ msgstr "منابع لغت‌نامه"
 
 #~ msgid "The name of the client of the context object"
 #~ msgstr "نام کارگیر شیء زمینه‌ای"
-
-#~ msgid "Hostname"
-#~ msgstr "نام میزبان"
 
 #~ msgid "The hostname of the dictionary server to connect to"
 #~ msgstr "نام میزبان کارگزار لغت‌نامه که به آن متصل می‌شوید"
