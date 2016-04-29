@@ -1,0 +1,664 @@
+# Scottish Gaelic translation for gnome-dictionary.
+# Copyright (C) 2016 gnome-dictionary's COPYRIGHT HOLDER
+# This file is distributed under the same license as the gnome-dictionary package.
+# GunChleoc <fios@foramnagaidhlig.net>, 2016.
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-dictionary master\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
+"dictionary&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2016-04-29 08:20+0000\n"
+"PO-Revision-Date: 2016-04-29 12:10+0100\n"
+"Last-Translator: GunChleoc <fios@foramnagaidhlig.net>\n"
+"Language-Team: Fòram na Gàidhlig\n"
+"Language: gd\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n==1 || n==11) ? 0 : (n==2 || n==12) ? 1 : "
+"(n > 2 && n < 20) ? 2 : 3;\n"
+"X-Generator: Virtaal 0.7.1\n"
+"X-Project-Style: gnome\n"
+
+#: ../data/default.desktop.in.h:1
+msgid "Default Dictionary Server"
+msgstr "Frithealaiche tùsail an fhaclair"
+
+#: ../data/org.gnome.Dictionary.appdata.xml.in.h:1
+msgid "GNOME Dictionary"
+msgstr "Faclair GNOME"
+
+#: ../data/org.gnome.Dictionary.appdata.xml.in.h:2
+#: ../data/org.gnome.Dictionary.desktop.in.in.h:2
+msgid "Check word definitions and spellings in an online dictionary"
+msgstr ""
+"Thoir sùil air mìneachaidhean fhaclan is an litreachadh ann am faclair air "
+"loidhne"
+
+#: ../data/org.gnome.Dictionary.appdata.xml.in.h:3
+msgid ""
+"GNOME Dictionary is a simple dictionary application that looks up "
+"definitions of words online. Though it looks up English definitions by "
+"default, you can easily switch to Spanish or add other online dictionaries "
+"using the DICT protocol to suit your needs."
+msgstr ""
+"'S e aplacaid faclair shimplidh a tha san Fhaclair GNOME Dictionary a lorgas "
+"mìneachaidhean air faclan air loidhne. Ged a shireas e mìneachaidhean sa "
+"Bheurla a ghnàth, 's urrainn dhut leum a ghearradh gu Spàinntis no faclair "
+"air loidhne sam bith leis a' phròtacal DICT gus na ach am faigh thu na "
+"dh'fheumas tu fhèin."
+
+#: ../src/gdict-app-menus.ui.h:1
+msgid "_New Window"
+msgstr "Uinneag ù_r"
+
+#: ../src/gdict-app-menus.ui.h:2
+msgid "Preferences"
+msgstr "Roghainnean"
+
+#: ../src/gdict-app-menus.ui.h:3
+msgid "Help"
+msgstr "Cobhair"
+
+#: ../src/gdict-app-menus.ui.h:4
+msgid "About"
+msgstr "Mu dhèidhinn"
+
+#: ../src/gdict-app-menus.ui.h:5
+msgid "Quit"
+msgstr "Fàg an-seo"
+
+#: ../src/gdict-app-menus.ui.h:6
+msgid "_Save a Copy..."
+msgstr "Sà_bhail lethbhreac dheth..."
+
+#: ../src/gdict-app-menus.ui.h:7
+msgid "P_review"
+msgstr "_Ro-sheall"
+
+#: ../src/gdict-app-menus.ui.h:8
+msgid "_Print"
+msgstr "_Clò-bhuail"
+
+#: ../src/gdict-app-menus.ui.h:9
+msgid "_Find"
+msgstr "_Lorg"
+
+#: ../src/gdict-app-menus.ui.h:10
+msgid "_View"
+msgstr "_Seall"
+
+#: ../src/gdict-app-menus.ui.h:11
+msgid "_Sidebar"
+msgstr "Bàr-_taoibh"
+
+#: ../src/gdict-app-menus.ui.h:12
+msgid "Similar _Words"
+msgstr "_Faclan coltach ris"
+
+#: ../src/gdict-app-menus.ui.h:13
+msgid "Dictionary Sources"
+msgstr "Tùsan faclair"
+
+#: ../src/gdict-app-menus.ui.h:14
+msgid "Available _Dictionaries"
+msgstr "_Faclairean ri am faighinn"
+
+#: ../src/gdict-app-menus.ui.h:15
+msgid "Available St_rategies"
+msgstr "_Ro-innleachdan ri am faighinn"
+
+#: ../src/gdict-app-menus.ui.h:16
+msgid "_Go"
+msgstr "_Siuthad"
+
+#: ../src/gdict-app-menus.ui.h:17
+msgid "_Previous Definition"
+msgstr "Am mìneachadh _roimhe"
+
+#: ../src/gdict-app-menus.ui.h:18
+msgid "_Next Definition"
+msgstr "A_n ath-mhìneachadh"
+
+#: ../src/gdict-app-menus.ui.h:19
+msgid "_First Definition"
+msgstr "A' _chiad mìneachadh"
+
+#: ../src/gdict-app-menus.ui.h:20
+msgid "_Last Definition"
+msgstr "Am mìneachadh _mu dheireadh"
+
+#: ../src/gdict-pref-dialog.ui.h:1
+msgid "_Select a dictionary source for looking up words:"
+msgstr "_Tagh faclair mar thùs gus faclan a lorg:"
+
+#: ../src/gdict-pref-dialog.ui.h:2
+msgid "Add a new dictionary source"
+msgstr "Cuir tùs faclair ùr ris"
+
+#: ../src/gdict-pref-dialog.ui.h:3
+msgid "Remove the currently selected dictionary source"
+msgstr "Thoir an tùs faclair làithreach air falbh"
+
+#: ../src/gdict-pref-dialog.ui.h:4
+msgid "Edit"
+msgstr "Deasaich"
+
+#: ../src/gdict-pref-dialog.ui.h:5
+msgid "Edit the currently selected dictionary source"
+msgstr "Deasaich an tùs faclair làithreach"
+
+#: ../src/gdict-pref-dialog.ui.h:6 ../src/gdict-source-dialog.ui.h:8
+msgid "Source"
+msgstr "Tùs"
+
+#: ../src/gdict-pref-dialog.ui.h:7
+msgid "_Print font:"
+msgstr "Cruth-lò clò-_bhualaidh:"
+
+#: ../src/gdict-pref-dialog.ui.h:8
+msgid "Set the font used for printing the definitions"
+msgstr ""
+"Tagh an cruth-clò a thèid a chleachdadh gus na mìneachaidhean a "
+"chlò-bhualadh"
+
+#: ../src/gdict-pref-dialog.ui.h:9
+msgid "Print"
+msgstr "Clò-bhuail"
+
+#: ../src/gdict-source-dialog.ui.h:1
+msgid "_Description"
+msgstr "_Tuairisgeul"
+
+#: ../src/gdict-source-dialog.ui.h:2
+msgid "_Port"
+msgstr "_Port"
+
+#: ../src/gdict-source-dialog.ui.h:3
+msgid "_Hostname"
+msgstr "_Ainm-òstair"
+
+#: ../src/gdict-source-dialog.ui.h:4
+msgid "_Transport"
+msgstr "_Còmhdhail"
+
+#: ../src/gdict-source-dialog.ui.h:5
+msgid "2628"
+msgstr "2628"
+
+#: ../src/gdict-source-dialog.ui.h:6
+msgid "dict.org"
+msgstr "dict.org"
+
+#: ../src/gdict-source-dialog.ui.h:7
+msgid "Source Name"
+msgstr "Ainm an tùis"
+
+#: ../src/gdict-source-dialog.ui.h:9
+msgid "Dictionaries"
+msgstr "Faclairean"
+
+#: ../src/gdict-source-dialog.ui.h:10
+msgid "Strategies"
+msgstr "Ro-innleachdan"
+
+#: ../data/org.gnome.Dictionary.desktop.in.in.h:1 ../src/gdict-about.c:60
+#: ../src/gdict-window.c:500 ../src/gdict-window.c:1527
+msgid "Dictionary"
+msgstr "Faclair"
+
+#: ../data/org.gnome.Dictionary.desktop.in.in.h:3
+msgid "word;synonym;definition;spelling;"
+msgstr ""
+"word;synonym;definition;spelling;facal;co-"
+"fhacal;mìnich;mìneachadh;deifinisean;litreachadh;litrich;"
+
+#: ../data/org.gnome.dictionary.gschema.xml.h:1
+msgid "The default database to use"
+msgstr "An stòr-dàta a thèid a chleachdadh a ghnàth"
+
+#: ../data/org.gnome.dictionary.gschema.xml.h:2
+msgid ""
+"The name of the default individual database or meta-database to use on a "
+"dictionary source. An exclamation mark (\"!\") means that all the databases "
+"present in a dictionary source should be searched"
+msgstr ""
+"Ainm an stòir-dhàta fa leth tùsail no a' mheata-stòir-dhàta a thèid a "
+"chleachdadh air tùs faclair. Is ciall dha chlis-phuing (\"!\") gum bu chòir "
+"lorg sa h-uile stòr-dàta a tha am broinn tùis faclair"
+
+#: ../data/org.gnome.dictionary.gschema.xml.h:3
+msgid "The default search strategy to use"
+msgstr "An ro-innleachd bhunaiteach"
+
+#: ../data/org.gnome.dictionary.gschema.xml.h:4
+msgid ""
+"The name of the default search strategy to use on a dictionary source, if "
+"available. The default strategy is 'exact', that is match exact words."
+msgstr ""
+"Ainm na ro-innleachd bunaitich leis an dèid a lorg ann an tùs faclair, ma "
+"tha seo ri làimh. Is \"exact\" an ro-innleachd thùsail, is ciall dha seo nach "
+"fhaigh thu ach sàr-mhaids."
+
+#: ../data/org.gnome.dictionary.gschema.xml.h:5
+msgid "The font to be used when printing"
+msgstr "An cruth-clò a thèid a chleachdadh a chum clò-bhualaidh"
+
+#: ../data/org.gnome.dictionary.gschema.xml.h:6
+msgid "The font to be used when printing a definition."
+msgstr "An cruth-clò a thèid a chleachdadh gus mìneachadh a clò-bhualadh"
+
+#: ../data/org.gnome.dictionary.gschema.xml.h:7
+msgid "The name of the dictionary source used"
+msgstr "Ainm an tùis faclair a chaidh a chleachdadh"
+
+#: ../data/org.gnome.dictionary.gschema.xml.h:8
+msgid ""
+"The name of the dictionary source used to retrieve the definitions of words."
+msgstr ""
+"Ainm an tùis faclair a chaidh a chleachdadh gus mìneachaidhean nam faclan "
+"fhaighinn."
+
+#: ../data/spanish.desktop.in.h:1
+msgid "Spanish Dictionaries"
+msgstr "Faclairean na Spàinntis"
+
+#: ../data/thai.desktop.in.h:1
+msgid "Longdo Thai-English Dictionaries"
+msgstr "Faclairean Cànan nan Tàidh 's Beurla Longdo"
+
+#: ../libgdict/gdict-client-context.c:775
+#, c-format
+msgid "No connection to the dictionary server at '%s:%d'"
+msgstr "Chan eil ceangal dhan fhrithealaiche faclair ann aig \"%s:%d\""
+
+#: ../libgdict/gdict-client-context.c:1058
+#, c-format
+msgid "Lookup failed for hostname '%s': no suitable resources found"
+msgstr ""
+"Cha deach leis an lorg airson an ainm-òstair \"%s\": cha deach goireas "
+"iomchaidh a lorg"
+
+#: ../libgdict/gdict-client-context.c:1089
+#, c-format
+msgid "Lookup failed for host '%s': %s"
+msgstr "Cha deach leis an lorg airson an ainm-òstair \"%s\": %s"
+
+#: ../libgdict/gdict-client-context.c:1123
+#, c-format
+msgid "Lookup failed for host '%s': host not found"
+msgstr ""
+"Cha deach leis an lorg airson an ainm-òstair \"%s\": cha deach an t-òstair a "
+"lorg"
+
+#: ../libgdict/gdict-client-context.c:1175
+#, c-format
+msgid ""
+"Unable to connect to the dictionary server at '%s:%d'. The server replied "
+"with code %d (server down)"
+msgstr ""
+"cha deach leinn ceangal ris an fhrithealaiche faclair aig \"%s:%d\". Fhreagair "
+"am frithealaiche le còd %d (frithealaiche sìos)"
+
+#: ../libgdict/gdict-client-context.c:1194
+#, c-format
+msgid ""
+"Unable to parse the dictionary server reply\n"
+": '%s'"
+msgstr ""
+"Cha deach leinn freagairt an fhrithealaiche faclair a pharsadh\n"
+": \"%s\""
+
+#: ../libgdict/gdict-client-context.c:1223
+#, c-format
+msgid "No definitions found for '%s'"
+msgstr "Cha deach mìneachadh a lorg air \"%s\""
+
+#: ../libgdict/gdict-client-context.c:1238
+#, c-format
+msgid "Invalid database '%s'"
+msgstr "Stòr-dàta mì-dligheach \"%s\""
+
+#: ../libgdict/gdict-client-context.c:1253
+#, c-format
+msgid "Invalid strategy '%s'"
+msgstr "Ro-innleachd mhì-dhligheach \"%s\""
+
+#: ../libgdict/gdict-client-context.c:1268
+#, c-format
+msgid "Bad command '%s'"
+msgstr "Droch-àithne \"%s\""
+
+#: ../libgdict/gdict-client-context.c:1283
+#, c-format
+msgid "Bad parameters for command '%s'"
+msgstr "Droch-pharamadairean airson na h-àithne \"%s\""
+
+#: ../libgdict/gdict-client-context.c:1298
+#, c-format
+msgid "No databases found on dictionary server at '%s'"
+msgstr "Cha deach stòr-dàta a lorg air an fhrithealaiche faclair \"%s\""
+
+#: ../libgdict/gdict-client-context.c:1313
+#, c-format
+msgid "No strategies found on dictionary server at '%s'"
+msgstr "Cha deach ro-innleachd a lorg air an fhrithealaiche faclair \"%s\""
+
+#: ../libgdict/gdict-client-context.c:1745
+#, c-format
+msgid "Connection failed to the dictionary server at %s:%d"
+msgstr "Dh'fhàillig leis a' cheangal dhan fhrithealaiche faclair aig \"%s:%d\""
+
+#: ../libgdict/gdict-client-context.c:1784
+#, c-format
+msgid ""
+"Error while reading reply from server:\n"
+"%s"
+msgstr ""
+"Mearachd a' leughadh na freagairte on fhrithealaiche:\n"
+"%s"
+
+#: ../libgdict/gdict-client-context.c:1857
+#, c-format
+msgid "Connection timeout for the dictionary server at '%s:%d'"
+msgstr ""
+"Dh'fhalbh an ùine air a' cheangal dhan fhrithealaiche faclair aig \"%s:%d\""
+
+#: ../libgdict/gdict-client-context.c:1891
+#, c-format
+msgid "No hostname defined for the dictionary server"
+msgstr "Cha deach ainm-òstair a shònrachadh air an fhrithealaiche faclaor"
+
+#: ../libgdict/gdict-client-context.c:1927
+#: ../libgdict/gdict-client-context.c:1942
+#, c-format
+msgid "Unable to create socket"
+msgstr "Cha deach leinn socaid a chruthachadh"
+
+#: ../libgdict/gdict-client-context.c:1968
+#, c-format
+msgid "Unable to set the channel as non-blocking: %s"
+msgstr ""
+
+#: ../libgdict/gdict-client-context.c:1983
+#, c-format
+msgid "Unable to connect to the dictionary server at '%s:%d'"
+msgstr ""
+
+#: ../libgdict/gdict-database-chooser.c:374
+msgid "Reload the list of available databases"
+msgstr ""
+
+#: ../libgdict/gdict-database-chooser.c:386
+msgid "Clear the list of available databases"
+msgstr ""
+
+#: ../libgdict/gdict-database-chooser.c:840 ../libgdict/gdict-speller.c:767
+#: ../libgdict/gdict-strategy-chooser.c:775
+msgid "Error while matching"
+msgstr ""
+
+#: ../libgdict/gdict-defbox.c:2390
+msgid "Error while looking up definition"
+msgstr ""
+
+#: ../libgdict/gdict-defbox.c:2432 ../libgdict/gdict-speller.c:725
+msgid "Another search is in progress"
+msgstr ""
+
+#: ../libgdict/gdict-defbox.c:2433 ../libgdict/gdict-speller.c:726
+msgid "Please wait until the current search ends."
+msgstr ""
+
+#: ../libgdict/gdict-defbox.c:2472
+msgid "Error while retrieving the definition"
+msgstr ""
+
+#: ../libgdict/gdict-source.c:433
+#, c-format
+msgid "Invalid transport type '%d'"
+msgstr ""
+
+#: ../libgdict/gdict-source.c:461
+#, c-format
+msgid "No '%s' group found inside the dictionary source definition"
+msgstr ""
+
+#: ../libgdict/gdict-source.c:477 ../libgdict/gdict-source.c:501
+#: ../libgdict/gdict-source.c:525 ../libgdict/gdict-source.c:550
+#, c-format
+msgid "Unable to get the '%s' key inside the dictionary source definition: %s"
+msgstr ""
+
+#: ../libgdict/gdict-source.c:575
+#, c-format
+msgid ""
+"Unable to get the '%s' key inside the dictionary source definition file: %s"
+msgstr ""
+
+#: ../libgdict/gdict-source.c:769
+#, c-format
+msgid "Dictionary source does not have name"
+msgstr ""
+
+#: ../libgdict/gdict-source.c:778
+#, c-format
+msgid "Dictionary source '%s' has invalid transport '%s'"
+msgstr ""
+
+#: ../libgdict/gdict-source-chooser.c:280
+msgid "Reload the list of available sources"
+msgstr ""
+
+#: ../libgdict/gdict-speller.c:341
+msgid "Clear the list of similar words"
+msgstr ""
+
+#: ../libgdict/gdict-strategy-chooser.c:350
+msgid "Reload the list of available strategies"
+msgstr ""
+
+#: ../libgdict/gdict-strategy-chooser.c:361
+msgid "Clear the list of available strategies"
+msgstr ""
+
+#: ../libgdict/gdict-utils.c:96
+msgid "GDict debugging flags to set"
+msgstr ""
+
+#: ../libgdict/gdict-utils.c:96 ../libgdict/gdict-utils.c:98
+msgid "FLAGS"
+msgstr ""
+
+#: ../libgdict/gdict-utils.c:98
+msgid "GDict debugging flags to unset"
+msgstr ""
+
+#: ../libgdict/gdict-utils.c:157
+msgid "GDict Options"
+msgstr ""
+
+#: ../libgdict/gdict-utils.c:158
+msgid "Show GDict Options"
+msgstr ""
+
+#: ../src/gdict-about.c:53
+msgid "translator-credits"
+msgstr ""
+
+#: ../src/gdict-about.c:55
+msgid "Look up words in dictionaries"
+msgstr ""
+
+#: ../src/gdict-app.c:47 ../src/gdict-app.c:76
+msgid "Words to look up"
+msgstr ""
+
+#: ../src/gdict-app.c:47 ../src/gdict-app.c:53
+msgid "WORD"
+msgstr ""
+
+#: ../src/gdict-app.c:53
+msgid "Words to match"
+msgstr ""
+
+#: ../src/gdict-app.c:59
+msgid "Dictionary source to use"
+msgstr ""
+
+#: ../src/gdict-app.c:59 ../src/gdict-app.c:65 ../src/gdict-app.c:71
+msgid "NAME"
+msgstr ""
+
+#: ../src/gdict-app.c:65
+msgid "Database to use"
+msgstr ""
+
+#: ../src/gdict-app.c:71
+msgid "Strategy to use"
+msgstr ""
+
+#: ../src/gdict-app.c:76
+msgid "WORDS"
+msgstr ""
+
+#: ../src/gdict-app.c:108
+msgid "Dictionary Preferences"
+msgstr ""
+
+#: ../src/gdict-app.c:130 ../src/gdict-source-dialog.c:452
+msgid "There was an error while displaying help"
+msgstr ""
+
+#: ../src/gdict-pref-dialog.c:262
+msgid "View Dictionary Source"
+msgstr ""
+
+#: ../src/gdict-pref-dialog.c:328
+msgid "Add Dictionary Source"
+msgstr ""
+
+#: ../src/gdict-pref-dialog.c:372
+#, c-format
+msgid "Remove \"%s\"?"
+msgstr ""
+
+#: ../src/gdict-pref-dialog.c:374
+msgid "This will permanently remove the dictionary source from the list."
+msgstr ""
+
+#: ../src/gdict-pref-dialog.c:377 ../src/gdict-source-dialog.c:564
+#: ../src/gdict-window.c:824
+msgid "_Cancel"
+msgstr ""
+
+#: ../src/gdict-pref-dialog.c:378
+msgid "_Remove"
+msgstr ""
+
+#: ../src/gdict-pref-dialog.c:396
+#, c-format
+msgid "Unable to remove source '%s'"
+msgstr ""
+
+#: ../src/gdict-pref-dialog.c:443
+msgid "Edit Dictionary Source"
+msgstr ""
+
+#: ../src/gdict-print.c:239 ../src/gdict-print.c:303
+#, c-format
+msgid "Unable to display the preview: %s"
+msgstr ""
+
+#: ../src/gdict-source-dialog.c:316 ../src/gdict-source-dialog.c:404
+msgid "Unable to create a source file"
+msgstr ""
+
+#: ../src/gdict-source-dialog.c:332 ../src/gdict-source-dialog.c:424
+msgid "Unable to save source file"
+msgstr ""
+
+#. we just allow closing the dialog
+#: ../src/gdict-source-dialog.c:560 ../src/gdict-source-dialog.c:574
+msgid "_Close"
+msgstr ""
+
+#: ../src/gdict-source-dialog.c:565
+msgid "_Add"
+msgstr ""
+
+#: ../src/gdict-source-dialog.c:573
+msgid "C_ancel"
+msgstr ""
+
+#. The help button is always visible
+#: ../src/gdict-source-dialog.c:655
+msgid "_Help"
+msgstr ""
+
+#: ../src/gdict-window.c:415
+#, c-format
+msgid "No dictionary source available with name '%s'"
+msgstr ""
+
+#: ../src/gdict-window.c:419
+msgid "Unable to find dictionary source"
+msgstr ""
+
+#: ../src/gdict-window.c:435
+#, c-format
+msgid "No context available for source '%s'"
+msgstr ""
+
+#: ../src/gdict-window.c:439
+msgid "Unable to create a context"
+msgstr ""
+
+#: ../src/gdict-window.c:498
+#, c-format
+msgid "%s - Dictionary"
+msgstr ""
+
+#: ../src/gdict-window.c:821
+msgid "Save a Copy"
+msgstr ""
+
+#: ../src/gdict-window.c:825
+msgid "_Save"
+msgstr ""
+
+#: ../src/gdict-window.c:831
+msgid "Untitled document"
+msgstr ""
+
+#: ../src/gdict-window.c:852
+#, c-format
+msgid "Error while writing to '%s'"
+msgstr ""
+
+#. speller
+#: ../src/gdict-window.c:1213
+msgid "Double-click on the word to look up"
+msgstr ""
+
+#. strat-chooser
+#: ../src/gdict-window.c:1219
+msgid "Double-click on the matching strategy to use"
+msgstr ""
+
+#. source-chooser
+#: ../src/gdict-window.c:1224
+msgid "Double-click on the source to use"
+msgstr ""
+
+#: ../src/gdict-window.c:1424
+msgid "Similar words"
+msgstr ""
+
+#: ../src/gdict-window.c:1455
+msgid "Available strategies"
+msgstr ""
+
+#: ../src/gdict-window.c:1471
+msgid "Dictionary sources"
+msgstr ""
