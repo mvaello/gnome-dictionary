@@ -1,21 +1,22 @@
 # Brazilian Portuguese translation for gnome-dictionary.
-# Copyright (C) 2013 gnome-dictionary's COPYRIGHT HOLDER
+# Copyright (C) 2015 gnome-dictionary's COPYRIGHT HOLDER
 # This file is distributed under the same license as the gnome-dictionary package.
 # Gabriel Barreto <gabrieljbl@gmail.com>, 2013.
-# Rafael Ferreira <rafael.f.f1@gmail.com>, 2013.
+# Rafael Fontenelle <rafaelff@gnome.org>, 2013.
+# Felipe Braga <fbobraga@gmail.com>, 2015.
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-dictionary master\n"
-"POT-Creation-Date: 2013-09-13 20:26+0000\n"
-"PO-Revision-Date: 2013-09-13 21:05-0300\n"
-"Last-Translator: Enrico Nicoletto <liverig@gmail.com>\n"
+"POT-Creation-Date: 2015-05-06 06:45+0000\n"
+"PO-Revision-Date: 2015-05-06 13:05-0200\n"
+"Last-Translator: Felipe Braga <fbobraga@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <gnome-pt_br-list@gnome.org>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Poedit 1.5.7\n"
+"X-Generator: Virtaal 0.7.1\n"
 "X-Project-Style: gnome\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
@@ -23,17 +24,11 @@ msgctxt "_"
 msgid "translator-credits"
 msgstr ""
 "Gabriel Barreto <gabrieljbl@gmail.com>, 2013\n"
-"Rafael Ferreira <rafael.f.f1@gmail.com>, 2013"
-
-#. (itstool) path: info/title
-#: C/index.page:8
-msgctxt "text"
-msgid "Dictionary"
-msgstr "Dicionário"
+"Rafael Fontenelle <rafaelff@gnome.org>, 2013"
 
 #. (itstool) path: credit/name
-#: C/index.page:11 C/definition.page:11 C/dictionary-select.page:11
-#: C/find.page:10 C/introduction.page:10 C/keyboard-shortcuts.page:11
+#: C/definition.page:11 C/dictionary-select.page:11 C/find.page:10
+#: C/index.page:11 C/introduction.page:10 C/keyboard-shortcuts.page:11
 #: C/pref.page:9 C/print-font.page:11 C/print.page:12
 #: C/prob-retrieving-definition.page:11 C/save-definition.page:10
 #: C/similar-words.page:11 C/source-add-local.page:11
@@ -43,46 +38,20 @@ msgid "Sindhu S"
 msgstr "Sindhu S"
 
 #. (itstool) path: credit/years
-#: C/index.page:13 C/definition.page:13 C/definition.page:18
-#: C/dictionary-select.page:13 C/dictionary-select.page:18 C/find.page:12
-#: C/find.page:17 C/introduction.page:12 C/introduction.page:17
-#: C/keyboard-shortcuts.page:13 C/keyboard-shortcuts.page:18
-#: C/print-font.page:13 C/print-font.page:18 C/print.page:14 C/print.page:19
-#: C/prob-retrieving-definition.page:13 C/prob-retrieving-definition.page:18
-#: C/save-definition.page:12 C/save-definition.page:17 C/similar-words.page:13
-#: C/similar-words.page:18 C/source-add-local.page:13
-#: C/sources-default.page:12 C/sources-default.page:17
-#: C/sources-delete.page:13 C/sources-delete.page:18 C/sources-edit.page:12
-#: C/sources-edit.page:17 C/sources.page:14 C/sources.page:19
-#: C/sources-select.page:14 C/sources-select.page:19 C/text-copy.page:13
-#: C/text-copy.page:18
+#: C/definition.page:13 C/definition.page:18 C/dictionary-select.page:13
+#: C/dictionary-select.page:18 C/find.page:12 C/find.page:17 C/index.page:13
+#: C/introduction.page:12 C/introduction.page:17 C/keyboard-shortcuts.page:13
+#: C/keyboard-shortcuts.page:18 C/print-font.page:13 C/print-font.page:18
+#: C/print.page:14 C/print.page:19 C/prob-retrieving-definition.page:13
+#: C/prob-retrieving-definition.page:18 C/save-definition.page:12
+#: C/save-definition.page:17 C/similar-words.page:13 C/similar-words.page:18
+#: C/source-add-local.page:13 C/sources-default.page:12
+#: C/sources-default.page:17 C/sources-delete.page:13 C/sources-delete.page:18
+#: C/sources-edit.page:12 C/sources-edit.page:17 C/sources.page:14
+#: C/sources.page:19 C/sources-select.page:14 C/sources-select.page:19
+#: C/text-copy.page:13 C/text-copy.page:18
 msgid "2013"
 msgstr "2013"
-
-#. (itstool) path: info/desc
-#: C/index.page:18
-msgid "Look up word definitions in <app>Dictionary</app>."
-msgstr "Consulte definições no <app>Dicionário</app>."
-
-#. (itstool) path: page/title
-#: C/index.page:21
-msgid "<_:media-1/> Dictionary Help"
-msgstr "<_:media-1/> Ajuda do Dicionário"
-
-#. (itstool) path: section/title
-#: C/index.page:26
-msgid "Features"
-msgstr "Funcionalidades"
-
-#. (itstool) path: section/title
-#: C/index.page:30
-msgid "Preferences"
-msgstr "Preferências"
-
-#. (itstool) path: section/title
-#: C/index.page:34
-msgid "Common problems and solutions"
-msgstr "Problemas comuns e soluções"
 
 #. (itstool) path: credit/name
 #: C/definition.page:16 C/dictionary-select.page:16 C/find.page:15
@@ -224,7 +193,7 @@ msgid ""
 "you may wish to search them to find the section that is relevant to you."
 msgstr ""
 "Algumas entradas de dicionário podem ser bem grandes e conter muitos "
-"resultados. Deste modo, você pode desejar pesquisá-los para localizar a "
+"resultados, de forma que você pode preferir pesquisá-los para localizar a "
 "seção que é relevante para você."
 
 #. (itstool) path: steps/title
@@ -264,6 +233,37 @@ msgstr ""
 "\">Próximo</gui> para rolar pelos resultados. A pesquisa não vai ajustar os "
 "resultados: em outras palavras, não vai para o topo da página quando você "
 "está no último resultado e clica <gui style=\"button\">Próximo</gui>."
+
+#. (itstool) path: info/title
+#: C/index.page:8
+msgctxt "text"
+msgid "Dictionary"
+msgstr "Dicionário"
+
+#. (itstool) path: info/desc
+#: C/index.page:18
+msgid "Look up word definitions in <app>Dictionary</app>."
+msgstr "Consulte definições no <app>Dicionário</app>."
+
+#. (itstool) path: page/title
+#: C/index.page:21
+msgid "<_:media-1/> Dictionary Help"
+msgstr "<_:media-1/> Ajuda do Dicionário"
+
+#. (itstool) path: section/title
+#: C/index.page:26
+msgid "Features"
+msgstr "Funcionalidades"
+
+#. (itstool) path: section/title
+#: C/index.page:30
+msgid "Preferences"
+msgstr "Preferências"
+
+#. (itstool) path: section/title
+#: C/index.page:34
+msgid "Common problems and solutions"
+msgstr "Problemas comuns e soluções"
 
 #. (itstool) path: media
 #. This is a reference to an external file such as an image or video. When
@@ -631,8 +631,8 @@ msgid ""
 "The definition is not reflowed for printing, so if you choose a large font "
 "size, some of the text may be cut off."
 msgstr ""
-"A definição não é reorganizada para impressão. Então, se você escolher uma "
-"fonte maior, alguns textos podem aparecer cortados."
+"A definição não é reorganizada para impressão, de forma que, se você "
+"escolher uma fonte maior, alguns textos podem aparecer cortados."
 
 #. (itstool) path: info/desc
 #: C/print.page:24
@@ -764,8 +764,8 @@ msgid ""
 "following:"
 msgstr ""
 "Se você vir a mensagem de erro <sys>Erro ao recuperar a definição</sys> ao "
-"consultar uma definição de qualquer dos <link xref=\"sources-select"
-"\">dicionários selecionados</link>, o problema é provavelmente um dos a "
+"consultar uma definição de qualquer dos <link xref=\"sources-"
+"select\">dicionários selecionados</link>, o problema é provavelmente um dos a "
 "seguir:"
 
 #. (itstool) path: item/p
@@ -1158,10 +1158,10 @@ msgstr ""
 #: C/text-copy.page:45
 msgid ""
 "Paste the text into another application. This can usually be done using the "
-"<keyseq><key>Ctrl</key><key>P</key></keyseq> keyboard shortcut or through "
+"<keyseq><key>Ctrl</key><key>V</key></keyseq> keyboard shortcut or through "
 "one of the menus."
 msgstr ""
-"Cola o texto em outro aplicativo. Isso normalmente pode ser feito usando o "
+"Cole o texto em outro aplicativo. Isso normalmente pode ser feito usando o "
 "atalho de teclado <keyseq><key>Ctrl</key><key>P</key></keyseq> ou por meio "
 "de um dos menus."
 
