@@ -1,454 +1,1687 @@
-# 
+# Swedish translation for gnome-dictionary user guide
+# Copyright © 2006-2016 Free Software Foundation, Inc.
+# This file is distributed under the same license as the totem package.
+#
+# Daniel Nylander <po@danielnylander.se>, 2006.
+# Sebastian Rasmussen <sebras@gmail.com>, 2016.
 msgid ""
 msgstr ""
 "Project-Id-Version: dictionary\n"
-"PO-Revision-Date: 2006-12-27 23:23+0100\n"
-"POT-Creation-Date: 2006-05-31 18:59+0200\n"
-"Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
+"POT-Creation-Date: 2016-05-15 11:35+0000\n"
+"PO-Revision-Date: 2016-05-14 09:45+0200\n"
+"Last-Translator: Sebastian Rasmussen <sebras@gmail.com>\n"
 "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+"Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7.1\n"
 
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: /tmp/doc-l10n/cvs/gnome-utils-dictionary.HEAD/C/gnome-dictionary.xml:150(None)
-msgid "@@image: 'figures/gnome-dictionary-application.png'; md5=fb48a9e5863bfb2b3811df2e28489eb7"
-msgstr "@@image: 'figures/gnome-dictionary-application.png'; md5=fb48a9e5863bfb2b3811df2e28489eb7"
+#. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
+msgctxt "_"
+msgid "translator-credits"
+msgstr ""
+"Daniel Nylander <po@danielnylander.se>, 2006\n"
+"Sebastian Rasmussen <sebras@gmail.com>, 2016\n"
+"Skicka synpunkter på översättningen till\n"
+"<tp-sv@listor.tp-sv.se>"
 
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: /tmp/doc-l10n/cvs/gnome-utils-dictionary.HEAD/C/gnome-dictionary.xml:179(None)
-msgid "@@image: 'figures/gnome-dictionary-lookup.png'; md5=c41c96af4de54f457a2081aad009a8d0"
-msgstr "@@image: 'figures/gnome-dictionary-lookup.png'; md5=c41c96af4de54f457a2081aad009a8d0"
+#. (itstool) path: credit/name
+#: C/definition.page:11 C/dictionary-select.page:11 C/find.page:10
+#: C/index.page:11 C/introduction.page:10 C/keyboard-shortcuts.page:11
+#: C/pref.page:9 C/print-font.page:11 C/print.page:12
+#: C/prob-retrieving-definition.page:11 C/save-definition.page:10
+#: C/similar-words.page:11 C/source-add-local.page:11 C/sources-default.page:10
+#: C/sources-delete.page:11 C/sources-edit.page:10 C/sources.page:12
+#: C/sources-select.page:12 C/text-copy.page:11
+msgid "Sindhu S"
+msgstr "Sindhu S"
 
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: /tmp/doc-l10n/cvs/gnome-utils-dictionary.HEAD/C/gnome-dictionary.xml:221(None)
-msgid "@@image: 'figures/gnome-dictionary-find.png'; md5=d8bf0677084e2d9998a7942faaab5379"
-msgstr "@@image: 'figures/gnome-dictionary-find.png'; md5=d8bf0677084e2d9998a7942faaab5379"
+#. (itstool) path: credit/years
+#: C/definition.page:13 C/definition.page:18 C/dictionary-select.page:13
+#: C/dictionary-select.page:18 C/find.page:12 C/find.page:17 C/index.page:13
+#: C/introduction.page:12 C/introduction.page:17 C/keyboard-shortcuts.page:13
+#: C/keyboard-shortcuts.page:18 C/print-font.page:13 C/print-font.page:18
+#: C/print.page:14 C/print.page:19 C/prob-retrieving-definition.page:13
+#: C/prob-retrieving-definition.page:18 C/save-definition.page:12
+#: C/save-definition.page:17 C/similar-words.page:13 C/similar-words.page:18
+#: C/source-add-local.page:13 C/sources-default.page:12
+#: C/sources-default.page:17 C/sources-delete.page:13 C/sources-delete.page:18
+#: C/sources-edit.page:12 C/sources-edit.page:17 C/sources.page:14
+#: C/sources.page:19 C/sources-select.page:14 C/sources-select.page:19
+#: C/text-copy.page:13 C/text-copy.page:18
+msgid "2013"
+msgstr "2013"
 
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: /tmp/doc-l10n/cvs/gnome-utils-dictionary.HEAD/C/gnome-dictionary.xml:262(None)
-msgid "@@image: 'figures/gnome-dictionary-preferences-source.png'; md5=5470b15e64e66924477f150c4f47e96d"
-msgstr "@@image: 'figures/gnome-dictionary-preferences-source.png'; md5=5470b15e64e66924477f150c4f47e96d"
+#. (itstool) path: credit/name
+#: C/definition.page:16 C/dictionary-select.page:16 C/find.page:15
+#: C/introduction.page:15 C/keyboard-shortcuts.page:16 C/print-font.page:16
+#: C/print.page:17 C/prob-retrieving-definition.page:16
+#: C/save-definition.page:15 C/similar-words.page:16 C/sources-default.page:15
+#: C/sources-delete.page:16 C/sources-edit.page:15 C/sources.page:17
+#: C/sources-select.page:17 C/text-copy.page:16
+msgid "Ekaterina Gerasimova"
+msgstr "Ekaterina Gerasimova"
 
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: /tmp/doc-l10n/cvs/gnome-utils-dictionary.HEAD/C/gnome-dictionary.xml:282(None)
-msgid "@@image: 'figures/gnome-dictionary-add-source.png'; md5=d059507fee77bb176fce53373951756b"
-msgstr "@@image: 'figures/gnome-dictionary-add-source.png'; md5=d059507fee77bb176fce53373951756b"
+#. (itstool) path: info/desc
+#: C/definition.page:23
+msgid "Find the definition of a word or term."
+msgstr "Hitta definitionen av ett ord eller en term."
 
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: /tmp/doc-l10n/cvs/gnome-utils-dictionary.HEAD/C/gnome-dictionary.xml:351(None)
-msgid "@@image: 'figures/gnome-dictionary-preferences-print.png'; md5=12a65f07cb333db4c7ba743d1d12a00f"
-msgstr "@@image: 'figures/gnome-dictionary-preferences-print.png'; md5=12a65f07cb333db4c7ba743d1d12a00f"
+#. (itstool) path: page/title
+#: C/definition.page:27
+msgid "Look up a word or term"
+msgstr "Slå upp ett ord eller en term"
 
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: /tmp/doc-l10n/cvs/gnome-utils-dictionary.HEAD/C/gnome-dictionary.xml:385(None)
-msgid "@@image: 'figures/gnome-dictionary-applet.png'; md5=538c7fa191540f99dd964963a1079677"
-msgstr "@@image: 'figures/gnome-dictionary-applet.png'; md5=538c7fa191540f99dd964963a1079677"
+#. (itstool) path: page/p
+#: C/definition.page:29
+msgid ""
+"You can use <app>Dictionary</app> to look up the meaning of a <em>term</em>. "
+"A term can be a single word such as <input>apple</input> or a compound word "
+"such as <input>chopping board</input>. The search result may also show you "
+"the origin, importance and usage of a word. To look up a term:"
+msgstr ""
+"Du kan använda <app>Ordbok</app> för att slå upp innebörden av en <em>term</"
+"em>. En term kan vara ett enstaka ord så som <input>äpple</input> eller ett "
+"sammansatt ord så som <input>skärbräda</input>. Sökresultatet kan också visa "
+"dig ursprunget, betydelsen och användningen av ett ord. För att slå upp en "
+"term:"
 
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: /tmp/doc-l10n/cvs/gnome-utils-dictionary.HEAD/C/gnome-dictionary.xml:421(None)
-msgid "@@image: 'figures/gnome-dictionary-applet-window.png'; md5=e26ac4847d2e7b53c6bba7d8e1a519c4"
-msgstr "@@image: 'figures/gnome-dictionary-applet-window.png'; md5=e26ac4847d2e7b53c6bba7d8e1a519c4"
+# sebras: https://bugzilla.gnome.org/show_bug.cgi?id=766412
+#. (itstool) path: item/p
+#: C/definition.page:37
+msgid ""
+"Type in the term that you want to search for next to <gui>Look up</gui>."
+msgstr "Skriv in termen som du vill söka efter intill <gui>Slå upp</gui>."
 
-#: /tmp/doc-l10n/cvs/gnome-utils-dictionary.HEAD/C/gnome-dictionary.xml:24(title)
-msgid "Dictionary Manual"
-msgstr "Handbok för Ordbok"
+# sebras: https://bugzilla.gnome.org/show_bug.cgi?id=766412
+#. (itstool) path: item/p
+#: C/definition.page:41
+msgid ""
+"Press <key>Return</key> or <gui style=\"button\">Look up:</gui> to search."
+msgstr ""
+"Tryck på <key>Retur</key> eller <gui style=\"button\">Slå upp:</gui> för att "
+"söka."
 
-#: /tmp/doc-l10n/cvs/gnome-utils-dictionary.HEAD/C/gnome-dictionary.xml:27(para)
-msgid "Dictionary enables you to look up definitions and correct spellings of words."
-msgstr "Ordbok ger dig möjligheten att slå upp definitioner och korrekta stavningar av ord."
+#. (itstool) path: page/p
+#: C/definition.page:46
+msgid ""
+"<app>Dictionary</app> will search your selected dictionary source and show "
+"you the result from the first dictionary in the source. To view results from "
+"the other dictionaries that are in the same source, select <link xref="
+"\"similar-words\"><guiseq><gui style=\"menu\">View</gui> <gui style="
+"\"menuitem\">Similar Words</gui></guiseq></link> to pop up a sidebar that "
+"shows all the results."
+msgstr ""
+"<app>Ordbok</app> kommer att söka genom din valda ordbokskälla och visa dig "
+"resultatet från den första ordboken i källan. För att visa resultat från de "
+"övriga ordböckerna i samma källa, välj <link xref=\"similar-words"
+"\"><guiseq><gui style=\"menu\">Visa</gui> <gui style=\"menuitem\">Liknande "
+"ord</gui></guiseq></link> för att visa en sidopanel som visar alla "
+"resultaten."
 
-#: /tmp/doc-l10n/cvs/gnome-utils-dictionary.HEAD/C/gnome-dictionary.xml:34(year)
-msgid "2005"
-msgstr "2005"
+#. (itstool) path: page/title
+#: C/dictionary-select.page:25
+msgid "Select a different dictionary"
+msgstr "Välj en annan ordbok"
 
-#: /tmp/doc-l10n/cvs/gnome-utils-dictionary.HEAD/C/gnome-dictionary.xml:35(holder)
-#: /tmp/doc-l10n/cvs/gnome-utils-dictionary.HEAD/C/gnome-dictionary.xml:82(para)
-msgid "Emmanuele Bassi"
-msgstr "Emmanuele Bassi"
+#. (itstool) path: page/p
+#: C/dictionary-select.page:27
+msgid ""
+"A single <link xref=\"sources\">dictionary source</link> may have many "
+"different dictionaries. You can search any of these dictionaries."
+msgstr ""
+"En enstaka <link xref=\"sources\">ordbokskälla</link> kan ha många olika "
+"ordböcker. Du kan genomsöka vilken som helst av dessa ordböcker."
 
-#: /tmp/doc-l10n/cvs/gnome-utils-dictionary.HEAD/C/gnome-dictionary.xml:48(publishername)
-#: /tmp/doc-l10n/cvs/gnome-utils-dictionary.HEAD/C/gnome-dictionary.xml:83(para)
-msgid "GNOME Documentation Project"
-msgstr "Dokumentationsprojekt för GNOME"
+#. (itstool) path: steps/title
+#: C/dictionary-select.page:32
+msgid "Select a dictionary"
+msgstr "Välj en ordbok"
 
-#: /tmp/doc-l10n/cvs/gnome-utils-dictionary.HEAD/C/gnome-dictionary.xml:2(para)
-msgid "Permission is granted to copy, distribute and/or modify this document under the terms of the GNU Free Documentation License (GFDL), Version 1.1 or any later version published by the Free Software Foundation with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts. You can find a copy of the GFDL at this <ulink type=\"help\" url=\"ghelp:fdl\">link</ulink> or in the file COPYING-DOCS distributed with this manual."
-msgstr "Tillstånd att kopiera, distribuera och/eller modifiera detta dokument ges under villkoren i GNU Free Documentation License (GFDL), version 1.1 eller senare, utgivet av Free Software Foundation utan standardavsnitt och omslagstexter.  En kopia av GFDL finns att hämta på denna <ulink type=\"help\" url=\"ghelp:fdl\">länk</ulink> eller i filen COPYING-DOCS som medföljer denna handbok."
+# sebras: https://bugzilla.gnome.org/show_bug.cgi?id=766413
+#. (itstool) path: item/p
+#: C/dictionary-select.page:34
+msgid ""
+"Select <guiseq><gui style=\"menu\">View</gui> <gui style=\"menuitem"
+"\">Available Databases</gui></guiseq>. A sidebar listing the available "
+"dictionaries for your currently selected dictionary source will open."
+msgstr ""
+"Välj <guiseq><gui style=\"menu\">Visa</gui> <gui style=\"menuitem"
+"\">Tillgängliga databaser</gui></guiseq>. En sidopanel öppnas som listar de "
+"tillgängliga ordböckerna för din valda ordbokskälla."
 
-#: /tmp/doc-l10n/cvs/gnome-utils-dictionary.HEAD/C/gnome-dictionary.xml:12(para)
-msgid "This manual is part of a collection of GNOME manuals distributed under the GFDL. If you want to distribute this manual separately from the collection, you can do so by adding a copy of the license to the manual, as described in section 6 of the license."
-msgstr "Denna handbok utgör en av flera GNOME-handböcker som distribueras under villkoren i GFDL.  Om du vill distribuera denna handbok separat från övriga handböcker kan du göra detta genom att lägga till en kopia av licensavtalet i handboken enligt instruktionerna i avsnitt 6 i licensavtalet."
+#. (itstool) path: item/p
+#: C/dictionary-select.page:40
+msgid "Click twice on the dictionary that you want to use."
+msgstr "Klicka två gånger på ordboken som du vill använda."
 
-#: /tmp/doc-l10n/cvs/gnome-utils-dictionary.HEAD/C/gnome-dictionary.xml:19(para)
-msgid "Many of the names used by companies to distinguish their products and services are claimed as trademarks. Where those names appear in any GNOME documentation, and the members of the GNOME Documentation Project are made aware of those trademarks, then the names are in capital letters or initial capital letters."
-msgstr "Flera namn på produkter och tjänster är registrerade varumärken. I de fall dessa namn förekommer i GNOME-dokumentation - och medlemmarna i GNOME-dokumentationsprojektet är medvetna om dessa varumärken - är de skrivna med versaler eller med inledande versal."
+#. (itstool) path: page/p
+#: C/dictionary-select.page:44
+msgid ""
+"The next term that you <link xref=\"definition\">look up</link> will show "
+"the result only from the selected dictionary."
+msgstr ""
+"Nästa term som du <link xref=\"definition\">slår upp</link> kommer att visa "
+"resultatet endast från den valda ordboken."
 
-#: /tmp/doc-l10n/cvs/gnome-utils-dictionary.HEAD/C/gnome-dictionary.xml:35(para)
-msgid "DOCUMENT IS PROVIDED ON AN \"AS IS\" BASIS, WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, WITHOUT LIMITATION, WARRANTIES THAT THE DOCUMENT OR MODIFIED VERSION OF THE DOCUMENT IS FREE OF DEFECTS MERCHANTABLE, FIT FOR A PARTICULAR PURPOSE OR NON-INFRINGING. THE ENTIRE RISK AS TO THE QUALITY, ACCURACY, AND PERFORMANCE OF THE DOCUMENT OR MODIFIED VERSION OF THE DOCUMENT IS WITH YOU. SHOULD ANY DOCUMENT OR MODIFIED VERSION PROVE DEFECTIVE IN ANY RESPECT, YOU (NOT THE INITIAL WRITER, AUTHOR OR ANY CONTRIBUTOR) ASSUME THE COST OF ANY NECESSARY SERVICING, REPAIR OR CORRECTION. THIS DISCLAIMER OF WARRANTY CONSTITUTES AN ESSENTIAL PART OF THIS LICENSE. NO USE OF ANY DOCUMENT OR MODIFIED VERSION OF THE DOCUMENT IS AUTHORIZED HEREUNDER EXCEPT UNDER THIS DISCLAIMER; AND"
-msgstr "DOKUMENTET TILLHANDAHÅLLS I \"BEFINTLIGT SKICK\" UTAN NÅGRA SOM HELST GARANTIER, VARE SIG UTTRYCKLIGA ELLER UNDERFÖRSTÅDDA, INKLUSIVE, MEN INTE BEGRÄNSAT TILL, GARANTIER ATT DOKUMENTET ELLER EN MODIFIERAD VERSION AV DOKUMENTET INTE INNEHÅLLER NÅGRA FELAKTIGHETER, ÄR LÄMPLIGT FÖR ETT VISST ÄNDAMÅL ELLER INTE STRIDER MOT LAG. HELA RISKEN VAD GÄLLER KVALITET, EXAKTHET OCH UTFÖRANDE AV DOKUMENTET OCH MODIFIERADE VERSIONER AV DOKUMENTET LIGGER HELT OCH HÅLLET PÅ ANVÄNDAREN. OM ETT DOKUMENT ELLER EN MODIFIERAD VERSION AV ETT DOKUMENT SKULLE VISA SIG INNEHÅLLA FELAKTIGHETER I NÅGOT HÄNSEENDE ÄR DET DU (INTE DEN URSPRUNGLIGA SKRIBENTEN, FÖRFATTAREN ELLER NÅGON ANNAN MEDARBETARE) SOM FÅR STÅ FÖR ALLA EVENTUELLA KOSTNADER FÖR SERVICE, REPARATIONER ELLER KORRIGERINGAR. DENNA GARANTIFRISKRIVNING UTGÖR EN VÄSENTLIG DEL AV DETTA LICENSAVTAL. DETTA INNEBÄR ATT ALL ANVÄNDNING AV ETT DOKUMENT ELLER EN MODIFIERAD VERSION AV ETT DOKUMENT BEVILJAS ENDAST UNDER DENNA ANSVARSFRISKRIVNING;"
+#. (itstool) path: note/p
+#: C/dictionary-select.page:48
+msgid ""
+"Your dictionary selection will not be remembered next time you use "
+"<app>Dictionary</app>."
+msgstr ""
+"Ditt ordboksval kommer inte att kommas ihåg nästa gång du använder "
+"<app>Ordbok</app>."
 
-#: /tmp/doc-l10n/cvs/gnome-utils-dictionary.HEAD/C/gnome-dictionary.xml:55(para)
-msgid "UNDER NO CIRCUMSTANCES AND UNDER NO LEGAL THEORY, WHETHER IN TORT (INCLUDING NEGLIGENCE), CONTRACT, OR OTHERWISE, SHALL THE AUTHOR, INITIAL WRITER, ANY CONTRIBUTOR, OR ANY DISTRIBUTOR OF THE DOCUMENT OR MODIFIED VERSION OF THE DOCUMENT, OR ANY SUPPLIER OF ANY OF SUCH PARTIES, BE LIABLE TO ANY PERSON FOR ANY DIRECT, INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES OF ANY CHARACTER INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOSS OF GOODWILL, WORK STOPPAGE, COMPUTER FAILURE OR MALFUNCTION, OR ANY AND ALL OTHER DAMAGES OR LOSSES ARISING OUT OF OR RELATING TO USE OF THE DOCUMENT AND MODIFIED VERSIONS OF THE DOCUMENT, EVEN IF SUCH PARTY SHALL HAVE BEEN INFORMED OF THE POSSIBILITY OF SUCH DAMAGES."
-msgstr "UNDER INGA OMSTÄNDIGHETER ELLER INOM RAMEN FÖR NÅGON LAGSTIFTNING, OAVSETT OM DET GÄLLER KRÄNKNING (INKLUSIVE VÅRDSLÖSHET), KONTRAKT ELLER DYLIKT, SKA FÖRFATTAREN, DEN URSPRUNGLIGA SKRIBENTEN ELLER ANNAN MEDARBETARE ELLER ÅTERFÖRSÄLJARE AV DOKUMENTET ELLER AV EN MODIFIERAD VERSION AV DOKUMENTET ELLER NÅGON LEVERANTÖR TILL NÅGON AV NÄMNDA PARTER STÄLLAS ANSVARIG GENTEMOT NÅGON FÖR NÅGRA DIREKTA, INDIREKTA, SÄRSKILDA ELLER OFÖRUTSEDDA SKADOR ELLER FÖLJDSKADOR AV NÅGOT SLAG, INKLUSIVE, MEN INTE BEGRÄNSAT TILL, SKADOR BETRÄFFANDE FÖRLORAD GOODWILL, HINDER I ARBETET, DATORHAVERI ELLER NÅGRA ANDRA TÄNKBARA SKADOR ELLER FÖRLUSTER SOM KAN UPPKOMMA PÅ GRUND AV ELLER RELATERAT TILL ANVÄNDNINGEN AV DOKUMENTET ELLER MODIFIERADE VERSIONER AV DOKUMENTET, ÄVEN OM PART SKA HA BLIVIT INFORMERAD OM MÖJLIGHETEN TILL SÅDANA SKADOR."
+#. (itstool) path: info/desc
+#: C/find.page:22
+msgid "Find text in a definition."
+msgstr "Hitta text i en definition."
 
-#: /tmp/doc-l10n/cvs/gnome-utils-dictionary.HEAD/C/gnome-dictionary.xml:28(para)
-msgid "DOCUMENT AND MODIFIED VERSIONS OF THE DOCUMENT ARE PROVIDED UNDER THE TERMS OF THE GNU FREE DOCUMENTATION LICENSE WITH THE FURTHER UNDERSTANDING THAT: <placeholder-1/>"
-msgstr "DOKUMENTET OCH MODIFIERADE VERSIONER AV DOKUMENTET TILLHANDAHÅLLS UNDER VILLKOREN I GNU FREE DOCUMENTATION LICENSE ENDAST UNDER FÖLJANDE FÖRUTSÄTTNINGAR: <placeholder-1/>"
+#. (itstool) path: page/title
+#. (itstool) path: td/p
+#: C/find.page:26 C/keyboard-shortcuts.page:74
+msgid "Search within a definition"
+msgstr "Sök inom en definition"
 
-#: /tmp/doc-l10n/cvs/gnome-utils-dictionary.HEAD/C/gnome-dictionary.xml:55(firstname)
-msgid "Emmanuele"
-msgstr "Emmanuele"
+#. (itstool) path: page/p
+#: C/find.page:28
+msgid ""
+"Some dictionary entries can be very long and can contain many results, so "
+"you may wish to search them to find the section that is relevant to you."
+msgstr ""
+"Vissa ordboksposter kan vara mycket långa och kan innehålla många resultat, "
+"så du kan komma att vilja söka i dem för att hitta avsnittet som är relevant "
+"för dig."
 
-#: /tmp/doc-l10n/cvs/gnome-utils-dictionary.HEAD/C/gnome-dictionary.xml:56(surname)
-msgid "Bassi"
-msgstr "Bassi"
+#. (itstool) path: steps/title
+#: C/find.page:32
+msgid "To find definitions:"
+msgstr "För att hitta definitioner:"
 
-#: /tmp/doc-l10n/cvs/gnome-utils-dictionary.HEAD/C/gnome-dictionary.xml:58(email)
-msgid "ebassi@gmail.com"
-msgstr "ebassi@gmail.com"
+#. (itstool) path: item/p
+#: C/find.page:34
+msgid ""
+"Select <guiseq><gui style=\"menu\">Edit</gui> <gui style=\"menuitem\">Find</"
+"gui></guiseq>."
+msgstr ""
+"Välj <guiseq><gui style=\"menu\">Redigera</gui> <gui style=\"menuitem\">Sök</"
+"gui></guiseq>."
 
-#: /tmp/doc-l10n/cvs/gnome-utils-dictionary.HEAD/C/gnome-dictionary.xml:79(revnumber)
-msgid "Dictionary Manual V1.0.0"
-msgstr "Handbok för Ordbok v1.0.0"
+#. (itstool) path: item/p
+#: C/find.page:38
+msgid ""
+"The <gui>Find</gui> bar will appear at the bottom of the <app>Dictionary</"
+"app> window. Type in your search term to search within the definition that "
+"is currently displayed."
+msgstr ""
+"<gui>Sök</gui>-fältet kommer att visas längst ner i fönstret <app>Ordbok</"
+"app>. Skriv in din sökterm för att söka inom definitionen som visas för "
+"närvarande."
 
-#: /tmp/doc-l10n/cvs/gnome-utils-dictionary.HEAD/C/gnome-dictionary.xml:80(date)
-msgid "January 2005"
-msgstr "Januari 2005"
+#. (itstool) path: item/p
+#: C/find.page:43
+msgid ""
+"Click <gui style=\"button\">Previous</gui> or <gui style=\"button\">Next</"
+"gui> to scroll through the results. The search will not wrap around: in "
+"other words, it will not go to the top of the page when you are on the last "
+"result and click <gui style=\"button\">Next</gui>."
+msgstr ""
+"Klicka på <gui style=\"button\">Föregående</gui> eller <gui style=\"button"
+"\">Nästa</gui> för att rulla genom resultaten. Sökningen kommer inte att gå "
+"tillbaka till början: det vill säga den kommer inte att gå till toppen av "
+"sidan när du är på det sista resultatet och klickar på <gui style=\"button"
+"\">Nästa</gui>."
 
-#: /tmp/doc-l10n/cvs/gnome-utils-dictionary.HEAD/C/gnome-dictionary.xml:88(releaseinfo)
-msgid "This manual describes version 2.14.0 of Dictionary."
-msgstr "Denna handbok beskriver version 2.14.0 av Ordbok."
-
-#: /tmp/doc-l10n/cvs/gnome-utils-dictionary.HEAD/C/gnome-dictionary.xml:90(title)
-msgid "Feedback"
-msgstr "Återkoppling"
-
-#: /tmp/doc-l10n/cvs/gnome-utils-dictionary.HEAD/C/gnome-dictionary.xml:91(para)
-msgid "To report a bug or make a suggestion regarding the Dictionary application or this manual, follow the directions in the <ulink url=\"ghelp:gnome-feedback\" type=\"help\">GNOME Feedback Page</ulink>."
-msgstr "För att rapportera ett fel eller komma med ett förslag angående programmet Ordbok eller denna handbok, följ instruktionerna på <ulink url=\"ghelp:gnome-feedback\" type=\"help\">GNOME:s återkopplingssida</ulink>."
-
-#: /tmp/doc-l10n/cvs/gnome-utils-dictionary.HEAD/C/gnome-dictionary.xml:101(primary)
+#. (itstool) path: info/title
+#: C/index.page:8
+msgctxt "text"
 msgid "Dictionary"
 msgstr "Ordbok"
 
-#: /tmp/doc-l10n/cvs/gnome-utils-dictionary.HEAD/C/gnome-dictionary.xml:107(title)
-msgid "Introduction"
-msgstr "Introduktion"
+#. (itstool) path: info/desc
+#: C/index.page:18
+msgid "Look up word definitions in <app>Dictionary</app>."
+msgstr "Slå upp definitioner av ord i <app>Ordbok</app>."
 
-#: /tmp/doc-l10n/cvs/gnome-utils-dictionary.HEAD/C/gnome-dictionary.xml:109(para)
-msgid "The <application>Dictionary</application> application enables you to search words and terms on a dictionary source."
-msgstr "Programmet <application>Ordbok</application> låter dig söka efter ord och termer i en ordbokskälla."
+#. (itstool) path: page/title
+#: C/index.page:21
+msgid "<_:media-1/> Dictionary Help"
+msgstr "<_:media-1/> Handbok för Ordbok"
 
-#: /tmp/doc-l10n/cvs/gnome-utils-dictionary.HEAD/C/gnome-dictionary.xml:116(title)
-msgid "Getting Started"
-msgstr "Komma igång"
+#. (itstool) path: section/title
+#: C/index.page:26
+msgid "Features"
+msgstr "Funktioner"
 
-#: /tmp/doc-l10n/cvs/gnome-utils-dictionary.HEAD/C/gnome-dictionary.xml:120(title)
-msgid "To Start Dictionary"
-msgstr "För att starta Ordbok"
-
-#: /tmp/doc-l10n/cvs/gnome-utils-dictionary.HEAD/C/gnome-dictionary.xml:122(para)
-msgid "You can start <application>Dictionary</application> in the following ways:"
-msgstr "Du kan starta <application>Ordbok</application> på följande sätt:"
-
-#: /tmp/doc-l10n/cvs/gnome-utils-dictionary.HEAD/C/gnome-dictionary.xml:127(term)
-msgid "<guimenu>Applications</guimenu> menu"
-msgstr "Menyn <guimenu>Program</guimenu>"
-
-#: /tmp/doc-l10n/cvs/gnome-utils-dictionary.HEAD/C/gnome-dictionary.xml:129(para)
-msgid "Choose <menuchoice><guisubmenu>Accessories</guisubmenu><guimenuitem>Dictionary</guimenuitem></menuchoice>."
-msgstr "Välj <menuchoice><guisubmenu>Tillbehör</guisubmenu><guimenuitem>Ordbok</guimenuitem></menuchoice>."
-
-#: /tmp/doc-l10n/cvs/gnome-utils-dictionary.HEAD/C/gnome-dictionary.xml:135(term)
-msgid "Command line"
-msgstr "Kommandorad"
-
-#: /tmp/doc-l10n/cvs/gnome-utils-dictionary.HEAD/C/gnome-dictionary.xml:137(para)
-msgid "Execute the following command: <command>gnome-dictionary</command>"
-msgstr "Kör följande kommando: <command>gnome-dictionary</command>"
-
-#: /tmp/doc-l10n/cvs/gnome-utils-dictionary.HEAD/C/gnome-dictionary.xml:142(para)
-msgid "Once started, the <application>Dictionary</application> window is displayed:"
-msgstr "När <application>Ordbok</application> har startats kommer följande fönster att visas:"
-
-#: /tmp/doc-l10n/cvs/gnome-utils-dictionary.HEAD/C/gnome-dictionary.xml:146(title)
-#: /tmp/doc-l10n/cvs/gnome-utils-dictionary.HEAD/C/gnome-dictionary.xml:175(title)
-#: /tmp/doc-l10n/cvs/gnome-utils-dictionary.HEAD/C/gnome-dictionary.xml:217(title)
-#: /tmp/doc-l10n/cvs/gnome-utils-dictionary.HEAD/C/gnome-dictionary.xml:258(title)
-#: /tmp/doc-l10n/cvs/gnome-utils-dictionary.HEAD/C/gnome-dictionary.xml:278(title)
-#: /tmp/doc-l10n/cvs/gnome-utils-dictionary.HEAD/C/gnome-dictionary.xml:347(title)
-msgid "Dictionary Window"
-msgstr "Ordboksfönstret"
-
-#: /tmp/doc-l10n/cvs/gnome-utils-dictionary.HEAD/C/gnome-dictionary.xml:152(phrase)
-msgid "Shows Dictionary main window."
-msgstr "Visar huvudfönstret i Ordbok."
-
-#: /tmp/doc-l10n/cvs/gnome-utils-dictionary.HEAD/C/gnome-dictionary.xml:163(title)
-msgid "Usage"
-msgstr "Användning"
-
-#: /tmp/doc-l10n/cvs/gnome-utils-dictionary.HEAD/C/gnome-dictionary.xml:166(title)
-msgid "Looking up a word"
-msgstr "Slå upp ett ord"
-
-#: /tmp/doc-l10n/cvs/gnome-utils-dictionary.HEAD/C/gnome-dictionary.xml:168(para)
-msgid "To look up a word, type it into the <guilabel>entry field</guilabel> and press <keycap>Enter</keycap>."
-msgstr "För att slå upp ett ord, skriv in det i <guilabel>inmatningsfältet</guilabel> och tryck på <keycap>Enter</keycap>."
-
-#: /tmp/doc-l10n/cvs/gnome-utils-dictionary.HEAD/C/gnome-dictionary.xml:171(para)
-msgid "If some definition for the word is found, it will appear inside the main window area:"
-msgstr "Om någon definition för ordet hittas kommer det att visas i huvudfönstret:"
-
-#: /tmp/doc-l10n/cvs/gnome-utils-dictionary.HEAD/C/gnome-dictionary.xml:181(phrase)
-msgid "Shows a definition inside the Dictionary main window."
-msgstr "Visar en definition inne i Ordboks huvudfönster."
-
-#: /tmp/doc-l10n/cvs/gnome-utils-dictionary.HEAD/C/gnome-dictionary.xml:186(para)
-msgid "Otherwise, an error dialog will appear, with a message explaining the nature of the error."
-msgstr "Om inte kommer en feldialogruta att visas med ett meddelande som förklarar problemet."
-
-#: /tmp/doc-l10n/cvs/gnome-utils-dictionary.HEAD/C/gnome-dictionary.xml:192(title)
-msgid "Save look up results"
-msgstr "Spara uppslagsresultat"
-
-#: /tmp/doc-l10n/cvs/gnome-utils-dictionary.HEAD/C/gnome-dictionary.xml:194(para)
-msgid "To save the results of a look up, choose <menuchoice><guimenu>File</guimenu><guimenuitem>Save a Copy</guimenuitem></menuchoice>. Enter a name for the file in the <guilabel>Save a Copy</guilabel> dialog, then click <guibutton>Save</guibutton>."
-msgstr "För att spara resultatet för ett uppslag, välj <menuchoice><guimenu>Arkiv</guimenu><guimenuitem>Spara en kopia</guimenuitem></menuchoice>. Ange ett filnamn i dialogrutan <guilabel>Spara en kopia</guilabel>, klicka sedan på <guibutton>Spara</guibutton>."
-
-#: /tmp/doc-l10n/cvs/gnome-utils-dictionary.HEAD/C/gnome-dictionary.xml:199(title)
-msgid "Print look up results"
-msgstr "Skriv ut uppslagsresultat"
-
-#: /tmp/doc-l10n/cvs/gnome-utils-dictionary.HEAD/C/gnome-dictionary.xml:201(para)
-msgid "To print the results of a look up, choose <menuchoice><guimenu>File</guimenu><guimenuitem>Print</guimenuitem></menuchoice>."
-msgstr "För att skriva ut resultatet för en uppslaning, välj <menuchoice><guimenu>Arkiv</guimenu><guimenuitem>Skriv ut</guimenuitem></menuchoice>."
-
-#: /tmp/doc-l10n/cvs/gnome-utils-dictionary.HEAD/C/gnome-dictionary.xml:203(para)
-msgid "Inside the <guilabel>Print</guilabel> dialog you can select the printer to use, the paper format, the number of copies."
-msgstr "I dialogrutan <guilabel>Skriv ut</guilabel> kan du välja vilken skrivare som ska användas, pappersformatet, antalet kopior."
-
-#: /tmp/doc-l10n/cvs/gnome-utils-dictionary.HEAD/C/gnome-dictionary.xml:206(para)
-msgid "To see a preview of what will be printed, click <guibutton>Preview</guibutton>."
-msgstr "För att få en förhandsvisning av vad som kommer att skrivas ut, klicka på <guibutton>Förhandsgranska</guibutton>."
-
-#: /tmp/doc-l10n/cvs/gnome-utils-dictionary.HEAD/C/gnome-dictionary.xml:209(para)
-msgid "To print, click <guibutton>Print</guibutton>."
-msgstr "För att skriva ut, klicka på <guibutton>Skriv ut</guibutton>."
-
-#: /tmp/doc-l10n/cvs/gnome-utils-dictionary.HEAD/C/gnome-dictionary.xml:214(title)
-msgid "Find Text"
-msgstr "Sök text"
-
-#: /tmp/doc-l10n/cvs/gnome-utils-dictionary.HEAD/C/gnome-dictionary.xml:223(phrase)
-msgid "Shows the Dictionary Find pane inside the main window."
-msgstr "Visar Ordboks Sök-panel inne i huvudfönstret."
-
-#: /tmp/doc-l10n/cvs/gnome-utils-dictionary.HEAD/C/gnome-dictionary.xml:229(para)
-msgid "To find text inside the results of a look up, perform the following steps:"
-msgstr "Genomför följande steg för att söka text inne i resultatet för en uppslagning:"
-
-#: /tmp/doc-l10n/cvs/gnome-utils-dictionary.HEAD/C/gnome-dictionary.xml:233(para)
-msgid "Choose <menuchoice><guimenu>Edit</guimenu><guimenuitem>Find</guimenuitem></menuchoice> to display the <guilabel>Find</guilabel> pane."
-msgstr "Välj <menuchoice><guimenu>Redigera</guimenu><guimenuitem>Sök</guimenuitem></menuchoice> för att visa <guilabel>Sök</guilabel>-panelen."
-
-#: /tmp/doc-l10n/cvs/gnome-utils-dictionary.HEAD/C/gnome-dictionary.xml:235(para)
-msgid "Type the text you want to find inside the <guilabel>Search</guilabel> entry."
-msgstr "Skriv in texten som du vill söka efter i inmatningsfältet <guilabel>Sök</guilabel>."
-
-#: /tmp/doc-l10n/cvs/gnome-utils-dictionary.HEAD/C/gnome-dictionary.xml:237(para)
-msgid "To find the next occurrence of the text, click <guibutton>Next</guibutton>. To find the previous occurrence of the text, click <guibutton>Previous</guibutton>."
-msgstr "För att söka nästa förekomst av texten, klicka på <guibutton>Nästa</guibutton>. För att söka föregående förekomst av texten, klicka på <guibutton>Föregående</guibutton>."
-
-#: /tmp/doc-l10n/cvs/gnome-utils-dictionary.HEAD/C/gnome-dictionary.xml:248(title)
-#: /tmp/doc-l10n/cvs/gnome-utils-dictionary.HEAD/C/gnome-dictionary.xml:438(title)
+#. (itstool) path: section/title
+#: C/index.page:30
 msgid "Preferences"
 msgstr "Inställningar"
 
-#: /tmp/doc-l10n/cvs/gnome-utils-dictionary.HEAD/C/gnome-dictionary.xml:250(para)
-msgid "To change the <application>Dictionary</application> application preferences, choose <menuchoice><guimenu>Edit</guimenu><guimenuitem>Preferences</guimenuitem></menuchoice>."
-msgstr "För att ändra inställningarna för programmet <application>Ordbok</application>, välj <menuchoice><guimenu>Redigera</guimenu><guimenuitem>Inställningar</guimenuitem></menuchoice>."
+#. (itstool) path: section/title
+#: C/index.page:34
+msgid "Common problems and solutions"
+msgstr "Vanliga problem och lösningar"
 
-#: /tmp/doc-l10n/cvs/gnome-utils-dictionary.HEAD/C/gnome-dictionary.xml:255(title)
-msgid "Dictionary Sources"
+#. (itstool) path: media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/introduction.page:38
+msgctxt "_"
+msgid ""
+"external ref='figures/gnome-dictionary.png' "
+"md5='80df283344ecd9b03b88309f8ee9912d'"
+msgstr ""
+"external ref='figures/gnome-dictionary.png' "
+"md5='80df283344ecd9b03b88309f8ee9912d'"
+
+#. (itstool) path: info/desc
+#: C/introduction.page:22
+msgid "What is <app>Dictionary</app>?"
+msgstr "Vad är <app>Ordbok</app>?"
+
+#. (itstool) path: page/title
+#: C/introduction.page:26
+msgid "Introduction"
+msgstr "Introduktion"
+
+#. (itstool) path: page/p
+#: C/introduction.page:28
+msgid ""
+"<app>Dictionary</app> is an application for looking up term definitions. It "
+"searches for definitions using an online <app>DICT</app> server. The default "
+"<app>DICT</app> server is at <sys href=\"http://dict.org\">http://dict.org</"
+"sys>."
+msgstr ""
+"<app>Ordbok</app> är ett program för att slå upp definitioner av termer. Det "
+"söker genom definitioner via en <app>DICT</app>-server på nätet. <app>DICT</"
+"app>-servern är som standard <sys href=\"http://dict.org\">http://dict.org</"
+"sys>."
+
+#. (itstool) path: page/p
+#: C/introduction.page:33
+msgid ""
+"Start using <app>Dictionary</app> by <link xref=\"definition\">looking up a "
+"definition</link>!"
+msgstr ""
+"Börja använda <app>Ordbok</app> genom att <link xref=\"definition\">slå upp "
+"en definition</link>!"
+
+#. (itstool) path: figure/title
+#: C/introduction.page:37
+msgid "Dictionary"
+msgstr "Ordbok"
+
+#. (itstool) path: media/p
+#: C/introduction.page:39
+msgid "Screenshot showing the <app>Dictionary</app> main window."
+msgstr "Skärmbild som visar huvudfönstret för <app>Ordbok</app>."
+
+#. (itstool) path: info/desc
+#: C/keyboard-shortcuts.page:23
+msgid ""
+"You can use keyboard shortcuts to navigate around <app>Dictionary</app> more "
+"efficiently."
+msgstr ""
+"Du kan använda tangentbordsgenvägar för att effektivt navigera runt i "
+"<app>Ordbok</app>."
+
+#. (itstool) path: page/title
+#: C/keyboard-shortcuts.page:27
+msgid "Keyboard shortcuts"
+msgstr "Tangentbordsgenvägar"
+
+#. (itstool) path: page/p
+#: C/keyboard-shortcuts.page:29
+msgid ""
+"Keyboard shortcuts are combinations of keys that you can use instead of "
+"navigating through the menu. The following shortcuts are available:"
+msgstr ""
+"Tangentbordsgenvägar är kombinationer av tangenter som du kan använda "
+"istället för att navigera runt i menyn. Följande genvägar är tillgängliga:"
+
+#. (itstool) path: table/title
+#: C/keyboard-shortcuts.page:33
+msgid "Navigate around <app>Dictionary</app>"
+msgstr "Navigera runt i <app>Ordbok</app>"
+
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:36 C/keyboard-shortcuts.page:68
+#: C/keyboard-shortcuts.page:92 C/keyboard-shortcuts.page:120
+msgid "Action"
+msgstr "Åtgärd"
+
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:37 C/keyboard-shortcuts.page:69
+#: C/keyboard-shortcuts.page:93 C/keyboard-shortcuts.page:121
+msgid "Shortcut"
+msgstr "Genväg"
+
+#. (itstool) path: td/p
+#. (itstool) path: section/title
+#: C/keyboard-shortcuts.page:42 C/print.page:36
+msgid "Print preview"
+msgstr "Förhandsgranskning"
+
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:43
+msgid "<keyseq><key>Shift</key><key>Ctrl</key><key>P</key></keyseq>"
+msgstr "<keyseq><key>Skift</key><key>Ctrl</key><key>P</key></keyseq>"
+
+#. (itstool) path: td/p
+#. (itstool) path: section/title
+#: C/keyboard-shortcuts.page:46 C/print.page:67
+msgid "Print"
+msgstr "Skriv ut"
+
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:47
+msgid "<keyseq><key>Ctrl</key><key>P</key></keyseq>"
+msgstr "<keyseq><key>Ctrl</key><key>P</key></keyseq>"
+
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:50
+msgid "View sidebar"
+msgstr "Visa sidopanel"
+
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:51
+msgid "<key>F9</key>"
+msgstr "<key>F9</key>"
+
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:54
+msgid "Open a new <app>Dictionary</app> window"
+msgstr "Öppna ett nytt fönster för <app>Ordbok</app>"
+
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:55
+msgid "<keyseq><key>Ctrl</key><key>N</key></keyseq>"
+msgstr "<keyseq><key>Ctrl</key><key>N</key></keyseq>"
+
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:58
+msgid "Close current <app>Dictionary</app> window"
+msgstr "Stäng aktuellt fönster för <app>Ordbok</app>"
+
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:59
+msgid "<keyseq><key>Ctrl</key><key>W</key></keyseq>"
+msgstr "<keyseq><key>Ctrl</key><key>W</key></keyseq>"
+
+#. (itstool) path: table/title
+#: C/keyboard-shortcuts.page:65
+msgid "Search shortcuts"
+msgstr "Sökgenvägar"
+
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:75
+msgid "<key>/</key> or <keyseq><key>Ctrl</key><key>F</key></keyseq>"
+msgstr "<key>/</key> or <keyseq><key>Ctrl</key><key>F</key></keyseq>"
+
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:78
+msgid "Find next"
+msgstr "Sök nästa"
+
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:79
+msgid "<keyseq><key>Ctrl</key><key>G</key></keyseq>"
+msgstr "<keyseq><key>Ctrl</key><key>G</key></keyseq>"
+
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:82
+msgid "Find previous"
+msgstr "Hitta föregående"
+
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:83
+msgid "<keyseq><key>Shift</key><key>Ctrl</key><key>G</key></keyseq>"
+msgstr "<keyseq><key>Skift</key><key>Ctrl</key><key>G</key></keyseq>"
+
+#. (itstool) path: table/title
+#: C/keyboard-shortcuts.page:89
+msgid "Navigate within a definition"
+msgstr "Navigera inom en definition"
+
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:98
+msgid "Previous definition"
+msgstr "Föregående definition"
+
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:99
+msgid "<keyseq><key>Ctrl</key><key>Page Up</key></keyseq>"
+msgstr "<keyseq><key>Ctrl</key><key>Page Up</key></keyseq>"
+
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:102
+msgid "Next definition"
+msgstr "Nästa definition"
+
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:103
+msgid "<keyseq><key>Ctrl</key><key>Page Down</key></keyseq>"
+msgstr "<keyseq><key>Ctrl</key><key>Page Down</key></keyseq>"
+
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:106
+msgid "First definition"
+msgstr "Första definitionen"
+
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:107
+msgid "<keyseq><key>Ctrl</key><key>Home</key></keyseq>"
+msgstr "<keyseq><key>Ctrl</key><key>Home</key></keyseq>"
+
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:110
+msgid "Last definition"
+msgstr "Sista definitionen"
+
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:111
+msgid "<keyseq><key>Ctrl</key><key>End</key></keyseq>"
+msgstr "<keyseq><key>Ctrl</key><key>End</key></keyseq>"
+
+#. (itstool) path: table/title
+#: C/keyboard-shortcuts.page:117
+msgid "<app>Dictionary</app> definitions shortcuts:"
+msgstr "Definitionsgenvägar i <app>Ordbok</app>:"
+
+#. (itstool) path: td/p
+#. (itstool) path: page/title
+#: C/keyboard-shortcuts.page:126 C/similar-words.page:27
+msgid "Similar words"
+msgstr "Liknande ord"
+
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:127
+msgid "<keyseq><key>Ctrl</key><key>T</key></keyseq>"
+msgstr "<keyseq><key>Ctrl</key><key>T</key></keyseq>"
+
+#. (itstool) path: td/p
+#. (itstool) path: page/title
+#: C/keyboard-shortcuts.page:130 C/sources.page:28
+msgid "Dictionary sources"
 msgstr "Ordbokskällor"
 
-#: /tmp/doc-l10n/cvs/gnome-utils-dictionary.HEAD/C/gnome-dictionary.xml:264(phrase)
-msgid "Shows the Source tab of the Preferences dialog."
-msgstr "Visar fliken Källa i inställningsdialogrutan."
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:131
+msgid "<keyseq><key>Ctrl</key><key>D</key></keyseq>"
+msgstr "<keyseq><key>Ctrl</key><key>D</key></keyseq>"
 
-#: /tmp/doc-l10n/cvs/gnome-utils-dictionary.HEAD/C/gnome-dictionary.xml:269(para)
-msgid "To change the dictionary source used to look up words, select the desired source from the list."
-msgstr "För att ändra ordbokskällan som används för att slå upp ord, markera den önskade källan från listan."
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:134
+msgid "Available databases"
+msgstr "Tillgängliga databaser"
 
-#: /tmp/doc-l10n/cvs/gnome-utils-dictionary.HEAD/C/gnome-dictionary.xml:275(title)
-msgid "Adding a new source"
-msgstr "Lägg till en ny källa"
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:135
+msgid "<keyseq><key>Ctrl</key><key>B</key></keyseq>"
+msgstr "<keyseq><key>Ctrl</key><key>B</key></keyseq>"
 
-#: /tmp/doc-l10n/cvs/gnome-utils-dictionary.HEAD/C/gnome-dictionary.xml:284(phrase)
-msgid "Shows the Add Source dialog."
-msgstr "Visar Lägg till källa-dialogrutan."
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:138
+msgid "Available strategies"
+msgstr "Tillgängliga strategier"
 
-#: /tmp/doc-l10n/cvs/gnome-utils-dictionary.HEAD/C/gnome-dictionary.xml:289(para)
-msgid "To add a new dictionary source, perform the following steps:"
-msgstr "Genomför följande steg för att lägga till en ny ordbokskälla:"
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:139
+msgid "<keyseq><key>Ctrl</key><key>R</key></keyseq>"
+msgstr "<keyseq><key>Ctrl</key><key>R</key></keyseq>"
 
-#: /tmp/doc-l10n/cvs/gnome-utils-dictionary.HEAD/C/gnome-dictionary.xml:292(para)
-msgid "Click on the <guibutton>Add</guibutton> button"
-msgstr "Klicka på knappen <guibutton>Lägg till</guibutton>"
+#. (itstool) path: p/link
+#: C/legal.xml:3
+msgid "http://creativecommons.org/licenses/by-sa/3.0/"
+msgstr "http://creativecommons.org/licenses/by-sa/3.0/"
 
-#: /tmp/doc-l10n/cvs/gnome-utils-dictionary.HEAD/C/gnome-dictionary.xml:293(para)
-msgid "Edit the name of the new source inside the <guilabel>Description</guilabel> entry"
-msgstr "Redigera namnet för den nya källan i inmatningsfältet <guilabel>Beskrivning</guilabel>"
+#. (itstool) path: license/p
+#: C/legal.xml:3
+msgid ""
+"This work is licensed under the Creative Commons Attribution-ShareAlike 3.0 "
+"Unported License. To view a copy of this license, visit <_:link-1/> or send "
+"a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, "
+"California, 94041, USA."
+msgstr ""
+"Detta verk är licensierat under licensen Create Commons Erkännande-DelaLika "
+"3.0 Unported. För att läsa en kopia av denna licens, besök <_:link-1/> eller "
+"skicka ett brev till Creative Commons, 444 Castro Street, Suite 900, "
+"Mountain View, California, 94041, USA."
 
-#: /tmp/doc-l10n/cvs/gnome-utils-dictionary.HEAD/C/gnome-dictionary.xml:294(para)
-msgid "Change the transport type of the new source using the <guilabel>Transport</guilabel> combo box"
-msgstr "Ändra transporttypen för den nya källan med kombinationsrutan <guilabel>Transport</guilabel>"
+#. (itstool) path: info/desc
+#: C/pref.page:15
+msgid "Manage your preferences."
+msgstr "Hantera dina inställningar."
 
-#: /tmp/doc-l10n/cvs/gnome-utils-dictionary.HEAD/C/gnome-dictionary.xml:295(para)
-msgid "Edit the attributes of the new source"
-msgstr "Redigera attributen för den nya källan"
+#. (itstool) path: page/title
+#: C/pref.page:18
+msgid "<app>Dictionary</app> preferences"
+msgstr "Inställningar för <app>Ordbok</app>"
 
-#: /tmp/doc-l10n/cvs/gnome-utils-dictionary.HEAD/C/gnome-dictionary.xml:296(para)
-msgid "Click <guibutton>Add</guibutton>"
-msgstr "Klicka på <guibutton>Lägg till</guibutton>"
+#. (itstool) path: info/desc
+#: C/print-font.page:23
+msgid "Select the font for printing definitions."
+msgstr "Välj typsnittet för utskrift av definitioner."
 
-#: /tmp/doc-l10n/cvs/gnome-utils-dictionary.HEAD/C/gnome-dictionary.xml:299(para)
-msgid "Different source transport types uses different attributes. This is the list of available attributes per transport type:"
-msgstr "Olika källtransporttyper använder olika attribut. Här är listan över tillgängliga attribut per transporttyp:"
+#. (itstool) path: page/title
+#: C/print-font.page:27
+msgid "Print font"
+msgstr "Utskriftstypsnitt"
 
-#: /tmp/doc-l10n/cvs/gnome-utils-dictionary.HEAD/C/gnome-dictionary.xml:306(para)
-msgid "Transport"
-msgstr "Transport"
+#. (itstool) path: page/p
+#: C/print-font.page:29
+msgid ""
+"You can change the default font face and size that are used for printing the "
+"definitions."
+msgstr ""
+"Du kan ändra standardtypsnitt och storlek som används för att skriva ut "
+"definitioner."
 
-#: /tmp/doc-l10n/cvs/gnome-utils-dictionary.HEAD/C/gnome-dictionary.xml:307(para)
-msgid "Attributes"
-msgstr "Attribut"
+#. (itstool) path: steps/title
+#: C/print-font.page:33
+msgid "Change the font"
+msgstr "Ändra typsnittet"
 
-#: /tmp/doc-l10n/cvs/gnome-utils-dictionary.HEAD/C/gnome-dictionary.xml:312(para)
-msgid "Dictionary Server"
-msgstr "Ordboksserver"
+#. (itstool) path: item/p
+#: C/print-font.page:35
+msgid ""
+"Select <guiseq><gui style=\"menu\">Dictionary</gui> <gui style=\"menuitem"
+"\">Preferences</gui> <gui style=\"tab\">Print</gui></guiseq>."
+msgstr ""
+"Välj <guiseq><gui style=\"menu\">Ordbok</gui> <gui style=\"menuitem"
+"\">Inställningar</gui> <gui style=\"tab\">Skriv ut</gui></guiseq>."
 
-#: /tmp/doc-l10n/cvs/gnome-utils-dictionary.HEAD/C/gnome-dictionary.xml:314(para)
-msgid "Hostname: the hostname of the dictionary server"
-msgstr "Värdnamn: värdnamnet på ordboksservern"
+#. (itstool) path: item/p
+#: C/print-font.page:40
+msgid "Click font selector button."
+msgstr "Klicka på knappen för typsnittsväljaren."
 
-#: /tmp/doc-l10n/cvs/gnome-utils-dictionary.HEAD/C/gnome-dictionary.xml:315(para)
-msgid "Port: the port of the dictionary server"
-msgstr "Port: porten på ordboksservern"
+#. (itstool) path: item/p
+#: C/print-font.page:43
+msgid "Select the font that you wish to use."
+msgstr "Välj typsnittet du önskar använda."
 
-#: /tmp/doc-l10n/cvs/gnome-utils-dictionary.HEAD/C/gnome-dictionary.xml:326(title)
-msgid "Removing a source"
-msgstr "Ta bort en källa"
+#. (itstool) path: item/p
+#: C/print-font.page:46
+msgid ""
+"Drag the slider to the right to increase the font size or left to decrease "
+"it. Alternatively, you can type in the font size in the text box, or use the "
+"<gui>-</gui> and <gui>+</gui> buttons to decrease and increase the font size."
+msgstr ""
+"Dra skjutreglaget åt höger för att öka typsnittsstorleken eller åt vänster "
+"för att minska den. Alternativ kan du skriva in typsnittsstorleken i "
+"textrutan eller använda knapparna <gui>-</gui> och <gui>+</gui> för att "
+"minska och öka typsnittsstorleken."
 
-#: /tmp/doc-l10n/cvs/gnome-utils-dictionary.HEAD/C/gnome-dictionary.xml:328(para)
-msgid "To remove a dictionary source, perform the following steps:"
-msgstr "Genomför följande steg för att ta bort en ordbokskälla:"
+#. (itstool) path: item/p
+#: C/print-font.page:52
+msgid "Click <gui style=\"button\">Select</gui> to save your font settings."
+msgstr ""
+"Klicka på <gui style=\"button\">Välj</gui> för att spara dina "
+"typsnittsinställningar."
 
-#: /tmp/doc-l10n/cvs/gnome-utils-dictionary.HEAD/C/gnome-dictionary.xml:331(para)
-msgid "Select the source you wish to remove"
-msgstr "Välj den källa som du önskar ta bort"
+#. (itstool) path: page/p
+#: C/print-font.page:56
+msgid ""
+"The definition is not reflowed for printing, so if you choose a large font "
+"size, some of the text may be cut off."
+msgstr ""
+"Definitionen flödar inte om för utskrift, så om du väljer en stor "
+"typsnittsstorlek kan viss text bli bortklippt."
 
-#: /tmp/doc-l10n/cvs/gnome-utils-dictionary.HEAD/C/gnome-dictionary.xml:332(para)
-msgid "Click the <guibutton>Remove</guibutton> button"
-msgstr "Klicka på knappen <guibutton>Ta bort</guibutton>"
+#. (itstool) path: info/desc
+#: C/print.page:24
+msgid "Print preview and print definitions."
+msgstr "Förhandsgranska och skriv ut definitioner."
 
-#: /tmp/doc-l10n/cvs/gnome-utils-dictionary.HEAD/C/gnome-dictionary.xml:335(para)
-msgid "If you remove a dictionary source it will be permanently deleted from the list of available sources. Also, as some sources might be defined system-wide you may actually not be able to remove them unless you have the right ownership privileges."
-msgstr "Om du tar bort en ordbokskälla kommer den permanent tas bort från listan över tillgängliga källor. Dock kan vissa källor definieras som systembreda och du kanske inte kan ta bort dem såvida du inte har den rätta behörigheten."
+#. (itstool) path: page/title
+#: C/print.page:28
+msgid "Print a definition"
+msgstr "Skriv ut en definition"
 
-#: /tmp/doc-l10n/cvs/gnome-utils-dictionary.HEAD/C/gnome-dictionary.xml:344(title)
-msgid "Print Options"
-msgstr "Utskriftsalternativ"
+#. (itstool) path: page/p
+#: C/print.page:30
+msgid ""
+"You can print a definition to paper or a file. Before printing, you should "
+"preview the definition as it would be printed to check that the text fits "
+"onto the page, especially if you have changed the <link xref=\"print-font"
+"\">print font</link> size."
+msgstr ""
+"Du kan skriva ut en definition på papper eller till en fil. Innan du skriver "
+"ut bör du förhandsgranska definitionen så som den skulle ha skrivits ut för "
+"att kontrollera att texten får plats på pappret, speciellt om du har ändrat "
+"storlek för <link xref=\"print-font\">utskriftstypsnittet</link>."
 
-#: /tmp/doc-l10n/cvs/gnome-utils-dictionary.HEAD/C/gnome-dictionary.xml:353(phrase)
-msgid "Shows the Print tab inside the Preferences dialog."
-msgstr "Visar fliken Skriv ut inne i inställningsdialogrutan."
+#. (itstool) path: item/p
+#: C/print.page:40
+msgid ""
+"Select <guiseq><gui style=\"menu\">File</gui> <gui style=\"menuitem"
+"\">Preview</gui></guiseq>."
+msgstr ""
+"Välj <guiseq><gui style=\"menu\">Arkiv</gui> <gui style=\"menuitem"
+"\">Förhandsgranska</gui></guiseq>."
 
-#: /tmp/doc-l10n/cvs/gnome-utils-dictionary.HEAD/C/gnome-dictionary.xml:358(para)
-msgid "If you want to change the font name and size used when printing, perform the following steps:"
-msgstr "Genomför följande steg om du vill ändra typsnittsnamnet och storleken som används vid utskrifter:"
+#. (itstool) path: item/p
+#: C/print.page:44
+msgid ""
+"A print preview window will open which will show you the definition exactly "
+"as it will be printed."
+msgstr ""
+"Ett fönster för förhandsgranskning kommer att öppnas och visa dig "
+"definitionen exakt så som den hade skrivits ut."
 
-#: /tmp/doc-l10n/cvs/gnome-utils-dictionary.HEAD/C/gnome-dictionary.xml:362(para)
-msgid "Click on the <guilabel>Print Font</guilabel> button"
-msgstr "Klicka på knappen <guilabel>Typsnitt för utskrift</guilabel>"
+#. (itstool) path: item/p
+#: C/print.page:48
+msgid "Use the toolbar to browse pages, adjust zoom level and page width."
+msgstr ""
+"Används verktygsfältet för att bläddra bland sidor, justera zoomnivå och "
+"sidbredd."
 
-#: /tmp/doc-l10n/cvs/gnome-utils-dictionary.HEAD/C/gnome-dictionary.xml:363(para)
-msgid "Select the font and size you wish to use"
-msgstr "Välj typsnittet och storleken du önskar använda"
+#. (itstool) path: item/p
+#: C/print.page:52
+msgid ""
+"Click the <gui style=\"button\">Print this document</gui> to print the "
+"definition or close the window to end the preview."
+msgstr ""
+"Klicka på <gui style=\"button\">Skriv ut detta dokument</gui> för att skriva "
+"ut definitionen eller stäng fönstret för att avsluta förhandsgranskningen."
 
-#: /tmp/doc-l10n/cvs/gnome-utils-dictionary.HEAD/C/gnome-dictionary.xml:364(para)
-msgid "Click <guibutton>Ok</guibutton>"
-msgstr "Klicka på <guibutton>Ok</guibutton>"
+#. (itstool) path: note/p
+#: C/print.page:58
+msgid ""
+"The print button in the toolbar may not always work. If it does not work for "
+"you, close the window and select <guiseq><gui style=\"menu\">File</gui> <gui "
+"style=\"menuitem\">Print</gui></guiseq>."
+msgstr ""
+"Utskriftsknappen i verktygsfältet kanske inte alltid fungerar. Om den inte "
+"fungerar för dig, stäng fönstret och välj <guiseq><gui style=\"menu\">Arkiv</"
+"gui> <gui style=\"menuitem\">Skriv ut</gui></guiseq>."
 
-#: /tmp/doc-l10n/cvs/gnome-utils-dictionary.HEAD/C/gnome-dictionary.xml:373(title)
-msgid "The Dictionary Applet"
-msgstr "Panelprogrammet Ordbok"
+#. (itstool) path: section/p
+#: C/print.page:69
+msgid ""
+"You need to <link href=\"help:gnome-help/printing\">have a printer set up</"
+"link> to be able to print to paper."
+msgstr ""
+"Du måste <link href=\"help:gnome-help/printing\">ha en skrivare inställd</"
+"link> för att kunna skriva ut på papper."
 
-#: /tmp/doc-l10n/cvs/gnome-utils-dictionary.HEAD/C/gnome-dictionary.xml:375(para)
-msgid "The <application>Dictionary</application> application comes with a panel applet, the <application>Dictionary Applet</application>. You can add the <application>Dictionary Applet</application> applet to a panel and look up words in dictionaries."
-msgstr "Programmet <application>Ordbok</application> inkluderar även ett panelprogram, <application>Panelprogrammet Ordbok</application>. Du kan lägga till <application>Panelprogrammet Ordbok</application> till en panel och slå upp ord i ordböcker."
+#. (itstool) path: item/p
+#: C/print.page:74
+msgid ""
+"Select <guiseq><gui style=\"menu\">File</gui> <gui style=\"menuitem\">Print</"
+"gui> <gui style=\"tab\">General</gui></guiseq>."
+msgstr ""
+"Välj <guiseq><gui style=\"menu\">Arkiv</gui> <gui style=\"menuitem\">Skriv "
+"ut</gui> <gui style=\"tab\">Allmänt</gui></guiseq>."
 
-#: /tmp/doc-l10n/cvs/gnome-utils-dictionary.HEAD/C/gnome-dictionary.xml:381(title)
-#: /tmp/doc-l10n/cvs/gnome-utils-dictionary.HEAD/C/gnome-dictionary.xml:417(title)
-msgid "Dictionary Applet Window"
-msgstr "Panelprogrammet Ordboks fönster"
+#. (itstool) path: item/p
+#: C/print.page:79
+msgid ""
+"Select the printer that you want to use from the list of printers or select "
+"<gui href=\"help:gnome-help/print-to-file\">Print to File</gui>."
+msgstr ""
+"Välj skrivaren som du vill använda från listan över skrivare eller välj <gui "
+"href=\"help:gnome-help/print-to-file\">Skriv ut till fil</gui>."
 
-#: /tmp/doc-l10n/cvs/gnome-utils-dictionary.HEAD/C/gnome-dictionary.xml:387(phrase)
-msgid "Shows Dictionary Applet."
-msgstr "Visar panelprogrammet Ordbok."
+# sebras: https://bugzilla.gnome.org/show_bug.cgi?id=766412
+#. (itstool) path: item/p
+#: C/print.page:84
+msgid ""
+"Chose your <link href=\"help:gnome-help/printing#paper\">printing settings</"
+"link>."
+msgstr ""
+"Välj dina <link href=\"help:gnome-help/printing#paper"
+"\">utskriftsinställningar</link>."
 
-#: /tmp/doc-l10n/cvs/gnome-utils-dictionary.HEAD/C/gnome-dictionary.xml:395(title)
-msgid "To Start Dictionary Applet"
-msgstr "Starta panelprogrammet Ordbok"
+#. (itstool) path: item/p
+#: C/print.page:88
+msgid "Press <gui style=\"button\">Print</gui> to print the definition."
+msgstr ""
+"Tryck på <gui style=\"button\">Skriv ut</gui> för att skriva ut definitionen."
 
-#: /tmp/doc-l10n/cvs/gnome-utils-dictionary.HEAD/C/gnome-dictionary.xml:397(para)
-msgid "To add <application>Dictionary Applet</application> to a panel, right-click on the panel, then choose <guimenuitem>Add to Panel</guimenuitem>. Select Dictionary Applet in the <application>Add to the panel</application> dialog, then click <guibutton>OK</guibutton>."
-msgstr "För att lägga till <application>Panelprogrammet Ordbok</application> till en panel, högerklicka på panelen och välj sedan <guimenuitem>Lägg till i panel</guimenuitem>. Välj Ordboksuppslagning i dialogrutan <application>Lägg till i panel</application>, klicka sedan på <guibutton>OK</guibutton>."
+#. (itstool) path: info/desc
+#: C/prob-retrieving-definition.page:23
+msgid "<sys>Error while retrieving definitions</sys>."
+msgstr "<sys>Fel vid hämtning av definitioner</sys>."
 
-#: /tmp/doc-l10n/cvs/gnome-utils-dictionary.HEAD/C/gnome-dictionary.xml:406(title)
-msgid "Using the Dictionary Applet"
-msgstr "Användning av panelprogrammet Ordbok"
+#. (itstool) path: page/title
+#: C/prob-retrieving-definition.page:27
+msgid "Cannot find definitions"
+msgstr "Kunde inte hitta definitioner"
 
-#: /tmp/doc-l10n/cvs/gnome-utils-dictionary.HEAD/C/gnome-dictionary.xml:408(para)
-msgid "To look up a word, type it into the <guilabel>entry field</guilabel>, and press <keycap>Enter</keycap> or right-click on the dictionary icon and then choose <guimenuitem>Look up</guimenuitem>."
-msgstr "För att slå upp ett ord, skriv in det i <guilabel>inmatningsfältet</guilabel> och tryck på <keycap>Enter</keycap>, eller högerklicka på ordboksikonen och välj sedan <guimenuitem>Slå upp</guimenuitem>."
+#. (itstool) path: page/p
+#: C/prob-retrieving-definition.page:29
+msgid ""
+"If you see the error message <sys>Error while retrieving definition</sys> "
+"when looking up a definition from any of the <link xref=\"sources-select"
+"\">selected dictionaries</link>, the problem is more likely one of the "
+"following:"
+msgstr ""
+"Om du ser felmeddelandet <sys>Fel vid hämtning av definitionen</sys> när du "
+"slår upp en definition från någon av de <link xref=\"sources-select\">valda "
+"ordböckerna</link> är problemet sannolikt endera av följande:"
 
-#: /tmp/doc-l10n/cvs/gnome-utils-dictionary.HEAD/C/gnome-dictionary.xml:413(para)
-msgid "If some definition for the word was found, a window will appear, with the text of the definitions:"
-msgstr "Om någon definition för ordet hittas, kommer ett fönster med texten för definitionerna att visas:"
+#. (itstool) path: item/p
+#: C/prob-retrieving-definition.page:36
+msgid ""
+"One or more of the selected <app>DICT</app> servers that are used to look up "
+"definitions may not be working. You can try waiting a while before <link "
+"xref=\"definition\">looking up</link> the definition again."
+msgstr ""
+"En eller flera av de valda <app>DICT</app>-servrarna som används för att slå "
+"upp definitioner kanske inte fungerar. Du kan prova att vänta ett tag innan "
+"du <link xref=\"definition\">slår upp</link> definitionen på nytt."
 
-#: /tmp/doc-l10n/cvs/gnome-utils-dictionary.HEAD/C/gnome-dictionary.xml:423(phrase)
-msgid "Shows Dictionary Applet main window."
-msgstr "Visar panelprogrammet Ordboks huvudfönster."
+#. (itstool) path: item/p
+#: C/prob-retrieving-definition.page:42
+msgid ""
+"You may not have a working Internet connection. For <app>Dictionary</app> to "
+"look up terms, your computer <link href=\"help:gnome-help/net\">must be able "
+"to connect</link> to <sys href=\"http://dict.org\">dict.org</sys>."
+msgstr ""
+"Du kanske inte har en fungerande internetanslutning. För att <app>Ordbok</"
+"app> ska kunna slå upp termer <link href=\"help:gnome-help/net\">måste din "
+"dator vara ansluten</link> till <sys href=\"http://dict.org\">dict.org</sys>."
 
-#: /tmp/doc-l10n/cvs/gnome-utils-dictionary.HEAD/C/gnome-dictionary.xml:428(para)
-msgid "Click <guibutton>Save</guibutton> to save the definitions to a text file. Click <guibutton>Print</guibutton> to print the definitions. Click <guibutton>Clear</guibutton> to clear the definitions."
-msgstr "Klicka på <guibutton>Spara</guibutton> för att spara definitionerna till en textfil. Klicka på <guibutton>Skriv ut</guibutton> för att skriva ut definitionerna. Klicka på <guibutton>Töm</guibutton> för att tömma definitionerna."
+#. (itstool) path: info/desc
+#: C/save-definition.page:22
+msgid "Save a copy of a definition to a text file."
+msgstr "Spara en kopia av en definition till en textfil."
 
-#: /tmp/doc-l10n/cvs/gnome-utils-dictionary.HEAD/C/gnome-dictionary.xml:432(para)
-msgid "You can make the window disappear by left-clicking on the dictionary icon or by pressing <keycap>Esc</keycap>."
-msgstr "Du kan låta fönstret försvinna genom att vänsterklicka på ordboksikonen eller genom att trycka på <keycap>Esc</keycap>."
+#. (itstool) path: page/title
+#: C/save-definition.page:26
+msgid "Save a definition"
+msgstr "Spara en definition"
 
-#: /tmp/doc-l10n/cvs/gnome-utils-dictionary.HEAD/C/gnome-dictionary.xml:440(para)
-msgid "To configure the <application>Dictionary Applet</application>, right-click on the dictionary icon, then choose <guimenuitem>Preferences</guimenuitem>."
-msgstr "För att konfigurera <application>Panelprogrammet Ordbok</application>, högerklicka på ordboksikonen och välj sedan <guimenuitem>Inställningar</guimenuitem>."
+#. (itstool) path: page/p
+#: C/save-definition.page:28
+msgid ""
+"You can save a definition to a text file. This may be useful if you want to "
+"use it outside of <app>Dictionary</app>."
+msgstr ""
+"Du kan spara en definition till en textfil. Detta kan vara användbart om du "
+"vill använda den utanför <app>Ordbok</app>."
 
-#: /tmp/doc-l10n/cvs/gnome-utils-dictionary.HEAD/C/gnome-dictionary.xml:443(para)
-msgid "The <guilabel>Preferences</guilabel> dialog is the same used by the <application>Dictionary</application> application, so refer to <xref linkend=\"gnome-dictionary-preferences\"/>"
-msgstr "Dialogrutan <guilabel>Inställningar</guilabel> är samma som används av programmet <application>Ordbok</application>, så referera till <xref linkend=\"gnome-dictionary-preferences\"/>"
+#. (itstool) path: steps/title
+#: C/save-definition.page:32
+msgid "To save a definition:"
+msgstr "För att spara en definition:"
 
-#. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2.
-#: /tmp/doc-l10n/cvs/gnome-utils-dictionary.HEAD/C/gnome-dictionary.xml:0(None)
-msgid "translator-credits"
-msgstr "Daniel Nylander <po@danielnylander.se>, 2006"
+#. (itstool) path: item/p
+#: C/save-definition.page:34
+msgid ""
+"Select <guiseq><gui style=\"menu\">File</gui> <gui style=\"menuitem\">Save a "
+"Copy…</gui></guiseq>."
+msgstr ""
+"Välj <guiseq><gui style=\"menu\">Arkiv</gui> <gui style=\"menuitem\">Spara "
+"en kopia…</gui></guiseq>."
 
+# sebras: https://bugzilla.gnome.org/show_bug.cgi?id=766412
+#. (itstool) path: item/p
+#: C/save-definition.page:38
+msgid ""
+"Chose where you want to save the definition to and a name for the file. You "
+"may want to add a <file>.txt</file> file extension to the end of the file "
+"name."
+msgstr ""
+"Välj var du vill spara definitionen och namnge filen. Du kan behöva lägga "
+"till filändelsen <file>.txt</file> på slutet av filnamnet."
+
+#. (itstool) path: item/p
+#: C/save-definition.page:43
+msgid "Press <gui style=\"button\">Save</gui> to save the definition."
+msgstr "Tryck på <gui style=\"button\">Spara</gui> för att spara definitionen."
+
+#. (itstool) path: info/desc
+#: C/similar-words.page:23
+msgid "View related results in other dictionaries."
+msgstr "Visa relaterade resultat i andra ordböcker."
+
+#. (itstool) path: page/p
+#: C/similar-words.page:29
+msgid ""
+"<app>Dictionary</app> will only display the definition from one of your "
+"dictionaries. To check if there are search results in other dictionaries:"
+msgstr ""
+"<app>Ordbok</app> kommer endast att visa definitionen från en av dina "
+"ordböcker. För att kontrollera om det finns sökresultat från andra ordböcker:"
+
+#. (itstool) path: item/p
+#: C/similar-words.page:34
+msgid "<link xref=\"definition\">Look up</link> the desired term."
+msgstr "<link xref=\"definition\">Slå upp</link> den önskade termen."
+
+#. (itstool) path: item/p
+#: C/similar-words.page:37
+msgid ""
+"If the sidebar is not already visible, select <guiseq><gui style=\"menu"
+"\">View</gui> <gui style=\"menuitem\">Similar Words</gui></guiseq>."
+msgstr ""
+"Om sidopanelen inte redan är synlig, välj <guiseq><gui style=\"menu\">Visa</"
+"gui> <gui style=\"menuitem\">Liknande ord</gui></guiseq>."
+
+#. (itstool) path: item/p
+#: C/similar-words.page:42
+msgid ""
+"The <gui>Similar Words</gui> sidebar will show search results from other "
+"dictionaries in your selected dictionary source. To view the similar word, "
+"double click on the entry."
+msgstr ""
+"Sidopanelen <gui>Liknande ord</gui> kommer att visa sökresultat från andra "
+"ordböcker från din valda ordbokskälla. För att visa ett liknande ord, "
+"dubbelklicka på posten."
+
+#. (itstool) path: page/title
+#: C/source-add-local.page:20
+msgid "Add local dictionary sources"
+msgstr "Lägg till lokala ordbokskällor"
+
+#. (itstool) path: page/title
+#: C/sources-default.page:24
+msgid "Set a default dictionary source"
+msgstr "Ställ in en standardordbokskälla"
+
+#. (itstool) path: page/p
+#: C/sources-default.page:26
+msgid ""
+"When you first use <app>Dictionary</app>, it should have some pre-installed "
+"dictionaries that you can use. You can change the default <link xref="
+"\"sources\">dictionary source</link> to one that you would prefer to use "
+"instead."
+msgstr ""
+"När du först använder <app>Ordbok</app> bör det ha några förinstallerade "
+"ordböcker som du kan använda. Du kan ändra <link xref=\"sources"
+"\">standardordbokskällan</link> till den du önskar använda istället."
+
+#. (itstool) path: steps/title
+#: C/sources-default.page:32
+msgid "Change the default dictionary source:"
+msgstr "Ändra standardordbokskällan:"
+
+#. (itstool) path: item/p
+#: C/sources-default.page:34
+msgid ""
+"Select <guiseq><gui><app>Dictionary</app></gui> <gui style=\"menu"
+"\">Preferences</gui> <gui style=\"tab\">Source</gui></guiseq>."
+msgstr ""
+"Välj <guiseq><gui><app>Ordbok</app></gui> <gui style=\"menu\">Inställningar</"
+"gui> <gui style=\"tab\">Källa</gui></guiseq>."
+
+#. (itstool) path: item/p
+#: C/sources-default.page:39
+msgid "Select the dictionary source that you want to set as the default."
+msgstr "Välj ordbokskällan som du vill använda som standard."
+
+#. (itstool) path: item/p
+#: C/sources-default.page:42
+msgid "Your change will be saved automatically."
+msgstr "Dina ändringar kommer automatiskt att sparas."
+
+#. (itstool) path: page/title
+#: C/sources-delete.page:25
+msgid "Delete a dictionary source"
+msgstr "Ta bort en ordbokskälla"
+
+#. (itstool) path: page/p
+#: C/sources-delete.page:27
+msgid ""
+"If you no longer need a specific <link xref=\"sources\">dictionary source</"
+"link> or if one stops working for you, you may want to delete it."
+msgstr ""
+"Om du inte längre behöver en viss <link xref=\"sources\">ordbokskälla</link> "
+"eller om en slutar fungera för dig kan du behöva ta bort den."
+
+#. (itstool) path: steps/title
+#: C/sources-delete.page:32
+msgid "Delete a dictionary source:"
+msgstr "Ta bort en ordbokskälla:"
+
+#. (itstool) path: item/p
+#: C/sources-delete.page:34
+msgid ""
+"Select <guiseq><gui style=\"menu\"><app>Dictionary</app></gui> <gui style="
+"\"menuitem\">Preferences</gui> <gui style=\"tab\">Source</gui></guiseq>."
+msgstr ""
+"Välj <guiseq><gui style=\"menu\"><app>Ordbok</app></gui> <gui style="
+"\"menuitem\">Inställningar</gui> <gui style=\"tab\">Källa</gui></guiseq>."
+
+#. (itstool) path: item/p
+#: C/sources-delete.page:39
+msgid "Select the dictionary source that you want to delete."
+msgstr "Välj den ordbokskälla som du önskar ta bort."
+
+#. (itstool) path: item/p
+#: C/sources-delete.page:42
+msgid "Press <gui style=\"button\">Remove</gui>."
+msgstr "Tryck på <gui style=\"button\">Ta bort</gui>."
+
+#. (itstool) path: item/p
+#: C/sources-delete.page:45
+msgid ""
+"A dialog will pop up asking you to confirm that you wish to permanently "
+"delete the selected source. Once you confirm, the source will be deleted."
+msgstr ""
+"En dialog kommer att visas för att bekräfta att du önskar att permanent ta "
+"bort den valda källan. När du bekräftar kommer källan att tas bort."
+
+#. (itstool) path: page/title
+#: C/sources-edit.page:24
+msgid "Edit a dictionary source"
+msgstr "Redigera en ordbokskälla"
+
+#. (itstool) path: page/p
+#: C/sources-edit.page:26
+msgid ""
+"You can customize a <link xref=\"sources\">dictionary source</link> to "
+"update details such as its description or remote address."
+msgstr ""
+"Du kan anpassa en <link xref=\"sources\">ordbokskälla</link> för att "
+"uppdatera detaljer så som dess beskrivning eller fjärradress."
+
+#. (itstool) path: steps/title
+#: C/sources-edit.page:30
+msgid "To edit a dictionary source:"
+msgstr "För att redigera en ordbokskälla:"
+
+#. (itstool) path: item/p
+#: C/sources-edit.page:32
+msgid ""
+"Select <guiseq><gui style=\"menu\">Dictionary</gui> <gui style=\"menuitem"
+"\">Preferences</gui> <gui style=\"tab\">Source</gui></guiseq>."
+msgstr ""
+"Välj <guiseq><gui style=\"menu\">Ordbok</gui> <gui style=\"menuitem"
+"\">Inställningar</gui> <gui style=\"tab\">Källa</gui></guiseq>."
+
+#. (itstool) path: item/p
+#: C/sources-edit.page:37
+msgid "Double click on the dictionary source you want to edit."
+msgstr "Dubbelklicka på ordbokskällan du vill redigera."
+
+#. (itstool) path: item/p
+#: C/sources-edit.page:40
+msgid "You can edit the following fields:"
+msgstr "Du kan redigera följande fält:"
+
+#. (itstool) path: item/p
+#: C/sources-edit.page:43
+msgid ""
+"<gui>Description</gui> is the name of the source as it will be displayed to "
+"you."
+msgstr ""
+"<gui>Beskrivning</gui> är namnet på källa så som den kommer att visas för "
+"dig."
+
+#. (itstool) path: item/p
+#: C/sources-edit.page:47
+msgid "<gui>Transport</gui> is the type of server."
+msgstr "<gui>Transport</gui> är typen av server."
+
+#. (itstool) path: item/p
+#: C/sources-edit.page:50
+msgid "<gui>Hostname</gui> is the location of the dictionary source."
+msgstr "<gui>Värdnamn</gui> är platsen för ordbokskällan."
+
+#. (itstool) path: item/p
+#: C/sources-edit.page:55
+msgid "<gui>Port</gui>."
+msgstr "<gui>Port</gui>."
+
+#. (itstool) path: item/p
+#: C/sources-edit.page:60
+msgid ""
+"View the dictionaries that are available in the dictionary source by "
+"selecting the <gui style=\"tab\">Dictionaries</gui> tab."
+msgstr ""
+"Visa ordböckerna som är tillgängliga i ordbokskällan genom att välja fliken "
+"<gui style=\"tab\">Ordböcker</gui>."
+
+#. (itstool) path: item/p
+#: C/sources-edit.page:64
+msgid "Press <gui style=\"button\">Close</gui> to save the settings."
+msgstr ""
+"Tryck på <gui style=\"button\">Stäng</gui> för att spara inställningarna."
+
+#. (itstool) path: info/desc
+#: C/sources.page:24
+msgid "Manage various dictionary sources."
+msgstr "Hantera olika ordbokskällor."
+
+#. (itstool) path: page/p
+#: C/sources.page:30
+msgid ""
+"<app>Dictionary</app> uses <em>dictionary sources</em> to look up words that "
+"you search for. Dictionary sources are collections of one or more dictionary "
+"databases which are usually online, but can be installed on your machine as "
+"well."
+msgstr ""
+"<app>Ordbok</app> använder <em>ordbokskällor</em> för att slå upp ord som du "
+"söker efter. Ordbokskällor är samlingar av en eller flera ordboksdatabaser "
+"som vanligtvis finns på nätet, men även kan installeras på din dator."
+
+#. (itstool) path: section/title
+#: C/sources.page:36
+msgid "Manage your dictionary sources"
+msgstr "Hantera dina ordbokskällor"
+
+#. (itstool) path: page/title
+#: C/sources-select.page:26
+msgid "Select a dictionary source"
+msgstr "Välj en ordbokskälla"
+
+#. (itstool) path: page/p
+#: C/sources-select.page:28
+msgid ""
+"You can change the <link xref=\"sources\">dictionary source</link> that you "
+"are currently using without changing your default preferences."
+msgstr ""
+"Du kan ändra <link xref=\"sources\">ordbokskällan</link> som du använder för "
+"närvarande utan att ändra dina standardinställningar."
+
+#. (itstool) path: steps/title
+#: C/sources-select.page:32
+msgid "Temporarily change the dictionary source:"
+msgstr "Ändra tillfälligt ordbokskälla:"
+
+#. (itstool) path: item/p
+#: C/sources-select.page:34
+msgid ""
+"Select <guiseq><gui style=\"menu\">View</gui> <gui style=\"menuitem"
+"\">Dictionary Sources</gui></guiseq>."
+msgstr ""
+"Välj <guiseq><gui style=\"menu\">Visa</gui> <gui style=\"menuitem"
+"\">Ordbokskällor</gui></guiseq>."
+
+#. (itstool) path: item/p
+#: C/sources-select.page:38
+msgid "Double click on the dictionary source that you want to use."
+msgstr "Dubbelklicka på ordbokskällan som du vill använda."
+
+#. (itstool) path: info/desc
+#: C/text-copy.page:23
+msgid "Select and copy a definition to another application."
+msgstr "Välj och kopiera en definition till ett annat program."
+
+#. (itstool) path: page/title
+#: C/text-copy.page:27
+msgid "Copy definition"
+msgstr "Kopiera definition"
+
+#. (itstool) path: page/p
+#: C/text-copy.page:29
+msgid ""
+"You can copy and paste definitions from <app>Dictionary</app> to another "
+"application."
+msgstr ""
+"Du kan kopiera och klistra in definitioner från <app>Ordbok</app> i andra "
+"program."
+
+#. (itstool) path: steps/title
+#: C/text-copy.page:33
+msgid "Copy a definition"
+msgstr "Kopiera en definition"
+
+#. (itstool) path: item/p
+#: C/text-copy.page:35
+msgid ""
+"Select the text that you want to copy in <app>Dictionary</app>. "
+"Alternatively, you can select the whole definition using <guiseq><gui style="
+"\"menu\">Edit</gui> <gui style=\"menuitem\">Select All</gui></guiseq>."
+msgstr ""
+"Välj texten som du vill kopiera i <app>Ordbok</app>. Alternativt kan du "
+"välja hela definitionen via <guiseq><gui style=\"menu\">Redigera</gui> <gui "
+"style=\"menuitem\">Markera alla</gui></guiseq>."
+
+#. (itstool) path: item/p
+#: C/text-copy.page:41
+msgid ""
+"Select <guiseq><gui style=\"menu\">Edit</gui> <gui style=\"menuitem\">Copy</"
+"gui></guiseq>."
+msgstr ""
+"Välj <guiseq><gui style=\"menu\">Redigera</gui> <gui style=\"menuitem"
+"\">Kopiera</gui></guiseq>."
+
+#. (itstool) path: item/p
+#: C/text-copy.page:45
+msgid ""
+"Paste the text into another application. This can usually be done using the "
+"<keyseq><key>Ctrl</key><key>V</key></keyseq> keyboard shortcut or through "
+"one of the menus."
+msgstr ""
+"Klistra in texten i ett annat program. Detta kan vanligtvis göras genom att "
+"använda tangentbordsgenvägen <keyseq><key>Ctrl</key><key>V</key></keyseq> "
+"eller via en av menyerna."
+
+#~ msgid ""
+#~ "@@image: 'figures/gnome-dictionary-application.png'; "
+#~ "md5=fb48a9e5863bfb2b3811df2e28489eb7"
+#~ msgstr ""
+#~ "@@image: 'figures/gnome-dictionary-application.png'; "
+#~ "md5=fb48a9e5863bfb2b3811df2e28489eb7"
+
+#~ msgid ""
+#~ "@@image: 'figures/gnome-dictionary-lookup.png'; "
+#~ "md5=c41c96af4de54f457a2081aad009a8d0"
+#~ msgstr ""
+#~ "@@image: 'figures/gnome-dictionary-lookup.png'; "
+#~ "md5=c41c96af4de54f457a2081aad009a8d0"
+
+#~ msgid ""
+#~ "@@image: 'figures/gnome-dictionary-find.png'; "
+#~ "md5=d8bf0677084e2d9998a7942faaab5379"
+#~ msgstr ""
+#~ "@@image: 'figures/gnome-dictionary-find.png'; "
+#~ "md5=d8bf0677084e2d9998a7942faaab5379"
+
+#~ msgid ""
+#~ "@@image: 'figures/gnome-dictionary-preferences-source.png'; "
+#~ "md5=5470b15e64e66924477f150c4f47e96d"
+#~ msgstr ""
+#~ "@@image: 'figures/gnome-dictionary-preferences-source.png'; "
+#~ "md5=5470b15e64e66924477f150c4f47e96d"
+
+#~ msgid ""
+#~ "@@image: 'figures/gnome-dictionary-add-source.png'; "
+#~ "md5=d059507fee77bb176fce53373951756b"
+#~ msgstr ""
+#~ "@@image: 'figures/gnome-dictionary-add-source.png'; "
+#~ "md5=d059507fee77bb176fce53373951756b"
+
+#~ msgid ""
+#~ "@@image: 'figures/gnome-dictionary-preferences-print.png'; "
+#~ "md5=12a65f07cb333db4c7ba743d1d12a00f"
+#~ msgstr ""
+#~ "@@image: 'figures/gnome-dictionary-preferences-print.png'; "
+#~ "md5=12a65f07cb333db4c7ba743d1d12a00f"
+
+#~ msgid ""
+#~ "@@image: 'figures/gnome-dictionary-applet.png'; "
+#~ "md5=538c7fa191540f99dd964963a1079677"
+#~ msgstr ""
+#~ "@@image: 'figures/gnome-dictionary-applet.png'; "
+#~ "md5=538c7fa191540f99dd964963a1079677"
+
+#~ msgid ""
+#~ "@@image: 'figures/gnome-dictionary-applet-window.png'; "
+#~ "md5=e26ac4847d2e7b53c6bba7d8e1a519c4"
+#~ msgstr ""
+#~ "@@image: 'figures/gnome-dictionary-applet-window.png'; "
+#~ "md5=e26ac4847d2e7b53c6bba7d8e1a519c4"
+
+#~ msgid "Dictionary Manual"
+#~ msgstr "Handbok för Ordbok"
+
+#~ msgid ""
+#~ "Dictionary enables you to look up definitions and correct spellings of "
+#~ "words."
+#~ msgstr ""
+#~ "Ordbok ger dig möjligheten att slå upp definitioner och korrekta "
+#~ "stavningar av ord."
+
+#~ msgid "2005"
+#~ msgstr "2005"
+
+#~ msgid "Emmanuele Bassi"
+#~ msgstr "Emmanuele Bassi"
+
+#~ msgid "GNOME Documentation Project"
+#~ msgstr "Dokumentationsprojekt för GNOME"
+
+#~ msgid ""
+#~ "Permission is granted to copy, distribute and/or modify this document "
+#~ "under the terms of the GNU Free Documentation License (GFDL), Version 1.1 "
+#~ "or any later version published by the Free Software Foundation with no "
+#~ "Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts. You "
+#~ "can find a copy of the GFDL at this <ulink type=\"help\" url=\"ghelp:fdl"
+#~ "\">link</ulink> or in the file COPYING-DOCS distributed with this manual."
+#~ msgstr ""
+#~ "Tillstånd att kopiera, distribuera och/eller modifiera detta dokument ges "
+#~ "under villkoren i GNU Free Documentation License (GFDL), version 1.1 "
+#~ "eller senare, utgivet av Free Software Foundation utan standardavsnitt "
+#~ "och omslagstexter.  En kopia av GFDL finns att hämta på denna <ulink type="
+#~ "\"help\" url=\"ghelp:fdl\">länk</ulink> eller i filen COPYING-DOCS som "
+#~ "medföljer denna handbok."
+
+#~ msgid ""
+#~ "This manual is part of a collection of GNOME manuals distributed under "
+#~ "the GFDL. If you want to distribute this manual separately from the "
+#~ "collection, you can do so by adding a copy of the license to the manual, "
+#~ "as described in section 6 of the license."
+#~ msgstr ""
+#~ "Denna handbok utgör en av flera GNOME-handböcker som distribueras under "
+#~ "villkoren i GFDL.  Om du vill distribuera denna handbok separat från "
+#~ "övriga handböcker kan du göra detta genom att lägga till en kopia av "
+#~ "licensavtalet i handboken enligt instruktionerna i avsnitt 6 i "
+#~ "licensavtalet."
+
+#~ msgid ""
+#~ "Many of the names used by companies to distinguish their products and "
+#~ "services are claimed as trademarks. Where those names appear in any GNOME "
+#~ "documentation, and the members of the GNOME Documentation Project are "
+#~ "made aware of those trademarks, then the names are in capital letters or "
+#~ "initial capital letters."
+#~ msgstr ""
+#~ "Flera namn på produkter och tjänster är registrerade varumärken. I de "
+#~ "fall dessa namn förekommer i GNOME-dokumentation - och medlemmarna i "
+#~ "GNOME-dokumentationsprojektet är medvetna om dessa varumärken - är de "
+#~ "skrivna med versaler eller med inledande versal."
+
+#~ msgid ""
+#~ "DOCUMENT IS PROVIDED ON AN \"AS IS\" BASIS, WITHOUT WARRANTY OF ANY KIND, "
+#~ "EITHER EXPRESSED OR IMPLIED, INCLUDING, WITHOUT LIMITATION, WARRANTIES "
+#~ "THAT THE DOCUMENT OR MODIFIED VERSION OF THE DOCUMENT IS FREE OF DEFECTS "
+#~ "MERCHANTABLE, FIT FOR A PARTICULAR PURPOSE OR NON-INFRINGING. THE ENTIRE "
+#~ "RISK AS TO THE QUALITY, ACCURACY, AND PERFORMANCE OF THE DOCUMENT OR "
+#~ "MODIFIED VERSION OF THE DOCUMENT IS WITH YOU. SHOULD ANY DOCUMENT OR "
+#~ "MODIFIED VERSION PROVE DEFECTIVE IN ANY RESPECT, YOU (NOT THE INITIAL "
+#~ "WRITER, AUTHOR OR ANY CONTRIBUTOR) ASSUME THE COST OF ANY NECESSARY "
+#~ "SERVICING, REPAIR OR CORRECTION. THIS DISCLAIMER OF WARRANTY CONSTITUTES "
+#~ "AN ESSENTIAL PART OF THIS LICENSE. NO USE OF ANY DOCUMENT OR MODIFIED "
+#~ "VERSION OF THE DOCUMENT IS AUTHORIZED HEREUNDER EXCEPT UNDER THIS "
+#~ "DISCLAIMER; AND"
+#~ msgstr ""
+#~ "DOKUMENTET TILLHANDAHÅLLS I \"BEFINTLIGT SKICK\" UTAN NÅGRA SOM HELST "
+#~ "GARANTIER, VARE SIG UTTRYCKLIGA ELLER UNDERFÖRSTÅDDA, INKLUSIVE, MEN INTE "
+#~ "BEGRÄNSAT TILL, GARANTIER ATT DOKUMENTET ELLER EN MODIFIERAD VERSION AV "
+#~ "DOKUMENTET INTE INNEHÅLLER NÅGRA FELAKTIGHETER, ÄR LÄMPLIGT FÖR ETT VISST "
+#~ "ÄNDAMÅL ELLER INTE STRIDER MOT LAG. HELA RISKEN VAD GÄLLER KVALITET, "
+#~ "EXAKTHET OCH UTFÖRANDE AV DOKUMENTET OCH MODIFIERADE VERSIONER AV "
+#~ "DOKUMENTET LIGGER HELT OCH HÅLLET PÅ ANVÄNDAREN. OM ETT DOKUMENT ELLER EN "
+#~ "MODIFIERAD VERSION AV ETT DOKUMENT SKULLE VISA SIG INNEHÅLLA "
+#~ "FELAKTIGHETER I NÅGOT HÄNSEENDE ÄR DET DU (INTE DEN URSPRUNGLIGA "
+#~ "SKRIBENTEN, FÖRFATTAREN ELLER NÅGON ANNAN MEDARBETARE) SOM FÅR STÅ FÖR "
+#~ "ALLA EVENTUELLA KOSTNADER FÖR SERVICE, REPARATIONER ELLER KORRIGERINGAR. "
+#~ "DENNA GARANTIFRISKRIVNING UTGÖR EN VÄSENTLIG DEL AV DETTA LICENSAVTAL. "
+#~ "DETTA INNEBÄR ATT ALL ANVÄNDNING AV ETT DOKUMENT ELLER EN MODIFIERAD "
+#~ "VERSION AV ETT DOKUMENT BEVILJAS ENDAST UNDER DENNA ANSVARSFRISKRIVNING;"
+
+#~ msgid ""
+#~ "UNDER NO CIRCUMSTANCES AND UNDER NO LEGAL THEORY, WHETHER IN TORT "
+#~ "(INCLUDING NEGLIGENCE), CONTRACT, OR OTHERWISE, SHALL THE AUTHOR, INITIAL "
+#~ "WRITER, ANY CONTRIBUTOR, OR ANY DISTRIBUTOR OF THE DOCUMENT OR MODIFIED "
+#~ "VERSION OF THE DOCUMENT, OR ANY SUPPLIER OF ANY OF SUCH PARTIES, BE "
+#~ "LIABLE TO ANY PERSON FOR ANY DIRECT, INDIRECT, SPECIAL, INCIDENTAL, OR "
+#~ "CONSEQUENTIAL DAMAGES OF ANY CHARACTER INCLUDING, WITHOUT LIMITATION, "
+#~ "DAMAGES FOR LOSS OF GOODWILL, WORK STOPPAGE, COMPUTER FAILURE OR "
+#~ "MALFUNCTION, OR ANY AND ALL OTHER DAMAGES OR LOSSES ARISING OUT OF OR "
+#~ "RELATING TO USE OF THE DOCUMENT AND MODIFIED VERSIONS OF THE DOCUMENT, "
+#~ "EVEN IF SUCH PARTY SHALL HAVE BEEN INFORMED OF THE POSSIBILITY OF SUCH "
+#~ "DAMAGES."
+#~ msgstr ""
+#~ "UNDER INGA OMSTÄNDIGHETER ELLER INOM RAMEN FÖR NÅGON LAGSTIFTNING, "
+#~ "OAVSETT OM DET GÄLLER KRÄNKNING (INKLUSIVE VÅRDSLÖSHET), KONTRAKT ELLER "
+#~ "DYLIKT, SKA FÖRFATTAREN, DEN URSPRUNGLIGA SKRIBENTEN ELLER ANNAN "
+#~ "MEDARBETARE ELLER ÅTERFÖRSÄLJARE AV DOKUMENTET ELLER AV EN MODIFIERAD "
+#~ "VERSION AV DOKUMENTET ELLER NÅGON LEVERANTÖR TILL NÅGON AV NÄMNDA PARTER "
+#~ "STÄLLAS ANSVARIG GENTEMOT NÅGON FÖR NÅGRA DIREKTA, INDIREKTA, SÄRSKILDA "
+#~ "ELLER OFÖRUTSEDDA SKADOR ELLER FÖLJDSKADOR AV NÅGOT SLAG, INKLUSIVE, MEN "
+#~ "INTE BEGRÄNSAT TILL, SKADOR BETRÄFFANDE FÖRLORAD GOODWILL, HINDER I "
+#~ "ARBETET, DATORHAVERI ELLER NÅGRA ANDRA TÄNKBARA SKADOR ELLER FÖRLUSTER "
+#~ "SOM KAN UPPKOMMA PÅ GRUND AV ELLER RELATERAT TILL ANVÄNDNINGEN AV "
+#~ "DOKUMENTET ELLER MODIFIERADE VERSIONER AV DOKUMENTET, ÄVEN OM PART SKA HA "
+#~ "BLIVIT INFORMERAD OM MÖJLIGHETEN TILL SÅDANA SKADOR."
+
+#~ msgid ""
+#~ "DOCUMENT AND MODIFIED VERSIONS OF THE DOCUMENT ARE PROVIDED UNDER THE "
+#~ "TERMS OF THE GNU FREE DOCUMENTATION LICENSE WITH THE FURTHER "
+#~ "UNDERSTANDING THAT: <placeholder-1/>"
+#~ msgstr ""
+#~ "DOKUMENTET OCH MODIFIERADE VERSIONER AV DOKUMENTET TILLHANDAHÅLLS UNDER "
+#~ "VILLKOREN I GNU FREE DOCUMENTATION LICENSE ENDAST UNDER FÖLJANDE "
+#~ "FÖRUTSÄTTNINGAR: <placeholder-1/>"
+
+#~ msgid "Emmanuele"
+#~ msgstr "Emmanuele"
+
+#~ msgid "Bassi"
+#~ msgstr "Bassi"
+
+#~ msgid "ebassi@gmail.com"
+#~ msgstr "ebassi@gmail.com"
+
+#~ msgid "Dictionary Manual V1.0.0"
+#~ msgstr "Handbok för Ordbok v1.0.0"
+
+#~ msgid "January 2005"
+#~ msgstr "Januari 2005"
+
+#~ msgid "This manual describes version 2.14.0 of Dictionary."
+#~ msgstr "Denna handbok beskriver version 2.14.0 av Ordbok."
+
+#~ msgid "Feedback"
+#~ msgstr "Återkoppling"
+
+#~ msgid ""
+#~ "To report a bug or make a suggestion regarding the Dictionary application "
+#~ "or this manual, follow the directions in the <ulink url=\"ghelp:gnome-"
+#~ "feedback\" type=\"help\">GNOME Feedback Page</ulink>."
+#~ msgstr ""
+#~ "För att rapportera ett fel eller komma med ett förslag angående "
+#~ "programmet Ordbok eller denna handbok, följ instruktionerna på <ulink url="
+#~ "\"ghelp:gnome-feedback\" type=\"help\">GNOME:s återkopplingssida</ulink>."
+
+#~ msgid ""
+#~ "The <application>Dictionary</application> application enables you to "
+#~ "search words and terms on a dictionary source."
+#~ msgstr ""
+#~ "Programmet <application>Ordbok</application> låter dig söka efter ord och "
+#~ "termer i en ordbokskälla."
+
+#~ msgid "Getting Started"
+#~ msgstr "Komma igång"
+
+#~ msgid ""
+#~ "You can start <application>Dictionary</application> in the following ways:"
+#~ msgstr "Du kan starta <application>Ordbok</application> på följande sätt:"
+
+#~ msgid "<guimenu>Applications</guimenu> menu"
+#~ msgstr "Menyn <guimenu>Program</guimenu>"
+
+#~ msgid ""
+#~ "Choose <menuchoice><guisubmenu>Accessories</"
+#~ "guisubmenu><guimenuitem>Dictionary</guimenuitem></menuchoice>."
+#~ msgstr ""
+#~ "Välj <menuchoice><guisubmenu>Tillbehör</guisubmenu><guimenuitem>Ordbok</"
+#~ "guimenuitem></menuchoice>."
+
+#~ msgid "Command line"
+#~ msgstr "Kommandorad"
+
+#~ msgid "Execute the following command: <command>gnome-dictionary</command>"
+#~ msgstr "Kör följande kommando: <command>gnome-dictionary</command>"
+
+#~ msgid "Dictionary Window"
+#~ msgstr "Ordboksfönstret"
+
+#~ msgid "Usage"
+#~ msgstr "Användning"
+
+#~ msgid ""
+#~ "To look up a word, type it into the <guilabel>entry field</guilabel> and "
+#~ "press <keycap>Enter</keycap>."
+#~ msgstr ""
+#~ "För att slå upp ett ord, skriv in det i <guilabel>inmatningsfältet</"
+#~ "guilabel> och tryck på <keycap>Enter</keycap>."
+
+#~ msgid ""
+#~ "If some definition for the word is found, it will appear inside the main "
+#~ "window area:"
+#~ msgstr ""
+#~ "Om någon definition för ordet hittas kommer det att visas i huvudfönstret:"
+
+#~ msgid "Shows a definition inside the Dictionary main window."
+#~ msgstr "Visar en definition inne i Ordboks huvudfönster."
+
+#~ msgid ""
+#~ "Otherwise, an error dialog will appear, with a message explaining the "
+#~ "nature of the error."
+#~ msgstr ""
+#~ "Om inte kommer en feldialogruta att visas med ett meddelande som "
+#~ "förklarar problemet."
+
+#~ msgid "Save look up results"
+#~ msgstr "Spara uppslagsresultat"
+
+#~ msgid ""
+#~ "To save the results of a look up, choose <menuchoice><guimenu>File</"
+#~ "guimenu><guimenuitem>Save a Copy</guimenuitem></menuchoice>. Enter a name "
+#~ "for the file in the <guilabel>Save a Copy</guilabel> dialog, then click "
+#~ "<guibutton>Save</guibutton>."
+#~ msgstr ""
+#~ "För att spara resultatet för ett uppslag, välj "
+#~ "<menuchoice><guimenu>Arkiv</guimenu><guimenuitem>Spara en kopia</"
+#~ "guimenuitem></menuchoice>. Ange ett filnamn i dialogrutan <guilabel>Spara "
+#~ "en kopia</guilabel>, klicka sedan på <guibutton>Spara</guibutton>."
+
+#~ msgid "Print look up results"
+#~ msgstr "Skriv ut uppslagsresultat"
+
+#~ msgid ""
+#~ "To print the results of a look up, choose <menuchoice><guimenu>File</"
+#~ "guimenu><guimenuitem>Print</guimenuitem></menuchoice>."
+#~ msgstr ""
+#~ "För att skriva ut resultatet för en uppslaning, välj "
+#~ "<menuchoice><guimenu>Arkiv</guimenu><guimenuitem>Skriv ut</guimenuitem></"
+#~ "menuchoice>."
+
+#~ msgid ""
+#~ "Inside the <guilabel>Print</guilabel> dialog you can select the printer "
+#~ "to use, the paper format, the number of copies."
+#~ msgstr ""
+#~ "I dialogrutan <guilabel>Skriv ut</guilabel> kan du välja vilken skrivare "
+#~ "som ska användas, pappersformatet, antalet kopior."
+
+#~ msgid ""
+#~ "To see a preview of what will be printed, click <guibutton>Preview</"
+#~ "guibutton>."
+#~ msgstr ""
+#~ "För att få en förhandsvisning av vad som kommer att skrivas ut, klicka på "
+#~ "<guibutton>Förhandsgranska</guibutton>."
+
+#~ msgid "To print, click <guibutton>Print</guibutton>."
+#~ msgstr "För att skriva ut, klicka på <guibutton>Skriv ut</guibutton>."
+
+#~ msgid "Shows the Dictionary Find pane inside the main window."
+#~ msgstr "Visar Ordboks Sök-panel inne i huvudfönstret."
+
+#~ msgid ""
+#~ "To find text inside the results of a look up, perform the following steps:"
+#~ msgstr ""
+#~ "Genomför följande steg för att söka text inne i resultatet för en "
+#~ "uppslagning:"
+
+#~ msgid ""
+#~ "Choose <menuchoice><guimenu>Edit</guimenu><guimenuitem>Find</"
+#~ "guimenuitem></menuchoice> to display the <guilabel>Find</guilabel> pane."
+#~ msgstr ""
+#~ "Välj <menuchoice><guimenu>Redigera</guimenu><guimenuitem>Sök</"
+#~ "guimenuitem></menuchoice> för att visa <guilabel>Sök</guilabel>-panelen."
+
+#~ msgid ""
+#~ "Type the text you want to find inside the <guilabel>Search</guilabel> "
+#~ "entry."
+#~ msgstr ""
+#~ "Skriv in texten som du vill söka efter i inmatningsfältet <guilabel>Sök</"
+#~ "guilabel>."
+
+#~ msgid ""
+#~ "To find the next occurrence of the text, click <guibutton>Next</"
+#~ "guibutton>. To find the previous occurrence of the text, click "
+#~ "<guibutton>Previous</guibutton>."
+#~ msgstr ""
+#~ "För att söka nästa förekomst av texten, klicka på <guibutton>Nästa</"
+#~ "guibutton>. För att söka föregående förekomst av texten, klicka på "
+#~ "<guibutton>Föregående</guibutton>."
+
+#~ msgid ""
+#~ "To change the <application>Dictionary</application> application "
+#~ "preferences, choose <menuchoice><guimenu>Edit</"
+#~ "guimenu><guimenuitem>Preferences</guimenuitem></menuchoice>."
+#~ msgstr ""
+#~ "För att ändra inställningarna för programmet <application>Ordbok</"
+#~ "application>, välj <menuchoice><guimenu>Redigera</"
+#~ "guimenu><guimenuitem>Inställningar</guimenuitem></menuchoice>."
+
+#~ msgid "Shows the Source tab of the Preferences dialog."
+#~ msgstr "Visar fliken Källa i inställningsdialogrutan."
+
+#~ msgid ""
+#~ "To change the dictionary source used to look up words, select the desired "
+#~ "source from the list."
+#~ msgstr ""
+#~ "För att ändra ordbokskällan som används för att slå upp ord, markera den "
+#~ "önskade källan från listan."
+
+#~ msgid "Adding a new source"
+#~ msgstr "Lägg till en ny källa"
+
+#~ msgid "Shows the Add Source dialog."
+#~ msgstr "Visar Lägg till källa-dialogrutan."
+
+#~ msgid "To add a new dictionary source, perform the following steps:"
+#~ msgstr "Genomför följande steg för att lägga till en ny ordbokskälla:"
+
+#~ msgid "Click on the <guibutton>Add</guibutton> button"
+#~ msgstr "Klicka på knappen <guibutton>Lägg till</guibutton>"
+
+#~ msgid ""
+#~ "Edit the name of the new source inside the <guilabel>Description</"
+#~ "guilabel> entry"
+#~ msgstr ""
+#~ "Redigera namnet för den nya källan i inmatningsfältet "
+#~ "<guilabel>Beskrivning</guilabel>"
+
+#~ msgid ""
+#~ "Change the transport type of the new source using the "
+#~ "<guilabel>Transport</guilabel> combo box"
+#~ msgstr ""
+#~ "Ändra transporttypen för den nya källan med kombinationsrutan "
+#~ "<guilabel>Transport</guilabel>"
+
+#~ msgid "Edit the attributes of the new source"
+#~ msgstr "Redigera attributen för den nya källan"
+
+#~ msgid "Click <guibutton>Add</guibutton>"
+#~ msgstr "Klicka på <guibutton>Lägg till</guibutton>"
+
+#~ msgid ""
+#~ "Different source transport types uses different attributes. This is the "
+#~ "list of available attributes per transport type:"
+#~ msgstr ""
+#~ "Olika källtransporttyper använder olika attribut. Här är listan över "
+#~ "tillgängliga attribut per transporttyp:"
+
+#~ msgid "Transport"
+#~ msgstr "Transport"
+
+#~ msgid "Attributes"
+#~ msgstr "Attribut"
+
+#~ msgid "Dictionary Server"
+#~ msgstr "Ordboksserver"
+
+#~ msgid "Removing a source"
+#~ msgstr "Ta bort en källa"
+
+#~ msgid "To remove a dictionary source, perform the following steps:"
+#~ msgstr "Genomför följande steg för att ta bort en ordbokskälla:"
+
+#~ msgid "Click the <guibutton>Remove</guibutton> button"
+#~ msgstr "Klicka på knappen <guibutton>Ta bort</guibutton>"
+
+#~ msgid ""
+#~ "If you remove a dictionary source it will be permanently deleted from the "
+#~ "list of available sources. Also, as some sources might be defined system-"
+#~ "wide you may actually not be able to remove them unless you have the "
+#~ "right ownership privileges."
+#~ msgstr ""
+#~ "Om du tar bort en ordbokskälla kommer den permanent tas bort från listan "
+#~ "över tillgängliga källor. Dock kan vissa källor definieras som "
+#~ "systembreda och du kanske inte kan ta bort dem såvida du inte har den "
+#~ "rätta behörigheten."
+
+#~ msgid "Shows the Print tab inside the Preferences dialog."
+#~ msgstr "Visar fliken Skriv ut inne i inställningsdialogrutan."
+
+#~ msgid "Click on the <guilabel>Print Font</guilabel> button"
+#~ msgstr "Klicka på knappen <guilabel>Typsnitt för utskrift</guilabel>"
+
+#~ msgid "Click <guibutton>Ok</guibutton>"
+#~ msgstr "Klicka på <guibutton>Ok</guibutton>"
+
+#~ msgid "The Dictionary Applet"
+#~ msgstr "Panelprogrammet Ordbok"
+
+#~ msgid ""
+#~ "The <application>Dictionary</application> application comes with a panel "
+#~ "applet, the <application>Dictionary Applet</application>. You can add the "
+#~ "<application>Dictionary Applet</application> applet to a panel and look "
+#~ "up words in dictionaries."
+#~ msgstr ""
+#~ "Programmet <application>Ordbok</application> inkluderar även ett "
+#~ "panelprogram, <application>Panelprogrammet Ordbok</application>. Du kan "
+#~ "lägga till <application>Panelprogrammet Ordbok</application> till en "
+#~ "panel och slå upp ord i ordböcker."
+
+#~ msgid "Dictionary Applet Window"
+#~ msgstr "Panelprogrammet Ordboks fönster"
+
+#~ msgid "Shows Dictionary Applet."
+#~ msgstr "Visar panelprogrammet Ordbok."
+
+#~ msgid "To Start Dictionary Applet"
+#~ msgstr "Starta panelprogrammet Ordbok"
+
+#~ msgid ""
+#~ "To add <application>Dictionary Applet</application> to a panel, right-"
+#~ "click on the panel, then choose <guimenuitem>Add to Panel</guimenuitem>. "
+#~ "Select Dictionary Applet in the <application>Add to the panel</"
+#~ "application> dialog, then click <guibutton>OK</guibutton>."
+#~ msgstr ""
+#~ "För att lägga till <application>Panelprogrammet Ordbok</application> till "
+#~ "en panel, högerklicka på panelen och välj sedan <guimenuitem>Lägg till i "
+#~ "panel</guimenuitem>. Välj Ordboksuppslagning i dialogrutan "
+#~ "<application>Lägg till i panel</application>, klicka sedan på "
+#~ "<guibutton>OK</guibutton>."
+
+#~ msgid "Using the Dictionary Applet"
+#~ msgstr "Användning av panelprogrammet Ordbok"
+
+#~ msgid ""
+#~ "To look up a word, type it into the <guilabel>entry field</guilabel>, and "
+#~ "press <keycap>Enter</keycap> or right-click on the dictionary icon and "
+#~ "then choose <guimenuitem>Look up</guimenuitem>."
+#~ msgstr ""
+#~ "För att slå upp ett ord, skriv in det i <guilabel>inmatningsfältet</"
+#~ "guilabel> och tryck på <keycap>Enter</keycap>, eller högerklicka på "
+#~ "ordboksikonen och välj sedan <guimenuitem>Slå upp</guimenuitem>."
+
+#~ msgid ""
+#~ "If some definition for the word was found, a window will appear, with the "
+#~ "text of the definitions:"
+#~ msgstr ""
+#~ "Om någon definition för ordet hittas, kommer ett fönster med texten för "
+#~ "definitionerna att visas:"
+
+#~ msgid "Shows Dictionary Applet main window."
+#~ msgstr "Visar panelprogrammet Ordboks huvudfönster."
+
+#~ msgid ""
+#~ "Click <guibutton>Save</guibutton> to save the definitions to a text file. "
+#~ "Click <guibutton>Print</guibutton> to print the definitions. Click "
+#~ "<guibutton>Clear</guibutton> to clear the definitions."
+#~ msgstr ""
+#~ "Klicka på <guibutton>Spara</guibutton> för att spara definitionerna till "
+#~ "en textfil. Klicka på <guibutton>Skriv ut</guibutton> för att skriva ut "
+#~ "definitionerna. Klicka på <guibutton>Töm</guibutton> för att tömma "
+#~ "definitionerna."
+
+#~ msgid ""
+#~ "You can make the window disappear by left-clicking on the dictionary icon "
+#~ "or by pressing <keycap>Esc</keycap>."
+#~ msgstr ""
+#~ "Du kan låta fönstret försvinna genom att vänsterklicka på ordboksikonen "
+#~ "eller genom att trycka på <keycap>Esc</keycap>."
+
+#~ msgid ""
+#~ "To configure the <application>Dictionary Applet</application>, right-"
+#~ "click on the dictionary icon, then choose <guimenuitem>Preferences</"
+#~ "guimenuitem>."
+#~ msgstr ""
+#~ "För att konfigurera <application>Panelprogrammet Ordbok</application>, "
+#~ "högerklicka på ordboksikonen och välj sedan <guimenuitem>Inställningar</"
+#~ "guimenuitem>."
+
+#~ msgid ""
+#~ "The <guilabel>Preferences</guilabel> dialog is the same used by the "
+#~ "<application>Dictionary</application> application, so refer to <xref "
+#~ "linkend=\"gnome-dictionary-preferences\"/>"
+#~ msgstr ""
+#~ "Dialogrutan <guilabel>Inställningar</guilabel> är samma som används av "
+#~ "programmet <application>Ordbok</application>, så referera till <xref "
+#~ "linkend=\"gnome-dictionary-preferences\"/>"
