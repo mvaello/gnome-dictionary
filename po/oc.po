@@ -7,8 +7,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-dictionary master\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-dictionary&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2016-04-29 08:20+0000\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
+"dictionary&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2016-05-23 17:40+0000\n"
 "PO-Revision-Date: 2016-05-09 18:23+0200\n"
 "Last-Translator: Cédric Valmary (totenoc.eu) <cvalmary@yahoo.fr>\n"
 "Language-Team: Tot En Òc\n"
@@ -31,11 +32,21 @@ msgstr "Diccionari GNOME"
 #: ../data/org.gnome.Dictionary.appdata.xml.in.h:2
 #: ../data/org.gnome.Dictionary.desktop.in.in.h:2
 msgid "Check word definitions and spellings in an online dictionary"
-msgstr "Verificar la definicion e l'ortografia dels mots dins un diccionari en linha"
+msgstr ""
+"Verificar la definicion e l'ortografia dels mots dins un diccionari en linha"
 
 #: ../data/org.gnome.Dictionary.appdata.xml.in.h:3
-msgid "GNOME Dictionary is a simple dictionary application that looks up definitions of words online. Though it looks up English definitions by default, you can easily switch to Spanish or add other online dictionaries using the DICT protocol to suit your needs."
-msgstr "Lo Diccionari GNOME es una simpla aplicacion de diccionari que permet de consultar de definicions de mots en linha. Quitament se per defaut, son las definicions anglesas que son recercadas, es fòrça aisit de causir una autra lenga o d'apondre d'autres diccionaris en linha que se confòrman al protocòl DICT per fin de respondre a vòstres pròpris besonhs."
+msgid ""
+"GNOME Dictionary is a simple dictionary application that looks up "
+"definitions of words online. Though it looks up English definitions by "
+"default, you can easily switch to Spanish or add other online dictionaries "
+"using the DICT protocol to suit your needs."
+msgstr ""
+"Lo Diccionari GNOME es una simpla aplicacion de diccionari que permet de "
+"consultar de definicions de mots en linha. Quitament se per defaut, son las "
+"definicions anglesas que son recercadas, es fòrça aisit de causir una autra "
+"lenga o d'apondre d'autres diccionaris en linha que se confòrman al protocòl "
+"DICT per fin de respondre a vòstres pròpris besonhs."
 
 #: ../src/gdict-app-menus.ui.h:1
 msgid "_New Window"
@@ -200,19 +211,31 @@ msgstr "mot;sinonim;definicion;ortografia;"
 
 #: ../data/org.gnome.dictionary.gschema.xml.h:1
 msgid "The default database to use"
-msgstr "La banca de donadas d'utilizar per defaut"
+msgstr "La basa de donadas d'utilizar per defaut"
 
 #: ../data/org.gnome.dictionary.gschema.xml.h:2
-msgid "The name of the default individual database or meta-database to use on a dictionary source. An exclamation mark (\"!\") means that all the databases present in a dictionary source should be searched"
-msgstr "Lo nom de la banca de donadas individuala o de la mètabanca de donadas d'utilizar amb lo servidor de diccionari. Un punt d'exclamacion (« ! ») indica que gnome-dictionary deu recercar dins totas las bancas de donadas sus un servidor donat"
+msgid ""
+"The name of the default individual database or meta-database to use on a "
+"dictionary source. An exclamation mark (\"!\") means that all the databases "
+"present in a dictionary source should be searched"
+msgstr ""
+"Lo nom de la basa de donadas individuala o de la mètabasa de donadas "
+"d'utilizar amb lo servidor de diccionari. Un punt d'exclamacion (« ! ») "
+"indica que gnome-dictionary deu recercar dins totas las bancas de donadas "
+"sus un servidor donat"
 
 #: ../data/org.gnome.dictionary.gschema.xml.h:3
 msgid "The default search strategy to use"
 msgstr "L'estrategia de recèrca d'utilizar per defaut"
 
 #: ../data/org.gnome.dictionary.gschema.xml.h:4
-msgid "The name of the default search strategy to use on a dictionary source, if available. The default strategy is 'exact', that is match exact words."
-msgstr "Se disponible, lo nom de l'estrategia de recèrca per defaut d'utilizar sus una font de diccionaris. L'estrategia per defaut es « exact », aquò significa una correspondéncia exacta entre los mots."
+msgid ""
+"The name of the default search strategy to use on a dictionary source, if "
+"available. The default strategy is 'exact', that is match exact words."
+msgstr ""
+"Se disponible, lo nom de l'estrategia de recèrca per defaut d'utilizar sus "
+"una font de diccionaris. L'estrategia per defaut es « exact », aquò "
+"significa una correspondéncia exacta entre los mots."
 
 #: ../data/org.gnome.dictionary.gschema.xml.h:5
 msgid "The font to be used when printing"
@@ -227,8 +250,11 @@ msgid "The name of the dictionary source used"
 msgstr "Lo nom de la font de diccionaris d'utilizar"
 
 #: ../data/org.gnome.dictionary.gschema.xml.h:8
-msgid "The name of the dictionary source used to retrieve the definitions of words."
-msgstr "Lo nom de la font de diccionaris utilizada per recercar las definicions dels mots."
+msgid ""
+"The name of the dictionary source used to retrieve the definitions of words."
+msgstr ""
+"Lo nom de la font de diccionaris utilizada per recercar las definicions dels "
+"mots."
 
 #: ../data/spanish.desktop.in.h:1
 msgid "Spanish Dictionaries"
@@ -246,7 +272,9 @@ msgstr "Pas cap de connexion al servidor de diccionaris « %s:%d »"
 #: ../libgdict/gdict-client-context.c:1058
 #, c-format
 msgid "Lookup failed for hostname '%s': no suitable resources found"
-msgstr "La recèrca de l'òste « %s » a fracassat : cap de ressorsa adaptada es pas etada trobada"
+msgstr ""
+"La recèrca de l'òste « %s » a fracassat : cap de ressorsa adaptada es pas "
+"etada trobada"
 
 #: ../libgdict/gdict-client-context.c:1089
 #, c-format
@@ -260,14 +288,20 @@ msgstr "La recèrca de l'òste « %s » a fracassat : òste pas trobat"
 
 #: ../libgdict/gdict-client-context.c:1175
 #, c-format
-msgid "Unable to connect to the dictionary server at '%s:%d'. The server replied with code %d (server down)"
-msgstr "Impossible de se connectar al servidor de diccionaris « %s:%d'. Lo servidor a tornat lo còdi %d (servidor en pana)"
+msgid ""
+"Unable to connect to the dictionary server at '%s:%d'. The server replied "
+"with code %d (server down)"
+msgstr ""
+"Impossible de se connectar al servidor de diccionaris « %s:%d'. Lo servidor "
+"a tornat lo còdi %d (servidor en pana)"
 
 #: ../libgdict/gdict-client-context.c:1194
 #, c-format
-msgid "Unable to parse the dictionary server reply\n"
+msgid ""
+"Unable to parse the dictionary server reply\n"
 ": '%s'"
-msgstr "Impossible d'analisar la responsa del servidor de diccionaris\n"
+msgstr ""
+"Impossible d'analisar la responsa del servidor de diccionaris\n"
 ": « %s »"
 
 #: ../libgdict/gdict-client-context.c:1223
@@ -278,7 +312,7 @@ msgstr "Cap de definicion pas trobada per '%s'"
 #: ../libgdict/gdict-client-context.c:1238
 #, c-format
 msgid "Invalid database '%s'"
-msgstr "Banca de donadas invalida « %s »"
+msgstr "Basa de donadas invalida « %s »"
 
 #: ../libgdict/gdict-client-context.c:1253
 #, c-format
@@ -298,7 +332,7 @@ msgstr "Paramètres invalids per la comanda « %s »"
 #: ../libgdict/gdict-client-context.c:1298
 #, c-format
 msgid "No databases found on dictionary server at '%s'"
-msgstr "Cap de banca de donadas pas trobada sul servidor de diccionaris « %s »"
+msgstr "Cap de basa de donadas pas trobada sul servidor de diccionaris « %s »"
 
 #: ../libgdict/gdict-client-context.c:1313
 #, c-format
@@ -312,9 +346,11 @@ msgstr "La connexion al servidor de diccionaris %s:%d a fracassat"
 
 #: ../libgdict/gdict-client-context.c:1784
 #, c-format
-msgid "Error while reading reply from server:\n"
+msgid ""
+"Error while reading reply from server:\n"
 "%s"
-msgstr "Error al moment de la lectura de la responsa del servidor :\n"
+msgstr ""
+"Error al moment de la lectura de la responsa del servidor :\n"
 "%s"
 
 #: ../libgdict/gdict-client-context.c:1857
@@ -380,18 +416,25 @@ msgstr "Tipe de transpòrt invalid « %d »"
 #: ../libgdict/gdict-source.c:461
 #, c-format
 msgid "No '%s' group found inside the dictionary source definition"
-msgstr "Cap de grop « %s » es pas estat trobat a l'interior de la definicion de la font de diccionaris"
+msgstr ""
+"Cap de grop « %s » es pas estat trobat a l'interior de la definicion de la "
+"font de diccionaris"
 
 #: ../libgdict/gdict-source.c:477 ../libgdict/gdict-source.c:501
 #: ../libgdict/gdict-source.c:525 ../libgdict/gdict-source.c:550
 #, c-format
 msgid "Unable to get the '%s' key inside the dictionary source definition: %s"
-msgstr "Impossible d'obténer la clau « %s » a l'interior de la font de definicions : %s"
+msgstr ""
+"Impossible d'obténer la clau « %s » a l'interior de la font de definicions : "
+"%s"
 
 #: ../libgdict/gdict-source.c:575
 #, c-format
-msgid "Unable to get the '%s' key inside the dictionary source definition file: %s"
-msgstr "Impossible d'obténer la clau « %s » a l'interior del fichièr de la font de definicions : %s"
+msgid ""
+"Unable to get the '%s' key inside the dictionary source definition file: %s"
+msgstr ""
+"Impossible d'obténer la clau « %s » a l'interior del fichièr de la font de "
+"definicions : %s"
 
 #: ../libgdict/gdict-source.c:769
 #, c-format
@@ -441,7 +484,8 @@ msgstr "Afichar las opcions de GDict"
 
 #: ../src/gdict-about.c:53
 msgid "translator-credits"
-msgstr "Yannig Marchegay (Kokoyaya) <yannig@marchegay.org>\n"
+msgstr ""
+"Yannig Marchegay (Kokoyaya) <yannig@marchegay.org>\n"
 "Cédric Valmary (totenoc.eu) <cvalmary@yahoo.fr>"
 
 #: ../src/gdict-about.c:55
@@ -470,7 +514,7 @@ msgstr "NOM"
 
 #: ../src/gdict-app.c:65
 msgid "Database to use"
-msgstr "Banca de donadas d'utilizar"
+msgstr "Basa de donadas d'utilizar"
 
 #: ../src/gdict-app.c:71
 msgid "Strategy to use"
@@ -692,10 +736,10 @@ msgstr "Fonts de diccionari"
 #~ msgstr "Indica se la font de diccionaris pòt èsser modificada o pas"
 
 #~ msgid "Database"
-#~ msgstr "Banca de donadas"
+#~ msgstr "Basa de donadas"
 
 #~ msgid "The default database of this dictionary source"
-#~ msgstr "La banca de donadas per defaut d'aquesta font de diccionaris"
+#~ msgstr "La basa de donadas per defaut d'aquesta font de diccionaris"
 
 #~ msgid "Strategy"
 #~ msgstr "Estrategia"
@@ -731,13 +775,13 @@ msgstr "Fonts de diccionari"
 #~ msgstr "L'objècte GdictContext utilizat per obténer la definicion del mot"
 
 #~ msgid "The database used to query the GdictContext"
-#~ msgstr "La banca de donadas utilizada per recercar lo GdictContext"
+#~ msgstr "La basa de donadas utilizada per recercar lo GdictContext"
 
 #~ msgid "The strategy used to query the GdictContext"
 #~ msgstr "L'estrategia utilizada per interroger lo GdictContext"
 
 #~ msgid "Double-click on the database to use"
-#~ msgstr "Doble-clicatz sus la banca de donadas d'utilizar"
+#~ msgstr "Doble-clicatz sus la basa de donadas d'utilizar"
 
 #~ msgid "Available dictionaries"
 #~ msgstr "Diccionaris disponibles"
@@ -808,7 +852,7 @@ msgstr "Fonts de diccionari"
 #~ msgstr "Estrategia"
 
 #~ msgid "Database `%s' selected"
-#~ msgstr "Banca de donadas « %s » seleccionada"
+#~ msgstr "Basa de donadas « %s » seleccionada"
 
 #~ msgid "Word `%s' selected"
 #~ msgstr "Mot « %s » seleccionat"
