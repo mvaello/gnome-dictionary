@@ -18,8 +18,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-utils.HEAD.he\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-28 13:40+0300\n"
-"PO-Revision-Date: 2015-04-28 13:43+0300\n"
+"POT-Creation-Date: 2016-08-10 11:34+0300\n"
+"PO-Revision-Date: 2016-08-10 11:35+0300\n"
 "Last-Translator: Yosef Or Boczko <yoseforb@gmail.com>\n"
 "Language-Team: עברית <>\n"
 "Language: he\n"
@@ -34,6 +34,15 @@ msgid "Default Dictionary Server"
 msgstr "שרת מילון בררת המחדל"
 
 #: ../data/org.gnome.Dictionary.appdata.xml.in.h:1
+msgid "GNOME Dictionary"
+msgstr "מילון GNOME"
+
+#: ../data/org.gnome.Dictionary.appdata.xml.in.h:2
+#: ../data/org.gnome.Dictionary.desktop.in.in.h:2
+msgid "Check word definitions and spellings in an online dictionary"
+msgstr "חיפוש הגדרה ואיות של מילים במילון מקוון"
+
+#: ../data/org.gnome.Dictionary.appdata.xml.in.h:3
 msgid ""
 "GNOME Dictionary is a simple dictionary application that looks up "
 "definitions of words online. Though it looks up English definitions by "
@@ -65,92 +74,62 @@ msgid "Quit"
 msgstr "יציאה"
 
 #: ../src/gdict-app-menus.ui.h:6
-msgid "_File"
-msgstr "_קובץ"
-
-#: ../src/gdict-app-menus.ui.h:7
 msgid "_Save a Copy..."
 msgstr "_שמירת עותק..."
 
-#: ../src/gdict-app-menus.ui.h:8
+#: ../src/gdict-app-menus.ui.h:7
 msgid "P_review"
 msgstr "_תצוגה מקדימה"
 
-#: ../src/gdict-app-menus.ui.h:9
+#: ../src/gdict-app-menus.ui.h:8
 msgid "_Print"
 msgstr "ה_דפסה"
 
-#. we just allow closing the dialog
-#: ../src/gdict-app-menus.ui.h:10 ../src/gdict-pref-dialog.c:635
-#: ../src/gdict-source-dialog.c:560 ../src/gdict-source-dialog.c:574
-msgid "_Close"
-msgstr "_סגירה"
-
-#: ../src/gdict-app-menus.ui.h:11
-msgid "_Edit"
-msgstr "ע_ריכה"
-
-#: ../src/gdict-app-menus.ui.h:12
-msgid "_Copy"
-msgstr "ה_עתקה"
-
-#: ../src/gdict-app-menus.ui.h:13
-msgid "Select _All"
-msgstr "ב_חירת הכול"
-
-#: ../src/gdict-app-menus.ui.h:14
+#: ../src/gdict-app-menus.ui.h:9
 msgid "_Find"
 msgstr "_חיפוש"
 
-#: ../src/gdict-app-menus.ui.h:15
-msgid "Find Ne_xt"
-msgstr "חיפוש ה_בא"
-
-#: ../src/gdict-app-menus.ui.h:16
-msgid "Find Pre_vious"
-msgstr "חיפוש ה_קודם"
-
-#: ../src/gdict-app-menus.ui.h:17
+#: ../src/gdict-app-menus.ui.h:10
 msgid "_View"
 msgstr "_תצוגה"
 
-#: ../src/gdict-app-menus.ui.h:18
+#: ../src/gdict-app-menus.ui.h:11
 msgid "_Sidebar"
 msgstr "סרגל _צד"
 
-#: ../src/gdict-app-menus.ui.h:19
+#: ../src/gdict-app-menus.ui.h:12
 msgid "Similar _Words"
 msgstr "_מילים דומות"
 
-#: ../src/gdict-app-menus.ui.h:20
+#: ../src/gdict-app-menus.ui.h:13
 msgid "Dictionary Sources"
 msgstr "מקורות מילון"
 
-#: ../src/gdict-app-menus.ui.h:21
+#: ../src/gdict-app-menus.ui.h:14
 msgid "Available _Dictionaries"
 msgstr "מילונים _זמינים"
 
-#: ../src/gdict-app-menus.ui.h:22
+#: ../src/gdict-app-menus.ui.h:15
 msgid "Available St_rategies"
 msgstr "א_סטרטגיות זמינות"
 
-#: ../src/gdict-app-menus.ui.h:23
+#: ../src/gdict-app-menus.ui.h:16
 msgid "_Go"
 msgstr "מע_בר"
 
-#: ../src/gdict-app-menus.ui.h:24
+#: ../src/gdict-app-menus.ui.h:17
 msgid "_Previous Definition"
 msgstr "הגדרה קו_דמת"
 
-#: ../src/gdict-app-menus.ui.h:25
+#: ../src/gdict-app-menus.ui.h:18
 msgid "_Next Definition"
 msgstr "ההגדרה הב_אה"
 
-#: ../src/gdict-app-menus.ui.h:26
+#: ../src/gdict-app-menus.ui.h:19
 msgid "_First Definition"
 msgstr "הגדרה _ראשונה"
 
-#: ../src/gdict-app-menus.ui.h:27
+#: ../src/gdict-app-menus.ui.h:20
 msgid "_Last Definition"
 msgstr "הגדרה אחרו_נה"
 
@@ -174,7 +153,7 @@ msgstr "עריכה"
 msgid "Edit the currently selected dictionary source"
 msgstr "עריכת מקור המילון הנוכחי שנבחר"
 
-#: ../src/gdict-pref-dialog.ui.h:6 ../src/gdict-source-dialog.ui.h:6
+#: ../src/gdict-pref-dialog.ui.h:6 ../src/gdict-source-dialog.ui.h:8
 msgid "Source"
 msgstr "מקור"
 
@@ -191,49 +170,45 @@ msgid "Print"
 msgstr "הדפסה"
 
 #: ../src/gdict-source-dialog.ui.h:1
-msgid "_Description:"
-msgstr "תי_אור:"
+msgid "_Description"
+msgstr "תי_אור"
 
 #: ../src/gdict-source-dialog.ui.h:2
-msgid "_Transport:"
-msgstr "_תעבורה:"
+msgid "_Port"
+msgstr "_פתחה"
 
 #: ../src/gdict-source-dialog.ui.h:3
-msgid "H_ostname:"
-msgstr "שם מ_ארח:"
+msgid "_Hostname"
+msgstr "שם _מארח"
 
 #: ../src/gdict-source-dialog.ui.h:4
-msgid "_Port:"
-msgstr "_פתחה:"
+msgid "_Transport"
+msgstr "_תעבורה"
 
 #: ../src/gdict-source-dialog.ui.h:5
+msgid "2628"
+msgstr "2628"
+
+#: ../src/gdict-source-dialog.ui.h:6
+msgid "dict.org"
+msgstr "dict.org"
+
+#: ../src/gdict-source-dialog.ui.h:7
 msgid "Source Name"
 msgstr "שם מקור"
 
-#: ../src/gdict-source-dialog.ui.h:7
+#: ../src/gdict-source-dialog.ui.h:9
 msgid "Dictionaries"
 msgstr "מילונים"
 
-#: ../src/gdict-source-dialog.ui.h:8
+#: ../src/gdict-source-dialog.ui.h:10
 msgid "Strategies"
 msgstr "אסטרטגיות"
 
-#: ../src/gdict-app-window.ui.h:1
-msgid "page0"
-msgstr "עמוד 0"
-
-#: ../src/gdict-app-window.ui.h:2
-msgid "page1"
-msgstr "עמוד 1"
-
 #: ../data/org.gnome.Dictionary.desktop.in.in.h:1 ../src/gdict-about.c:60
-#: ../src/gdict-window.c:503 ../src/gdict-window.c:1649
+#: ../src/gdict-window.c:500 ../src/gdict-window.c:1527
 msgid "Dictionary"
 msgstr "מילון"
-
-#: ../data/org.gnome.Dictionary.desktop.in.in.h:2
-msgid "Check word definitions and spellings in an online dictionary"
-msgstr "חיפוש הגדרה ואיות של מילים במילון מקוון"
 
 #: ../data/org.gnome.Dictionary.desktop.in.in.h:3
 msgid "word;synonym;definition;spelling;"
@@ -290,38 +265,6 @@ msgstr "מילונים ספרדיים"
 #: ../data/thai.desktop.in.h:1
 msgid "Longdo Thai-English Dictionaries"
 msgstr "מילוני Longdo תאילנדית-אנגלית"
-
-#: ../libgdict/gdict-client-context.c:282
-msgid "Client Name"
-msgstr "שם הלקוח"
-
-#: ../libgdict/gdict-client-context.c:283
-msgid "The name of the client of the context object"
-msgstr "שם הלקוח של פריט ההקשר"
-
-#: ../libgdict/gdict-client-context.c:296
-msgid "Hostname"
-msgstr "שם מארח"
-
-#: ../libgdict/gdict-client-context.c:297
-msgid "The hostname of the dictionary server to connect to"
-msgstr "שם המארח של שרת המילון שאליו יש להתחבר"
-
-#: ../libgdict/gdict-client-context.c:310
-msgid "Port"
-msgstr "פתחה"
-
-#: ../libgdict/gdict-client-context.c:311
-msgid "The port of the dictionary server to connect to"
-msgstr "הפתחה בשרת המילון אליה יש להתחבר"
-
-#: ../libgdict/gdict-client-context.c:326
-msgid "Status"
-msgstr "מצב"
-
-#: ../libgdict/gdict-client-context.c:327
-msgid "The status code as returned by the dictionary server"
-msgstr "קוד המצב כפי שהוחזר על ידי שרת המילון"
 
 #: ../libgdict/gdict-client-context.c:775
 #, c-format
@@ -396,12 +339,12 @@ msgstr "לא נמצאו בסיסי נתונים בשרת המילון בכתוב
 msgid "No strategies found on dictionary server at '%s'"
 msgstr "לא נמצאו אסטרטגיות בשרת המילון בכתובת '%s'"
 
-#: ../libgdict/gdict-client-context.c:1738
+#: ../libgdict/gdict-client-context.c:1745
 #, c-format
 msgid "Connection failed to the dictionary server at %s:%d"
 msgstr "החיבור נכשל לשרת המילון בכתובת %s:%d"
 
-#: ../libgdict/gdict-client-context.c:1777
+#: ../libgdict/gdict-client-context.c:1784
 #, c-format
 msgid ""
 "Error while reading reply from server:\n"
@@ -410,49 +353,41 @@ msgstr ""
 "שגיאה בזמן קריאת תגובה מהשרת:\n"
 "%s"
 
-#: ../libgdict/gdict-client-context.c:1850
+#: ../libgdict/gdict-client-context.c:1857
 #, c-format
 msgid "Connection timeout for the dictionary server at '%s:%d'"
 msgstr "זמן החיבור שהוקצב לחיבור עם שרת המילון בכתובת '%s:%d' פג"
 
-#: ../libgdict/gdict-client-context.c:1884
+#: ../libgdict/gdict-client-context.c:1891
 #, c-format
 msgid "No hostname defined for the dictionary server"
 msgstr "לא נקבע שם מארח עבור שרת המילון"
 
-#: ../libgdict/gdict-client-context.c:1920
-#: ../libgdict/gdict-client-context.c:1935
+#: ../libgdict/gdict-client-context.c:1927
+#: ../libgdict/gdict-client-context.c:1942
 #, c-format
 msgid "Unable to create socket"
 msgstr "לא ניתן ליצור שקע התחברות"
 
-#: ../libgdict/gdict-client-context.c:1961
+#: ../libgdict/gdict-client-context.c:1968
 #, c-format
 msgid "Unable to set the channel as non-blocking: %s"
 msgstr "לא ניתן להגדיר את הערוץ כפתוח מחסימה: %s"
 
-#: ../libgdict/gdict-client-context.c:1976
+#: ../libgdict/gdict-client-context.c:1983
 #, c-format
 msgid "Unable to connect to the dictionary server at '%s:%d'"
 msgstr "לא ניתן להתחבר לשרת המילון בכתובת '%s:%d'"
 
-#: ../libgdict/gdict-context.c:217
-msgid "Local Only"
-msgstr "מקומי בלבד"
-
-#: ../libgdict/gdict-context.c:218
-msgid "Whether the context uses only local dictionaries or not"
-msgstr "האם ההקשר משתמש במילונים מקומיים בלבד או שלא."
-
-#: ../libgdict/gdict-database-chooser.c:373
+#: ../libgdict/gdict-database-chooser.c:374
 msgid "Reload the list of available databases"
 msgstr "רענון רשימת מסדי הנתונים הזמינים"
 
-#: ../libgdict/gdict-database-chooser.c:385
+#: ../libgdict/gdict-database-chooser.c:386
 msgid "Clear the list of available databases"
 msgstr "ניקוי רשימת מסדי הנתונים הזמינים"
 
-#: ../libgdict/gdict-database-chooser.c:836 ../libgdict/gdict-speller.c:767
+#: ../libgdict/gdict-database-chooser.c:840 ../libgdict/gdict-speller.c:767
 #: ../libgdict/gdict-strategy-chooser.c:775
 msgid "Error while matching"
 msgstr "שגיאה בזמן ההתאמה."
@@ -472,70 +407,6 @@ msgstr "נא להמתין עד לסיום החיפוש הנוכחי."
 #: ../libgdict/gdict-defbox.c:2472
 msgid "Error while retrieving the definition"
 msgstr "שגיאה בקבלת ההגדרה"
-
-#: ../libgdict/gdict-source.c:237
-msgid "Filename"
-msgstr "שם קובץ"
-
-#: ../libgdict/gdict-source.c:238
-msgid "The filename used by this dictionary source"
-msgstr "שם הקובץ בשימוש על ידי מקור מילון זה"
-
-#: ../libgdict/gdict-source.c:251
-msgid "Name"
-msgstr "שם"
-
-#: ../libgdict/gdict-source.c:252
-msgid "The display name of this dictionary source"
-msgstr "שם התצוגה של מקור מילון זה"
-
-#: ../libgdict/gdict-source.c:265
-msgid "Description"
-msgstr "תיאור"
-
-#: ../libgdict/gdict-source.c:266
-msgid "The description of this dictionary source"
-msgstr "התיאור של מקור המילון"
-
-#: ../libgdict/gdict-source.c:279
-msgid "Editable"
-msgstr "ניתן לעריכה"
-
-#: ../libgdict/gdict-source.c:280
-msgid "Whether the dictionary source is editable or not"
-msgstr "אם מקור המילון ניתן לעריכה או לא"
-
-#: ../libgdict/gdict-source.c:293 ../libgdict/gdict-speller.c:369
-msgid "Database"
-msgstr "מסד נתונים"
-
-#: ../libgdict/gdict-source.c:294
-msgid "The default database of this dictionary source"
-msgstr "מסד נתונים כבררת המחדל של מקור מילון זה"
-
-#: ../libgdict/gdict-source.c:307 ../libgdict/gdict-speller.c:376
-msgid "Strategy"
-msgstr "אסטרטגיה"
-
-#: ../libgdict/gdict-source.c:308
-msgid "The default strategy of this dictionary source"
-msgstr "אסטרטגיית בררת המחדל עבור מקור מילון זה"
-
-#: ../libgdict/gdict-source.c:321
-msgid "Transport"
-msgstr "תעבורה"
-
-#: ../libgdict/gdict-source.c:322
-msgid "The transport mechanism used by this dictionary source"
-msgstr "מנגנון התעבורה שנמצא בשימוש על ידי מקור מילון זה"
-
-#: ../libgdict/gdict-source.c:336 ../libgdict/gdict-speller.c:362
-msgid "Context"
-msgstr "תוכן"
-
-#: ../libgdict/gdict-source.c:337
-msgid "The GdictContext bound to this source"
-msgstr "The GdictContext bound to this source"
 
 #: ../libgdict/gdict-source.c:433
 #, c-format
@@ -573,37 +444,9 @@ msgstr "למקור המילון '%s' סוג התעבורה '%s' שגוי"
 msgid "Reload the list of available sources"
 msgstr "רענון רשימת המקורות הזמינים"
 
-#: ../libgdict/gdict-source-loader.c:170
-msgid "Paths"
-msgstr "נתיבים"
-
-#: ../libgdict/gdict-source-loader.c:171
-msgid "Search paths used by this object"
-msgstr "חיפוש נתיבים שנעשה בהם שימוש לפי פריט זה"
-
-#: ../libgdict/gdict-source-loader.c:183
-msgid "Sources"
-msgstr "מקורות"
-
-#: ../libgdict/gdict-source-loader.c:184
-msgid "Dictionary sources found"
-msgstr "נמצאו מקורות מילון"
-
 #: ../libgdict/gdict-speller.c:341
 msgid "Clear the list of similar words"
 msgstr "ניקוי רשימת המילים הדומות"
-
-#: ../libgdict/gdict-speller.c:363
-msgid "The GdictContext object used to get the word definition"
-msgstr "The GdictContext object used to get the word definition"
-
-#: ../libgdict/gdict-speller.c:370
-msgid "The database used to query the GdictContext"
-msgstr "The database used to query the GdictContext"
-
-#: ../libgdict/gdict-speller.c:377
-msgid "The strategy used to query the GdictContext"
-msgstr "The strategy used to query the GdictContext"
 
 #: ../libgdict/gdict-strategy-chooser.c:350
 msgid "Reload the list of available strategies"
@@ -625,11 +468,11 @@ msgstr "דגלונים"
 msgid "GDict debugging flags to unset"
 msgstr "ביטול הגדרת דגלוני ניפוי השגיאות של GDict"
 
-#: ../libgdict/gdict-utils.c:156
+#: ../libgdict/gdict-utils.c:157
 msgid "GDict Options"
 msgstr "GDict Options"
 
-#: ../libgdict/gdict-utils.c:157
+#: ../libgdict/gdict-utils.c:158
 msgid "Show GDict Options"
 msgstr "Show GDict Options"
 
@@ -650,88 +493,80 @@ msgstr ""
 msgid "Look up words in dictionaries"
 msgstr "חיפוש מילים במילונים"
 
-#: ../src/gdict-app.c:46 ../src/gdict-app.c:75
+#: ../src/gdict-app.c:47 ../src/gdict-app.c:76
 msgid "Words to look up"
 msgstr "Words to look up"
 
-#: ../src/gdict-app.c:46 ../src/gdict-app.c:52
+#: ../src/gdict-app.c:47 ../src/gdict-app.c:53
 msgid "WORD"
 msgstr "מילה"
 
-#: ../src/gdict-app.c:52
+#: ../src/gdict-app.c:53
 msgid "Words to match"
 msgstr "Words to match"
 
-#: ../src/gdict-app.c:58
+#: ../src/gdict-app.c:59
 msgid "Dictionary source to use"
 msgstr "Dictionary source to use"
 
-#: ../src/gdict-app.c:58 ../src/gdict-app.c:64 ../src/gdict-app.c:70
+#: ../src/gdict-app.c:59 ../src/gdict-app.c:65 ../src/gdict-app.c:71
 msgid "NAME"
 msgstr "שם"
 
-#: ../src/gdict-app.c:64
+#: ../src/gdict-app.c:65
 msgid "Database to use"
 msgstr "Database to use"
 
-#: ../src/gdict-app.c:70
+#: ../src/gdict-app.c:71
 msgid "Strategy to use"
 msgstr "Strategy to use"
 
-#: ../src/gdict-app.c:75
+#: ../src/gdict-app.c:76
 msgid "WORDS"
 msgstr "מילים"
 
-#: ../src/gdict-app.c:107
+#: ../src/gdict-app.c:108
 msgid "Dictionary Preferences"
 msgstr "העדפות המילון"
 
-#: ../src/gdict-app.c:129 ../src/gdict-pref-dialog.c:511
-#: ../src/gdict-source-dialog.c:452
-#, c-format
+#: ../src/gdict-app.c:130 ../src/gdict-source-dialog.c:452
 msgid "There was an error while displaying help"
 msgstr "אירעה שגיאה בהצגת העזרה"
 
-#: ../src/gdict-pref-dialog.c:264
+#: ../src/gdict-pref-dialog.c:262
 msgid "View Dictionary Source"
 msgstr "הצגת מקור המילון"
 
-#: ../src/gdict-pref-dialog.c:330
+#: ../src/gdict-pref-dialog.c:328
 msgid "Add Dictionary Source"
 msgstr "הוספת מקור מילון"
 
-#: ../src/gdict-pref-dialog.c:374
+#: ../src/gdict-pref-dialog.c:372
 #, c-format
 msgid "Remove \"%s\"?"
 msgstr "האם להסיר את ”%s“?"
 
-#: ../src/gdict-pref-dialog.c:376
+#: ../src/gdict-pref-dialog.c:374
 msgid "This will permanently remove the dictionary source from the list."
 msgstr "מקור המילון יוסר מהרשימה לצמיתות."
 
-#: ../src/gdict-pref-dialog.c:379 ../src/gdict-source-dialog.c:564
-#: ../src/gdict-window.c:826
+#: ../src/gdict-pref-dialog.c:377 ../src/gdict-source-dialog.c:564
+#: ../src/gdict-window.c:824
 msgid "_Cancel"
 msgstr "_ביטול"
 
-#: ../src/gdict-pref-dialog.c:380
+#: ../src/gdict-pref-dialog.c:378
 msgid "_Remove"
 msgstr "ה_סרה"
 
-#: ../src/gdict-pref-dialog.c:398
+#: ../src/gdict-pref-dialog.c:396
 #, c-format
 msgid "Unable to remove source '%s'"
 msgstr "לא ניתן להסיר את המקור '%s'"
 
-#: ../src/gdict-pref-dialog.c:445
+#: ../src/gdict-pref-dialog.c:443
 msgid "Edit Dictionary Source"
 msgstr "עריכת מקור המילון"
-
-#. add buttons
-#. The help button is always visible
-#: ../src/gdict-pref-dialog.c:634 ../src/gdict-source-dialog.c:655
-msgid "_Help"
-msgstr "_עזרה"
 
 #: ../src/gdict-print.c:239 ../src/gdict-print.c:303
 #, c-format
@@ -746,6 +581,11 @@ msgstr "לא ניתן ליצור קובץ מקור"
 msgid "Unable to save source file"
 msgstr "לא ניתן לשמור את קובץ המקור"
 
+#. we just allow closing the dialog
+#: ../src/gdict-source-dialog.c:560 ../src/gdict-source-dialog.c:574
+msgid "_Close"
+msgstr "_סגירה"
+
 #: ../src/gdict-source-dialog.c:565
 msgid "_Add"
 msgstr "ה_וספה"
@@ -754,81 +594,206 @@ msgstr "ה_וספה"
 msgid "C_ancel"
 msgstr "_ביטול"
 
-#: ../src/gdict-window.c:418
+#. The help button is always visible
+#: ../src/gdict-source-dialog.c:655
+msgid "_Help"
+msgstr "_עזרה"
+
+#: ../src/gdict-window.c:415
 #, c-format
 msgid "No dictionary source available with name '%s'"
 msgstr "איו מקור מילון זמין בשם '%s'"
 
-#: ../src/gdict-window.c:422
+#: ../src/gdict-window.c:419
 msgid "Unable to find dictionary source"
 msgstr "לא ניתן למצוא את מקור המילון"
 
-#: ../src/gdict-window.c:438
+#: ../src/gdict-window.c:435
 #, c-format
 msgid "No context available for source '%s'"
 msgstr "לא קיים הקשר עבור המקור '%s'"
 
-#: ../src/gdict-window.c:442
+#: ../src/gdict-window.c:439
 msgid "Unable to create a context"
 msgstr "לא ניתן ליצור הקשר"
 
-#: ../src/gdict-window.c:501
+#: ../src/gdict-window.c:498
 #, c-format
 msgid "%s - Dictionary"
 msgstr "מילון - %s"
 
-#: ../src/gdict-window.c:823
+#: ../src/gdict-window.c:821
 msgid "Save a Copy"
 msgstr "שמירת עותק"
 
-#: ../src/gdict-window.c:827
+#: ../src/gdict-window.c:825
 msgid "_Save"
 msgstr "_שמירה"
 
-#: ../src/gdict-window.c:833
+#: ../src/gdict-window.c:831
 msgid "Untitled document"
 msgstr "מסמך ללא שם"
 
-#: ../src/gdict-window.c:854
+#: ../src/gdict-window.c:852
 #, c-format
 msgid "Error while writing to '%s'"
 msgstr "שגיאה בזמן הכתיבה אל '%s'"
 
 #. speller
-#: ../src/gdict-window.c:1305
+#: ../src/gdict-window.c:1213
 msgid "Double-click on the word to look up"
 msgstr "יש ללחוץ לחיצה כפולה על המילה לחיפוש"
 
 #. strat-chooser
-#: ../src/gdict-window.c:1311
+#: ../src/gdict-window.c:1219
 msgid "Double-click on the matching strategy to use"
 msgstr "יש ללחוץ לחיצה כפולה על אסטרטגיית ההתאמות לשימוש"
 
 #. source-chooser
-#: ../src/gdict-window.c:1316
+#: ../src/gdict-window.c:1224
 msgid "Double-click on the source to use"
 msgstr "יש ללחוץ לחיצה כפולה על המקור לשימוש"
 
-#. db-chooser
-#: ../src/gdict-window.c:1325
-msgid "Double-click on the database to use"
-msgstr "יש ללחוץ לחיצה כפולה על מסד הנתונים לשימוש"
-
-#: ../src/gdict-window.c:1546
+#: ../src/gdict-window.c:1424
 msgid "Similar words"
 msgstr "מילים דומות"
 
-#: ../src/gdict-window.c:1559
-msgid "Available dictionaries"
-msgstr "מילונים זמינים"
-
-#: ../src/gdict-window.c:1577
+#: ../src/gdict-window.c:1455
 msgid "Available strategies"
 msgstr "אסטרטגיות זמינות"
 
-#: ../src/gdict-window.c:1593
+#: ../src/gdict-window.c:1471
 msgid "Dictionary sources"
 msgstr "מקורות מילון"
+
+#~ msgid "_File"
+#~ msgstr "_קובץ"
+
+#~ msgid "_Edit"
+#~ msgstr "ע_ריכה"
+
+#~ msgid "_Copy"
+#~ msgstr "ה_עתקה"
+
+#~ msgid "Select _All"
+#~ msgstr "ב_חירת הכול"
+
+#~ msgid "Find Ne_xt"
+#~ msgstr "חיפוש ה_בא"
+
+#~ msgid "Find Pre_vious"
+#~ msgstr "חיפוש ה_קודם"
+
+#~ msgid "H_ostname:"
+#~ msgstr "שם מ_ארח:"
+
+#~ msgid "page0"
+#~ msgstr "עמוד 0"
+
+#~ msgid "page1"
+#~ msgstr "עמוד 1"
+
+#~ msgid "Client Name"
+#~ msgstr "שם הלקוח"
+
+#~ msgid "The name of the client of the context object"
+#~ msgstr "שם הלקוח של פריט ההקשר"
+
+#~ msgid "The hostname of the dictionary server to connect to"
+#~ msgstr "שם המארח של שרת המילון שאליו יש להתחבר"
+
+#~ msgid "Port"
+#~ msgstr "פתחה"
+
+#~ msgid "The port of the dictionary server to connect to"
+#~ msgstr "הפתחה בשרת המילון אליה יש להתחבר"
+
+#~ msgid "Status"
+#~ msgstr "מצב"
+
+#~ msgid "The status code as returned by the dictionary server"
+#~ msgstr "קוד המצב כפי שהוחזר על ידי שרת המילון"
+
+#~ msgid "Local Only"
+#~ msgstr "מקומי בלבד"
+
+#~ msgid "Whether the context uses only local dictionaries or not"
+#~ msgstr "האם ההקשר משתמש במילונים מקומיים בלבד או שלא."
+
+#~ msgid "Filename"
+#~ msgstr "שם קובץ"
+
+#~ msgid "The filename used by this dictionary source"
+#~ msgstr "שם הקובץ בשימוש על ידי מקור מילון זה"
+
+#~ msgid "Name"
+#~ msgstr "שם"
+
+#~ msgid "The display name of this dictionary source"
+#~ msgstr "שם התצוגה של מקור מילון זה"
+
+#~ msgid "Description"
+#~ msgstr "תיאור"
+
+#~ msgid "The description of this dictionary source"
+#~ msgstr "התיאור של מקור המילון"
+
+#~ msgid "Editable"
+#~ msgstr "ניתן לעריכה"
+
+#~ msgid "Whether the dictionary source is editable or not"
+#~ msgstr "אם מקור המילון ניתן לעריכה או לא"
+
+#~ msgid "Database"
+#~ msgstr "מסד נתונים"
+
+#~ msgid "The default database of this dictionary source"
+#~ msgstr "מסד נתונים כבררת המחדל של מקור מילון זה"
+
+#~ msgid "Strategy"
+#~ msgstr "אסטרטגיה"
+
+#~ msgid "The default strategy of this dictionary source"
+#~ msgstr "אסטרטגיית בררת המחדל עבור מקור מילון זה"
+
+#~ msgid "Transport"
+#~ msgstr "תעבורה"
+
+#~ msgid "The transport mechanism used by this dictionary source"
+#~ msgstr "מנגנון התעבורה שנמצא בשימוש על ידי מקור מילון זה"
+
+#~ msgid "Context"
+#~ msgstr "תוכן"
+
+#~ msgid "The GdictContext bound to this source"
+#~ msgstr "The GdictContext bound to this source"
+
+#~ msgid "Paths"
+#~ msgstr "נתיבים"
+
+#~ msgid "Search paths used by this object"
+#~ msgstr "חיפוש נתיבים שנעשה בהם שימוש לפי פריט זה"
+
+#~ msgid "Sources"
+#~ msgstr "מקורות"
+
+#~ msgid "Dictionary sources found"
+#~ msgstr "נמצאו מקורות מילון"
+
+#~ msgid "The GdictContext object used to get the word definition"
+#~ msgstr "The GdictContext object used to get the word definition"
+
+#~ msgid "The database used to query the GdictContext"
+#~ msgstr "The database used to query the GdictContext"
+
+#~ msgid "The strategy used to query the GdictContext"
+#~ msgstr "The strategy used to query the GdictContext"
+
+#~ msgid "Double-click on the database to use"
+#~ msgstr "יש ללחוץ לחיצה כפולה על מסד הנתונים לשימוש"
+
+#~ msgid "Available dictionaries"
+#~ msgstr "מילונים זמינים"
 
 #~ msgid "_New"
 #~ msgstr "_חדש"
