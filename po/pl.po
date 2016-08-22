@@ -1,9 +1,6 @@
-# -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-# Aviary.pl
-# Jeśli masz jakiekolwiek uwagi odnoszące się do tłumaczenia lub chcesz
-# pomóc w jego rozwijaniu i pielęgnowaniu, napisz do nas:
-# gnomepl@aviary.pl
-# -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+# Polish translation for gnome-dictionary.
+# Copyright © 1999-2016 the gnome-dictionary authors.
+# This file is distributed under the same license as the gnome-dictionary package.
 # Zbigniew Chyla <chyla@alice.ci.pwr.wroc.pl>, 1999-2003.
 # Artur Flinta <aflinta@at.kernel.pl>, 2003-2005.
 # Wadim Dziedzic <wdziedzic@aviary.pl>, 2007.
@@ -11,23 +8,22 @@
 # Joanna Mazgaj <jmazgaj@aviary.pl>, 2008.
 # Piotr Drąg <piotrdrag@gmail.com>, 2010-2016.
 # Paweł Żołnowski <pawel@zolnowski.name>, 2014-2015.
-# Aviary.pl <gnomepl@aviary.pl>, 2007-2016.
+# Aviary.pl <community-poland@mozilla.org>, 2007-2016.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-dictionary\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-23 17:44+0100\n"
-"PO-Revision-Date: 2016-01-23 17:45+0100\n"
+"POT-Creation-Date: 2016-08-23 00:15+0200\n"
+"PO-Revision-Date: 2016-08-23 00:17+0200\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
-"Language-Team: Polish <gnomepl@aviary.pl>\n"
+"Language-Team: Polish <community-poland@mozilla.org>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2);\n"
-"X-Poedit-Language: Polish\n"
-"X-Poedit-Country: Poland\n"
 
 #: ../data/default.desktop.in.h:1
 msgid "Default Dictionary Server"
@@ -40,7 +36,7 @@ msgstr "Słownik GNOME"
 #: ../data/org.gnome.Dictionary.appdata.xml.in.h:2
 #: ../data/org.gnome.Dictionary.desktop.in.in.h:2
 msgid "Check word definitions and spellings in an online dictionary"
-msgstr "Wyświetlanie definicji i pisowni słów w słowniku sieciowym"
+msgstr "Wyświetlanie definicji i pisowni słów w słowniku sieciowym"
 
 #: ../data/org.gnome.Dictionary.appdata.xml.in.h:3
 msgid ""
@@ -49,9 +45,9 @@ msgid ""
 "default, you can easily switch to Spanish or add other online dictionaries "
 "using the DICT protocol to suit your needs."
 msgstr ""
-"Słownik GNOME w prosty sposób umożliwia wyszukiwanie definicji słów w "
-"Internecie. Program domyślnie wyszukuje angielskie definicje, ale z "
-"łatwością można zmienić język na hiszpański lub dodać inne słowniki "
+"Słownik GNOME w prosty sposób umożliwia wyszukiwanie definicji słów "
+"w Internecie. Program domyślnie wyszukuje angielskie definicje, ale "
+"z łatwością można zmienić język na hiszpański lub dodać inne słowniki "
 "internetowe za pomocą protokołu DICT, aby dopasować go do swoich potrzeb."
 
 #: ../src/gdict-app-menus.ui.h:1
@@ -68,7 +64,7 @@ msgstr "Pomoc"
 
 #: ../src/gdict-app-menus.ui.h:4
 msgid "About"
-msgstr "O programie"
+msgstr "O programie"
 
 #: ../src/gdict-app-menus.ui.h:5
 msgid "Quit"
@@ -207,7 +203,7 @@ msgid "Strategies"
 msgstr "Strategie"
 
 #: ../data/org.gnome.Dictionary.desktop.in.in.h:1 ../src/gdict-about.c:60
-#: ../src/gdict-window.c:500 ../src/gdict-window.c:1528
+#: ../src/gdict-window.c:500 ../src/gdict-window.c:1527
 msgid "Dictionary"
 msgstr "Słownik"
 
@@ -238,7 +234,7 @@ msgid ""
 "The name of the default search strategy to use on a dictionary source, if "
 "available. The default strategy is 'exact', that is match exact words."
 msgstr ""
-"Nazwa domyślnej strategii wyszukiwania w słowniku (jeśli jest dostępna). "
+"Nazwa domyślnej strategii wyszukiwania w słowniku (jeśli jest dostępna). "
 "Domyślna strategia to „exact”, która dokładnie dopasowuje słowa."
 
 #: ../data/org.gnome.dictionary.gschema.xml.h:5
@@ -360,7 +356,7 @@ msgstr ""
 #: ../libgdict/gdict-client-context.c:1857
 #, c-format
 msgid "Connection timeout for the dictionary server at '%s:%d'"
-msgstr "Przekroczono czas połączenia z serwerem słownika „%s:%d”"
+msgstr "Przekroczono czas połączenia z serwerem słownika „%s:%d”"
 
 #: ../libgdict/gdict-client-context.c:1891
 #, c-format
@@ -381,7 +377,7 @@ msgstr "Nie można ustawić kanału jako nieblokujący: %s"
 #: ../libgdict/gdict-client-context.c:1983
 #, c-format
 msgid "Unable to connect to the dictionary server at '%s:%d'"
-msgstr "Nie można połączyć się z serwerem słownika „%s:%d”"
+msgstr "Nie można połączyć się z serwerem słownika „%s:%d”"
 
 #: ../libgdict/gdict-database-chooser.c:374
 msgid "Reload the list of available databases"
@@ -402,7 +398,7 @@ msgstr "Błąd podczas wyszukiwania definicji"
 
 #: ../libgdict/gdict-defbox.c:2432 ../libgdict/gdict-speller.c:725
 msgid "Another search is in progress"
-msgstr "Inne wyszukiwanie w toku"
+msgstr "Inne wyszukiwanie w toku"
 
 #: ../libgdict/gdict-defbox.c:2433 ../libgdict/gdict-speller.c:726
 msgid "Please wait until the current search ends."
@@ -491,11 +487,11 @@ msgstr ""
 "Joanna Mazgaj <jmazgaj@aviary.pl>, 2008\n"
 "Piotr Drąg <piotrdrag@gmail.com>, 2010-2016\n"
 "Paweł Żołnowski <pawel@zolnowski.name>, 2014-2015\n"
-"Aviary.pl <gnomepl@aviary.pl>, 2007-2016"
+"Aviary.pl <community-poland@mozilla.org>, 2007-2016"
 
 #: ../src/gdict-about.c:55
 msgid "Look up words in dictionaries"
-msgstr "Wyszukuje słowo w słowniku"
+msgstr "Wyszukuje słowo w słowniku"
 
 #: ../src/gdict-app.c:47 ../src/gdict-app.c:76
 msgid "Words to look up"
@@ -552,7 +548,7 @@ msgstr "Usunąć „%s”?"
 
 #: ../src/gdict-pref-dialog.c:374
 msgid "This will permanently remove the dictionary source from the list."
-msgstr "Opcja ta trwale usunie źródło słownika z listy."
+msgstr "Opcja ta trwale usunie źródło słownika z listy."
 
 #: ../src/gdict-pref-dialog.c:377 ../src/gdict-source-dialog.c:564
 #: ../src/gdict-window.c:824
@@ -606,7 +602,7 @@ msgstr "Pomo_c"
 #: ../src/gdict-window.c:415
 #, c-format
 msgid "No dictionary source available with name '%s'"
-msgstr "Nie odnaleziono źródła słownika o nazwie „%s”"
+msgstr "Nie odnaleziono źródła słownika o nazwie „%s”"
 
 #: ../src/gdict-window.c:419
 msgid "Unable to find dictionary source"
@@ -658,14 +654,14 @@ msgstr "Podwójne kliknięcie wybiera strategię do użycia"
 msgid "Double-click on the source to use"
 msgstr "Podwójne kliknięcie wybiera źródło"
 
-#: ../src/gdict-window.c:1425
+#: ../src/gdict-window.c:1424
 msgid "Similar words"
 msgstr "Podobne słowa"
 
-#: ../src/gdict-window.c:1456
+#: ../src/gdict-window.c:1455
 msgid "Available strategies"
 msgstr "Dostępne strategie"
 
-#: ../src/gdict-window.c:1472
+#: ../src/gdict-window.c:1471
 msgid "Dictionary sources"
 msgstr "Źródła słowników"
