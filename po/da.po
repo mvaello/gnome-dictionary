@@ -22,8 +22,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-utils\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-03-20 23:36+0100\n"
-"PO-Revision-Date: 2016-03-20 03:14+0100\n"
+"POT-Creation-Date: 2016-08-28 13:39+0200\n"
+"PO-Revision-Date: 2016-08-28 13:38+0200\n"
 "Last-Translator: Kenneth Nielsen <k.nielsen81@gmail.com>\n"
 "Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
 "Language: da\n"
@@ -604,7 +604,7 @@ msgstr "_Tilføj"
 
 #: ../src/gdict-source-dialog.c:573
 msgid "C_ancel"
-msgstr "A_nnullér"
+msgstr "_Annullér"
 
 #. The help button is always visible
 #: ../src/gdict-source-dialog.c:655
