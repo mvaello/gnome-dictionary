@@ -230,7 +230,6 @@ database_activated_cb (GdictDatabaseChooser *chooser,
 {
   GdictDatabaseChooserButton *chooser_button = user_data;
 
-  gtk_button_set_label (GTK_BUTTON (chooser_button), name);
   gtk_widget_set_tooltip_text (GTK_WIDGET (chooser_button), description);
 
   gtk_toggle_button_set_active (GTK_TOGGLE_BUTTON (chooser_button), FALSE);
@@ -423,11 +422,16 @@ gdict_database_chooser_button_init (GdictDatabaseChooserButton *chooser_button)
 {
   GdictDatabaseChooserButtonPrivate *priv;
 
-  chooser_button->priv = priv = GDICT_DATABASE_CHOOSER_BUTTON_GET_PRIVATE (chooser_button);
+  chooser_button->priv = priv =
+    gdict_database_chooser_button_get_instance_private (chooser_button);
 
   priv->start_id = 0;
   priv->end_id = 0;
   priv->error_id = 0;
+
+  gtk_button_set_image (GTK_BUTTON (chooser_button),
+                        gtk_image_new_from_icon_name ("view-list-symbolic",
+                                                      GTK_ICON_SIZE_BUTTON));
 
   priv->popover = gtk_popover_new (GTK_WIDGET (chooser_button));
   gtk_menu_button_set_direction (GTK_MENU_BUTTON (chooser_button), GTK_ARROW_NONE);
