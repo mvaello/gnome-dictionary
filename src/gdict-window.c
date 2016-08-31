@@ -915,9 +915,9 @@ gdict_window_cmd_change_view_sidebar (GSimpleAction *action,
   window->sidebar_visible = g_variant_get_boolean (state);
 
   if (window->sidebar_visible)
-    gtk_widget_show (window->sidebar_frame);
+    gtk_widget_show (window->sidebar_box);
   else
-    gtk_widget_hide (window->sidebar_frame);
+    gtk_widget_hide (window->sidebar_box);
 
   g_simple_action_set_state (action, state);
 }
@@ -1329,8 +1329,6 @@ gdict_window_constructed (GObject *gobject)
 {
   GApplication *app;
   GdictWindow *window;
-  GtkWidget *handle;
-  GtkWidget *frame1, *frame2;
   GtkWidget *button;
   PangoFontDescription *font_desc;
   gchar *font_name;
@@ -1377,21 +1375,13 @@ gdict_window_constructed (GObject *gobject)
                             G_CALLBACK (lookup_word),
                             window);
 
-  handle = gtk_paned_new (GTK_ORIENTATION_HORIZONTAL);
-  gtk_box_pack_end (GTK_BOX (window->main_box), handle, TRUE, TRUE, 0);
-  gtk_widget_show (handle);
-
-  frame1 = gtk_box_new (GTK_ORIENTATION_VERTICAL, 0);
-  frame2 = gtk_box_new (GTK_ORIENTATION_VERTICAL, 0);
-  
-  window->defbox = gdict_defbox_new ();
+  /* Defbox */
   if (window->context)
     gdict_defbox_set_context (GDICT_DEFBOX (window->defbox), window->context);
 
   g_signal_connect (window->defbox, "link-clicked",
                     G_CALLBACK (gdict_window_link_clicked),
                     window);
-
   gtk_drag_dest_set (window->defbox,
   		     GTK_DEST_DEFAULT_ALL,
   		     drop_types, n_drop_types,
@@ -1399,18 +1389,14 @@ gdict_window_constructed (GObject *gobject)
   g_signal_connect (window->defbox, "drag-data-received",
   		    G_CALLBACK (gdict_window_drag_data_received_cb),
   		    window);
-  gtk_container_add (GTK_CONTAINER (frame1), window->defbox);
-  gtk_widget_show (window->defbox);
 
   /* Sidebar */
-  window->sidebar = gdict_sidebar_new ();
   g_signal_connect (window->sidebar, "page-changed",
 		    G_CALLBACK (sidebar_page_changed_cb),
 		    window);
   g_signal_connect (window->sidebar, "closed",
 		    G_CALLBACK (sidebar_closed_cb),
 		    window);
-  gtk_widget_show (window->sidebar);
   
   /* Speller */
   window->speller = gdict_speller_new ();
@@ -1477,22 +1463,11 @@ gdict_window_constructed (GObject *gobject)
                    window, "source-name",
                    G_SETTINGS_BIND_DEFAULT);
 
-  gtk_container_add (GTK_CONTAINER (frame2), window->sidebar);
+  {
+    GAction *action = g_action_map_lookup_action (G_ACTION_MAP (window), "view-sidebar");
 
-  gtk_paned_pack1 (GTK_PANED (handle), frame1, TRUE, FALSE);
-  gtk_paned_pack2 (GTK_PANED (handle), frame2, FALSE, TRUE);
-
-  window->defbox_frame = frame1;
-  window->sidebar_frame = frame2;
-
-  gtk_widget_show (window->defbox_frame);
-
-  if (window->sidebar_visible)
-    {
-      GAction *action = g_action_map_lookup_action (G_ACTION_MAP (window),
-                                                    "view-sidebar");
-      g_action_change_state (action, g_variant_new_boolean (TRUE));
-    }
+    g_action_change_state (action, g_variant_new_boolean (window->sidebar_visible));
+  }
 
   /* retrieve the document font size */
   font_name = g_settings_get_string (window->desktop_settings, DOCUMENT_FONT_KEY);
@@ -1532,7 +1507,7 @@ gdict_window_constructed (GObject *gobject)
     gtk_window_maximize (GTK_WINDOW (window));
 
   gtk_widget_get_allocation (GTK_WIDGET (window), &allocation);
-  gtk_paned_set_position (GTK_PANED (handle), allocation.width - window->sidebar_width);
+  gtk_paned_set_position (GTK_PANED (window->main_pane), allocation.width - window->sidebar_width);
   if (window->sidebar_page != NULL)
     gdict_sidebar_view_page (GDICT_SIDEBAR (window->sidebar), window->sidebar_page);
   else
@@ -1544,7 +1519,7 @@ gdict_window_constructed (GObject *gobject)
   g_signal_connect (window, "window-state-event",
 		    G_CALLBACK (gdict_window_state_event_cb),
 		    NULL);
-  g_signal_connect (handle, "notify::position",
+  g_signal_connect (window->main_pane, "notify::position",
 		    G_CALLBACK (gdict_window_handle_notify_position_cb),
 		    window);
 
@@ -1561,6 +1536,9 @@ gdict_window_class_init (GdictWindowClass *klass)
   GObjectClass *gobject_class = G_OBJECT_CLASS (klass);
   GtkWidgetClass *widget_class = GTK_WIDGET_CLASS (klass);
 
+  g_type_ensure (GDICT_TYPE_DEFBOX);
+  g_type_ensure (GDICT_TYPE_SIDEBAR);
+
   gtk_widget_class_set_template_from_resource (widget_class,
                                                "/org/gnome/Dictionary/gdict-app-window.ui");
 
@@ -1570,6 +1548,11 @@ gdict_window_class_init (GdictWindowClass *klass)
   gtk_widget_class_bind_template_child (widget_class, GdictWindow, spinner);
   gtk_widget_class_bind_template_child (widget_class, GdictWindow, stack);
   gtk_widget_class_bind_template_child (widget_class, GdictWindow, header_box);
+  gtk_widget_class_bind_template_child (widget_class, GdictWindow, main_pane);
+  gtk_widget_class_bind_template_child (widget_class, GdictWindow, defbox_box);
+  gtk_widget_class_bind_template_child (widget_class, GdictWindow, sidebar_box);
+  gtk_widget_class_bind_template_child (widget_class, GdictWindow, defbox);
+  gtk_widget_class_bind_template_child (widget_class, GdictWindow, sidebar);
 
   gdict_window_properties[PROP_ACTION] =
     g_param_spec_enum ("action",

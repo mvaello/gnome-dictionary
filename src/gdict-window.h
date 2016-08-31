@@ -51,6 +51,9 @@ struct _GdictWindow
   GtkWidget *header_bar;
   GtkWidget *header_box;
   GtkWidget *main_box;
+  GtkWidget *main_pane;
+  GtkWidget *defbox_box;
+  GtkWidget *sidebar_box;
   GtkWidget *entry;
   GtkWidget *spinner;
   GtkWidget *stack;
@@ -62,10 +65,7 @@ struct _GdictWindow
   GtkWidget *source_chooser;
 
   GtkWidget *sidebar;
-  GtkWidget *sidebar_frame;
-  
   GtkWidget *defbox;
-  GtkWidget *defbox_frame;
 
   GtkEntryCompletion *completion;
   GtkListStore *completion_model;
