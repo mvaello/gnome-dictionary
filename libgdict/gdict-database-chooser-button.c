@@ -102,6 +102,9 @@ set_gdict_context (GdictDatabaseChooserButton *chooser_button,
   priv = chooser_button->priv;
 
   old_context = gdict_database_chooser_get_context (GDICT_DATABASE_CHOOSER (priv->db_chooser));
+  if (context == old_context)
+    return;
+
   if (old_context)
     {
       if (priv->start_id)
@@ -123,8 +126,7 @@ set_gdict_context (GdictDatabaseChooserButton *chooser_button,
       priv->is_loaded = FALSE;
     }
 
-  gdict_database_chooser_set_context (GDICT_DATABASE_CHOOSER (priv->db_chooser),
-				      context);
+  gdict_database_chooser_set_context (GDICT_DATABASE_CHOOSER (priv->db_chooser), context);
 }
 
 static void
@@ -237,50 +239,6 @@ database_activated_cb (GdictDatabaseChooser *chooser,
 		 name, description);
 }
 
-static GObject *
-gdict_database_chooser_button_constructor (GType		  type,
-					   guint		  n_params,
-					   GObjectConstructParam *params)
-{
-  GObjectClass *parent_class;
-  GObject *object;
-  GdictDatabaseChooserButton *chooser_button;
-  GdictDatabaseChooserButtonPrivate *priv;
-
-  parent_class = G_OBJECT_CLASS (gdict_database_chooser_button_parent_class);
-  object = parent_class->constructor (type, n_params, params);
-
-  chooser_button = GDICT_DATABASE_CHOOSER_BUTTON (object);
-  priv = chooser_button->priv;
-
-  priv->popover = gtk_popover_new (GTK_WIDGET (chooser_button));
-  gtk_menu_button_set_popover (GTK_MENU_BUTTON (chooser_button), priv->popover);
-
-  priv->stack = gtk_stack_new ();
-  gtk_container_add (GTK_CONTAINER (priv->popover), priv->stack);
-  gtk_widget_show (priv->stack);
-
-  priv->spinner = gtk_spinner_new ();
-  gtk_stack_add_named (GTK_STACK (priv->stack), priv->spinner, "spinner");
-  gtk_widget_show (priv->spinner);
-
-  priv->db_chooser = gdict_database_chooser_new ();
-  gtk_stack_add_named (GTK_STACK (priv->stack), priv->db_chooser, "chooser");
-  gtk_widget_show (priv->db_chooser);
-
-  g_signal_connect (priv->db_chooser,
-                    "selection-changed", G_CALLBACK (selection_changed_cb),
-                    chooser_button);
-
-  g_signal_connect (priv->db_chooser,
-                    "database-activated", G_CALLBACK (database_activated_cb),
-                    chooser_button);
-
-  priv->is_loaded = FALSE;
-
-  return object;
-}
-
 static void
 lookup_start_cb (GdictContext *context,
 		 gpointer      user_data)
@@ -389,7 +347,6 @@ gdict_database_chooser_button_class_init (GdictDatabaseChooserButtonClass *klass
   gobject_class->dispose = gdict_database_chooser_button_dispose;
   gobject_class->set_property = gdict_database_chooser_button_set_property;
   gobject_class->get_property = gdict_database_chooser_button_get_property;
-  gobject_class->constructor = gdict_database_chooser_button_constructor;
   button_class->clicked = gdict_database_chooser_button_clicked;
 
   /**
@@ -471,12 +428,35 @@ gdict_database_chooser_button_init (GdictDatabaseChooserButton *chooser_button)
 
   chooser_button->priv = priv = GDICT_DATABASE_CHOOSER_BUTTON_GET_PRIVATE (chooser_button);
 
-  gtk_menu_button_set_use_popover (GTK_MENU_BUTTON (chooser_button), TRUE);
-  gtk_menu_button_set_direction (GTK_MENU_BUTTON (chooser_button), GTK_ARROW_NONE);
-
   priv->start_id = 0;
   priv->end_id = 0;
   priv->error_id = 0;
+
+  priv->popover = gtk_popover_new (GTK_WIDGET (chooser_button));
+  gtk_menu_button_set_direction (GTK_MENU_BUTTON (chooser_button), GTK_ARROW_NONE);
+  gtk_menu_button_set_popover (GTK_MENU_BUTTON (chooser_button), priv->popover);
+
+  priv->stack = gtk_stack_new ();
+  gtk_container_add (GTK_CONTAINER (priv->popover), priv->stack);
+  gtk_widget_show (priv->stack);
+
+  priv->spinner = gtk_spinner_new ();
+  gtk_stack_add_named (GTK_STACK (priv->stack), priv->spinner, "spinner");
+  gtk_widget_show (priv->spinner);
+
+  priv->db_chooser = gdict_database_chooser_new ();
+  gtk_stack_add_named (GTK_STACK (priv->stack), priv->db_chooser, "chooser");
+  gtk_widget_show (priv->db_chooser);
+
+  g_signal_connect (priv->db_chooser,
+                    "selection-changed", G_CALLBACK (selection_changed_cb),
+                    chooser_button);
+
+  g_signal_connect (priv->db_chooser,
+                    "database-activated", G_CALLBACK (database_activated_cb),
+                    chooser_button);
+
+  priv->is_loaded = FALSE;
 }
 
 /**
