@@ -1297,15 +1297,15 @@ gdict_window_size_allocate (GtkWidget     *widget,
 {
   GdictWindow *window = GDICT_WINDOW (widget);
 
+  if (GTK_WIDGET_CLASS (gdict_window_parent_class)->size_allocate != NULL)
+    GTK_WIDGET_CLASS (gdict_window_parent_class)->size_allocate (widget, allocation);
+
   if (!window->is_maximized)
     {
-      window->current_width = allocation->width;
-      window->current_height = allocation->height;
+      gtk_window_get_size (GTK_WINDOW (widget),
+                           &window->current_width,
+                           &window->current_height);
     }
-
-  if (GTK_WIDGET_CLASS (gdict_window_parent_class)->size_allocate)
-    GTK_WIDGET_CLASS (gdict_window_parent_class)->size_allocate (widget,
-		    						 allocation);
 }
 
 static void
