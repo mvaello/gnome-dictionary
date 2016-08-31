@@ -78,11 +78,6 @@
             <attribute name="accel">&lt;Primary&gt;d</attribute>
           </item>
           <item>
-            <attribute name="label" translatable="yes">Available _Dictionaries</attribute>
-            <attribute name="action">win.view-db</attribute>
-            <attribute name="accel">&lt;Primary&gt;b</attribute>
-          </item>
-          <item>
             <attribute name="label" translatable="yes">Available St_rategies</attribute>
             <attribute name="action">win.view-strat</attribute>
             <attribute name="accel">&lt;Primary&gt;r</attribute>
