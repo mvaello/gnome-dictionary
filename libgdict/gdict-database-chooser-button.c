@@ -475,7 +475,7 @@ gdict_database_chooser_button_new (void)
 }
 
 /**
- * gdict_database_chooser_button_new_with_context:
+ * gdict_database_chooser_button_new_with_context: (constructor)
  * @context: a #GdictContext
  *
  * Creates a new #GdictDatabaseChooserButton, using @context as the representation
@@ -541,12 +541,12 @@ gdict_database_chooser_button_set_context (GdictDatabaseChooserButton *chooser,
 /**
  * gdict_database_chooser_button_get_databases:
  * @chooser: a #GdictDatabaseChooserButton
- * @length: return location for the length of the returned vector
+ * @length: (out): return location for the length of the returned vector
  *
  * Gets the list of available database names.
  *
- * Return value: (transfer full): a newly allocated, %NULL terminated string vector
- *   containing database names. Use g_strfreev() to deallocate it.
+ * Return value: (transfer full) (array zero-terminated=1): a newly allocated
+ *   string vector containing database names.
  *
  * Since: 0.10
  */
