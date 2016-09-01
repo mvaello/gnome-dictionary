@@ -321,6 +321,7 @@ gdict_database_chooser_constructor (GType                  type,
   GtkCellRenderer *renderer;
   GtkTreeViewColumn *column;
   GtkWidget *hbox;
+  GtkStyleContext *context;
 
   parent_class = G_OBJECT_CLASS (gdict_database_chooser_parent_class);
   object = parent_class->constructor (type, n_params, params);
@@ -360,6 +361,10 @@ gdict_database_chooser_constructor (GType                  type,
   gtk_widget_show (priv->treeview);
 
   hbox = gtk_box_new (GTK_ORIENTATION_HORIZONTAL, 0);
+  context = gtk_widget_get_style_context (GTK_WIDGET (hbox));
+  gtk_style_context_add_class(context, GTK_STYLE_CLASS_LINKED);
+  gtk_style_context_add_class(context, GTK_STYLE_CLASS_INLINE_TOOLBAR);
+
   priv->buttons_box = hbox;
 
   priv->refresh_button = gtk_button_new ();
